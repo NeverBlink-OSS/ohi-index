@@ -23,9 +23,11 @@ permissions:
   contents: read
 
 # One run at a time, and never cancel one halfway, before it has started all its jobs.
+# Runs are queued, order does not matter.
 concurrency:
   group: publish
   cancel-in-progress: false
+  queue: max
 
 jobs:
   publish:
