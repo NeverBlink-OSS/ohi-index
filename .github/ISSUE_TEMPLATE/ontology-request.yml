@@ -1,0 +1,26 @@
+name: Request an ontology
+description: Request an ontology or a new release for the index.
+body:
+  - type: input
+    id: ontology
+    attributes:
+      label: Ontology name
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official source
+      description: Link to the ontology's website or source repository.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version (if known)
+  - type: textarea
+    id: intended-use
+    attributes:
+      label: What do you want to use it for?
+    validations:
+      required: true
