@@ -1,0 +1,116 @@
+# JSON Patch (RFC 6902) the hub applies to chem_dcat_ap.yaml before publishing it.
+# README.md says what each change is for.
+- op: replace
+  path: /imports
+  value:
+  - linkml:types
+- op: add
+  path: /prefixes/AFX
+  value:
+    prefix_prefix: AFX
+    prefix_reference: http://purl.allotrope.org/ontologies/property#AFX_
+- op: add
+  path: /prefixes/EDAM
+  value:
+    prefix_prefix: EDAM
+    prefix_reference: http://edamontology.org/data_
+- op: add
+  path: /prefixes/dcatap
+  value:
+    prefix_prefix: dcatap
+    prefix_reference: http://data.europa.eu/r5r/
+- op: add
+  path: /prefixes/dcatap_plus
+  value:
+    prefix_prefix: dcatap_plus
+    prefix_reference: https://w3id.org/nfdi-de/dcat-ap-plus/
+- op: add
+  path: /prefixes/eli
+  value:
+    prefix_prefix: eli
+    prefix_reference: http://data.europa.eu/eli/ontology#
+- op: add
+  path: /prefixes/epos
+  value:
+    prefix_prefix: epos
+    prefix_reference: https://www.epos-eu.org/epos-dcat-ap#
+- op: add
+  path: /prefixes/iana
+  value:
+    prefix_prefix: iana
+    prefix_reference: https://www.iana.org/assignments/
+- op: add
+  path: /prefixes/locn
+  value:
+    prefix_prefix: locn
+    prefix_reference: http://www.w3.org/ns/locn#
+- op: add
+  path: /prefixes/material_entities_ap
+  value:
+    prefix_prefix: material_entities_ap
+    prefix_reference: https://w3id.org/nfdi-de/dcat-ap-plus/materials/
+- op: add
+  path: /prefixes/odrl
+  value:
+    prefix_prefix: odrl
+    prefix_reference: http://www.w3.org/ns/odrl/2/
+- op: add
+  path: /prefixes/spdx
+  value:
+    prefix_prefix: spdx
+    prefix_reference: http://spdx.org/rdf/terms#
+- op: add
+  path: /prefixes/xsd
+  value:
+    prefix_prefix: xsd
+    prefix_reference: http://www.w3.org/2001/XMLSchema#
+- op: remove
+  path: /types/string
+- op: remove
+  path: /types/integer
+- op: remove
+  path: /types/boolean
+- op: remove
+  path: /types/float
+- op: remove
+  path: /types/double
+- op: remove
+  path: /types/decimal
+- op: remove
+  path: /types/time
+- op: remove
+  path: /types/date
+- op: remove
+  path: /types/datetime
+- op: remove
+  path: /types/date_or_datetime
+- op: remove
+  path: /types/uriorcurie
+- op: remove
+  path: /types/curie
+- op: remove
+  path: /types/uri
+- op: remove
+  path: /types/ncname
+- op: remove
+  path: /types/objectidentifier
+- op: remove
+  path: /types/nodeidentifier
+- op: remove
+  path: /types/jsonpointer
+- op: remove
+  path: /types/jsonpath
+- op: remove
+  path: /types/sparqlpath
+- op: replace
+  path: /slots/quantitativeAttribute__has_quantity_type/bindings/0/obligation_level
+  value: RECOMMENDED
+- op: replace
+  path: /slots/quantitativeAttribute__unit/bindings/0/obligation_level
+  value: RECOMMENDED
+- op: replace
+  path: /classes/QuantitativeAttribute/attributes/has_quantity_type/bindings/0/obligation_level
+  value: RECOMMENDED
+- op: replace
+  path: /classes/QuantitativeAttribute/attributes/unit/bindings/0/obligation_level
+  value: RECOMMENDED

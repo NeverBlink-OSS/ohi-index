@@ -1,0 +1,29 @@
+namespace: tribont
+name: tribont
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [tribont.ttl]
+licenses: ["CC-BY-NC-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["tribont/tribont-equipment@1.0", "tribont/tribont-sample@1.0"]
+title: "TribOnt ontology"
+authors:
+  - name: "Patricia Casla"
+publishers:
+  - name: "Tekniker"
+    link: "https://www.tekniker.es/"
+contributors:
+  - name: "Izaskun Fernández"
+  - name: "Iban Quintana"
+  - name: "Xana Fernandez"
+description: "The goal is to represent the tribological experiments by relaying on the representation included in the core,, sample and equipment modules."
+keywords: ["Methods"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/tribont/versions/2023-06-02.n3
+    name: tribont.ttl
+    sha256: "18d0f303cb78f6d25227aee8cf0fc89a3e8a8050ba7a264bb007627feda62307"
+    size: 29806
+  - url: https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt
+    sha256: "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+    size: 19347

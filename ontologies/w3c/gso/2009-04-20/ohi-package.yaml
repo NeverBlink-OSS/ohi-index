@@ -1,0 +1,23 @@
+namespace: w3c
+name: gso
+version: "2009-04-20"
+language: owl
+syntax: turtle
+roots: [gso.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Generic Specific Ontology"
+authors:
+  - name: "Tim Berners-Lee"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "Ontology for Relating Generic and Specific Information Resources."
+keywords: ["Support"]
+originalSources: ["https://www.w3.org/DesignIssues/Generic"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/gso/versions/2009-04-20.n3
+    name: gso.ttl
+    sha256: "30cfb88a3d2bfefdd49fe26f1cbbe65328d29d227d814e5c7498c033b7ac9ee6"
+    size: 7952

@@ -1,0 +1,26 @@
+namespace: con-tax
+name: contax
+version: "0.0.1"
+language: owl
+syntax: turtle
+roots: [contax.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "ConTax ontology"
+authors:
+  - name: "Mathias Bonduel"
+    link: "https://orcid.org/0000-0002-3313-924X"
+publishers:
+  - name: "Mathias Bonduel"
+    link: "https://orcid.org/0000-0002-3313-924X"
+description: "An ontology containing additional terminology for structuring and annotating RDFS/OWL taxonomies for describing constructions (components, materials, spatial zones, damages, construction tasks and properties)."
+keywords: ["Industry"]
+sources:
+  - url: https://mathib.github.io/ConTax-ontology/ontology.ttl
+    name: contax.ttl
+    sha256: "1eb6ef0f5d385676a8baf48feaebca68e48f74d78a4a9f0443ea562487caf74b"
+    size: 16922
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

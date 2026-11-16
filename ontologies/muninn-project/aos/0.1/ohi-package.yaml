@@ -1,0 +1,26 @@
+namespace: muninn-project
+name: aos
+version: "0.1"
+language: owl
+syntax: rdfxml
+roots: [aos.owl]
+licenses: ["CC-BY-SA-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Appearances Ontology Specification"
+authors:
+  - name: "Robert Warren"
+  - name: "Adriel Dean-Hall"
+publishers:
+  - name: "The Muninn Project"
+    link: "https://www.muninn-project.org/"
+description: "Appearances is an ontology that grew out of the need to record personal appearance details about individuals while taking into account errors of perception and translation between various diffferent standards."
+keywords: ["People"]
+sources:
+  - url: https://rdf.muninn-project.org/ontologies/appearances.owl
+    name: aos.owl
+    sha256: "d8563b22e32e8b4f1d81876017a324c358e31a35c410bc3e4997ea252c7ac8d5"
+    size: 125650
+  - url: https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt
+    sha256: "3f941b3b89cf7b8370ceb83cc76d2120d471b58735d8ca60238a751a48d7f72f"
+    size: 22240

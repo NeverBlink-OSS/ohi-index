@@ -1,0 +1,22 @@
+namespace: foaf
+name: foaf
+version: "2010-08-09"
+language: owl
+syntax: rdfxml
+roots: [20100809.rdf]
+licenses: ["CC-BY-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "FOAF"
+authors:
+  - name: "Dan Brickley"
+  - name: "Libby Miller"
+publishers:
+  - name: "FOAF project"
+    link: "http://xmlns.com/foaf/spec/"
+description: "Friend of a Friend vocabulary for people, their online accounts and the links between them."
+keywords: ["people", "social networks", "agents"]
+sources:
+  - url: https://xmlns.com/foaf/spec/20100809.rdf
+    sha256: "c40f9cc9e8749e29eb7c70dc7ca0e0d0c3b6d8d58ec2ecf652ad5e93ed4bb328"
+    size: 44038

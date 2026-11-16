@@ -1,0 +1,39 @@
+# JSON Patch (RFC 6902) the hub applies to nmdc_materialized_patterns.yaml before publishing it.
+# README.md says what each change is for.
+- op: add
+  path: /prefixes/MIxS
+  value:
+    prefix_prefix: MIxS
+    prefix_reference: https://w3id.org/mixs/
+- op: remove
+  path: /enums/wall_texture_enum/permissible_values/
+- op: add
+  path: /slots/EMSL
+  value:
+    name: EMSL
+    description: Group of terms that appear in the 'EMSL' section of the NMDC sample metadata submission portal
+    abstract: true
+- op: add
+  path: /slots/JGI-Metagenomics
+  value:
+    name: JGI-Metagenomics
+    description: Group of terms that appear in the 'JGI-Metagenomics' section of the NMDC sample metadata submission portal
+    abstract: true
+- op: add
+  path: /slots/JGI-Metatranscriptomics
+  value:
+    name: JGI-Metatranscriptomics
+    description: Group of terms that appear in the 'JGI-Metatranscriptomics' section of the NMDC sample metadata submission portal
+    abstract: true
+- op: add
+  path: /slots/MIxS Inspired
+  value:
+    name: MIxS Inspired
+    description: Group of terms that appear in the 'MIxS Inspired' section of the NMDC sample metadata submission portal
+    abstract: true
+- op: add
+  path: /slots/Sample ID
+  value:
+    name: Sample ID
+    description: Group of terms that appear in the 'Sample ID' section of the NMDC sample metadata submission portal
+    abstract: true

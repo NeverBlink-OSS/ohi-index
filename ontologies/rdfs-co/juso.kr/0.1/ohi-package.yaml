@@ -1,0 +1,26 @@
+namespace: rdfs-co
+name: juso.kr
+version: "0.1"
+language: owl
+syntax: turtle
+roots: [juso.kr.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "South Korea Extension to Juso Ontology"
+authors:
+  - name: "James G. Kim"
+    link: "http://jayg.org/"
+publishers:
+  - name: "LiST Inc."
+    link: "http://listinc.kr/"
+description: "South Korea Extension to Juso Ontology is a Web vocabulary that extends Juso Ontology to describe geographical addresses and features in South Korea."
+keywords: ["Geography", "Geometry"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/juso.kr/versions/2015-10-07.n3
+    name: juso.kr.ttl
+    sha256: "7e274b3be2c14a6034f17e23ced84a06bf843d4068b9b5818f7c02662510a864"
+    size: 57695
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,38 @@
+namespace: obo
+name: ontoneo
+version: "2025-03-14"
+language: owl
+syntax: rdfxml
+roots: [ontoneo.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Obstetric and Neonatal Ontology"
+authors:
+  - name: "Fernanda Farinelli"
+    contact: "fernanda.farinelli@gmail.com"
+    link: "https://proffernandafarinelli.wordpress.com/"
+publishers:
+  - name: "OntoNeo"
+    link: "https://ontoneo.com/"
+contributors:
+  - name: "Amanda Damasceno de Souza"
+  - name: "Barry Smith"
+  - name: "Mauricio B. de Almeida"
+  - name: "Peter L. Elkin"
+  - name: "Zilma Silveira Nogueira Reis"
+description: "The Obstetric and Neonatal Ontology is a structured controlled vocabulary to provide a representation of the data from electronic health records (EHRs) involved in the care of the pregnant woman, and of her baby."
+keywords: ["health", "OBO"]
+originalSources: ["https://github.com/ontoneo-project/Ontoneo", "https://ontoneo.com"]
+publications:
+  - title: "OntONeo: The Obstetric and Neonatal Ontology"
+    link: "https://doi.org/10.5281/zenodo.17429771"
+  - title: "Formal Ontologies in Knowledge Organization within the Obstetric and Neonatal Domain"
+    link: "https://doi.org/10.5281/zenodo.17508651"
+sources:
+  - url: https://github.com/ontoneo-project/Ontoneo/blob/63bdb1888a81f9d1eee6b44c2a6ad28f66f8880d/ontoneo.owl
+    sha256: "03dae64d1982dd779e5a415e9d6c229374d2a736d5ba399fd578b27c47c11dcd"
+    size: 2176503
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

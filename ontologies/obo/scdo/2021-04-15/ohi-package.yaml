@@ -1,0 +1,33 @@
+namespace: obo
+name: scdo
+version: "2021-04-15"
+language: owl
+syntax: rdfxml
+roots: [scdo.owl]
+licenses: ["GPL-3.0-only"]
+licenseFiles: [gpl-3.0.txt]
+dependencies: []
+title: "Sickle Cell Disease Ontology"
+authors:
+  - name: "Sickle Cell Disease Ontology Working Group"
+    link: "https://scdontology.h3abionet.org/"
+publishers:
+  - name: "Sickle Cell Disease Ontology Working Group"
+    link: "https://scdontology.h3abionet.org/"
+description: "An ontology for the standardization of terminology and integration of knowledge about Sickle Cell Disease."
+keywords: ["health", "disease", "OBO"]
+originalSources: ["https://github.com/scdodev/scdo-ontology", "https://scdontology.h3abionet.org"]
+publications:
+  - title: "The Sickle Cell Disease Ontology: recent development and expansion of the universal sickle cell knowledge representation."
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/35363306"
+  - title: "The Sickle Cell Disease Ontology: Enabling Collaborative Research and Co-Designing of New Planetary Health Applications."
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/33021900"
+  - title: "The Sickle Cell Disease Ontology: enabling universal sickle cell-based knowledge representation."
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/31769834"
+sources:
+  - url: https://github.com/scdodev/scdo-ontology/blob/443fc5dc275e64f3ad994e7526af6561510cecc8/scdo.owl
+    sha256: "9a7b3f806071037858b896894e25d356993f43ca2703302aac053fb40bf3ecfd"
+    size: 3333372
+  - url: https://www.gnu.org/licenses/gpl-3.0.txt
+    sha256: "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    size: 35149

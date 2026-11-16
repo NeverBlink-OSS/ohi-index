@@ -1,0 +1,42 @@
+namespace: nfdi4ing
+name: m4i
+version: "1.5.0"
+language: owl
+syntax: turtle
+roots: [m4i.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Metadata4Ing: An ontology for describing the generation of research data within a scientific activity"
+authors:
+  - name: "NFDI4Ing"
+    link: "https://nfdi4ing.de/"
+publishers:
+  - name: "NFDI4Ing"
+    link: "https://nfdi4ing.de/"
+contributors:
+  - name: "Stephan Hachinger"
+    link: "https://orcid.org/0000-0001-8341-1478"
+  - name: "Dorothea Iglezakis"
+    link: "https://orcid.org/0000-0002-8524-0569"
+  - name: "Sophia Leimer"
+    link: "https://orcid.org/0000-0001-6272-204X"
+  - name: "Giacomo Lanza"
+    link: "https://orcid.org/0000-0002-2239-3955"
+  - name: "Marc Fuhrmans"
+    link: "https://orcid.org/0000-0002-9826-018X"
+  - name: "Moritz Jordan"
+    link: "https://orcid.org/0000-0003-0941-5950"
+  - name: "Marcel Marson"
+    link: "https://orcid.org/0009-0006-0568-8790"
+description: "Metadata4Ing defines classes and properties or reuses such classes and properties from other ontologies to describe research processes and research data management in NFDI4Ing."
+keywords: ["Academy", "Metadata"]
+originalSources: ["https://nfdi4ing.pages.rwth-aachen.de/metadata4ing/metadata4ing", "https://git.rwth-aachen.de/nfdi4ing/metadata4ing/metadata4ing"]
+sources:
+  - url: https://nfdi4ing.pages.rwth-aachen.de/metadata4ing/metadata4ing/ontology.ttl
+    name: m4i.ttl
+    sha256: "7b0e6859272e75da01c4b9b4a048b3f62be9a575afb9a47aa6947af18a4b1f76"
+    size: 221099
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,27 @@
+namespace: commons
+name: collections
+version: "20221101"
+language: owl
+syntax: rdfxml
+roots: [Collections.rdf]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["commons/annotation-vocabulary@20250801", "commons/text-datatype@20221101"]
+title: "OMG Commons Collections"
+authors:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+publishers:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+contributors:
+  - name: "Davide Sottara"
+  - name: "Elisa Kendall"
+  - name: "Pete Rivett, agnos.ai"
+description: "Collections, bags, lists and their members."
+keywords: ["collections"]
+originalSources: ["https://www.omg.org/spec/Commons"]
+sources:
+  - url: https://www.omg.org/spec/Commons/20221101/Collections.rdf
+    sha256: "44450edbe870cad6fa406319ecb21fed6a27824904e865b1d683f8bfd2a03553"
+    size: 12677

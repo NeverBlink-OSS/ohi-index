@@ -1,0 +1,27 @@
+namespace: rdfp
+name: rdfp
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [rdfp.ttl]
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "The RDF Presentation ontology"
+authors:
+  - name: "Maxime Lefrançois"
+    link: "http://maxime-lefrancois.info/"
+publishers:
+  - name: "Maxime Lefrançois"
+    link: "http://maxime-lefrancois.info/"
+description: "## RDF Presentation and RDF Presentation Negotiation An RDF graph can be presented in several ways, using different media types."
+keywords: ["API", "RDF"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/rdfp/versions/2016-08-31.n3
+    name: rdfp.ttl
+    sha256: "f7ca57ffc6f3c2dad13fabf5429f130918e684287bb3e1c768dabb0e3ba8e864"
+    size: 17444
+  - url: https://www.apache.org/licenses/LICENSE-2.0.txt
+    name: LICENSE
+    sha256: "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    size: 11358

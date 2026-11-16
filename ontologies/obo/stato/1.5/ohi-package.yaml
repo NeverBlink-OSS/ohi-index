@@ -1,0 +1,59 @@
+namespace: obo
+name: stato
+version: "1.5"
+language: owl
+syntax: rdfxml
+roots: [stato.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The Statistical Methods Ontology"
+authors:
+  - name: "Alejandra Gonzalez-Beltran"
+    link: "http://www.cs.ucl.ac.uk/staff/a.gonzalezbeltran/"
+  - name: "Orlaith Burke"
+  - name: "Philippe Rocca-Serra"
+    link: "https://orcid.org/0000-0001-9853-5668"
+publishers:
+  - name: "ISA tools"
+    link: "http://isa-tools.org"
+contributors:
+  - name: "Brian Alper"
+  - name: "Camille Maumet"
+    link: "https://orcid.org/0000-0002-6290-553X"
+  - name: "Christopher J. Mungall"
+    link: "https://mungall.dev"
+  - name: "Gavin Lloyd"
+  - name: "Guillaume Bauchet"
+  - name: "Hanna Ćwiek-Kupczyńska"
+    link: "https://orcid.org/0000-0001-9113-567X"
+  - name: "Harold Lehmann"
+    link: "https://orcid.org/0000-0002-7698-219X"
+  - name: "Joanne Dehnbostel"
+    link: "https://orcid.org/0000-0002-9896-9842"
+  - name: "Kenneth Wilkins"
+    contact: "kenneth.wilkins@nih.gov"
+    link: "http://www.niddk.nih.gov/about-niddk/staff-directory/extramural/kjwilkins/pages/biography.aspx"
+  - name: "Khalid Shahin"
+    link: "https://orcid.org/0000-0002-3526-7667"
+  - name: "B. Nolan Nichols"
+    link: "https://orcid.org/0000-0003-1099-3328"
+  - name: "Ralf Weber"
+    link: "https://orcid.org/0000-0002-8796-4771"
+  - name: "Thomas E. Nichols"
+    link: "http://nisox.org"
+description: "STATO is a general-purpose STATistics Ontology."
+keywords: ["information technology", "statistics", "OBO"]
+originalSources: ["https://github.com/ISA-tools/stato", "http://stato-ontology.org"]
+publications:
+  - title: "Experiment design driven FAIRification of omics data matrices, an exemplar"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/31831744"
+  - title: "Semantic concept schema of the linear mixed model of experimental observations"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/32109232"
+sources:
+  - url: https://github.com/ISA-tools/stato/blob/2025-01-07/releases/latest_release/stato.owl
+    sha256: "1339d0e06e2234fbfc4f2c7176d909fb3fe40d132c42fe8d6e0d55964a9a6578"
+    size: 2038542
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

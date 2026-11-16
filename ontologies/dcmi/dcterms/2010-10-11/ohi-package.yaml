@@ -1,0 +1,26 @@
+namespace: dcmi
+name: dcterms
+version: "2010-10-11"
+language: owl
+syntax: rdfxml
+roots: [dcterms.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "DCMI Metadata Terms"
+authors:
+  - name: "Dublin Core Metadata Initiative"
+    link: "https://www.dublincore.org/"
+publishers:
+  - name: "Dublin Core Metadata Initiative"
+    link: "https://www.dublincore.org/"
+description: "Dublin Core terms for describing resources, such as title, creator and date."
+keywords: ["metadata", "Dublin Core"]
+originalSources: ["https://www.dublincore.org/specifications/dublin-core/dcmi-terms"]
+sources:
+  - url: https://www.dublincore.org/2010/10/11/dcterms.rdf
+    sha256: "6b945b161c1033e217ad72b6a5e9ccbdee613b16a252d0c25f86c7be06895094"
+    size: 78814
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

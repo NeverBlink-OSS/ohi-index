@@ -1,0 +1,28 @@
+namespace: ctic
+name: ctorg
+version: "2013-04-24"
+language: owl
+syntax: turtle
+roots: [ctorg.ttl]
+licenses: ["CC-BY-NC-SA-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Vocabulary for the structure of the public organizations"
+authors:
+  - name: "Rubén Martín"
+    contact: "ruben.martin@fundacionctic.org"
+  - name: "Martín Álvarez"
+    contact: "martin.alvarez@fundacionctic.org"
+publishers:
+  - name: "Fundación CTIC"
+    link: "https://www.fundacionctic.org/"
+description: "The goal of this vocabulary is to create a scheme to define the contents of information related to the government structure and public centers."
+keywords: ["Government"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/ctorg/versions/2013-04-24.n3
+    name: ctorg.ttl
+    sha256: "723aa8c3561170c3b493fefcb316d8ed2390f02e05024f2d00bd73941b09fe4c"
+    size: 11270
+  - url: https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode.txt
+    sha256: "8812f83442fd0eca14eb0208988e190fdcbfebec58fa5459d3218edfdfdc5a32"
+    size: 22306

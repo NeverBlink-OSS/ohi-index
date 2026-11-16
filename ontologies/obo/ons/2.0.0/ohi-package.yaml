@@ -1,0 +1,29 @@
+namespace: obo
+name: ons
+version: "2.0.0"
+language: owl
+syntax: rdfxml
+roots: [ons.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Ontology for Nutritional Studies"
+authors:
+  - name: "European Nutritional Phenotype Assessment and Data Sharing Initiative, Work Package 4"
+    link: "http://www.enpadasi.eu/"
+publishers:
+  - name: "European Nutritional Phenotype Assessment and Data Sharing Initiative"
+    link: "http://www.enpadasi.eu/"
+description: "An ontology for description of concepts in the nutritional studies domain."
+keywords: ["diet, metabolomics, and nutrition", "nutrition, nutritional studies, nutrition professionals", "OBO"]
+originalSources: ["https://github.com/enpadasi/Ontology-for-Nutritional-Studies"]
+publications:
+  - title: "ONS: an ontology for a standardized description of interventions and observational studies in nutrition"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/29736190"
+sources:
+  - url: https://github.com/enpadasi/Ontology-for-Nutritional-Studies/blob/2.0.0/ons.owl
+    sha256: "f971819f92fbad581aec19450475fe65f43726b9d18fd223752cc47ed3a8d399"
+    size: 2826495
+  - url: https://github.com/enpadasi/Ontology-for-Nutritional-Studies/blob/2.0.0/LICENSE
+    sha256: "f5b745ef98087f531e719ee8ca6a96809444573ecc7173c6fa68eaad39b3cc3f"
+    size: 18658

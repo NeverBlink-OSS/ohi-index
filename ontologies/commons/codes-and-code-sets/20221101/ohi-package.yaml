@@ -1,0 +1,26 @@
+namespace: commons
+name: codes-and-code-sets
+version: "20221101"
+language: owl
+syntax: rdfxml
+roots: [CodesAndCodeSets.rdf]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["commons/annotation-vocabulary@20250801", "commons/collections@20221101", "commons/designators@20250801"]
+title: "OMG Commons Codes and Code Sets"
+authors:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+publishers:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+contributors:
+  - name: "Elisa Kendall"
+  - name: "Pete Rivett"
+description: "Codes and the code sets that define them, such as ISO language and country codes."
+keywords: ["OMG Commons", "codes", "code lists"]
+originalSources: ["https://www.omg.org/spec/Commons"]
+sources:
+  - url: https://www.omg.org/spec/Commons/20250801/CodesAndCodeSets.rdf
+    sha256: "272ea377f588ed30759c37a2b0455a8b04643c8114ebf35ad31656c039d09150"
+    size: 6153

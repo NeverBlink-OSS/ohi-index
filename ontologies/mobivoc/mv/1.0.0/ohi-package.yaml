@@ -1,0 +1,35 @@
+namespace: mobivoc
+name: mv
+version: "1.0.0"
+language: owl
+syntax: turtle
+roots: [mv.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "MobiVoc: Open Mobility Vocabulary"
+authors:
+  - name: "Annette Weilandt"
+    link: "https://ns.eccenca.com/aweilandt"
+  - name: "Martin Brümmer"
+    link: "https://ns.eccenca.com/mbruemmer"
+publishers:
+  - name: "eccenca GmbH"
+    link: "https://eccenca.com/"
+contributors:
+  - name: "Christoph Lange"
+    link: "http://langec.wordpress.com/about/"
+  - name: "Sebastian Tramp"
+    link: "http://sebastian.tramp.name"
+  - name: "Niklas Petersen"
+    link: "http://eis.iai.uni-bonn.de/NiklasPetersen"
+description: "Our goal is to significantly improve the data mobility between all stakeholders by providing a standardized vocabulary using Semantic Web technologies and ontologies."
+keywords: ["IoT", "Services", "Transport"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/mv/versions/2018-01-18.n3
+    name: mv.ttl
+    sha256: "4dae51ecea30f538601a3c61e0db8079f42abfa5e200f6e607516eb392eb0710"
+    size: 142691
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

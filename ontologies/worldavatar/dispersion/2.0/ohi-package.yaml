@@ -1,0 +1,27 @@
+namespace: worldavatar
+name: dispersion
+version: "2.0"
+language: owl
+syntax: rdfxml
+roots: [dispersion.owl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "WorldAvatar dispersion ontology"
+authors:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+publishers:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+description: "A WorldAvatar ontology for dispersion of water."
+keywords: ["ontology", "worldavatar"]
+originalSources: ["https://github.com/TheWorldAvatar/ontology", "https://theworldavatar.io"]
+sources:
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/ontology/ontodispersion/OntoDispersion.owl
+    name: dispersion.owl
+    sha256: "4a5ff151aed49e378a12a3dcdba484d9579044fc99bbb4b460f67da7d8bea05b"
+    size: 30615
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/LICENSE.txt
+    sha256: "8c29b2cb4c712a0d382d1951ffc7e2a155ec7095c7e92a896f5919eb02c31ea9"
+    size: 1309

@@ -1,0 +1,27 @@
+namespace: worldavatar
+name: earthquake
+version: "1"
+language: owl
+syntax: rdfxml
+roots: [earthquake.owl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "WorldAvatar earthquake ontology"
+authors:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+publishers:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+description: "OntoEarthquake is an ontology developed to represent earthquake hazard."
+keywords: ["ontology", "worldavatar"]
+originalSources: ["https://github.com/TheWorldAvatar/ontology", "https://theworldavatar.io"]
+sources:
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/ontology/ontoearthquake/ontoearthquake.owl
+    name: earthquake.owl
+    sha256: "b8af4429d1a683d8e1c89c48f6ef5da40d7ff89e4d8f84cdc895cbf33b2f736c"
+    size: 84147
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/LICENSE.txt
+    sha256: "8c29b2cb4c712a0d382d1951ffc7e2a155ec7095c7e92a896f5919eb02c31ea9"
+    size: 1309

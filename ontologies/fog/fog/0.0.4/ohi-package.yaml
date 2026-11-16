@@ -1,0 +1,32 @@
+namespace: fog
+name: fog
+version: "0.0.4"
+language: owl
+syntax: turtle
+roots: [fog.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "FOG: File Ontology for Geometry formats"
+authors:
+  - name: "Anna Wagner"
+  - name: "Mathias Bonduel"
+    link: "https://orcid.org/0000-0002-3313-924X"
+  - name: "Pieter Pauwels"
+    link: "https://pi.pauwel.be/"
+publishers:
+  - name: "Anna Wagner"
+  - name: "Mathias Bonduel"
+    link: "https://orcid.org/0000-0002-3313-924X"
+  - name: "Pieter Pauwels"
+    link: "https://pi.pauwel.be/"
+description: "The File Ontology for Geometry formats (FOG) describes meaningful relations towards geometry snippets in RDF literals, geometry files on relative or absolute URLs and ontology-based geometry descriptions."
+keywords: ["Geometry"]
+sources:
+  - url: https://mathib.github.io/fog-ontology/ontology.ttl
+    name: fog.ttl
+    sha256: "506178176f362f1064cb8c05b4200d53acffcbead4baa275104778cb6cb2280a"
+    size: 73439
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

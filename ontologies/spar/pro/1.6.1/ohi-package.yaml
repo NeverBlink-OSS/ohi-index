@@ -1,0 +1,35 @@
+namespace: spar
+name: pro
+version: "1.6.1"
+language: owl
+syntax: rdfxml
+roots: [pro.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE.md]
+dependencies: ["spar/foaf@2.0", "spar/tvc@1.1.0"]
+title: "SPAR Publishing Roles Ontology"
+authors:
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+  - name: "David Shotton"
+    link: "http://opencitations.net"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+contributors:
+  - name: "Sebastian Barzaghi"
+    link: "https://orcid.org/0000-0002-0799-1527"
+description: "Ontology of the roles people and organizations hold in publishing, such as author or editor."
+keywords: ["publishing", "roles"]
+originalSources: ["https://github.com/SPAROntologies/pro"]
+publications:
+  - title: "Peroni, S., Shotton, D., Vitali, F. (2012). Scholarly publishing and Linked Data: describing roles, statuses, temporal and contextual extents. In Sack, H., Pellegrini, T. (Eds.), Proceedings of the 8th International Conference on Semantic Systems (i-Semantics 2012): 9-16. New York, New York, USA: ACM. https://doi.org/10.1145/2362499.2362502. Open Access at: https://scholar.archive.org/work/tgbxvpuqbjbtvbj6mwt77gtx7m/access/wayback/http://speroni.web.cs.unibo.it/publications/peroni-2012-scholarly-publishing-linked.pdf"
+    link: "https://doi.org/10.1145/2362499.2362502"
+sources:
+  - url: https://sparontologies.github.io/pro/2026-08-14/pro.xml
+    name: pro.rdf
+    sha256: "21c50abdb440e5bafa238900312668d8ef684f506eeec0c8f691e8a2fea91b8f"
+    size: 68991
+  - url: https://github.com/SPAROntologies/pro/blob/a6a24148218e1e58e86c6d5993525f3b9e60ee5c/LICENSE.md
+    sha256: "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    size: 18656

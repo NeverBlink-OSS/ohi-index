@@ -1,0 +1,27 @@
+namespace: sib
+name: voidext
+version: "2019-01-30"
+language: owl
+syntax: ntriples
+roots: [voidext.nt]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Extended Vocabulary of Interlinked Datasets (VoIDext)"
+authors:
+  - name: "Tarcisio Mendes de Farias"
+    contact: "tarcisio.mendesdefarias@unil.ch"
+    link: "https://www.researchgate.net/profile/Tarcisio_Mendes_De_Farias"
+publishers:
+  - name: "SIB Swiss Institute of Bioinformatics"
+    link: "http://www.sib.swiss"
+description: "The Extension of the Vocabulary of Interlinked Datasets (VoID) RDF Schema that includes the concept of virtual links."
+keywords: ["Metadata"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/voidext/versions/2019-01-30.n3
+    name: voidext.nt
+    sha256: "e3fdc2c7500423bc5fad2974df4800ef1e3ca6091cbd892bca288c241f94c32b"
+    size: 79616
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

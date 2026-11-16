@@ -1,0 +1,24 @@
+namespace: vso
+name: vso
+version: "2010-10-02"
+language: owl
+syntax: turtle
+roots: [vso.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["goodrelations/gr@2011-10-01"]
+title: "Vehicle Sales Ontology"
+authors:
+  - name: "Martin Hepp"
+publishers:
+  - name: "Martin Hepp"
+description: "The Vehicle Sales Ontology for Semantic Web-based E-Commerce."
+keywords: ["eBusiness"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/vso/versions/2010-10-02.n3
+    name: vso.ttl
+    sha256: "7effbe90b27e59fe68fdce3328c2831dab389516aa3ed32dcf34389a79a90b4a"
+    size: 54997
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

@@ -1,0 +1,44 @@
+namespace: obo
+name: ogms
+version: "2021-06-28"
+language: owl
+syntax: rdfxml
+roots: [ogms.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Ontology for General Medical Science"
+authors:
+  - name: "Alan Ruttenberg"
+  - name: "Albert Goldfain"
+  - name: "Anand Kumar"
+  - name: "Barry Smith"
+  - name: "William R. Hogan"
+  - name: "Brian Aevermann"
+    contact: "baeverma@jcvi.org"
+    link: "https://orcid.org/0000-0003-1346-1327"
+  - name: "Cornelius Rosse"
+  - name: "Daniel Merico"
+  - name: "Jie Zheng"
+  - name: "Lindsay Cowell"
+  - name: "Richard H. Scheuermann"
+  - name: "Sivaram Arabandi"
+  - name: "Werner Ceusters"
+publishers:
+  - name: "Ontology for General Medical Sciences (OGMS)"
+    link: "https://github.com/OGMS"
+description: "An ontology for representing treatment of disease and diagnosis and on carcinomas and other pathological entities."
+keywords: ["health", "medicine", "OBO"]
+originalSources: ["https://github.com/OGMS/ogms"]
+publications:
+  - title: "Toward an ontological treatment of disease and diagnosis"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/21347182"
+  - title: "Biomarkers in the Ontology for General Medical Science"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/25991121"
+sources:
+  - url: https://github.com/OGMS/ogms/blob/2021-06-28/ogms.owl
+    sha256: "48447fb71eaf6219934440889e5961b8c62084553af3987ffa739d573ddbe5a5"
+    size: 298832
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

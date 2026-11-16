@@ -1,0 +1,28 @@
+namespace: rml
+name: rml-star
+version: "0.1.0"
+language: owl
+syntax: turtle
+roots: [rml-star.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "RML-star"
+authors:
+  - name: "David Chaves-Fraga"
+  - name: "Anastasia Dimou"
+  - name: "Ana Iglesias Molina"
+  - name: "Julián Arenas Guerrero"
+publishers:
+  - name: "W3C Knowledge Graph Construction Community Group"
+    link: "https://www.w3.org/community/kg-construct/"
+description: "RML module for generating RDF-star graphs."
+keywords: ["RDF", "RML", "W3C Rec"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/rml-star/versions/2023-06-15.n3
+    name: rml-star.ttl
+    sha256: "240c2f2c83fd183db4ba3db9e9e95bf58551fe348857666aee6cbe2c18364188"
+    size: 6432
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

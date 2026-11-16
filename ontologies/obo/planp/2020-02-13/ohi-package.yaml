@@ -1,0 +1,26 @@
+namespace: obo
+name: planp
+version: "2020-02-13"
+language: owl
+syntax: rdfxml
+roots: [planp.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Planarian Phenotype Ontology"
+authors:
+  - name: "Stowers Institute for Medical Research"
+    link: "https://www.stowers.org/"
+publishers:
+  - name: "Stowers Institute for Medical Research"
+    link: "https://www.stowers.org/"
+description: "Planarian Phenotype Ontology is an ontology of phenotypes observed in the planarian Schmidtea mediterranea."
+keywords: ["phenotype", "OBO"]
+originalSources: ["https://github.com/obophenotype/planarian-phenotype-ontology"]
+sources:
+  - url: https://github.com/obophenotype/planarian-phenotype-ontology/blob/v2020-02-13/planp.owl
+    sha256: "550bcbe600a8778bd1bd9ba9445a3a06a661c6edacdf49b9de1cf8954116ac4e"
+    size: 10518024
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

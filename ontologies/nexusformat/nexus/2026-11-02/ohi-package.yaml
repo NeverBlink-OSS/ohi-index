@@ -1,0 +1,28 @@
+namespace: nexusformat
+name: nexus
+version: "2026-11-02"
+language: owl
+syntax: rdfxml
+roots: [nexus.owl]
+licenses: ["GFDL-1.3-only"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "NeXus Ontology"
+authors:
+  - name: "NeXus International Advisory Committee"
+    link: "https://www.nexusformat.org/"
+publishers:
+  - name: "NeXus International Advisory Committee"
+    link: "https://www.nexusformat.org/"
+description: "NeXus is a common data format for neutron, x-ray, and muon experimental data."
+keywords: ["fairmat", "muon", "neutron", "nfdi-matwerk", "ontology", "physics", "x-ray"]
+originalSources: ["https://github.com/nexusformat/NeXusOntology"]
+sources:
+  - url: https://github.com/nexusformat/NeXusOntology/blob/28894d5d6afc11d1624687a4706c50563b5e34f2/ontology/NeXusOntology.owl
+    name: nexus.owl
+    sha256: "524db95d05ae1fb64a3d20457f75805a320c85cbb34f09dc52b6fcc9f5011427"
+    size: 3872094
+  - url: https://raw.githubusercontent.com/spdx/license-list-data/v3.29.0/text/GFDL-1.3-only.txt
+    name: LICENSE
+    sha256: "d024962f1f4966c102b40d9fd9cc834a3f0b3c1397b41444b7cd7925640dc929"
+    size: 22791

@@ -1,0 +1,47 @@
+namespace: geosparql
+name: gsp
+version: "1.1"
+language: owl
+syntax: ntriples
+roots: [gsp.nt]
+licenses: ["OGC Document License Agreement"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "OGC GeoSPARQL"
+authors:
+  - name: "OGC GeoSPARQL Standards Working Group"
+publishers:
+  - name: "Open Geospatial Consortium"
+    link: "https://www.ogc.org/"
+contributors:
+  - name: "Matthew Perry"
+    contact: "matthew.perry@oracle.com"
+    link: "https://orcid.org/0000-0003-1988-462X"
+  - name: "John Herring"
+    contact: "john.herring@oracle.com"
+  - name: "Nicholas J. Car"
+    contact: "nick@kurrawong.ai"
+    link: "https://orcid.org/0000-0002-8742-7730"
+  - name: "Joseph Abhayaratna"
+    contact: "joseph.abhayaratna@geoscape.com.au"
+    link: "https://orcid.org/0000-0001-5075-6234"
+  - name: "Timo Homburg"
+    contact: "timo.homburg@hs-mainz.de"
+    link: "https://orcid.org/0000-0002-9499-5840"
+  - name: "Simon J. D. Cox"
+    contact: "simon.cox@csiro.au"
+    link: "https://orcid.org/0000-0002-3884-3420"
+  - name: "Frans Knibbe"
+    contact: "fjknibbe@gmail.com"
+    link: "https://orcid.org/0000-0003-3789-2260"
+  - name: "Mathias Bonduel"
+    contact: "mathias.bonduel@neanex.com"
+    link: "https://orcid.org/0000-0002-3313-924X"
+description: "A Geographic Query Language for RDF Data OGC 11-052r5."
+keywords: ["Geometry"]
+originalSources: ["https://opengeospatial.github.io/ogc-geosparql"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/gsp/versions/2023-11-16.n3
+    name: gsp.nt
+    sha256: "70e0dd91523bca7d168cfd387a55265ecc68cf9f971644f6953963ca54cc8200"
+    size: 120959

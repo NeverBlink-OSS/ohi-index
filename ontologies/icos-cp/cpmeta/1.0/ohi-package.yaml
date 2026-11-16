@@ -1,0 +1,25 @@
+namespace: icos-cp
+name: cpmeta
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [cpmeta.ttl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Ontology of Integrated Carbon Observation System (ICOS)"
+authors:
+  - name: "Oleg Mirzov"
+publishers:
+  - name: "ICOS Carbon Portal"
+    link: "https://www.icos-cp.eu/"
+description: "OWL vocabulary describing metadata of two environmental research infrastructures: ICOS and SITES."
+keywords: ["Environment"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/cpmeta/versions/2023-01-24.n3
+    name: cpmeta.ttl
+    sha256: "83f1719e2f0030470d4b96201b0352f3bb893fdaa003bbd8c57a14596a691597"
+    size: 77243
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

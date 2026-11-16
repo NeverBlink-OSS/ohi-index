@@ -1,0 +1,26 @@
+namespace: obo
+name: lepao
+version: "2021-05-21"
+language: owl
+syntax: rdfxml
+roots: [lepao.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Lepidoptera Anatomy Ontology"
+authors:
+  - name: "Specialised Information Service Biodiversity Research"
+    link: "https://www.biofid.de/"
+publishers:
+  - name: "Specialised Information Service Biodiversity Research"
+    link: "https://www.biofid.de/"
+description: "The Lepidoptera Anatomy Ontology contains terms used for describing the anatomy and phenotype of moths and butterflies in biodiversity research."
+keywords: ["anatomy and development", "insect anatomy", "OBO"]
+originalSources: ["https://github.com/insect-morphology/lepao"]
+sources:
+  - url: https://github.com/insect-morphology/lepao/blob/v2021-05-21/lepao.owl
+    sha256: "c95bea0f420ddbaaa292c7d0a23b1b59a1e25e2e8c473ca36d73724a30e48621"
+    size: 1057508
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

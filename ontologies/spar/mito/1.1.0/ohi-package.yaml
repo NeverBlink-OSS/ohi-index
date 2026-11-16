@@ -1,0 +1,32 @@
+namespace: spar
+name: mito
+version: "1.1.0"
+language: owl
+syntax: rdfxml
+roots: [mito.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE.md]
+dependencies: ["odp/situation@1.1"]
+title: "SPAR Mention Ontology"
+authors:
+  - name: "Matteo Guenci"
+    link: "https://orcid.org/0009-0006-3139-1667"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+contributors:
+  - name: "Sebastian Barzaghi"
+    link: "https://orcid.org/0000-0002-0799-1527"
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+description: "Ontology for mentions of one entity in another, such as a person mentioned in a text."
+keywords: ["mentions", "citations"]
+originalSources: ["https://github.com/SPAROntologies/mito"]
+sources:
+  - url: https://sparontologies.github.io/mito/2026-08-14/mito.xml
+    name: mito.rdf
+    sha256: "5487b44be2910412ad7a28c09c2ab58183070d52bc8f4e23a5580a2d3fcbd85d"
+    size: 23913
+  - url: https://github.com/SPAROntologies/mito/blob/4b595db2282f078eab074ee756a20b9d0f108f32/LICENSE.md
+    sha256: "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    size: 18656

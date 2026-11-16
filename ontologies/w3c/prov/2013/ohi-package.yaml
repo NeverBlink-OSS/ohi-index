@@ -1,0 +1,24 @@
+namespace: w3c
+name: prov
+version: "2013"
+language: owl
+syntax: turtle
+roots: [prov.ttl]
+base: http://www.w3.org/ns/prov-o-inverses
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "PROV namespace"
+authors:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "The whole W3C PROV namespace in one file: PROV-O with PROV-AQ, PROV-DC, PROV-Dictionary, PROV-Links and the inverse properties."
+keywords: ["provenance"]
+originalSources: ["https://www.w3.org/TR/prov-overview"]
+sources:
+  - url: https://www.w3.org/ns/prov.ttl
+    sha256: "d7ea634dbcd31347eba38157197f69d314077ef7f88fd4f90e4f24a78bfe1097"
+    size: 112777

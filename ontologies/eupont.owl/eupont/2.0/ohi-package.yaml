@@ -1,0 +1,29 @@
+namespace: eupont.owl
+name: eupont
+version: "2.0"
+language: owl
+syntax: rdfxml
+roots: [eupont.owl]
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE]
+dependencies: ["foaf/foaf@2014-01-14"]
+title: "EUPont: an ontology for End User Programming of the IoT"
+authors:
+  - name: "Alberto Monge Roffarello"
+    contact: "alberto.monge@polito.it"
+publishers:
+  - name: "Politecnico di Torino"
+    link: "https://www.polito.it/"
+contributors:
+  - name: "Luigi De Russis"
+    contact: "luigi.derussis@polito.it"
+description: "EUPont is an ontology to model high level rules for Internet of Things End User Programming (IoT-EUP)."
+keywords: ["IoT"]
+sources:
+  - url: https://elite.polito.it/ontologies/eupont.owl
+    sha256: "0b396f9cbbf6dbf75f0e2412dfc473e5d20c1061039c787f95cc665bac0e19ae"
+    size: 284253
+  - url: https://www.apache.org/licenses/LICENSE-2.0.txt
+    name: LICENSE
+    sha256: "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    size: 11358

@@ -1,0 +1,25 @@
+namespace: w3c
+name: shex
+version: "2026-10-20"
+language: owl
+syntax: turtle
+roots: [shex.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "ShEx vocabulary"
+authors:
+  - name: "Eric Prud'hommeaux"
+  - name: "Iovka Boneva"
+  - name: "Jose Emilio Labra Gayo"
+  - name: "Gregg Kellogg"
+publishers:
+  - name: "W3C Shape Expressions Community Group"
+    link: "https://www.w3.org/community/shex/"
+description: "Shape Expressions vocabulary for the RDF form of ShEx schemas."
+keywords: ["ShEx", "validation", "shapes"]
+originalSources: ["https://shex.io/shex-semantics"]
+sources:
+  - url: https://www.w3.org/ns/shex.ttl
+    sha256: "3dd94fb3f96ac3d0e41c665705b5ac90d6fd82aa42ca180f56e4b628fb824206"
+    size: 19976

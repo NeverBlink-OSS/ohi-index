@@ -1,0 +1,24 @@
+namespace: w3c
+name: te
+version: "2026-11-02"
+language: owl
+syntax: rdfxml
+roots: [te.rdf]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Time Entry"
+authors:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "An entry sub-ontology of time (OWL-Time)."
+keywords: ["Time"]
+originalSources: ["https://www.w3.org/2006/time-entry"]
+sources:
+  - url: https://www.w3.org/2006/time-entry
+    name: te.rdf
+    sha256: "5d0e101c350601ab94ec8d6f4584ec6516b38f1d87690ffb4d603b77e557b2a9"
+    size: 18751

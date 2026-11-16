@@ -1,0 +1,30 @@
+namespace: obo
+name: omp
+version: "2018-06-04"
+language: owl
+syntax: rdfxml
+roots: [omp.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Ontology of Microbial Phenotypes"
+authors:
+  - name: "James Hu"
+    contact: "jimhu@tamu.edu"
+    link: "https://orcid.org/0000-0001-9016-2684"
+publishers:
+  - name: "Ontology for Microbial Phenotypes"
+    link: "http://microbialphenotypes.org"
+description: "An ontology of phenotypes covering microbes."
+keywords: ["phenotype", "OBO"]
+originalSources: ["https://github.com/microbialphenotypes/OMP-ontology", "http://microbialphenotypes.org"]
+publications:
+  - title: "An ontology for microbial phenotypes"
+    link: "https://doi.org/10.1186/s12866-014-0294-3"
+sources:
+  - url: https://github.com/microbialphenotypes/OMP-ontology/blob/release_2018-06-04/omp.owl
+    sha256: "cffe4723e2369b76c4b2953c8f071f046e3fac1f7beb1d018b5c3e9f7c0e9f3e"
+    size: 3990594
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

@@ -1,0 +1,29 @@
+namespace: spar
+name: amo
+version: "1.0"
+language: owl
+syntax: rdfxml
+roots: [amo.rdf]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["spar/cito@2.9.0"]
+title: "SPAR Argument Model Ontology"
+authors:
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+  - name: "Fabio Vitali"
+    link: "https://orcid.org/0000-0002-7562-5203"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+description: "Ontology of the Toulmin argument model: claims, evidence, warrants and rebuttals."
+keywords: ["argumentation", "rhetoric"]
+originalSources: ["https://github.com/SPAROntologies/amo"]
+sources:
+  - url: https://sparontologies.github.io/amo/2011-05-04/amo.xml
+    name: amo.rdf
+    sha256: "21b5c11cfc4475a3dacc52d9d0c4b37af226b5561f5f7ca685c3bc43d3bc1372"
+    size: 40397
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

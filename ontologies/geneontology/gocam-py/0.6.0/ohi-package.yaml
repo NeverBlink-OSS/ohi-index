@@ -1,0 +1,29 @@
+namespace: geneontology
+name: gocam-py
+version: "0.6.0"
+language: linkml
+syntax: yaml
+roots: [gocam-py.yaml]
+licenses: ["BSD-3-Clause"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "gocam-py"
+authors:
+  - name: "The Gene Ontology Consortium"
+    contact: "help@geneontology.org"
+    link: "http://geneontology.org"
+publishers:
+  - name: "The Gene Ontology Consortium"
+    contact: "help@geneontology.org"
+    link: "http://geneontology.org"
+description: "Draft data model for GO-CAMs."
+keywords: ["Schema"]
+originalSources: ["https://github.com/geneontology/gocam-py"]
+sources:
+  - url: https://github.com/geneontology/gocam-py/blob/v0.6.0/src/gocam/schema/gocam.yaml
+    name: gocam-py.yaml
+    sha256: "daa72b84512d77f533710f3f346563f447705830aab93c2a884e2d2517d63610"
+    size: 32684
+  - url: https://github.com/geneontology/gocam-py/blob/v0.6.0/LICENSE
+    sha256: "0642f14f6a499cbee71de64555b4e0bcb146a01dcc5b1040e1aa4bd343422ac7"
+    size: 1478

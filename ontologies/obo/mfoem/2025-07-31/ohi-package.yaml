@@ -1,0 +1,33 @@
+namespace: obo
+name: mfoem
+version: "2025-07-31"
+language: owl
+syntax: rdfxml
+roots: [MFOEM.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Emotion Ontology"
+authors:
+  - name: "Janna Hastings"
+    link: "https://github.com/jannahastings"
+publishers:
+  - name: "Janna Hastings"
+    link: "https://github.com/jannahastings"
+contributors:
+  - name: "Alison Wright"
+  - name: "Barry Smith"
+  - name: "Kevin Mulligan"
+  - name: "Maya Braun"
+  - name: "Paulina Schenk"
+  - name: "Robert West"
+description: "An ontology of affective phenomena such as emotions, moods, appraisals and subjective feelings."
+keywords: ["health", "OBO"]
+originalSources: ["https://github.com/jannahastings/emotion-ontology"]
+sources:
+  - url: https://github.com/jannahastings/emotion-ontology/blob/7f4bddd2dee96ef635880987315a1cf947b57ed8/ontology/MFOEM.owl
+    sha256: "b3b5f3a74be326350df3fffd24992dee9b990af3da0690a9d302cc1de2940894"
+    size: 640327
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

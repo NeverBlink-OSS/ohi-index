@@ -1,0 +1,26 @@
+namespace: obo
+name: ro-core
+version: "2024-04-24"
+language: owl
+syntax: rdfxml
+roots: [core.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "Relation Ontology core"
+authors:
+  - name: "Christopher J. Mungall"
+    link: "https://mungall.dev"
+publishers:
+  - name: "OBO Relations Ontology"
+    link: "https://oborel.github.io/"
+description: "The core relations of the Relation Ontology, such as part of and has participant."
+keywords: ["relations", "OBO"]
+originalSources: ["https://github.com/oborel/obo-relations"]
+sources:
+  - url: https://github.com/oborel/obo-relations/blob/v2024-04-24/core.owl
+    sha256: "be88b7036a8825a878d24e579d54b46c45ba334b0f39b4b00a50d3f2dfe87837"
+    size: 64674
+  - url: https://github.com/oborel/obo-relations/blob/v2024-04-24/LICENSE.txt
+    sha256: "6639f4baa03941cae39322c7ef681e7fc2717c3fdd5507c8db93a9237691b732"
+    size: 6528

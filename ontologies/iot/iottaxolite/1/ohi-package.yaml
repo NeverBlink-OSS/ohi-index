@@ -1,0 +1,32 @@
+namespace: iot
+name: iottaxolite
+version: "1"
+language: owl
+syntax: ntriples
+roots: [iottaxolite.nt]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The IoTTaxonomy-lite Taxonomy"
+authors:
+  - name: "Tarek Elsaleh"
+  - name: "Elias Tragos"
+  - name: "Rachit Agarwal"
+publishers:
+  - name: "Tarek Elsaleh"
+  - name: "Elias Tragos"
+  - name: "Rachit Agarwal"
+contributors:
+  - name: "Elias Tragos, UCD, Dublin"
+  - name: "Rachit Agarwal, Inria, Paris"
+  - name: "Tarek Elsaleh, UNIS, Surrey"
+description: "The IoT-Taxonomy-lite is adapted from M3-lite taxonomy."
+keywords: ["IoT"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/iottaxolite/versions/2019-09-07.n3
+    name: iottaxolite.nt
+    sha256: "9bf65abb2332e2931adb3a43792610d45941609d5799b39e82f80ff69c7cb3aa"
+    size: 401089
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

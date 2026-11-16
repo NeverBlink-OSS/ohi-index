@@ -1,0 +1,28 @@
+namespace: obo
+name: bmont
+version: "2025-06-20"
+language: owl
+syntax: rdfxml
+roots: [BMONT.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Biomarker Ontology"
+authors:
+  - name: "Astghik Sargsyan"
+publishers:
+  - name: "Fraunhofer SCAI Biomedical Data Intelligence Unit"
+    link: "https://www.scai.fraunhofer.de/en/business-research-areas/bioinformatics.html"
+contributors:
+  - name: "Marc Jacobs"
+  - name: "Martin Hofmann Aptius"
+description: "An application ontology that represents comprehensive knowledge involving a variety of fields of medical and biological aspects."
+keywords: ["health", "OBO"]
+originalSources: ["https://github.com/SCAI-BIO/BiomarkerOntology"]
+sources:
+  - url: https://github.com/SCAI-BIO/BiomarkerOntology/blob/52a86d0a3b190bb715261a6bbe056d56ec0dfccd/BMONT.owl
+    sha256: "f4a906578d4d68485bb595cd45a2cdc282d1cf3b65a82dd333d709b9ebebccf5"
+    size: 1218628
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

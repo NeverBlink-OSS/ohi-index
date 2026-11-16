@@ -1,0 +1,26 @@
+namespace: biopragmatics
+name: debio
+version: "0.1.1"
+language: owl
+syntax: rdfxml
+roots: [debio.owl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Decentralized Biomedical Ontology"
+authors:
+  - name: "Biopragmatics Stack"
+    link: "https://biopragmatics.github.io"
+publishers:
+  - name: "Biopragmatics Stack"
+    link: "https://biopragmatics.github.io"
+description: "A repository for the TSV-based, decentralized, community-curated curation of terms, properties, and relations that get turned into OBO, OWL, and OBO Graph JSON."
+keywords: ["ontology"]
+originalSources: ["https://github.com/biopragmatics/debio", "https://biopragmatics.github.io/debio"]
+sources:
+  - url: https://github.com/biopragmatics/debio/blob/v0.1.1/releases/current/debio.owl
+    sha256: "fdabdcab8f2f0baf4fe627948b7a7fb5b99064b9c30ca4e3bbaebcc071c13460"
+    size: 21916
+  - url: https://github.com/biopragmatics/debio/blob/v0.1.1/LICENSE
+    sha256: "bdee9688aec35330fb7c4919fdd76a6a205230d8fd89bf77418646e54b0e007d"
+    size: 1076

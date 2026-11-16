@@ -1,0 +1,25 @@
+namespace: w3c
+name: pim-space
+version: "2026-10-20"
+language: owl
+syntax: turtle
+roots: [space.ttl]
+base: http://www.w3.org/ns/pim/space
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Workspace Ontology"
+authors:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "Vocabulary for personal information management workspaces and storage, as used by Solid."
+keywords: ["Solid", "storage", "workspaces"]
+originalSources: ["https://www.w3.org/ns/pim/space"]
+sources:
+  - url: https://www.w3.org/ns/pim/space
+    name: space.ttl
+    sha256: "537d3d7d5a3be9fb6b37b0ca0865fe770f432a12f8501be2aee257190ad5a626"
+    size: 4635

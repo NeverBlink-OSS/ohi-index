@@ -1,0 +1,26 @@
+namespace: nasa-impact
+name: sddo
+version: "2022-01-14"
+language: owl
+syntax: rdfxml
+roots: [sddo.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Science Data Discovery Ontology"
+authors:
+  - name: "NASA Office of Data Science and Informatics"
+    link: "https://github.com/NASA-IMPACT"
+publishers:
+  - name: "NASA Office of Data Science and Informatics"
+    link: "https://github.com/NASA-IMPACT"
+description: "The Science Data Discovery Ontology (sddo) is being developed to provide a semantic foundation for the discovery of information managed by NASA's Science Mission Directorate."
+keywords: ["ontology"]
+originalSources: ["https://github.com/NASA-IMPACT/sddo"]
+sources:
+  - url: https://github.com/NASA-IMPACT/sddo/blob/v2022-01-14/sddo.owl
+    sha256: "f5ceda9c23792c2fd783becfc83e378524e5fd9b9bdc150eab53c9e44300332e"
+    size: 558137
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

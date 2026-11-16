@@ -1,0 +1,30 @@
+namespace: togoid
+name: togoid
+version: "2022-08-30"
+language: owl
+syntax: turtle
+roots: [togoid.ttl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "TogoID Ontology"
+authors:
+  - name: "TogoID"
+    link: "https://togoid.dbcls.jp/"
+publishers:
+  - name: "TogoID"
+    link: "https://togoid.dbcls.jp/"
+description: "TogoID is an ID conversion service implementing unique features with an intuitive web interface and an API for programmatic access."
+keywords: ["ontology", "registry"]
+originalSources: ["https://github.com/togoid/togoid-config", "https://togoid.dbcls.jp/ontology"]
+publications:
+  - title: "TogoID: an exploratory ID converter to bridge biological datasets"
+    link: "https://doi.org/10.1093/bioinformatics/btac491"
+sources:
+  - url: https://github.com/togoid/togoid-config/blob/release-20220830-163243/ontology/togoid-ontology.ttl
+    name: togoid.ttl
+    sha256: "31ad52f503d0ca9057bded597de23f693b9912745d8a0a327c76fcac99dcf346"
+    size: 29265
+  - url: https://github.com/togoid/togoid-config/blob/release-20220830-163243/LICENSE
+    sha256: "a5cfde6c06d0e150a3d408c67d5bfa3d514095a573002fdd352b1bd976402776"
+    size: 1062

@@ -1,0 +1,26 @@
+namespace: ipo
+name: ipo
+version: "1.2.0"
+language: owl
+syntax: turtle
+roots: [ipo.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "IPO - Issue Procedure Ontology"
+authors:
+  - name: "Mark Douglas de Azevedo Jacyntho"
+  - name: "Matheus Dimas de Morais"
+publishers:
+  - name: "Mark Douglas de Azevedo Jacyntho"
+  - name: "Matheus Dimas de Morais"
+description: "Vocabulary for describing issues (or problems) and corresponding symptoms and solutions to a broad variety of contexts."
+keywords: ["Methods"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/ipo/versions/2015-07-30.n3
+    name: ipo.ttl
+    sha256: "986114436f1b0c5764e24072a7a1a5a9fe3366e652f922a074eb759215a3392c"
+    size: 36476
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

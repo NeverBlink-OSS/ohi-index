@@ -1,0 +1,27 @@
+namespace: spar
+name: error
+version: "1.0"
+language: owl
+syntax: rdfxml
+roots: [error.rdf]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "SPAR Error Ontology"
+authors:
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+description: "Small ontology for describing errors."
+keywords: ["errors"]
+originalSources: ["https://github.com/SPAROntologies/error"]
+sources:
+  - url: https://sparontologies.github.io/error/2010-11-29/error.xml
+    name: error.rdf
+    sha256: "dd70a8dbcfdaca0edab1b2e9116955162c0599ee311efdf78d0ba1c794dcc20c"
+    size: 4144
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

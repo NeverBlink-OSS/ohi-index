@@ -1,0 +1,26 @@
+namespace: mmlab
+name: st
+version: "2015-09-13"
+language: rdfs
+syntax: turtle
+roots: [st.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The Stop Times ontology"
+authors:
+  - name: "Pieter Colpaert"
+    link: "https://pietercolpaert.be/"
+publishers:
+  - name: "Pieter Colpaert"
+    link: "https://pietercolpaert.be/"
+description: "This ontology provides the predicates necessary to describe an arrival of a transit vehicle and its departure at a certain Stop."
+keywords: ["Society", "Travel"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/st/versions/2015-09-13.n3
+    name: st.ttl
+    sha256: "fee65dde6397c2531592ab5eb502c4590dcbf7d4a5fba277a325ed00b4578c9d"
+    size: 3101
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

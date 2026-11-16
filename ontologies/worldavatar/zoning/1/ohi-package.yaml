@@ -1,0 +1,27 @@
+namespace: worldavatar
+name: zoning
+version: "1"
+language: owl
+syntax: rdfxml
+roots: [zoning.owl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "WorldAvatar zoning ontology"
+authors:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+publishers:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+description: "OntoZoning is an ontology developed to represent relationships between zones, their land use types and land uses."
+keywords: ["ontology", "worldavatar"]
+originalSources: ["https://github.com/TheWorldAvatar/ontology", "https://theworldavatar.io"]
+sources:
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/ontology/ontozoning/OntoZoning.owl
+    name: zoning.owl
+    sha256: "6a144d27ef7b0b95e68d0dd1247dd71c7db1bfbc79855a0657ce04c262a84670"
+    size: 151809
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/LICENSE.txt
+    sha256: "8c29b2cb4c712a0d382d1951ffc7e2a155ec7095c7e92a896f5919eb02c31ea9"
+    size: 1309

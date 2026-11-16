@@ -1,0 +1,31 @@
+namespace: uni-leipzig
+name: nif
+version: "2013-10-03"
+language: owl
+syntax: turtle
+roots: [nif.ttl]
+licenses: ["CC-BY-3.0", "Apache-2.0"]
+licenseFiles: [legalcode.txt, LICENSE]
+dependencies: []
+title: "NLP Interchange Format"
+authors:
+  - name: "Sebastian Hellmann"
+publishers:
+  - name: "Agile Knowledge Engineering and Semantic Web (AKSW), Leipzig University"
+    link: "https://aksw.org/"
+contributors:
+  - name: "Martin Brümmer"
+description: "The NLP Interchange Format (NIF) is an RDF/OWL-based format that aims to achieve interoperability between Natural Language Processing (NLP) tools, language resources and annotations."
+keywords: ["Vocabularies"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/nif/versions/2013-10-03.n3
+    name: nif.ttl
+    sha256: "6283e3f3a6c491b5d91696cae4d1e4cbe052f2ac12325e1a4402e37b367cd179"
+    size: 32088
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467
+  - url: https://www.apache.org/licenses/LICENSE-2.0.txt
+    name: LICENSE
+    sha256: "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    size: 11358

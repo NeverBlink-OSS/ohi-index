@@ -1,0 +1,31 @@
+namespace: sri
+name: sri
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [sri.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["w3c/qb@2014"]
+title: "Smart Readiness Indicator Vocabulary"
+authors:
+  - name: "Stefan Bischof"
+    link: "https://www.stefanbischof.at/"
+publishers:
+  - name: "Siemens AG Österreich"
+    link: "https://www.siemens.at/"
+contributors:
+  - name: "Josiane Xavier Parreira"
+    link: "https://orcid.org/0000-0002-3050-159X"
+  - name: "Erwin Filtz"
+    link: "https://orcid.org/0000-0003-3445-0504"
+description: "A vocabulary specifying concepts and structures needed to represent different data cubes needed for the Smart Readiness Indicator."
+keywords: ["IoT", "Quality"]
+sources:
+  - url: https://www.stefanbischof.at/sri/OnToology/sri.1.0.ttl/documentation/ontology.ttl
+    name: sri.ttl
+    sha256: "facc28fa184182e949ed01ddb72275074b4c717c76bce6d27d876ef229d58d18"
+    size: 24028
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

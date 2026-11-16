@@ -1,0 +1,31 @@
+namespace: beniculturali
+name: cis
+version: "2.0"
+language: owl
+syntax: turtle
+roots: [cis.ttl]
+licenses: ["CC-BY-3.0-IT"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Cultural-ON (Cultural ONtology): Cultural Institute/Site and Cultural Event Ontology"
+authors:
+  - name: "Istituto di Scienze e Tecnologie della Cognizione, Consiglio Nazionale delle Ricerche"
+  - name: "Annarita Orsini"
+  - name: "Ministero dei Beni e delle Attività Culturali e il Turismo"
+  - name: "Giorgia Lodi"
+  - name: "Andrea Giovanni Nuzzolese"
+  - name: "Silvio Peroni"
+  - name: "Valentina Presutti"
+  - name: "Aldo Gangemi"
+  - name: "Luigi Asprino"
+  - name: "Chiara Veninata"
+publishers:
+  - name: "Ministero dei Beni e delle Attività Culturali e il Turismo"
+description: "The ontology aims at modelling the data on cultural institutes or sites such as data regarding the agents that play a specific role on cultural institutes or sites, the sites themselves, the contact points, all multimedia files which describe the cultural institute or site and any other information…"
+keywords: ["Events", "Government", "Multimedia"]
+originalSources: ["http://dati.beniculturali.it/lodview/cis/.html"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/cis/versions/2016-03-30.n3
+    name: cis.ttl
+    sha256: "e6a196aa6dd63edc315ce598f95b1fab4b2108a39ddea72a7b6717a88823a80a"
+    size: 212110

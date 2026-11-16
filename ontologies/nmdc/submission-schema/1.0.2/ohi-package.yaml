@@ -1,0 +1,28 @@
+namespace: nmdc
+name: submission-schema
+version: "1.0.2"
+language: linkml
+syntax: yaml
+roots: [submission-schema.yaml]
+patch: submission-schema.patch.yaml
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "submission-schema"
+authors:
+  - name: "Mark Andrew Miller"
+    contact: "mam@lbl.gov"
+publishers:
+  - name: "National Microbiome Data Collaborative"
+    link: "https://microbiomedata.org/"
+description: "The NMDC submission schema."
+keywords: ["Schema"]
+originalSources: ["https://github.com/microbiomedata/submission-schema"]
+sources:
+  - url: https://github.com/microbiomedata/submission-schema/blob/v1.0.2/src/nmdc_submission_schema/schema/nmdc_submission_schema.yaml
+    name: submission-schema.yaml
+    sha256: "00df0d038b33221fc3686d442c7b96132b851c455a894dd0338fd91a94d51bab"
+    size: 1651874
+  - url: https://github.com/microbiomedata/submission-schema/blob/v1.0.2/LICENSE
+    sha256: "396b4b59943b720b8c863d8e1823a3fdf00e4548b9303b303e327a445fe5630f"
+    size: 1086

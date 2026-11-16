@@ -1,0 +1,28 @@
+namespace: edifact
+name: edifact-o
+version: "1.0"
+language: owl
+syntax: rdfxml
+roots: [edifact-o.owl]
+licenses: ["CC-BY-NC-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "EDIFACT Ontology"
+authors:
+  - name: "Johannes Mäkelburg"
+  - name: "Maribel Acosta"
+publishers:
+  - name: "Johannes Mäkelburg"
+contributors:
+  - name: "Einkaufsbüro Deutscher Eisenhändler GmbH"
+description: "An Ontology for representing EDIFACT Messages."
+keywords: ["Methods"]
+originalSources: ["https://github.com/DE-TUM/edifact-ontology"]
+sources:
+  - url: https://raw.githubusercontent.com/DE-TUM/edifact-ontology/main/ontology.owl
+    name: edifact-o.owl
+    sha256: "a5532a196692ab30ef0e6edda504f4fd8d33e07569cecbf7b188413bb7b5c2a9"
+    size: 241795
+  - url: https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt
+    sha256: "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+    size: 19347

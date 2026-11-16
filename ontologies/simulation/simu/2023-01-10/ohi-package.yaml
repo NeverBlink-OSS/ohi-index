@@ -1,0 +1,28 @@
+namespace: simulation
+name: simu
+version: "2023-01-10"
+language: owl
+syntax: turtle
+roots: [simu.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Simulation Ontology"
+authors:
+  - name: "Bruno Sartini"
+publishers:
+  - name: "Bruno Sartini"
+contributors:
+  - name: "Aldo Gangemi"
+  - name: "Marieke van Erp"
+description: "This ontology was designed to conceptualize symbolic meanings following Baudrillard's Simulacra and Simulation theory."
+keywords: ["General & Upper"]
+originalSources: ["https://github.com/br0ast/simulationontology"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/simu/versions/2023-01-10.n3
+    name: simu.ttl
+    sha256: "4cec10432743cc2716159b3ccf682be5a68ec0cc88bb71819777aa4f1e07b9be"
+    size: 28529
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

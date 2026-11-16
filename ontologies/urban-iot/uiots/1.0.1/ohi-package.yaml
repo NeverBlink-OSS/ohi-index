@@ -1,0 +1,31 @@
+namespace: urban-iot
+name: uiots
+version: "1.0.1"
+language: owl
+syntax: turtle
+roots: [uiots.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["urban-iot/uiot@1.0.1"]
+title: "Urban IoT Ontologies - Sharing Mobility Module"
+authors:
+  - name: "Ilaria Baroni"
+  - name: "Irene Celino"
+  - name: "Mario Scrocca"
+publishers:
+  - name: "Comune di Milano"
+    link: "https://www.comune.milano.it/"
+contributors:
+  - name: "Area Pianificazione e Monitoraggio"
+  - name: "Direzione Mobilità e Trasporti - Area Pianificazione e Programmazione Mobilità"
+  - name: "Direzione Sistemi Informativi ed Agenda Digitale - Area Gestione ed Integrazione Dati"
+description: "Sharing Mobility module of the suite of ontologies for urban IoT devices."
+keywords: ["Services", "Transport"]
+sources:
+  - url: https://comune-milano.github.io/ontologie-iot-urbani/onto/sharing/latest/sharing.ttl
+    name: uiots.ttl
+    sha256: "f2b180c519ecda88c3a3b8fa52490a30e9fbeaa15992a6452eccab34ee40c710"
+    size: 75827
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

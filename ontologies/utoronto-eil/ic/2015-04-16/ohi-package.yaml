@@ -1,0 +1,33 @@
+namespace: utoronto-eil
+name: ic
+version: "2015-04-16"
+language: owl
+syntax: turtle
+roots: [ic.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "International Contact Ontology: Addresses, phone numbers and emails"
+authors:
+  - name: "Mark S. Fox"
+    contact: "msf@eil.utoronto.ca"
+    link: "http://eil.utoronto.ca/profiles/foxpro.html"
+  - name: "Enterprise Integration Laboratory"
+    link: "http://eil.utoronto.ca"
+  - name: "University of Toronto"
+    link: "https://www.utoronto.ca/"
+publishers:
+  - name: "Enterprise Integration Laboratory"
+    link: "http://eil.utoronto.ca"
+  - name: "University of Toronto"
+    link: "https://www.utoronto.ca/"
+description: "This ontology provides basic classes and more detailed properties for representating international street addresses, phone numbers and emails."
+keywords: ["People"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/ic/versions/2015-04-16.n3
+    name: ic.ttl
+    sha256: "5de923dd1e886b7250fc5547e5f786316c192da61534fd349a7845524b417b33"
+    size: 34071
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

@@ -1,0 +1,27 @@
+namespace: ddialliance
+name: phdd
+version: "0.1"
+language: owl
+syntax: turtle
+roots: [phdd.ttl]
+licenses: ["CC-BY-NC-SA-3.0-US"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Physical Data Description"
+authors:
+  - name: "Joachim Wackerow"
+  - name: "Thomas Bosch"
+  - name: "Larry Hoyle"
+publishers:
+  - name: "DDI Alliance"
+    link: "https://ddialliance.org/"
+contributors:
+  - name: "Richard Cyganiak"
+description: "Physical data description (PHDD) of existing or published data (tables) in a rectangular format."
+keywords: ["CSV"]
+originalSources: ["http://www.ddialliance.org/Specification/RDF/PHDD"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/phdd/versions/2014-05-25.n3
+    name: phdd.ttl
+    sha256: "e4883b3f83713f15aaa7f79f1156371b2393dc6a61ef9159ef3c100e3d2f692c"
+    size: 32978

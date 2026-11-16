@@ -1,0 +1,32 @@
+namespace: saref
+name: saref4agri
+version: "v2.1.1"
+language: owl
+syntax: turtle
+roots: [saref4agri.ttl]
+licenses: ["BSD-3-Clause"]
+licenseFiles: [LICENSE]
+dependencies: ["saref/saref-core@v4.1.1"]
+title: "SAREF4AGRI"
+authors:
+  - name: "María Poveda-Villalón"
+  - name: "Raúl García-Castro"
+  - name: "Laura Daniele"
+  - name: "Mike de Roode"
+  - name: "Cornelis Bouter"
+  - name: "Jack Verhoosel"
+  - name: "Maxime Lefrançois"
+    link: "http://maxime-lefrancois.info/"
+publishers:
+  - name: "European Telecommunications Standards Institute"
+    link: "https://www.etsi.org/"
+description: "SAREF extension for agriculture and food: crops, livestock and the devices that monitor them."
+keywords: ["agriculture", "IoT", "smart farming"]
+originalSources: ["https://saref.etsi.org/saref4agri"]
+sources:
+  - url: https://saref.etsi.org/saref4agri/v2.1.1/saref4agri.ttl
+    sha256: "43ea2a978ba43d7bfac8eba1200e0606174fe99d2025005282b554a8fc331cb7"
+    size: 21016
+  - url: https://labs.etsi.org/rep/saref/saref4agri/-/raw/bd08168cecfdd2a15a8d9c9b97251aa233fd0275/LICENSE
+    sha256: "cef08f53c72a0871b711a77a725182ea2b0aac57e394c5f6d81dd10a00e58024"
+    size: 1475

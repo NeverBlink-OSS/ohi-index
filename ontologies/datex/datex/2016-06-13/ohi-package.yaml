@@ -1,0 +1,26 @@
+namespace: datex
+name: datex
+version: "2016-06-13"
+language: owl
+syntax: turtle
+roots: [datex.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Linked Datex II"
+authors:
+  - name: "Pieter Colpaert"
+    link: "https://pietercolpaert.be/"
+publishers:
+  - name: "Pieter Colpaert"
+    link: "https://pietercolpaert.be/"
+description: "This document gives URIs to all terms used within Datex II."
+keywords: ["Government", "Services", "Travel"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/datex/versions/2016-06-13.n3
+    name: datex.ttl
+    sha256: "b0045f1a32a7d9429042db4f445d065ac394a8df58038a7ecd064180cd75e7d8"
+    size: 1378483
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

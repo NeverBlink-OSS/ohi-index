@@ -1,0 +1,27 @@
+namespace: obo
+name: disdriv
+version: "2026-03-31"
+language: owl
+syntax: rdfxml
+roots: [disdriv.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Disease Drivers Ontology"
+authors:
+  - name: "Lynn Schriml"
+    contact: "lynn.schriml@gmail.com"
+    link: "https://orcid.org/0000-0001-8910-9851"
+publishers:
+  - name: "Institute for Genome Sciences, University of Maryland School of Medicine"
+    link: "https://www.igs.umaryland.edu/"
+description: "Ontology for drivers and triggers of human diseases, built to classify ExO ontology exposure stressors."
+keywords: ["health", "disease", "OBO"]
+originalSources: ["https://github.com/DiseaseOntology/DiseaseDriversOntology", "https://disease-ontology.org"]
+sources:
+  - url: https://github.com/DiseaseOntology/DiseaseDriversOntology/blob/d0514c5c48e01d14fb51764cdc4f830043d679ec/src/ontology/disdriv.owl
+    sha256: "fd45c6fa849ca2667bd31bb65fc3d8c56e2b55a9f18a16cdc109de35548aabd3"
+    size: 110519
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

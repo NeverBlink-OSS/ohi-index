@@ -1,0 +1,28 @@
+namespace: gaia-x
+name: gx
+version: "2026-11-02"
+language: owl
+syntax: turtle
+roots: [gx.ttl]
+licenses: ["EPL-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Gaia-X Trust Framework Ontology"
+authors:
+  - name: "Gaia-X European Association for Data and Cloud AISBL"
+    link: "https://gaia-x.eu/"
+publishers:
+  - name: "Gaia-X European Association for Data and Cloud AISBL"
+    link: "https://gaia-x.eu/"
+description: "The Gaia-X ontology defines classes and properties for describing participants, service offerings, resources, and compliance credentials within the Gaia-X federated data infrastructure ecosystem."
+keywords: ["cloud", "compliance", "data infrastructure", "gaia-x", "ontology", "trust framework", "verifiable credentials"]
+originalSources: ["https://gitlab.com/gaia-x/technical-committee/service-characteristics-working-group/service-characteristics"]
+sources:
+  - url: https://registry.lab.gaia-x.eu/development/owl/development
+    name: gx.ttl
+    sha256: "abf1a8b848daf160c5e3a00cdd2fe02ef18d2d291e5e966e6b35ff12bbf8400d"
+    size: 3129404
+  - url: https://raw.githubusercontent.com/spdx/license-list-data/v3.29.0/text/EPL-2.0.txt
+    name: LICENSE
+    sha256: "61616a4066701bc7888ad910de1633dbc55eb4d4d30d930feef55afb9492e33c"
+    size: 14020

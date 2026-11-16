@@ -1,0 +1,32 @@
+namespace: obo
+name: so
+version: "2026-08-07"
+language: owl
+syntax: rdfxml
+roots: [so.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Sequence types and features ontology"
+authors:
+  - name: "Karen Eilbeck"
+    contact: "keilbeck@genetics.utah.edu"
+    link: "https://orcid.org/0000-0002-0831-6427"
+publishers:
+  - name: "The Sequence Ontology"
+    link: "http://www.sequenceontology.org"
+description: "A structured controlled vocabulary for sequence annotation, for the exchange of annotation data and for the description of sequence objects in databases."
+keywords: ["chemistry and biochemistry", "biological sequence", "OBO"]
+originalSources: ["https://github.com/The-Sequence-Ontology/SO-Ontologies", "http://www.sequenceontology.org"]
+publications:
+  - title: "The Sequence Ontology: a tool for the unification of genome annotations."
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/15892872"
+  - title: "Evolution of the Sequence Ontology terms and relationships."
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/20226267"
+sources:
+  - url: https://github.com/The-Sequence-Ontology/SO-Ontologies/blob/4340c143bac3578bba0c013d02e8c5f0e51ad14a/Ontology_Files/so.owl
+    sha256: "28d19f7767d8848ceb9088658079ede9b467f4ee95205220520229a45582c6aa"
+    size: 3974970
+  - url: https://github.com/The-Sequence-Ontology/SO-Ontologies/blob/4340c143bac3578bba0c013d02e8c5f0e51ad14a/LICENSE
+    sha256: "f5b745ef98087f531e719ee8ca6a96809444573ecc7173c6fa68eaad39b3cc3f"
+    size: 18658

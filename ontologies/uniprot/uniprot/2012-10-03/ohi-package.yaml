@@ -1,0 +1,26 @@
+namespace: uniprot
+name: uniprot
+version: "2012-10-03"
+language: owl
+syntax: turtle
+roots: [uniprot.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Uniprot Core Ontology"
+authors:
+  - name: "UniProt Consortium"
+    link: "https://www.uniprot.org/"
+publishers:
+  - name: "UniProt Consortium"
+    link: "https://www.uniprot.org/"
+description: "Properties and classes used for protein annotation."
+keywords: ["Biology"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/uniprot/versions/2012-10-03.n3
+    name: uniprot.ttl
+    sha256: "c9e14204e1e3277789761c1356cca363d8123057c4a5d165f7a687bdcc128cec"
+    size: 120507
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,29 @@
+namespace: obo
+name: hom
+version: "2015-01-07"
+language: owl
+syntax: rdfxml
+roots: [hom.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Homology Ontology"
+authors:
+  - name: "Bgee"
+    link: "https://www.bgee.org/"
+publishers:
+  - name: "Bgee"
+    link: "https://www.bgee.org/"
+description: "This ontology represents concepts related to homology, as well as other concepts used to describe similarity and non-homology."
+keywords: ["anatomy and development", "OBO"]
+originalSources: ["https://github.com/BgeeDB/homology-ontology"]
+publications:
+  - title: "An ontology to clarify homology-related concepts"
+    link: "https://doi.org/10.1016/j.tig.2009.12.012"
+sources:
+  - url: https://github.com/BgeeDB/homology-ontology/blob/fb20c0bd7d726f5eca5172f30e4536cef8fec3ce/src/ontology/hom.owl
+    sha256: "809a1a78e9938509fc1a9fe18ec636836bd1a7e442a63d6e097f38342a83e644"
+    size: 128032
+  - url: https://github.com/BgeeDB/homology-ontology/blob/fb20c0bd7d726f5eca5172f30e4536cef8fec3ce/LICENSE
+    sha256: "f1441ec1c4f0f64ddba621c0697061c935f4b999aa3d17f570a1db56e5f46f7d"
+    size: 6557

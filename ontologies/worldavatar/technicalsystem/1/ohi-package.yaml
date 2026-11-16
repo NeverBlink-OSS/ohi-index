@@ -1,0 +1,27 @@
+namespace: worldavatar
+name: technicalsystem
+version: "1"
+language: owl
+syntax: rdfxml
+roots: [technicalsystem.owl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "WorldAvatar technical system ontology"
+authors:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+publishers:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+description: "An ontology for technical systems."
+keywords: ["ontology", "worldavatar"]
+originalSources: ["https://github.com/TheWorldAvatar/ontology", "https://theworldavatar.io"]
+sources:
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/ontology/ontotechnicalsystem/OntoTechnicalSystem.owl
+    name: technicalsystem.owl
+    sha256: "b8bf149b88ddbde8da47c9f36f2072be8fc51b806344c423547374a9d60282e8"
+    size: 25597
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/LICENSE.txt
+    sha256: "8c29b2cb4c712a0d382d1951ffc7e2a155ec7095c7e92a896f5919eb02c31ea9"
+    size: 1309

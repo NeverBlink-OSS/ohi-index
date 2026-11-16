@@ -1,0 +1,25 @@
+namespace: opm
+name: opm
+version: "0.1.0"
+language: owl
+syntax: turtle
+roots: [opm.ttl]
+licenses: ["CC-BY-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "OPM: Ontology for Property Management"
+authors:
+  - name: "Mads Holten Rasmussen"
+  - name: "Pieter Pauwels"
+publishers:
+  - name: "W3C Linked Building Data Community Group"
+    link: "https://www.w3.org/community/lbd/"
+contributors:
+  - name: "Maxime Lefrançois"
+  - name: "Mathias Bonduel"
+description: "The Ontology for Property Management (OPM) extends the concepts introduced in the Smart Energy Aware Systems (SEAS) Evaluations ontology."
+keywords: ["Environment", "IoT"]
+sources:
+  - url: https://w3c-lbd-cg.github.io/opm/opm.ttl
+    sha256: "9ae8f29712134e9708236a83282aada2854e116a0364c8789f9d2928abbd5102"
+    size: 15961

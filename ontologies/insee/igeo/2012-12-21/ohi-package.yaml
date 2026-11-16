@@ -1,0 +1,32 @@
+namespace: insee
+name: igeo
+version: "2012-12-21"
+language: owl
+syntax: turtle
+roots: [igeo.ttl]
+licenses: ["CC-BY-3.0", "etalab-2.0"]
+licenseFiles: [legalcode.txt, LICENSE]
+dependencies: []
+title: "French Statistical ontology for geolocation"
+authors:
+  - name: "Franck Cotton"
+publishers:
+  - name: "French National Institute of Statistics and Economic Studies (INSEE)"
+    link: "https://www.insee.fr/"
+contributors:
+  - name: "Bernard Vatant"
+description: "Ontology describing geographic entities as seen by the French Statistical Institute."
+keywords: ["Geography"]
+originalSources: ["http://rdf.insee.fr/geo/index.html"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/igeo/versions/2015-01-11.n3
+    name: igeo.ttl
+    sha256: "122342240b151618ba95fad974bad510fce5879ea0bf42a9e7f72ac4dc6914c7"
+    size: 43859
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467
+  - url: https://raw.githubusercontent.com/spdx/license-list-data/v3.29.0/text/etalab-2.0.txt
+    name: LICENSE
+    sha256: "f82596bde5c4abc62b4e63b1a3ba555f6b9203a340765fb178d188958600d111"
+    size: 8198

@@ -1,0 +1,27 @@
+namespace: uwasystemhealth
+name: iso15926
+version: "15926"
+language: owl
+syntax: turtle
+roots: [iso15926.ttl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "ISO 15926-14"
+authors:
+  - name: "UWA System Health Lab"
+    link: "https://systemhealthlab.com"
+publishers:
+  - name: "UWA System Health Lab"
+    link: "https://systemhealthlab.com"
+description: "The primary purpose of ISO 15926 is to provide a foundation ontology to support the integration and sharing of data related to the lifecycle of a process plant in such a way that it is consistent, unambiguous, and minimizing the number of ways something could be expressed."
+keywords: ["ontology"]
+originalSources: ["https://github.com/uwasystemhealth/modular_ontologies", "https://15926.org/home"]
+sources:
+  - url: https://github.com/uwasystemhealth/modular_ontologies/blob/8476c85277f8cb77636e64cf3b099e9ce1e40620/LIS-14.ttl
+    name: iso15926.ttl
+    sha256: "33fb972341cba59bc324b7c53ccfb10096c8ce4ba0bbd9ddee1322d79c64d6e1"
+    size: 28241
+  - url: https://github.com/uwasystemhealth/modular_ontologies/blob/8476c85277f8cb77636e64cf3b099e9ce1e40620/LICENSE
+    sha256: "399ceebe763af3a2d2728dd3a09fb81ab219057c898236476dbc17a4e85ded45"
+    size: 1078

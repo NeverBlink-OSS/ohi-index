@@ -1,0 +1,31 @@
+namespace: urban-iot
+name: uiot
+version: "1.0.0"
+language: owl
+syntax: turtle
+roots: [uiot.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Urban IoT Ontologies - Core Module"
+authors:
+  - name: "Irene Celino"
+  - name: "Mario Scrocca"
+  - name: "Ilaria Baroni"
+publishers:
+  - name: "Comune di Milano"
+    link: "https://www.comune.milano.it/"
+contributors:
+  - name: "Direzione Mobilità e Trasporti - Area Pianificazione e Programmazione Mobilità"
+  - name: "Direzione Sistemi Informativi ed Agenda Digitale - Area Gestione ed Integrazione Dati"
+  - name: "Area Pianificazione e Monitoraggio"
+description: "Core module of the suite of ontologies for urban IoT devices."
+keywords: ["IoT", "Services"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/uiot/versions/2020-12-02.n3
+    name: uiot.ttl
+    sha256: "f080de09d7c323b9fa4129ca16e3b248fbc34cf61616372942d51c086f85f5e8"
+    size: 29307
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

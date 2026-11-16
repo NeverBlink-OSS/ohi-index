@@ -1,0 +1,24 @@
+namespace: w3c
+name: wot-hypermedia
+version: "2026-10-20"
+language: owl
+syntax: turtle
+roots: [hypermedia.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "WoT Hypermedia Controls"
+authors:
+  - name: "Victor Charpenay"
+    link: "https://vcharpenay.link/"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "Web of Things ontology for links and forms that describe how to interact with things."
+keywords: ["Web of Things", "IoT", "hypermedia"]
+originalSources: ["https://github.com/w3c/wot-thing-description"]
+sources:
+  - url: https://github.com/w3c/wot-thing-description/blob/1f6b084dd01c7fc121aca8dec24aa5d3eae2c82f/ontology/hctl.ttl
+    name: hypermedia.ttl
+    sha256: "689e77f9580689d4534376d44abccf85251f5c919fe4878e46906a495f43124e"
+    size: 7442

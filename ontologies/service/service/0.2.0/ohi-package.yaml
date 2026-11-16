@@ -1,0 +1,26 @@
+namespace: service
+name: service
+version: "0.2.0"
+language: owl
+syntax: turtle
+roots: [service.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The Service Ontology"
+authors:
+  - name: "Jakob Voß"
+publishers:
+  - name: "DINI AG KIM"
+    link: "https://wiki.dnb.de/display/DINIAGKIM"
+description: "A micro-ontology that defines the general concept of a service."
+keywords: ["Services"]
+originalSources: ["https://github.com/dini-ag-kim/service-ontology"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/service/versions/2013-11-24.n3
+    name: service.ttl
+    sha256: "b704f15542b32707d6938e5ebca4ea8db226c9255e3066c1789eae85da0f38f0"
+    size: 3827
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

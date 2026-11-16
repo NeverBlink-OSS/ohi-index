@@ -1,0 +1,33 @@
+namespace: noria
+name: noria
+version: "0.3"
+language: owl
+syntax: turtle
+roots: [noria.ttl]
+licenses: ["BSD-4-Clause"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "The NORIA Ontology"
+authors:
+  - name: "Lionel Tailhardat"
+    link: "https://genears.github.io/"
+  - name: "Yoan Chabot"
+    link: "https://orcid.org/0000-0001-5639-1504"
+  - name: "Raphaël Troncy"
+    link: "https://orcid.org/0000-0003-0457-1436"
+publishers:
+  - name: "Orange"
+    link: "https://www.orange.com/"
+description: "The NORIA-O project is a data model for IT networks, events and operations information."
+keywords: ["API"]
+originalSources: ["https://github.com/Orange-OpenSource/noria-ontology"]
+publications:
+  - title: "NORIA-O: an Ontology for Anomaly Detection and Incident Management in ICT Systems"
+sources:
+  - url: https://raw.githubusercontent.com/Orange-OpenSource/noria-ontology/master/ontology/noria-0.3/noria.ttl
+    sha256: "03ae2dd99b786fb7d7ad389d99b34403323f97a11d1e6001983b2dcdf4f79cfc"
+    size: 109027
+  - url: https://raw.githubusercontent.com/spdx/license-list-data/v3.29.0/text/BSD-4-Clause.txt
+    name: LICENSE
+    sha256: "c80d927f03db7212ba43a869a383e249c19b40859ff0d9e2e2f968e4fdcf005f"
+    size: 1618

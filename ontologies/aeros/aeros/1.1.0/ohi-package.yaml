@@ -1,0 +1,28 @@
+namespace: aeros
+name: aeros
+version: "1.1.0"
+language: owl
+syntax: turtle
+roots: [aeros.ttl]
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "aerOS Continuum Ontology"
+authors:
+  - name: "Ignacio Domínguez Martinez-Casanueva"
+publishers:
+  - name: "aerOS project"
+contributors:
+  - name: "Andreu Belsa Pellicer"
+  - name: "Rafael Vaño Garcia"
+description: "Ontology for the orchestration of the aerOS continuum."
+keywords: ["Services", "Support"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/aeros/versions/2025-06-16.n3
+    name: aeros.ttl
+    sha256: "70270c4d3295d89d92d064a6e9834ae4fae49b6230b78094b90ea166cc0668eb"
+    size: 19046
+  - url: https://www.apache.org/licenses/LICENSE-2.0.txt
+    name: LICENSE
+    sha256: "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    size: 11358

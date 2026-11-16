@@ -1,0 +1,24 @@
+namespace: w3c
+name: contact
+version: "2026-11-02"
+language: owl
+syntax: rdfxml
+roots: [contact.rdf]
+base: http://www.w3.org/2000/10/swap/pim/contact
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Contact"
+authors:
+  - name: "Tim Berners-Lee"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "Utility concepts for everyday life."
+keywords: ["People"]
+originalSources: ["https://www.w3.org/2000/10/swap/pim/contact"]
+sources:
+  - url: https://www.w3.org/2000/10/swap/pim/contact
+    name: contact.rdf
+    sha256: "57ea4c540cb432a58aaa09f0d982d0aaae6294e370847cb09f7ed732bdb257f3"
+    size: 17716

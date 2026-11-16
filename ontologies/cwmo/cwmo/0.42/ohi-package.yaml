@@ -1,0 +1,28 @@
+namespace: cwmo
+name: cwmo
+version: "0.42"
+language: owl
+syntax: turtle
+roots: [cwmo.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Creative Workshop Management Ontology (CWMO)"
+authors:
+  - name: "Alex Gabriel"
+publishers:
+  - name: "Alex Gabriel"
+contributors:
+  - name: "Mauricio Camargo"
+  - name: "Davy Monticolo"
+  - name: "Mario Bourgault"
+description: "Creative Workshop Management Ontology (CWMO) - an ontology designed to describe the creative workshop domain, to permit reasoning on creative method and to describe resources gathered inside Creative Support System."
+keywords: ["Image", "Multimedia"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/cwmo/versions/2017-02-16.n3
+    name: cwmo.ttl
+    sha256: "51ddd92fe011e92d841e1c48055b67a117a60222327a393a8e7c690aefd1aacf"
+    size: 48625
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

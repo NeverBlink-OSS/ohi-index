@@ -1,0 +1,43 @@
+namespace: spar
+name: datacite
+version: "2.0.0"
+language: owl
+syntax: rdfxml
+roots: [datacite.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE.md]
+dependencies: ["spar/literal@1.1.0"]
+title: "SPAR DataCite Ontology"
+authors:
+  - name: "David Shotton"
+    link: "http://opencitations.net"
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+  - name: "Sebastian Barzaghi"
+    link: "https://orcid.org/0000-0002-0799-1527"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+contributors:
+  - name: "Egbert Gramsbergen"
+    link: "https://orcid.org/0000-0003-4937-0347"
+  - name: "Amy J. Barton"
+  - name: "Jan Ashton"
+    link: "https://orcid.org/0000-0003-4676-5263"
+  - name: "Marie-Christine Jacquemot-Perbal"
+    link: "https://orcid.org/0000-0002-6316-1472"
+  - name: "Roman Baum"
+    link: "https://orcid.org/0000-0001-5246-9351"
+  - name: "Sara El-Gebali"
+    link: "https://orcid.org/0000-0003-1378-5495"
+description: "Ontology of the DataCite metadata schema for describing research data and its identifiers."
+keywords: ["research data", "identifiers", "DataCite"]
+originalSources: ["https://github.com/SPAROntologies/datacite"]
+sources:
+  - url: https://sparontologies.github.io/datacite/2026-07-23/datacite.xml
+    name: datacite.rdf
+    sha256: "e55a2146b1016c0033234f7fa9b168d869a6e9facf3fa338dd190a658bc714fd"
+    size: 388130
+  - url: https://github.com/SPAROntologies/datacite/blob/5d5576993f9e98f3950399dbf64e8a65a315d48e/LICENSE.md
+    sha256: "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    size: 18656

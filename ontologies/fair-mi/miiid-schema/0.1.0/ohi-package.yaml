@@ -1,0 +1,27 @@
+namespace: fair-mi
+name: miiid-schema
+version: "0.1.0"
+language: linkml
+syntax: yaml
+roots: [miiid-schema.yaml]
+licenses: ["GPL-3.0-only"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "miiid-schema"
+authors:
+  - name: "Charlie Pauvert"
+    contact: "cpauvert@protonmail.com"
+publishers:
+  - name: "FAIR-MI"
+    link: "https://github.com/FAIR-MI"
+description: "A metadata schema for the Minimum Information about Intermicrobial Interaction Data (MIIID) using LinkML."
+keywords: ["fair-data", "linkml", "linkml-schema", "metadata-standard", "microbial-ecology", "Computer Science"]
+originalSources: ["https://github.com/FAIR-MI/miiid-schema"]
+sources:
+  - url: https://github.com/FAIR-MI/miiid-schema/blob/v0.1.0/src/miiid_schema/schema/miiid_schema.yaml
+    name: miiid-schema.yaml
+    sha256: "1650c9a0e50253529cbc5b6ef47b097869b59d37d614f76ee82f1d2a4d01c91e"
+    size: 2714
+  - url: https://github.com/FAIR-MI/miiid-schema/blob/v0.1.0/LICENSE
+    sha256: "ca372a7d92560b1fa9f6d832b440e8bcd62d9adfa8870c98287deab66d98310e"
+    size: 35148

@@ -1,0 +1,25 @@
+namespace: w3c
+name: csvw
+version: "2015"
+language: owl
+syntax: turtle
+roots: [csvw.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: ["w3c/prov@2013"]
+title: "CSV on the Web vocabulary"
+authors:
+  - name: "Rufus Pollock"
+  - name: "Jeni Tennison"
+  - name: "Gregg Kellogg"
+  - name: "Ivan Herman"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "W3C vocabulary for metadata about tabular data in CSV files."
+keywords: ["CSV", "tabular data", "metadata"]
+originalSources: ["https://www.w3.org/TR/tabular-metadata"]
+sources:
+  - url: https://www.w3.org/ns/csvw.ttl
+    sha256: "ad9296569d3203c771a0ca51ac7c4180d8ad2bdd85adec5c7881555ddb409f3a"
+    size: 26702

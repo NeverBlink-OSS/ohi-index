@@ -1,0 +1,26 @@
+namespace: w3c
+name: ldp
+version: "2015"
+language: owl
+syntax: turtle
+roots: [ldp.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Linked Data Platform vocabulary"
+authors:
+  - name: "Steve Speicher"
+  - name: "John Arwe"
+  - name: "Ashok Malhotra"
+  - name: "W3C Linked Data Platform Working Group"
+    link: "https://www.w3.org/2012/ldp"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "W3C vocabulary for Linked Data Platform resources and containers."
+keywords: ["linked data", "REST", "containers"]
+originalSources: ["https://www.w3.org/TR/ldp"]
+sources:
+  - url: https://www.w3.org/ns/ldp.ttl
+    sha256: "1be9ec471449a89e8525fe7cf99c9800c57f4cb77bd4f48e6da12e4214a98a67"
+    size: 10140

@@ -1,0 +1,27 @@
+namespace: mukundanps
+name: ghp-vocab
+version: "0.0.1"
+language: linkml
+syntax: yaml
+roots: [ghp-vocab.yaml]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Good Health Pass vocabulary for Covid-19"
+authors:
+  - name: "Mukundan Parthasarathy"
+    link: "https://github.com/mukundanps"
+publishers:
+  - name: "Mukundan Parthasarathy"
+    link: "https://github.com/mukundanps"
+description: "Vocabulary for Good Health Pass."
+keywords: ["Clinical"]
+originalSources: ["https://github.com/mukundanps/ghp-vocab"]
+sources:
+  - url: https://github.com/mukundanps/ghp-vocab/blob/9ed7d24d307e8c8935f1abfec4d47704d132cc40/model/schema/ghp-base.yaml
+    name: ghp-vocab.yaml
+    sha256: "85d6271144be9bd6d78a6309a74be7b8713f9ca6c7f8bba36908a0f091a3460a"
+    size: 5441
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

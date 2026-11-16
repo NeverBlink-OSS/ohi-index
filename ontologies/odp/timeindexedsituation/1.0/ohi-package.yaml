@@ -1,0 +1,18 @@
+namespace: odp
+name: timeindexedsituation
+version: "1.0"
+language: owl
+syntax: rdfxml
+roots: [timeindexedsituation.owl]
+licenses: ["unknown (fair use)"]
+licenseFiles: [LICENSE]
+dependencies: ["odp/situation@1.1", "odp/timeinterval@1.1", "odp/cpannotationschema@2026-10-21"]
+title: "ODP Time-Indexed Situation"
+authors:
+  - name: "Aldo Gangemi"
+publishers:
+  - name: "Ontology Design Patterns portal"
+    link: "http://ontologydesignpatterns.org/"
+description: "Ontology design pattern for situations that hold at a time."
+keywords: ["ontology design patterns", "situations", "time"]
+originalSources: ["http://ontologydesignpatterns.org"]

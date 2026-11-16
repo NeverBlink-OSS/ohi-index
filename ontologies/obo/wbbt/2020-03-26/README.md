@@ -1,0 +1,25 @@
+C. elegans Gross Anatomy Ontology, by OBO Foundry. A structured controlled vocabulary of the anatomy of <i>Caenorhabditis elegans</i>. Ontology IRI: http://purl.obolibrary.org/obo/wbbt.owl
+
+Depends on no other package.
+
+Package created (its files downloaded or sources' hashes created) on 2026-11-04.
+The ontology file is from https://github.com/obophenotype/c-elegans-gross-anatomy-ontology/blob/v2020-03-26/wbbt.owl.
+The file is the one at the tag `v2020-03-26`.
+The file is a remote source.
+
+Notes:
+
+- 7,626 classes, 122 object properties, 51 annotation properties, 3 individuals, 793 of the terms deprecated.
+- Version IRI: http://purl.obolibrary.org/obo/wbbt/releases/2020-03-26.
+
+# Copyright
+
+Licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/ (as stated in the file itself).
+
+# Changes
+
+None. The file is kept as published.
+
+# License file
+
+`legalcode.txt`: The plain-text legal code of the license, https://creativecommons.org/licenses/by/4.0/legalcode.txt. A source of the package, not kept in the folder.

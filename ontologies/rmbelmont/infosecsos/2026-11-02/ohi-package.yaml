@@ -1,0 +1,27 @@
+namespace: rmbelmont
+name: infosecsos
+version: "2026-11-02"
+language: owl
+syntax: rdfxml
+roots: [infosecsos.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "InfoSecSoS Ontology"
+authors:
+  - name: "Roberto Dias"
+    link: "https://robertomdias.wordpress.com/"
+publishers:
+  - name: "Roberto Dias"
+    link: "https://robertomdias.wordpress.com/"
+description: "InfoSecSoS - Ontology for Information Security Management in Systems-of-Systems."
+keywords: ["engineering", "nfdi4ing", "nfdixcs"]
+originalSources: ["https://github.com/rmbelmont/InfoSecSoS-ontology.", "https://zenodo.org/record/6621882"]
+sources:
+  - url: https://github.com/rmbelmont/InfoSecSoS-ontology./blob/2a8db2a9d86f62168d7e17c9f72377d2d571b884/InfoSecSoS.rdf
+    name: infosecsos.rdf
+    sha256: "9d6a7edfffae9874bcb4f931de29b6cee64f7a9cca9fa905850315da54edd4d4"
+    size: 84352
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

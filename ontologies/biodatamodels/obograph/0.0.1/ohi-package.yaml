@@ -1,0 +1,26 @@
+namespace: biodatamodels
+name: obograph
+version: "0.0.1"
+language: linkml
+syntax: yaml
+roots: [obograph.yaml]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Obographs LinkML model"
+authors:
+  - name: "BioDataModels"
+    link: "https://github.com/biodatamodels"
+publishers:
+  - name: "BioDataModels"
+    link: "https://github.com/biodatamodels"
+description: "Obographs LinkML model."
+keywords: ["linkml", "Computer Science"]
+originalSources: ["https://github.com/biodatamodels/obograph"]
+sources:
+  - url: https://github.com/biodatamodels/obograph/blob/5e37965de4affe91dec05928cf5abacb77a05a12/model/schema/obograph.yaml
+    sha256: "97fc065721c761fb7f36fd800c00fda0cdff1b6a3734304ef5883cd6c19c5b5a"
+    size: 3389
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

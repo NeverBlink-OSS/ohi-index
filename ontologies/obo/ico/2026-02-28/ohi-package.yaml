@@ -1,0 +1,51 @@
+namespace: obo
+name: ico
+version: "2026-02-28"
+language: owl
+syntax: rdfxml
+roots: [ico.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Informed Consent Ontology"
+authors:
+  - name: "Alla Karnovsky"
+  - name: "Asiyah Yu Lin"
+  - name: "Christoph Brochhausen"
+  - name: "Cooper Stansbury"
+  - name: "Elizabeth Eisenhauer"
+  - name: "Elizabeth Umberfield"
+  - name: "Frank Manion"
+  - name: "J. Neil Otte"
+  - name: "Jie Zheng"
+  - name: "Jonathan Vajda"
+  - name: "Kathleen Ford"
+  - name: "Marcy Harris"
+  - name: "Yongqun He"
+    contact: "yongqunh@med.umich.edu"
+    link: "http://www.hegroup.org"
+  - name: "Rahma Alifia"
+  - name: "Tuan Amith"
+publishers:
+  - name: "He Group, University of Michigan Medical School"
+    link: "https://hegroup.org/"
+contributors:
+  - name: "Anna Maria Masci"
+  - name: "Chris Stoeckert"
+  - name: "Cui Tao"
+  - name: "Helena Ellis"
+  - name: "Jian Guan"
+  - name: "Jihad Obeid"
+  - name: "Jonathan Bona"
+  - name: "Mathias Brochhausen"
+  - name: "William D. Duncan"
+description: "An ontology of clinical informed consents."
+keywords: ["investigations", "informed consent", "OBO"]
+originalSources: ["https://github.com/ICO-ontology/ICO"]
+sources:
+  - url: https://github.com/ICO-ontology/ICO/blob/f5fad837693a9d66faf52b0e6a71133337dc9ae2/ico.owl
+    sha256: "a13ad5b7e7ada7a715e7def072fc32e185d20ef6d86ce8ea3500d495a99b6e20"
+    size: 1819741
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

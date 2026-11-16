@@ -1,0 +1,27 @@
+namespace: ontotext
+name: pext
+version: "3.0"
+language: owl
+syntax: turtle
+roots: [pext.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["ontotext/ptop@3.0"]
+title: "PROTON Extent module"
+authors:
+  - name: "Ontotext"
+    link: "https://www.ontotext.com/"
+publishers:
+  - name: "Ontotext"
+    link: "https://www.ontotext.com/"
+description: "Upper-level ontology with extensions to handle Linked Open Data (LOD)."
+keywords: ["PROTON"]
+originalSources: ["http://www.ontotext.com/proton-ontology"]
+sources:
+  - url: https://www.ontotext.com/proton/protonext.ttl
+    name: pext.ttl
+    sha256: "5eda5df399bc5832bc7318b32ff7a75107c69f4d3fa181697557f6fc8c8e42f1"
+    size: 190549
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

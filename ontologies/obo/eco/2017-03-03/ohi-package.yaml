@@ -1,0 +1,34 @@
+namespace: obo
+name: eco
+version: "2017-03-03"
+language: owl
+syntax: rdfxml
+roots: [eco.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Evidence and Conclusion Ontology"
+authors:
+  - name: "Michelle Gwinn Giglio"
+    contact: "mgiglio@som.umaryland.edu"
+    link: "https://orcid.org/0000-0001-7628-5565"
+publishers:
+  - name: "Institute for Genome Sciences, University of Maryland School of Medicine"
+    link: "https://www.igs.umaryland.edu/"
+description: "An ontology for experimental and other evidence statements."
+keywords: ["investigations", "OBO"]
+originalSources: ["https://github.com/evidenceontology/evidenceontology", "https://www.evidenceontology.org"]
+publications:
+  - title: "ECO: the Evidence and Conclusion Ontology, an update for 2022."
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/34986598"
+  - title: "ECO, the Evidence & Conclusion Ontology: community standard for evidence information."
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/30407590"
+  - title: "Standardized description of scientific evidence using the Evidence Ontology (ECO)"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/25052702"
+sources:
+  - url: https://github.com/evidenceontology/evidenceontology/blob/v2017-03-03/eco.owl
+    sha256: "75f2b697278f6b8b5a4637f959f3353718ca31655073877c2fcd23a05ca34dd4"
+    size: 2138127
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

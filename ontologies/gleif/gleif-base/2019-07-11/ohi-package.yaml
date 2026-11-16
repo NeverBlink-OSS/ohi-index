@@ -1,0 +1,29 @@
+namespace: gleif
+name: gleif-base
+version: "2019-07-11"
+language: owl
+syntax: turtle
+roots: [gleif-base.ttl]
+licenses: ["GLEIF LEI Data Terms of Use"]
+licenseFiles: [LICENSE]
+dependencies: ["lcc/country-representation@20211101"]
+title: "Global Legal Entity Identifier Foundation Base Ontology"
+authors:
+  - name: "Global Legal Entity Identifier Foundation"
+    link: "https://www.gleif.org/"
+publishers:
+  - name: "Global Legal Entity Identifier Foundation"
+    link: "https://www.gleif.org/"
+contributors:
+  - name: "Pete Rivett"
+  - name: "Bryon Jacob"
+  - name: "Working Ontologist LLC"
+    link: "http://www.workingontologist.com"
+description: "Ontology defining generic concepts for reuse by other Global Legal Entity Identifier Foundation (GLEIF) ontologies."
+keywords: ["Geography", "People"]
+originalSources: ["https://www.gleif.org/ontology/Base"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/gleif-base/versions/2019-07-11.n3
+    name: gleif-base.ttl
+    sha256: "1210683b9ed07f2ccfb0233c33db8d4f59dddb179c09d3661be3f4990125a9de"
+    size: 38626

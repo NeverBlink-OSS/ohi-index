@@ -1,0 +1,26 @@
+namespace: dublincore
+name: lrmi
+version: "2026-11-02"
+language: owl
+syntax: turtle
+roots: [lrmi.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Learning Resource Metadata Innovation Terms"
+authors:
+  - name: "LRMI Task Group"
+publishers:
+  - name: "Dublin Core Metadata Initiative"
+    link: "https://www.dublincore.org/"
+description: "The Learning Resource Metadata Innovation (LRMI) specification is a collection of classes and properties for markup and description of educational resources."
+keywords: ["education", "educational resource", "open educational resources"]
+originalSources: ["https://www.dublincore.org/specifications/lrmi/lrmi_terms/2022-06-14"]
+sources:
+  - url: https://www.dublincore.org/specifications/lrmi/lrmi_terms/2022-06-14/lrmi-terms.ttl
+    name: lrmi.ttl
+    sha256: "223f68bab4b0d3b2fa0a5f6a520fdbf3b6a5fa3e0b59cf791e6b92e16246fe6e"
+    size: 13935
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

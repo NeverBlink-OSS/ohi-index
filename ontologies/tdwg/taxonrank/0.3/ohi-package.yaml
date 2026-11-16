@@ -1,0 +1,26 @@
+namespace: tdwg
+name: taxonrank
+version: "0.3"
+language: owl
+syntax: rdfxml
+roots: [taxonrank.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "TDWG Taxon Rank LSID Ontology"
+authors:
+  - name: "Roger Hyam"
+publishers:
+  - name: "Biodiversity Information Standards (TDWG)"
+    link: "https://www.tdwg.org/"
+description: "Ontology describing a controlled vocabulary for taxon ranks."
+keywords: ["ontology", "taxon rank", "tdwg"]
+originalSources: ["https://github.com/tdwg/ontology"]
+sources:
+  - url: https://tdwg.github.io/ontology/ontology/voc/TaxonRank.rdf
+    name: taxonrank.rdf
+    sha256: "5949435a3d84d8030aff2bbc32676db8e3f84894cf3bff95a56cac5b3464361f"
+    size: 21320
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

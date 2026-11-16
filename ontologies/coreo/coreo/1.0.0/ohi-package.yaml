@@ -1,0 +1,32 @@
+namespace: coreo
+name: coreo
+version: "1.0.0"
+language: owl
+syntax: turtle
+roots: [coreo.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["nemo/gufo@1.0.0"]
+title: "Core-o: Competence Reference Ontology"
+authors:
+  - name: "Rodrigo F. Calhau"
+    link: "https://orcid.org/0009-0006-6051-2165"
+  - name: "João Paulo A. Almeida"
+    link: "https://orcid.org/0000-0002-9819-3781"
+  - name: "Tiago Prince Sales"
+    link: "https://www.inf.unibz.it/~tpsales/"
+  - name: "Giancarlo Guizzardi"
+    link: "https://orcid.org/0000-0002-3452-553X"
+publishers:
+  - name: "Semantics, Cybersecurity & Services, University of Twente"
+    link: "https://www.utwente.nl/en/eemcs/scs/"
+description: "An ontology to describe competences and human capabilities."
+keywords: ["Environment", "Society"]
+sources:
+  - url: https://core-o.github.io/ontology/competence_ontology.ttl
+    name: coreo.ttl
+    sha256: "b7676711cd88acf4ca0e2db1c54461d9f7ea5dee9e7d275a8b19a31628377571"
+    size: 44960
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

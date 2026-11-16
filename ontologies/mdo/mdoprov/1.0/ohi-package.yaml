@@ -1,0 +1,27 @@
+namespace: mdo
+name: mdoprov
+version: "1.0"
+language: owl
+syntax: ntriples
+roots: [mdoprov.nt]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["mdo/core@1.0"]
+title: "Materials Design Ontology - Provenance Module"
+authors:
+  - name: "Huanyu Li"
+publishers:
+  - name: "Huanyu Li"
+contributors:
+  - name: "Patrick Lambrix"
+  - name: "Rickard Armiento"
+description: "This is the provenance module of Materials Design Ontology."
+keywords: ["Metadata"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/mdoprov/versions/2020-04-02.n3
+    name: mdoprov.nt
+    sha256: "1bcf9bf70a1124fcdd1f2b829d22d03229abe961df9a62f7728393e4b1d0d1ac"
+    size: 13008
+  - url: https://github.com/huanyu-li/Materials-Design-Ontology/blob/9d0fd411b6c398fe90c842be568b751908041326/LICENSE
+    sha256: "2f32d3f3825d66ba17eb59662ea9b12905e30cd6c6c5715c6881accf7cf3c166"
+    size: 1052

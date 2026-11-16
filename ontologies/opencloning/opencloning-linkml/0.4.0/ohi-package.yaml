@@ -1,0 +1,28 @@
+namespace: opencloning
+name: opencloning-linkml
+version: "0.4.0"
+language: linkml
+syntax: yaml
+roots: [opencloning-linkml.yaml]
+patch: opencloning-linkml.patch.yaml
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "OpenCloning_LinkML"
+authors:
+  - name: "Manuel Lera-Ramirez"
+    contact: "manuel.lera-ramirez@ucl.ac.uk"
+publishers:
+  - name: "OpenCloning"
+    link: "https://opencloning.org/"
+description: "A LinkML data model for OpenCloning."
+keywords: ["Computer Science"]
+originalSources: ["https://github.com/OpenCloning/OpenCloning_LinkML"]
+sources:
+  - url: https://github.com/OpenCloning/OpenCloning_LinkML/blob/v0.4.0/src/opencloning_linkml/schema/opencloning_linkml.yaml
+    name: opencloning-linkml.yaml
+    sha256: "99a7c10e3b7b30835a3f8f08ee830e6c5b653004bf67f442cf17501f481bcaa7"
+    size: 25648
+  - url: https://github.com/OpenCloning/OpenCloning_LinkML/blob/v0.4.0/LICENSE
+    sha256: "5138bc7f4b23981fbb6175971809500d76f9bf6d93d9d460c70a1ed32f5e49b7"
+    size: 1087

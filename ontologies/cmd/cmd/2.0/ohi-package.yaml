@@ -1,0 +1,23 @@
+namespace: cmd
+name: cmd
+version: "2.0"
+language: owl
+syntax: turtle
+roots: [cmd.ttl]
+licenses: ["CC-BY-NC-SA-2.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Compound Measure Description"
+authors:
+  - name: "Jennie Andersen"
+publishers:
+  - name: "Jennie Andersen"
+contributors:
+  - name: "Philippe Lamarre"
+  - name: "Sylvie Cazalens"
+description: "This document is a vocabulary to describe compound measures, i.e."
+keywords: ["Metadata", "Methods"]
+sources:
+  - url: https://jendersen.github.io/TSoR-vocab/cmd.ttl
+    sha256: "deb2655568cb088c3a9fa70ce9d5469cdc97a17ca395d5259f4fce11925b7dbe"
+    size: 8285

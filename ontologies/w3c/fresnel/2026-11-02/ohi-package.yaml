@@ -1,0 +1,30 @@
+namespace: w3c
+name: fresnel
+version: "2026-11-02"
+language: owl
+syntax: rdfxml
+roots: [fresnel.rdf]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Fresnel Lens and Format Core Vocabulary"
+authors:
+  - name: "Chris Bizer"
+    contact: "chris@bizer.de"
+  - name: "Emmanuel Pietriga"
+    contact: "emmanuel.pietriga@inria.fr"
+  - name: "Ryan Lee"
+    contact: "ryanlee@w3.org"
+  - name: "Stefano Mazzocchi"
+    contact: "stefanom@mit.edu"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "OWL Full vocabulary for defining lenses and formats on RDF models."
+keywords: ["RDF"]
+originalSources: ["https://www.w3.org/2005/04/fresnel-info"]
+sources:
+  - url: https://www.w3.org/2004/09/fresnel
+    name: fresnel.rdf
+    sha256: "f6cc81961ce04f7dce996326d4d14b3d3c4d598ad03e3b6e342fc20183e890e7"
+    size: 72919

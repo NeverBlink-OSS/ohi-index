@@ -1,0 +1,24 @@
+namespace: w3c
+name: rec54
+version: "2014-06-12"
+language: rdfs
+syntax: turtle
+roots: [rec54.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Model of the W3C Process"
+authors:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "This is (the start of) an event-based model of the W3C process; e.g."
+keywords: ["Metadata"]
+originalSources: ["https://www.w3.org/2001/02pd/rec54"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/rec54/versions/2014-06-12.n3
+    name: rec54.ttl
+    sha256: "7921685a830acbf60208d938c098c49b658c8e639e8e6482c0e2f1b4864b7568"
+    size: 4896

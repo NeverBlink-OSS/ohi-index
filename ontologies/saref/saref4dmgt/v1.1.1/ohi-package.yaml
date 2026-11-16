@@ -1,0 +1,32 @@
+namespace: saref
+name: saref4dmgt
+version: "v1.1.1"
+language: owl
+syntax: turtle
+roots: [saref4dmgt.ttl]
+licenses: ["BSD-3-Clause"]
+licenseFiles: [LICENSE]
+dependencies: ["saref/saref-core@v4.1.1", "saref/saref4syst@v1.1.2"]
+title: "SAREF4DMGT"
+authors:
+  - name: "Cyrille Bareau"
+    link: "https://dblp.org/pid/52/1343.html"
+  - name: "François Aïssaoui"
+    link: "https://orcid.org/0000-0001-6772-2161"
+  - name: "Samuel Berlemont"
+    link: "https://orcid.org/0000-0003-0788-9837"
+  - name: "Marc Douet"
+    link: "https://www.researchgate.net/profile/Marc-Douet"
+publishers:
+  - name: "European Telecommunications Standards Institute"
+    link: "https://www.etsi.org/"
+description: "SAREF extension for device management: commands, states and the lifecycle of devices."
+keywords: ["device management", "IoT"]
+originalSources: ["https://saref.etsi.org/saref4dmgt"]
+sources:
+  - url: https://saref.etsi.org/saref4dmgt/v1.1.1/saref4dmgt.ttl
+    sha256: "bf044acf7a2f92c51e05350ac018dbd20acfb5ee38bb8bf175956b4063a69500"
+    size: 57789
+  - url: https://labs.etsi.org/rep/saref/saref4dmgt/-/raw/5e77a7f02fb6e63e4b3376c5ddda32916012371f/LICENSE
+    sha256: "cd32930241fa038f81fc6fc170d6ece74d44f563a575d98cf2d0667f1a50ed0a"
+    size: 1476

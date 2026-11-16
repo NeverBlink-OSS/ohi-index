@@ -1,0 +1,26 @@
+namespace: geosciml
+name: thors
+version: "2017-04-28"
+language: owl
+syntax: turtle
+roots: [thors.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["dcmi/dcelements@2026-10-20"]
+title: "The Temporal Ordinal Reference Systems"
+authors:
+  - name: "Simon J. D. Cox"
+    link: "https://orcid.org/0000-0002-3884-3420"
+publishers:
+  - name: "Simon J. D. Cox"
+    link: "https://orcid.org/0000-0002-3884-3420"
+description: "An OWL representation of the model for Temporal Ordinal Reference Systems defined in GeoSciML v3."
+keywords: ["Time"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/thors/versions/2017-04-28.n3
+    name: thors.ttl
+    sha256: "2589d028383bdc93b53a1d1d055571b82bbdd2f3ea13f2371661ff551fcca39d"
+    size: 19719
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

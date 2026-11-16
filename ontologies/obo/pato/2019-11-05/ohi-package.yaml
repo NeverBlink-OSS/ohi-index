@@ -1,0 +1,32 @@
+namespace: obo
+name: pato
+version: "2019-11-05"
+language: owl
+syntax: rdfxml
+roots: [pato.owl]
+licenses: ["BSD-3-Clause"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Phenotype And Trait Ontology"
+authors:
+  - name: "Georgios Gkoutos"
+    contact: "g.gkoutos@gmail.com"
+    link: "https://orcid.org/0000-0002-2061-091X"
+publishers:
+  - name: "Phenotype And Trait Ontology"
+    link: "https://github.com/pato-ontology"
+description: "An ontology of phenotypic qualities (properties, attributes or characteristics)."
+keywords: ["phenotype", "OBO"]
+originalSources: ["https://github.com/pato-ontology/pato"]
+publications:
+  - title: "The anatomy of phenotype ontologies: principles, properties and applications"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/28387809"
+  - title: "Using ontologies to describe mouse phenotypes"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/15642100"
+sources:
+  - url: https://github.com/pato-ontology/pato/blob/v2019-11-05/pato.owl
+    sha256: "c1bec3604c07cfbcea73728d3500631cb15c765da08003f212e229cd2387ca2b"
+    size: 4500509
+  - url: https://github.com/pato-ontology/pato/blob/v2019-11-05/LICENSE
+    sha256: "ab876310edd2b5e9aaaf637683250e92b6dc862bb521a2d8bb8b28983d8996a4"
+    size: 1482

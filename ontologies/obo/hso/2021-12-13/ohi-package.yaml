@@ -1,0 +1,32 @@
+namespace: obo
+name: hso
+version: "2021-12-13"
+language: owl
+syntax: rdfxml
+roots: [hso.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Health Surveillance Ontology"
+authors:
+  - name: "Fernanda Dórea"
+publishers:
+  - name: "Swedish Veterinary Agency"
+    link: "https://www.sva.se"
+contributors:
+  - name: "Crawford Revie"
+  - name: "Eva Blomqvist"
+  - name: "Karl Hammar"
+  - name: "Matthias Filter"
+  - name: "Patrick Lambrix"
+  - name: "Taras Günther"
+description: "The health Surveillance Ontology (HSO) focuses on \"surveillance system level data\", that is, data outputs from surveillance activities, such as number of samples collected, cases observed, etc."
+keywords: ["health", "OBO"]
+originalSources: ["https://github.com/SVA-SE/HSO"]
+sources:
+  - url: https://github.com/SVA-SE/HSO/blob/2cb6a9badc1e5a33369ffcc28928d4ac99efc71e/hso.owl
+    sha256: "759a191213d53226f35a9b0f76125d49bb2bdf5cfea534953215e5f476d8c7e6"
+    size: 1360745
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

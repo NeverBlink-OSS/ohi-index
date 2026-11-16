@@ -1,0 +1,26 @@
+namespace: obo
+name: geno
+version: "2026-02-02"
+language: owl
+syntax: rdfxml
+roots: [geno.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Genotype Ontology"
+authors:
+  - name: "Monarch Initiative"
+    link: "https://monarchinitiative.org/"
+publishers:
+  - name: "Monarch Initiative"
+    link: "https://monarchinitiative.org/"
+description: "An integrated ontology for representing the genetic variations described in genotypes, and their causal relationships to phenotype and diseases."
+keywords: ["biological systems", "genotype-to-phenotype associations", "OBO"]
+originalSources: ["https://github.com/monarch-initiative/GENO-ontology"]
+sources:
+  - url: https://github.com/monarch-initiative/GENO-ontology/blob/7c42f1a845f59eb95bd9c8051ac0514ea5f01606/geno.owl
+    sha256: "12e4ab6201d8125775e99af459702e7c8dda64ddc71689821d05b599943f1389"
+    size: 1367462
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

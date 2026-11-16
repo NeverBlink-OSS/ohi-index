@@ -1,0 +1,32 @@
+namespace: ecfo
+name: ecfo
+version: "1.0.0"
+language: owl
+syntax: turtle
+roots: [ecfo.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The Emission Conversion Factor Ontology"
+authors:
+  - name: "Iman Naja"
+    link: "https://orcid.org/0000-0001-6634-3266"
+  - name: "Stefano Germano"
+    link: "https://orcid.org/0000-0001-6993-0618"
+  - name: "Milan Markovic"
+    link: "https://orcid.org/0000-0002-5477-287X"
+  - name: "Daniel Garijo"
+    link: "http://purl.org/net/dgarijo"
+publishers:
+  - name: "TEC-Toolkit"
+    link: "https://github.com/TEC-Toolkit"
+description: "This ontology defines a vocabulary for describing carbon emission conversion factors (CF)."
+keywords: ["Environment"]
+sources:
+  - url: https://tec-toolkit.github.io/ECFO/release/1.0.0/ontology.ttl
+    name: ecfo.ttl
+    sha256: "892d88e139c6eb531b6002ea1af2e84a4dcc758f1d18ca70ee101a979980b3fc"
+    size: 25582
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

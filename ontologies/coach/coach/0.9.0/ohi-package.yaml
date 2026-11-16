@@ -1,0 +1,31 @@
+namespace: coach
+name: coach
+version: "0.9.0"
+language: owl
+syntax: turtle
+roots: [coach.ttl]
+licenses: ["CC-BY-NC-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Character of a Character Ontology (COACH)"
+authors:
+  - name: "Enrico Fagnoni"
+    contact: "enrico@fagnoni.it"
+    link: "https://gitlab.com/ecow"
+  - name: "Camilla Canevese"
+    contact: "canevesecamilla@gmail.com"
+    link: "https://gitlab.com/canevesecamilla"
+publishers:
+  - name: "LinkedData.Center"
+    link: "https://linkeddata.center/"
+description: "This ontology describes a person character as a vector of demographic traits, each dimension refers to a concept contained within a specific taxonomy or to an instance of a wikidata item."
+keywords: ["People"]
+originalSources: ["https://gitlab.com/linkeddatacenter/coach"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/coach/versions/2025-02-05.n3
+    name: coach.ttl
+    sha256: "2fa8697e5cca616d54e35e3bcf4bd100cb4134b8189507be2c635ef79537c347"
+    size: 16039
+  - url: https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt
+    sha256: "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+    size: 19347

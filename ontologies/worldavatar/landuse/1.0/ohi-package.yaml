@@ -1,0 +1,27 @@
+namespace: worldavatar
+name: landuse
+version: "1.0"
+language: owl
+syntax: rdfxml
+roots: [landuse.owl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "WorldAvatar land use ontology"
+authors:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+publishers:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+description: "OntoLandUse is an ontology developed for representing different types of land use code used for rural payment services."
+keywords: ["ontology", "worldavatar"]
+originalSources: ["https://github.com/TheWorldAvatar/ontology", "https://theworldavatar.io"]
+sources:
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/ontology/ontolanduse/OntoLandUse.owl
+    name: landuse.owl
+    sha256: "c1369b248868d6448d3ac0a33887f1c99b26498f8131b0738522d76ab8816941"
+    size: 10133
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/LICENSE.txt
+    sha256: "8c29b2cb4c712a0d382d1951ffc7e2a155ec7095c7e92a896f5919eb02c31ea9"
+    size: 1309

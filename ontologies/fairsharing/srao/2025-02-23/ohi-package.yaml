@@ -1,0 +1,27 @@
+namespace: fairsharing
+name: srao
+version: "2025-02-23"
+language: owl
+syntax: rdfxml
+roots: [srao.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "FAIRsharing Subject Ontology"
+authors:
+  - name: "The FAIRsharing Team"
+    contact: "contact@fairsharing.org"
+publishers:
+  - name: "FAIRsharing"
+    link: "https://fairsharing.org/"
+description: "The FAIRsharing Subject Ontology (SRAO) is an application ontology for the categorization of research disciplines across all research domains, from the humanities to the natural sciences."
+keywords: ["agriculture", "biomedical science", "classification", "computer science", "earth science", "environmental science", "fair", "fairsharing"]
+originalSources: ["https://github.com/FAIRsharing/subject-ontology"]
+sources:
+  - url: https://github.com/FAIRsharing/subject-ontology/blob/v2025-02-23/SRAO.owl
+    name: srao.owl
+    sha256: "5ab61e9e24b43d9d5054b51b6035869ee6dd9f66f9456d497c099a99d8056006"
+    size: 497919
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,8 @@
+# JSON Patch (RFC 6902) the hub applies to nhlbi-bdc-dmc-hm.yaml before publishing it.
+# README.md says what each change is for.
+- op: replace
+  path: /enums/HistoricalStatusEnum/include
+  value:
+  - permissible_values:
+      HISTORICAL:
+        description: was present in the patient historically.

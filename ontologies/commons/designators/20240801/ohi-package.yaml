@@ -1,0 +1,28 @@
+namespace: commons
+name: designators
+version: "20240801"
+language: owl
+syntax: rdfxml
+roots: [Designators.rdf]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["commons/annotation-vocabulary@20250801", "commons/text-datatype@20221101"]
+title: "OMG Commons Designators"
+authors:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+publishers:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+contributors:
+  - name: "Davide Sottara"
+  - name: "Dean Allemang"
+  - name: "Elisa Kendall"
+  - name: "Pete Rivett"
+description: "Names, identifiers and other designators of things."
+keywords: ["identifiers", "names"]
+originalSources: ["https://www.omg.org/spec/Commons"]
+sources:
+  - url: https://www.omg.org/spec/Commons/20240801/Designators.rdf
+    sha256: "2c4041e0a4dbfe55578ee7ee217a7334f533f3ef3824f1b1b9ebddcf7d376905"
+    size: 14104

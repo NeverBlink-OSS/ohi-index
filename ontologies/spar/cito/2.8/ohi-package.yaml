@@ -1,0 +1,34 @@
+namespace: spar
+name: cito
+version: "2.8"
+language: owl
+syntax: rdfxml
+roots: [cito.rdf]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["odp/situation@1.1"]
+title: "SPAR Citation Typing Ontology"
+authors:
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+  - name: "David Shotton"
+    link: "http://opencitations.net"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+contributors:
+  - name: "Tim Clark"
+    link: "https://orcid.org/0000-0003-4060-7360"
+  - name: "Paolo Ciccarese"
+    link: "https://orcid.org/0000-0002-5156-2703"
+description: "Ontology of citations and the reasons for them, such as agreeing with, extending or disputing a work."
+keywords: ["citations", "scholarly publications"]
+originalSources: ["https://github.com/SPAROntologies/cito"]
+sources:
+  - url: https://sparontologies.github.io/cito/2018-02-12/cito.xml
+    name: cito.rdf
+    sha256: "7d6b1fb0d4ff2837f6c1681c6cdcbb694c38a9582aed7e7d8fcc96b01a6e8c8f"
+    size: 83693
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

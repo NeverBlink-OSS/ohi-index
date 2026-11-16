@@ -1,0 +1,26 @@
+namespace: ivoa
+name: ivoam
+version: "2026-11-02"
+language: owl
+syntax: turtle
+roots: [ivoam.ttl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Messengers"
+authors:
+  - name: "Raymond Plante"
+  - name: "Markus Demleitner"
+publishers:
+  - name: "International Virtual Observatory Alliance"
+    link: "https://www.ivoa.net/"
+description: "A vocabulary of particles used for observations in astronomy."
+keywords: ["Image", "Industry"]
+sources:
+  - url: https://www.ivoa.net/rdf/messenger/2020-08-26/messenger.ttl
+    name: ivoam.ttl
+    sha256: "963db31e330b2f12d46e3d4a2975bf5fbc3dc8b179cec028bca455655278ddc7"
+    size: 2755
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

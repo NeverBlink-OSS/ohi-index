@@ -1,0 +1,29 @@
+namespace: obo
+name: sepio
+version: "2023-06-13"
+language: owl
+syntax: rdfxml
+roots: [sepio.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Scientific Evidence and Provenance Information Ontology"
+authors:
+  - name: "Monarch Initiative"
+    link: "https://monarchinitiative.org/"
+publishers:
+  - name: "Monarch Initiative"
+    link: "https://monarchinitiative.org/"
+contributors:
+  - name: "Matthew H. Brush"
+    link: "https://orcid.org/0000-0002-1048-5019"
+description: "An ontology for representing the provenance of scientific claims and the evidence that supports them."
+keywords: ["investigations", "scientific claims", "evidence", "OBO"]
+originalSources: ["https://github.com/monarch-initiative/SEPIO-ontology"]
+sources:
+  - url: https://github.com/monarch-initiative/SEPIO-ontology/blob/461b854e49660a21656f011aa20cb46498100e54/sepio.owl
+    sha256: "ae9161620d677fe16857e0704006b7d07086e2ac75688261be901b0f9c3db488"
+    size: 574859
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

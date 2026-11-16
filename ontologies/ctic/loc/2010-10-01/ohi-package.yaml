@@ -1,0 +1,26 @@
+namespace: ctic
+name: loc
+version: "2010-10-01"
+language: owl
+syntax: turtle
+roots: [loc.ttl]
+licenses: ["CC-BY-NC-SA-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Location Vocabulary"
+authors:
+  - name: "Fundación CTIC"
+    link: "https://www.fundacionctic.org/"
+publishers:
+  - name: "Fundación CTIC"
+    link: "https://www.fundacionctic.org/"
+description: "This vocabulary is used to describe the physical location of public places."
+keywords: ["Geography"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/loc/versions/2010-10-01.n3
+    name: loc.ttl
+    sha256: "45726fd35c547abdbb1f2523819a7d507261b27273c8deaa862f75d34d59ef1e"
+    size: 6880
+  - url: https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode.txt
+    sha256: "8812f83442fd0eca14eb0208988e190fdcbfebec58fa5459d3218edfdfdc5a32"
+    size: 22306

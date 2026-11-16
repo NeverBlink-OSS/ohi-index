@@ -1,0 +1,27 @@
+namespace: heycatwonton
+name: essdivesamplerf
+version: "2026-11-02"
+language: linkml
+syntax: yaml
+roots: [essdivesamplerf.yaml]
+patch: essdivesamplerf.patch.yaml
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "essdive-sample-reporting-format"
+authors:
+  - name: "Catherine Wong"
+    contact: "catwong@lbl.gov"
+publishers:
+  - name: "Catherine Wong"
+    contact: "catwong@lbl.gov"
+description: "ESS-DIVE recommends registering samples for Global Sample Numbers (IGSNs) through the System for Earth Sample Registration (SESAR)."
+keywords: ["Schema"]
+originalSources: ["https://github.com/heycatwonton/EssDiveSampleRF"]
+sources:
+  - url: https://github.com/heycatwonton/EssDiveSampleRF/blob/3cf80f046ccc74cf9d3a01325691c4b83ec074c1/src/essdivesamplerf/schema/essdivesamplerf.yaml
+    sha256: "021a4c09726cb9531ca8e036a7f953ff0a13ebbacb132afff4892726ee1765eb"
+    size: 56075
+  - url: https://github.com/heycatwonton/EssDiveSampleRF/blob/3cf80f046ccc74cf9d3a01325691c4b83ec074c1/LICENSE
+    sha256: "9d917d46d008a0363e50a65d0bfea5946d24b6d0038437db7481e73386d9cfa1"
+    size: 1082

@@ -1,0 +1,26 @@
+namespace: linkml
+name: owlstar
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [owlstar.ttl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Ontological Interpretations for Web Property Graphs"
+authors:
+  - name: "Christopher J. Mungall"
+    link: "https://mungall.dev"
+publishers:
+  - name: "LinkML"
+    link: "https://linkml.io/"
+description: "This proposed vocabulary allows edges in Property Graphs (e.g Neo4j, RDF*) to be augmented with edge properties that specify ontological semantics, including (but not limited) to OWL-DL interpretations."
+keywords: ["ontology"]
+originalSources: ["https://github.com/linkml/owlstar", "https://linkml.io/owlstar"]
+sources:
+  - url: https://github.com/linkml/owlstar/blob/00e5a8fb73451811bafa1f6f07b48d0cb2721b0b/owlstar.ttl
+    sha256: "6203dd1d81b888b8a68f9e5b27fba2d878784840ba96fa53fa229237e63448a8"
+    size: 6302
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

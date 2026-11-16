@@ -1,0 +1,27 @@
+namespace: oseg
+name: okh
+version: "1.1.0"
+language: owl
+syntax: turtle
+roots: [okh.ttl]
+licenses: ["GPL-3.0-only"]
+licenseFiles: [gpl-3.0.txt]
+dependencies: []
+title: "Open Know How (OKH) ontology"
+authors:
+  - name: "Martin Häuer"
+  - name: "Robin Vobruba"
+publishers:
+  - name: "Internet of Production Alliance"
+    link: "https://www.internetofproduction.org/"
+description: "Used for indexing, searching and comparing Open Source Hardware projects."
+keywords: ["Methods"]
+originalSources: ["https://github.com/iop-alliance/OpenKnowHow"]
+sources:
+  - url: https://ontprox.dev.opensourceecology.de/?uri=https://raw.githubusercontent.com/iop-alliance/OpenKnowHow/master/src/spec/okh.ttl&file-ext=ttl
+    name: okh.ttl
+    sha256: "3307f7715191601392e33e4ee3eecc0c78b8fa59218039f9677c0ce0aee251cf"
+    size: 32788
+  - url: https://www.gnu.org/licenses/gpl-3.0.txt
+    sha256: "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    size: 35149

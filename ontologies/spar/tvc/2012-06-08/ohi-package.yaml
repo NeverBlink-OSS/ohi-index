@@ -1,0 +1,32 @@
+namespace: spar
+name: tvc
+version: "2012-06-08"
+language: owl
+syntax: rdfxml
+roots: [tvc.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE.md]
+dependencies: ["odp/timeindexedsituation@1.0", "w3c/time@2016"]
+title: "SPAR Time-indexed Value in Context"
+authors:
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+contributors:
+  - name: "David Shotton"
+    link: "http://opencitations.net"
+  - name: "Fabio Vitali"
+    link: "https://orcid.org/0000-0002-7562-5203"
+description: "Pattern for values that hold within a context and a period of time."
+keywords: ["patterns", "time"]
+originalSources: ["https://github.com/SPAROntologies/tvc"]
+sources:
+  - url: https://sparontologies.github.io/tvc/2012-06-08/tvc.xml
+    name: tvc.rdf
+    sha256: "2bc1fbb6cfb7e9b8853482facfaba1fee4ab855d603c2e8bb319a2c1de631dc8"
+    size: 13736
+  - url: https://github.com/SPAROntologies/tvc/blob/e78a0909ea965b5ecf0f10d1b8e7ab6009c6d046/LICENSE.md
+    sha256: "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    size: 18656

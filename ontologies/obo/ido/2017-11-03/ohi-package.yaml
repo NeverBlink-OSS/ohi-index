@@ -1,0 +1,37 @@
+namespace: obo
+name: ido
+version: "2017-11-03"
+language: owl
+syntax: rdfxml
+roots: [ido.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Infectious Disease Ontology"
+authors:
+  - name: "Alexander D. Diehl"
+  - name: "Albert Goldfain"
+  - name: "Alan Ruttenberg"
+  - name: "Bjoern Peters"
+  - name: "Lindsay Cowell"
+    contact: "Lindsay.Cowell@utsouthwestern.edu"
+    link: "https://orcid.org/0000-0003-1617-8244"
+  - name: "Barry Smith"
+publishers:
+  - name: "Infectious Disease Ontology"
+    link: "https://github.com/infectious-disease-ontology"
+contributors:
+  - name: "Jie Zheng"
+description: "A set of interoperable ontologies that will together provide coverage of the infectious disease domain."
+keywords: ["health", "OBO"]
+originalSources: ["https://github.com/infectious-disease-ontology/infectious-disease-ontology", "http://www.bioontology.org/wiki/index.php/Infectious_Disease_Ontology"]
+publications:
+  - title: "The Infectious Disease Ontology in the age of COVID-19"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/34275487"
+sources:
+  - url: https://github.com/infectious-disease-ontology/infectious-disease-ontology/blob/2017-11-03/ido.owl
+    sha256: "de5d35114bb65b7475551388e8a7899d202c4d69672bd9e39466605119fafb50"
+    size: 767134
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

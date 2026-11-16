@@ -1,0 +1,24 @@
+namespace: comicmeta
+name: cbo
+version: "0.16.0"
+language: owl
+syntax: turtle
+roots: [cbo.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Comic Book Ontology"
+authors:
+  - name: "Sean Petiya"
+publishers:
+  - name: "Sean Petiya"
+description: "A metadata vocabulary for describing comic books and comic book collections."
+keywords: ["Image", "Metadata"]
+originalSources: ["https://github.com/comicmeta/ComicBookOntology"]
+sources:
+  - url: https://comicmeta.org/cbo/cbo.ttl
+    sha256: "ea094c8a46e2829864b1daa558ff8a1a867cde801015c27cea1402e72f78d9ce"
+    size: 81791
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

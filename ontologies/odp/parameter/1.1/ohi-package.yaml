@@ -1,0 +1,18 @@
+namespace: odp
+name: parameter
+version: "1.1"
+language: owl
+syntax: rdfxml
+roots: [parameter.owl]
+licenses: ["unknown (fair use)"]
+licenseFiles: [LICENSE]
+dependencies: ["odp/cpannotationschema@2026-10-21"]
+title: "ODP Parameter"
+authors:
+  - name: "Valentina Presutti"
+publishers:
+  - name: "Ontology Design Patterns portal"
+    link: "http://ontologydesignpatterns.org/"
+description: "Ontology design pattern for parameters that constrain concepts."
+keywords: ["ontology design patterns", "parameters"]
+originalSources: ["http://ontologydesignpatterns.org"]

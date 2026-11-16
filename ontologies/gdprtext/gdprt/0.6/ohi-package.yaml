@@ -1,0 +1,26 @@
+namespace: gdprtext
+name: gdprt
+version: "0.6"
+language: owl
+syntax: turtle
+roots: [gdprt.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "GDPR text EXTensions"
+authors:
+  - name: "Harshvardhan J. Pandit"
+publishers:
+  - name: "ADAPT Centre, Trinity College Dublin"
+    link: "https://www.adaptcentre.ie/"
+description: "The General Data Protection Regulation (GDPR) is comprised of several articles, each with points that refer to specific concepts."
+keywords: ["Metadata", "People", "Society"]
+originalSources: ["https://openscience.adaptcentre.ie/ontologies/GDPRtEXT/deliverables/docs/ontology", "https://openscience.adaptcentre.ie/projects/GDPRtEXT"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/gdprt/versions/2018-07-03.n3
+    name: gdprt.ttl
+    sha256: "b5f5ecabd6644971b0229a0ee6e09c7f762949e345a62dcad6816903a62e9ce5"
+    size: 110023
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

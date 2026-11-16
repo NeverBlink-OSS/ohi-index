@@ -1,0 +1,28 @@
+namespace: spar
+name: fr
+version: "1.0"
+language: owl
+syntax: rdfxml
+roots: [fr.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE.md]
+dependencies: ["spar/datacite@2.0.0"]
+title: "SPAR FAIR* Reviews Ontology"
+authors:
+  - name: "Idafen Santana-Pérez"
+    link: "http://idafen.wordpress.com/"
+  - name: "María Poveda-Villalón"
+    link: "https://orcid.org/0000-0003-3587-0367"
+publishers:
+  - name: "Ontology Engineering Group, Universidad Politécnica de Madrid"
+    link: "https://oeg.fi.upm.es/"
+contributors:
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+description: "Ontology of peer reviews and other reviews of scholarly works."
+keywords: ["peer review", "scholarly publications"]
+originalSources: ["https://github.com/SPAROntologies/fr"]
+sources:
+  - url: https://github.com/SPAROntologies/fr/blob/6705fc46696fef00ee33f2d46f52e2bfb0f5c04f/LICENSE.md
+    sha256: "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    size: 18656

@@ -1,0 +1,29 @@
+namespace: lirmm
+name: food
+version: "2013-04-27"
+language: owl
+syntax: turtle
+roots: [food.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Food Ontology"
+authors:
+  - name: "François Scharffe"
+    link: "http://www.scharffe.fr"
+  - name: "Stéphane Gigandet"
+  - name: "Emmanuel Nauer"
+publishers:
+  - name: "Laboratory of Computer Science, Robotics and Microelectronics of Montpellier (LIRMM)"
+    link: "https://www.lirmm.fr/"
+description: "This ontology models the Food domain."
+keywords: ["Food"]
+originalSources: ["http://data.lirmm.fr/ontologies/food.html"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/food/versions/2013-04-27.n3
+    name: food.ttl
+    sha256: "c165d331832949d81fa5b4a30a4a45aae2218e4cff12eea9ed208282020ff911"
+    size: 6823
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

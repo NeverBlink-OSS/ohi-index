@@ -1,0 +1,39 @@
+namespace: saref
+name: saref4ener
+version: "v1.2.1"
+language: owl
+syntax: turtle
+roots: [saref4ener.ttl]
+licenses: ["BSD-3-Clause"]
+licenseFiles: [LICENSE]
+dependencies: ["saref/saref-core@v3.1.1"]
+title: "SAREF4ENER"
+authors:
+  - name: "Laura Daniele"
+  - name: "Cornelis Bouter"
+  - name: "Giulia Biagioni"
+publishers:
+  - name: "European Telecommunications Standards Institute"
+    link: "https://www.etsi.org/"
+contributors:
+  - name: "Anais Walle"
+    link: "https://www.linkedin.com/in/ana%C3%AFs-walle-050baa159/"
+  - name: "George Hallak"
+    link: "https://www.linkedin.com/in/george-hallak-368301157/"
+  - name: "Georg Jung"
+    link: "https://www.linkedin.com/in/georgjung/"
+  - name: "Josef Baumeister"
+    link: "https://www.linkedin.com/in/josef-baumeister-a221422/"
+  - name: "Mente Konsman"
+  - name: "Wilco Wijbrandi"
+    link: "https://www.linkedin.com/in/wilco-wijbrandi-3994ab4b/"
+description: "SAREF extension for energy devices and flexible energy use."
+keywords: ["energy", "IoT", "smart appliances"]
+originalSources: ["https://saref.etsi.org/saref4ener"]
+sources:
+  - url: https://saref.etsi.org/saref4ener/v1.2.1/saref4ener.ttl
+    sha256: "d9055c041ae957d9bd5183a28f2b641761c1e8d23d02006bb6c96e2b75849077"
+    size: 144636
+  - url: https://labs.etsi.org/rep/saref/saref4ener/-/raw/f3d2312dcb295fb6c65c74747a3246b27f9b3c8d/LICENSE
+    sha256: "8f102e377f1ad7ed9fa90d9dd6cb9ab75e071949dcdb8cb413a10dc98d80b9d4"
+    size: 1475

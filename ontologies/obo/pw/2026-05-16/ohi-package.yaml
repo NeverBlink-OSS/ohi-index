@@ -1,0 +1,31 @@
+namespace: obo
+name: pw
+version: "2026-05-16"
+language: owl
+syntax: rdfxml
+roots: [pathway.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Pathway ontology"
+authors:
+  - name: "G. Thomas Hayman"
+  - name: "Victoria Petri"
+publishers:
+  - name: "Rat Genome Database"
+    link: "https://rgd.mcw.edu/"
+description: "A controlled vocabulary for annotating gene products to pathways."
+keywords: ["biological systems", "biological process", "OBO"]
+originalSources: ["http://rgd.mcw.edu/rgdweb/ontology/search.html", "https://github.com/rat-genome-database/PW-Pathway-Ontology"]
+publications:
+  - title: "The Rat Genome Database pathway portal."
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/21478484"
+  - title: "The pathway ontology - updates and applications."
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/24499703"
+sources:
+  - url: https://download.rgd.mcw.edu/ontology/pathway/pathway.owl
+    sha256: "9d920e86e59b98c1e750fb12cf3261bc5965119910b8362b74dcdcc7e1b84cb0"
+    size: 5404497
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

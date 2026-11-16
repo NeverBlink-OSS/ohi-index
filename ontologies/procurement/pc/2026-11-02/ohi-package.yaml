@@ -1,0 +1,36 @@
+namespace: procurement
+name: pc
+version: "2026-11-02"
+language: owl
+syntax: rdfxml
+roots: [pc.rdf]
+licenses: ["CC-BY-3.0-CZ"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Public Contracts Ontology"
+authors:
+  - name: "Jakub Klímek"
+    contact: "klimek.mff@gmail.com"
+  - name: "Jindřich Mynarz"
+    link: "http://mynarz.net/"
+  - name: "Martin Nečaský"
+    contact: "martinnec@gmail.com"
+    link: "http://www.ksi.mff.cuni.cz/~necasky"
+  - name: "Pavel Nohejl"
+    contact: "nohejl.pavel@gmail.com"
+    link: "http://www.facebook.com/nohis"
+  - name: "Josef Petrák"
+  - name: "Vojtěch Svátek"
+  - name: "Tomáš Knap"
+    contact: "toknap@gmail.com"
+publishers:
+  - name: "OpenData.cz"
+    link: "http://www.opendata.cz"
+description: "Public Contracts Ontology offers a means of expression for describing public contracts in the public sector."
+keywords: ["Contracts"]
+originalSources: ["https://github.com/opendatacz/public-contracts-ontology"]
+sources:
+  - url: https://raw.githubusercontent.com/opendatacz/public-contracts-ontology/master/public-contracts.rdf
+    name: pc.rdf
+    sha256: "857dc729162ece913680a92c1af78064333f62ac9b9795c7ab8b5229efc7975b"
+    size: 49867

@@ -1,0 +1,28 @@
+namespace: p-plan
+name: p-plan
+version: "1.3"
+language: owl
+syntax: turtle
+roots: [p-plan.ttl]
+licenses: ["CC-BY-NC-SA-2.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The P-PLAN Ontology"
+authors:
+  - name: "Daniel Garijo"
+    link: "http://purl.org/net/dgarijo"
+  - name: "Yolanda Gil"
+    link: "http://www.isi.edu/~gil/"
+publishers:
+  - name: "Daniel Garijo"
+    link: "http://purl.org/net/dgarijo"
+  - name: "Yolanda Gil"
+    link: "http://www.isi.edu/~gil/"
+description: "The Ontology for Provenance and Plans (P-Plan) is an extension of the PROV-O ontology [PROV-O] created to represent the plans that guided the execution of scientific processes."
+keywords: ["Methods"]
+originalSources: ["http://www.opmw.org/model/p-plan"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/p-plan/versions/2014-03-12.n3
+    name: p-plan.ttl
+    sha256: "adb2ce268e954c0d94571eb944fec80128af873a98951d20c9f29dd93f8617f4"
+    size: 7829

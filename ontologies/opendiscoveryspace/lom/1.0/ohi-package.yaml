@@ -1,0 +1,27 @@
+namespace: opendiscoveryspace
+name: lom
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [lom.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Learning Object Metadata Ontology"
+authors:
+  - name: "Enayat Rajabi"
+    contact: "enayat.rajabi@uah.es"
+publishers:
+  - name: "University of Alcala"
+    link: "https://www.uah.es/"
+description: "An ontology and vocabulary used for exposing IEEE LOM, a metadata standard for educational contents, as Linked Data."
+keywords: ["Metadata"]
+originalSources: ["http://data.opendiscoveryspace.eu"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/lom/versions/2015-03-30.n3
+    name: lom.ttl
+    sha256: "278528d061b1a6f892139e71ec739b57d84ceee9e2be28a8b97a31dbda1fa9e9"
+    size: 90662
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

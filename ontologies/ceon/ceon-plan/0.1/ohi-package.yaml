@@ -1,0 +1,27 @@
+namespace: ceon
+name: ceon-plan
+version: "0.1"
+language: owl
+syntax: turtle
+roots: [ceon-plan.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["ceon/ceon-processodp@0.5"]
+title: "Circular Economy Ontology Network (CEON) - Plan Module"
+authors:
+  - name: "Huanyu Li"
+publishers:
+  - name: "Onto-DESIDE project"
+    link: "https://ontodeside.eu/"
+contributors:
+  - name: "Eva Blomqvist"
+description: "The Plan module of CEON (Circular Economy Ontology Network)."
+keywords: ["Events"]
+sources:
+  - url: https://liusemweb.github.io/CEON/ontology/plan/latest/plan.ttl
+    name: ceon-plan.ttl
+    sha256: "4bb40b205e232c971acbb2aec35a3c55bcce4080c4d4bdec22fb9df3f905187e"
+    size: 5151
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

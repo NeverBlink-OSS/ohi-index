@@ -1,0 +1,28 @@
+namespace: spitfire-project
+name: spt
+version: "2013-11-06"
+language: owl
+syntax: turtle
+roots: [spt.ttl]
+licenses: ["W3C"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "SPITFIRE Ontology"
+authors:
+  - name: "Myriam Leggieri"
+  - name: "Alexandre Passant"
+publishers:
+  - name: "SPITFIRE project"
+    link: "http://spitfire-project.eu/"
+description: "TheSPITFIRE Ontology (spt) is based on the alignment among Dolce+DnS Ultralite(dul), the W3C Semantic Sensor Network ontology (ssn) and the Event Model-F ontology (event)."
+keywords: ["IoT", "Methods"]
+originalSources: ["http://spitfire-project.eu/incontextsensing/ontology.php"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/spt/versions/2013-11-06.n3
+    name: spt.ttl
+    sha256: "777db2d8147bd0b938e89d690c9d4aa860fd08ed9d5ca471d05a12277ea720b8"
+    size: 32936
+  - url: https://raw.githubusercontent.com/spdx/license-list-data/v3.29.0/text/W3C.txt
+    name: LICENSE
+    sha256: "df7429635bacfb82b3e92c2fff50553949afd97389890d53a67b67cbf9fba68e"
+    size: 2701

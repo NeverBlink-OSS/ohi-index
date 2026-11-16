@@ -1,0 +1,29 @@
+namespace: obo
+name: ddanat
+version: "2026-11-01"
+language: owl
+syntax: rdfxml
+roots: [dicty_anatomy.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Dictyostelium discoideum anatomy"
+authors:
+  - name: "dictyBase"
+    link: "https://dictycr.org"
+publishers:
+  - name: "dictyBase"
+    link: "https://dictycr.org"
+description: "A structured controlled vocabulary of the anatomy of the slime-mold Dictyostelium discoideum."
+keywords: ["anatomy and development", "OBO"]
+originalSources: ["https://github.com/dictyBase/migration-data", "http://dictybase.org"]
+publications:
+  - title: "An anatomy ontology to represent biological knowledge in Dictyostelium discoideum"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/18366659"
+sources:
+  - url: https://github.com/dictyBase/migration-data/blob/11d0918c7d3318a78e7a444518c0cbcb88a3eb17/ontologies/dicty_anatomy.owl
+    sha256: "bbc97bda154ddabff4abacad2eb96c73dacfbd1da36860541cf1140c1a8441cf"
+    size: 304336
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

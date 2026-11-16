@@ -1,0 +1,29 @@
+namespace: obo
+name: wbbt
+version: "2023-04-07"
+language: owl
+syntax: rdfxml
+roots: [wbbt.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "C. elegans Gross Anatomy Ontology"
+authors:
+  - name: "WormBase"
+    link: "https://wormbase.org/"
+publishers:
+  - name: "WormBase"
+    link: "https://wormbase.org/"
+description: "A structured controlled vocabulary of the anatomy of <i>Caenorhabditis elegans</i>."
+keywords: ["anatomy and development", "OBO"]
+originalSources: ["https://github.com/obophenotype/c-elegans-gross-anatomy-ontology"]
+publications:
+  - title: "Building a cell and anatomy ontology of Caenorhabditis elegans"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/18629098"
+sources:
+  - url: https://github.com/obophenotype/c-elegans-gross-anatomy-ontology/blob/v2023-04-07/wbbt.owl
+    sha256: "a0c60df6ad0743b10b24c80e187aade3fd5b7aec7fe260c981b06f75183e59bd"
+    size: 11796695
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

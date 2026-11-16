@@ -1,0 +1,5 @@
+# JSON Patch (RFC 6902) the hub applies to standards-schemas.yaml before publishing it.
+# README.md says what each change is for.
+- op: add
+  path: /prefixes/MESH
+  value: http://id.nlm.nih.gov/mesh/

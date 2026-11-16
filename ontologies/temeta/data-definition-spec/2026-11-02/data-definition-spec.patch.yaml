@@ -1,0 +1,11 @@
+# JSON Patch (RFC 6902) the hub applies to data-definition-spec.yaml before publishing it.
+# README.md says what each change is for.
+- op: replace
+  path: /classes/Relationship/from_schema
+  value: https://cdisc.org/cosmos/sdtm_v1.0#
+- op: replace
+  path: /enums/LinkingPhraseEnum/from_schema
+  value: https://cdisc.org/cosmos/sdtm_v1.0#
+- op: replace
+  path: /enums/PredicateTermEnum/from_schema
+  value: https://cdisc.org/cosmos/sdtm_v1.0#

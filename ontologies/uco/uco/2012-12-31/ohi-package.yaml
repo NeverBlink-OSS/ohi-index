@@ -1,0 +1,31 @@
+namespace: uco
+name: uco
+version: "2012-12-31"
+language: owl
+syntax: turtle
+roots: [uco.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["goodrelations/gr@2011-10-01", "vso/vso@2010-10-02"]
+title: "Used Cars Ontology"
+authors:
+  - name: "Hepp Research GmbH"
+    link: "http://www.heppresearch.com/"
+  - name: "MakoLab S.A."
+    link: "https://makolab.com/"
+publishers:
+  - name: "Hepp Research GmbH"
+    link: "http://www.heppresearch.com/"
+  - name: "MakoLab S.A."
+    link: "https://makolab.com/"
+description: "A Web vocabulary for describing aspects of used cars for e-commerce."
+keywords: ["eBusiness"]
+originalSources: ["http://ontologies.makolab.com/uco/ns.html#"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/uco/versions/2012-12-31.n3
+    name: uco.ttl
+    sha256: "29c21b515582755dc9741d6696b4e45321ed698ae0462e2986a647f9a01abf71"
+    size: 29682
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

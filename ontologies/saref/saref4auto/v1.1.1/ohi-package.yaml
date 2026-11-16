@@ -1,0 +1,29 @@
+namespace: saref
+name: saref4auto
+version: "v1.1.1"
+language: owl
+syntax: turtle
+roots: [saref4auto.ttl]
+licenses: ["BSD-3-Clause"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "SAREF4AUTO"
+authors:
+  - name: "Laura Daniele"
+  - name: "NETELLANY"
+    link: "http://netellany.fr/"
+publishers:
+  - name: "European Telecommunications Standards Institute"
+    link: "https://www.etsi.org/"
+contributors:
+  - name: "Ramon S. Schwartz"
+description: "SAREF extension for the automotive domain: vehicles, platooning and parking."
+keywords: ["automotive", "IoT", "vehicles"]
+originalSources: ["https://saref.etsi.org/saref4auto"]
+sources:
+  - url: https://saref.etsi.org/saref4auto/v1.1.1/saref4auto.ttl
+    sha256: "2ac45aa00993957eb42b1230efbab4447c0cd469655e4cfd6ee44850419f3354"
+    size: 109083
+  - url: https://labs.etsi.org/rep/saref/saref4auto/-/raw/3ccf0a68a4a076e4499e00285f15e1cebfaf54fb/LICENSE
+    sha256: "8f102e377f1ad7ed9fa90d9dd6cb9ab75e071949dcdb8cb413a10dc98d80b9d4"
+    size: 1475

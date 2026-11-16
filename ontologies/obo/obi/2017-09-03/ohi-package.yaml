@@ -1,0 +1,83 @@
+namespace: obo
+name: obi
+version: "2017-09-03"
+language: owl
+syntax: rdfxml
+roots: [obi.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Ontology for Biomedical Investigations"
+authors:
+  - name: "Pierre Grenon"
+  - name: "Bjoern Peters"
+  - name: "Matthew Pocock"
+  - name: "Liju Fan"
+  - name: "Christian Bolling"
+  - name: "Chris Taylor"
+  - name: "Chris Stoeckert"
+  - name: "Tina Hernandez-Boussard"
+  - name: "Jessica Turner"
+  - name: "Allyson Lister"
+  - name: "Yongqun He"
+  - name: "Jie Zheng"
+  - name: "Tanya Gray"
+  - name: "Bill Bug"
+  - name: "Lawrence Hunter"
+  - name: "Christopher J. Mungall"
+  - name: "Daniel Schober"
+  - name: "Helen C. Causton"
+  - name: "James Malone"
+  - name: "Kevin Clancy"
+  - name: "Susanna-Assunta Sansone"
+  - name: "Norman Morrison"
+  - name: "Daniel Rubin"
+  - name: "Cristian Cocos"
+  - name: "Stefan Wiemann"
+  - name: "Melanie Courtot"
+  - name: "Helen Parkinson"
+  - name: "Luisa Montecchi"
+  - name: "Jennifer Fostel"
+  - name: "Jeffrey Grethe"
+  - name: "Eric Deutsch"
+  - name: "Phillip Lord"
+  - name: "Gilberto Fragoso"
+  - name: "Philippe Rocca-Serra"
+  - name: "Elisabetta Manduchi"
+  - name: "Mervi Heiskanen"
+  - name: "Richard Bruskiewich"
+  - name: "Robert Stevens"
+  - name: "Dirk Derom"
+  - name: "Larisa Soldatova"
+  - name: "James A. Overton"
+  - name: "Dawn Field"
+  - name: "Trish Whetzel"
+  - name: "Alan Ruttenberg"
+  - name: "Frank Gibson"
+  - name: "Matthew H. Brush"
+  - name: "Richard H. Scheuermann"
+  - name: "John Westbrook"
+  - name: "Barry Smith"
+  - name: "Carlo Torniai"
+  - name: "Jay Greenbaum"
+  - name: "Ryan R. Brinkman"
+  - name: "Monnie McGee"
+  - name: "Holger Stenzhorn"
+  - name: "Melissa Haendel"
+  - name: "Joe White"
+publishers:
+  - name: "OBI Consortium"
+    link: "http://obi-ontology.org"
+description: "An integrated ontology for the description of life-science and clinical investigations."
+keywords: ["investigations", "OBO"]
+originalSources: ["https://github.com/obi-ontology/obi", "http://obi-ontology.org"]
+publications:
+  - title: "The Ontology for Biomedical Investigations"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/27128319"
+sources:
+  - url: https://github.com/obi-ontology/obi/blob/v2017-09-03/obi.owl
+    sha256: "1751b52958634717d31330d839a05f4a0db867348c3e6f8d5110a64d6b13ff47"
+    size: 5922828
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

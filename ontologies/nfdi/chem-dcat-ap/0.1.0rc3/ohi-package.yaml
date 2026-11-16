@@ -1,0 +1,32 @@
+namespace: nfdi
+name: chem-dcat-ap
+version: "0.1.0rc3"
+language: linkml
+syntax: yaml
+roots: [chem_dcat_ap.yaml]
+patch: chem_dcat_ap.patch.yaml
+licenses: ["MIT", "CC-BY-4.0"]
+licenseFiles: [LICENSE, legalcode.txt]
+dependencies: []
+title: "Chem-DCAT-AP"
+authors:
+  - name: "David Linke"
+    contact: "david.linke@catalysis.de"
+  - name: "Philip Strömert"
+    contact: "philip.stroemert@tib.eu"
+publishers:
+  - name: "German National Research Data Infrastructure (NFDI)"
+    link: "https://www.nfdi.de/"
+description: "DCAT application profile for describing chemistry research data."
+keywords: ["chemistry", "research data", "data catalogs"]
+originalSources: ["https://github.com/nfdi-de/chem-dcat-ap"]
+sources:
+  - url: https://github.com/nfdi-de/chem-dcat-ap/blob/v0.1.0rc3/LICENSE
+    sha256: "3facae5bb11b1f5d28879da00b221800f207dad6ada2ca119f4f1edc1a3b59c8"
+    size: 1084
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657
+  - url: https://nfdi-de.github.io/chem-dcat-ap/v0.1.0rc3/schema/merged-yaml/chem_dcat_ap.yaml
+    sha256: "8f565a1a426cd730c0ef3f9fcb38fb1c598d7ee1e055481fad82e79b7008206d"
+    size: 308630

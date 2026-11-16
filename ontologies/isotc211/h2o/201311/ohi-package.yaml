@@ -1,0 +1,28 @@
+namespace: isotc211
+name: h2o
+version: "201311"
+language: owl
+syntax: turtle
+roots: [h2o.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["dcmi/dcelements@2026-10-20"]
+title: "Ontology for conversion of ISO/TC 211"
+authors:
+  - name: "Simon J. D. Cox"
+  - name: "CSIRO Australia"
+publishers:
+  - name: "Commonwealth Scientific and Industrial Research Organisation"
+    link: "https://www.csiro.au/"
+contributors:
+  - name: "ISO/TC 211 Project Team 19150-2"
+description: "This ontology establishes classes corresponding to stereotypes used in ISO-conformant models, as used in the rules for conversion of the ISO TC 211 Harmonized Model from the UML to OWL representations."
+keywords: ["Methods"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/h2o/versions/2014-01-07.n3
+    name: h2o.ttl
+    sha256: "54a65940dd0175bfea29d2120ac0eed7ea81ebd3b9c74994aeddc0395085bd7e"
+    size: 5420
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

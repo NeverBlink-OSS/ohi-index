@@ -1,0 +1,54 @@
+namespace: bfo
+name: bfo
+version: "2019-08-26"
+language: owl
+syntax: rdfxml
+roots: [bfo_classes_only.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Basic Formal Ontology"
+authors:
+  - name: "Alan Ruttenberg"
+  - name: "Albert Goldfain"
+  - name: "Barry Smith"
+    contact: "phismith@buffalo.edu"
+    link: "https://orcid.org/0000-0003-1384-116X"
+  - name: "William D. Duncan"
+  - name: "Bjoern Peters"
+  - name: "Christopher J. Mungall"
+  - name: "David Osumi-Sutherland"
+  - name: "Fabian Neuhaus"
+  - name: "Holger Stenzhorn"
+  - name: "James A. Overton"
+  - name: "Janna Hastings"
+  - name: "Jie Zheng"
+  - name: "Jonathan Bona"
+  - name: "Lawrence Hunter"
+  - name: "Leonard Jacuzzo"
+  - name: "Ludger Jansen"
+  - name: "Mark Ressler"
+  - name: "Mathias Brochhausen"
+  - name: "Mauricio B. de Almeida"
+  - name: "Melanie Courtot"
+  - name: "Pierre Grenon"
+  - name: "Randall Dipert"
+  - name: "Ron Rudnicki"
+  - name: "Selja Seppälä"
+  - name: "Stefan Schulz"
+  - name: "Thomas Bittner"
+  - name: "Werner Ceusters"
+  - name: "Yongqun He"
+publishers:
+  - name: "Basic Formal Ontology (BFO)"
+    link: "http://basic-formal-ontology.org/"
+description: "The upper level ontology upon which OBO Foundry ontologies are built."
+keywords: ["upper", "OBO"]
+originalSources: ["https://github.com/BFO-ontology/BFO", "http://ifomis.org/bfo", "http://basic-formal-ontology.org"]
+sources:
+  - url: https://github.com/BFO-ontology/BFO/blob/v2019-08-26/bfo_classes_only.owl
+    sha256: "ca399c2b8b79f4d12b296d5c4ea4c00940e1f82cee7d1a50ddc292aa4f6c4666"
+    size: 157931
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

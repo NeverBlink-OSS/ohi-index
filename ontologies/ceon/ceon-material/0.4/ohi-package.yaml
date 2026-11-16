@@ -1,0 +1,29 @@
+namespace: ceon
+name: ceon-material
+version: "0.4"
+language: owl
+syntax: turtle
+roots: [ceon-material.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["ceon/ceon-resourceodp@0.5"]
+title: "Circular Economy Ontology Network (CEON) - Material Module"
+authors:
+  - name: "Huanyu Li"
+publishers:
+  - name: "Onto-DESIDE project"
+    link: "https://ontodeside.eu/"
+contributors:
+  - name: "Eva Blomqvist"
+  - name: "Mikael Lindecrantz"
+  - name: "Robin Keskisärkkä"
+description: "The Material module of CEON (Circular Economy Ontology Network)."
+keywords: ["Industry"]
+sources:
+  - url: https://liusemweb.github.io/CEON/ontology/material/latest/material.ttl
+    name: ceon-material.ttl
+    sha256: "6a73b7816770a11c695c0c4a1b74d488468c89dd2c3779a2fad6ee8a7a99fe5e"
+    size: 11430
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

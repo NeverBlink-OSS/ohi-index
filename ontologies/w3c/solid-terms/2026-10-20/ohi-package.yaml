@@ -1,0 +1,27 @@
+namespace: w3c
+name: solid-terms
+version: "2026-10-20"
+language: owl
+syntax: turtle
+roots: [terms.ttl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Solid terms"
+authors:
+  - name: "W3C Solid Community Group"
+    link: "https://www.w3.org/community/solid/"
+publishers:
+  - name: "W3C Solid Community Group"
+    link: "https://www.w3.org/community/solid/"
+description: "Vocabulary of terms used by the Solid specifications."
+keywords: ["Solid", "linked data", "decentralization"]
+originalSources: ["https://www.w3.org/ns/solid/terms"]
+sources:
+  - url: https://www.w3.org/ns/solid/terms
+    name: terms.ttl
+    sha256: "06f872977f7ec818511c66a712403ba6963edf9708d3bee9d7142b48d3975d9f"
+    size: 11902
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

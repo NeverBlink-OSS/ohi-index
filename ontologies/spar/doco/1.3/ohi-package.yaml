@@ -1,0 +1,29 @@
+namespace: spar
+name: doco
+version: "1.3"
+language: owl
+syntax: rdfxml
+roots: [doco.rdf]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["spar/deo@1.2.0", "spar/po@1.4.3"]
+title: "SPAR Document Components Ontology"
+authors:
+  - name: "David Shotton"
+    link: "http://opencitations.net"
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+description: "Ontology of the structural and rhetorical components of documents, such as sections, paragraphs and figures."
+keywords: ["documents", "structure", "scholarly publications"]
+originalSources: ["https://github.com/SPAROntologies/doco"]
+sources:
+  - url: https://sparontologies.github.io/doco/2015-07-03/doco.xml
+    name: doco.rdf
+    sha256: "7e56cfd96cab75d49c53446128b1ba927085a2e258a8b580f3de822c0cbb29ed"
+    size: 107552
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

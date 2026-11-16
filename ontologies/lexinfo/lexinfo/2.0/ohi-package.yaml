@@ -1,0 +1,31 @@
+namespace: lexinfo
+name: lexinfo
+version: "2.0"
+language: owl
+syntax: ntriples
+roots: [lexinfo.nt]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["lemon-model/lemon@2026-11-02"]
+title: "LexInfo Ontology"
+authors:
+  - name: "John P. McCrae"
+    link: "http://john.mccr.ae/"
+publishers:
+  - name: "John P. McCrae"
+    link: "http://john.mccr.ae/"
+contributors:
+  - name: "Philipp Cimiano"
+    link: "http://www.cimiano.de/philipp"
+  - name: "Paul Buitelaar"
+    link: "http://www.paulbuitelaar.net/"
+description: "Version 2.0 of LexInfo Ontology, based on Lemon."
+keywords: ["Vocabularies"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/lexinfo/versions/2016-07-13.n3
+    name: lexinfo.nt
+    sha256: "2dcc9c7d350f8945ead400689e62af14b6942a1ce78d1b0b2789561ca856ff7c"
+    size: 762692
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

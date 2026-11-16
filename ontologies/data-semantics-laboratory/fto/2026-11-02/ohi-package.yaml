@@ -1,0 +1,27 @@
+namespace: data-semantics-laboratory
+name: fto
+version: "2026-11-02"
+language: owl
+syntax: turtle
+roots: [fto.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [license.txt]
+dependencies: []
+title: "Modular Ontology Modeling for Food Supply Chains"
+authors:
+  - name: "Data Semantics Laboratory, Kansas State University"
+    link: "https://github.com/Data-Semantics-Laboratory"
+publishers:
+  - name: "Data Semantics Laboratory, Kansas State University"
+    link: "https://github.com/Data-Semantics-Laboratory"
+description: "Modular Ontology Modeling for Food Supply Chains."
+keywords: ["coypu", "economics", "ontology"]
+originalSources: ["https://github.com/Data-Semantics-Laboratory/Modular-Ontology-Modeling-for-Food-Supply-Chains"]
+sources:
+  - url: https://github.com/Data-Semantics-Laboratory/Modular-Ontology-Modeling-for-Food-Supply-Chains/blob/3db9a9d8bb1e6cf193d4f7017a40ae03e31a2630/food-traceability-schema.ttl
+    name: fto.ttl
+    sha256: "9307dd169cf295709113c34a3be761f3fcba1dc3b2e693a590580a769ae878e8"
+    size: 59596
+  - url: https://github.com/Data-Semantics-Laboratory/Modular-Ontology-Modeling-for-Food-Supply-Chains/blob/3db9a9d8bb1e6cf193d4f7017a40ae03e31a2630/license.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

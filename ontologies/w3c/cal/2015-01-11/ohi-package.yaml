@@ -1,0 +1,24 @@
+namespace: w3c
+name: cal
+version: "2015-01-11"
+language: owl
+syntax: turtle
+roots: [cal.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Internet Calendaring and Scheduling Core Object Specification"
+authors:
+  - name: "Dan Connolly"
+  - name: "Libby Miller"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "A vocabulary for description of events and calendars."
+keywords: ["Time"]
+originalSources: ["http://www.w3.org/TR/rdfcal"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/cal/versions/2015-01-11.n3
+    name: cal.ttl
+    sha256: "11fab1ca59e4ce7a7d0f6c439220f299fec9895ee7a00da8768b2b1402a295aa"
+    size: 49527

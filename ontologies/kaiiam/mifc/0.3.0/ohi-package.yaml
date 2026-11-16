@@ -1,0 +1,29 @@
+namespace: kaiiam
+name: mifc
+version: "0.3.0"
+language: linkml
+syntax: yaml
+roots: [mifc.yaml]
+patch: mifc.patch.yaml
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "mifc"
+authors:
+  - name: "Kai Blumberg"
+    contact: "kblumberg@email.arizona.edu"
+    link: "https://orcid.org/0000-0002-3410-4655"
+publishers:
+  - name: "Kai Blumberg"
+    contact: "kblumberg@email.arizona.edu"
+    link: "https://orcid.org/0000-0002-3410-4655"
+description: "A minimum information standard checklist formalizing the description of food composition data and related metadata."
+keywords: ["Schema"]
+originalSources: ["https://github.com/kaiiam/mifc"]
+sources:
+  - url: https://github.com/kaiiam/mifc/blob/v0.3.0/src/mifc/schema/mifc.yaml
+    sha256: "19bc419660cd139c9e6bd31a4f35c9889c3e9981e504b3a32acb698575cf8353"
+    size: 43376
+  - url: https://github.com/kaiiam/mifc/blob/v0.3.0/LICENSE
+    sha256: "5b61b7ca287037ef2de1d3fcceaf3cedcb37781df7e3600e2acdf834b023c29a"
+    size: 1080

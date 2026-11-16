@@ -1,0 +1,38 @@
+namespace: ign
+name: geofla
+version: "2014-08-22"
+language: owl
+syntax: turtle
+roots: [geofla.ttl]
+licenses: ["etalab-2.0", "ODC-By-1.0", "CC-BY-2.0"]
+licenseFiles: [LICENSE-etalab-2.0, LICENSE-odc-by-1.0, legalcode.txt]
+dependencies: []
+title: "Ontology of administrative units at IGN-France"
+authors:
+  - name: "Nathalie Abadie"
+    contact: "nathalie-f.abadie@ign.fr"
+  - name: "Ghislain Auguste Atemezing"
+publishers:
+  - name: "National Institute of Geographic and Forest Information (IGN)"
+    link: "https://www.ign.fr/"
+contributors:
+  - name: "Raphaël Troncy"
+    link: "http://www.eurecom.fr/~troncy/"
+  - name: "Bernard Vatant"
+  - name: "Bénédicte Bucher"
+description: "An ontology describing the administrative divisions in France."
+keywords: ["Geography"]
+originalSources: ["https://data.ign.fr/def/geofla"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/geofla/versions/2015-01-11.n3
+    name: geofla.ttl
+    sha256: "59b1806613162b41144a77d4d777295a64f0a9201c3756163f7368065af8a757"
+    size: 17254
+  - url: https://raw.githubusercontent.com/spdx/license-list-data/v3.29.0/text/etalab-2.0.txt
+    name: LICENSE-etalab-2.0
+    sha256: "f82596bde5c4abc62b4e63b1a3ba555f6b9203a340765fb178d188958600d111"
+    size: 8198
+  - url: https://opendatacommons.org/licenses/by/odc_by_1.0_public_text.txt
+    name: LICENSE-odc-by-1.0
+    sha256: "11a6d83734845ad09d809667aa219857a5b985b28c258a2eebf5677668a6bd3b"
+    size: 19977

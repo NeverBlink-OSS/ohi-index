@@ -1,0 +1,35 @@
+namespace: nmdc
+name: nmdc-schema
+version: "10.5.1"
+language: linkml
+syntax: yaml
+roots: [nmdc_materialized_patterns.yaml]
+patch: nmdc_materialized_patterns.patch.yaml
+licenses: ["CC0-1.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "NMDC Schema"
+authors:
+  - name: "William D. Duncan"
+    contact: "wdduncan@gmail.com"
+  - name: "Christopher J. Mungall"
+    contact: "cjmungall@lbl.gov"
+  - name: "Mark Andrew Miller"
+    contact: "MAM@lbl.gov"
+  - name: "Sujay Patil"
+    contact: "spatil@lbl.gov"
+  - name: "Patrick Kalita"
+    contact: "pkalita@lbl.gov"
+publishers:
+  - name: "National Microbiome Data Collaborative"
+    link: "https://microbiomedata.org/"
+description: "National Microbiome Data Collaborative schema for microbiome samples, studies and analyses."
+keywords: ["microbiology", "microbiome", "samples"]
+originalSources: ["https://github.com/microbiomedata/nmdc-schema"]
+sources:
+  - url: https://github.com/microbiomedata/nmdc-schema/blob/v10.5.1/LICENSE
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048
+  - url: https://github.com/microbiomedata/nmdc-schema/blob/v10.5.1/nmdc_schema/nmdc_materialized_patterns.yaml
+    sha256: "1f934ff6bf249f17b9b65b445080d2bfad73c80624d451f3dc2d0905198c5218"
+    size: 625624

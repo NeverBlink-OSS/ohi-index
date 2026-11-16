@@ -1,0 +1,29 @@
+namespace: mmlab
+name: lc
+version: "2015-07-02"
+language: rdfs
+syntax: ntriples
+roots: [lc.nt]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The Linked Connections ontology"
+authors:
+  - name: "Pieter Colpaert"
+    link: "https://pietercolpaert.be/"
+  - name: "Julián Andrés Rojas Meléndez"
+    contact: "julianandres.rojasmelendez@ugent.be"
+    link: "https://julianrojas.org/"
+publishers:
+  - name: "IDLab"
+    link: "https://idlab.technology/"
+description: "This ontology provides the predicates necessary to describe a connection or hop from one transit stop to another."
+keywords: ["Transport"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/lc/versions/2015-07-02.n3
+    name: lc.nt
+    sha256: "70cce962b1f57e7585d3249426320a15cd5d8cab6e3b0b5f87cde45b988c3e12"
+    size: 10151
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

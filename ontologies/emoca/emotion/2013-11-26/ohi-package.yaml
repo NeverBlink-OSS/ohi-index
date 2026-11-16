@@ -1,0 +1,35 @@
+namespace: emoca
+name: emotion
+version: "2013-11-26"
+language: owl
+syntax: turtle
+roots: [emotion.ttl]
+licenses: ["CC-BY-3.0", "CC0-1.0"]
+licenseFiles: [legalcode-cc-by-3.0.txt, legalcode-cc0-1.0.txt]
+dependencies: []
+title: "Emotion Ontology for Context Awareness"
+authors:
+  - name: "Franck Berthelon"
+publishers:
+  - name: "Inria"
+    link: "https://www.inria.fr/"
+contributors:
+  - name: "Peter Sander"
+  - name: "Ghislain Auguste Atemezing"
+  - name: "Fabien Gandon"
+description: "EmOCA is used to contextualize dimensionnal emotion and to categorize it for human readability."
+keywords: ["People"]
+originalSources: ["http://ns.inria.fr/emoca"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/emotion/versions/2013-11-26.n3
+    name: emotion.ttl
+    sha256: "0b2a3dbabf0f1f16bc99b50bff83727ee8917c8ecf4030ea72e46a780cf727fc"
+    size: 4394
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    name: legalcode-cc-by-3.0.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    name: legalcode-cc0-1.0.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

@@ -1,0 +1,37 @@
+namespace: mmlab
+name: odapps
+version: "2014-01-14"
+language: owl
+syntax: turtle
+roots: [odapps.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The vocabulary for (L)OD ideas and applications"
+authors:
+  - name: "Anastasia Dimou"
+    contact: "Anastasia.Dimou@UGent.be"
+  - name: "Pieter Colpaert"
+    contact: "Pieter.Colpaert@UGent.be"
+    link: "https://pietercolpaert.be/"
+publishers:
+  - name: "Anastasia Dimou"
+    contact: "Anastasia.Dimou@UGent.be"
+  - name: "Pieter Colpaert"
+    contact: "Pieter.Colpaert@UGent.be"
+    link: "https://pietercolpaert.be/"
+contributors:
+  - name: "Raphaël Troncy"
+    contact: "rtroncy@eurecom.fr"
+  - name: "Ghislain Auguste Atemezing"
+    contact: "atemezin@eurecom.fr"
+description: "Odapps is an RDF vocabulary defined to facilitate the description of Open-Data-based ideas and applications published on the Web."
+keywords: ["RDF"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/odapps/versions/2014-06-16.n3
+    name: odapps.ttl
+    sha256: "499dae0088cafc71db2b757e4f42e8ab68c5bdce633607048171347e75832e56"
+    size: 7689
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

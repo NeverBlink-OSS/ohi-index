@@ -1,0 +1,32 @@
+namespace: obo
+name: ncro
+version: "2015-12-10"
+language: owl
+syntax: rdfxml
+roots: [ncro-all-in-one.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Non-Coding RNA Ontology"
+authors:
+  - name: "OmniSearch Project in NIH NCI ITCR Initiative"
+    link: "https://github.com/OmniSearch"
+publishers:
+  - name: "OmniSearch Project in NIH NCI ITCR Initiative"
+    link: "https://github.com/OmniSearch"
+contributors:
+  - name: "He Zhang"
+  - name: "Alan Ruttenberg"
+  - name: "Harrison Strachan"
+  - name: "Jingshan Huang"
+  - name: "Asiyah Yu Lin"
+description: "An ontology for non-coding RNA, both of biological origin, and engineered."
+keywords: ["investigations", "OBO"]
+originalSources: ["https://github.com/OmniSearch/ncro", "http://omnisearch.soc.southalabama.edu/w/index.php/Ontology"]
+sources:
+  - url: https://github.com/OmniSearch/ncro/blob/abd363fe32db52cf4245c370c5ba7bb00b9ce4dc/build/ncro-all-in-one.owl
+    sha256: "a5bf7ba6e35933356678ab10c039a9cfe5394869d1af2f76ddefa10559198af4"
+    size: 2555715
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,31 @@
+namespace: coo
+name: coo
+version: "2010-10-12"
+language: owl
+syntax: turtle
+roots: [coo.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["goodrelations/gr@2011-10-01"]
+title: "Car Options Ontology"
+authors:
+  - name: "Martin Hepp"
+publishers:
+  - name: "Martin Hepp"
+contributors:
+  - name: "Charles Sandeman-Craik"
+  - name: "Chris Jenkins"
+  - name: "Tim Redding"
+  - name: "Yago Otero"
+  - name: "William Greenly"
+  - name: "Robin Dingle"
+description: "The COO provides a vocabulary for exposing available configuration options for car models."
+keywords: ["Industry"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/coo/versions/2010-10-12.n3
+    name: coo.ttl
+    sha256: "52bc345e50bc08815061a2edd490a830bd52ba52e18913d0401d834883a10cf4"
+    size: 19009
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

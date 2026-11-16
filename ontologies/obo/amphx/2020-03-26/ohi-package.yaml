@@ -1,0 +1,26 @@
+namespace: obo
+name: amphx
+version: "2020-03-26"
+language: owl
+syntax: rdfxml
+roots: [amphx.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The Amphioxus Development and Anatomy Ontology"
+authors:
+  - name: "EMBL-EBI Samples, Phenotypes and Ontologies Team"
+    link: "https://www.ebi.ac.uk/spot/"
+publishers:
+  - name: "EMBL-EBI Samples, Phenotypes and Ontologies Team"
+    link: "https://www.ebi.ac.uk/spot/"
+description: "An ontology for the development and anatomy of Amphioxus (Branchiostoma lanceolatum)."
+keywords: ["anatomy and development", "OBO"]
+originalSources: ["https://github.com/EBISPOT/amphx_ontology"]
+sources:
+  - url: https://github.com/EBISPOT/amphx_ontology/blob/v2020-03-26/amphx.owl
+    sha256: "f90b0060310e34de74e4cb764c6c9e7f911dc97e8d0cbf5d8c35320fac4259a4"
+    size: 579873
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

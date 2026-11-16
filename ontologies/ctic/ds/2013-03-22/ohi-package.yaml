@@ -1,0 +1,27 @@
+namespace: ctic
+name: ds
+version: "2013-03-22"
+language: rdfs
+syntax: turtle
+roots: [ds.ttl]
+licenses: ["CC-BY-NC-SA-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Dataset Catalog Vocabulary"
+authors:
+  - name: "Fundación CTIC"
+    link: "https://www.fundacionctic.org/"
+publishers:
+  - name: "Fundación CTIC"
+    link: "https://www.fundacionctic.org/"
+description: "This vocabulary is used for modelling catalogs of datasets and its relationships with the datasets."
+keywords: ["Catalogs"]
+originalSources: ["http://data.fundacionctic.org/vocab/catalog/datasets.html"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/ds/versions/2013-03-22.n3
+    name: ds.ttl
+    sha256: "877f2a96b896661239d27b780c737638360af6a8cc15f1ea8c35c9056d7aa8e1"
+    size: 8511
+  - url: https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode.txt
+    sha256: "8812f83442fd0eca14eb0208988e190fdcbfebec58fa5459d3218edfdfdc5a32"
+    size: 22306

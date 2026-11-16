@@ -1,0 +1,29 @@
+namespace: vair
+name: vair
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [vair.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Vocabulary of AI Risks"
+authors:
+  - name: "Delaram Golpayegani"
+publishers:
+  - name: "ADAPT Centre, Trinity College Dublin"
+    link: "https://www.adaptcentre.ie/"
+contributors:
+  - name: "Dave Lewis"
+  - name: "Harshvardhan J. Pandit"
+description: "VAIR is a taxonomy of AI and risk concepts."
+keywords: ["Methods", "Society"]
+publications:
+  - title: "Delaram Golpayegani, Harshvardhan J. Pandit, and Dave Lewis. To Be High-Risk, or Not To Be—Semantic Specifications and Implications of the AI Act’s High-Risk AI Applications and Harmonised Standards. Proceedings of the 2023 ACM Conference on Fairness, Accountability, and Transparency. 2023"
+sources:
+  - url: https://delaramglp.github.io/vair/vair.ttl
+    sha256: "6b42323726e7a82a5c4782a6d9398fc44db21bd4e0ca9fd4807558190c173605"
+    size: 414059
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

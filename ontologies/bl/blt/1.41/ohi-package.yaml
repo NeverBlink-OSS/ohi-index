@@ -1,0 +1,36 @@
+namespace: bl
+name: blt
+version: "1.41"
+language: owl
+syntax: turtle
+roots: [blt.ttl]
+licenses: ["public domain"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "British Library Terms RDF schema"
+authors:
+  - name: "British Library, Metadata Services"
+    contact: "metadata@bl.uk"
+    link: "https://www.bl.uk/"
+publishers:
+  - name: "British Library, Metadata Services"
+    contact: "metadata@bl.uk"
+    link: "https://www.bl.uk/"
+contributors:
+  - name: "Tim Hodson"
+    contact: "Tim.Hodson@talis.com"
+  - name: "Corine Deliot"
+    contact: "Corine.Deliot@bl.uk"
+  - name: "Alan Danskin"
+    contact: "Alan.Danskin@bl.uk"
+  - name: "Heather Rosie"
+    contact: "Heather.Rosie@bl.uk"
+  - name: "Jan Ashton"
+    contact: "Jan.Ashton@bl.uk"
+description: "Some useful terms for describing bibliographic resources that other models did not include."
+keywords: ["Catalogs"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/blt/versions/2013-10-03.n3
+    name: blt.ttl
+    sha256: "b45687f117a419e1d46f7346edbe74d535714e917a822102a113888e32639929"
+    size: 7561

@@ -1,0 +1,32 @@
+namespace: inrupt
+name: authn-provider
+version: "1.0.0"
+language: owl
+syntax: turtle
+roots: [authn-provider.ttl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Authentication Provider"
+authors:
+  - name: "Inrupt"
+    link: "https://www.inrupt.com/"
+publishers:
+  - name: "Inrupt"
+    link: "https://www.inrupt.com/"
+contributors:
+  - name: "David Bowen"
+    link: "https://id.inrupt.com/davidbowen"
+  - name: "Pat McBennet"
+    link: "https://id.inrupt.com/inruptpat"
+description: "Information about authentication providers which might be identity providers or other services such as ones providing JSON Web Tokens."
+keywords: ["API"]
+sources:
+  - url: https://storage.inrupt.com/ef6ef7d1-8fe0-4381-b87e-17b2bf0bb591/public/namespace/vocab/authn_provider/authn_provider
+    name: authn-provider.ttl
+    sha256: "b9ada592df8c04e87e45acec6a10f637552d1498704857cf52a3473842edf2c2"
+    size: 3343
+  - url: https://raw.githubusercontent.com/spdx/license-list-data/v3.29.0/text/MIT.txt
+    name: LICENSE
+    sha256: "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5"
+    size: 1078

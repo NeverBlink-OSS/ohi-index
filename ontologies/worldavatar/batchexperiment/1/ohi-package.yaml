@@ -1,0 +1,27 @@
+namespace: worldavatar
+name: batchexperiment
+version: "1"
+language: owl
+syntax: rdfxml
+roots: [batchexperiment.owl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "WorldAvatar batch experiment ontology"
+authors:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+publishers:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+description: "OntoBatchExperiment is an ontology to represent batch experiments and relevant information."
+keywords: ["ontology", "worldavatar"]
+originalSources: ["https://github.com/TheWorldAvatar/ontology", "https://theworldavatar.io"]
+sources:
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/ontology/ontobatchexperiment/OntoBatchExperiment.owl
+    name: batchexperiment.owl
+    sha256: "05f7b1b3af57fc19015e22e40d3a6f36b26548e188c1bbdb849efbc5f45dc6f5"
+    size: 7698
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/LICENSE.txt
+    sha256: "8c29b2cb4c712a0d382d1951ffc7e2a155ec7095c7e92a896f5919eb02c31ea9"
+    size: 1309

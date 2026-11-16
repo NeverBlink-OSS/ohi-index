@@ -1,0 +1,29 @@
+namespace: obo
+name: cio
+version: "2015-03-10"
+language: owl
+syntax: rdfxml
+roots: [cio.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Confidence Information Ontology"
+authors:
+  - name: "Bgee"
+    link: "https://www.bgee.org/"
+publishers:
+  - name: "Bgee"
+    link: "https://www.bgee.org/"
+description: "An ontology to capture confidence information about annotations."
+keywords: ["information", "OBO"]
+originalSources: ["https://github.com/BgeeDB/confidence-information-ontology"]
+publications:
+  - title: "The Confidence Information Ontology: a step towards a standard for asserting confidence in annotations"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/25957950"
+sources:
+  - url: https://github.com/BgeeDB/confidence-information-ontology/blob/d2ae564a6dd3b82c7939b0cf9e0bf45a49e91aa3/src/ontology/cio.owl
+    sha256: "3cde6b351c6d2abe7ed117012925a62491b38e6e4a31337dfb9837ac5a0f9408"
+    size: 124125
+  - url: https://github.com/BgeeDB/confidence-information-ontology/blob/d2ae564a6dd3b82c7939b0cf9e0bf45a49e91aa3/LICENSE
+    sha256: "f1441ec1c4f0f64ddba621c0697061c935f4b999aa3d17f570a1db56e5f46f7d"
+    size: 6557

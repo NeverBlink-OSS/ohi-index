@@ -1,0 +1,19 @@
+namespace: odp
+name: cpannotationschema
+version: "2026-10-21"
+language: owl
+syntax: rdfxml
+roots: [cpannotationschema.owl]
+licenses: ["unknown (fair use)"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "ODP Content Pattern Annotation Schema"
+authors:
+  - name: "Ontology Design Patterns portal"
+    link: "http://ontologydesignpatterns.org/"
+publishers:
+  - name: "Ontology Design Patterns portal"
+    link: "http://ontologydesignpatterns.org/"
+description: "Annotation properties for describing ontology design patterns."
+keywords: ["ontology design patterns", "annotations"]
+originalSources: ["http://ontologydesignpatterns.org"]

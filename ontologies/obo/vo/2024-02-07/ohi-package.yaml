@@ -1,0 +1,66 @@
+namespace: obo
+name: vo
+version: "2024-02-07"
+language: owl
+syntax: rdfxml
+roots: [vo.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Vaccine Ontology"
+authors:
+  - name: "Alan Ruttenberg"
+  - name: "Alexander D. Diehl"
+  - name: "Amogh Madireddi"
+  - name: "Anna Maria Masci"
+  - name: "Anthony Huffman"
+  - name: "Barry Smith"
+  - name: "Bjoern Peters"
+  - name: "Edison Ong"
+  - name: "Hong Yu"
+  - name: "Jason Hu"
+  - name: "Jie Zheng"
+  - name: "Kallan Roan"
+  - name: "Khadeejah Khan"
+  - name: "Lindsay Cowell"
+  - name: "Melanie Courtot"
+  - name: "Ningxian Fan"
+  - name: "Omar Tibi"
+  - name: "Philip Huang"
+  - name: "Randi Vita"
+  - name: "Rebecca Racz"
+  - name: "Richard H. Scheuermann"
+  - name: "Rohit Goru"
+  - name: "Ronak Sutariya"
+  - name: "Samantha G. Sayers"
+  - name: "Thomas Todd"
+  - name: "Yongqun He"
+    contact: "yongqunh@med.umich.edu"
+    link: "http://www.hegroup.org"
+  - name: "Yu Lin"
+  - name: "Yuanyi Pan"
+  - name: "Zuoshuang Xiang"
+publishers:
+  - name: "He Group, University of Michigan Medical School"
+    link: "https://hegroup.org/"
+contributors:
+  - name: "Christopher J. Mungall"
+  - name: "Erica Marcos"
+  - name: "Paul Fabry"
+  - name: "Ryan R. Brinkman"
+  - name: "Shunzhou Deng"
+description: "VO is a biomedical ontology in the domain of vaccine and vaccination."
+keywords: ["health", "OBO"]
+originalSources: ["https://github.com/vaccineontology/VO", "https://violinet.org/vaccineontology"]
+publications:
+  - title: "Ontology representation and analysis of vaccine formulation and administration and their effects on vaccine immune responses"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/23256535"
+  - title: "Mining of vaccine-associated IFN-γ gene interaction networks using the Vaccine Ontology"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/21624163"
+sources:
+  - url: https://github.com/vaccineontology/VO/blob/v2024-02-07/vo.owl
+    sha256: "834df869f7e741617a77d7dc8a9923d4a62464f05e81cfef822a9198f258acfa"
+    size: 10708598
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

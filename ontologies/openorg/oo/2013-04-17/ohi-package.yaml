@@ -1,0 +1,33 @@
+namespace: openorg
+name: oo
+version: "2013-04-17"
+language: owl
+syntax: turtle
+roots: [oo.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Open Organisations"
+authors:
+  - name: "Christopher Gutteridge"
+    contact: "cjg@ecs.soton.ac.uk"
+    link: "http://users.ecs.soton.ac.uk/cjg/"
+  - name: "Alexander Dutton"
+    contact: "alexander.dutton@it.ox.ac.uk"
+    link: "http://alexdutton.co.uk/"
+  - name: "Ashley Smith"
+    link: "http://users.ecs.soton.ac.uk/ads04r"
+publishers:
+  - name: "University of Southampton"
+    link: "https://www.southampton.ac.uk/"
+description: "This vocabulary provides supplementary terms for organisations wishing to publish open data about themselves."
+keywords: ["Society"]
+originalSources: ["http://neologism.ecs.soton.ac.uk/oo", "http://neologism.ecs.soton.ac.uk/oo.html"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/oo/versions/2013-04-17.n3
+    name: oo.ttl
+    sha256: "fca69277c47865820442bf0098ff9bd3d97db2b264591fffb3c08810279dc9d9"
+    size: 9431
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

@@ -1,0 +1,30 @@
+namespace: dgarayr
+name: ontorxn
+version: "0.2.5"
+language: owl
+syntax: rdfxml
+roots: [ontorxn.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "OntoRXN"
+authors:
+  - name: "Diego Garay-Ruiz"
+    link: "https://orcid.org/0000-0003-0744-0562"
+publishers:
+  - name: "Diego Garay-Ruiz"
+    link: "https://orcid.org/0000-0003-0744-0562"
+description: "OntoRXN is an ontology for the description of reaction networks as undirected graphs characterized by energies."
+keywords: ["chemistry", "nfdi4chem", "ontology"]
+originalSources: ["https://gitlab.com/dgarayr/ontorxn"]
+publications:
+  - title: "Chemical reaction network knowledge graphs: the OntoRXN ontology"
+    link: "https://doi.org/10.1186/s13321-022-00610-x"
+sources:
+  - url: https://gitlab.com/dgarayr/ontorxn/-/raw/prod/OntoRXN.owl
+    name: ontorxn.owl
+    sha256: "06496817e0caacc7b704ef17801fce855c4b2f6d87b3cce32f3686111fd3b62d"
+    size: 24427
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

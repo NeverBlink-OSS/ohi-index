@@ -1,0 +1,29 @@
+namespace: pghdprovo
+name: pghdprovo
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [pghdprovo.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Patient Generated Health Data Provenance Ontology"
+authors:
+  - name: "Abdullahi Abubakar Kawu"
+publishers:
+  - name: "Technological University Dublin"
+    link: "https://www.tudublin.ie/"
+contributors:
+  - name: "Dympna OSullivan"
+  - name: "Lucy Hederman"
+description: "Patient Generated Health Data (PGHD) refer to health data collected by patient or their relatives."
+keywords: ["Health", "Metadata"]
+publications:
+  - title: "Kawu, A.A., O’Sullivan, D. and Hederman, L., 2025, June. PGHDProvO: Provenance Based Ontology for Sharing Patient Generated Health Data (PGHD) with an Electronic Health Record (EHR). In International Conference on Artificial Intelligence in Medicine (pp. 197-201). Cham: Springer Nature Switzerland."
+sources:
+  - url: https://abdullahikawu.github.io/pghdprovo/pghdprovo.ttl
+    sha256: "4df87114e4c933667e935cbc85c8dd242d6ceebdeb3bb21e0feb8a31adf29249"
+    size: 69110
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,26 @@
+namespace: commons
+name: contextual-identifiers
+version: "20221101"
+language: owl
+syntax: rdfxml
+roots: [ContextualIdentifiers.rdf]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["commons/annotation-vocabulary@20250801", "commons/codes-and-code-sets@20221101", "commons/collections@20221101", "commons/contextual-designators@20250801", "commons/identifiers@20221101"]
+title: "OMG Commons Contextual Identifiers"
+authors:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+publishers:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+contributors:
+  - name: "Elisa Kendall"
+  - name: "Evan Wallace"
+description: "Identifiers that apply in a context or for a period of time."
+keywords: ["OMG Commons", "identifiers"]
+originalSources: ["https://www.omg.org/spec/Commons"]
+sources:
+  - url: https://www.omg.org/spec/Commons/20250801/ContextualIdentifiers.rdf
+    sha256: "c26dd75874f66ca5a7dcfff0285b0f0cb8f2c66f0de56190e7f1220c702a28f7"
+    size: 6488

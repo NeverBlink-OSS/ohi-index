@@ -1,0 +1,26 @@
+namespace: fibo
+name: fibo-dev
+version: "2020Q3"
+language: owl
+syntax: turtle
+roots: [dev.fibo-quickstart.ttl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "FIBO production and development (merged)"
+authors:
+  - name: "EDM Council"
+    link: "https://edmcouncil.org/"
+publishers:
+  - name: "EDM Council"
+    link: "https://edmcouncil.org/"
+description: "All FIBO production and development ontologies with the OMG Commons and LCC modules they use, merged into one file."
+keywords: ["finance", "FIBO", "financial industry"]
+originalSources: ["https://spec.edmcouncil.org/fibo", "https://github.com/edmcouncil/fibo"]
+sources:
+  - url: https://spec.edmcouncil.org/fibo/ontology/master/2020Q3/dev.fibo-quickstart.ttl
+    sha256: "eed42619007789d3f02a1ca8b2e22bf42967d8ae93faaea9822f6a094e5aeda3"
+    size: 8790907
+  - url: https://github.com/edmcouncil/fibo/blob/master_2020Q3/LICENSE
+    sha256: "59f852c87fa59411aa7dc527bd5629074d2caced7de4a48bbe7c5763359d8559"
+    size: 1121

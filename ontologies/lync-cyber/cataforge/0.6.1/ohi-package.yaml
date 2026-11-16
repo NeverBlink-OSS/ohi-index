@@ -1,0 +1,27 @@
+namespace: lync-cyber
+name: cataforge
+version: "0.6.1"
+language: linkml
+syntax: yaml
+roots: [cataforge.yaml]
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "CataForge Core Business-Document Ontology"
+authors:
+  - name: "Huancheng Lin"
+publishers:
+  - name: "Lync Cyber"
+    link: "https://github.com/lync-cyber"
+description: "LinkML schema for the business-document domain entities produced by the 6 SDLC role agents (product-manager, architect, ui-designer, tech-lead, qa-engineer, devops)."
+keywords: ["Schema"]
+originalSources: ["https://github.com/lync-cyber/CataForge"]
+sources:
+  - url: https://github.com/lync-cyber/CataForge/blob/v0.6.1/src/cataforge/domain/kg/schemas/core.yaml
+    name: cataforge.yaml
+    sha256: "260b789407e53ce6a03053eb66cc246fdfbb0b48099cef28c9ee1ab33f29b94d"
+    size: 23912
+  - url: https://www.apache.org/licenses/LICENSE-2.0.txt
+    name: LICENSE
+    sha256: "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    size: 11358

@@ -1,0 +1,51 @@
+namespace: bfo
+name: bfo-core
+version: "2024-01-29"
+language: owl
+syntax: turtle
+roots: [bfo-core.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Basic Formal Ontology 2020"
+authors:
+  - name: "Alan Ruttenberg"
+  - name: "Albert Goldfain"
+  - name: "Barry Smith"
+  - name: "William D. Duncan"
+  - name: "Bjoern Peters"
+  - name: "Christopher J. Mungall"
+  - name: "David Osumi-Sutherland"
+  - name: "Fabian Neuhaus"
+  - name: "James A. Overton"
+  - name: "Janna Hastings"
+  - name: "Jie Zheng"
+  - name: "John Beverley"
+  - name: "Jonathan Bona"
+  - name: "Lawrence Hunter"
+  - name: "Leonard Jacuzzo"
+  - name: "Ludger Jansen"
+  - name: "Mark Jensen"
+  - name: "Mark Ressler"
+  - name: "Mathias Brochhausen"
+  - name: "Mauricio B. de Almeida"
+  - name: "Melanie Courtot"
+  - name: "J. Neil Otte"
+  - name: "Pierre Grenon"
+  - name: "Randall Dipert"
+  - name: "Robert Rovetto"
+  - name: "Ron Rudnicki"
+  - name: "Stefan Schulz"
+  - name: "Thomas Bittner"
+  - name: "Werner Ceusters"
+  - name: "Yongqun He"
+publishers:
+  - name: "Basic Formal Ontology (BFO)"
+    link: "http://basic-formal-ontology.org/"
+description: "Top-level ontology of the general categories of things, processes and qualities."
+keywords: ["upper ontology", "ISO 21838-2"]
+originalSources: ["https://github.com/BFO-ontology/BFO-2020"]
+sources:
+  - url: https://raw.githubusercontent.com/BFO-ontology/BFO-2020/release-2024-01-29/src/owl/bfo-core.ttl
+    sha256: "6944e2c96a0d8709dc15ae5364792019e208061eda3f32311af4f3b8d8443a3b"
+    size: 108100

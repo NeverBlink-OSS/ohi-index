@@ -1,0 +1,28 @@
+namespace: i40
+name: aml
+version: "0.1"
+language: owl
+syntax: turtle
+roots: [aml.ttl]
+licenses: ["CC-BY-NC-SA-2.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "AutomationML Ontology"
+authors:
+  - name: "Olga Kovalenko"
+    link: "https://at.linkedin.com/in/olga-kovalenko-979552108/"
+  - name: "Irlan Grangel-Gonzalez"
+    link: "http://eis.iai.uni-bonn.de/Irlan"
+publishers:
+  - name: "Olga Kovalenko"
+    link: "https://at.linkedin.com/in/olga-kovalenko-979552108/"
+  - name: "Irlan Grangel-Gonzalez"
+    link: "http://eis.iai.uni-bonn.de/Irlan"
+description: "A vocabulary to represent the AutomationML Standard - IEC 62714."
+keywords: ["Industry", "Support"]
+originalSources: ["https://github.com/i40-Tools/AutomationMLOntology"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/aml/versions/2016-03-23.n3
+    name: aml.ttl
+    sha256: "2a8c9406da617cc4bee70394ff694b30bc6e05716ac57febf6ae3fbffbbd120d"
+    size: 36219

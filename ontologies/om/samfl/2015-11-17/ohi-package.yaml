@@ -1,0 +1,25 @@
+namespace: om
+name: samfl
+version: "2015-11-17"
+language: owl
+syntax: turtle
+roots: [samfl.ttl]
+licenses: ["CC-BY-3.0-AU"]
+licenseFiles: [legalcode.txt]
+dependencies: ["dcmi/dcelements@2026-10-20", "w3c/prov@2013"]
+title: "OWL for Sampling Features"
+authors:
+  - name: "Simon J. D. Cox"
+    link: "https://orcid.org/0000-0002-3884-3420"
+  - name: "Commonwealth Scientific and Industrial Research Organisation"
+    link: "https://www.csiro.au/"
+publishers:
+  - name: "Commonwealth Scientific and Industrial Research Organisation"
+    link: "https://www.csiro.au/"
+description: "A simple OWL representation of the Sampling Features Schema described in clauses 9-11 of ISO 19156:2011 Geographic Information - Observations and Measurements."
+keywords: ["Geography"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/samfl/versions/2015-11-17.n3
+    name: samfl.ttl
+    sha256: "dee6364598c97f63d5a84a21fac7e021c036fde9b43c7fb8e44da70b97423f86"
+    size: 31438

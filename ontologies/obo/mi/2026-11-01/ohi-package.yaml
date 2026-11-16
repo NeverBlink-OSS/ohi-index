@@ -1,0 +1,26 @@
+namespace: obo
+name: mi
+version: "2026-11-01"
+language: owl
+syntax: rdfxml
+roots: [psi-mi.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Molecular Interactions Controlled Vocabulary"
+authors:
+  - name: "HUPO Proteomics Standards Initiative"
+    link: "http://www.psidev.info/"
+publishers:
+  - name: "HUPO Proteomics Standards Initiative"
+    link: "http://www.psidev.info/"
+description: "A structured controlled vocabulary for the annotation of experiments concerned with protein-protein interactions."
+keywords: ["investigations", "OBO"]
+originalSources: ["https://github.com/HUPO-PSI/psi-mi-CV"]
+sources:
+  - url: https://github.com/HUPO-PSI/psi-mi-CV/blob/13b574767a81580092e7f6b62ff84c0c8f75cf69/psi-mi.owl
+    sha256: "d3888ca89e795ee899c4cb1f31d92518f2c5387bfaa69aa02907af46db75a475"
+    size: 3172204
+  - url: https://github.com/HUPO-PSI/psi-mi-CV/blob/13b574767a81580092e7f6b62ff84c0c8f75cf69/LICENSE
+    sha256: "f5b745ef98087f531e719ee8ca6a96809444573ecc7173c6fa68eaad39b3cc3f"
+    size: 18658

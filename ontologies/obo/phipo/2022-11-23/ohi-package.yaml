@@ -1,0 +1,28 @@
+namespace: obo
+name: phipo
+version: "2022-11-23"
+language: owl
+syntax: rdfxml
+roots: [phipo.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Pathogen Host Interaction Phenotype Ontology"
+authors:
+  - name: "Alayne Cuzick"
+publishers:
+  - name: "PHI-base"
+    link: "http://www.phi-base.org/"
+description: "PHIPO is a formal ontology of species-neutral phenotypes observed in pathogen-host interactions."
+keywords: ["phenotype", "OBO"]
+originalSources: ["https://github.com/PHI-base/phipo"]
+publications:
+  - title: "PHI-base in 2022: a multi-species phenotype database for Pathogen-Host Interactions"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/34788826"
+sources:
+  - url: https://github.com/PHI-base/phipo/blob/v2022-11-23/phipo.owl
+    sha256: "6b3b7bbc8977a484f63208a47e1c208f0db58d260a79146b5466de7e8850c32d"
+    size: 15835114
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

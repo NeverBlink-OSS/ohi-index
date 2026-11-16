@@ -1,0 +1,24 @@
+namespace: om
+name: oml
+version: "2016-01-20"
+language: owl
+syntax: turtle
+roots: [oml.ttl]
+licenses: ["CC-BY-3.0-AU"]
+licenseFiles: [legalcode.txt]
+dependencies: ["dcmi/dcelements@2026-10-20"]
+title: "OWL for Observations"
+authors:
+  - name: "Simon J. D. Cox"
+  - name: "Commonwealth Scientific and Industrial Research Organisation"
+    link: "https://www.csiro.au/"
+publishers:
+  - name: "Commonwealth Scientific and Industrial Research Organisation"
+    link: "https://www.csiro.au/"
+description: "An OWL representation of the Observation Schema described in clauses 7-8 of ISO 19156:2011 Geographic Information - Observations and Measurements / OGC Abstract Specification - Topic 20."
+keywords: ["Geography"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/oml/versions/2016-01-20.n3
+    name: oml.ttl
+    sha256: "01cd7203de2139e1d75acbd9aeac0274d53ca1f9ffeca0ed8b65262a42b63cf5"
+    size: 36604

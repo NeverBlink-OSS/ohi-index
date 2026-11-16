@@ -1,0 +1,30 @@
+namespace: obo
+name: nbo
+version: "2020-02-10"
+language: owl
+syntax: rdfxml
+roots: [nbo.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Neuro Behavior Ontology"
+authors:
+  - name: "Georgios Gkoutos"
+    contact: "g.gkoutos@bham.ac.uk"
+    link: "https://orcid.org/0000-0002-2061-091X"
+publishers:
+  - name: "Neuro Behavior Ontology"
+    link: "https://github.com/obo-behavior"
+description: "An ontology of human and animal behaviours and behavioural phenotypes."
+keywords: ["biological systems", "behavior", "OBO"]
+originalSources: ["https://github.com/obo-behavior/behavior-ontology"]
+publications:
+  - title: "Analyzing gene expression data in mice with the Neuro Behavior Ontology"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/24177753"
+sources:
+  - url: https://github.com/obo-behavior/behavior-ontology/blob/v2020-02-10/nbo.owl
+    sha256: "a77f5a6883bdb2ef003a40e59d690c5c4c8b734db55d4d39b08f1205e1d598c9"
+    size: 10826372
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

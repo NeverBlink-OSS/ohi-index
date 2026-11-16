@@ -1,0 +1,29 @@
+namespace: forth
+name: oae
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [oae.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["forth/onc@1.0", "w3c/oa@2016-11-12"]
+title: "Open NEE Model"
+authors:
+  - name: "Pavlos Fafalios"
+    link: "http://users.ics.forth.gr/~fafalios/"
+publishers:
+  - name: "Pavlos Fafalios"
+    link: "http://users.ics.forth.gr/~fafalios/"
+contributors:
+  - name: "Yannis Tzitzikas"
+    link: "http://users.ics.forth.gr/~tzitzik"
+description: "The Open NEE Model defines an extension of the Open Annotation Data Model (http://www.openannotation.org/spec/core) that allows describing in RDF the result of a Named Entity Extraction (NEE) process, enabling thereby an application to run advanced (SPARQL) queries over the annotated data."
+keywords: ["Metadata"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/oae/versions/2015-03-25.n3
+    name: oae.ttl
+    sha256: "5f9f62495885fbabb99c15ab103a61f088141a2496a4a4e976d9829f1117ade6"
+    size: 5207
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

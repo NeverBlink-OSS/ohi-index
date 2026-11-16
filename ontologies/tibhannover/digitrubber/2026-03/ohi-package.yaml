@@ -1,0 +1,27 @@
+namespace: tibhannover
+name: digitrubber
+version: "2026-03"
+language: owl
+syntax: rdfxml
+roots: [digitrubber.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "DigitRubber Ontology"
+authors:
+  - name: "DIGIT RUBBER project"
+  - name: "DIPONI project"
+  - name: "InSuKa project"
+publishers:
+  - name: "TIB – Leibniz Information Centre for Science and Technology"
+    link: "https://www.tib.eu/"
+contributors:
+  - name: "Lars Vogt"
+    link: "https://orcid.org/0000-0002-8280-0487"
+description: "An ontology demonstrating rich ontology for rubber extrusion."
+keywords: ["ontology"]
+originalSources: ["https://github.com/TIBHannover/DIGIT-RUBBER", "https://tibhannover.github.io/DIGIT-RUBBER"]
+sources:
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

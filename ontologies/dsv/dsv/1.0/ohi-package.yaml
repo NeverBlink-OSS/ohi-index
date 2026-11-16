@@ -1,0 +1,30 @@
+namespace: dsv
+name: dsv
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [dsv.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Data Specification Vocabulary"
+authors:
+  - name: "Jakub Klímek"
+publishers:
+  - name: "Faculty of Mathematics and Physics, Charles University"
+    link: "https://www.mff.cuni.cz/"
+contributors:
+  - name: "Petr Škoda"
+    link: "http://www.wikidata.org/entity/Q57232642"
+  - name: "Štěpán Stenchlák"
+    link: "https://orcid.org/0000-0003-4843-2470"
+description: "Data Specification Vocabulary (DSV) is a vocabulary for describing semantic data specifications, namely vocabularies and application profiles."
+keywords: ["RDF", "Vocabularies"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/dsv/versions/2025-05-13.n3
+    name: dsv.ttl
+    sha256: "d1c5c1fd6f5461bd320a67e0fa2d4dd30f9e226c2dad6c46839bb802386f01b8"
+    size: 10591
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,25 @@
+namespace: commons
+name: mapping-dates-and-times-to-owl-time
+version: "20220501"
+language: owl
+syntax: rdfxml
+roots: [MappingDatesAndTimesToOWLTime.rdf]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["commons/annotation-vocabulary@20250801", "commons/dates-and-times@20250801", "w3c/time@2016"]
+title: "OMG Commons Mapping Dates and Times to OWL-Time"
+authors:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+publishers:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+contributors:
+  - name: "Elisa Kendall"
+description: "Mapping from the OMG Commons Dates and Times ontology to W3C OWL-Time."
+keywords: ["OMG Commons", "time", "mapping"]
+originalSources: ["https://www.omg.org/spec/Commons"]
+sources:
+  - url: https://www.omg.org/spec/Commons/20250801/MappingDatesAndTimesToOWLTime.rdf
+    sha256: "f833cd4233f58af53d0948f3f00c974665067082692e594f44ac1b68ec64a7b1"
+    size: 4450

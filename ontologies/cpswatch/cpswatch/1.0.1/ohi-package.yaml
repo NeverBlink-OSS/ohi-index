@@ -1,0 +1,21 @@
+namespace: cpswatch
+name: cpswatch
+version: "1.0.1"
+language: owl
+syntax: turtle
+roots: [cpswatch.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The Cyber Physical System Watch Ontology"
+authors:
+  - name: "Björn Ludwig"
+    link: "https://orcid.org/0009-0003-2548-8225"
+publishers:
+  - name: "CPSWatch"
+description: "This ontology defines a vocabulary for describing cyber physical systems for monitoring purpose."
+keywords: ["IoT"]
+sources:
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,29 @@
+namespace: stories
+name: stories
+version: "2013-05-16"
+language: owl
+syntax: turtle
+roots: [stories.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Stories Ontology"
+authors:
+  - name: "Toby Harris"
+  - name: "Paul Rissen"
+  - name: "Michael O. Jewell"
+publishers:
+  - name: "Toby Harris"
+  - name: "Paul Rissen"
+  - name: "Michael O. Jewell"
+description: "The Stories ontology was developed in collaboration with the BBC, with an aim to creating an ontology for narrative representation that could be applied across a diverse set of cases."
+keywords: ["Events"]
+originalSources: ["http://www.contextus.net/stories"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/stories/versions/2013-05-16.n3
+    name: stories.ttl
+    sha256: "84eab7eb820137669a0dce47d75decdabdb48f4e51dfa490d3007d3d8104a09d"
+    size: 4236
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

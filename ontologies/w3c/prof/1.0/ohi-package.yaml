@@ -1,0 +1,29 @@
+namespace: w3c
+name: prof
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [prof.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Profiles Vocabulary"
+authors:
+  - name: "Rob Atkinson"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+contributors:
+  - name: "Nicholas J. Car"
+    link: "https://orcid.org/0000-0002-8742-7730"
+  - name: "Simon J. D. Cox"
+    link: "https://orcid.org/0000-0002-3884-3420"
+  - name: "Alejandra Gonzalez-Beltran"
+description: "W3C vocabulary for profiles of standards and the resources that describe them."
+keywords: ["profiles", "standards", "conformance"]
+originalSources: ["https://www.w3.org/TR/dx-prof"]
+sources:
+  - url: https://www.w3.org/ns/dx/prof/profilesont.ttl
+    name: prof.ttl
+    sha256: "625f8ebed133ffd393d6a664455a0cf1cf1750907f8a016fb06f928db08636d6"
+    size: 10110

@@ -1,0 +1,28 @@
+namespace: biolink
+name: information-resource-registry
+version: "0.2.0"
+language: linkml
+syntax: yaml
+roots: [information-resource-registry.yaml]
+patch: information-resource-registry.patch.yaml
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "information-resource-registry"
+authors:
+  - name: "Sierra Moxon"
+    contact: "smoxon@lbl.gov"
+publishers:
+  - name: "Biolink"
+    link: "https://biolink.github.io/"
+description: "The information resource registry is a listing of data sources present in the NCATS Data Translator system."
+keywords: ["Infrastructure"]
+originalSources: ["https://github.com/biolink/information-resource-registry"]
+sources:
+  - url: https://github.com/biolink/information-resource-registry/blob/v0.2.0/src/information_resource_registry/schema/information_resource_registry.yaml
+    name: information-resource-registry.yaml
+    sha256: "6e480dcceba0620a061e7e7ee08fce027860dd947e9603c9d02bb275ff20d5b5"
+    size: 7890
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

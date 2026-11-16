@@ -1,0 +1,24 @@
+namespace: loc
+name: classschemes
+version: "2026-11-02"
+language: owl
+syntax: rdfxml
+roots: [classschemes.rdf]
+licenses: ["public domain"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Library of Congress Classification Schemes"
+authors:
+  - name: "Library of Congress"
+    link: "https://www.loc.gov/"
+publishers:
+  - name: "Library of Congress"
+    link: "https://www.loc.gov/"
+description: "Controlled list of Classification Schemes."
+keywords: ["loc", "registry"]
+originalSources: ["http://id.loc.gov/vocabulary/classSchemes"]
+sources:
+  - url: https://id.loc.gov/vocabulary/classSchemes.rdf
+    name: classschemes.rdf
+    sha256: "02b06fda4e3451456b40a79e33a895a524578b4942492599285d9b0ed567b8bd"
+    size: 93759

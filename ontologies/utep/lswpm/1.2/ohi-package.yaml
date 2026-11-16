@@ -1,0 +1,33 @@
+namespace: utep
+name: lswpm
+version: "1.2"
+language: owl
+syntax: turtle
+roots: [lswpm.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["semanticscience/sio@1.62", "w3c/dcat@2", "w3c/prov-o@2013"]
+title: "ELSEWeb Lifemapper Parameters Ontology"
+authors:
+  - name: "Cyber-ShARE Center of Excellence"
+    link: "https://cybershare.utep.edu/"
+  - name: "ELSEWeb Team"
+  - name: "Nicholas del Rio"
+publishers:
+  - name: "ELSEWeb Team"
+contributors:
+  - name: "Deana Pennington"
+  - name: "Soren Scott"
+  - name: "Aimee Stewart"
+  - name: "Natalia Villanueva-Rosales"
+description: "The ELSEWeb Lifemapper parameters ontology provides auxiliary classes and instances that describe input parameters of Lifemapper modelling services."
+keywords: ["Support"]
+originalSources: ["http://elseweb.cybershare.utep.edu/ontologies"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/lswpm/versions/2015-09-24.n3
+    name: lswpm.ttl
+    sha256: "0892ad597bfcd09a409906b1cb5a5b862de0f8f0bb01ff1bced933e1419501b9"
+    size: 153371
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

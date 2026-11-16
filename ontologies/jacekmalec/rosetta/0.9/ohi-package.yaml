@@ -1,0 +1,26 @@
+namespace: jacekmalec
+name: rosetta
+version: "0.9"
+language: owl
+syntax: rdfxml
+roots: [rosetta.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The ROSETTA ontology of industrial robotics devices and robotic skills."
+authors:
+  - name: "Jacek Malec"
+    link: "http://cs.lth.se/jacek-malec/"
+publishers:
+  - name: "Jacek Malec"
+    link: "http://cs.lth.se/jacek-malec/"
+description: "The ROSETTA ontology of industrial robotics devices and robotic skills."
+keywords: ["engineering", "nfdi4ing", "ontology"]
+originalSources: ["https://github.com/jacekmalec/Rosetta_ontology"]
+sources:
+  - url: https://github.com/jacekmalec/Rosetta_ontology/blob/992ca30cd6a85ead880e8af212cff3fc580d1be7/rosetta.owl
+    sha256: "bc5320c8d65157db8d82d6ac00a460348e42f3266d0d0758c321d1ef6f66b2c6"
+    size: 1456982
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

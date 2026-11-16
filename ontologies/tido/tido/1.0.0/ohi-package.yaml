@@ -1,0 +1,33 @@
+namespace: tido
+name: tido
+version: "1.0.0"
+language: owl
+syntax: turtle
+roots: [tido.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The Threat Intelligence Decision Ontology"
+authors:
+  - name: "Ritten Roothaert"
+    link: "https://orcid.org/0009-0008-7843-6513"
+publishers:
+  - name: "knowledge in AI group"
+    link: "https://kai.cs.vu.nl"
+contributors:
+  - name: "Lise Stork"
+    link: "https://orcid.org/0000-0002-2146-4803"
+  - name: "Stefan Schlobach"
+    link: "http://www.few.vu.nl/~schlobac/"
+  - name: "Fabio Massacci"
+    link: "http://fabiomassacci.github.io"
+description: "The TIDO ontology can be used to describe the decision processes within the threat intelligence domain."
+keywords: ["Methods"]
+sources:
+  - url: https://ritten11.github.io/TIDO/release/1.0.0/ontology.ttl
+    name: tido.ttl
+    sha256: "61ef90b6198418893607a0e2e94aa11c6158e5db5bebc2692277e1bb11f66d32"
+    size: 19051
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,25 @@
+namespace: remetca
+name: remetca
+version: "1.1"
+language: owl
+syntax: turtle
+roots: [remetca.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "ReMetCa Ontology"
+authors:
+  - name: "Elena González-Blanco"
+publishers:
+  - name: "Universidad Nacional de Educación a Distancia"
+    link: "https://www.uned.es/"
+description: "Ontology for poetry description."
+keywords: ["SPAR"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/remetca/versions/2014-10-14.n3
+    name: remetca.ttl
+    sha256: "0beb2143f358b4579aab6fd87b97110af0158c48afe9cedf5a581ce48d5c3410"
+    size: 10126
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

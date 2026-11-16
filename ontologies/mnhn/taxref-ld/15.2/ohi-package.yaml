@@ -1,0 +1,43 @@
+namespace: mnhn
+name: taxref-ld
+version: "15.2"
+language: owl
+syntax: turtle
+roots: [taxref-ld.ttl]
+licenses: ["CC-BY-3.0-FR"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "TAXREF-LD Ontology"
+authors:
+  - name: "Franck Michel"
+    link: "https://w3id.org/people/franckmichel"
+  - name: "Catherine Faron"
+    link: "http://www.i3s.unice.fr/~faron/"
+  - name: "Olivier Gargominy"
+    link: "http://taxref.mnhn.fr/lod/oliviergargominy"
+  - name: "Sandrine Tercerie"
+    link: "http://taxref.mnhn.fr/lod/sandrinetercerie"
+publishers:
+  - name: "National Museum of Natural History of Paris"
+    link: "http://www.mnhn.fr"
+  - name: "French National Inventory of Natural Heritage"
+    link: "https://inpn.mnhn.fr/?lg=en"
+  - name: "Université Côte d'Azur"
+    link: "https://univ-cotedazur.fr"
+  - name: "Inria"
+    link: "https://www.inria.fr/"
+  - name: "National Centre for Scientific Research (CNRS)"
+    link: "https://www.cnrs.fr/"
+contributors:
+  - name: "Antonia Ettorre"
+    link: "https://orcid.org/0000-0003-4868-2584"
+  - name: "Julien Kaplan"
+description: "Representation of the TAXREF taxonomic register as linked data."
+keywords: ["Biology", "Environment"]
+publications:
+  - title: "Franck Michel, Olivier Gargominy, Sandrine Tercerie, Catherine Faron Zucker. A Model to Represent Nomenclatural and Taxonomic Information as Linked Data. Application to the French Taxonomic Register, TAXREF. In Proceedings of the 2nd International Workshop on Semantics for Biodiversity (S4Biodiv) co-located with ISWC 2017, Oct 2017, Vienna, Austria. CEUR Vol. 1933, pp.1-12, 2017"
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/taxref-ld/versions/2022-07-29.n3
+    name: taxref-ld.ttl
+    sha256: "3cf83a4e53804bfdc674673b6c919264040a5a4a79e9e3100cb4d83ea98c8b20"
+    size: 108261

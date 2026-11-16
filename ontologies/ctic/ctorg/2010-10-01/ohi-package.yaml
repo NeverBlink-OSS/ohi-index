@@ -1,0 +1,26 @@
+namespace: ctic
+name: ctorg
+version: "2010-10-01"
+language: owl
+syntax: turtle
+roots: [ctorg.ttl]
+licenses: ["CC-BY-NC-SA-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Vocabulary for the structure of the public organizations"
+authors:
+  - name: "Fundación CTIC"
+    link: "https://www.fundacionctic.org/"
+publishers:
+  - name: "Fundación CTIC"
+    link: "https://www.fundacionctic.org/"
+description: "The goal of this vocabulary is to create a scheme to define the contents of information related to the government structure and public centers."
+keywords: ["Government"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/ctorg/versions/2010-10-01.n3
+    name: ctorg.ttl
+    sha256: "cab5ee0348cc14625cc8e30cffadf0e2af44a4f8594af227b3141315716b063d"
+    size: 8970
+  - url: https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode.txt
+    sha256: "8812f83442fd0eca14eb0208988e190fdcbfebec58fa5459d3218edfdfdc5a32"
+    size: 22306

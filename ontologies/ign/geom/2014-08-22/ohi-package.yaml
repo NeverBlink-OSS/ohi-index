@@ -1,0 +1,38 @@
+namespace: ign
+name: geom
+version: "2014-08-22"
+language: owl
+syntax: turtle
+roots: [geom.ttl]
+licenses: ["ODC-By-1.0", "etalab-2.0", "CC-BY-2.0"]
+licenseFiles: [LICENSE-odc-by-1.0, LICENSE-etalab-2.0, legalcode.txt]
+dependencies: []
+title: "Ontology for geometry"
+authors:
+  - name: "Nathalie Abadie"
+    contact: "nathalie-f.abadie@ign.fr"
+  - name: "Ghislain Auguste Atemezing"
+publishers:
+  - name: "National Institute of Geographic and Forest Information (IGN)"
+    link: "https://www.ign.fr/"
+contributors:
+  - name: "Raphaël Troncy"
+    link: "http://www.eurecom.fr/~troncy/"
+  - name: "Bernard Vatant"
+  - name: "Bénédicte Bucher"
+description: "An ontology for describing the shape and the location of topographic entities."
+keywords: ["Geometry"]
+originalSources: ["https://data.ign.fr/def/geometrie"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/geom/versions/2015-01-11.n3
+    name: geom.ttl
+    sha256: "f023964bca6eee7fcc433e924fda2b2c9fe89f8cf37864c3b39677155db36b04"
+    size: 27848
+  - url: https://opendatacommons.org/licenses/by/odc_by_1.0_public_text.txt
+    name: LICENSE-odc-by-1.0
+    sha256: "11a6d83734845ad09d809667aa219857a5b985b28c258a2eebf5677668a6bd3b"
+    size: 19977
+  - url: https://raw.githubusercontent.com/spdx/license-list-data/v3.29.0/text/etalab-2.0.txt
+    name: LICENSE-etalab-2.0
+    sha256: "f82596bde5c4abc62b4e63b1a3ba555f6b9203a340765fb178d188958600d111"
+    size: 8198

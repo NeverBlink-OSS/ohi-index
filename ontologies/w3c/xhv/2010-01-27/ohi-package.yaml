@@ -1,0 +1,24 @@
+namespace: w3c
+name: xhv
+version: "2010-01-27"
+language: rdfs
+syntax: turtle
+roots: [xhv.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "XHTML Vocabulary"
+authors:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "This is a vocabulary collection utilized by XHTML Family modules and document types using XHTML Modularization, including XHTML Role and XHTML + RDFa as defined in rdfa-syntax."
+keywords: ["API"]
+originalSources: ["https://www.w3.org/1999/xhtml/vocab"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/xhv/versions/2010-01-27.n3
+    name: xhv.ttl
+    sha256: "df526e07aa9a56ec2fa85424e9de2e90119216dfe11c5f5a66c6d7fb9aeb62ef"
+    size: 17213

@@ -1,0 +1,67 @@
+namespace: sssom
+name: sssom-schema
+version: "2026-10-06"
+language: linkml
+syntax: yaml
+roots: [sssom_schema.yaml]
+licenses: ["BSD-3-Clause"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "SSSOM"
+authors:
+  - name: "Nicolas Matentzoglu"
+    contact: "nicolas.matentzoglu@gmail.com"
+  - name: "Harshad B. Hegde"
+    contact: "hhegde@lbl.gov"
+  - name: "James P. Balhoff"
+  - name: "Susan M Bello"
+  - name: "Chris Bizon"
+  - name: "Matthew H. Brush"
+  - name: "Tiffany J Callahan"
+  - name: "Christopher G Chute"
+  - name: "William D. Duncan"
+  - name: "Chris T Evelo"
+  - name: "Davera Gabriel"
+  - name: "John Graybeal"
+  - name: "Alasdair J. G. Gray"
+  - name: "Benjamin M Gyori"
+  - name: "Melissa Haendel"
+  - name: "Henriette Harmse"
+  - name: "Nomi L Harris"
+  - name: "Ian Harrow"
+  - name: "Amelia L Hoyt"
+  - name: "Charles Tapley Hoyt"
+  - name: "Dazhi Jiao"
+  - name: "Ernesto Jiménez-Ruiz"
+  - name: "Simon Jupp"
+  - name: "Hyeongsik Kim"
+  - name: "Sebastian Koehler"
+  - name: "Thomas Liener"
+  - name: "Qinqin Long"
+  - name: "James Malone"
+  - name: "James A McLaughlin"
+  - name: "Julie A McMurry"
+  - name: "Sierra Moxon"
+  - name: "Monica C Munoz-Torres"
+  - name: "David Osumi-Sutherland"
+  - name: "James A. Overton"
+  - name: "Bjoern Peters"
+  - name: "Tim Putman"
+  - name: "Núria Queralt-Rosinach"
+  - name: "Kent Shefchek"
+  - name: "Harold Solbrig"
+  - name: "Anne Thessen"
+  - name: "Tania Tudorache"
+  - name: "Nicole Vasilevsky"
+  - name: "Alex H Wagner"
+  - name: "Christopher J. Mungall"
+publishers:
+  - name: "Mapping Commons"
+    link: "https://github.com/mapping-commons"
+description: "Simple Standard for Sharing Ontological Mappings between terms."
+keywords: ["mappings", "ontology alignment"]
+originalSources: ["https://github.com/mapping-commons/sssom"]
+sources:
+  - url: https://github.com/mapping-commons/sssom/blob/f087f5e33d48335c2ce18546da3d50af5925db15/src/sssom_schema/schema/sssom_schema.yaml
+    sha256: "eab8f1340fae08ddbdf139e0ab6e1f709561ca6814d93b6389b4e68e68d7cf94"
+    size: 60847

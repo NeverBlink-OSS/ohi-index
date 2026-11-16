@@ -1,0 +1,33 @@
+namespace: ldr
+name: ldr
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [ldr.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Linked Data Rights (LDR)"
+authors:
+  - name: "Ontology Engineering Group, Universidad Politécnica de Madrid"
+    link: "https://oeg.fi.upm.es/"
+  - name: "Víctor Rodríguez-Doncel"
+publishers:
+  - name: "Ontology Engineering Group, Universidad Politécnica de Madrid"
+    link: "https://oeg.fi.upm.es/"
+contributors:
+  - name: "Victor Rodriguez"
+  - name: "Mari Carmen Suarez"
+  - name: "Asuncion Gomez"
+  - name: "Maria Poveda"
+description: "The Linked Data Rights ontology provides the vocabulary for creating rights expressions for Linked Data resources."
+keywords: ["Contracts"]
+originalSources: ["http://oeg-dev.dia.fi.upm.es/licensius/static/ldr"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/ldr/versions/2013-09-20.n3
+    name: ldr.ttl
+    sha256: "c2fbbdced41acfc7005ea802625fa234266b7fbf7b559095db0521cbc5a9866e"
+    size: 16696
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

@@ -1,0 +1,42 @@
+namespace: obo
+name: pbpko
+version: "2026-07-13"
+language: owl
+syntax: rdfxml
+roots: [pbpko.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Physiologically-Based Pharmacokinetic Ontology"
+authors:
+  - name: "Shubh Sharma"
+    contact: "shubh.sharma@estudiants.urv.cat"
+    link: "https://orcid.org/0009-0004-2207-3937"
+  - name: "Saurav Kumar"
+    contact: "saurav.kumar@iispv.cat"
+    link: "https://orcid.org/0000-0003-0593-2598"
+  - name: "Vikas Kumar"
+    contact: "vikas.kumar@iispv.cat"
+    link: "https://orcid.org/0000-0002-9795-5967"
+  - name: "Deepika Deepika"
+    contact: "deepika@iispv.cat"
+    link: "https://orcid.org/0000-0001-8345-1349"
+  - name: "Panče Panov"
+    contact: "pance.panov@jsi.si"
+    link: "https://orcid.org/0000-0002-7685-9140"
+  - name: "Johannes Kruisselbrink"
+    contact: "johannes.kruisselbrink@wur.nl"
+    link: "https://orcid.org/0000-0003-1673-5725"
+publishers:
+  - name: "InSilicoVida Research Lab"
+    link: "https://github.com/InSilicoVida-Research-Lab"
+description: "An ontology for modeling and understanding of pharmacokinetics in biological systems."
+keywords: ["chemistry and biochemistry", "OBO"]
+originalSources: ["https://github.com/InSilicoVida-Research-Lab/pbpko"]
+sources:
+  - url: https://github.com/InSilicoVida-Research-Lab/pbpko/blob/v2026-07-13/pbpko.owl
+    sha256: "4c1c1e0ca3302143c06de4300b4b54c9855d6c78267fd53a3ed31f5865841b8e"
+    size: 2133867
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

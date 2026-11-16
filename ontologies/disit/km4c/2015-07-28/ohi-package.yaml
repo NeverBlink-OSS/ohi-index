@@ -1,0 +1,32 @@
+namespace: disit
+name: km4c
+version: "2015-07-28"
+language: owl
+syntax: turtle
+roots: [km4c.ttl]
+licenses: ["CC-BY-SA-3.0-IT", "CC-BY-SA-3.0"]
+licenseFiles: [legalcode-cc-by-sa-3.0-it.txt, legalcode-cc-by-sa-3.0.txt]
+dependencies: []
+title: "km4city, the DISIT Knowledge Model for City and Mobility"
+authors:
+  - name: "Nadia Rauch"
+  - name: "Paolo Nesi"
+  - name: "Pierfrancesco Bellini"
+publishers:
+  - name: "DISIT Lab, University of Florence, Italy"
+    link: "https://www.disit.org/"
+contributors:
+  - name: "Municipality of Florence"
+  - name: "Tuscany Region"
+description: "A Knowledge Model to describe a smart city, that interconnect data from infomobility service, Open Data and other source."
+keywords: ["Environment", "Services", "Society"]
+originalSources: ["http://www.disit.org"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/km4c/versions/2015-07-28.n3
+    name: km4c.ttl
+    sha256: "1bcc4b92e815dba1e728613945c3a693cad3243a00fdb580298512cd3f9e9e45"
+    size: 211538
+  - url: https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt
+    name: legalcode-cc-by-sa-3.0.txt
+    sha256: "3f941b3b89cf7b8370ceb83cc76d2120d471b58735d8ca60238a751a48d7f72f"
+    size: 22240

@@ -1,0 +1,27 @@
+namespace: w3c
+name: vs
+version: "2011-12-12"
+language: rdfs
+syntax: turtle
+roots: [vs.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "SemWeb Vocab Status ontology"
+authors:
+  - name: "Dan Brickley"
+  - name: "Leigh Dodds"
+  - name: "Libby Miller"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+contributors:
+  - name: "Pierre-Yves Vandenbussche"
+description: "An RDF vocabulary for relating SW vocabulary terms to their status."
+keywords: ["Metadata"]
+originalSources: ["https://www.w3.org/2003/06/sw-vocab-status/note"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/vs/versions/2011-12-12.n3
+    name: vs.ttl
+    sha256: "cd9e5dd712a6817d83db8a5c28334a9d6a054f2a41d1c7c723198781de665948"
+    size: 2481

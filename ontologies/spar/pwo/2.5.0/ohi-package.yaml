@@ -1,0 +1,37 @@
+namespace: spar
+name: pwo
+version: "2.5.0"
+language: owl
+syntax: rdfxml
+roots: [pwo.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE.md]
+dependencies: ["spar/error@1.0.1", "odp/basicplan@1.1", "odp/controlflow@1.1", "odp/participation@1.1", "odp/sequence@1.1", "odp/timeindexedsituation@1.0", "odp/timeinterval@1.1", "w3c/time@2016"]
+title: "SPAR Publishing Workflow Ontology"
+authors:
+  - name: "Aldo Gangemi"
+    link: "https://orcid.org/0000-0001-5568-2684"
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+  - name: "David Shotton"
+    link: "http://opencitations.net"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+contributors:
+  - name: "Sebastian Barzaghi"
+    link: "https://orcid.org/0000-0002-0799-1527"
+description: "Ontology of the steps of publishing workflows."
+keywords: ["publishing", "workflows"]
+originalSources: ["https://github.com/SPAROntologies/pwo"]
+publications:
+  - title: "Gangemi, A., Peroni, S., Shotton, D., Vitali, F. (2014). The Publishing Workflow Ontology (PWO). In Semantic Web, 8 (5): 703-718. DOI: https://doi.org/10.3233/SW-160230. Open Access at: http://www.semantic-web-journal.net/system/files/swj1301.pdf"
+    link: "https://doi.org/10.3233/SW-160230"
+sources:
+  - url: https://sparontologies.github.io/pwo/2026-08-14/pwo.xml
+    name: pwo.rdf
+    sha256: "1f8cdf7a84e510a39851c591e146a7b6597590458a4ab9e4fe44b901bbac1670"
+    size: 64765
+  - url: https://github.com/SPAROntologies/pwo/blob/ade82906fb659593efa3575acf7943e1e77ceda0/LICENSE.md
+    sha256: "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    size: 18656

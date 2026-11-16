@@ -1,0 +1,32 @@
+namespace: obo
+name: iceo
+version: "2.1"
+language: owl
+syntax: rdfxml
+roots: [iceo_merged.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Integrative and Conjugative Element Ontology"
+authors:
+  - name: "Meng Liu"
+    contact: "liumeng94@sjtu.edu.cn"
+    link: "https://orcid.org/0000-0003-3781-6962"
+  - name: "Yongqun He"
+  - name: "Hong-Yu Ou"
+publishers:
+  - name: "Integrative and Conjugative Element Ontology"
+    link: "https://github.com/ontoice"
+description: "ICEO is an integrated biological ontology for the description of bacterial integrative and conjugative elements (ICEs)."
+keywords: ["microbiology", "OBO"]
+originalSources: ["https://github.com/ontoice/ICEO"]
+publications:
+  - title: "ICEO, a biological ontology for representing and analyzing bacterial integrative and conjugative elements"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/35058462"
+sources:
+  - url: https://github.com/ontoice/ICEO/blob/adfa4184ce9cecf9dc685a9f8c77b5bce1a74660/src/iceo_merged.owl
+    sha256: "b647e59b45ce38ddd30c06213058d9a58164b20a73dbf297e7b327a93c8c7f51"
+    size: 37320151
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

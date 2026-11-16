@@ -1,0 +1,29 @@
+namespace: vladistan
+name: linkml-qudt
+version: "0.0.1"
+language: linkml
+syntax: yaml
+roots: [linkml-qudt.yaml]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "QUDT Ontology in LinkML"
+authors:
+  - name: "Vlad Korolev"
+    contact: "vlad@v-lad.org"
+    link: "https://blog.v-lad.org"
+publishers:
+  - name: "Vlad Korolev"
+    contact: "vlad@v-lad.org"
+    link: "https://blog.v-lad.org"
+description: "Conversion of QUDT ontology to LinkML."
+keywords: ["knowledge-graph", "linkml", "linkml-schema", "ontology", "pydantic", "Computer Science"]
+originalSources: ["https://github.com/vladistan/linkml-qudt"]
+sources:
+  - url: https://github.com/vladistan/linkml-qudt/blob/4fdf01c5caade8e7f9633044665a7cf8018e038d/src/linkml_qudt/schema/linkml_qudt.yaml
+    name: linkml-qudt.yaml
+    sha256: "eab7d5d5501c7ab52bf1de2fadcbe393f96987fff532ee8e8e41d0721505f5f8"
+    size: 51082
+  - url: https://github.com/vladistan/linkml-qudt/blob/4fdf01c5caade8e7f9633044665a7cf8018e038d/LICENSE
+    sha256: "419896aea50c15d6e40c5b4baf4bd346f78223b9a354c7357ad00262afdc08ec"
+    size: 14527

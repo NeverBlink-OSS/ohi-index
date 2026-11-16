@@ -1,0 +1,27 @@
+namespace: sulo
+name: sulo
+version: "0.2.0"
+language: owl
+syntax: turtle
+roots: [sulo.ttl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Simplified Upper Level Ontology"
+authors:
+  - name: "Michel Dumontier"
+    link: "http://dumontierlab.com"
+publishers:
+  - name: "Michel Dumontier"
+    link: "http://dumontierlab.com"
+description: "The Simplified Upper Level Ontology (SULO) is ontology with a minimal set of classes and relations to guide the development of a personal health knowledge graph."
+keywords: ["Health"]
+originalSources: ["https://github.com/AIDAVA-DEV/sulo"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/sulo/versions/2025-07-11.n3
+    name: sulo.ttl
+    sha256: "9d83f4f2e783e441c0adbc20c12732db2801284d2be475bfc7f5a143a25e7352"
+    size: 20387
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

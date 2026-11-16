@@ -1,0 +1,26 @@
+namespace: opentrafficlights
+name: otl
+version: "2018-10-31"
+language: rdfs
+syntax: turtle
+roots: [otl.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The Open Traffic Lights ontology"
+authors:
+  - name: "Brecht Van de Vyvere"
+    link: "https://w3id.org/people/brechtvdv/"
+publishers:
+  - name: "Brecht Van de Vyvere"
+    link: "https://w3id.org/people/brechtvdv/"
+description: "This ontology provides the terms necessary to describe the status of traffic lights."
+keywords: ["Services"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/otl/versions/2018-10-31.n3
+    name: otl.ttl
+    sha256: "f536b47bd91f512792884d8dc09a20d1a85b1e6a723566630fe5b59c11c8d5ec"
+    size: 4061
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

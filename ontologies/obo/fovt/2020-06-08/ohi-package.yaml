@@ -1,0 +1,26 @@
+namespace: obo
+name: fovt
+version: "2020-06-08"
+language: owl
+syntax: rdfxml
+roots: [fovt.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "FuTRES Ontology of Vertebrate Traits"
+authors:
+  - name: "Functional Trait Resource for Environmental Studies (FuTRES)"
+    link: "https://futres.org/"
+publishers:
+  - name: "Functional Trait Resource for Environmental Studies (FuTRES)"
+    link: "https://futres.org/"
+description: "FuTRES Ontology of Vertebrate Traits is an application ontology used to convert vertebrate trait data in spreadsheet to triples."
+keywords: ["phenotype", "vertebrate traits", "OBO"]
+originalSources: ["https://github.com/futres/fovt"]
+sources:
+  - url: https://github.com/futres/fovt/blob/v2020-06-07/fovt.owl
+    sha256: "a05b5adb832df6ff3aad6fabc25ca9ef70175edcf0492c0a16fb80f8c647945d"
+    size: 7722339
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

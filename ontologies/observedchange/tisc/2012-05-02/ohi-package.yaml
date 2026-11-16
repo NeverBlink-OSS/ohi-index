@@ -1,0 +1,23 @@
+namespace: observedchange
+name: tisc
+version: "2012-05-02"
+language: owl
+syntax: turtle
+roots: [tisc.ttl]
+licenses: ["CC-BY-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Open Time and Space Core Vocabulary"
+authors:
+  - name: "Tomi Kauppinen"
+    link: "http://kauppinen.net/tomi"
+publishers:
+  - name: "Tomi Kauppinen"
+    link: "http://kauppinen.net/tomi"
+description: "TISC, the Open Time and Space Core Vocabulary, is a lightweight spatiotemporal vocabulary aiming to provide spatial and temporal terms such as \"happensAt\", \"locatedAt\", \"rightOf\" to enable practitioners to relate their data to time and space."
+keywords: ["Events"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/tisc/versions/2012-05-02.n3
+    name: tisc.ttl
+    sha256: "0228d58d744dcbbda845f560272566213e443fdef2889f2992cd5ef2ef8edbab"
+    size: 13446

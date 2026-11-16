@@ -1,0 +1,40 @@
+namespace: ica
+name: rico
+version: "1.1"
+language: owl
+syntax: rdfxml
+roots: [rico.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "International Council on Archives Records in Contexts Ontology (ICA RiC-O)"
+authors:
+  - name: "International Council on Archives Expert Group on Archival Description"
+    link: "https://www.ica.org/"
+publishers:
+  - name: "International Council on Archives"
+    link: "https://www.ica.org/"
+contributors:
+  - name: "Florence Clavaud"
+    link: "https://orcid.org/0000-0002-5681-4850"
+  - name: "Regine I. Heberlein"
+    link: "https://orcid.org/0000-0002-0803-8025"
+  - name: "Miia Herrala"
+  - name: "Jan Krause-Bilvin"
+    link: "https://orcid.org/0000-0001-9375-2102"
+  - name: "Daniel V. Pitti"
+    link: "https://orcid.org/0000-0001-9938-6502"
+  - name: "Aaron Rubinstein"
+  - name: "Tobias Wildi"
+    link: "https://orcid.org/0000-0001-6743-9622"
+  - name: "Richard David Williamson"
+    link: "https://rwilliamson-mathematics.info"
+  - name: "Ivo Zandhuis"
+    link: "https://ivozandhuis.nl/"
+description: "RiC-O (Records in Contexts-Ontology) is an OWL ontology for describing archival record resources."
+keywords: ["Catalogs", "Multimedia"]
+originalSources: ["https://www.ica.org/standards/RiC/RiC-O_v0-2.html"]
+sources:
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

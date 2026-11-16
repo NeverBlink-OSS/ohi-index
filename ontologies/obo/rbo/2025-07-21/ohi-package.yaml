@@ -1,0 +1,26 @@
+namespace: obo
+name: rbo
+version: "2025-07-21"
+language: owl
+syntax: rdfxml
+roots: [rbo.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Radiation Biology Ontology"
+authors:
+  - name: "Radiobiology Informatics Consortium"
+    link: "https://github.com/Radiobiology-Informatics-Consortium"
+publishers:
+  - name: "Radiobiology Informatics Consortium"
+    link: "https://github.com/Radiobiology-Informatics-Consortium"
+description: "RBO is an ontology for the effects of radiation on biota in terrestrial and space environments."
+keywords: ["environment", "radiation biology", "OBO"]
+originalSources: ["https://github.com/Radiobiology-Informatics-Consortium/RBO"]
+sources:
+  - url: https://github.com/Radiobiology-Informatics-Consortium/RBO/blob/v2026-07-31/rbo.owl
+    sha256: "5396ce01d2e22ab5ab1db25ee22bc474ff5e3f661e069795d1be3ec03317682f"
+    size: 28391623
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

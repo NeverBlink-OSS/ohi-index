@@ -1,0 +1,34 @@
+namespace: glaciation-project
+name: glc
+version: "1.1.0"
+language: owl
+syntax: turtle
+roots: [glc.ttl]
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "GLACIATION Metadata Reference Model"
+authors:
+  - name: "Michalis Mountantonakis"
+  - name: "Panagiotis Papadakos"
+  - name: "Rigo Wenning"
+publishers:
+  - name: "GLACIATION project"
+    link: "https://glaciation-project.eu/"
+contributors:
+  - name: "Konstantin Tatarnikov"
+  - name: "Guangyuan Piao"
+  - name: "Alessio Chellini"
+  - name: "Paolo Tartara"
+  - name: "Péter Forgács"
+description: "The GLACIATION platform develops a novel Distributed Knowledge Graph (DKG) that stretches across the edge-core-cloud architecture to reduce energy consumption, improving data processing and optimizing data movement operations."
+keywords: ["Metadata"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/glc/versions/2025-11-05.n3
+    name: glc.ttl
+    sha256: "eda86b00411ab12ef3ff6b8dc53a3eca0d8dc7c7945ad672001c967e9e48970c"
+    size: 22488
+  - url: https://www.apache.org/licenses/LICENSE-2.0.txt
+    name: LICENSE
+    sha256: "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    size: 11358

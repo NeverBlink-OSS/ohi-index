@@ -1,0 +1,30 @@
+namespace: qb4olap
+name: qb4o
+version: "1.3"
+language: owl
+syntax: turtle
+roots: [qb4o.ttl]
+licenses: ["PDDL-1.0"]
+licenseFiles: [pddl-10.txt]
+dependencies: ["w3c/qb@2014"]
+title: "Vocabulary for publishing OLAP data cubes"
+authors:
+  - name: "Alejandro Vaisman"
+    contact: "avaisman@itba.edu.ar"
+  - name: "Lorena Etcheverry"
+    contact: "lorenae@fing.edu.uy"
+publishers:
+  - name: "Alejandro Vaisman"
+    contact: "avaisman@itba.edu.ar"
+  - name: "Lorena Etcheverry"
+    contact: "lorenae@fing.edu.uy"
+description: "This vocabulary allows to publish and operate with OLAP cubes in RDF."
+keywords: ["Catalogs"]
+sources:
+  - url: https://cdn.jsdelivr.net/gh/lorenae/qb4olap@master/rdf/qb4olap.ttl
+    name: qb4o.ttl
+    sha256: "7974f1f2ee70b63df512637e4f7b2c5639ad264ddc415b553378edf82c132732"
+    size: 13332
+  - url: https://opendatacommons.org/licenses/pddl/pddl-10.txt
+    sha256: "40e19160034659380a29a43311c560b0b24dd529b96399f954fb7fbe2f98d33a"
+    size: 15802

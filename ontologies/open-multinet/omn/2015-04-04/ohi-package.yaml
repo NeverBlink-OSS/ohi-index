@@ -1,0 +1,48 @@
+namespace: open-multinet
+name: omn
+version: "2015-04-04"
+language: owl
+syntax: turtle
+roots: [omn.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Open-Multinet Upper Ontology"
+authors:
+  - name: "Alexander Willner"
+    link: "http://alex.willner.ws/"
+publishers:
+  - name: "Open-Multinet"
+    link: "http://open-multinet.info/"
+contributors:
+  - name: "Brecht Vermeulen"
+    contact: "brecht.vermeulen@iminds.be"
+  - name: "Ilya Baldin"
+    contact: "ibaldin@renci.org"
+  - name: "Thijs Walcarius"
+    contact: "thijs.walcarius@intec.ugent.be"
+  - name: "Chrysa Papagianni"
+    contact: "chrisap@noc.ntua.gr"
+  - name: "Robyn Loughnane"
+    contact: "loughnane@campus.tu-berlin.de"
+  - name: "Yahya Al-Hazmi"
+    contact: "yahya.al-hazmi@tu-berlin.de"
+  - name: "Jorge López de Vergara"
+    contact: "jorge.lopez_vergara@uam.es"
+  - name: "Yufeng Xin"
+    contact: "yxin@renci.org"
+  - name: "Paola Grosso"
+    contact: "p.grosso@uva.nl"
+    link: "https://staff.fnwi.uva.nl/p.grosso"
+  - name: "Mohamed Morsey"
+    contact: "m.morsey@uva.nl"
+description: "This ontology defines the most abstract concepts and properties that are needed to semantically manage resource within federated infrastructures."
+keywords: ["Services"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/omn/versions/2015-04-04.n3
+    name: omn.ttl
+    sha256: "6b66b338bc2997be62849dec9a8b74723c4ba197fcbaae29709b4fb9fd4eed30"
+    size: 24034
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

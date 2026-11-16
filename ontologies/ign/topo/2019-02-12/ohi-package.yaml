@@ -1,0 +1,36 @@
+namespace: ign
+name: topo
+version: "2019-02-12"
+language: owl
+syntax: turtle
+roots: [topo.ttl]
+licenses: ["etalab-2.0", "CC-BY-2.0", "ODC-By-1.0"]
+licenseFiles: [LICENSE-etalab-2.0, legalcode.txt, LICENSE-odc-by-1.0]
+dependencies: []
+title: "An ontology for describing territory elements an infrastructure at French Mapping Agency"
+authors:
+  - name: "Nathalie Abadie"
+    contact: "nathalie-f.abadie@ign.fr"
+publishers:
+  - name: "National Institute of Geographic and Forest Information (IGN)"
+    link: "https://www.ign.fr/"
+contributors:
+  - name: "Ghislain Auguste Atemezing"
+  - name: "Lewis John McGibbney"
+    contact: "lewis.j.mcgibbney@jpl.nasa.gov"
+description: "This ontology reuses the legacy schema of BDTOPO(IGN) and aims at covering the topographic entities and administrative boundaries of the French national territory."
+keywords: ["Geography"]
+originalSources: ["https://data.ign.fr/def/topo"]
+sources:
+  - url: https://data.ign.fr/def/topo/20190212.ttl
+    name: topo.ttl
+    sha256: "bad2c7e54a0a85f70861547a604d784ce0fb244a9482c94b4e7a04efba587e5d"
+    size: 172485
+  - url: https://raw.githubusercontent.com/spdx/license-list-data/v3.29.0/text/etalab-2.0.txt
+    name: LICENSE-etalab-2.0
+    sha256: "f82596bde5c4abc62b4e63b1a3ba555f6b9203a340765fb178d188958600d111"
+    size: 8198
+  - url: https://opendatacommons.org/licenses/by/odc_by_1.0_public_text.txt
+    name: LICENSE-odc-by-1.0
+    sha256: "11a6d83734845ad09d809667aa219857a5b985b28c258a2eebf5677668a6bd3b"
+    size: 19977

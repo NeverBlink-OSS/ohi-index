@@ -1,0 +1,27 @@
+namespace: ceon
+name: ceon-resourceodp
+version: "0.5"
+language: owl
+syntax: turtle
+roots: [ceon-resourceodp.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Circular Economy Ontology Network (CEON) - Resource ODP"
+authors:
+  - name: "Huanyu Li"
+publishers:
+  - name: "Onto-DESIDE project"
+    link: "https://ontodeside.eu/"
+contributors:
+  - name: "Eva Blomqvist"
+description: "A core ODP of the CEON ontology network defining aspects of the resource concept."
+keywords: ["Industry"]
+sources:
+  - url: https://liusemweb.github.io/CEON/ontology/resourceODP/latest/resourceODP.ttl
+    name: ceon-resourceodp.ttl
+    sha256: "224f452171c788252acd191c3cbe902ffdba010bbda1aca79403b7784d143832"
+    size: 12079
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

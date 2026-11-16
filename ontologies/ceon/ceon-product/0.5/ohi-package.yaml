@@ -1,0 +1,27 @@
+namespace: ceon
+name: ceon-product
+version: "0.5"
+language: owl
+syntax: turtle
+roots: [ceon-product.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["ceon/ceon-actorodp@0.4", "ceon/ceon-resourceodp@0.5"]
+title: "Circular Economy Ontology Network (CEON) - Product Module"
+authors:
+  - name: "Huanyu Li"
+publishers:
+  - name: "Onto-DESIDE project"
+    link: "https://ontodeside.eu/"
+contributors:
+  - name: "Eva Blomqvist"
+description: "The Product module of CEON (Circular Economy Ontology Network)."
+keywords: ["Industry"]
+sources:
+  - url: https://liusemweb.github.io/CEON/ontology/product/latest/product.ttl
+    name: ceon-product.ttl
+    sha256: "86042557876f5e77a4115dde16aa0d519eb619ee109dab8239f78a47f32ee3f5"
+    size: 19772
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

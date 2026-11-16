@@ -1,0 +1,29 @@
+namespace: ceon
+name: ceon-actor
+version: "0.4"
+language: owl
+syntax: turtle
+roots: [ceon-actor.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["ceon/ceon-actorodp@0.4"]
+title: "Circular Economy Ontology Network (CEON) - Actor Module"
+authors:
+  - name: "Huanyu Li"
+publishers:
+  - name: "Onto-DESIDE project"
+    link: "https://ontodeside.eu/"
+contributors:
+  - name: "Eva Blomqvist"
+  - name: "Mikael Lindecrantz"
+  - name: "Robin Keskisärkkä"
+description: "The Actor module of CEON (Circular Economy Ontology Network)."
+keywords: ["People"]
+sources:
+  - url: https://liusemweb.github.io/CEON/ontology/actor/latest/actor.ttl
+    name: ceon-actor.ttl
+    sha256: "174e8425bce66b6cb47d7794a2041ffc8008268cdda8bc48d3e920dec31fa740"
+    size: 19085
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

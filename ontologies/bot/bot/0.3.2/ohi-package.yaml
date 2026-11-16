@@ -1,0 +1,48 @@
+namespace: bot
+name: bot
+version: "0.3.2"
+language: owl
+syntax: turtle
+roots: [bot.ttl]
+licenses: ["CC-BY-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "BOT: Building Topology Ontology"
+authors:
+  - name: "Mads Holten Rasmussen"
+    link: "https://orcid.org/0000-0002-6519-7057"
+  - name: "Pieter Pauwels"
+    link: "https://pi.pauwel.be/"
+  - name: "Maxime Lefrançois"
+    link: "http://maxime-lefrancois.info/"
+  - name: "Georg Ferdinand Schneider"
+    link: "https://orcid.org/0000-0002-2033-859X"
+publishers:
+  - name: "W3C Linked Building Data Community Group"
+    link: "https://www.w3.org/community/lbd/"
+contributors:
+  - name: "Mathias Bonduel"
+  - name: "Sjoerd Rongen"
+  - name: "Katja Breitenfelder"
+  - name: "Edison Chung"
+  - name: "María Poveda-Villalón"
+  - name: "Ville Kukkonen"
+  - name: "Lars Wikström"
+  - name: "Karl Hammar"
+  - name: "Hervé Pruvost"
+  - name: "Ana Roxin"
+  - name: "Gonçal Costa"
+  - name: "Walter Terkaj"
+  - name: "Rui de Klerk"
+  - name: "Rui Ma"
+  - name: "Richard Pinka"
+  - name: "Jyrki Oraskari"
+  - name: "Ali Kücükavci"
+  - name: "Pouya Zangeneh"
+description: "The Building Topology Ontology (BOT) is a simple ontology defining the core concepts of a building."
+keywords: ["Industry"]
+originalSources: ["https://w3c-lbd-cg.github.io/bot/index.html"]
+sources:
+  - url: https://w3c-lbd-cg.github.io/bot/bot.ttl
+    sha256: "0f51c7f192d5e694a9c465cbc883448c64790ffabc3c1e8d6530912c45510d73"
+    size: 117767

@@ -1,0 +1,26 @@
+namespace: commons
+name: text-datatype
+version: "20221101"
+language: owl
+syntax: rdfxml
+roots: [TextDatatype.rdf]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["commons/annotation-vocabulary@20250801"]
+title: "OMG Commons Text Datatype"
+authors:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+publishers:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+contributors:
+  - name: "Elisa Kendall"
+  - name: "Evren Sirin"
+description: "Datatype for text that combines strings and language-tagged strings."
+keywords: ["datatypes", "text"]
+originalSources: ["https://www.omg.org/spec/Commons"]
+sources:
+  - url: https://www.omg.org/spec/Commons/20221101/TextDatatype.rdf
+    sha256: "d29a6e24bffb67fd6a4fe9955880fb9e8bd2f858a12d3e846fc45fd571bd8314"
+    size: 5976

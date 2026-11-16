@@ -1,0 +1,26 @@
+DITA RDF ontology, by Colin Maudry. The DITA RDF ontology translates the semantics of a subset of the vocabulary described in the DITA 1.2 specification in a format that can be understood in the semantic Web of data. Vocabulary IRI: http://purl.org/dita/ns#
+
+Depends on no other package.
+
+Package created (its files downloaded or sources' hashes created) on 2026-11-02.
+The ontology file is from https://lov.linkeddata.es/dataset/vocabs/dita/versions/2014-08-03.n3.
+That is the copy Linked Open Vocabularies (LOV) keeps of the vocabulary's newest version there, which its link https://lov.linkeddata.es/dataset/lov/vocabs/dita/versions/2014-08-03.n3 redirects to. No URL of the publisher serves the file without a redirect, so LOV's copy is used.
+The file is a remote source.
+
+Notes:
+
+- 6 classes, 44 properties in its own namespace, http://purl.org/dita/ns#.
+- The file states no version, so the version is the date of LOV's copy.
+- LOV tags: RDF.
+
+# Copyright
+
+Licensed under the Unlicense: https://unlicense.org/ (as stated in the file itself).
+
+# Changes
+
+None. The file is kept as published.
+
+# License file
+
+`UNLICENSE`: The plain-text legal code of the license, https://unlicense.org/UNLICENSE. A source of the package, not kept in the folder.

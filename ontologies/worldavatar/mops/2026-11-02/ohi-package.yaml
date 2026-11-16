@@ -1,0 +1,27 @@
+namespace: worldavatar
+name: mops
+version: "2026-11-02"
+language: owl
+syntax: turtle
+roots: [mops.ttl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "WorldAvatar metal-organic polyhedra ontology"
+authors:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+publishers:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+description: "An ontology developed for representing Metal-Organic Polyhedra (MOPs)."
+keywords: ["chemistry", "ontology", "worldavatar"]
+originalSources: ["https://github.com/TheWorldAvatar/ontology", "https://theworldavatar.io"]
+sources:
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/ontology/ontomops/ontomops-ogm.ttl
+    name: mops.ttl
+    sha256: "92c9def3b1820608f3c3366fdf87245ae667cb97a8143eb4d930b445116e01b7"
+    size: 19835
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/LICENSE.txt
+    sha256: "8c29b2cb4c712a0d382d1951ffc7e2a155ec7095c7e92a896f5919eb02c31ea9"
+    size: 1309

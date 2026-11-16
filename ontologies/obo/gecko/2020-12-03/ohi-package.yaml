@@ -1,0 +1,26 @@
+namespace: obo
+name: gecko
+version: "2020-12-03"
+language: owl
+syntax: rdfxml
+roots: [gecko.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Genomics Cohorts Knowledge Ontology"
+authors:
+  - name: "International HundredK+ Cohorts Consortium"
+    link: "https://ihcc.g2mc.org/"
+publishers:
+  - name: "International HundredK+ Cohorts Consortium"
+    link: "https://ihcc.g2mc.org/"
+description: "An ontology to represent genomics cohort attributes."
+keywords: ["organisms", "cohort studies", "OBO"]
+originalSources: ["https://github.com/IHCC-cohorts/GECKO"]
+sources:
+  - url: https://github.com/IHCC-cohorts/GECKO/blob/v2020-12-03/gecko.owl
+    sha256: "3c66a2bbad048bdeefacf07679b23103cc7d02542b2c4ba83e598d70ac237d29"
+    size: 152303
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

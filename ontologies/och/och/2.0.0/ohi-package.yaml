@@ -1,0 +1,36 @@
+namespace: och
+name: och
+version: "2.0.0"
+language: owl
+syntax: turtle
+roots: [och.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "OWL Change Ontology"
+authors:
+  - name: "Diego Conde-Herreros"
+  - name: "Romana Pernisch"
+  - name: "María Poveda-Villalón"
+    link: "https://orcid.org/0000-0003-3587-0367"
+  - name: "Oscar Corcho"
+  - name: "David Chaves-Fraga"
+publishers:
+  - name: "Diego Conde-Herreros"
+  - name: "Romana Pernisch"
+  - name: "María Poveda-Villalón"
+    link: "https://orcid.org/0000-0003-3587-0367"
+  - name: "Oscar Corcho"
+  - name: "David Chaves-Fraga"
+description: "An ontology for describing changes between OWL ontology versions."
+keywords: ["Metadata", "RDF", "Vocabularies"]
+publications:
+  - title: "Conde-Herreros, D. Pernisch, R., Poveda-Villalón, M., Corcho, O., & Chaves-Fraga, D. (2024). OCH: The OWL Change Ontology"
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/och/versions/2024-12-19.n3
+    name: och.ttl
+    sha256: "2752640b0ee1b5b77120b7ad2a32db825566fe5c5f51e4d5f205a90ad5262523"
+    size: 39088
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

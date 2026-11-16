@@ -1,0 +1,28 @@
+namespace: vemonet
+name: semanticscience-model
+version: "0.1.0"
+language: linkml
+syntax: yaml
+roots: [semanticscience-model.yaml]
+patch: semanticscience-model.patch.yaml
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "semanticscience-model"
+authors:
+  - name: "Vincent Emonet"
+    link: "https://vemonet.github.io"
+publishers:
+  - name: "Vincent Emonet"
+    link: "https://vemonet.github.io"
+description: "LinkML model for the SemanticScience Integrated Ontology."
+keywords: ["knowledge-graph", "ontology", "owl-ontology", "semanticscience", "shacl", "Computer Science"]
+originalSources: ["https://github.com/vemonet/semanticscience-model"]
+sources:
+  - url: https://github.com/vemonet/semanticscience-model/blob/6e70a3828e9738a7f0365513307e0c86c6448319/model/sio-model.yaml
+    name: semanticscience-model.yaml
+    sha256: "8fbe6890a7bcd03c88f2b228188e5403b42fc1ea34bd36db0a340cb743f7d59f"
+    size: 293468
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

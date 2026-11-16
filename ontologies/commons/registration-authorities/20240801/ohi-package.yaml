@@ -1,0 +1,23 @@
+namespace: commons
+name: registration-authorities
+version: "20240801"
+language: owl
+syntax: rdfxml
+roots: [RegistrationAuthorities.rdf]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["commons/annotation-vocabulary@20250801", "commons/collections@20221101", "commons/contextual-identifiers@20221101", "commons/dates-and-times@20250801", "commons/documents@20250801", "commons/identifiers@20221101", "commons/organizations@20250801", "commons/parties-and-situations@20250801", "commons/roles-and-compositions@20230801"]
+title: "OMG Commons Registration Authorities"
+authors:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+publishers:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+description: "Registration authorities, registrars and the identifiers they register."
+keywords: ["OMG Commons", "registries", "identifiers"]
+originalSources: ["https://www.omg.org/spec/Commons"]
+sources:
+  - url: https://www.omg.org/spec/Commons/20240801/RegistrationAuthorities.rdf
+    sha256: "f116e672e688e58e5f6ca2c1140ee6d2e682208138455fbc70d8b4cbfc4ea3cd"
+    size: 16947

@@ -1,0 +1,27 @@
+namespace: d-nb
+name: dnbt
+version: "1.6"
+language: owl
+syntax: turtle
+roots: [dnbt.ttl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "DNB Metadata Terms"
+authors:
+  - name: "Lars G. Svensson"
+publishers:
+  - name: "German National Library"
+    contact: "datendienste@dnb.de"
+    link: "https://www.dnb.de/"
+description: "The DNB RDF Vocabulary (dnb:) is a collection of classes, properties and datatypes used within the DNB's linked data service.It complements the GND Ontology (gndo:) which is specifically geared towards authority data from the Integrated Authority File (GND), whereas this vocabulary is more…"
+keywords: ["Metadata"]
+originalSources: ["https://d-nb.info/standards/elementset/dnb"]
+sources:
+  - url: https://d-nb.info/standards/elementset/dnb.ttl
+    name: dnbt.ttl
+    sha256: "47ecb2ac8b992b1010ddfc410df688a9dfb8df89d00fd6688b8a1aa7037d8396"
+    size: 14378
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

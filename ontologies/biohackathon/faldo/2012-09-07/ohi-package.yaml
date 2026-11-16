@@ -1,0 +1,25 @@
+namespace: biohackathon
+name: faldo
+version: "2012-09-07"
+language: owl
+syntax: turtle
+roots: [faldo.ttl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Feature Annotation Location Description Ontology"
+authors:
+  - name: "Jerven Bolleman"
+publishers:
+  - name: "Biohackathon"
+    link: "https://www.biohackathon.org/"
+description: "Used to describe a location that consists of a number of Regions but where the order is not known."
+keywords: ["Geography"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/faldo/versions/2012-09-07.n3
+    name: faldo.ttl
+    sha256: "13d2f8e613807b560d7b0184f51c697c8d1f600f693a90ed748fbcd74430b348"
+    size: 14754
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

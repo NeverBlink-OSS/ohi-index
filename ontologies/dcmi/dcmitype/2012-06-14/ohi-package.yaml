@@ -1,0 +1,26 @@
+namespace: dcmi
+name: dcmitype
+version: "2012-06-14"
+language: rdfs
+syntax: rdfxml
+roots: [dctype.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "DCMI Type Vocabulary"
+authors:
+  - name: "Dublin Core Metadata Initiative"
+    link: "https://www.dublincore.org/"
+publishers:
+  - name: "Dublin Core Metadata Initiative"
+    link: "https://www.dublincore.org/"
+description: "Dublin Core classes for the type of a resource, such as text, image or dataset."
+keywords: ["metadata", "Dublin Core", "resource types"]
+originalSources: ["https://www.dublincore.org/specifications/dublin-core/dcmi-terms"]
+sources:
+  - url: https://www.dublincore.org/2012/06/14/dctype.rdf
+    sha256: "0d15e3c95d336c9f7b0231f9864d0ea14f1b87b0b71eef60bad629a5b9ec202f"
+    size: 12555
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

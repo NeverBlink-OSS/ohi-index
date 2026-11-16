@@ -1,0 +1,22 @@
+namespace: onto-ocds
+name: ocds
+version: "2018-07-03"
+language: owl
+syntax: turtle
+roots: [ocds.ttl]
+licenses: ["CC-BY-2.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["odp/sequence@1.1"]
+title: "Schema for an Open Contracting Release (OCDS)"
+authors:
+  - name: "Colin Maudry"
+publishers:
+  - name: "Colin Maudry"
+description: "The OCDS is a data model that aims at structuring and publishing contracting data (tenders, procurements, awards, transactions, etc.)."
+keywords: ["Contracts"]
+originalSources: ["https://github.com/ColinMaudry/open-contracting-ld"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/ocds/versions/2018-07-03.n3
+    name: ocds.ttl
+    sha256: "8a7da1b45a5c446913f97cb92f2eb613146ac0d9edef773c49f53b01d7bb6ed9"
+    size: 70463

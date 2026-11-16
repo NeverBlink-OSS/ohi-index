@@ -1,0 +1,26 @@
+namespace: bcom
+name: bcom
+version: "0.3"
+language: owl
+syntax: turtle
+roots: [bcom.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Building Concrete Monitoring Ontology (BCOM)"
+authors:
+  - name: "Philipp Hagedorn"
+  - name: "Liu Liu"
+publishers:
+  - name: "Chair of Computing in Engineering, Ruhr University Bochum"
+    link: "https://www.inf.bi.ruhr-uni-bochum.de/"
+description: "The Building Concrete Monitoring Ontology (BCOM) is defined for capturing information of concrete work, concrete curing and testing of concrete properties."
+keywords: ["Industry"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/bcom/versions/2021-07-26.n3
+    name: bcom.ttl
+    sha256: "38a81921e55d496cc08f100ac473efcd53ccdc20da67f71d7828d8a55717dbde"
+    size: 28565
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

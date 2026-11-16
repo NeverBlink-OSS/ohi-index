@@ -1,0 +1,27 @@
+# JSON Patch (RFC 6902) the hub applies to chemrof.yaml before publishing it.
+# README.md says what each change is for.
+- op: replace
+  path: /classes/IsomeraseReaction/deprecated
+  value: 'true'
+- op: replace
+  path: /slots/has_physiologically_stable_form/deprecated
+  value: 'true'
+- op: replace
+  path: /enums/BronstedAcidBaseRoleEnum/permissible_values
+  value:
+    acid:
+      description: CHEBI:39141
+    base:
+      description: CHEBI:39142
+- op: add
+  path: /prefixes/OntoRXN
+  value: http://www.semanticweb.com/OntoRxn#
+- op: add
+  path: /prefixes/edam
+  value: http://edamontology.org/
+- op: test
+  path: /classes/ChemicalEntityOrGrouping/union_of/1
+  value: chemical entity grouping class
+- op: replace
+  path: /classes/ChemicalEntityOrGrouping/union_of/1
+  value: ChemicalGroupingClass

@@ -1,0 +1,27 @@
+namespace: snow0815
+name: tribain
+version: "2026-11-02"
+language: owl
+syntax: turtle
+roots: [tribain.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Tribology Ontology for Artificial Intelligence"
+authors:
+  - name: "Patricia Kügler"
+  - name: "Max Marian"
+publishers:
+  - name: "Patricia Kügler"
+  - name: "Max Marian"
+description: "The tribAIn1 ontology aims to formalize knowledge gained from tribological experiments for reuse, comparison and documentation."
+keywords: ["engineering", "nfdi-matwerk", "nfdi4ing", "ontology"]
+originalSources: ["https://github.com/snow0815/tribAIn"]
+sources:
+  - url: https://github.com/snow0815/tribAIn/blob/6835ade0eac0c82743a04939abc7679ad3fa3436/tribAin.ttl
+    name: tribain.ttl
+    sha256: "a39894ad971122c7c9c351e07f73104207b2e3c79dc4b3fe61a409fa304d0454"
+    size: 136789
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

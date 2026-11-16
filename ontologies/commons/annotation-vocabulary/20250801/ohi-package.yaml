@@ -1,0 +1,23 @@
+namespace: commons
+name: annotation-vocabulary
+version: "20250801"
+language: owl
+syntax: rdfxml
+roots: [AnnotationVocabulary.rdf]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "OMG Commons Annotation Vocabulary"
+authors:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+publishers:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+description: "Annotation properties shared by the OMG Commons and FIBO ontologies."
+keywords: ["annotations", "metadata"]
+originalSources: ["https://www.omg.org/spec/Commons"]
+sources:
+  - url: https://www.omg.org/spec/Commons/20250801/AnnotationVocabulary.rdf
+    sha256: "0f31efad729e9c5dc260d4cca8cb92c69ec25a4554ead4c866903f652e3789f7"
+    size: 23277

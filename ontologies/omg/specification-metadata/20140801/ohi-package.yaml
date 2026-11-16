@@ -1,0 +1,22 @@
+namespace: omg
+name: specification-metadata
+version: "20140801"
+language: owl
+syntax: rdfxml
+roots: [SpecificationMetadata.rdf]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["w3c/skos@2009"]
+title: "OMG Specification Metadata"
+authors:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+publishers:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+description: "Annotation vocabulary of the Object Management Group for the metadata of its specifications and their modules."
+keywords: ["OMG", "metadata", "specifications"]
+sources:
+  - url: https://www.omg.org/techprocess/ab/SpecificationMetadata.rdf
+    sha256: "fac1b008e67c7a5f502acf08130092caa71d108c32a94f49ce561b01a5f891cc"
+    size: 42324

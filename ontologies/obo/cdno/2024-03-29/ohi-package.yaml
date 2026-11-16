@@ -1,0 +1,30 @@
+namespace: obo
+name: cdno
+version: "2024-03-29"
+language: owl
+syntax: rdfxml
+roots: [cdno.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Compositional Dietary Nutrition Ontology"
+authors:
+  - name: "Liliana Andrés-Hernández"
+    contact: "landreshdz@gmail.com"
+    link: "https://orcid.org/0000-0002-7696-731X"
+publishers:
+  - name: "Compositional Dietary Nutrition Ontology"
+    link: "https://cdno.info"
+description: "CDNO provides structured terminologies to describe nutritional attributes of material entities that contribute to human diet."
+keywords: ["diet, metabolomics, and nutrition", "OBO"]
+originalSources: ["https://github.com/CompositionalDietaryNutritionOntology/cdno", "https://cdno.info"]
+publications:
+  - title: "Establishing a Common Nutritional Vocabulary - From Food Production to Diet"
+    link: "https://doi.org/10.3389/fnut.2022.928837"
+sources:
+  - url: https://github.com/CompositionalDietaryNutritionOntology/cdno/blob/v2024-03-29/cdno.owl
+    sha256: "4f76c328d32593a357c5f98d637920f43a53ae13a94a41a975984baf0c953dcc"
+    size: 9741333
+  - url: https://github.com/CompositionalDietaryNutritionOntology/cdno/blob/v2024-03-29/LICENSE
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

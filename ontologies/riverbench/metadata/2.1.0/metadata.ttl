@@ -1,0 +1,530 @@
+@prefix :     <https://w3id.org/riverbench/schema/metadata#> .
+@prefix dc:   <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix irao: <http://ontology.ethereal.cz/irao/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rb:   <https://w3id.org/riverbench/schema/metadata#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:   <http://www.w3.org/ns/shacl#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xml:  <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+rb:DatatypeLiteralCountStatistics
+        rdf:type         owl:Class;
+        rdfs:comment     "Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset."@en;
+        rdfs:label       "Datatype literal count statistics"@en;
+        rdfs:subClassOf  rb:Statistics .
+
+rb:usesProfile  rdf:type    owl:ObjectProperty;
+        rdfs:comment        "Indicates that the subject is using a specific RiverBench benchmark profile."@en;
+        rdfs:label          "Uses benchmark profile"@en;
+        rdfs:range          rb:Profile;
+        rdfs:subPropertyOf  rb:usesResource .
+
+rb:standardDeviation  rdf:type  owl:DatatypeProperty;
+        rdfs:comment        "Standard deviation of a distribution"@en;
+        rdfs:label          "Standard deviation"@en;
+        rdfs:range          xsd:decimal;
+        rdfs:subPropertyOf  rb:statisticalProperty .
+
+rb:sum  rdf:type            owl:DatatypeProperty;
+        rdfs:comment        "Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset."@en;
+        rdfs:label          "Sum"@en;
+        rdfs:range          xsd:decimal;
+        rdfs:subPropertyOf  rb:statisticalProperty .
+
+rb:hasTemporalProperty
+        rdf:type      owl:ObjectProperty;
+        rdfs:comment  "The IRI of the property that is used in the stream to denote time at which the event occured."@en;
+        rdfs:domain   rb:TimeStreamElementSplit;
+        rdfs:label    "Has temporal property"@en .
+
+rb:hasTask  rdf:type        owl:ObjectProperty;
+        rdfs:comment        "For benchmark categories this property indicates tasks that belong to the category."@en;
+        rdfs:domain         rb:Category;
+        rdfs:label          "Has benchmark task"@en;
+        rdfs:range          rb:Task;
+        rdfs:subPropertyOf  rb:hasCategoryMember .
+
+rb:partialDistribution
+        rdf:type      rb:DistributionType , owl:NamedIndividual;
+        rdfs:comment  "A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution."@en;
+        rdfs:label    "Partial distribution"@en .
+
+rb:targetCustom  rdf:type  owl:ObjectProperty;
+        rdfs:comment  "Custom SHACL-like node target used in RiverBench for datasets where SHACL does not provide adequate means for targeting them (e.g., for RDF-star)."@en;
+        rdfs:domain   sh:NodeShape;
+        rdfs:label    "Target custom"@en;
+        rdfs:range    rb:CustomShaclTarget .
+
+rb:CategoryMember  rdf:type  owl:Class;
+        rdfs:comment     "Superclass for both profiles and tasks"@en;
+        rdfs:label       "Member of a benchmark category"@en;
+        rdfs:subClassOf  dcat:Resource .
+
+rb:fullDistribution  rdf:type  rb:DistributionType , owl:NamedIndividual;
+        rdfs:comment  "A full distribution, including all data in the dataset."@en;
+        rdfs:label    "Full distribution"@en .
+
+rb:Task  rdf:type        owl:Class;
+        rdfs:comment     "Class for specific benchmark tasks (e.g., end-to-end streaming latency). Each task belongs to one benchmark category (rb:Category)."@en;
+        rdfs:label       "Benchmark task"@en;
+        rdfs:subClassOf  rb:CategoryMember , irao:Methodology .
+
+rb:GraphCountStatistics
+        rdf:type         owl:Class;
+        rdfs:comment     "Statistics about the number of RDF graphs in the dataset, including the default graph."@en;
+        rdfs:label       "Graph count statistics"@en;
+        rdfs:subClassOf  rb:Statistics .
+
+rb:mean  rdf:type           owl:DatatypeProperty;
+        rdfs:comment        "Arithmetic mean of a distribution"@en;
+        rdfs:label          "Mean"@en;
+        rdfs:range          xsd:decimal;
+        rdfs:subPropertyOf  rb:statisticalProperty .
+
+rb:hasDistributionType
+        rdf:type      owl:ObjectProperty;
+        rdfs:comment  "Indicates the type of RiverBench dataset distribution"@en;
+        rdfs:domain   rb:Distribution;
+        rdfs:label    "Has distribution type"@en;
+        rdfs:range    rb:DistributionType .
+
+rb:LanguageLiteralCountStatistics
+        rdf:type         owl:Class;
+        rdfs:comment     "Statistics about the number of language literals in the dataset."@en;
+        rdfs:label       "Language string count statistics"@en;
+        rdfs:subClassOf  rb:Statistics .
+
+dcat:DatasetSeries  rdf:type  owl:Class;
+        rdfs:label       "Dataset series"@en;
+        rdfs:subClassOf  dcat:Dataset .
+
+rb:conformanceProperty
+        rdf:type            owl:DatatypeProperty;
+        rdfs:comment        "Base property for all conformance data properties"@en;
+        rdfs:label          "Conformance property"@en;
+        rdfs:range          xsd:boolean;
+        rdfs:subPropertyOf  owl:topDataProperty .
+
+dcat:resource  rdf:type     owl:ObjectProperty;
+        rdfs:subPropertyOf  dct:hasPart .
+
+rb:streamDistribution
+        rdf:type      rb:DistributionType , owl:NamedIndividual;
+        rdfs:comment  "The dataset is distributed as a stream of RDF datasets or RDF graphs (grouped RDF stream in RDF-STaX)."@en;
+        rdfs:label    "Stream distribution"@en .
+
+rb:hasSubjectShape  rdf:type  owl:ObjectProperty;
+        rdfs:comment        "Indicates the subject node in an RDF subject graph stream, using SHACL. The value of this property should be a SHACL sh:NodeShape with a specified target (e.g., sh:targetSubjectsOf). Only the target will be considered, restrictions on the shape will be ignored.\n\nThis property is required for RDF subject graph streams. Only sh:targetClass, sh:targetSubjectsOf, and sh:targetObjectsOf are allowed as the target specification.\n\nThis property can be specified multiple times. The different target specifications will then be treated as alternatives."@en;
+        rdfs:domain         rb:TopicStreamElementSplit;
+        rdfs:label          "Has subject shape"@en;
+        rdfs:range          sh:NodeShape;
+        rdfs:subPropertyOf  rb:hasShape .
+
+rb:LiteralCountStatistics
+        rdf:type         owl:Class;
+        rdfs:comment     "Statistics about the number of literals in the dataset."@en;
+        rdfs:label       "Literal count statistics"@en;
+        rdfs:subClassOf  rb:Statistics .
+
+rb:StreamElementSplit
+        rdf:type      owl:Class;
+        rdfs:comment  "Describes how was the stream split into individual elements."@en;
+        rdfs:label    "Stream element split"@en .
+
+rb:isSubsetOfProfile  rdf:type  owl:TransitiveProperty , owl:ObjectProperty;
+        rdfs:comment        "Indicates that this profile's datasets are all in the other profile"@en;
+        rdfs:domain         rb:Profile;
+        rdfs:label          "Is subset of profile"@en;
+        rdfs:range          rb:Profile;
+        rdfs:subPropertyOf  dct:relation;
+        owl:inverseOf       rb:isSupersetOfProfile .
+
+rb:jellyDistribution  rdf:type  rb:DistributionType , owl:NamedIndividual;
+        rdfs:comment  "A streaming distribution in the Jelly binary format."@en;
+        rdfs:label    "Jelly distribution"@en .
+
+rb:PerformedBenchmark
+        rdf:type         owl:Class;
+        rdfs:comment     "A benchmark that was performed with a specific set of systems under test, using a RiverBench task and a RiverBench profile (collection of datasets). Instances of this class refer to, for examples, specific benchmarks described in research papers."@en;
+        rdfs:label       "Performed benchmark"@en;
+        rdfs:subClassOf  irao:Benchmark;
+        rdfs:subClassOf  [ rdf:type            owl:Restriction;
+                           owl:onProperty      irao:hasFollowedProtocol;
+                           owl:someValuesFrom  rb:BenchmarkProtocol
+                         ] .
+
+rb:Profile  rdf:type      owl:Class;
+        rdfs:comment      "Benchmark profile grouping several datasets in RiverBench. Each profile belongs to one benchmark category (rb:Category)."@en;
+        rdfs:label        "Benchmark profile"@en;
+        rdfs:subClassOf   rb:CategoryMember , dcat:DatasetSeries;
+        owl:disjointWith  rb:Task .
+
+rb:Dataset  rdf:type     owl:Class;
+        rdfs:comment     "A dataset in the RiverBench benchmark suite"@en;
+        rdfs:label       "RiverBench dataset"@en;
+        rdfs:subClassOf  dcat:Dataset , irao:Dataset;
+        rdfs:subClassOf  [ rdf:type            owl:Restriction;
+                           owl:onProperty      <https://w3id.org/stax/ontology#hasStreamTypeUsage>;
+                           owl:someValuesFrom  <https://w3id.org/stax/ontology#ConcreteRdfStreamType>
+                         ] .
+
+rb:hasStatistics  rdf:type  owl:ObjectProperty;
+        rdfs:comment  "Has a dataset statistics object"@en;
+        rdfs:domain   rb:StatisticsSet;
+        rdfs:label    "Has statistics"@en;
+        rdfs:range    rb:Statistics .
+
+rb:usesRdfStar  rdf:type    owl:DatatypeProperty;
+        rdfs:comment        "Whether the dataset uses RDF-star features."@en;
+        rdfs:label          "Uses RDF-star"@en;
+        rdfs:range          xsd:boolean;
+        rdfs:seeAlso        "https://www.w3.org/2021/12/rdf-star.html"@en;
+        rdfs:subPropertyOf  rb:conformanceProperty .
+
+rb:yagoTarget  rdf:type  rb:CustomShaclTarget , owl:NamedIndividual;
+        rdfs:comment  "Custom SHACL-like target for the yago-annotated-facts dataset in RiverBench. Targets the subject of any quoted triple in the graph. There is always exactly one such unique subject."@en;
+        rdfs:label    "YAGO annotated facts target"@en .
+
+rb:minimum  rdf:type        owl:DatatypeProperty;
+        rdfs:comment        "Minimum value of a distribution"@en;
+        rdfs:label          "Minimum"@en;
+        rdfs:range          xsd:decimal;
+        rdfs:subPropertyOf  rb:statisticalProperty .
+
+dct:isPartOf  rdf:type      owl:ObjectProperty;
+        rdfs:subPropertyOf  dct:relation .
+
+rb:hasCategory  rdf:type    owl:ObjectProperty;
+        rdfs:comment        "Indicates that a benchmark category belongs to this benchmark suite."@en;
+        rdfs:domain         rb:RiverBench;
+        rdfs:label          "Has benchmark category"@en;
+        rdfs:range          rb:Category;
+        rdfs:subPropertyOf  dcat:resource .
+
+rb:hasVersion  rdf:type  owl:DatatypeProperty;
+        rdfs:comment  "Version tag of an artifact"@en;
+        rdfs:label    "Has version"@en;
+        rdfs:range    xsd:string .
+
+rb:hasDatasetShape  rdf:type  owl:ObjectProperty;
+        rdfs:comment        "Specifies the SHACL shape of distributions that are allowed in a given benchmark profile."@en;
+        rdfs:domain         rb:Profile;
+        rdfs:label          "Has dataset shape"@en;
+        rdfs:range          sh:NodeShape;
+        rdfs:subPropertyOf  rb:hasShape .
+
+rb:hasProfile  rdf:type     owl:ObjectProperty;
+        rdfs:comment        "For benchmark categories this property indicates profiles that belong to the category."@en;
+        rdfs:domain         rb:Category;
+        rdfs:label          "Has benchmark profile"@en;
+        rdfs:range          rb:Profile;
+        rdfs:subPropertyOf  rb:hasCategoryMember .
+
+rb:PredicateCountStatistics
+        rdf:type         owl:Class;
+        rdfs:comment     "Statistics about the number of predicates in the dataset."@en;
+        rdfs:label       "Predicate count statistics"@en;
+        rdfs:subClassOf  rb:Statistics .
+
+rb:flatDistribution  rdf:type  rb:DistributionType , owl:NamedIndividual;
+        rdfs:comment  "The dataset is distributed as a single flat file."@en;
+        rdfs:label    "Flat distribution"@en .
+
+rb:statisticalProperty
+        rdf:type      owl:DatatypeProperty;
+        rdfs:comment  "The base statistical property.";
+        rdfs:domain   rb:Statistics;
+        rdfs:label    "Statistical property"@en .
+
+rb:hasStreamElementCount
+        rdf:type            owl:DatatypeProperty;
+        rdfs:comment        "Number of elements in the stream"@en;
+        rdfs:label          "Has stream element count"@en;
+        rdfs:subPropertyOf  owl:topDataProperty .
+
+rb:DistributionType  rdf:type  owl:Class;
+        rdfs:comment  "Type of dataset distribution, indicating the corresponding streaming task formulation."@en;
+        rdfs:label    "RiverBench distribution type"@en .
+
+rb:inCategory  rdf:type     owl:FunctionalProperty , owl:ObjectProperty;
+        rdfs:comment        "Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category)."@en;
+        rdfs:domain         rb:CategoryMember;
+        rdfs:label          "In benchmark category"@en;
+        rdfs:range          rb:Category;
+        rdfs:subPropertyOf  dct:isPartOf .
+
+rb:BlankNodeCountStatistics
+        rdf:type         owl:Class;
+        rdfs:comment     "Statistics about the number of blank nodes in the dataset."@en;
+        rdfs:label       "Blank node count statistics"@en;
+        rdfs:subClassOf  rb:Statistics .
+
+dct:hasPart  rdfs:subPropertyOf  dct:relation .
+
+rb:hasFileName  rdf:type  owl:DatatypeProperty;
+        rdfs:comment  "Canonical file name of this distribution"@en;
+        rdfs:domain   rb:Distribution;
+        rdfs:label    "Has file name"@en;
+        rdfs:range    xsd:string .
+
+rb:Statistics  rdf:type  owl:Class;
+        rdfs:comment  "Class for statistics objects about distributions"@en;
+        rdfs:label    "Statistics"@en .
+
+rb:isSupersetOfProfile
+        rdf:type            owl:TransitiveProperty , owl:ObjectProperty;
+        rdfs:comment        "Indicates that this profile contains all datasets of the other profile"@en;
+        rdfs:domain         rb:Profile;
+        rdfs:label          "Is superset of profile"@en;
+        rdfs:range          rb:Profile;
+        rdfs:subPropertyOf  dct:relation .
+
+rb:IriCountStatistics
+        rdf:type         owl:Class;
+        rdfs:comment     "Statistics about the number of IRIs in the dataset."@en;
+        rdfs:label       "IRI count statistics"@en;
+        rdfs:subClassOf  rb:Statistics .
+
+rb:hasCategoryMember  rdf:type  owl:ObjectProperty;
+        rdfs:comment        "For benchmark categories, indicates their members (profiles or tasks)."@en;
+        rdfs:domain         rb:Category;
+        rdfs:label          "Has category member"@en;
+        rdfs:range          rb:CategoryMember;
+        rdfs:subPropertyOf  dct:hasPart;
+        owl:inverseOf       rb:inCategory .
+
+rb:conformsToRdfStarDraft_20211217
+        rdf:type            owl:DatatypeProperty;
+        rdfs:comment        "Whether the dataset is RDF-star compliant, i.e., does not use any non-standard features. Note that all standard RDF 1.1 datasets also qualify, as RDF-star is a superset of RDF 1.1."@en;
+        rdfs:label          "Conforms to W3C RDF-star draft specification as of December 17, 2021"@en;
+        rdfs:range          xsd:boolean;
+        rdfs:seeAlso        <https://www.w3.org/2021/12/rdf-star.html>;
+        rdfs:subPropertyOf  rb:conformanceProperty .
+
+rb:usesResource  rdf:type   owl:ObjectProperty;
+        rdfs:comment        "Indicates that the subject is using the object (a dcat:Resource) in some way."@en;
+        rdfs:label          "Uses resource"@en;
+        rdfs:range          dcat:Resource;
+        rdfs:subPropertyOf  dct:relation .
+
+rb:StatisticsSet  rdf:type  owl:Class;
+        rdfs:comment  "Class for groupings (sets) of statistics about distributions"@en;
+        rdfs:label    "Statistics set"@en .
+
+rb:TimeStreamElementSplit
+        rdf:type         owl:Class;
+        rdfs:comment     "The elements correspond to different instants or intervals of time."@en;
+        rdfs:label       "Stream elements split by time"@en;
+        rdfs:subClassOf  rb:StreamElementSplit .
+
+dcat:inCatalog  rdf:type    owl:ObjectProperty;
+        rdfs:domain         dcat:Resource;
+        rdfs:range          dcat:Catalog;
+        rdfs:subPropertyOf  dct:isPartOf .
+
+rb:usesTask  rdf:type       owl:ObjectProperty;
+        rdfs:comment        "Indicates that the subject is using a specific RiverBench benchmark task."@en;
+        rdfs:label          "Uses benchmark task"@en;
+        rdfs:range          rb:Task;
+        rdfs:subPropertyOf  rb:usesResource , irao:hasMethodology .
+
+<https://w3id.org/riverbench/schema/metadata>
+        rdf:type                       owl:Ontology;
+        dc:description                 "Ontology for describing datasets and profiles in the RiverBench benchmark suite."@en;
+        dc:title                       "RiverBench metadata ontology"@en;
+        dct:created                    "2023-04-30T00:00:00"^^xsd:dateTime;
+        dct:creator                    [ foaf:homepage  <https://orcid.org/0000-0002-2543-9461> , <https://github.com/Ostrzyciel>;
+                                         foaf:name      "Piotr Sowiński";
+                                         foaf:nick      "Ostrzyciel"
+                                       ];
+        dct:issued                     "2023-05-05T00:00:00"^^xsd:dateTime;
+        dct:license                    <https://spdx.org/licenses/CC-BY-4.0>;
+        vann:preferredNamespacePrefix  "rb";
+        vann:preferredNamespaceUri     "https://w3id.org/riverbench/schema/metadata#";
+        <http://schema.org/citation>   "Please cite this work according to the instructions here: https://w3id.org/riverbench/documentation/licensing/"@en;
+        owl:imports                    <https://w3id.org/stax/1.1.0/ontology> , <http://www.w3.org/ns/dcat>;
+        owl:versionIRI                 <https://w3id.org/riverbench/schema/metadata/2.1.0> .
+
+rb:RiverBench  rdf:type  owl:Class;
+        rdfs:comment     "RiverBench – RDF streaming benchmark suite"@en;
+        rdfs:label       "RiverBench suite"@en;
+        rdfs:subClassOf  dcat:Catalog .
+
+rb:usesMetric  rdf:type     owl:DatatypeProperty;
+        rdfs:comment        "Indicates a benchmark metric that is used in a benchmark. Values of this property should be specified as the name of the metric, in the exact spelling as in the corresponding task definition. For example: \"Loading throughput\"."@en;
+        rdfs:label          "Uses metric"@en;
+        rdfs:range          xsd:string;
+        rdfs:subPropertyOf  owl:topDataProperty .
+
+rb:AsciiControlCharacterCountStatistics
+        rdf:type         owl:Class;
+        rdfs:comment     "Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page \"Dataset compatibility notes\" for more details."@en;
+        rdfs:label       "ASCII control character count statistics"@en;
+        rdfs:subClassOf  rb:Statistics .
+
+rb:Category  rdf:type     owl:Class;
+        rdfs:comment      "Class for benchmark categories in RiverBench. A category groups tasks and profiles that are compatible with each other. Each task and profile in a category has a name prefixed with the name of the category (e.g., all tasks in the \"stream\" category start with \"stream-\")."@en;
+        rdfs:label        "Benchmark category"@en;
+        rdfs:subClassOf   dcat:Resource;
+        owl:disjointWith  rb:CategoryMember .
+
+rb:conformsToRdf11  rdf:type  owl:DatatypeProperty;
+        rdfs:comment        "Whether the dataset is RDF 1.1-compliant, i.e., does not use any non-standard features, like generalized triples."@en;
+        rdfs:label          "Conforms to W3C RDF 1.1 specification"@en;
+        rdfs:range          xsd:boolean;
+        rdfs:seeAlso        <https://www.w3.org/TR/rdf11-concepts/>;
+        rdfs:subPropertyOf  rb:conformanceProperty .
+
+rb:QuotedTripleCountStatistics
+        rdf:type         owl:Class;
+        rdfs:comment     "Statistics about the number of quoted triples in the dataset."@en;
+        rdfs:label       "Quoted triple count statistics"@en;
+        rdfs:subClassOf  rb:Statistics .
+
+rb:usesGeneralizedRdfDatasets
+        rdf:type            owl:DatatypeProperty;
+        rdfs:comment        "Whether the dataset uses the non-standard generalized datasets feature. A \"dataset\" here is used in the same meaning as in the RDF 1.1 specification."@en;
+        rdfs:label          "Uses generalized RDF datasets"@en;
+        rdfs:range          xsd:boolean;
+        rdfs:seeAlso        <https://www.w3.org/TR/rdf11-concepts/#section-generalized-rdf>;
+        rdfs:subPropertyOf  rb:conformanceProperty .
+
+rb:SystemUnderTest  rdf:type  owl:Class;
+        rdfs:comment     "A system that is tested in a benchmark (for example, an RDF store).\n\nInstances of this class should at least have a label (rdfs:label) and a version tag (rb:hasVersion)."@en;
+        rdfs:label       "System under test"@en;
+        rdfs:subClassOf  dcat:Resource , irao:System .
+
+rb:usesSystemUnderTest
+        rdf:type            owl:ObjectProperty;
+        rdfs:comment        "Indicates that the subject is using a specific system (e.g., an RDF store)."@en;
+        rdfs:label          "Uses system under test"@en;
+        rdfs:range          rb:SystemUnderTest;
+        rdfs:subPropertyOf  rb:usesResource .
+
+rb:hasStatisticsSet  rdf:type  owl:ObjectProperty;
+        rdfs:comment  "Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set."@en;
+        rdfs:domain   rb:Distribution;
+        rdfs:label    "Has statistics set"@en;
+        rdfs:range    rb:StatisticsSet .
+
+rb:uniqueCount  rdf:type    owl:DatatypeProperty;
+        rdfs:comment        "Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%."@en;
+        rdfs:label          "Unique count (estimated)"@en;
+        rdfs:range          xsd:integer;
+        rdfs:subPropertyOf  rb:statisticalProperty .
+
+rb:StatementCountStatistics
+        rdf:type         owl:Class;
+        rdfs:comment     "Statistics about the number of RDF statements in the dataset."@en;
+        rdfs:label       "Statement count statistics"@en;
+        rdfs:subClassOf  rb:Statistics .
+
+dcat:seriesMember  rdf:type  owl:ObjectProperty;
+        rdfs:comment        "Indicates which datasets are included in the profile"@en;
+        rdfs:label          "Includes dataset"@en;
+        rdfs:subPropertyOf  dct:relation .
+
+rb:TopicStreamElementSplit
+        rdf:type         owl:Class;
+        rdfs:comment     "The elements correspond to different topics/subjects in the dataset."@en;
+        rdfs:label       "Stream elements split by topic"@en;
+        rdfs:subClassOf  rb:StreamElementSplit .
+
+rb:SimpleLiteralCountStatistics
+        rdf:type         owl:Class;
+        rdfs:comment     "Statistics about the number of simple literals (of type xsd:string) in the dataset."@en;
+        rdfs:label       "Simple literal count statistics"@en;
+        rdfs:subClassOf  rb:Statistics .
+
+rb:SubjectCountStatistics
+        rdf:type         owl:Class;
+        rdfs:comment     "Statistics about the number of subjects in the dataset."@en;
+        rdfs:label       "Subject count statistics"@en;
+        rdfs:subClassOf  rb:Statistics .
+
+rb:StatementCountStreamElementSplit
+        rdf:type         owl:Class;
+        rdfs:comment     "The number of statements in an element was the criterion for splitting the stream elements."@en;
+        rdfs:label       "Stream elements split by statement count"@en;
+        rdfs:subClassOf  rb:StreamElementSplit .
+
+rb:ObjectCountStatistics
+        rdf:type         owl:Class;
+        rdfs:comment     "Statistics about the number of objects in the dataset."@en;
+        rdfs:label       "Object count statistics"@en;
+        rdfs:subClassOf  rb:Statistics .
+
+rb:maximum  rdf:type        owl:DatatypeProperty;
+        rdfs:comment        "Maximum value of a distribution"@en;
+        rdfs:label          "Maximum"@en;
+        rdfs:range          xsd:decimal;
+        rdfs:subPropertyOf  rb:statisticalProperty .
+
+rb:hasShape  rdf:type  owl:ObjectProperty;
+        rdfs:comment  "Property for specifying the desired SHACL shape of something (e.g., a dataset or a distribution)."@en;
+        rdfs:label    "Has shape"@en;
+        rdfs:range    sh:NodeShape .
+
+rb:hasStreamElementSplit
+        rdf:type            owl:ObjectProperty;
+        rdfs:comment        "Indicates how the stream was split into elements."@en;
+        rdfs:domain         rb:Dataset;
+        rdfs:label          "Has stream element split"@en;
+        rdfs:range          rb:StreamElementSplit;
+        rdfs:subPropertyOf  owl:topObjectProperty .
+
+rb:Distribution  rdf:type  owl:Class;
+        rdfs:comment     "A distribution of a dataset in the RiverBench benchmark suite."@en;
+        rdfs:label       "RiverBench dataset distribution"@en;
+        rdfs:subClassOf  dcat:Distribution;
+        rdfs:subClassOf  [ rdf:type            owl:Restriction;
+                           owl:onProperty      <https://w3id.org/stax/ontology#hasStreamTypeUsage>;
+                           owl:someValuesFrom  <https://w3id.org/stax/ontology#ConcreteRdfStreamType>
+                         ] .
+
+rb:BenchmarkProtocol  rdf:type  owl:Class;
+        rdfs:comment     "The parameters of a performed benchmark (rb:PerformedBenchmark). Instances of this class specify the RiverBench profile, task, systems, and metrics that were used in the benchmark."@en;
+        rdfs:label       "Benchmark protocol"@en;
+        rdfs:subClassOf  irao:Protocol;
+        rdfs:subClassOf  [ rdf:type            owl:Restriction;
+                           owl:onProperty      rb:usesMetric;
+                           owl:someValuesFrom  xsd:string
+                         ];
+        rdfs:subClassOf  [ rdf:type            owl:Restriction;
+                           owl:onProperty      rb:usesTask;
+                           owl:someValuesFrom  rb:Task
+                         ];
+        rdfs:subClassOf  [ rdf:type            owl:Restriction;
+                           owl:onProperty      rb:usesSystemUnderTest;
+                           owl:someValuesFrom  rb:SystemUnderTest
+                         ];
+        rdfs:subClassOf  [ rdf:type            owl:Restriction;
+                           owl:onProperty      rb:usesProfile;
+                           owl:someValuesFrom  rb:Profile
+                         ] .
+
+rb:hasDistributionShape
+        rdf:type            owl:ObjectProperty;
+        rdfs:comment        "Specifies the SHACL shape of distributions that are allowed in a given benchmark profile."@en;
+        rdfs:domain         rb:Profile;
+        rdfs:label          "Has distribution shape"@en;
+        rdfs:range          sh:NodeShape;
+        rdfs:subPropertyOf  rb:hasShape .
+
+rb:CustomShaclTarget  rdf:type  owl:Class;
+        rdfs:comment  "A class for all custom SHACL-like node targets in RiverBench. See also rb:targetCustom."@en;
+        rdfs:label    "Custom SHACL target"@en .
+
+rb:usesGeneralizedTriples
+        rdf:type            owl:DatatypeProperty;
+        rdfs:comment        "Whether the dataset uses the non-standard generalized triples feature"@en;
+        rdfs:label          "Uses generalized triples"@en;
+        rdfs:range          xsd:boolean;
+        rdfs:seeAlso        "https://www.w3.org/TR/rdf11-concepts/#section-generalized-rdf"@en;
+        rdfs:subPropertyOf  rb:conformanceProperty .

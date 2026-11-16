@@ -1,0 +1,25 @@
+namespace: spectra
+name: spectra
+version: "1.1.1"
+language: owl
+syntax: turtle
+roots: [spectra.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "SPECTRA: A Traceability Ontology for 3GPP RAN Standardization"
+authors:
+  - name: "Sihyeon Choi"
+    link: "https://orcid.org/0000-0002-3471-1498"
+publishers:
+  - name: "SPECTRA Ontology Project"
+    link: "https://github.com/spectra-ontology/spec-trace"
+description: "OWL 2 ontology modeling the 3GPP RAN standardization document lifecycle (Tdoc, Resolution, CR, LS, Section, Spec, TechnicalReport, TRImpact, Meeting, Company, WorkingGroup)."
+keywords: ["Industry", "Metadata"]
+sources:
+  - url: https://spectra-ontology.github.io/spec-trace/spectra.ttl
+    sha256: "ac0c2f2b00e042bcbde4e026ab439a1cb61dc7104425f2b74cf7b6c2cf50cec1"
+    size: 55202
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

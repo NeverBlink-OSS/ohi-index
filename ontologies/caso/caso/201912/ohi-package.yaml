@@ -1,0 +1,35 @@
+namespace: caso
+name: caso
+version: "201912"
+language: owl
+syntax: turtle
+roots: [caso.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Context Aware System Observation Ontology"
+authors:
+  - name: "Quang-Duy Nguyen"
+    link: "https://w3id.org/people/quang-duy.nguyen/"
+  - name: "Catherine Roussey"
+    link: "https://sites.google.com/site/rousseycat/"
+  - name: "María Poveda-Villalón"
+    link: "https://orcid.org/0000-0003-3587-0367"
+publishers:
+  - name: "TSCF research unit, Irstea"
+    link: "https://www.irstea.fr/en/research/research-units/tscf"
+contributors:
+  - name: "Raúl García-Castro"
+    link: "https://orcid.org/0000-0002-0421-452X"
+  - name: "Jean-Pierre Chanet"
+    link: "https://orcid.org/0000-0002-7011-4535"
+description: "CASO (Context Aware System Observation) is an ontology for context aware system and observation services."
+keywords: ["IoT"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/caso/versions/2021-02-23.n3
+    name: caso.ttl
+    sha256: "ce7e1f4c2339b169bf4db0c4dd4b6bb26fcdb2ce8796224dde0d32779bbb377e"
+    size: 46819
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

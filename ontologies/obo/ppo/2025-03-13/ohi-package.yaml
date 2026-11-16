@@ -1,0 +1,27 @@
+namespace: obo
+name: ppo
+version: "2025-03-13"
+language: owl
+syntax: rdfxml
+roots: [ppo.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Plant Phenology Ontology"
+authors:
+  - name: "Ramona L. Walls"
+    contact: "rlwalls2008@gmail.com"
+    link: "https://orcid.org/0000-0001-8815-0078"
+publishers:
+  - name: "Plant Phenology Ontology"
+    link: "https://github.com/PlantPhenoOntology"
+description: "An ontology for describing the phenology of individual plants and populations of plants, and for integrating plant phenological data across sources and scales."
+keywords: ["phenotype", "plant phenotypes", "OBO"]
+originalSources: ["https://github.com/PlantPhenoOntology/ppo"]
+sources:
+  - url: https://github.com/PlantPhenoOntology/ppo/blob/v2025-03-13/ppo.owl
+    sha256: "3e754e659e1a44d3b36e5fadd453ef49fcdacd560b100f0cad695ac20f48ca14"
+    size: 1028760
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

@@ -1,0 +1,24 @@
+namespace: sioc
+name: sioc
+version: "2010-03-25"
+language: owl
+syntax: turtle
+roots: [sioc.ttl]
+licenses: ["CC-BY-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Semantically-Interlinked Online Communities"
+authors:
+  - name: "SIOC project"
+    link: "http://sioc-project.org/"
+publishers:
+  - name: "SIOC project"
+    link: "http://sioc-project.org/"
+description: "SIOC is an ontology for describing the information in online communities."
+keywords: ["Society"]
+originalSources: ["http://rdfs.org/sioc/spec"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/sioc/versions/2010-03-25.n3
+    name: sioc.ttl
+    sha256: "1c1751f6b9b8ef4bbb84fa7959e9725a6080a320651c53787fe0958ade9d9d34"
+    size: 28115

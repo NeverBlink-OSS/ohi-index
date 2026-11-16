@@ -1,0 +1,26 @@
+namespace: ibp
+name: ctrl
+version: "0.3.0"
+language: owl
+syntax: turtle
+roots: [ctrl.ttl]
+licenses: ["CC-BY-SA-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "CTRLont - An ontology to formally specify the control domain"
+authors:
+  - name: "Georg Ferdinand Schneider"
+    link: "https://orcid.org/0000-0002-2033-859X"
+publishers:
+  - name: "Fraunhofer Institute for Building Physics IBP"
+    link: "https://www.ibp.fraunhofer.de/"
+description: "CTRLont specifies concepts and relationships of control actors on a high level."
+keywords: ["Services"]
+sources:
+  - url: https://technicalbuildingsystems.github.io/Ontologies/CTRLont/ontology.ttl
+    name: ctrl.ttl
+    sha256: "d2e1a872e975a993167840b9d79fbca2ede89a92951243e83a4f042106142eac"
+    size: 19963
+  - url: https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt
+    sha256: "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+    size: 20138

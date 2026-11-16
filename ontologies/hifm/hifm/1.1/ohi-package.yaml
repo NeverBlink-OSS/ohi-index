@@ -1,0 +1,27 @@
+namespace: hifm
+name: hifm
+version: "1.1"
+language: owl
+syntax: turtle
+roots: [hifm.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "HIFM Ontology"
+authors:
+  - name: "Milos Jovanovik"
+publishers:
+  - name: "Faculty of Computer Science and Engineering, Ss. Cyril and Methodius University in Skopje"
+    link: "https://www.finki.ukim.mk/"
+contributors:
+  - name: "Bojan Najdenov"
+description: "An ontology for describing brand-name drugs."
+keywords: ["Biology", "Health"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/hifm/versions/2014-04-01.n3
+    name: hifm.ttl
+    sha256: "ab1d28559901d7d9497043689c05d53be530cf83f6c0e05e084bda0c9086959c"
+    size: 3452
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

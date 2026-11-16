@@ -1,0 +1,23 @@
+namespace: w3c
+name: shacl
+version: "1.2"
+language: rdfs
+syntax: turtle
+roots: [shacl.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "SHACL vocabulary"
+authors:
+  - name: "W3C Data Shapes Working Group"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "Shapes Constraint Language vocabulary for describing and validating RDF graphs."
+keywords: ["SHACL", "validation", "shapes"]
+originalSources: ["https://www.w3.org/TR/shacl"]
+sources:
+  - url: https://www.w3.org/ns/shacl/
+    name: shacl.ttl
+    sha256: "5ff798587ba2cbf79dfb7100c4a1a4094a682fde690f321bba015c14a4c6b95d"
+    size: 67794

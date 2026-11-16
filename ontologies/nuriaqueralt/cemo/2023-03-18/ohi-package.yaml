@@ -1,0 +1,37 @@
+namespace: nuriaqueralt
+name: cemo
+version: "2023-03-18"
+language: owl
+syntax: rdfxml
+roots: [cemo.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["bfo/bfo@2019-08-26"]
+title: "The COVID-19 epidemiology and monitoring ontology"
+authors:
+  - name: "Núria Queralt-Rosinach"
+    link: "https://nuriaqueralt.wordpress.com/"
+publishers:
+  - name: "Núria Queralt-Rosinach"
+    link: "https://orcid.org/0000-0003-0169-8159"
+contributors:
+  - name: "Robert Hoehndorf"
+    link: "http://leechuck.de"
+  - name: "Marco Roos"
+    link: "https://orcid.org/0000-0002-8691-772X"
+  - name: "Elena de la Calle"
+  - name: "Philippe Rocca-Serra"
+  - name: "Paul Schofield"
+    link: "https://orcid.org/0000-0002-5111-7263"
+  - name: "Claus Weiland"
+    link: "https://orcid.org/0000-0003-0351-6523"
+description: "The covid-19 epidemiology and monitoring ontology (cemo) provides a common ontological model to make epidemiological quantitative data for monitoring the covid-19 outbreak machine-readable and interoperable to facilitate its exchange, integration and analysis, to eventually support evidence-based…"
+keywords: ["ontology"]
+originalSources: ["https://github.com/NuriaQueralt/covid19-epidemiology-ontology"]
+sources:
+  - url: https://github.com/NuriaQueralt/covid19-epidemiology-ontology/blob/ecebda8e0d5038d211cd7a2d38dc141631b2bd97/owl/cemo.owl
+    sha256: "6265437fabfba6d63cbaa6d825590d5a94a152db7bf63847a04a816a41d46b00"
+    size: 95922
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

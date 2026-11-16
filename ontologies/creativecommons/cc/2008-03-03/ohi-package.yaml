@@ -1,0 +1,26 @@
+namespace: creativecommons
+name: cc
+version: "2008-03-03"
+language: owl
+syntax: turtle
+roots: [cc.ttl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Creative Commons Rights Expression Language"
+authors:
+  - name: "Creative Commons"
+    link: "https://creativecommons.org/"
+publishers:
+  - name: "Creative Commons"
+    link: "https://creativecommons.org/"
+description: "The Creative Commons Rights Expression Language (CC REL) lets you describe copyright licenses in RDF."
+keywords: ["Metadata"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/cc/versions/2008-03-03.n3
+    name: cc.ttl
+    sha256: "e18b7b72d4d2000343a05f548a987fa5ecee62c893d4dd86397580ec48141fb6"
+    size: 6078
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

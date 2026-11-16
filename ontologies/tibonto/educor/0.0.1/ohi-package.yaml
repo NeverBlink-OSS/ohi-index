@@ -1,0 +1,36 @@
+namespace: tibonto
+name: educor
+version: "0.0.1"
+language: owl
+syntax: turtle
+roots: [educor.ttl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "An Educational and Career-Oriented Recommendation Ontology"
+authors:
+  - name: "Knowgraphs"
+publishers:
+  - name: "TIB – Leibniz Information Centre for Science and Technology"
+    link: "https://www.tib.eu/"
+contributors:
+  - name: "Eleni Ilkou"
+  - name: "Hasan Abu-Rasheed"
+  - name: "Mohammadreza Tavakoli"
+  - name: "Sherzod Hakimov"
+  - name: "Gabor Kismihok"
+  - name: "Sören Auer"
+  - name: "Wolfgang Nejdl"
+description: "An educational ontology for personalised recommendation learning systems that is based on learning path and user profile."
+keywords: ["ontology"]
+originalSources: ["https://github.com/tibonto/educor", "http://ontology.tib.eu/educor"]
+publications:
+  - title: "EduCOR: An Educational and Career-Oriented Recommendation Ontology"
+    link: "https://doi.org/10.1007/978-3-030-88361-4_32"
+sources:
+  - url: https://github.com/tibonto/educor/blob/76a08b44d54ddfab1e7fcd9fb6ec92b0f3174683/educor.ttl
+    sha256: "d846d19cfb57e5faa5f245406b9be44b56afcc504380765baaf5c351c8cae585"
+    size: 40913
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

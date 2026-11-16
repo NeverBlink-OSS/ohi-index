@@ -1,0 +1,35 @@
+namespace: spar
+name: pso
+version: "1.8.1"
+language: owl
+syntax: rdfxml
+roots: [pso.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE.md]
+dependencies: ["spar/foaf@2.0", "spar/tvc@1.1.0", "odp/participation@1.1"]
+title: "SPAR Publishing Status Ontology"
+authors:
+  - name: "David Shotton"
+    link: "http://opencitations.net"
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+contributors:
+  - name: "Sebastian Barzaghi"
+    link: "https://orcid.org/0000-0002-0799-1527"
+description: "Ontology of the status of documents in publishing, such as submitted, accepted or published."
+keywords: ["publishing", "status", "workflows"]
+originalSources: ["https://github.com/SPAROntologies/pso"]
+publications:
+  - title: "Peroni, S., Shotton, D., Vitali, F. (2012). Scholarly publishing and Linked Data: describing roles, statuses, temporal and contextual extents. In Sack, H., Pellegrini, T. (Eds.), Proceedings of the 8th International Conference on Semantic Systems (i-Semantics 2012): 9-16. New York, New York, USA: ACM. https://doi.org/10.1145/2362499.2362502. Open Access at: http://speroni.web.cs.unibo.it/publications/peroni-2012-scholarly-publishing-linked.pdf"
+    link: "https://doi.org/10.1145/2362499.2362502"
+sources:
+  - url: https://sparontologies.github.io/pso/2026-08-14/pso.xml
+    name: pso.rdf
+    sha256: "5c46e45780a68bbc8060c222f8a65bef1cf498c5cfb27ec6e79aa7487e2e92eb"
+    size: 83318
+  - url: https://github.com/SPAROntologies/pso/blob/f8659700e35af280b188109976185a0f80e405bd/LICENSE.md
+    sha256: "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    size: 18656

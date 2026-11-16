@@ -1,0 +1,24 @@
+namespace: loc
+name: mediatypes
+version: "2026-11-02"
+language: owl
+syntax: rdfxml
+roots: [mediatypes.rdf]
+licenses: ["public domain"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Library of Congress Media Types Scheme"
+authors:
+  - name: "Library of Congress"
+    link: "https://www.loc.gov/"
+publishers:
+  - name: "Library of Congress"
+    link: "https://www.loc.gov/"
+description: "Media Types Scheme is derived from a controlled list of coded values representing content types principally used in RDA cataloging."
+keywords: ["loc"]
+originalSources: ["http://id.loc.gov/vocabulary/mediaTypes"]
+sources:
+  - url: https://id.loc.gov/vocabulary/mediaTypes.rdf
+    name: mediatypes.rdf
+    sha256: "590e90603a18d9be0ba237b177bd1f6afb45049f75b2e93f63d4d9f5ec545eda"
+    size: 6889

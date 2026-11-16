@@ -1,0 +1,30 @@
+namespace: woc
+name: ontology
+version: "2026-11-02"
+language: owl
+syntax: rdfxml
+roots: [ontology.owl]
+licenses: ["GPL-3.0-only"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "Code Ontology"
+authors:
+  - name: "Mattia Atzeni"
+  - name: "Maurizio Atzori"
+publishers:
+  - name: "University of Cagliari"
+    link: "https://www.unica.it/"
+description: "An ontology that represents object-oriented programming languages."
+keywords: ["engineering", "nfdi4ing", "ontology"]
+originalSources: ["https://github.com/codeontology/parser", "http://codeontology.org"]
+publications:
+  - title: "CodeOntology: RDF-ization of Source Code"
+    link: "https://doi.org/10.1007/978-3-319-68204-4_2"
+sources:
+  - url: https://github.com/codeontology/parser/blob/94682f831c3c9e5f1807a43bb78c5d18416b5a95/ontology/CodeOntology.owl
+    name: ontology.owl
+    sha256: "7772aec91d0a0be79b633668795fe3a3984c4d76d9a9880af283b2fdd4472fac"
+    size: 141681
+  - url: https://github.com/codeontology/parser/blob/94682f831c3c9e5f1807a43bb78c5d18416b5a95/LICENSE.txt
+    sha256: "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    size: 35147

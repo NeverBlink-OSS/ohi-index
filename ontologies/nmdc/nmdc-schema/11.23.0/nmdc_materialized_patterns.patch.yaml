@@ -1,0 +1,46 @@
+# JSON Patch (RFC 6902) the hub applies to nmdc_materialized_patterns.yaml before publishing it.
+# README.md says what each change is for.
+- op: add
+  path: /prefixes/CO_715
+  value:
+    prefix_prefix: CO_715
+    prefix_reference: 'https://cropontology.org/rdf/CO_715:'
+- op: add
+  path: /prefixes/OM
+  value:
+    prefix_prefix: OM
+    prefix_reference: http://www.ontology-of-units-of-measure.org/resource/om-2/
+- op: add
+  path: /prefixes/orcid
+  value:
+    prefix_prefix: orcid
+    prefix_reference: https://orcid.org/
+- op: remove
+  path: /enums/UnitEnum/permissible_values/%
+- op: add
+  path: /enums/UnitEnum/permissible_values/PERCENT
+  value:
+    text: PERCENT
+    alias: '%'
+    description: The Unified Code for Units of Measure (UCUM) representation of percent.
+    aliases:
+    - percent
+    - Percent
+- op: add
+  path: /slots/JGI-Metagenomics
+  value:
+    name: JGI-Metagenomics
+    description: Group of terms that appear in the 'JGI-Metagenomics' section of the NMDC sample metadata submission portal
+    abstract: true
+- op: add
+  path: /slots/MIxS Inspired
+  value:
+    name: MIxS Inspired
+    description: Group of terms that appear in the 'MIxS Inspired' section of the NMDC sample metadata submission portal
+    abstract: true
+- op: add
+  path: /slots/Sample ID
+  value:
+    name: Sample ID
+    description: Group of terms that appear in the 'Sample ID' section of the NMDC sample metadata submission portal
+    abstract: true

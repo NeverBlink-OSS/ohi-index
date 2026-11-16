@@ -1,0 +1,24 @@
+namespace: rsp
+name: vocals
+version: "0.1.1"
+language: owl
+syntax: turtle
+roots: [vocals.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["w3c/dcat@2"]
+title: "VoCaLS: A Vocabulary and Catalog for Linked Streams"
+authors:
+  - name: "Riccardo Tommasini"
+  - name: "Yehia Abo Sedira"
+  - name: "Jean-Paul Calbimonte"
+    link: "http://w3id.org/people/jpcik/me"
+publishers:
+  - name: "AISLab, HES-SO Valais-Wallis"
+    link: "http://aislab.hevs.ch/"
+description: "This ontology aims to model RDF streams, their metadata, and access endpoints for publishing and consuming these streams."
+keywords: ["IoT"]
+sources:
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

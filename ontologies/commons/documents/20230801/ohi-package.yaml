@@ -1,0 +1,28 @@
+namespace: commons
+name: documents
+version: "20230801"
+language: owl
+syntax: rdfxml
+roots: [Documents.rdf]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["commons/annotation-vocabulary@20250801"]
+title: "OMG Commons Documents"
+authors:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+publishers:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+contributors:
+  - name: "Davide Sottara"
+  - name: "Elisa Kendall"
+  - name: "Evan Wallace"
+  - name: "Pete Rivett"
+description: "Documents, legal documents and records, such as contracts and transaction records."
+keywords: ["OMG Commons", "documents", "records"]
+originalSources: ["https://www.omg.org/spec/Commons"]
+sources:
+  - url: https://www.omg.org/spec/Commons/20230801/Documents.rdf
+    sha256: "822ba4f3b8daec62b18db019ec3ff7d464055392eed147bacfaca1c7b362e63c"
+    size: 15396

@@ -1,0 +1,32 @@
+namespace: spar
+name: c4o
+version: "1.3.1"
+language: owl
+syntax: rdfxml
+roots: [c4o.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE.md]
+dependencies: ["spar/biro@1.2.1"]
+title: "SPAR Citation Counting and Context Characterization Ontology"
+authors:
+  - name: "David Shotton"
+    link: "http://opencitations.net"
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+description: "Ontology of citation counts and the contexts in which citations appear."
+keywords: ["citations", "bibliometrics"]
+originalSources: ["https://github.com/SPAROntologies/c4o"]
+publications:
+  - title: "Di Iorio, A., Nuzzolese, A. G., Peroni, S., Shotton, D., Vitali, F. (2014). Describing bibliographic references in RDF. In Garcia Castro, A., Lange, C., Lord, P., Stevens, R. (Eds.), Proceedings of 4th Workshop on Semantic Publishing (SePublica 2014), CEUR Workshop Proceedings 1155. Aachen, Germany: CEUR-WS.org. http://ceur-ws.org/Vol-1155/paper-05.pdf (Open Access)"
+    link: "http://ceur-ws.org/Vol-1155/paper-05.pdf"
+sources:
+  - url: https://sparontologies.github.io/c4o/2026-08-14/c4o.xml
+    name: c4o.rdf
+    sha256: "3171f537f8caa353afa3096655437ea2fb8f2fbe48a176ea29c25fd33afa7358"
+    size: 50520
+  - url: https://github.com/SPAROntologies/c4o/blob/cbca6a98aef675f18c72abe058a7e299a92a94f0/LICENSE.md
+    sha256: "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    size: 18656

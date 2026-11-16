@@ -1,0 +1,26 @@
+namespace: ludo
+name: ludo-xapi
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [ludo-xapi.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Experience API (xAPI)"
+authors:
+  - name: "Catherine Faron Zucker"
+  - name: "Oscar Rodríguez Rocha"
+publishers:
+  - name: "Inria"
+    link: "https://www.inria.fr/"
+description: "This is an OWL formalization of the statements defined in the Experience API (xAPI) specification."
+keywords: ["API"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/ludo-xapi/versions/2016-05-12.n3
+    name: ludo-xapi.ttl
+    sha256: "a28b58e6ba2f734bf0940b235e7522f50f405b38942a8a3ef73342897dca1cee"
+    size: 40528
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

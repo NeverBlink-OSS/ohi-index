@@ -1,0 +1,28 @@
+namespace: saref
+name: saref4grid
+version: "v2.1.1"
+language: owl
+syntax: turtle
+roots: [saref4grid.ttl]
+licenses: ["BSD-3-Clause"]
+licenseFiles: [LICENSE]
+dependencies: ["saref/saref-core@v4.1.1"]
+title: "SAREF4GRID"
+authors:
+  - name: "Sergio-Mario Carulli-Pérez"
+    link: "https://www.linkedin.com/in/sergio-mario-carulli-p%C3%A9rez-7632b5217/"
+  - name: "Raúl García-Castro"
+  - name: "María Poveda-Villalón"
+publishers:
+  - name: "European Telecommunications Standards Institute"
+    link: "https://www.etsi.org/"
+description: "SAREF extension for the smart grid: meters, metering data and grid devices."
+keywords: ["energy", "smart grid", "IoT"]
+originalSources: ["https://saref.etsi.org/saref4grid"]
+sources:
+  - url: https://saref.etsi.org/saref4grid/v2.1.1/saref4grid.ttl
+    sha256: "3e88e422947e64251746dd7e76eed068161425ed0c10d76ebbed310a07e9b1e5"
+    size: 49013
+  - url: https://labs.etsi.org/rep/saref/saref4grid/-/raw/33e805630df4ee5534290c18d5fb62a5b7935593/LICENSE
+    sha256: "3f6ac10a1fce62209b21cff36570b6290bf34fca4b9e2c7069e95c96aee01f22"
+    size: 1475

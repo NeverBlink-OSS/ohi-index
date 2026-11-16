@@ -1,0 +1,26 @@
+namespace: w3c
+name: dcat
+version: "3"
+language: owl
+syntax: turtle
+roots: [dcat3.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["dcmi/dcterms@2026-10-20", "w3c/skos@2009", "w3c/prov-o@2013"]
+title: "Data Catalog Vocabulary 3"
+authors:
+  - name: "W3C Dataset Exchange Working Group"
+    link: "https://www.w3.org/groups/wg/dx"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+contributors:
+  - name: "Makx Dekkers"
+    link: "http://makxdekkers.com/"
+description: "W3C vocabulary for describing datasets and data services in catalogs."
+keywords: ["data catalogs", "datasets", "metadata"]
+originalSources: ["https://www.w3.org/TR/vocab-dcat"]
+sources:
+  - url: https://www.w3.org/ns/dcat3.ttl
+    sha256: "d1624d3bbf364f6fc1d43b9a188bbb9e67639b1a7d46a5cb7ea3f5d47d02b62f"
+    size: 200345

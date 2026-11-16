@@ -1,0 +1,38 @@
+namespace: utep
+name: lswmo
+version: "1.2"
+language: owl
+syntax: turtle
+roots: [lswmo.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "ELSEWeb Modelling Ontology"
+authors:
+  - name: "Natalia Villanueva-Rosales"
+  - name: "Cyber-ShARE Center of Excellence"
+    link: "https://cybershare.utep.edu/"
+  - name: "Nicholas del Rio"
+  - name: "ELSEWeb Team"
+publishers:
+  - name: "Cyber-ShARE Center of Excellence"
+    link: "https://cybershare.utep.edu/"
+  - name: "ELSEWeb Team"
+contributors:
+  - name: "Karl Benedict"
+  - name: "Luis Garnica"
+  - name: "Cj Grady"
+  - name: "Bill Hudspeth"
+  - name: "Deana Pennington"
+  - name: "Soren Scott"
+  - name: "Aimee Stewart"
+description: "The ELSEWeb Modelling ontology provides simple classes for describing data models."
+keywords: ["Services", "Support"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/lswmo/versions/2014-05-01.n3
+    name: lswmo.ttl
+    sha256: "764b7ac49acb37f8e318f9f384602c3e641202ff375cc682f5b357a6c2991cb4"
+    size: 6647
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

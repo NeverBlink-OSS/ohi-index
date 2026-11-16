@@ -1,0 +1,29 @@
+namespace: obo
+name: taxrank
+version: "2016-04-15"
+language: owl
+syntax: rdfxml
+roots: [taxrank.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Taxonomic rank vocabulary"
+authors:
+  - name: "Phenoscape"
+    link: "http://www.phenoscape.org/"
+publishers:
+  - name: "Phenoscape"
+    link: "http://www.phenoscape.org/"
+description: "A vocabulary of taxonomic ranks (species, family, phylum, etc)."
+keywords: ["organisms", "taxonomy", "OBO"]
+originalSources: ["https://github.com/phenoscape/taxrank"]
+publications:
+  - title: "The vertebrate taxonomy ontology: a framework for reasoning across model organism and species phenotypes"
+    link: "https://doi.org/10.1186/2041-1480-4-34"
+sources:
+  - url: https://github.com/phenoscape/taxrank/blob/v2016-04-15/taxrank.owl
+    sha256: "4f7cf5d967c6bfb8405620f695ab61b501a8bf9b6d888baf95017170a9d041b4"
+    size: 60225
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

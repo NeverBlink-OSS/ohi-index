@@ -1,0 +1,24 @@
+namespace: w3c
+name: rdft
+version: "2014-02-25"
+language: rdfs
+syntax: ntriples
+roots: [rdft.nt]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "The RDF 1.1 Test Vocabulary"
+authors:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "This is a vocabulary document and is used to define classes and properties used in RDF 1.1 Test Cases and associated test manifests."
+keywords: ["RDF", "W3C Rec"]
+originalSources: ["https://www.w3.org/TR/rdf11-testcases"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/rdft/versions/2014-02-25.n3
+    name: rdft.nt
+    sha256: "697a2651a2978911641059b9641571a759d8feca00c57bfae222e1af7cd9d899"
+    size: 12925

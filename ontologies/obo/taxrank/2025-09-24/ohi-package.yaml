@@ -1,0 +1,34 @@
+namespace: obo
+name: taxrank
+version: "2025-09-24"
+language: owl
+syntax: rdfxml
+roots: [taxrank.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Taxonomic rank vocabulary"
+authors:
+  - name: "Phenoscape"
+    link: "http://www.phenoscape.org/"
+publishers:
+  - name: "Phenoscape"
+    link: "http://www.phenoscape.org/"
+contributors:
+  - name: "Peter E. Midford"
+    link: "https://orcid.org/0000-0001-6512-3296"
+  - name: "Charles Tapley Hoyt"
+    link: "https://cthoyt.com"
+description: "A vocabulary of taxonomic ranks (species, family, phylum, etc)."
+keywords: ["organisms", "taxonomy", "OBO"]
+originalSources: ["https://github.com/phenoscape/taxrank"]
+publications:
+  - title: "The vertebrate taxonomy ontology: a framework for reasoning across model organism and species phenotypes"
+    link: "https://doi.org/10.1186/2041-1480-4-34"
+sources:
+  - url: https://github.com/phenoscape/taxrank/blob/5963fbfc0da1cbcedd5615da08b4a14a8cf0f986/taxrank.owl
+    sha256: "ac134041984f1157d617f10f67e1c384c18a6a9385d396aa60732df34c193b3e"
+    size: 54031
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

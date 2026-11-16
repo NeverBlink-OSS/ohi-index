@@ -1,0 +1,38 @@
+# JSON Patch (RFC 6902) the hub applies to essdivesamplerf.yaml before publishing it.
+# README.md says what each change is for.
+- op: add
+  path: /slots/Environmental Context
+  value:
+    name: Environmental Context
+    description: Group of the slots that name 'Environmental Context' in slot_group.
+    abstract: true
+- op: add
+  path: /slots/Sample Collection Details
+  value:
+    name: Sample Collection Details
+    description: Group of the slots that name 'Sample Collection Details' in slot_group.
+    abstract: true
+- op: add
+  path: /slots/Sample IDs and Related Identifiers
+  value:
+    name: Sample IDs and Related Identifiers
+    description: Group of the slots that name 'Sample IDs and Related Identifiers' in slot_group.
+    abstract: true
+- op: add
+  path: /slots/Sample Description
+  value:
+    name: Sample Description
+    description: Group of the slots that name 'Sample Description' in slot_group.
+    abstract: true
+- op: add
+  path: /slots/Location
+  value:
+    name: Location
+    description: Group of the slots that name 'Location' in slot_group.
+    abstract: true
+- op: add
+  path: /slots/Sample Access
+  value:
+    name: Sample Access
+    description: Group of the slots that name 'Sample Access' in slot_group.
+    abstract: true

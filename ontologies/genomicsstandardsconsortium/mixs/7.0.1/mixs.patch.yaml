@@ -1,0 +1,32 @@
+# JSON Patch (RFC 6902) the hub applies to mixs.yaml before publishing it.
+# README.md says what each change is for.
+- op: add
+  path: /slots/Nucleic acid source
+  value:
+    name: Nucleic acid source
+    description: Group of the slots that name 'Nucleic acid source' in slot_group.
+    abstract: true
+- op: add
+  path: /slots/Environment
+  value:
+    name: Environment
+    description: Group of the slots that name 'Environment' in slot_group.
+    abstract: true
+- op: add
+  path: /slots/Sequencing
+  value:
+    name: Sequencing
+    description: Group of the slots that name 'Sequencing' in slot_group.
+    abstract: true
+- op: add
+  path: /slots/Data analysis
+  value:
+    name: Data analysis
+    description: Group of the slots that name 'Data analysis' in slot_group.
+    abstract: true
+- op: add
+  path: /slots/Investigation
+  value:
+    name: Investigation
+    description: Group of the slots that name 'Investigation' in slot_group.
+    abstract: true

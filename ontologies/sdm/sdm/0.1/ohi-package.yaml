@@ -1,0 +1,28 @@
+namespace: sdm
+name: sdm
+version: "0.1"
+language: owl
+syntax: turtle
+roots: [sdm.ttl]
+licenses: ["PDDL-1.0"]
+licenseFiles: [pddl-10.txt]
+dependencies: []
+title: "SPARQL endpoint metadata"
+authors:
+  - name: "Ghislain Auguste Atemezing"
+    link: "http://www.atemezing.org"
+publishers:
+  - name: "Ghislain Auguste Atemezing"
+    link: "http://www.atemezing.org"
+contributors:
+  - name: "Kingsley Idehen"
+description: "A small vocabulary for representing SPARQL endpoint metadata on the web."
+keywords: ["Metadata"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/sdm/versions/2016-03-16.n3
+    name: sdm.ttl
+    sha256: "fda8bc008188f9e7192d0f302fdc1f57870482e033ba114b2a138d678a4456e4"
+    size: 4979
+  - url: https://opendatacommons.org/licenses/pddl/pddl-10.txt
+    sha256: "40e19160034659380a29a43311c560b0b24dd529b96399f954fb7fbe2f98d33a"
+    size: 15802

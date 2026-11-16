@@ -1,0 +1,36 @@
+namespace: storyline
+name: nsl
+version: "0.3"
+language: owl
+syntax: turtle
+roots: [nsl.ttl]
+licenses: ["CC-BY-SA-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "A News Storyline Ontology"
+authors:
+  - name: "Paul Wilton"
+  - name: "Jarred McGinnis"
+  - name: "Jeremy Tarling"
+publishers:
+  - name: "BBC"
+    link: "https://www.bbc.co.uk/"
+contributors:
+  - name: "Sebastien Cevey"
+  - name: "Michael Smethurst"
+  - name: "Tom Leitch"
+  - name: "Dan Brickley"
+  - name: "Helen Lippell"
+  - name: "Paul Rissen"
+  - name: "Matt Chadburn"
+description: "The News Storyline Ontology is a generic model for describing and organising the stories news organisations tell."
+keywords: ["Press"]
+originalSources: ["http://www.bbc.co.uk/ontologies/storyline/2013-05-01.html"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/nsl/versions/2013-05-01.n3
+    name: nsl.ttl
+    sha256: "217bdfac16cfd3a4166f656900cc76bb30b5dfaf0c600d6ee7e0ff0064561424"
+    size: 18080
+  - url: https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt
+    sha256: "3f941b3b89cf7b8370ceb83cc76d2120d471b58735d8ca60238a751a48d7f72f"
+    size: 22240

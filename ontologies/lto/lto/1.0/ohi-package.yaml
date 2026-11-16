@@ -1,0 +1,26 @@
+namespace: lto
+name: lto
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [lto.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Library Transaction Ontology"
+authors:
+  - name: "Biswanath Dutta"
+  - name: "Nabina Khamaru"
+publishers:
+  - name: "Indian Statistical Institute"
+    link: "https://www.isibang.ac.in/"
+description: "A FAIR-compliant metadata vocabulary (MV), the Library Transaction Ontology (LTO), is designed and developed for representing and managing library transaction data (LTD), including circulation, interlibrary loan, hold requests, and fiscal information."
+keywords: ["Academy", "Catalogs"]
+sources:
+  - url: https://www.isibang.ac.in/ns/lto/ontology.ttl
+    name: lto.ttl
+    sha256: "04b9ffeaa4c998153fc2fa92907729086cacaec04cbfbbde69ded85de17f3f2f"
+    size: 154350
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

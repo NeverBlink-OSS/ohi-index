@@ -1,0 +1,29 @@
+namespace: obo
+name: ovae
+version: "1.0.34"
+language: owl
+syntax: rdfxml
+roots: [ovae_merged.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Ontology of Vaccine Adverse Events"
+authors:
+  - name: "Erica Marcos"
+  - name: "Jiangan Xie"
+  - name: "Yongqun He"
+    contact: "yongqunh@med.umich.edu"
+    link: "http://www.hegroup.org"
+publishers:
+  - name: "He Group, University of Michigan Medical School"
+    link: "https://hegroup.org/"
+description: "A biomedical ontology in the domain of vaccine adverse events."
+keywords: ["health", "OBO"]
+originalSources: ["https://github.com/OVAE-Ontology/ovae", "http://www.violinet.org/ovae"]
+sources:
+  - url: https://github.com/OVAE-Ontology/ovae/blob/efda2e21d3f1cc49f46b6260f8eabfcc31755dcf/src/ontology/ovae_merged.owl
+    sha256: "25d1bf39ba7eade77d08ab59558d54b8de58c519a725dae290f98d3d97e20cd4"
+    size: 3945072
+  - url: https://github.com/OVAE-Ontology/ovae/blob/efda2e21d3f1cc49f46b6260f8eabfcc31755dcf/LICENSE
+    sha256: "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673"
+    size: 6555

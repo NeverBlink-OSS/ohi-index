@@ -1,0 +1,28 @@
+namespace: twc
+name: conversion
+version: "2026-11-02"
+language: owl
+syntax: turtle
+roots: [conversion.ttl]
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Conversion Ontology"
+authors:
+  - name: "Timothy Lebo"
+    link: "http://tw.rpi.edu/web/person/TimLebo"
+  - name: "Gregory Todd Williams"
+publishers:
+  - name: "Timothy Lebo"
+    link: "http://tw.rpi.edu/web/person/TimLebo"
+description: "Ontology used to describe interpretations of tabular literals to produce RDF."
+keywords: ["RDF"]
+originalSources: ["https://github.com/timrdf/csv2rdf4lod-automation"]
+sources:
+  - url: https://raw.githubusercontent.com/timrdf/csv2rdf4lod-automation/master/doc/ontology/vocab.ttl
+    name: conversion.ttl
+    sha256: "ea7a82e6d1d8683a4283359fa2898b25cc27bbb0e9ab0d840c1d453ea8118541"
+    size: 51333
+  - url: https://github.com/timrdf/csv2rdf4lod-automation/blob/be857c730c44dccf414ce2b9805966514b524534/LICENSE
+    sha256: "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    size: 11358

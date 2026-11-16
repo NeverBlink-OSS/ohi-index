@@ -1,0 +1,21 @@
+namespace: beniculturali
+name: san-lod
+version: "2015-03-02"
+language: owl
+syntax: turtle
+roots: [san-lod.ttl]
+licenses: ["CC-BY-2.5"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "SAN Ontologia"
+authors:
+  - name: "ICAR - Centro MAAS"
+publishers:
+  - name: "ICAR - Centro MAAS"
+description: "SAN Ontology."
+keywords: ["Catalogs"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/san-lod/versions/2015-03-02.n3
+    name: san-lod.ttl
+    sha256: "e6657320a763bb303211b7db9724f4960564b140c7a03d98b88d3f2e841501c7"
+    size: 46562

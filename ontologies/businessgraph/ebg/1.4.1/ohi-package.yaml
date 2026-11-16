@@ -1,0 +1,51 @@
+namespace: businessgraph
+name: ebg
+version: "1.4.1"
+language: owl
+syntax: turtle
+roots: [ebg.ttl]
+licenses: ["ODC-By-1.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "euBusinessGraph ontology"
+authors:
+  - name: "Vladimir Alexiev"
+    contact: "vladimir.alexiev@ontotext.com"
+  - name: "Brian Elvesæter"
+    contact: "brian.elvesater@sintef.no"
+  - name: "David Norheim"
+    contact: "david.norheim@brreg.no"
+  - name: "Javier Paniagua"
+    contact: "paniagua@spaziodati.eu"
+  - name: "Dumitru Roman"
+    contact: "dumitru.roman@sintef.no"
+  - name: "Fredrik Seehusen"
+  - name: "Boyan Simeonov"
+    contact: "boyan.simeonov@ontotext.com"
+  - name: "Ahmet Soylu"
+    contact: "ahmet.soylu@sintef.no"
+  - name: "Chris Taggart"
+    contact: "chris.taggart@opencorporates.com"
+  - name: "Tatiana Tarasova"
+  - name: "Bjørn Marius von Zernichow"
+    contact: "BjornMarius.vonZernichow@sintef.no"
+  - name: "The euBusinessGraph Project"
+    link: "http://eubusinessgraph.eu"
+publishers:
+  - name: "The euBusinessGraph Project"
+    link: "http://eubusinessgraph.eu"
+contributors:
+  - name: "The euBusinessGraph Consortium"
+    link: "http://eubusinessgraph.eu/partners/"
+description: "The euBusinessGraph (`ebg:`) ontology represents companies, type/status/economic classification, addresses, identifiers, company officers (e.g., directors and CEOs), and dataset offerings."
+keywords: ["eBusiness"]
+originalSources: ["http://businessgraph.io"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/ebg/versions/2020-02-11.n3
+    name: ebg.ttl
+    sha256: "9534ab5223b32ecdd4766e14ca223217f18d968f257493635e9083f9f4cddbb1"
+    size: 69837
+  - url: https://opendatacommons.org/licenses/by/odc_by_1.0_public_text.txt
+    name: LICENSE
+    sha256: "11a6d83734845ad09d809667aa219857a5b985b28c258a2eebf5677668a6bd3b"
+    size: 19977

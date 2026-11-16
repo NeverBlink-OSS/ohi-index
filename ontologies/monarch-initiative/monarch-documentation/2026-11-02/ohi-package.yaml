@@ -1,0 +1,37 @@
+namespace: monarch-initiative
+name: monarch-documentation
+version: "2026-11-02"
+language: linkml
+syntax: yaml
+roots: [monarch-documentation.yaml]
+licenses: ["GPL-3.0-only"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "monarch-documentation-schema"
+authors:
+  - name: "Monarch Initiative"
+    contact: "info@monarchinitiative.org"
+    link: "https://monarchinitiative.org/"
+  - name: "Glass Elsarboukh"
+    contact: "glass@tislab.org"
+  - name: "Tim Putman"
+    contact: "tim@tislab.org"
+  - name: "Kevin Schaper"
+    contact: "kevin@tislab.org"
+  - name: "Corey Cox"
+    contact: "corey@tislab.org"
+publishers:
+  - name: "Monarch Initiative"
+    contact: "info@monarchinitiative.org"
+    link: "https://monarchinitiative.org/"
+description: "Technical documentation for all Monarch applications, packages, services and related projects."
+keywords: ["Schema"]
+originalSources: ["https://github.com/monarch-initiative/monarch-documentation"]
+sources:
+  - url: https://github.com/monarch-initiative/monarch-documentation/blob/f67625c4e3a2016636de60df25118b785f215c97/src/monarch_documentation/schema/monarch_documentation.yaml
+    name: monarch-documentation.yaml
+    sha256: "bd169c954df69312c2256b153a6acf5b6ca9d155052d2b4a5b40b3fb62fcc27a"
+    size: 11880
+  - url: https://github.com/monarch-initiative/monarch-documentation/blob/f67625c4e3a2016636de60df25118b785f215c97/LICENSE
+    sha256: "ca372a7d92560b1fa9f6d832b440e8bcd62d9adfa8870c98287deab66d98310e"
+    size: 35148

@@ -1,0 +1,29 @@
+namespace: monarch-initiative
+name: namo
+version: "2026-11-02"
+language: linkml
+syntax: yaml
+roots: [namo.yaml]
+patch: namo.patch.yaml
+licenses: ["BSD-3-Clause"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "namo"
+authors:
+  - name: "Christopher J. Mungall"
+    contact: "cjmungall@lbl.gov"
+  - name: "Daniel Korn"
+    contact: "dkorn@cs.unc.edu"
+publishers:
+  - name: "Monarch Initiative"
+    link: "https://monarchinitiative.org/"
+description: "NAMO (New Approach Methodology Ontology) is a comprehensive schema for representing diverse in vitro and in silico model systems used as alternatives to traditional animal testing."
+keywords: ["ai4curation", "artificial-intelligence", "linkml", "model-systems", "monarchinitiative", "Computer Science"]
+originalSources: ["https://github.com/monarch-initiative/namo"]
+sources:
+  - url: https://github.com/monarch-initiative/namo/blob/ec7a5fe9e322240eb10f94f5f801976ee914902c/src/namo/schema/namo.yaml
+    sha256: "8108f2bdebf681214530a1f9581cc1a7e6a0075d77afe9efb97b525633e1f596"
+    size: 70192
+  - url: https://github.com/monarch-initiative/namo/blob/ec7a5fe9e322240eb10f94f5f801976ee914902c/LICENSE
+    sha256: "a31a0ddb3e442e7d545c55b7ca70bc3b25107b6e02518e787f52afcdaabad878"
+    size: 1481

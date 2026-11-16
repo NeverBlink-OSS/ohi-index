@@ -1,0 +1,24 @@
+namespace: spar
+name: foaf
+version: "2.0"
+language: owl
+syntax: rdfxml
+roots: [foaf.rdf]
+licenses: ["CC-BY-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "SPAR FOAF"
+authors:
+  - name: "Paolo Ciccarese"
+publishers:
+  - name: "Mindinformatics, Massachusetts General Hospital"
+    link: "http://www.mindinformatics.org/"
+contributors:
+  - name: "Alan Ruttenberg"
+description: "FOAF Essential, an OWL 2 DL cut of the FOAF vocabulary used by the SPAR ontologies."
+keywords: ["people", "agents"]
+sources:
+  - url: https://sparontologies.github.io/foaf/2010-10-12/foaf.xml
+    name: foaf.rdf
+    sha256: "d6d245ea91e8db3ea01759b2ee1d86e5f0fbf565bf4eb5e79724fb046f6ae322"
+    size: 29140

@@ -1,0 +1,27 @@
+namespace: fairsharing
+name: drao
+version: "2025-05-08"
+language: owl
+syntax: rdfxml
+roots: [drao.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Domain Resource Application Ontology"
+authors:
+  - name: "FAIRsharing"
+    link: "https://fairsharing.org/"
+publishers:
+  - name: "FAIRsharing"
+    link: "https://fairsharing.org/"
+description: "A project supporting the DRAO application ontology, a hierarchy of specific research domains and descriptors which imports subsets of terms from over 40 publicly-available terminologies."
+keywords: ["agriculture", "biomedical science", "classification", "computer science", "earth science", "environmental science", "fair", "fairsharing"]
+originalSources: ["https://github.com/FAIRsharing/domain-ontology"]
+sources:
+  - url: https://github.com/FAIRsharing/domain-ontology/blob/v2025-05-08/DRAO.owl
+    name: drao.owl
+    sha256: "e79b9a933bc6af1767fa8acbc50b78ee6bf4b98e16c2f611e29b1e7c44b6928b"
+    size: 664680
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

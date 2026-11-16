@@ -1,0 +1,31 @@
+namespace: coypu
+name: tiva
+version: "1.4"
+language: owl
+syntax: turtle
+roots: [tiva.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "OECD TIVA Ontology"
+authors:
+  - name: "CoyPu project"
+    link: "https://coypu.org/"
+publishers:
+  - name: "CoyPu project"
+    link: "https://coypu.org/"
+contributors:
+  - name: "Felix Engel"
+  - name: "Nenad Krdzavac"
+  - name: "Nils Steinert"
+description: "An ontology for modeling international trade flows."
+keywords: ["coypu", "economics", "ontology"]
+originalSources: ["https://gitlab.com/coypu-project/coy-ontology"]
+sources:
+  - url: https://gitlab.com/coypu-project/coy-ontology/-/raw/main/ontology/indicators/valueandtradeflows.ttl
+    name: tiva.ttl
+    sha256: "804a67ddfad05957ddf8e8b2a7feee0f492fdbc4eb2faaeea24ca05fcf36211a"
+    size: 12497
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

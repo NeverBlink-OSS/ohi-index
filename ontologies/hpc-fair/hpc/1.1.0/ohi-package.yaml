@@ -1,0 +1,27 @@
+namespace: hpc-fair
+name: hpc
+version: "1.1.0"
+language: owl
+syntax: turtle
+roots: [hpc.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "High-Performance Computing Ontology"
+authors:
+  - name: "The HPC-FAIR research team"
+    link: "https://hpc-fair.github.io/"
+publishers:
+  - name: "The HPC-FAIR research team"
+    link: "https://hpc-fair.github.io/"
+description: "The HPC Ontology describes software, hardware, and artifacts in the domain of High-Performance Computing."
+keywords: ["ontology"]
+originalSources: ["https://hpc-fair.github.io/ontology"]
+sources:
+  - url: https://hpc-fair.github.io/ontology/ontology.ttl
+    name: hpc.ttl
+    sha256: "8a5f1970a6b54f36b5776142fd32fa75a057d1d56f4bc01f3697ffab161b6abc"
+    size: 170997
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

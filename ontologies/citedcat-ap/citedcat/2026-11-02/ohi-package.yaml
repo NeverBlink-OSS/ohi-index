@@ -1,0 +1,31 @@
+namespace: citedcat-ap
+name: citedcat
+version: "2026-11-02"
+language: owl
+syntax: turtle
+roots: [citedcat.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "CiteDCAT-AP Vocabulary"
+authors:
+  - name: "Tim Austin"
+  - name: "Andrea Perego"
+    link: "https://andrea-perego.name/"
+  - name: "Anders Friis-Christensen"
+  - name: "Lorenzino Vaccari"
+  - name: "Chrisa Tsinaraki"
+publishers:
+  - name: "European Commission"
+    link: "https://commission.europa.eu/"
+description: "CiteDCAT-AP is an extension of the DCAT application profile for data portals in Europe (DCAT-AP) for describing resources documented by using the DataCite metadata schema - the de facto standard for data citation, and used across scientific disciplines."
+keywords: ["Catalogs", "Methods"]
+originalSources: ["https://ec-jrc.github.io/datacite-to-dcat-ap"]
+sources:
+  - url: https://ec-jrc.github.io/datacite-to-dcat-ap/citedcat-ap.ttl
+    name: citedcat.ttl
+    sha256: "0e5afd98add31d6913619ff296f2977892ee933315fa27d10511e7d76afb0c96"
+    size: 35828
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

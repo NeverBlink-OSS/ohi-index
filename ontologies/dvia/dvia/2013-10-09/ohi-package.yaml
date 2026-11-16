@@ -1,0 +1,32 @@
+namespace: dvia
+name: dvia
+version: "2013-10-09"
+language: owl
+syntax: turtle
+roots: [dvia.ttl]
+licenses: ["PDDL-1.0"]
+licenseFiles: [pddl-10.txt]
+dependencies: []
+title: "The visualization vocabulary for LOD applications"
+authors:
+  - name: "Ghislain Auguste Atemezing"
+    contact: "atemezin@eurecom.fr"
+    link: "http://www.eurecom.fr/~atemezin"
+publishers:
+  - name: "Ghislain Auguste Atemezing"
+    contact: "atemezin@eurecom.fr"
+    link: "http://www.eurecom.fr/~atemezin"
+contributors:
+  - name: "Raphaël Troncy"
+    contact: "rtroncy@eurecom.fr"
+description: "Dvia is an RDF vocabulary designed to facilitate interoperability between visualization applications published on the Web."
+keywords: ["API"]
+originalSources: ["http://data.eurecom.fr/ontology/dvia"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/dvia/versions/2013-10-09.n3
+    name: dvia.ttl
+    sha256: "9b9498e8e8ddd8ab05950f0960ee2d483706e5a6e2b1e6b5cb9601f3505846e2"
+    size: 7924
+  - url: https://opendatacommons.org/licenses/pddl/pddl-10.txt
+    sha256: "40e19160034659380a29a43311c560b0b24dd529b96399f954fb7fbe2f98d33a"
+    size: 15802

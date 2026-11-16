@@ -1,0 +1,28 @@
+namespace: acco
+name: acco
+version: "2013-03-25"
+language: owl
+syntax: turtle
+roots: [acco.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["goodrelations/gr@2011-10-01"]
+title: "Accomodation Ontology"
+authors:
+  - name: "Martin Hepp"
+publishers:
+  - name: "Martin Hepp"
+contributors:
+  - name: "Michael Fried"
+  - name: "Birgit Leiter"
+  - name: "Dieter Fensel"
+description: "A vocabulary for the description of hotels, vacation homes, camping sites, and other accommodation offers for e-commerce."
+keywords: ["eBusiness"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/acco/versions/2013-03-25.n3
+    name: acco.ttl
+    sha256: "8dc768d56fa4692db8b1b84cd8f7fd24657eeedd60b4490b9d12b20f10508cdd"
+    size: 30625
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

@@ -1,0 +1,27 @@
+namespace: rml
+name: rml-cc
+version: "0.1.0"
+language: owl
+syntax: turtle
+roots: [rml-cc.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "RML-Containers"
+authors:
+  - name: "Ana Iglesias Molina"
+  - name: "Franck Michel"
+  - name: "Christophe Debruyne"
+publishers:
+  - name: "W3C Knowledge Graph Construction Community Group"
+    link: "https://www.w3.org/community/kg-construct/"
+description: "RML module to generate RDF collections and containers."
+keywords: ["RDF", "RML", "W3C Rec"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/rml-cc/versions/2023-06-15.n3
+    name: rml-cc.ttl
+    sha256: "680560a9f4b17ee086f89f10cf26a53b805eef0e6b9d5ff530ff02dc3e2f0240"
+    size: 8216
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

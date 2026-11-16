@@ -1,0 +1,27 @@
+namespace: worldavatar
+name: chemexp
+version: "1"
+language: owl
+syntax: rdfxml
+roots: [chemexp.owl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "WorldAvatar chemical experiment ontology"
+authors:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+publishers:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+description: "OntoChemExp is an ontology developed for representing chemical experiments."
+keywords: ["chemistry", "ontology", "worldavatar"]
+originalSources: ["https://github.com/TheWorldAvatar/ontology", "https://theworldavatar.io"]
+sources:
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/ontology/ontochemexp/OntoChemExp.owl
+    name: chemexp.owl
+    sha256: "8c4c54e414577e79984e17f63cf7511acb36401ba2a4d478a1ec9ad758f8cd94"
+    size: 103600
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/LICENSE.txt
+    sha256: "8c29b2cb4c712a0d382d1951ffc7e2a155ec7095c7e92a896f5919eb02c31ea9"
+    size: 1309

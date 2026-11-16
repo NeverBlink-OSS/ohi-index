@@ -1,0 +1,23 @@
+namespace: w3c
+name: doc
+version: "2006-07-29"
+language: owl
+syntax: turtle
+roots: [doc.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Works, licences, derivatives and dependencies"
+authors:
+  - name: "Tim Berners-Lee"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "Defines properties and relationships between works."
+keywords: ["Catalogs"]
+originalSources: ["https://www.w3.org/2000/10/swap/pim/doc"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/doc/versions/2006-07-29.n3
+    name: doc.ttl
+    sha256: "f07000ed71c22019e8010ec537c65adefa6e78f81a4d7c2b154f039ae4c833d7"
+    size: 4916

@@ -1,0 +1,27 @@
+namespace: ebispot
+name: ejprd
+version: "2019-11-19"
+language: owl
+syntax: rdfxml
+roots: [ejprd.owl]
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "European Joint Programme for Rare Disease Ontology"
+authors:
+  - name: "Olamidipupo AJigboye"
+publishers:
+  - name: "EMBL-EBI Samples, Phenotypes and Ontologies Team"
+    link: "https://www.ebi.ac.uk/spot/"
+description: "This ontology is designed to support data search, retrieval and information identification in the EJP-RD catalogs which covers the registries and biobanks for rare diseases."
+keywords: ["ontology"]
+originalSources: ["https://github.com/EBISPOT/EJP-Ontology"]
+sources:
+  - url: https://github.com/EBISPOT/EJP-Ontology/blob/267b56b0292252ea1aeae1b29c89f637e6dc5a7b/ejp-rd.owl
+    name: ejprd.owl
+    sha256: "6e265aef930f54da96e95668afb84a02f79187dfd8bd61884d5f5afae52bf50d"
+    size: 21229754
+  - url: https://www.apache.org/licenses/LICENSE-2.0.txt
+    name: LICENSE
+    sha256: "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    size: 11358

@@ -1,0 +1,35 @@
+namespace: obo
+name: emro
+version: "2026-10-15"
+language: owl
+syntax: rdfxml
+roots: [emro.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Emotion Response Ontology"
+authors:
+  - name: "William D. Duncan"
+    link: "https://orcid.org/0000-0001-9625-1899"
+  - name: "Alexander D. Diehl"
+    link: "https://orcid.org/0000-0001-9990-8331"
+  - name: "Daniel W. McNeil"
+    link: "https://orcid.org/0000-0002-0766-8455"
+publishers:
+  - name: "University of Florida College of Dentistry"
+    link: "https://github.com/uflcod"
+contributors:
+  - name: "Finn Wilson"
+    link: "https://orcid.org/0009-0002-7282-0836"
+  - name: "Damayanthi Jesudas"
+    link: "https://orcid.org/0000-0001-6906-5548"
+description: "The Emotion Response Ontology represents emotions as behavioral responses."
+keywords: ["health", "OBO"]
+originalSources: ["https://github.com/uflcod/emotion-response-ontology"]
+sources:
+  - url: https://github.com/uflcod/emotion-response-ontology/blob/a4865a983bffd966553db75c14d7285f87927ce0/emro.owl
+    sha256: "b6f06b2b2f0c3810e2fbb9d43bc66875183ba8b99dfd0fd61abdd2acb2080adf"
+    size: 279306
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,61 @@
+namespace: obo
+name: iao
+version: "2020-06-10"
+language: owl
+syntax: rdfxml
+roots: [iao.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Information Artifact Ontology"
+authors:
+  - name: "Adam Goldstein"
+  - name: "Alan Ruttenberg"
+  - name: "Albert Goldfain"
+  - name: "Barry Smith"
+  - name: "Bjoern Peters"
+  - name: "Carlo Torniai"
+  - name: "Christopher J. Mungall"
+  - name: "Chris Stoeckert"
+  - name: "Christian A. Boelling"
+  - name: "Darren Natale"
+  - name: "David Osumi-Sutherland"
+  - name: "Gwen Frishkoff"
+  - name: "Holger Stenzhorn"
+  - name: "James A. Overton"
+  - name: "James Malone"
+  - name: "Jennifer Fostel"
+  - name: "Jie Zheng"
+    contact: "zhengj2007@gmail.com"
+    link: "https://orcid.org/0000-0002-2999-0103"
+  - name: "Jonathan Rees"
+  - name: "Larisa Soldatova"
+  - name: "Lawrence Hunter"
+  - name: "Mathias Brochhausen"
+  - name: "Matthew H. Brush"
+  - name: "Melanie Courtot"
+  - name: "Michel Dumontier"
+  - name: "Paolo Ciccarese"
+  - name: "Pat Hayes"
+  - name: "Philippe Rocca-Serra"
+  - name: "Randall Dipert"
+  - name: "Ron Rudnicki"
+  - name: "Satya S. Sahoo"
+  - name: "Sivaram Arabandi"
+  - name: "Werner Ceusters"
+  - name: "William D. Duncan"
+  - name: "William R. Hogan"
+  - name: "Yongqun He"
+publishers:
+  - name: "Information Artifact Ontology"
+    link: "https://github.com/information-artifact-ontology"
+description: "An ontology of information entities."
+keywords: ["information", "OBO"]
+originalSources: ["https://github.com/information-artifact-ontology/IAO"]
+sources:
+  - url: https://github.com/information-artifact-ontology/IAO/blob/v2020-06-10/iao.owl
+    sha256: "16aad3327568d08f6f29daa8a5ee0190f0723ea57ebe162bf7870f47b06fe4d8"
+    size: 541029
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

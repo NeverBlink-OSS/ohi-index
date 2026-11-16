@@ -1,0 +1,25 @@
+namespace: goodrelations
+name: gr
+version: "2011-10-01"
+language: owl
+syntax: turtle
+roots: [gr.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The GoodRelations Ontology for Semantic Web-based E-Commerce"
+authors:
+  - name: "Martin Hepp"
+publishers:
+  - name: "Martin Hepp"
+description: "The GoodRelations ontology provides the vocabulary for annotating e-commerce offerings (1) to sell, lease, repair, dispose, or maintain commodity products and (2) to provide commodity services."
+keywords: ["eBusiness"]
+originalSources: ["http://www.heppnetz.de/ontologies/goodrelations/v1.html"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/gr/versions/2011-10-01.n3
+    name: gr.ttl
+    sha256: "a5f9b143d9f40d39ed1358fc91814d6cd31b63643491dc287ab75677c33acbcd"
+    size: 133611
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

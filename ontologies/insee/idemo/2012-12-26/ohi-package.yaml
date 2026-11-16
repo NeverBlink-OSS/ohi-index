@@ -1,0 +1,26 @@
+namespace: insee
+name: idemo
+version: "2012-12-26"
+language: owl
+syntax: turtle
+roots: [idemo.ttl]
+licenses: ["etalab-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Demographic ontology from the French Statistics Institute"
+authors:
+  - name: "Franck Cotton"
+publishers:
+  - name: "French National Institute of Statistics and Economic Studies (INSEE)"
+    link: "https://www.insee.fr/"
+description: "Ontology with classes and properties used for demography, mostly in the census of the population."
+keywords: ["Methods"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/idemo/versions/2012-12-26.n3
+    name: idemo.ttl
+    sha256: "4bebcef24bb0317bcb25abcf32f36f02347e6d7765d6dcd1e941a5b2b0142eae"
+    size: 3227
+  - url: https://raw.githubusercontent.com/spdx/license-list-data/v3.29.0/text/etalab-2.0.txt
+    name: LICENSE
+    sha256: "f82596bde5c4abc62b4e63b1a3ba555f6b9203a340765fb178d188958600d111"
+    size: 8198

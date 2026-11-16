@@ -1,0 +1,27 @@
+namespace: worldavatar
+name: species
+version: "1"
+language: owl
+syntax: rdfxml
+roots: [species.owl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "OntoSpecies - Chemical Species Ontology for Data Integration and Knowledge Discovery"
+authors:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+publishers:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+description: "OntoSpecies is an ontology developed for representing chemical species."
+keywords: ["chemistry", "nfdi4chem", "ontology", "worldavatar"]
+originalSources: ["https://github.com/TheWorldAvatar/ontology", "https://theworldavatar.io"]
+sources:
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/ontology/ontospecies/OntoSpecies.owl
+    name: species.owl
+    sha256: "372f4ae236e5a5cd3b9bd47086de10916962e28ff8e68c138a31a558ba8e986a"
+    size: 33227
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/LICENSE.txt
+    sha256: "8c29b2cb4c712a0d382d1951ffc7e2a155ec7095c7e92a896f5919eb02c31ea9"
+    size: 1309

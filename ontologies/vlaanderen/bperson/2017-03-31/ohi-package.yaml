@@ -1,0 +1,77 @@
+namespace: vlaanderen
+name: bperson
+version: "2017-03-31"
+language: owl
+syntax: turtle
+roots: [bperson.ttl]
+licenses: ["Modellicentie gratis hergebruik 1.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Person"
+authors:
+  - name: "Dries Beheydt"
+    contact: "dries.beheydt@kb.vlaanderen.be"
+  - name: "Lieven Verreycken"
+    contact: "lieven.verreycken@hpe.com"
+  - name: "Marc Ruymen"
+    contact: "marc.ruymen@rrn.fgov.be"
+  - name: "Valere Bouserie"
+    contact: "valere.bouserie@bz.vlaanderen.be"
+  - name: "Henk Vanderstraeten"
+    contact: "henk.vanderstraeten@bz.vlaanderen.be"
+  - name: "Geert Van Haute"
+    contact: "geert.vanhaute@lne.vlaanderen.be"
+  - name: "Heidi Godderis"
+    contact: "heidi.godderis@kb.vlaanderen.be"
+  - name: "Tinne Cahy"
+    contact: "tinne.cahy@geosolutions.be"
+  - name: "Dieter De Paepe"
+    contact: "dieter.depaepe@ugent.be"
+  - name: "Gijs Martens"
+    contact: "gijs.martens@bz.vlaanderen.be"
+  - name: "Ward Beynaerts"
+    contact: "ward.beynaerts@cipalschaubroeck.be"
+  - name: "Bruno De Vrieze"
+    contact: "bruno.devrieze@kb.vlaanderen.be"
+  - name: "Mark Demol"
+    contact: "mark.demol@ksz-bcss.fgov.be"
+  - name: "Katrien Leire"
+    contact: "Katrien.leire@digipolis.gent"
+  - name: "Jelle De Vreese"
+    contact: "jelle.devreese@cipalschaubroeck.be"
+  - name: "An Boes"
+    contact: "an.boes@kb.vlaanderen.be"
+  - name: "Raf Buyle"
+    contact: "raf.buyle@kb.vlaanderen.be"
+  - name: "Geert Thijs"
+    contact: "Geert.Thijs@kb.vlaanderen.be"
+  - name: "Björn De Vidts"
+    contact: "bjorn.devidts@kb.vlaanderen.be"
+  - name: "Willem Van Hoecke"
+    contact: "willem.vanhoecke@cipalschaubroeck.be"
+  - name: "Ziggy Vanlishout"
+    contact: "Siegfried.Vanlishout@kb.vlaanderen.be"
+  - name: "Liesbet D'Hondt"
+    contact: "liesbet.dhondt@DGDigitaleTransformatie.be"
+  - name: "Michael Loedts"
+    contact: "michael.loedts@hpe.com"
+publishers:
+  - name: "Digitaal Vlaanderen"
+    link: "https://www.vlaanderen.be/digitaal-vlaanderen"
+contributors:
+  - name: "Wim Devroey"
+    contact: "wim.devroey@kb.vlaanderen.be"
+  - name: "Jos Mostmans"
+    contact: "Jos.Mostmans@digipolis.be"
+  - name: "Annita Stevens"
+    contact: "Annita.Stevens@vlm.be"
+  - name: "Kris Peirelinck"
+    contact: "kris.peirelinck@lne.vlaanderen.be"
+description: "Person ontology in Dutch."
+keywords: ["People", "Society"]
+originalSources: ["http://data.vlaanderen.be/ns/#Vocabularia"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/bperson/versions/2017-03-31.n3
+    name: bperson.ttl
+    sha256: "24b3d1a7dddab8fb4e2dc15f9a47824af7515611b1a7a869e37364381445b706"
+    size: 45990

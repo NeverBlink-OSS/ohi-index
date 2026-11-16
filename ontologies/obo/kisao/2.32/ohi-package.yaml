@@ -1,0 +1,26 @@
+namespace: obo
+name: kisao
+version: "2.32"
+language: owl
+syntax: rdfxml
+roots: [kisao.owl]
+licenses: ["Artistic-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Kinetic Simulation Algorithm Ontology"
+authors:
+  - name: "SED-ML community"
+    link: "https://sed-ml.org/"
+publishers:
+  - name: "SED-ML community"
+    link: "https://sed-ml.org/"
+description: "A classification of algorithms for simulating biology, their parameters, and their outputs."
+keywords: ["simulation", "systems biology", "computational biology", "mathematical modeling", "numerical simulation", "simulation algorithms", "OBO"]
+originalSources: ["https://github.com/SED-ML/KiSAO"]
+publications:
+  - title: "Controlled vocabularies and semantics in systems biology"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/22027554"
+sources:
+  - url: https://github.com/SED-ML/KiSAO/blob/2.33/LICENSE
+    sha256: "952c1f0e0338cebf031d08cc5828960b02b6dbd7c6eec28f3af2e661b2b16ef8"
+    size: 8672

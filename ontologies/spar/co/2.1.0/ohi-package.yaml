@@ -1,0 +1,36 @@
+namespace: spar
+name: co
+version: "2.1.0"
+language: owl
+syntax: rdfxml
+roots: [co.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE.md]
+dependencies: ["spar/error@1.0.1"]
+title: "SPAR Collections Ontology"
+authors:
+  - name: "Paolo Ciccarese"
+    link: "https://orcid.org/0000-0002-5156-2703"
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+contributors:
+  - name: "Marco Ocana"
+  - name: "Sebastian Barzaghi"
+    link: "https://orcid.org/0000-0002-0799-1527"
+description: "Ontology of collections: sets, bags and lists of items."
+keywords: ["collections", "lists"]
+originalSources: ["https://github.com/collections-ontology/collections-ontology"]
+publications:
+  - title: "Ciccarese, P., & Peroni, S. (2014). The Collections Ontology: creating and handling collections in OWL 2 DL frameworks. Semantic Web, 5(6), 515-529. DOI: https://doi.org/10.3233/SW-130121."
+    link: "https://doi.org/10.3233/SW-130121"
+sources:
+  - url: https://sparontologies.github.io/co/2026-10-02/co.xml
+    name: co.rdf
+    sha256: "6e9e1a804c8b8099e1727e524f67371a64b7bd1536b9641c700eada0a428bd9d"
+    size: 65595
+  - url: https://github.com/SPAROntologies/co/blob/47daaa293991190f0c385c7fa4ce4d2810c1276a/LICENSE.md
+    sha256: "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    size: 18656

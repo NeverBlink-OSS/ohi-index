@@ -1,0 +1,26 @@
+namespace: hl7
+name: fhir
+version: "4.3.0"
+language: owl
+syntax: turtle
+roots: [fhir.ttl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["hl7/fhir-w5@5.0.0"]
+title: "FHIR Model Ontology"
+authors:
+  - name: "Health Level Seven International"
+    link: "https://www.hl7.org/"
+publishers:
+  - name: "Health Level Seven International"
+    link: "https://www.hl7.org/"
+description: "OWL model of the HL7 FHIR R4B resources and data types, for FHIR data in RDF."
+keywords: ["FHIR", "HL7", "health care", "clinical data"]
+originalSources: ["https://hl7.org/fhir/rdf.html"]
+sources:
+  - url: https://hl7.org/fhir/R4B/fhir.ttl
+    sha256: "904295af07678000754211373141f298ee0f367a0d7e003e5055385ac87e2562"
+    size: 5034294
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

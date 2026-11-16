@@ -1,0 +1,43 @@
+namespace: spar
+name: bido
+version: "1.2.1"
+language: owl
+syntax: rdfxml
+roots: [bido.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE.md]
+dependencies: ["spar/tvc@1.1.0"]
+title: "SPAR Bibliometric Data Ontology"
+authors:
+  - name: "Enrico Motta"
+    link: "https://orcid.org/0000-0003-0015-1952"
+  - name: "Francesco Osborne"
+    link: "https://www.francescoosborne.net/"
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+  - name: "Idafen Santana-Pérez"
+    link: "http://idafen.wordpress.com/"
+  - name: "María Poveda-Villalón"
+    link: "https://orcid.org/0000-0003-3587-0367"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+contributors:
+  - name: "Sebastian Barzaghi"
+    link: "https://orcid.org/0000-0002-0799-1527"
+  - name: "Aliaksandr Birukou"
+    link: "http://www.birukou.eu"
+description: "Ontology of bibliometric data with all its modules: research career categories, review measures and standard bibliometric measures."
+keywords: ["bibliometrics", "research evaluation"]
+originalSources: ["https://github.com/SPAROntologies/bido"]
+publications:
+  - title: "Osborne, F., Peroni, S., Motta, E. (2014). Clustering Citation Distributions for Semantic Categorization and Citation Prediction. In Proceedings of the 4th Workshop on Linked Science (LISC 2014): 24–35. http://ceur-ws.org/Vol-1282/lisc2014_submission_9.pdf"
+    link: "http://ceur-ws.org/Vol-1282/lisc2014_submission_9.pdf"
+sources:
+  - url: https://sparontologies.github.io/bido/2026-08-14/bido.xml
+    name: bido.rdf
+    sha256: "858098a4b8cd75cc8ad1e67b557f59ffa9244b1af9ba577bb064b805f00df9c9"
+    size: 252012
+  - url: https://github.com/SPAROntologies/bido/blob/c3402a9b04d088179e3484f6e9fcae4e4e0447ac/LICENSE.md
+    sha256: "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    size: 18656

@@ -1,0 +1,23 @@
+namespace: w3c
+name: rdfa
+version: "2013"
+language: owl
+syntax: turtle
+roots: [rdfa.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "RDFa vocabulary"
+authors:
+  - name: "Ivan Herman"
+    contact: "ivan@w3.org"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "W3C vocabulary for RDFa prefixes, terms and default vocabularies."
+keywords: ["RDFa", "web"]
+originalSources: ["https://www.w3.org/TR/rdfa-core"]
+sources:
+  - url: https://www.w3.org/ns/rdfa.ttl
+    sha256: "6140e2c48125c790eb099e75bf079b726d43b92b87cb11e2f268ff8edfaa37aa"
+    size: 4612

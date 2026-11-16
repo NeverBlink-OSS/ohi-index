@@ -1,0 +1,26 @@
+namespace: obo
+name: xlmod
+version: "1.5.1"
+language: owl
+syntax: rdfxml
+roots: [XLMOD.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "HUPO-PSI cross-linking and derivatization reagents controlled vocabulary"
+authors:
+  - name: "HUPO Proteomics Standards Initiative"
+    link: "http://www.psidev.info/"
+publishers:
+  - name: "HUPO Proteomics Standards Initiative"
+    link: "http://www.psidev.info/"
+description: "A structured controlled vocabulary for cross-linking reagents used with proteomics mass spectrometry."
+keywords: ["chemistry and biochemistry", "MS cross-linker reagents", "OBO"]
+originalSources: ["https://github.com/HUPO-PSI/xlmod-CV", "http://www.psidev.info/groups/controlled-vocabularies"]
+sources:
+  - url: https://github.com/HUPO-PSI/xlmod-CV/blob/v1.5.2/XLMOD.owl
+    sha256: "10c50a9395a4942899aab4e557d2fe4cfcff711fce284cf7ee086937e92d1876"
+    size: 2381627
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

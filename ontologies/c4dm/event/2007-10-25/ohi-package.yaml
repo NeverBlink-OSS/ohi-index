@@ -1,0 +1,25 @@
+namespace: c4dm
+name: event
+version: "2007-10-25"
+language: owl
+syntax: turtle
+roots: [event.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["w3c/time@2016"]
+title: "The Event Ontology"
+authors:
+  - name: "Yves Raimond"
+publishers:
+  - name: "Yves Raimond"
+description: "This ontology deals with the notion of reified events - events seen as first-class objects."
+keywords: ["Events"]
+originalSources: ["http://motools.sourceforge.net/event/event.html"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/event/versions/2007-10-25.n3
+    name: event.ttl
+    sha256: "2ef0aca9c5f9cd9efd4efd44019d338b63dc71d132eb47204e2e4c4cea55e3e7"
+    size: 5863
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

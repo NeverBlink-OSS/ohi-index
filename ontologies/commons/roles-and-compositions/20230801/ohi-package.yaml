@@ -1,0 +1,26 @@
+namespace: commons
+name: roles-and-compositions
+version: "20230801"
+language: owl
+syntax: rdfxml
+roots: [RolesAndCompositions.rdf]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["commons/annotation-vocabulary@20250801", "commons/collections@20221101", "commons/contextual-designators@20250801", "commons/dates-and-times@20250801", "commons/designators@20250801"]
+title: "OMG Commons Roles and Compositions"
+authors:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+publishers:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+contributors:
+  - name: "Dean Allemang"
+  - name: "Elisa Kendall"
+description: "Roles, the participants that play them, and compositions of parts into wholes."
+keywords: ["OMG Commons", "roles", "composition"]
+originalSources: ["https://www.omg.org/spec/Commons"]
+sources:
+  - url: https://www.omg.org/spec/Commons/20250801/RolesAndCompositions.rdf
+    sha256: "81d40576c2afa3f1a9fabd0b08f67a31e1a82bead9467782d8450d7b331275fc"
+    size: 10625

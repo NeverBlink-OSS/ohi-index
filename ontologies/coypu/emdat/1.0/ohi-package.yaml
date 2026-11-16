@@ -1,0 +1,27 @@
+namespace: coypu
+name: emdat
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [emdat.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "EM-DAT Disaster Classification Ontology"
+authors:
+  - name: "CoyPu project"
+    link: "https://coypu.org/"
+publishers:
+  - name: "CoyPu project"
+    link: "https://coypu.org/"
+description: "Crisis and hazard related taxonomy developed by CRED for disaster preparedness and humanitarian actions at national and international level."
+keywords: ["coypu", "earth sciences", "life sciences, biology", "ontology"]
+originalSources: ["https://gitlab.com/coypu-project/coy-ontology", "https://schema.coypu.org/em-dat/1.0"]
+sources:
+  - url: https://gitlab.com/coypu-project/coy-ontology/-/raw/main/ontology/events/em-dat.ttl
+    name: emdat.ttl
+    sha256: "7ce38c63cdc4aa429fe54635c8935bf2510cde9ec9ec93b3031b7f922b0821a6"
+    size: 36913
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,26 @@
+namespace: tree
+name: tree
+version: "2022-09-06"
+language: rdfs
+syntax: turtle
+roots: [tree.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "TREE"
+authors:
+  - name: "Ruben Taelman"
+  - name: "Pieter Colpaert"
+publishers:
+  - name: "W3C TREE Hypermedia Community Group"
+    link: "https://www.w3.org/community/treecg/"
+description: "A hypermedia specification for fragmenting collections."
+keywords: ["Methods", "Support"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/tree/versions/2022-09-06.n3
+    name: tree.ttl
+    sha256: "767c2f4fd4754c754094ba0c9bc0898cad3e486ce7f49bcf861bf498410f6aed"
+    size: 9007
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

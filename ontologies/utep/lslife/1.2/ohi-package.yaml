@@ -1,0 +1,37 @@
+namespace: utep
+name: lslife
+version: "1.2"
+language: owl
+syntax: turtle
+roots: [lslife.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["utep/lsweb@1.2", "utep/edac@1.2", "utep/lswpm@1.2", "utep/lswmo@1.2"]
+title: "ELSEWeb Lifemapper Ontology"
+authors:
+  - name: "Natalia Villanueva-Rosales"
+  - name: "ELSEWeb Team"
+  - name: "Cyber-ShARE Center of Excellence"
+    link: "https://cybershare.utep.edu/"
+  - name: "Nicholas del Rio"
+publishers:
+  - name: "ELSEWeb Team"
+contributors:
+  - name: "Karl Benedict"
+  - name: "Luis Garnica"
+  - name: "Cj Grady"
+  - name: "Bill Hudspeth"
+  - name: "Deana Pennington"
+  - name: "Soren Scott"
+  - name: "Aimee Stewart"
+description: "The ELSEWeb Lifemapper ontology provides classes for describing biodiversity modelling services provided by Lifemapper."
+keywords: ["Services", "Support"]
+originalSources: ["http://elseweb.cybershare.utep.edu/ontologies"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/lslife/versions/2015-09-24.n3
+    name: lslife.ttl
+    sha256: "7fb4f366b8c80f21a77b2a51d8095b442481983185cca2986503c7d6b3f1c485"
+    size: 32568
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

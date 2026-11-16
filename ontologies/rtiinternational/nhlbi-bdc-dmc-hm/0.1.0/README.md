@@ -1,0 +1,30 @@
+BioData Catalyst Harmonized Model (bdchm), by RTIInternational. BioData Catalyst Harmonized Model. Schema id: https://w3id.org/nhlbidatastage/bdchm
+
+Depends on no other package.
+
+Package created (its files downloaded or sources' hashes created) on 2026-11-04.
+The schema file is from https://github.com/RTIInternational/NHLBI-BDC-DMC-HM/blob/v0.1.0/src/bdchm/schema/bdchm.yaml.
+The file at the release tag `v0.1.0`.
+The file is a remote source.
+
+Notes:
+
+- 48 classes, 6 slots, 35 enums; schema id https://w3id.org/nhlbidatastage/bdchm.
+- The version is the release tag.
+
+# Copyright
+
+Licensed under the MIT License: https://opensource.org/licenses/MIT (as stated in the schema itself).
+
+# Changes
+
+The changes below are in `nhlbi-bdc-dmc-hm.patch.yaml`, a JSON Patch applied to the file when the package is published.
+
+- `attributes` of 5 classes written as a map by name instead of a list of one-key maps.
+- Added the prefix `SNOMED` (`http://snomed.info/id/`, SNOMED CT's own namespace, as in the Bioregistry), used in 9 `meaning` values (`SNOMED:255604002` and others) but not declared. The namespace is picked by hand.
+
+Nothing else changed.
+
+# License file
+
+`LICENSE`: The LICENSE of the RTIInternational/NHLBI-BDC-DMC-HM repository, at the same tag as the schema, https://github.com/RTIInternational/NHLBI-BDC-DMC-HM/blob/v0.1.0/LICENSE. A source of the package, not kept in the folder.

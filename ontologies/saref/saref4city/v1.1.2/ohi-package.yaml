@@ -1,0 +1,27 @@
+namespace: saref
+name: saref4city
+version: "v1.1.2"
+language: owl
+syntax: turtle
+roots: [saref4city.ttl]
+licenses: ["BSD-3-Clause"]
+licenseFiles: [LICENSE]
+dependencies: ["saref/saref-core@v3.1.1"]
+title: "SAREF4CITY"
+authors:
+  - name: "Raúl García-Castro"
+  - name: "María Poveda-Villalón"
+  - name: "Paola Espinoza-Arias"
+publishers:
+  - name: "European Telecommunications Standards Institute"
+    link: "https://www.etsi.org/"
+description: "SAREF extension for smart cities: city objects, administrative areas and public services."
+keywords: ["smart cities", "IoT"]
+originalSources: ["https://saref.etsi.org/saref4city"]
+sources:
+  - url: https://saref.etsi.org/saref4city/v1.1.2/saref4city.ttl
+    sha256: "29fb388aab03b8315ba2a34fd376ecb7b674f81853377faf1dcd930e630e70e2"
+    size: 31109
+  - url: https://labs.etsi.org/rep/saref/saref4city/-/raw/6dbfbc0ce953def5bc826e9f9b67f2914e226b67/LICENSE
+    sha256: "cef08f53c72a0871b711a77a725182ea2b0aac57e394c5f6d81dd10a00e58024"
+    size: 1475

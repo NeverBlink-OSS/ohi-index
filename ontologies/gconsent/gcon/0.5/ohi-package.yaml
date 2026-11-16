@@ -1,0 +1,27 @@
+namespace: gconsent
+name: gcon
+version: "0.5"
+language: owl
+syntax: turtle
+roots: [gcon.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "GConsent - a consent ontology based on the GDPR"
+authors:
+  - name: "Harshvardhan J. Pandit"
+    link: "https://harshp.com/"
+publishers:
+  - name: "ADAPT Centre, Trinity College Dublin"
+    link: "https://www.adaptcentre.ie/"
+description: "GConsent provides concepts and relationships for defining consent and its associated information or metadata with a view towards GDPR compliance."
+keywords: ["People", "Society"]
+originalSources: ["http://openscience.adaptcentre.ie/ontologies/GConsent/docs/ontology"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/gcon/versions/2018-11-25.n3
+    name: gcon.ttl
+    sha256: "4617ac06bec215eb50f30a70b07d1e0b85b4611d9b483081ab53728b2f4c6bfc"
+    size: 43249
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

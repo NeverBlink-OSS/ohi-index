@@ -1,0 +1,23 @@
+namespace: w3c
+name: swrl
+version: "2004-05-21"
+language: owl
+syntax: rdfxml
+roots: [swrl.owl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Semantic Web Rule Language"
+authors:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "OWL definition of the RDF Concrete Syntax for the Semantic Web Rule Language."
+keywords: ["Vocabularies"]
+originalSources: ["https://www.w3.org/submissions/SWRL"]
+sources:
+  - url: https://www.w3.org/submissions/2004/SUBM-SWRL-20040521/swrl.owl
+    sha256: "2643f9c8cd3cfd2c2e99dbeaba8d213764d3bdc433c27f7e3c75f9c0780a0bb6"
+    size: 11049

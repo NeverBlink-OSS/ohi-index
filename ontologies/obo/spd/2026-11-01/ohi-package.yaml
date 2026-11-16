@@ -1,0 +1,29 @@
+namespace: obo
+name: spd
+version: "2026-11-01"
+language: owl
+syntax: rdfxml
+roots: [spider_comparative_biology.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Spider Ontology"
+authors:
+  - name: "American Museum of Natural History"
+    link: "https://www.amnh.org/"
+publishers:
+  - name: "American Museum of Natural History"
+    link: "https://www.amnh.org/"
+description: "An ontology for spider comparative biology including anatomical parts (e.g."
+keywords: ["anatomy and development", "OBO"]
+originalSources: ["https://github.com/obophenotype/spider-ontology", "http://research.amnh.org/atol/files"]
+publications:
+  - title: "The Spider Anatomy Ontology (SPD)—A Versatile Tool to Link Anatomy with Cross-Disciplinary Data"
+    link: "https://doi.org/10.3390/d11100202"
+sources:
+  - url: https://github.com/obophenotype/spider-ontology/blob/eaa41d39e042511b62e3eb04f73d3451fd246ac4/spider_comparative_biology.owl
+    sha256: "b00e7238362e93b28d3f4b6e212a18afd85cc521da57aab9dca0ce792e200df8"
+    size: 1094063
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

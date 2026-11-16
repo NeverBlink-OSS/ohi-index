@@ -1,0 +1,30 @@
+namespace: cim
+name: ncp-availability-schedule
+version: "2.4.0"
+language: rdfs
+syntax: rdfxml
+roots: [ncp-availability-schedule.rdf]
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE.txt]
+copyrightFiles: [NOTICE.txt]
+dependencies: []
+title: "Network Code Profile Availability schedule vocabulary"
+authors:
+  - name: "ENTSO-E CIM WG NC project"
+publishers:
+  - name: "European Network of Transmission System Operators for Electricity"
+    link: "https://www.entsoe.eu/"
+description: "This vocabulary is describing the availability schedule profile."
+keywords: ["CIM", "power grid", "ENTSO-E", "network codes"]
+originalSources: ["https://github.com/entsoe/application-profiles-library"]
+sources:
+  - url: https://github.com/entsoe/application-profiles-library/blob/ncp-2.5.0/NCP/RDFS/AvailabilitySchedule-AP-Voc-RDFS2020.rdf
+    name: ncp-availability-schedule.rdf
+    sha256: "1b4dc5153dc7668ff235752b17e64bec948e68bbefa4397a7aa814478d5a3ba1"
+    size: 167267
+  - url: https://github.com/entsoe/application-profiles-library/blob/ncp-2.5.0/LICENSE.txt
+    sha256: "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    size: 11358
+  - url: https://github.com/entsoe/application-profiles-library/blob/ncp-2.5.0/NOTICE.txt
+    sha256: "e4f771b3802cfe930e4d65c43df742761d88f8a880788da9e518715a806c5199"
+    size: 180

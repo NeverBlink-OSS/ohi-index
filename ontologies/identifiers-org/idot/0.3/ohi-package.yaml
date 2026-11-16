@@ -1,0 +1,27 @@
+namespace: identifiers-org
+name: idot
+version: "0.3"
+language: owl
+syntax: turtle
+roots: [idot.ttl]
+licenses: ["Unlicense"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Identifiers.org Terms"
+authors:
+  - name: "Identifiers.org"
+    link: "http://identifiers.org"
+publishers:
+  - name: "Identifiers.org"
+    link: "http://identifiers.org"
+description: "Identifiers.org Terms (idot) is an RDF vocabulary providing useful terms for describing datasets."
+keywords: ["ontology"]
+originalSources: ["https://github.com/identifiers-org/ontop"]
+sources:
+  - url: https://github.com/identifiers-org/ontop/blob/69bfa44584baff73e6455ab2121f90df3e1da7e0/idorg-ontology/idorg-ontology.ttl
+    name: idot.ttl
+    sha256: "36c730af45dbc16fd24bf2b0a3de1c310e597d660e02ebf1e7534702ecc68a51"
+    size: 10747
+  - url: https://github.com/identifiers-org/ontop/blob/69bfa44584baff73e6455ab2121f90df3e1da7e0/LICENSE
+    sha256: "6b0382b16279f26ff69014300541967a356a666eb0b91b422f6862f6b7dad17e"
+    size: 1211

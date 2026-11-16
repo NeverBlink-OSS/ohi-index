@@ -1,0 +1,38 @@
+namespace: obo
+name: envo
+version: "2016-01-22"
+language: owl
+syntax: rdfxml
+roots: [envo.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "Environment Ontology"
+authors:
+  - name: "Pier Luigi Buttigieg"
+    contact: "pier.buttigieg@awi.de"
+    link: "https://orcid.org/0000-0002-4366-3088"
+  - name: "Christopher J. Mungall"
+    link: "https://mungall.dev"
+  - name: "Suzanna Lewis"
+    link: "https://orcid.org/0000-0002-8343-612X"
+  - name: "Norman Morrison"
+    link: "https://orcid.org/0000-0003-1604-1512"
+publishers:
+  - name: "The Environment Ontology"
+    link: "http://www.environmentontology.org"
+description: "An ontology of environmental systems, components, and processes."
+keywords: ["environment", "OBO"]
+originalSources: ["https://github.com/EnvironmentOntology/envo", "http://environmentontology.org"]
+publications:
+  - title: "The environment ontology: contextualising biological and biomedical entities"
+    link: "https://doi.org/10.1186/2041-1480-4-43"
+  - title: "The environment ontology in 2016: bridging domains with increased scope, semantic density, and interoperation"
+    link: "https://doi.org/10.1186/s13326-016-0097-6"
+sources:
+  - url: https://github.com/EnvironmentOntology/envo/blob/v2016-01-22/envo.owl
+    sha256: "f2a2d57dfc73bf96b90e78a0269c4dfd4ecc95881a73ef8adb58414aaaba39e8"
+    size: 8524849
+  - url: https://github.com/EnvironmentOntology/envo/blob/v2016-01-22/LICENSE.txt
+    sha256: "89e32354de8a07cf2833f7ac02c69003c756824a13fa11d4ecfc65daf3405d83"
+    size: 19469

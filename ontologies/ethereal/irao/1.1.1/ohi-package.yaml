@@ -1,0 +1,30 @@
+namespace: ethereal
+name: irao
+version: "1.1.1"
+language: owl
+syntax: turtle
+roots: [irao.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Informatics Research Artifacts Ontology"
+authors:
+  - name: "Viet Bach Nguyen"
+publishers:
+  - name: "Prague University of Economics and Business"
+    link: "https://www.vse.cz/"
+  - name: "Department of Information and Knowledge Engineering, Prague University of Economics and Business"
+    link: "https://kizi.vse.cz/"
+contributors:
+  - name: "Vojtěch Svátek"
+    link: "https://nb.vse.cz/~svatek/"
+description: "Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."
+keywords: ["API", "Catalogs"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/irao/versions/2021-05-27.n3
+    name: irao.ttl
+    sha256: "c6a2c6c074249cf39c66f60e98c3950fb734f30a30697ca9769fb21ead9af9c2"
+    size: 32463
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

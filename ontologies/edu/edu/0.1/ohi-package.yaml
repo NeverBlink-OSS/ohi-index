@@ -1,0 +1,24 @@
+namespace: edu
+name: edu
+version: "0.1"
+language: owl
+syntax: turtle
+roots: [edu.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["schemaorg/schemaorg@30.1"]
+title: "Education Ontology"
+authors:
+  - name: "Peep Küngas"
+publishers:
+  - name: "Peep Küngas"
+description: "The ontology describes the main concepts in the field of education and the connections between them."
+keywords: ["Academy"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/edu/versions/2020-02-14.n3
+    name: edu.ttl
+    sha256: "46fd71ba21c84ee1f32fc898725571cf864a5915c44ffd2ed0f11296280150d7"
+    size: 25974
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

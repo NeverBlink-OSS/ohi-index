@@ -1,0 +1,36 @@
+namespace: obo
+name: swo
+version: "2022-10-11"
+language: owl
+syntax: rdfxml
+roots: [swo.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Software ontology"
+authors:
+  - name: "Allyson Lister"
+    link: "https://orcid.org/0000-0002-7702-4495"
+  - name: "Andy Brown"
+  - name: "Duncan Hull"
+  - name: "Helen Parkinson"
+  - name: "James Malone"
+  - name: "Jon Ison"
+  - name: "Nandini Badarinarayan"
+  - name: "Robert Stevens"
+publishers:
+  - name: "Allyson Lister"
+    link: "https://orcid.org/0000-0002-7702-4495"
+description: "The Software Ontology (SWO) is a resource for describing software tools, their types, tasks, versions, provenance and associated data."
+keywords: ["information technology", "software", "OBO"]
+originalSources: ["https://github.com/allysonlister/swo"]
+publications:
+  - title: "The Software Ontology (SWO): a resource for reproducibility in biomedical data analysis, curation and digital preservation"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/25068035"
+sources:
+  - url: https://github.com/allysonlister/swo/blob/v2022-10-11/swo.owl
+    sha256: "b8165b6ed17c6f4d1b7548f22fd086e7fb488115a50a7fa300d4d33781a97633"
+    size: 3093700
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

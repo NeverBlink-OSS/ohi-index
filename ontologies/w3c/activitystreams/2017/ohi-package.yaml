@@ -1,0 +1,24 @@
+namespace: w3c
+name: activitystreams
+version: "2017"
+language: owl
+syntax: turtle
+roots: [activitystreams-owl.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: ["w3c/prov@2013"]
+title: "Activity Streams 2.0"
+authors:
+  - name: "James M Snell"
+  - name: "Evan Prodromou"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "W3C vocabulary for activities, actors and objects in social web applications."
+keywords: ["social web", "activities"]
+originalSources: ["https://www.w3.org/TR/activitystreams-vocabulary"]
+sources:
+  - url: https://www.w3.org/ns/activitystreams-owl
+    name: activitystreams-owl.ttl
+    sha256: "e28fd3be62791b42422f2e97c0ab56141238e774be7aa860e5f03da1b2fe158f"
+    size: 26383

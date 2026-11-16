@@ -1,0 +1,61 @@
+namespace: materialdigital
+name: pmdco
+version: "3.1.0"
+language: owl
+syntax: rdfxml
+roots: [pmdco.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Platform Material Digital Core Ontology"
+authors:
+  - name: "Martin Glauer"
+    link: "https://orcid.org/0000-0001-6772-1943"
+  - name: "Jörg Waitelonis"
+    link: "https://orcid.org/0000-0001-7192-7143"
+  - name: "Fabian Neuhaus"
+    link: "https://orcid.org/0000-0002-1058-3102"
+  - name: "Hossein Beygi Nasrabadi"
+    link: "https://orcid.org/0000-0002-3092-0532"
+  - name: "Bernd Bayerlein"
+    link: "https://orcid.org/0000-0002-3717-7104"
+  - name: "Markus Schilling"
+    link: "https://orcid.org/0000-0002-7094-5371"
+  - name: "Lars Vogt"
+    link: "https://orcid.org/0000-0002-8280-0487"
+  - name: "Henk Birkholz"
+    link: "https://orcid.org/0000-0002-9014-2920"
+  - name: "Simon P. Stier"
+    link: "https://orcid.org/0000-0003-0410-3616"
+  - name: "Thomas Hanke"
+    link: "https://orcid.org/0000-0003-1649-6832"
+  - name: "Konstantin Gubaev"
+    link: "https://orcid.org/0000-0003-2612-8515"
+  - name: "Philipp von Hartrott"
+    link: "https://orcid.org/0000-0003-4971-3645"
+  - name: "Felix Thonagel"
+  - name: "Jannis Grundmann"
+  - name: "Kamilla Zaripova"
+    link: "https://orcid.org/0009-0003-1503-4422"
+  - name: "Khashayar Razghandi"
+    link: "https://orcid.org/0000-0003-3419-4870"
+  - name: "Alsayed Algergawy"
+    link: "https://orcid.org/0000-0002-8550-4720"
+  - name: "Divya Gosula"
+  - name: "Gunjan Singh"
+  - name: "Sai Teja Potu"
+  - name: "Yamel Lima Baquero"
+  - name: "Yuan Zheng"
+publishers:
+  - name: "MaterialDigital"
+    link: "https://material-digital.de"
+description: "The PMD Core Ontology (PMDco) is a comprehensive framework for representing knowledge that encompasses fundamental concepts from the domains of materials science and engineering (MSE)."
+keywords: ["chemical and environmental engineering", "material science", "mechanical engineering, energy technology", "nfdi-matwerk", "nfdi4ing", "ontology"]
+originalSources: ["https://github.com/materialdigital/core-ontology", "https://materialdigital.github.io/core-ontology"]
+publications:
+  - title: "Semantic Modeling in Materials Science and Engineering With Platform MaterialDigital Core Ontology 3.0"
+    link: "https://doi.org/10.1002/adem.71106"
+sources:
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

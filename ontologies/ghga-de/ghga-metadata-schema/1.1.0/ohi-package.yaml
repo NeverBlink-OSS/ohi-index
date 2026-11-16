@@ -1,0 +1,27 @@
+namespace: ghga-de
+name: ghga-metadata-schema
+version: "1.1.0"
+language: linkml
+syntax: yaml
+roots: [ghga-metadata-schema.yaml]
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "ghga-metadata-schema"
+authors:
+  - name: "GHGA - The German Human Genome-Phenome Archive"
+    link: "https://ghga.de"
+publishers:
+  - name: "GHGA - The German Human Genome-Phenome Archive"
+    link: "https://ghga.de"
+description: "Metadata schema for the German Human Genome-Phenome Archive (GHGA)."
+keywords: ["fega", "ghga", "linkml", "metadata-schema", "Computer Science"]
+originalSources: ["https://github.com/ghga-de/ghga-metadata-schema"]
+sources:
+  - url: https://github.com/ghga-de/ghga-metadata-schema/blob/1.1.0/src/schema/submission.yaml
+    name: ghga-metadata-schema.yaml
+    sha256: "1f94f5ce19be64845edabc3b8b162b03c827d1d29884b66b8f649daf8f7726c7"
+    size: 58015
+  - url: https://github.com/ghga-de/ghga-metadata-schema/blob/1.1.0/LICENSE
+    sha256: "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    size: 11357

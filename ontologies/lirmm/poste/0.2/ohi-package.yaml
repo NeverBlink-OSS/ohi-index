@@ -1,0 +1,34 @@
+namespace: lirmm
+name: poste
+version: "0.2"
+language: owl
+syntax: turtle
+roots: [poste.ttl]
+licenses: ["CC-BY-SA-3.0", "PDDL-1.0"]
+licenseFiles: [legalcode.txt, pddl-10.txt]
+dependencies: []
+title: "\"La Poste\" Ontology"
+authors:
+  - name: "Ghislain Auguste Atemezing"
+    contact: "auguste.atemezing@eurecom.fr"
+    link: "http://www.eurecom.fr/~atemezin"
+  - name: "Raphaël Troncy"
+    contact: "raphael.troncy@eurecom.fr"
+    link: "http://data.semanticweb.org/person/raphael-troncy"
+publishers:
+  - name: "EURECOM"
+    link: "http://data.semanticweb.org/organization/eurecom"
+description: "This vocabulary describes the contact points of the postal agencies network in France."
+keywords: ["Society"]
+originalSources: ["http://data.lirmm.fr/ontologies/poste.html"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/poste/versions/2014-03-12.n3
+    name: poste.ttl
+    sha256: "09fc57298b5e8b6574fc7882ba24de23f79e46cb149b2f4a274fda955d1cd617"
+    size: 5683
+  - url: https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt
+    sha256: "3f941b3b89cf7b8370ceb83cc76d2120d471b58735d8ca60238a751a48d7f72f"
+    size: 22240
+  - url: https://opendatacommons.org/licenses/pddl/pddl-10.txt
+    sha256: "40e19160034659380a29a43311c560b0b24dd529b96399f954fb7fbe2f98d33a"
+    size: 15802

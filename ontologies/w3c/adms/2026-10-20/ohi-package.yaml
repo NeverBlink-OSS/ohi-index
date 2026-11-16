@@ -1,0 +1,25 @@
+namespace: w3c
+name: adms
+version: "2026-10-20"
+language: owl
+syntax: turtle
+roots: [adms.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Asset Description Metadata Schema (ADMS)"
+authors:
+  - name: "Pavlina Fragkou"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "Vocabulary for describing interoperability assets, such as standards, vocabularies and code lists."
+keywords: ["metadata", "assets", "interoperability"]
+originalSources: ["https://www.w3.org/TR/vocab-adms"]
+sources:
+  - url: https://uri.semic.eu/w3c/ns/adms.ttl
+    sha256: "c79e727528515e5280fb83113eb6d72d448dd00a1143239ddf244c7b1833bd89"
+    size: 12687
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

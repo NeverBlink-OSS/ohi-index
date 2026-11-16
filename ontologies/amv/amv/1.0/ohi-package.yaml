@@ -1,0 +1,28 @@
+namespace: amv
+name: amv
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [amv.ttl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "AMV:Algorithm Metadata Vocabulary"
+authors:
+  - name: "Biswanath Dutta"
+    link: "https://sites.google.com/view/bdutta"
+  - name: "Jyotima Patel"
+    link: "https://www.linkedin.com/in/jyotima-patel-61220411b"
+publishers:
+  - name: "Indian Statistical Institute"
+    link: "https://www.isibang.ac.in/"
+description: "Metadata vocabularies are used in various domains of study."
+keywords: ["Metadata"]
+sources:
+  - url: https://www.isibang.ac.in/ns/amv/ontology.ttl
+    name: amv.ttl
+    sha256: "df4c2949e09a1f295f4bd9d91ec6bcd19bcbddc30acba3b6d7f92947ea2f625d"
+    size: 137960
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

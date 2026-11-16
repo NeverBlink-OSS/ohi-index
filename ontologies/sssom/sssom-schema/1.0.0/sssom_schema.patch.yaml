@@ -1,0 +1,41 @@
+# JSON Patch (RFC 6902) the hub applies to sssom_schema.yaml before publishing it.
+# README.md says what each change is for.
+- op: add
+  path: /prefixes/owl
+  value: http://www.w3.org/2002/07/owl#
+- op: replace
+  path: /enums/predicate_modifier_enum/permissible_values/Not
+  value:
+    description: Negating the mapping predicate. The meaning of the triple becomes subject_id is not a predicate_id match to object_id.
+- op: replace
+  path: /enums/mapping_cardinality_enum/permissible_values/1:1
+  value:
+    description: One-to-one mapping
+- op: replace
+  path: /enums/mapping_cardinality_enum/permissible_values/1:n
+  value:
+    description: One-to-many mapping
+- op: replace
+  path: /enums/mapping_cardinality_enum/permissible_values/n:1
+  value:
+    description: Many-to-one mapping
+- op: replace
+  path: /enums/mapping_cardinality_enum/permissible_values/1:0
+  value:
+    description: One-to-none mapping
+- op: replace
+  path: /enums/mapping_cardinality_enum/permissible_values/0:1
+  value:
+    description: None-to-one mapping
+- op: replace
+  path: /enums/mapping_cardinality_enum/permissible_values/n:n
+  value:
+    description: Many-to-many mapping
+- op: replace
+  path: /classes/mapping/rules/1/preconditions/slot_conditions/subject_type/none_of
+  value:
+  - equals_string: rdfs literal
+- op: replace
+  path: /classes/mapping/rules/3/preconditions/slot_conditions/object_type/none_of
+  value:
+  - equals_string: rdfs literal

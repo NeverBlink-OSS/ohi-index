@@ -1,0 +1,36 @@
+namespace: tsn
+name: tsn
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [tsn.ttl]
+licenses: ["CC-BY-4.0", "etalab-2.0"]
+licenseFiles: [legalcode.txt, LICENSE]
+dependencies: []
+title: "Territorial Statistical Nomenclature Ontology"
+authors:
+  - name: "Hy Dao"
+    link: "https://unige.ch/gedt/membres/dao/"
+  - name: "Marlène Villanova-Oliver"
+    link: "http://lig-membres.imag.fr/villanov/"
+  - name: "Camille Bernard"
+    link: "http://lig-membres.imag.fr/bernardc/"
+  - name: "Jérôme Gensel"
+    link: "http://lig-membres.imag.fr/gensel/"
+publishers:
+  - name: "STeamer team, Laboratoire d'Informatique de Grenoble"
+    link: "http://steamer.imag.fr"
+description: "This RDF ontology allows describing any Territorial Statistical Nomenclature (TSN) (i.e., partition of the territory) used as a support to socio-economic data (statistical data that describe territory in terms of population, unemployement rate, transport access, etc.)."
+keywords: ["Geography", "Geometry", "Government"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/tsn/versions/2017-01-31.n3
+    name: tsn.ttl
+    sha256: "7cb4dfad6fa1900ae264393d3405f0ff2fee1931c9c1a96ea42ab013a1c5a783"
+    size: 24938
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657
+  - url: https://raw.githubusercontent.com/spdx/license-list-data/v3.29.0/text/etalab-2.0.txt
+    name: LICENSE
+    sha256: "f82596bde5c4abc62b4e63b1a3ba555f6b9203a340765fb178d188958600d111"
+    size: 8198

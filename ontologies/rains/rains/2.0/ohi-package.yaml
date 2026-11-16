@@ -1,0 +1,29 @@
+namespace: rains
+name: rains
+version: "2.0"
+language: owl
+syntax: turtle
+roots: [rains.ttl]
+licenses: ["CC-BY-NC-SA-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The RAInS Ontology"
+authors:
+  - name: "Peter Edwards"
+    link: "https://www.abdn.ac.uk/ncs/profiles/p.edwards"
+  - name: "Milan Markovic"
+    link: "https://www.abdn.ac.uk/ncs/profiles/milan.markovic/"
+  - name: "Iman Naja"
+publishers:
+  - name: "University of Aberdeen"
+    link: "https://www.abdn.ac.uk/"
+description: "An ontology to model accountability of AI systems which use machine learning."
+keywords: ["API", "Methods"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/rains/versions/2022-05-09.n3
+    name: rains.ttl
+    sha256: "a0b57b5d15f83cefabd8aed179f28ffafd2961b60385ca8dd7b3f2674e43b5f6"
+    size: 93296
+  - url: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.txt
+    sha256: "e66c269d4819aaab34b49ef5220c4ddab6756f21bb5180761a4eb8561f2b7bbd"
+    size: 20850

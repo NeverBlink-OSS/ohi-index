@@ -1,0 +1,27 @@
+namespace: worldavatar
+name: dsv
+version: "1.0"
+language: owl
+syntax: rdfxml
+roots: [dsv.owl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "WorldAvatar delimiter-separated values ontology"
+authors:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+publishers:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+description: "OntoDSV is an ontology used to describe the contents of a DSV file."
+keywords: ["ontology", "worldavatar"]
+originalSources: ["https://github.com/TheWorldAvatar/ontology", "https://theworldavatar.io"]
+sources:
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/ontology/ontodsv/OntoDSV.owl
+    name: dsv.owl
+    sha256: "c9d50769089fa97283ce2b78f2787ec662535a466cad3d715ed7a7a23fbcc37a"
+    size: 12243
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/LICENSE.txt
+    sha256: "8c29b2cb4c712a0d382d1951ffc7e2a155ec7095c7e92a896f5919eb02c31ea9"
+    size: 1309

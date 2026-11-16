@@ -1,0 +1,27 @@
+namespace: obo
+name: ecto
+version: "2026-07-28"
+language: owl
+syntax: rdfxml
+roots: [ecto.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Environmental conditions, treatments and exposures ontology"
+authors:
+  - name: "Anne Thessen"
+    contact: "annethessen@gmail.com"
+    link: "https://orcid.org/0000-0002-2908-3327"
+publishers:
+  - name: "The Environment Ontology"
+    link: "http://www.environmentontology.org"
+description: "ECTO describes exposures to experimental treatments of plants and model organisms (e.g."
+keywords: ["environment", "OBO"]
+originalSources: ["https://github.com/EnvironmentOntology/environmental-exposure-ontology"]
+sources:
+  - url: https://github.com/EnvironmentOntology/environmental-exposure-ontology/blob/dfb9e555f6e723aa0d675361db0e96b29d18aa0f/ecto.owl
+    sha256: "c637876e3c15494ee260e05b73cea38f0b152eee5aff1c10ad6e2574d74bc5c3"
+    size: 28320857
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

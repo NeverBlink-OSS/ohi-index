@@ -1,0 +1,315 @@
+# JSON Patch (RFC 6902) the hub applies to opencloning-linkml.yaml before publishing it.
+# README.md says what each change is for.
+- op: replace
+  path: /classes/TextFileSequence/attributes
+  value:
+    file_content:
+      range: string
+- op: replace
+  path: /classes/ManuallyTypedSequence/attributes
+  value:
+    sequence:
+      range: string
+      pattern: ^[acgtACGT]+$
+      description: The sequence of the manually typed sequence
+      required: true
+    circular:
+      range: boolean
+      description: Whether the sequence is circular or linear
+      required: false
+      ifabsent: boolean(false)
+- op: replace
+  path: /classes/Primer/attributes
+  value:
+    sequence:
+      range: string
+      pattern: ^[acgtACGT]+$
+- op: replace
+  path: /classes/SourceInput/attributes
+  value:
+    sequence:
+      range: Sequence
+      description: The input sequence
+      required: true
+- op: replace
+  path: /classes/SequenceCut/attributes
+  value:
+    cut_watson:
+      range: integer
+      description: The position of the cut in the watson strand. The cut is made before the base at this position (zero-based), so that cut position 1 cuts after the first base.
+      required: true
+    overhang:
+      range: integer
+      description: The length of the overhang that is left after the cut. It can be negative, same meaning as in pydna's `dseq::ovhg` and biopython's `Bio.Restriction.RestrictionType.ovhg`.
+      required: true
+- op: replace
+  path: /classes/Source/attributes
+  value:
+    input:
+      range: SourceInput
+      slot_uri: schema:object
+      description: The inputs to this source. If the source represents external import of a sequence, it's empty.
+      required: false
+      multivalued: true
+      inlined_as_list: true
+- op: replace
+  path: /classes/CollectionSource/attributes
+  value:
+    category_id:
+      range: string
+      description: The identifier of the category of the part in the template
+      required: false
+    title:
+      range: string
+      description: The title of the category
+      required: true
+    description:
+      range: string
+      description: A description of the category
+      required: false
+    image:
+      range: string
+      description: 'URL and size of the image representing this category. For images with size specification, this is a list with two elements: [url, size].'
+      multivalued: true
+      required: false
+    options:
+      range: CollectionOption
+      description: The options available in this category.
+      required: false
+      multivalued: true
+      inlined_as_list: true
+- op: replace
+  path: /classes/CollectionOption/attributes
+  value:
+    source:
+      range: Source
+      description: The source of the sequence for this option
+      required: true
+      inlined: true
+    info:
+      range: CollectionOptionInfo
+      description: Additional information about this option
+      required: false
+      inlined: true
+- op: replace
+  path: /classes/CollectionOptionInfo/attributes
+  value:
+    description:
+      range: string
+      description: A description of the option
+      required: false
+    type:
+      range: CollectionOptionType
+      description: The type of the option, this is redundant with the type of the source, and could be removed.
+      required: false
+    resistance:
+      range: string
+      description: The antibiotic resistance of the plasmid
+      required: false
+    well:
+      range: string
+      description: The well position in the kit plate
+      required: false
+- op: replace
+  path: /classes/UploadedFileSource/attributes
+  value:
+    file_name:
+      range: string
+      description: The name of the file
+    index_in_file:
+      range: integer
+      description: The index of the sequence in the file
+    circularize:
+      range: boolean
+      description: Whether the sequence should be circularized (FASTA only)
+    coordinates:
+      range: sequence_range
+      description: If provided, coordinates within the sequence of the file to extract a subsequence
+      required: false
+- op: replace
+  path: /classes/AddgeneIdSource/attributes
+  value:
+    addgene_sequence_type:
+      range: AddgeneSequenceType
+- op: replace
+  path: /classes/NCBISequenceSource/attributes
+  value:
+    coordinates:
+      range: simple_sequence_location
+      description: If provided, represents the location of a subsequence within the sequence identified by the sequence accession.
+      required: false
+- op: replace
+  path: /classes/GenomeCoordinatesSource/attributes
+  value:
+    assembly_accession:
+      range: string
+      description: The accession of the assembly
+      required: false
+    locus_tag:
+      range: string
+      description: The locus tag of the sequence
+      required: false
+    gene_id:
+      range: integer
+      description: The gene id of the sequence
+      required: false
+- op: replace
+  path: /classes/SequenceCutSource/attributes
+  value:
+    left_edge:
+      range: SequenceCut
+      required: false
+      inlined: true
+    right_edge:
+      range: SequenceCut
+      required: false
+      inlined: true
+- op: replace
+  path: /classes/RestrictionEnzymeDigestionSource/attributes
+  value:
+    left_edge:
+      range: RestrictionSequenceCut
+      required: false
+      inlined: true
+    right_edge:
+      range: RestrictionSequenceCut
+      required: false
+      inlined: true
+- op: replace
+  path: /classes/AssemblyFragment/attributes
+  value:
+    left_location:
+      range: sequence_range
+    right_location:
+      range: sequence_range
+    reverse_complemented:
+      range: boolean
+      description: Whether the sequence is reverse complemented in the assembly
+      required: true
+- op: replace
+  path: /classes/AssemblySource/attributes
+  value:
+    circular:
+      range: boolean
+      description: Whether the assembly is circular or not
+- op: replace
+  path: /classes/PCRSource/attributes
+  value:
+    add_primer_features:
+      range: boolean
+      description: Whether to add primer features to the PCR product
+      ifabsent: boolean(false)
+- op: replace
+  path: /classes/GatewaySource/attributes
+  value:
+    reaction_type:
+      range: GatewayReactionType
+      required: true
+    greedy:
+      range: boolean
+      description: Whether to use a greedy consensus sequence for att sites (see https://github.com/manulera/GateWayMine)
+      ifabsent: boolean(false)
+- op: replace
+  path: /classes/Recombinase/attributes
+  value:
+    site1:
+      range: string
+      pattern: ^[A-Z]+[a-z]+[A-Z]+$
+      required: true
+    site2:
+      range: string
+      pattern: ^[A-Z]+[a-z]+[A-Z]+$
+      required: true
+    site1_name:
+      range: string
+      ifabsent: string("site1")
+    site2_name:
+      range: string
+      ifabsent: string("site2")
+- op: replace
+  path: /classes/RecombinaseSource/attributes
+  value:
+    recombinases:
+      range: Recombinase
+      required: true
+      multivalued: true
+      inlined_as_list: true
+- op: replace
+  path: /classes/CloningStrategy/attributes
+  value:
+    sequences:
+      range: Sequence
+      description: The sequences that are used in the cloning strategy
+      required: true
+      multivalued: true
+      inlined_as_list: true
+    sources:
+      range: Source
+      description: The sources of the sequences that are used in the cloning strategy
+      required: true
+      multivalued: true
+      inlined_as_list: true
+    primers:
+      range: Primer
+      description: The primers that are used in the cloning strategy
+      required: false
+      multivalued: true
+      inlined_as_list: true
+    description:
+      range: string
+      description: A description of the cloning strategy
+      required: false
+    files:
+      range: AssociatedFile
+      description: Files associated with this cloning strategy
+      required: false
+      multivalued: true
+      inlined_as_list: true
+    schema_version:
+      range: version_number
+      description: The version of the schema that was used to generate this cloning strategy
+      required: false
+    backend_version:
+      range: version_number
+      description: The version of the backend that was used to generate this cloning strategy
+      required: false
+    frontend_version:
+      range: version_number
+      description: The version of the frontend that was used to generate this cloning strategy
+      required: false
+- op: replace
+  path: /classes/AnnotationSource/attributes
+  value:
+    annotation_tool:
+      range: AnnotationTool
+      required: true
+    annotation_tool_version:
+      range: string
+      description: The version of the annotation tool
+    annotation_report:
+      range: AnnotationReport
+      inlined_as_list: true
+      multivalued: true
+- op: replace
+  path: /classes/AssociatedFile/attributes
+  value:
+    sequence_id:
+      range: Sequence
+      description: The sequence this file is associated with
+      required: true
+    file_name:
+      range: string
+      description: The name of the file
+      required: true
+    file_type:
+      range: AssociatedFileType
+      description: The type of file
+      required: true
+- op: replace
+  path: /classes/SequencingFile/attributes
+  value:
+    alignment:
+      range: string
+      description: The alignment of the sequencing read to the sequence. List of strings representing aligned sequences.
+      required: true
+      multivalued: true

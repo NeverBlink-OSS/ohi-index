@@ -1,0 +1,37 @@
+namespace: spar
+name: po
+version: "1.4.3"
+language: owl
+syntax: rdfxml
+roots: [po.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE.md]
+dependencies: []
+title: "SPAR Pattern Ontology"
+authors:
+  - name: "Fabio Vitali"
+    link: "https://orcid.org/0000-0002-7562-5203"
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+  - name: "Angelo Di Iorio"
+    link: "https://orcid.org/0000-0002-6893-7452"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+contributors:
+  - name: "Sebastian Barzaghi"
+    link: "https://orcid.org/0000-0002-0799-1527"
+description: "Ontology of structural patterns in documents, such as blocks, inlines and containers."
+keywords: ["documents", "markup", "structure"]
+originalSources: ["https://github.com/SPAROntologies/po"]
+publications:
+  - title: "Di Iorio, A., Peroni, S., Poggi, F., Vitali, F. (2012). Aﬁrst approach to the automatic recognition ofstructural patterns in XML documents. In Proceedingsof the 2012 ACM symposium on Document Engineering(DocEng 2012): 85-94. DOI: 10.1145/2361354.2361374"
+    link: "https://doi.org/10.1145/2361354.2361374"
+sources:
+  - url: https://sparontologies.github.io/po/2026-09-21/po.xml
+    name: po.rdf
+    sha256: "62a01fd27214d6243134f9ef2fac08d3a24fffecf524b8b50945a61b9956e905"
+    size: 109366
+  - url: https://github.com/SPAROntologies/po/blob/df3032695af932c2feeca65a6ef0a69e978e7204/LICENSE.md
+    sha256: "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    size: 18656

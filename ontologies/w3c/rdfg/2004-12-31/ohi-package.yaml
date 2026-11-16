@@ -1,0 +1,24 @@
+namespace: w3c
+name: rdfg
+version: "2004-12-31"
+language: rdfs
+syntax: turtle
+roots: [rdfg.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Graph"
+authors:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "Properties allowing statement of intensional equivalence between RDF graphs."
+keywords: ["RDF"]
+originalSources: ["http://www.w3.org/2004/03/trix"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/rdfg/versions/2004-12-31.n3
+    name: rdfg.ttl
+    sha256: "246bb495a46c6fed26ba9c0ed6f73f0f67e460efb47a769cb415d0f68adee004"
+    size: 874

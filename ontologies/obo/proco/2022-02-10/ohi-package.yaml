@@ -1,0 +1,28 @@
+namespace: obo
+name: proco
+version: "2022-02-10"
+language: owl
+syntax: rdfxml
+roots: [proco.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Process Chemistry Ontology"
+authors:
+  - name: "Anna Dunn"
+  - name: "Wes A. Schafer"
+  - name: "Yongqun He"
+  - name: "Zachary Dance"
+publishers:
+  - name: "Process Chemistry Ontology"
+    link: "https://github.com/proco-ontology"
+description: "PROCO covers process chemistry, the chemical field concerned with scaling up laboratory syntheses to commercially viable processes."
+keywords: ["chemistry and biochemistry", "OBO"]
+originalSources: ["https://github.com/proco-ontology/proco"]
+sources:
+  - url: https://github.com/proco-ontology/proco/blob/v2022-02-10/proco.owl
+    sha256: "7c850721e8d239d675fb51f90379d5a30c4a3734c64422dc093acd6923b60f4b"
+    size: 1418378
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,26 @@
+namespace: airs
+name: airs
+version: "0.0.11"
+language: owl
+syntax: turtle
+roots: [airs.ttl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Alliance of Information and Referral Services (AIRS) Vocabulary"
+authors:
+  - name: "Eric Jahn"
+publishers:
+  - name: "AIRS Linked Data"
+    link: "https://github.com/airs-linked-data"
+description: "The AIRS Linked Open Vocabulary is a way to describe human services information and referral (I&R) concepts."
+keywords: ["Services"]
+originalSources: ["https://github.com/airsalliance/lov"]
+sources:
+  - url: https://raw.githubusercontent.com/airs-linked-data/lov/latest/src/airs_vocabulary.ttl
+    name: airs.ttl
+    sha256: "16d311ea65e41f5f74be28b7cc044563ee2855e7bad1e148fbc7004957dd0b68"
+    size: 59201
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

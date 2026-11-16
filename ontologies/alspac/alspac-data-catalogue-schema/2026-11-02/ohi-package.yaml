@@ -1,0 +1,27 @@
+namespace: alspac
+name: alspac-data-catalogue-schema
+version: "2026-11-02"
+language: linkml
+syntax: yaml
+roots: [alspac-data-catalogue-schema.yaml]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "alspac-data-catalogue-schema"
+authors:
+  - name: "Sam Neaves"
+    contact: "s.neaves@bristol.ac.uk"
+publishers:
+  - name: "Avon Longitudinal Study of Parents and Children (ALSPAC)"
+    link: "https://www.bristol.ac.uk/alspac/"
+description: "This repo is for the schema of alspac data catalogues and meta data for alspac data sets."
+keywords: ["Schema"]
+originalSources: ["https://github.com/alspac/alspac-data-catalogue-schema"]
+sources:
+  - url: https://github.com/alspac/alspac-data-catalogue-schema/blob/f05e67d9fa9331d02d10a847256a5f0a8eafa780/src/alspac_data_catalogue_schema/schema/alspac_data_catalogue_schema.yaml
+    name: alspac-data-catalogue-schema.yaml
+    sha256: "91237ea9747320c9996e778d23cd68330bee0c0e5dae6693afc3ec352c037373"
+    size: 15655
+  - url: https://github.com/alspac/alspac-data-catalogue-schema/blob/f05e67d9fa9331d02d10a847256a5f0a8eafa780/LICENSE
+    sha256: "55b51a241c7e94429656c491c7eb216a2169d4d1cc6f0509a5e4a8bb904f2105"
+    size: 1078

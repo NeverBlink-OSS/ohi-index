@@ -1,0 +1,27 @@
+namespace: commons
+name: dates-and-times
+version: "20221101"
+language: owl
+syntax: rdfxml
+roots: [DatesAndTimes.rdf]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["commons/annotation-vocabulary@20250801"]
+title: "OMG Commons Dates and Times"
+authors:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+publishers:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+contributors:
+  - name: "Elisa Kendall"
+  - name: "Mark Linehan"
+  - name: "Pete Rivett"
+description: "Dates, times, durations and recurring time intervals, as used in business."
+keywords: ["OMG Commons", "dates", "time"]
+originalSources: ["https://www.omg.org/spec/Commons"]
+sources:
+  - url: https://www.omg.org/spec/Commons/20221101/DatesAndTimes.rdf
+    sha256: "442eff489c8b6e23b43d09c26bedc57ad85b4936ef67f4382ec9bf55e0f4b342"
+    size: 23578

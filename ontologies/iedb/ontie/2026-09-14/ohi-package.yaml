@@ -1,0 +1,26 @@
+namespace: iedb
+name: ontie
+version: "2026-09-14"
+language: owl
+syntax: rdfxml
+roots: [ontie.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Ontology for Immune Epitopes"
+authors:
+  - name: "Immune Epitope Database and Analysis Resource"
+    link: "https://www.iedb.org"
+publishers:
+  - name: "Immune Epitope Database and Analysis Resource"
+    link: "https://www.iedb.org"
+description: "The Ontology of Immune Epitopes (ONTIE) is an effort to represent terms in the immunology domain in a formal ontology with the specific goal of representing experiments that identify and characterize immune epitopes."
+keywords: ["immunology", "infection process", "life science", "major histocompatibility complex", "ontology"]
+originalSources: ["https://github.com/IEDB/ONTIE", "https://ontology.iedb.org"]
+sources:
+  - url: https://github.com/IEDB/ONTIE/blob/0eabe13876af679f814eaacbcf3c5e5c387c4eb2/ontie.owl
+    sha256: "d481428d494637844926fdd8856e183b5e3fc8ef8b6ca920f519856db729bb7b"
+    size: 3596142
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

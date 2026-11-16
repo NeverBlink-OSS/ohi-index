@@ -1,0 +1,26 @@
+namespace: lobid
+name: lv
+version: "2013-09-25"
+language: owl
+syntax: turtle
+roots: [lv.ttl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "lobid vocab"
+authors:
+  - name: "Adrian Pohl"
+publishers:
+  - name: "North Rhine-Westphalian Library Service Center (hbz)"
+    link: "https://www.hbz-nrw.de/"
+description: "Under this name space new properties and classes needed for the lobid.org service are defined ."
+keywords: ["Catalogs"]
+originalSources: ["https://github.com/hbz/lobid-vocabs"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/lv/versions/2013-09-25.n3
+    name: lv.ttl
+    sha256: "e9dce7e8f5307e1d125d9f3f7ae05de724cb97da35827a26d1d6597f7cafcf37"
+    size: 5782
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

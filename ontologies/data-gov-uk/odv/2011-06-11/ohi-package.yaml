@@ -1,0 +1,26 @@
+namespace: data-gov-uk
+name: odv
+version: "2011-06-11"
+language: owl
+syntax: turtle
+roots: [odv.ttl]
+licenses: ["PDDL-1.0"]
+licenseFiles: [pddl-10.txt]
+dependencies: []
+title: "Organogram Data Vocabulary"
+authors:
+  - name: "Jeni Tennison"
+    contact: "jeni@jenitennison.com"
+publishers:
+  - name: "Jeni Tennison"
+    contact: "jeni@jenitennison.com"
+description: "Extension of data cube for civil service junior posts."
+keywords: ["Methods"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/odv/versions/2011-06-11.n3
+    name: odv.ttl
+    sha256: "60c253eed0f1e40166f510d52d3529610949f06374127eeaf8723b4e6f975c3f"
+    size: 9243
+  - url: https://opendatacommons.org/licenses/pddl/pddl-10.txt
+    sha256: "40e19160034659380a29a43311c560b0b24dd529b96399f954fb7fbe2f98d33a"
+    size: 15802

@@ -1,0 +1,26 @@
+namespace: delphi
+name: delphi
+version: "2.0"
+language: owl
+syntax: turtle
+roots: [delphi.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Project Delphi: Probabilistic Knowledge Graph Ontology for Frontier Science"
+authors:
+  - name: "Project Delphi / Science Oracle"
+publishers:
+  - name: "Joel Dietz"
+    link: "https://fractastical.org"
+description: "The vocabulary (T-Box) used by Project Delphi / Science Oracle (scienceoracle.com) to represent scientific papers, the propositions drawn from them or synthesised across them, the economic predictions attached to those propositions, and the probabilistic assessments that a panel of independent software agents assign to them."
+keywords: ["Science", "Provenance", "Nanopublications"]
+originalSources: ["https://github.com/fractastical/project-delphi-ontology"]
+sources:
+  - url: https://raw.githubusercontent.com/fractastical/project-delphi-ontology/v2.0/delphi.ttl
+    name: delphi.ttl
+    sha256: "cd4d2c89cff2b623d018dbaf89391b67530e16b253d5f5ca96c1c07170e703d5"
+    size: 38597
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

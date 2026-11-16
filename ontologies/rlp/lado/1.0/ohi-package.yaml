@@ -1,0 +1,27 @@
+namespace: rlp
+name: lado
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [lado.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Linked Archaeological Data Ontology"
+authors:
+  - name: "Florian Thiery"
+  - name: "Allard Mees"
+publishers:
+  - name: "Römisch-Germanisches Zentralmuseum Leibniz-Forschungsinstitut für Archäologie"
+    link: "https://www.leiza.de/"
+description: "A linked ontology for archaeological data."
+keywords: ["ontology"]
+originalSources: ["https://wissit.pages.gitlab.rlp.net/lado/index-en.html"]
+sources:
+  - url: https://wissit.pages.gitlab.rlp.net/lado/ontology.ttl
+    name: lado.ttl
+    sha256: "d6fe61cd3158d57e74e38df0785c28995a738b53b3a3babccb8118592a2ee555"
+    size: 637283
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

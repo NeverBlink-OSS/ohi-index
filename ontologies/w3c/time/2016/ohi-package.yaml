@@ -1,0 +1,37 @@
+namespace: w3c
+name: time
+version: "2016"
+language: owl
+syntax: turtle
+roots: [time.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "OWL-Time"
+authors:
+  - name: "Simon J. D. Cox"
+    link: "https://orcid.org/0000-0002-3884-3420"
+  - name: "Jerry R. Hobbs"
+  - name: "Feng Pan"
+    contact: "panfeng66@gmail.com"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+  - name: "Open Geospatial Consortium"
+    link: "https://www.ogc.org/"
+contributors:
+  - name: "Chris Little"
+    contact: "chris.little@metoffice.gov.uk"
+  - name: "Mariano Fernández-López"
+    link: "https://orcid.org/0000-0001-8269-8171"
+description: "W3C and OGC ontology of temporal concepts: instants, intervals, durations and positions on calendars and clocks."
+keywords: ["time", "temporal", "calendars"]
+originalSources: ["https://www.w3.org/TR/owl-time"]
+sources:
+  - url: https://www.w3.org/2006/time
+    name: time.ttl
+    sha256: "251bd6970b0d7a5efa97ff681afe81a297df85deab3d860fa4f8eeba72d8f16c"
+    size: 101486
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

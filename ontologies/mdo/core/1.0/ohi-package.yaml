@@ -1,0 +1,27 @@
+namespace: mdo
+name: core
+version: "1.0"
+language: owl
+syntax: ntriples
+roots: [core.nt]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Materials Design Ontology - Core Module"
+authors:
+  - name: "Huanyu Li"
+publishers:
+  - name: "Huanyu Li"
+contributors:
+  - name: "Patrick Lambrix"
+  - name: "Rickard Armiento"
+description: "This is the core module in Materials Design Ontology."
+keywords: ["Industry"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/core/versions/2019-11-07.n3
+    name: core.nt
+    sha256: "ac1f5ff62e8a7a489ce668cfe4cf72e649c37c764848c280b21edf781148f5f7"
+    size: 18775
+  - url: https://github.com/huanyu-li/Materials-Design-Ontology/blob/9d0fd411b6c398fe90c842be568b751908041326/LICENSE
+    sha256: "2f32d3f3825d66ba17eb59662ea9b12905e30cd6c6c5715c6881accf7cf3c166"
+    size: 1052

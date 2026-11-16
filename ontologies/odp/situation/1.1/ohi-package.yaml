@@ -1,0 +1,18 @@
+namespace: odp
+name: situation
+version: "1.1"
+language: owl
+syntax: rdfxml
+roots: [situation.owl]
+licenses: ["unknown (fair use)"]
+licenseFiles: [LICENSE]
+dependencies: ["odp/cpannotationschema@2026-10-21"]
+title: "ODP Situation"
+authors:
+  - name: "Aldo Gangemi"
+publishers:
+  - name: "Ontology Design Patterns portal"
+    link: "http://ontologydesignpatterns.org/"
+description: "Ontology design pattern for situations: a setting for entities in a given state of affairs."
+keywords: ["ontology design patterns", "situations"]
+originalSources: ["http://ontologydesignpatterns.org"]

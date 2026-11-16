@@ -1,0 +1,23 @@
+namespace: commons
+name: organizations
+version: "20240801"
+language: owl
+syntax: rdfxml
+roots: [Organizations.rdf]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["commons/annotation-vocabulary@20250801", "commons/collections@20221101", "commons/contextual-designators@20250801", "commons/designators@20250801", "commons/locations@20250801", "commons/parties-and-situations@20250801", "commons/roles-and-compositions@20230801"]
+title: "OMG Commons Organizations"
+authors:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+publishers:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+description: "Organizations, legal entities and their members."
+keywords: ["OMG Commons", "organizations"]
+originalSources: ["https://www.omg.org/spec/Commons"]
+sources:
+  - url: https://www.omg.org/spec/Commons/20240801/Organizations.rdf
+    sha256: "1bce800ee3106b5f7efa2138707d16875edee907a16c073e4ebbf5a3e6a33f9c"
+    size: 31236

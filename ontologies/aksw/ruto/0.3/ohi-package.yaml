@@ -1,0 +1,41 @@
+namespace: aksw
+name: ruto
+version: "0.3"
+language: owl
+syntax: turtle
+roots: [ruto.ttl]
+licenses: ["CC-BY-3.0", "Apache-2.0"]
+licenseFiles: [legalcode.txt, LICENSE]
+dependencies: []
+title: "Test-Driven Data Debugging Ontology"
+authors:
+  - name: "Dimitris Kontokostas"
+  - name: "Jens Lehmann"
+  - name: "Patrick Westphal"
+  - name: "Roland Cornelissen"
+  - name: "Sebastian Hellmann"
+  - name: "Sören Auer"
+    link: "https://tib.eu/auer"
+publishers:
+  - name: "Dimitris Kontokostas"
+  - name: "Jens Lehmann"
+  - name: "Patrick Westphal"
+  - name: "Roland Cornelissen"
+  - name: "Sebastian Hellmann"
+  - name: "Sören Auer"
+    link: "https://tib.eu/auer"
+description: "The Databugger ontology describes concepts used in Databugger, a test driven data-debugging framework that can run automatically generated (based on a schema) and manually generated test cases against an endpoint."
+keywords: ["Quality"]
+originalSources: ["http://aksw.org/Projects/RDFUnit.html"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/ruto/versions/2014-01-10.n3
+    name: ruto.ttl
+    sha256: "e0cc31968fefd0d9b80fadc2b1286b25ec9a1286475657a48405bee0fdb0bd29"
+    size: 20741
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467
+  - url: https://www.apache.org/licenses/LICENSE-2.0.txt
+    name: LICENSE
+    sha256: "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    size: 11358

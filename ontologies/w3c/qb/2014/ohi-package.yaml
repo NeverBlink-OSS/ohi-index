@@ -1,0 +1,35 @@
+namespace: w3c
+name: qb
+version: "2014"
+language: owl
+syntax: turtle
+roots: [cube.ttl]
+licenses: ["PDDL-1.0"]
+licenseFiles: [pddl-10.txt]
+dependencies: []
+title: "RDF Data Cube"
+authors:
+  - name: "Richard Cyganiak"
+    contact: "richard@cyganiak.de"
+  - name: "Dave Reynolds"
+    contact: "dave@epimorphics.com"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+contributors:
+  - name: "Jeni Tennison"
+    contact: "jeni@jenitennison.com"
+  - name: "Arofan Gregory"
+    contact: "arofan.gregory@earthlink.net"
+  - name: "Ian Dickinson"
+    contact: "ian@epimorphics.com"
+description: "W3C vocabulary for multi-dimensional data, such as statistics, as RDF."
+keywords: ["statistics", "data cubes", "multidimensional data"]
+originalSources: ["https://github.com/UKGovLD/publishing-statistical-data"]
+sources:
+  - url: https://github.com/UKGovLD/publishing-statistical-data/blob/d382ad5900af922384a8624a03f3d08aa0ed9c98/specs/src/main/vocab/cube.ttl
+    sha256: "f2d67d3811762fa7796008d225c9b1f891e8a9af8fdeeb3736188fe1bcdb7235"
+    size: 15076
+  - url: https://opendatacommons.org/licenses/pddl/pddl-10.txt
+    sha256: "40e19160034659380a29a43311c560b0b24dd529b96399f954fb7fbe2f98d33a"
+    size: 15802

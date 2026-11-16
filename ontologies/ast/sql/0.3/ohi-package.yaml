@@ -1,0 +1,23 @@
+namespace: ast
+name: sql
+version: "0.3"
+language: rdfs
+syntax: turtle
+roots: [sql.ttl]
+licenses: ["CC-BY-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "SQL Abstract Syntax Trees Vocabulary"
+authors:
+  - name: "Corentin Follenfant"
+  - name: "Olivier Corby"
+publishers:
+  - name: "Inria"
+    link: "https://www.inria.fr/"
+description: "The SQL AST Vocabulary allows SQL code abstract syntax trees to be published in RDF."
+keywords: ["API"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/sql/versions/2014-07-31.n3
+    name: sql.ttl
+    sha256: "7f8070bbbece45c83db8224cf759a5c0761143bbdbeb8fe8745d8117ced139b1"
+    size: 28303

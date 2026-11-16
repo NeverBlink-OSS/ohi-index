@@ -1,0 +1,29 @@
+namespace: omnibenchmark
+name: omni-schema
+version: "0.0.4"
+language: linkml
+syntax: yaml
+roots: [omni-schema.yaml]
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "omni-schema"
+authors:
+  - name: "Almut Luetge"
+    contact: "almut.lue@gmail.com"
+  - name: "Daniel Incicau"
+    contact: "daniel.incicau@gmail.com"
+publishers:
+  - name: "Omnibenchmark"
+    link: "http://omnibenchmark.org/"
+description: "Data model for omnibenchmark."
+keywords: ["Schema"]
+originalSources: ["https://github.com/omnibenchmark/omni-schema"]
+sources:
+  - url: https://github.com/omnibenchmark/omni-schema/blob/0.0.4/src/omni_schema/schema/omni_schema.yaml
+    name: omni-schema.yaml
+    sha256: "3f314ce570e964b9293e34e5dc3a12f95cf15774808389fcd0f924842e0cff07"
+    size: 5442
+  - url: https://github.com/omnibenchmark/omni-schema/blob/0.0.4/LICENSE
+    sha256: "094bedda295c0702807d1027a00e1134f4cb71d523dc49f6d4b3caf589053068"
+    size: 11358

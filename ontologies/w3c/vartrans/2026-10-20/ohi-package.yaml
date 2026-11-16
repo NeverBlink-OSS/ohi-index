@@ -1,0 +1,46 @@
+namespace: w3c
+name: vartrans
+version: "2026-10-20"
+language: owl
+syntax: rdfxml
+roots: [vartrans.rdf]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["w3c/ontolex@1.1"]
+title: "OntoLex variation and translation"
+authors:
+  - name: "John P. McCrae"
+    link: "http://john.mccr.ae/"
+  - name: "Philipp Cimiano"
+    link: "http://www.cimiano.de/"
+publishers:
+  - name: "W3C Ontology-Lexica Community Group"
+    link: "https://www.w3.org/community/ontolex/"
+contributors:
+  - name: "Manuel Fiorelli"
+    link: "http://art.uniroma2.it/fiorelli/"
+  - name: "Armando Stellato"
+    link: "http://art.uniroma2.it/stellato/"
+  - name: "Jorge Gracia"
+    link: "http://jogracia.url.ph/web/"
+  - name: "Elena Montiel-Ponsoda"
+  - name: "Thierry Declerck"
+    link: "http://www.dfki.de/~declerck/"
+  - name: "Anas Fahad Khan"
+  - name: "Aldo Gangemi"
+  - name: "Guadalupe Aguado-de-Cea"
+  - name: "Paul Buitelaar"
+    link: "http://www.paulbuitelaar.net/"
+  - name: "Francesca Frontini"
+    link: "https://sites.google.com/site/francescafrontini/"
+description: "OntoLex-Lemon module for relations between lexical entries and senses, such as variants and translations."
+keywords: ["lexicons", "translation", "OntoLex-Lemon"]
+originalSources: ["https://www.w3.org/2016/05/ontolex"]
+sources:
+  - url: https://www.w3.org/ns/lemon/vartrans
+    name: vartrans.rdf
+    sha256: "397a04efaaa437f2f3ecfac2f737e3dada727bf03bcfa52493cdffc4c771d1d7"
+    size: 32924
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

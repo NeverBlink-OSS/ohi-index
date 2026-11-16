@@ -1,0 +1,28 @@
+namespace: semts
+name: semts
+version: "1.1.0"
+language: owl
+syntax: turtle
+roots: [semts.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The Semantic Time Series Ontology"
+authors:
+  - name: "Alexander Graß"
+    contact: "grass.alexan@gmail.com"
+publishers:
+  - name: "Alexander Graß"
+    contact: "grass.alexan@gmail.com"
+contributors:
+  - name: "Rohit A. Deshmukh"
+description: "SemTS is an ontology designed to identify and describe segments within time series data, which are specific data points or intervals that can overlap."
+keywords: ["Time"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/semts/versions/2025-09-03.n3
+    name: semts.ttl
+    sha256: "aa20f1f7cce2022844787e62d9348f0c0c9e282cc1c204f066a2b6c85f577112"
+    size: 31242
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

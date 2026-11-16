@@ -1,0 +1,23 @@
+namespace: w3c
+name: skos-owl1-dl
+version: "2009"
+language: owl
+syntax: rdfxml
+roots: [skos-owl1-dl.rdf]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "SKOS core, OWL 1 DL variant"
+authors:
+  - name: "Alistair Miles"
+  - name: "Sean Bechhofer"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "The SKOS core vocabulary reworked to stay within OWL 1 DL."
+keywords: ["SKOS", "thesauri", "taxonomies"]
+originalSources: ["https://www.w3.org/TR/skos-reference"]
+sources:
+  - url: https://www.w3.org/2009/08/skos-reference/skos-owl1-dl.rdf
+    sha256: "6c40895054df0c6584833effc801e1cddc57a04347b617a38efa590ca78a1733"
+    size: 28295

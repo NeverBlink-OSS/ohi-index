@@ -1,0 +1,29 @@
+namespace: obo
+name: plana
+version: "2017-09-13"
+language: owl
+syntax: rdfxml
+roots: [plana.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "planaria-ontology"
+authors:
+  - name: "Stowers Institute for Medical Research"
+    link: "https://www.stowers.org/"
+publishers:
+  - name: "Stowers Institute for Medical Research"
+    link: "https://www.stowers.org/"
+description: "PLANA, the planarian anatomy ontology, encompasses the anatomy and life cycle stages for both __Schmidtea mediterranea__ biotypes."
+keywords: ["anatomy and development", "OBO"]
+originalSources: ["https://github.com/obophenotype/planaria-ontology"]
+publications:
+  - title: "Planarian Anatomy Ontology: a resource to connect data within and across experimental platforms"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/34318308"
+sources:
+  - url: https://github.com/obophenotype/planaria-ontology/blob/v2017-09-13/plana.owl
+    sha256: "20f55196f609f5fe7e2c3ce7ff1eda8a223b47d461d827ee961e8c502640a74e"
+    size: 1401237
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

@@ -1,0 +1,24 @@
+namespace: mads
+name: mads
+version: "2015-10-28"
+language: owl
+syntax: turtle
+roots: [mads.ttl]
+licenses: ["public domain"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Metadata Authority Description Schema"
+authors:
+  - name: "Library of Congress"
+    link: "https://www.loc.gov/"
+publishers:
+  - name: "Library of Congress"
+    link: "https://www.loc.gov/"
+description: "MADS/RDF (Metadata Authority Description Schema in RDF) is a knowledge organization system (KOS) designed for use with controlled values for names (personal, corporate, geographic, etc.), thesauri, taxonomies, subject heading systems, and other controlled value lists."
+keywords: ["Metadata"]
+originalSources: ["http://www.loc.gov/standards/mads/rdf"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/mads/versions/2015-10-28.n3
+    name: mads.ttl
+    sha256: "299bd178eace1fb765468c56119b9a155ab7f6d5a7ad06d7f03d530c3d0a0783"
+    size: 46784

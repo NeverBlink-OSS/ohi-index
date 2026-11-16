@@ -1,0 +1,27 @@
+namespace: worldavatar
+name: reaction
+version: "1.11"
+language: owl
+syntax: rdfxml
+roots: [reaction.owl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "WorldAvatar reaction ontology"
+authors:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+publishers:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+description: "An ontology developed for describing reaction experiment."
+keywords: ["chemistry", "ontology", "worldavatar"]
+originalSources: ["https://github.com/TheWorldAvatar/ontology", "https://theworldavatar.io"]
+sources:
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/ontology/ontoreaction/OntoReaction.owl
+    name: reaction.owl
+    sha256: "decb33f81c661772d7fbbdb0514ee20cf7cdb151dfa707a95ab0529fe694b5e9"
+    size: 52289
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/LICENSE.txt
+    sha256: "8c29b2cb4c712a0d382d1951ffc7e2a155ec7095c7e92a896f5919eb02c31ea9"
+    size: 1309

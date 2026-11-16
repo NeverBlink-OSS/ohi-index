@@ -1,0 +1,27 @@
+namespace: w3c
+name: skos
+version: "2009"
+language: owl
+syntax: rdfxml
+roots: [skos.rdf]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "SKOS Core"
+authors:
+  - name: "Alistair Miles"
+  - name: "Sean Bechhofer"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+contributors:
+  - name: "Dave Beckett"
+  - name: "Nikki Rogers"
+  - name: "W3C Semantic Web Deployment Working Group"
+description: "W3C vocabulary for concept schemes such as thesauri, taxonomies and classification schemes."
+keywords: ["thesauri", "taxonomies", "classification"]
+originalSources: ["https://www.w3.org/TR/skos-reference"]
+sources:
+  - url: https://www.w3.org/2009/08/skos-reference/skos.rdf
+    sha256: "e79633b8d0564816cee8a99f5c9acf9a0e6fc7257c7209acd684ecad53a89dd6"
+    size: 28966

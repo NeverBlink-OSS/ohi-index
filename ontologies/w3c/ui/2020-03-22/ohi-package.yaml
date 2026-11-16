@@ -1,0 +1,26 @@
+namespace: w3c
+name: ui
+version: "2020-03-22"
+language: owl
+syntax: turtle
+roots: [ui.ttl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "A user interface ontology"
+authors:
+  - name: "Tim Berners-Lee"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "An ontology suitable for describing forms, sequences in widgets."
+keywords: ["Support"]
+originalSources: ["https://www.w3.org/ns/ui"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/ui/versions/2020-03-22.n3
+    name: ui.ttl
+    sha256: "1ecc14a9a6e1524f295a1e9d98e99c19da3a9aebdc892825d3326ad23f45d9cd"
+    size: 18776
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

@@ -1,0 +1,29 @@
+namespace: obo
+name: uo
+version: "2026-01-16"
+language: owl
+syntax: rdfxml
+roots: [uo.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE.md]
+dependencies: []
+title: "Units of measurement ontology"
+authors:
+  - name: "Bio-Ontology Research Group"
+    link: "http://borg.kaust.edu.sa"
+publishers:
+  - name: "Bio-Ontology Research Group"
+    link: "http://borg.kaust.edu.sa"
+description: "Metrical units for use in conjunction with PATO."
+keywords: ["phenotype", "OBO"]
+originalSources: ["https://github.com/bio-ontology-research-group/unit-ontology"]
+publications:
+  - title: "The Units Ontology: a tool for integrating units of measurement in science"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/23060432"
+sources:
+  - url: https://github.com/bio-ontology-research-group/unit-ontology/blob/v2026-01-16/uo.owl
+    sha256: "5c65ace099c13c2760c0a412569e6e267efafa40f1caefe0efe4ec2ed37ff652"
+    size: 647622
+  - url: https://github.com/bio-ontology-research-group/unit-ontology/blob/v2026-01-16/LICENSE.md
+    sha256: "cce5d01fa4a83b794271bd2c28cffdf99afd43c803e6ddefddae39b591ea7448"
+    size: 18652

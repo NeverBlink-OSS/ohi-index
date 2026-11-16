@@ -1,0 +1,31 @@
+namespace: vpa
+name: vpa
+version: "1.2"
+language: owl
+syntax: turtle
+roots: [vpa.ttl]
+licenses: ["EUPL-1.2"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "ERA ontology for verified permissions"
+authors:
+  - name: "Ghislain Auguste Atemezing"
+  - name: "Maarten Duhoux"
+publishers:
+  - name: "European Union Agency for Railways"
+    link: "https://www.era.europa.eu/"
+contributors:
+  - name: "OPD Unit"
+    link: "https://www.era.europa.eu/"
+description: "ERA ontology for verified permissions, as applied in vehicle(type) authorisations, registrations and approvals."
+keywords: ["Methods", "Transport"]
+originalSources: ["https://gitlab.com/era-europa-eu/public/interoperable-data-programme/era-ontology/vpa-ontology"]
+sources:
+  - url: https://gitlab.com/era-europa-eu/public/interoperable-data-programme/era-ontology/vpa-ontology/-/raw/main/src/ontology.ttl
+    name: vpa.ttl
+    sha256: "4d81a6f9bac6eb60cb404931009783d59d18d09843a36add0fa7983e662f718b"
+    size: 43783
+  - url: https://raw.githubusercontent.com/spdx/license-list-data/v3.29.0/text/EUPL-1.2.txt
+    name: LICENSE
+    sha256: "57fb42fbcd0b037ce528ed8f72f1ec095d67bc6825ecf1448ff39be1fe68a4b4"
+    size: 13792

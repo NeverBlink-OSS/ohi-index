@@ -1,0 +1,29 @@
+namespace: spar
+name: biro
+version: "1.1.1"
+language: owl
+syntax: rdfxml
+roots: [biro.rdf]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["spar/co@2.1.0", "spar/frbr@1.1.0"]
+title: "SPAR Bibliographic Reference Ontology"
+authors:
+  - name: "David Shotton"
+    link: "http://opencitations.net"
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+description: "Ontology of bibliographic references and reference lists."
+keywords: ["bibliographic data", "references", "citations"]
+originalSources: ["https://github.com/SPAROntologies/biro"]
+sources:
+  - url: https://sparontologies.github.io/biro/2013-05-11/biro.xml
+    name: biro.rdf
+    sha256: "2985f8da53083178a5ac53bc5abf211345864dbdd29ca6ae64faf74d9c87e0ba"
+    size: 17795
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

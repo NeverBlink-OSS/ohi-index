@@ -1,0 +1,33 @@
+namespace: obo
+name: epio
+version: "2021-05-28"
+language: owl
+syntax: rdfxml
+roots: [EPIO_merged.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Epilepsy Ontology"
+authors:
+  - name: "Alpha Tom Kodamullil"
+  - name: "Astghik Sargsyan"
+  - name: "Philipp Wegner"
+  - name: "Shounak Baksi"
+  - name: "Stephan Gebel"
+  - name: "Sumit Madan"
+publishers:
+  - name: "Fraunhofer SCAI Biomedical Data Intelligence Unit"
+    link: "https://www.scai.fraunhofer.de/en/business-research-areas/bioinformatics.html"
+contributors:
+  - name: "Johannes Darms"
+  - name: "Satya S. Sahoo"
+description: "A application driven Epilepsy Ontology with official terms from the ILAE."
+keywords: ["health", "disease", "OBO"]
+originalSources: ["https://github.com/SCAI-BIO/EpilepsyOntology"]
+sources:
+  - url: https://github.com/SCAI-BIO/EpilepsyOntology/blob/dc9f9b1062dd53ec8b388e6449f91d0a74ffc105/release/EPIO_merged.owl
+    sha256: "efafdd4605792f69b177702e84665fce845031ab8be3bbc9a030a05bd763dd05"
+    size: 3259618
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,29 @@
+namespace: ceon
+name: ceon-cvn
+version: "0.3"
+language: owl
+syntax: turtle
+roots: [ceon-cvn.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["ceon/ceon-actor@0.4"]
+title: "Circular Economy Ontology Network (CEON) - Circular Value Network Module"
+authors:
+  - name: "Huanyu Li"
+publishers:
+  - name: "Onto-DESIDE project"
+    link: "https://ontodeside.eu/"
+contributors:
+  - name: "Eva Blomqvist"
+  - name: "Mikael Lindecrantz"
+  - name: "Robin Keskisärkkä"
+description: "A core module of the CEON ontology network, defining aspects of the circular value network (CVN) itself."
+keywords: ["Industry"]
+sources:
+  - url: https://liusemweb.github.io/CEON/ontology/cvn/latest/cvn.ttl
+    name: ceon-cvn.ttl
+    sha256: "89cecd8608a6634c43b60bd1023479a5024c0bc9d4ec206f0326436858cbca5f"
+    size: 5214
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

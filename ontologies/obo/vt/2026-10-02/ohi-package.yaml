@@ -1,0 +1,26 @@
+namespace: obo
+name: vt
+version: "2026-10-02"
+language: owl
+syntax: rdfxml
+roots: [vt.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Vertebrate trait ontology"
+authors:
+  - name: "AnimalGenome.org"
+    link: "https://www.animalgenome.org/"
+publishers:
+  - name: "AnimalGenome.org"
+    link: "https://www.animalgenome.org/"
+description: "An ontology of traits covering vertebrates."
+keywords: ["phenotype", "OBO"]
+originalSources: ["https://github.com/AnimalGenome/vertebrate-trait-ontology"]
+sources:
+  - url: https://github.com/AnimalGenome/vertebrate-trait-ontology/blob/2657dd8518336757bfcfc3d119936cd6420bc5f1/current_release/vt.owl
+    sha256: "3409af43ebb8f998ac2b0c29be165b64cb65cd29de2614608042f8c1b9fd6756"
+    size: 8044444
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

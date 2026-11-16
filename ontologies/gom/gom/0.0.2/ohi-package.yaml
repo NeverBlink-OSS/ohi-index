@@ -1,0 +1,32 @@
+namespace: gom
+name: gom
+version: "0.0.2"
+language: owl
+syntax: turtle
+roots: [gom.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "GOM: Geometry Metadata Ontology"
+authors:
+  - name: "Mathias Bonduel"
+    link: "https://orcid.org/0000-0002-3313-924X"
+  - name: "Pieter Pauwels"
+    link: "https://pi.pauwel.be/"
+  - name: "Anna Wagner"
+publishers:
+  - name: "Mathias Bonduel"
+    link: "https://orcid.org/0000-0002-3313-924X"
+  - name: "Pieter Pauwels"
+    link: "https://pi.pauwel.be/"
+  - name: "Anna Wagner"
+description: "The Geometry Metadata Ontology contains terminology to Coordinate Systems (CS), length units and other metadata (file size, software of origin, etc.)."
+keywords: ["Geometry", "Metadata"]
+sources:
+  - url: https://mathib.github.io/gom-ontology/ontology.ttl
+    name: gom.ttl
+    sha256: "c8e93a8c37abd43d086508aa47a90595ce3242e2986900d8b125a664dbc82d45"
+    size: 31021
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

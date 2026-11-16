@@ -1,0 +1,26 @@
+namespace: gist
+name: gist-core
+version: "14.0.0"
+language: owl
+syntax: turtle
+roots: [gistCore.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "gist core"
+authors:
+  - name: "Semantic Arts"
+    link: "https://www.semanticarts.com/"
+publishers:
+  - name: "Semantic Arts"
+    link: "https://www.semanticarts.com/"
+description: "Minimal upper ontology for business concepts by Semantic Arts."
+keywords: ["upper ontology", "business"]
+originalSources: ["https://github.com/semanticarts/gist"]
+sources:
+  - url: https://github.com/semanticarts/gist/blob/v14.0.0/ontologies/gistCore.ttl
+    sha256: "4fc4ce044544f4b1b4b65015bbb3a31788665c0bd7810e1075fefef00963d672"
+    size: 137913
+  - url: https://github.com/semanticarts/gist/blob/v14.0.0/LICENSE.txt
+    sha256: "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    size: 18656

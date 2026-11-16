@@ -1,0 +1,19 @@
+namespace: odp
+name: agentrole
+version: "1.1"
+language: owl
+syntax: rdfxml
+roots: [agentrole.owl]
+licenses: ["unknown (fair use)"]
+licenseFiles: [LICENSE]
+dependencies: ["odp/objectrole@1.1", "odp/cpannotationschema@2026-10-21"]
+title: "ODP Agent Role"
+authors:
+  - name: "Ontology Design Patterns portal"
+    link: "http://ontologydesignpatterns.org/"
+publishers:
+  - name: "Ontology Design Patterns portal"
+    link: "http://ontologydesignpatterns.org/"
+description: "Ontology design pattern for agents and the roles they play."
+keywords: ["ontology design patterns", "agents", "roles"]
+originalSources: ["http://ontologydesignpatterns.org"]

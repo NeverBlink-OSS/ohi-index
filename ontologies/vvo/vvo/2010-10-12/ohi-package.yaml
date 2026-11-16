@@ -1,0 +1,31 @@
+namespace: vvo
+name: vvo
+version: "2010-10-12"
+language: owl
+syntax: turtle
+roots: [vvo.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["goodrelations/gr@2011-10-01", "vso/vso@2010-10-02"]
+title: "Volkswagen Vehicles Ontology"
+authors:
+  - name: "Martin Hepp"
+publishers:
+  - name: "Martin Hepp"
+contributors:
+  - name: "Charles Sandeman-Craik"
+  - name: "Chris Jenkins"
+  - name: "Tim Redding"
+  - name: "Yago Otero"
+  - name: "William Greenly"
+  - name: "Robin Dingle"
+description: "A vocabulary for describing Volkswagen-specific features of automobiles and their components."
+keywords: ["Industry", "eBusiness"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/vvo/versions/2010-10-12.n3
+    name: vvo.ttl
+    sha256: "1f29b82e2dd4c96c9e4c547ea389ebc9c23b1b004183ffaf7db99c8027383441"
+    size: 34499
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

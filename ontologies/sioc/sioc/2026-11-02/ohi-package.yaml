@@ -1,0 +1,24 @@
+namespace: sioc
+name: sioc
+version: "2026-11-02"
+language: owl
+syntax: rdfxml
+roots: [sioc.rdf]
+licenses: ["CC-BY-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Semantically-Interlinked Online Communities"
+authors:
+  - name: "SIOC project"
+    link: "http://sioc-project.org/"
+publishers:
+  - name: "SIOC project"
+    link: "http://sioc-project.org/"
+description: "SIOC is an ontology for describing the information in online communities."
+keywords: ["Society"]
+originalSources: ["http://rdfs.org/sioc/spec"]
+sources:
+  - url: https://rdfs.org/sioc/ns
+    name: sioc.rdf
+    sha256: "8935462c4a8ac8ff1925b4ddd0a2cbbc23d07a52a2a339b02fb08c1c03b172dc"
+    size: 54624

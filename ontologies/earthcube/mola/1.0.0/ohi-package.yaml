@@ -1,0 +1,27 @@
+namespace: earthcube
+name: mola
+version: "1.0.0"
+language: owl
+syntax: turtle
+roots: [mola.ttl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Data Model Language Controlled Vocabulary"
+authors:
+  - name: "Ruth Duerr"
+    contact: "ruth.duerr3@gmail.com"
+    link: "https://orcid.org/0000-0003-4808-4736"
+publishers:
+  - name: "EarthCube Resource Registry vocabularies"
+    link: "https://www.earthcube.org/resource_registry"
+description: "The Data Model Language Controlled Vocabulary was created for NSF's EarthCube Program's Resource Registry."
+keywords: ["metamodel", "ontology"]
+originalSources: ["https://github.com/earthcubearchitecture-ecresourcereg/mola", "http://cor.esipfed.org/ont/earthcube/mola"]
+sources:
+  - url: https://github.com/earthcubearchitecture-ecresourcereg/mola/blob/ed7e6e4b42cd9b26b8aeab8af0a4e28569a6f7ec/mola.ttl
+    sha256: "f9484bec990c1511aa168ee2fd98ad155d39152f75b0d7145b7f2441142d7bf7"
+    size: 8414
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

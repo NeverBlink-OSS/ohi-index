@@ -1,0 +1,30 @@
+namespace: linkedearth
+name: earth
+version: "1.0.0"
+language: owl
+syntax: turtle
+roots: [earth.ttl]
+licenses: ["CC-BY-NC-SA-2.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The Linked Earth Ontology"
+authors:
+  - name: "Nicholas P. McKay"
+  - name: "Julien Emile-Geay"
+    link: "https://orcid.org/0000-0001-5920-4751"
+  - name: "Deborah Khider"
+publishers:
+  - name: "LinkedEarth"
+    link: "https://linked.earth/"
+contributors:
+  - name: "Yolanda Gil"
+    link: "http://www.isi.edu/~gil/"
+  - name: "Daniel Garijo"
+    link: "http://w3id.org/people/dgarijo"
+description: "The Linked Earth Ontology aims to provide a common vocabulary for annotating paleoclimatology data."
+keywords: ["Environment", "Society"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/earth/versions/2016-06-13.n3
+    name: earth.ttl
+    sha256: "9dcf7201e7316ba460058fdb90736ec6246591cd21c837d580571419628a8031"
+    size: 41152

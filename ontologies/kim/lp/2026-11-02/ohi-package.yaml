@@ -1,0 +1,32 @@
+namespace: kim
+name: lp
+version: "2026-11-02"
+language: owl
+syntax: rdfxml
+roots: [lp.owl]
+licenses: ["CC-BY-SA-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Lehrplan Ontology"
+authors:
+  - name: "Steffen Rörtgen"
+    link: "https://orcid.org/0000-0001-6378-2618"
+  - name: "Jörg Waitelonis"
+    link: "https://orcid.org/0000-0001-7192-7143"
+  - name: "Almut Steinlein"
+  - name: "Cindy Bloes"
+  - name: "Johann Bergh"
+  - name: "Laura Junghanns"
+publishers:
+  - name: "DINI AG KIM"
+    link: "https://wiki.dnb.de/display/DINIAGKIM"
+description: "This ontology is a formal representation that captures the fundamental concepts and their relationships to one another in the field of curriculum design and implementation of the German school system."
+keywords: ["ontology"]
+originalSources: ["https://github.com/dini-ag-kim/school-curriculum-pg"]
+sources:
+  - url: https://github.com/dini-ag-kim/school-curriculum-pg/blob/83986be8a33bd5147afeddf1d2bfe6f062b63c8f/lp.owl
+    sha256: "9af689c1e8901e80100eba786b05ce4055fc60499d9a12c04013f91cc32a5de3"
+    size: 1069862
+  - url: https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt
+    sha256: "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+    size: 20138

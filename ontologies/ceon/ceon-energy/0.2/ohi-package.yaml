@@ -1,0 +1,27 @@
+namespace: ceon
+name: ceon-energy
+version: "0.2"
+language: owl
+syntax: turtle
+roots: [ceon-energy.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["ceon/ceon-actorodp@0.4", "ceon/ceon-resourceodp@0.5"]
+title: "Circular Economy Ontology Network (CEON) - Energy Module"
+authors:
+  - name: "Huanyu Li"
+publishers:
+  - name: "Onto-DESIDE project"
+    link: "https://ontodeside.eu/"
+contributors:
+  - name: "Eva Blomqvist"
+description: "A module of the CEON ontology network defining aspects of the energy concept."
+keywords: ["Environment"]
+sources:
+  - url: https://liusemweb.github.io/CEON/ontology/energy/latest/energy.ttl
+    name: ceon-energy.ttl
+    sha256: "523612a29e64fe43f2c32af7081ae238500f13feb8404c364f11baef6125e8fd"
+    size: 9272
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

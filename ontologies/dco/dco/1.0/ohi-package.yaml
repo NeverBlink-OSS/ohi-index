@@ -1,0 +1,22 @@
+namespace: dco
+name: dco
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [dco.ttl]
+licenses: ["CC-BY-2.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "domOS Common Ontology"
+authors:
+  - name: "Christian Thomsen"
+publishers:
+  - name: "DOMOS project"
+    link: "https://www.domos-project.eu/"
+description: "DomOS Common Ontology (dCO) represents a common information model to share a unified understanding for humans and machines and to ensure semantic interoperability in a heterogeneous IoT infrastructure."
+keywords: ["IoT"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/dco/versions/2021-09-30.n3
+    name: dco.ttl
+    sha256: "b760a5bcb5bacb7bbed59e80c0c71c1fe5a6eb75aae87a8c36c3ef94ee480e8c"
+    size: 65607

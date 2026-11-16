@@ -1,0 +1,28 @@
+namespace: eu
+name: eurio
+version: "2.5.0"
+language: owl
+syntax: ntriples
+roots: [eurio.nt]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "EURIO: EUropean Research Information Ontology"
+authors:
+  - name: "Publications Office of the European Union"
+    link: "https://op.europa.eu/"
+publishers:
+  - name: "Publications Office of the European Union"
+    link: "https://op.europa.eu/"
+contributors:
+  - name: "Cognizone"
+description: "The EUropean Research Information Ontology (EURIO) conceptualises, formally encodes and makes available in an open, structured and machine-readable format data about resarch projects funded by the EU's framework programmes for research and innovation."
+keywords: ["Academy", "Metadata"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/eurio/versions/2025-05-08.n3
+    name: eurio.nt
+    sha256: "f2285a72402d17591f4d45dbfda51dbf79c664ee12e58d6e5541a3b49354f881"
+    size: 155118
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

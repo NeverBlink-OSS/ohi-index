@@ -1,0 +1,27 @@
+namespace: rwth-e3d
+name: tso
+version: "0.11"
+language: owl
+syntax: turtle
+roots: [tso.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "TUBES system ontology"
+authors:
+  - name: "Nicolas Pauen"
+  - name: "Dominik Schlütter"
+publishers:
+  - name: "RWTH Aachen University - E3D Institute of Energy Efficiency and Sustainable Building"
+    link: "https://www.e3d.rwth-aachen.de"
+description: "The scope of the TUBES ontology is to explicitly define the topology of interconnected building service system and their relationship to the spatial structure."
+keywords: ["engineering", "nfdi4ing", "ontology"]
+originalSources: ["https://github.com/RWTH-E3D/tso", "https://rwth-e3d.github.io/tso/index.html"]
+sources:
+  - url: https://github.com/RWTH-E3D/tso/blob/v0.11/tubes.ttl
+    name: tso.ttl
+    sha256: "7db59d89fa5d060e67d2d55f3c31230146aa6d23c9873e501463a9ab9f73b0ee"
+    size: 5754
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

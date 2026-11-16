@@ -1,0 +1,27 @@
+namespace: incf-nidash
+name: pynidm
+version: "4.5.7"
+language: linkml
+syntax: yaml
+roots: [pynidm.yaml]
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "NIDM-Experiment Schema"
+authors:
+  - name: "INCF Neuroimaging Data Sharing Group"
+    link: "https://github.com/incf-nidash"
+publishers:
+  - name: "INCF Neuroimaging Data Sharing Group"
+    link: "https://github.com/incf-nidash"
+description: "Schema describing the structure of NIDM (Neuroimaging Data Model) RDF graphs."
+keywords: ["Schema"]
+originalSources: ["https://github.com/incf-nidash/PyNIDM"]
+sources:
+  - url: https://github.com/incf-nidash/PyNIDM/blob/v4.5.7/src/nidm/experiment/schema/nidm_schema.yaml
+    name: pynidm.yaml
+    sha256: "4103a03056b0a9d749d0c3ff018f2248a7f108226bdd95271a7c2d273f0d7c52"
+    size: 22040
+  - url: https://github.com/incf-nidash/PyNIDM/blob/v4.5.7/LICENSE
+    sha256: "383624c0b4c1cea9e648c5e02bfaa3304b93e35c704ee4c017151cc7a505b733"
+    size: 600

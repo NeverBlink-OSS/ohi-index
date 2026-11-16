@@ -1,0 +1,27 @@
+namespace: worldavatar
+name: trafficincident
+version: "1"
+language: owl
+syntax: rdfxml
+roots: [trafficincident.owl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "WorldAvatar traffic incident ontology"
+authors:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+publishers:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+description: "The WorldAvatar ontology for traffic incidents and descriptive statistics."
+keywords: ["ontology", "worldavatar"]
+originalSources: ["https://github.com/TheWorldAvatar/ontology", "https://theworldavatar.io"]
+sources:
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/ontology/ontotrafficincident/OntoTrafficIncident.owl
+    name: trafficincident.owl
+    sha256: "efeaecc2fd8d4242ea75566cdc360bea9f1ae5c0c1b3300c7d273984f8f8c19d"
+    size: 4984
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/LICENSE.txt
+    sha256: "8c29b2cb4c712a0d382d1951ffc7e2a155ec7095c7e92a896f5919eb02c31ea9"
+    size: 1309

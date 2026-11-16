@@ -1,0 +1,27 @@
+namespace: dot
+name: dot
+version: "0.8"
+language: owl
+syntax: turtle
+roots: [dot.ttl]
+licenses: ["CC-BY-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Damage Topology Ontology"
+authors:
+  - name: "Al-Hakam Hamdan"
+  - name: "Mathias Bonduel"
+    link: "https://orcid.org/0000-0002-3313-924X"
+publishers:
+  - name: "Al-Hakam Hamdan"
+  - name: "Mathias Bonduel"
+    link: "https://orcid.org/0000-0002-3313-924X"
+contributors:
+  - name: "Mads Holten Rasmussen"
+description: "- Version 0.8: * completed ontology metadata wrt LOV * added classes dot:ClassifiedDamage and dot:UnclassifiedDamage (subclasses of dot:Damage) * made dot:StructuralDamage and dot:Defect subclasses of dot:Damage."
+keywords: ["Geography", "Industry"]
+sources:
+  - url: https://alhakam.github.io/dot/ontology.ttl
+    name: dot.ttl
+    sha256: "1f88099484645cadb2fad5eb643143a8c29c766e6dd9db5824a537e8993fbf6a"
+    size: 22664

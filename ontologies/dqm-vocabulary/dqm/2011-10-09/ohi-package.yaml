@@ -1,0 +1,26 @@
+namespace: dqm-vocabulary
+name: dqm
+version: "2011-10-09"
+language: owl
+syntax: turtle
+roots: [dqm.ttl]
+licenses: ["CC-BY-NC-SA-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The Data Quality Management Vocabulary"
+authors:
+  - name: "Christian Fürber"
+  - name: "Martin Hepp"
+publishers:
+  - name: "Christian Fürber"
+  - name: "Martin Hepp"
+description: "The Data Quality Management Vocabulary - An Ontology for Data Requirements Management, Data Quality Monitoring, Data Quality Assessment, and Data Cleansing."
+keywords: ["Quality"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/dqm/versions/2011-10-09.n3
+    name: dqm.ttl
+    sha256: "21af86954a9778129f258989e77ab702bc4d9e0e04b5b403a4cb9649890a5230"
+    size: 55817
+  - url: https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode.txt
+    sha256: "8812f83442fd0eca14eb0208988e190fdcbfebec58fa5459d3218edfdfdc5a32"
+    size: 22306

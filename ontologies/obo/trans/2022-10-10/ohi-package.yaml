@@ -1,0 +1,32 @@
+namespace: obo
+name: trans
+version: "2022-10-10"
+language: owl
+syntax: rdfxml
+roots: [trans.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Pathogen Transmission Ontology"
+authors:
+  - name: "Lynn Schriml"
+    contact: "lynn.schriml@gmail.com"
+    link: "https://orcid.org/0000-0001-8910-9851"
+publishers:
+  - name: "Institute for Genome Sciences, University of Maryland School of Medicine"
+    link: "https://www.igs.umaryland.edu/"
+description: "An ontology representing the disease transmission process during which the pathogen is transmitted directly or indirectly from its natural reservoir, a susceptible host or source to a new host."
+keywords: ["health", "disease", "OBO"]
+originalSources: ["https://github.com/DiseaseOntology/PathogenTransmissionOntology"]
+publications:
+  - title: "GeMInA, Genomic Metadata for Infectious Agents, a geospatial surveillance pathogen database"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/19850722"
+  - title: "The Human Disease Ontology 2022 update"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/34755882"
+sources:
+  - url: https://github.com/DiseaseOntology/PathogenTransmissionOntology/blob/v2022-10-10/src/ontology/trans.owl
+    sha256: "9565a4bc7d461fb8c4686867c0d93d6ff08f0790b1b87d2e016a62a93333cb90"
+    size: 58805
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

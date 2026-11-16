@@ -1,0 +1,23 @@
+namespace: w3c
+name: geo
+version: "2026-10-20"
+language: rdfs
+syntax: rdfxml
+roots: [wgs84_pos.rdf]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "WGS84 Geo Positioning"
+authors:
+  - name: "Dan Brickley"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "Basic vocabulary for latitude, longitude and altitude in WGS84."
+keywords: ["geography", "coordinates", "WGS84"]
+originalSources: ["https://www.w3.org/2003/01/geo"]
+sources:
+  - url: https://www.w3.org/2003/01/geo/wgs84_pos
+    name: wgs84_pos.rdf
+    sha256: "ee6e55bba8b94d4ff13af5e7c07c7d120239e0827a46487dd2b1b708b4e5eb6f"
+    size: 7866

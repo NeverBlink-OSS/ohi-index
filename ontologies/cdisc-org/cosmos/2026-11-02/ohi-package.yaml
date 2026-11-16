@@ -1,0 +1,27 @@
+namespace: cdisc-org
+name: cosmos
+version: "2026-11-02"
+language: linkml
+syntax: yaml
+roots: [cosmos.yaml]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "COSMoS"
+authors:
+  - name: "Clinical Data Interchange Standards Consortium"
+    link: "https://www.cdisc.org/"
+publishers:
+  - name: "Clinical Data Interchange Standards Consortium"
+    link: "https://www.cdisc.org/"
+description: "CDISC Conceptual and Operational Standards Metadata Services (COSMoS)."
+keywords: ["cosmos", "Schema"]
+originalSources: ["https://github.com/cdisc-org/COSMoS"]
+sources:
+  - url: https://github.com/cdisc-org/COSMoS/blob/373daca976248b1c2f23328e990749dbcefa7365/model/cosmos_bc_model.yaml
+    name: cosmos.yaml
+    sha256: "77e4d4ea525de369b3051e2277974327cd2d3797b76a95f85a7c6f566b319eee"
+    size: 4641
+  - url: https://github.com/cdisc-org/COSMoS/blob/373daca976248b1c2f23328e990749dbcefa7365/LICENSE
+    sha256: "7de7787967d7f4d687a73d553b12940f21f2d539c31fc7c75462167b12746bac"
+    size: 1062

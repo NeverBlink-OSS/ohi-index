@@ -1,0 +1,31 @@
+namespace: nemo
+name: competence
+version: "0.1.0"
+language: owl
+syntax: turtle
+roots: [competence.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["nemo/gufo@1.0.0"]
+title: "Competence Ontology"
+authors:
+  - name: "João Paulo A. Almeida"
+    link: "http://nemo.inf.ufes.br/jpalmeida"
+  - name: "Carlos L.B. Azevedo"
+  - name: "Rodrigo F. Calhau"
+publishers:
+  - name: "João Paulo A. Almeida"
+    link: "http://nemo.inf.ufes.br/jpalmeida"
+description: "A small ontology expressing skills and competencies."
+keywords: ["competence", "ontology", "skills"]
+originalSources: ["https://github.com/jpalmeida/competence-ontology"]
+publications:
+  - title: "Towards Ontology-based Competence Modeling in Enterprise Architecture"
+    link: "https://doi.org/10.1109/edoc52215.2021.00018"
+sources:
+  - url: https://github.com/jpalmeida/competence-ontology/blob/76ce51640c4bc69417a43d36e54a04135f0b4736/competence.ttl
+    sha256: "0e4f92751413c61108c8ab7d1ec1b12d93dd5ec5c967bd77aa64042d2beb7cc5"
+    size: 5652
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

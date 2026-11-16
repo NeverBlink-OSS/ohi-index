@@ -1,0 +1,25 @@
+namespace: w3c
+name: acl
+version: "2026-10-20"
+language: rdfs
+syntax: turtle
+roots: [acl.ttl]
+base: http://www.w3.org/ns/auth/acl
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Web Access Control"
+authors:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "Vocabulary for access control lists on web resources, as used by Solid."
+keywords: ["access control", "Solid", "authorization"]
+originalSources: ["https://solid.github.io/web-access-control-spec"]
+sources:
+  - url: https://www.w3.org/ns/auth/acl
+    name: acl.ttl
+    sha256: "7d555d5c4b11101e4e2bc583c7d8adb6ae35c8552fe406794f828bfa5014d1ce"
+    size: 6816

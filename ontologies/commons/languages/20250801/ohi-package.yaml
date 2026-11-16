@@ -1,0 +1,26 @@
+namespace: commons
+name: languages
+version: "20250801"
+language: owl
+syntax: rdfxml
+roots: [Languages.rdf]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["commons/annotation-vocabulary@20250801", "commons/codes-and-code-sets@20221101", "commons/collections@20221101", "commons/contextual-designators@20250801", "commons/designators@20250801", "commons/identifiers@20221101"]
+title: "OMG Commons Languages"
+authors:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+publishers:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+contributors:
+  - name: "Elisa Kendall"
+  - name: "Pete Rivett"
+description: "Languages, based on ISO 639 and BCP 47 language tags."
+keywords: ["OMG Commons", "languages"]
+originalSources: ["https://www.omg.org/spec/Commons"]
+sources:
+  - url: https://www.omg.org/spec/Commons/20250801/Languages.rdf
+    sha256: "5c2a08e01e24f84cba64aebfa3e6ed21e9ef6daa6a8e22c7e6b902b8c4673a2f"
+    size: 13328

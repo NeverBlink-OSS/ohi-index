@@ -1,0 +1,26 @@
+namespace: yang
+name: server
+version: "1.6.0"
+language: owl
+syntax: turtle
+roots: [server.ttl]
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "YANG Server Ontology"
+authors:
+  - name: "Ignacio Domínguez Martinez-Casanueva"
+publishers:
+  - name: "CANDIL Data Fabric"
+    link: "https://github.com/candil-data-fabric"
+description: "Ontology that defines core concepts for representing YANG servers, including connection details and the available YANG datastores, along with operations for retrieving YANG data from a YANG server."
+keywords: ["API"]
+sources:
+  - url: https://candil-data-fabric.github.io/yang-server-ontology/ontology.ttl
+    name: server.ttl
+    sha256: "372fd6cafe3ed00874c4511f85b66f5618115c62cebb51e32e58bf80a1d17d64"
+    size: 35341
+  - url: https://www.apache.org/licenses/LICENSE-2.0.txt
+    name: LICENSE
+    sha256: "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    size: 11358

@@ -1,0 +1,31 @@
+namespace: worldavatar
+name: agent
+version: "1.3"
+language: owl
+syntax: rdfxml
+roots: [agent.owl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "WorldAvatar agent ontology"
+authors:
+  - name: "Carlos Pedrinaci"
+  - name: "Jacek Kopecký"
+    link: "http://jacek.cz/"
+  - name: "Knowledge Media Institute, The Open University"
+    link: "http://kmi.open.ac.uk/"
+  - name: "Luca Panziera"
+publishers:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+description: "This is a simple ontology that provides the core vocabulary for capturing service properties."
+keywords: ["ontology", "worldavatar"]
+originalSources: ["https://github.com/TheWorldAvatar/ontology", "https://theworldavatar.io"]
+sources:
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/ontology/ontoagent/MSM.owl
+    name: agent.owl
+    sha256: "1cc4b67ec5b402fad21437e2f04c9a4e5afd079fa3f9c3ff02a60cee3a00ad1a"
+    size: 14059
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/LICENSE.txt
+    sha256: "8c29b2cb4c712a0d382d1951ffc7e2a155ec7095c7e92a896f5919eb02c31ea9"
+    size: 1309

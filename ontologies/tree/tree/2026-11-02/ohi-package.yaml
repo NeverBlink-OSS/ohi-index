@@ -1,0 +1,25 @@
+namespace: tree
+name: tree
+version: "2026-11-02"
+language: rdfs
+syntax: turtle
+roots: [tree.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "TREE"
+authors:
+  - name: "Ruben Taelman"
+  - name: "Pieter Colpaert"
+publishers:
+  - name: "W3C TREE Hypermedia Community Group"
+    link: "https://www.w3.org/community/treecg/"
+description: "A hypermedia specification for fragmenting collections."
+keywords: ["Methods", "Support"]
+sources:
+  - url: https://cdn.jsdelivr.net/gh/treecg/specification@master/tree.ttl
+    sha256: "6a1d1747b14ee3acf2a77f54c975c624e7a772e3807ac282a84636a225ff3cc4"
+    size: 9909
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

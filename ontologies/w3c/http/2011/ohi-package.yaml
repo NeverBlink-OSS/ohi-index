@@ -1,0 +1,25 @@
+namespace: w3c
+name: http
+version: "2011"
+language: owl
+syntax: rdfxml
+roots: [http.rdf]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: ["dcmi/dcterms@2026-10-20", "w3c/content@2011"]
+title: "HTTP Vocabulary in RDF"
+authors:
+  - name: "Johannes Koch"
+  - name: "Carlos A Velasco"
+  - name: "Philip Ackermann"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "W3C vocabulary for HTTP requests, responses and headers."
+keywords: ["HTTP", "web"]
+originalSources: ["https://www.w3.org/TR/HTTP-in-RDF10"]
+sources:
+  - url: https://www.w3.org/2011/http
+    name: http.rdf
+    sha256: "ec9d5fcee3ddf6af2c2b0c48465c594d9df4070570b181a4e1db1b7fa539bfd4"
+    size: 15680

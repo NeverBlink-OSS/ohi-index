@@ -1,0 +1,31 @@
+namespace: videogameontology
+name: vgo
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [vgo.ttl]
+licenses: ["CC-BY-NC-SA-2.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The Video Game Ontology"
+authors:
+  - name: "Daniel Garijo"
+    link: "http://purl.org/net/dgarijo"
+  - name: "Janne Parkkila"
+  - name: "María Poveda-Villalón"
+    link: "https://orcid.org/0000-0003-3587-0367"
+  - name: "Filip Radulovic"
+publishers:
+  - name: "Daniel Garijo"
+    link: "http://purl.org/net/dgarijo"
+  - name: "Janne Parkkila"
+  - name: "María Poveda-Villalón"
+    link: "https://orcid.org/0000-0003-3587-0367"
+  - name: "Filip Radulovic"
+description: "The Video Game Ontology is an ontology designed for describing video games and all the resources related to their game plays."
+keywords: ["Games"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/vgo/versions/2015-05-05.n3
+    name: vgo.ttl
+    sha256: "752af800ea3ad73e0508861e8f1fb26282e614b7d096232815907d434b8178a0"
+    size: 34417

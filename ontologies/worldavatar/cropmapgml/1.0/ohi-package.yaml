@@ -1,0 +1,27 @@
+namespace: worldavatar
+name: cropmapgml
+version: "1.0"
+language: owl
+syntax: rdfxml
+roots: [cropmapgml.owl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "WorldAvatar crop map GML ontology"
+authors:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+publishers:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+description: "An ontology developed for representing crop maps."
+keywords: ["ontology", "worldavatar"]
+originalSources: ["https://github.com/TheWorldAvatar/ontology", "https://theworldavatar.io"]
+sources:
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/ontology/ontocropmapgml/OntoCropMapGML.owl
+    name: cropmapgml.owl
+    sha256: "385d61b14899446777ea19fca0ada58e2dd98e3af72d70b642bc47cb263cb27e"
+    size: 14414
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/LICENSE.txt
+    sha256: "8c29b2cb4c712a0d382d1951ffc7e2a155ec7095c7e92a896f5919eb02c31ea9"
+    size: 1309

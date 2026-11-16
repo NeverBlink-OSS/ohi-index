@@ -1,0 +1,37 @@
+namespace: pko
+name: pko
+version: "1.0.0"
+language: owl
+syntax: turtle
+roots: [pko.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Procedural Knowledge Ontology (PKO)"
+authors:
+  - name: "Valentina Anita Carriero"
+    link: "https://orcid.org/0000-0003-1427-3723"
+  - name: "Mario Scrocca"
+    link: "https://orcid.org/0000-0002-8235-7331"
+publishers:
+  - name: "Cefriel"
+    link: "https://www.cefriel.com/"
+contributors:
+  - name: "Antonia Azzini"
+    link: "https://orcid.org/0000-0002-9066-1229"
+  - name: "Ilaria Baroni"
+    link: "https://orcid.org/0000-0001-5791-8427"
+  - name: "Irene Celino"
+    link: "http://iricelino.org"
+description: "The Procedural Knowledge Ontology (PKO) addresses the Procedural Knowledge (PK) domain, and models procedures, their executions, and related resources and agents."
+keywords: ["Events", "Methods"]
+publications:
+  - title: "Carriero, V.A., Scrocca, M., Baroni, I., Azzini, A., Celino, I. (2025). Procedural Knowledge Ontology (PKO)."
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/pko/versions/2025-07-09.n3
+    name: pko.ttl
+    sha256: "b912ff73fab755bd431885fe76e852cdfeff479f62897d91ca694d4ace0b9224"
+    size: 73217
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

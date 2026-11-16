@@ -1,0 +1,30 @@
+namespace: w3c
+name: dqv
+version: "2016"
+language: owl
+syntax: turtle
+roots: [dqv.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Data Quality Vocabulary"
+authors:
+  - name: "Antoine Isaac"
+  - name: "Riccardo Albertoni"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+contributors:
+  - name: "Jeremy Debattista"
+  - name: "Makx Dekkers"
+  - name: "Christophe Guéret"
+  - name: "Deirdre Lee"
+  - name: "Nandana Mihindukulasooriya"
+  - name: "Amrapali Zaveri"
+description: "W3C vocabulary for the quality of datasets: metrics, measurements, annotations and certificates."
+keywords: ["data quality", "datasets", "metadata"]
+originalSources: ["http://www.w3.org/TR/vocab-dqv"]
+sources:
+  - url: https://www.w3.org/ns/dqv.ttl
+    sha256: "cc333223d13c663e027456ea43b15a63c1a25505bc752599953f380420573863"
+    size: 12246

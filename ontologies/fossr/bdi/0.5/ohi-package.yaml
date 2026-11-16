@@ -1,0 +1,42 @@
+namespace: fossr
+name: bdi
+version: "0.5"
+language: owl
+syntax: turtle
+roots: [bdi.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Belief-Desire-Intention Ontology"
+authors:
+  - name: "Francesco Poggi"
+    link: "https://orcid.org/0000-0001-6577-5606"
+  - name: "Antonio Zinilli"
+    link: "https://orcid.org/0000-0001-8505-5040"
+  - name: "Rocco Paolillo"
+    link: "https://orcid.org/0000-0001-9816-5839"
+  - name: "Anna Sofia Lippolis"
+    link: "https://orcid.org/0000-0002-0266-3452"
+  - name: "Carmelo Fabio Longo"
+    link: "https://orcid.org/0000-0002-2536-8659"
+  - name: "Miguel Ceriani"
+    link: "https://orcid.org/0000-0002-5074-2112"
+  - name: "Andrea Giovanni Nuzzolese"
+    link: "https://orcid.org/0000-0003-2928-9496"
+  - name: "Sara Zuppiroli"
+    link: "https://orcid.org/0009-0006-3298-6232"
+  - name: "Lorenzo Giammei"
+    link: "https://orcid.org/0009-0009-3976-0107"
+publishers:
+  - name: "Istituto di Scienze e Tecnologie della Cognizione del CNR - Semantic Technology Lab (STLab)"
+    link: "https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab"
+description: "The BDI Ontology provides a formal framework to model the Belief-Desire-Intention (BDI) architecture for rational agents."
+keywords: ["API", "Events"]
+originalSources: ["https://github.com/fossr-project/ontology"]
+sources:
+  - url: https://raw.githubusercontent.com/fossr-project/ontology/refs/heads/main/bdi/bdi.ttl
+    sha256: "250e02bf7987802f6051fbf01f9af53990863f5edc3a8ea52de09c382cbde984"
+    size: 138096
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

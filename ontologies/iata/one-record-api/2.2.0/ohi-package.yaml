@@ -1,0 +1,26 @@
+namespace: iata
+name: one-record-api
+version: "2.2.0"
+language: owl
+syntax: turtle
+roots: [ONE-Record-API-Ontology.ttl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["iata/one-record-cargo@3.2"]
+title: "IATA ONE Record API"
+authors:
+  - name: "International Air Transport Association"
+    link: "https://www.iata.org/"
+publishers:
+  - name: "International Air Transport Association"
+    link: "https://www.iata.org/"
+description: "Data model of the IATA ONE Record API: logistics objects, events, notifications and access control."
+keywords: ["air cargo", "API", "logistics"]
+originalSources: ["https://github.com/IATA-Cargo/ONE-Record"]
+sources:
+  - url: https://github.com/IATA-Cargo/ONE-Record/blob/698d641a5ed3bebc2ff73ba62665b64edbaa0c1f/2025-07-standard/API-Security/ONE-Record-API-Ontology.ttl
+    sha256: "63f074788df66df49846d009769691e32b354126c00dad8808950e1f3414193e"
+    size: 72351
+  - url: https://github.com/IATA-Cargo/ONE-Record/blob/698d641a5ed3bebc2ff73ba62665b64edbaa0c1f/LICENSE
+    sha256: "ab47bc573d9e96eaada75f703e951ecbcf136b1752eb51098610b9a8481094dc"
+    size: 1067

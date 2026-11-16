@@ -1,0 +1,27 @@
+namespace: raras
+name: class
+version: "1.0.0"
+language: owl
+syntax: turtle
+roots: [class.ttl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Raras Class"
+authors:
+  - name: "Raras"
+    link: "https://raras.org"
+publishers:
+  - name: "Raras"
+    link: "https://raras.org"
+description: "Classes of the Raras rare disease knowledge graph."
+keywords: ["ontology", "raras"]
+originalSources: ["https://raras.org"]
+sources:
+  - url: https://raras.org/ontology
+    name: class.ttl
+    sha256: "f77cf06fe6cb6a3ceeca9b9ed1be6987f6e00d606d9bf38c7f3d2694ba66315b"
+    size: 9189
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

@@ -1,0 +1,35 @@
+namespace: hpont
+name: hpont
+version: "0.2"
+language: owl
+syntax: rdfxml
+roots: [hpont.owl]
+licenses: ["CC-BY-NC-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The Heat Pump Ontology (HPOnt)"
+authors:
+  - name: "Iker Esnaola-Gonzalez"
+    contact: "iker.esnaola@tekniker.es"
+publishers:
+  - name: "Iker Esnaola-Gonzalez"
+    contact: "iker.esnaola@tekniker.es"
+contributors:
+  - name: "Ignacio Lazaro"
+    contact: "ignacio.lazar@tekniker.es"
+  - name: "Daniel Coakley"
+    contact: "d.coakley@uk.merce.mee.com"
+  - name: "James Freeman"
+    contact: "j.freeman@uk.merce.mee.com"
+  - name: "Paulo Lissa"
+    contact: "paulo.lissa@nuigalway.ie"
+description: "The Heat Pump Ontology (HPOnt) aims to formalize and represent all the relevant information of Heat Pumps."
+keywords: ["IoT", "Transport"]
+sources:
+  - url: https://react2020.github.io/REACT-ONTOLOGY/HPOnt/ontology/ontology.owl
+    name: hpont.owl
+    sha256: "5d8c33ed42beb4c455f9bc96398e54d3681bc75ed2cbb40cd102dc4fdb737112"
+    size: 20115
+  - url: https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt
+    sha256: "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+    size: 19347

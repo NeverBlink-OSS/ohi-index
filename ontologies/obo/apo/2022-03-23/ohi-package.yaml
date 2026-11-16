@@ -1,0 +1,32 @@
+namespace: obo
+name: apo
+version: "2022-03-23"
+language: owl
+syntax: rdfxml
+roots: [apo.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Ascomycete phenotype ontology"
+authors:
+  - name: "Saccharomyces Genome Database"
+    link: "https://www.yeastgenome.org/"
+publishers:
+  - name: "Saccharomyces Genome Database"
+    link: "https://www.yeastgenome.org/"
+contributors:
+  - name: "Maria Costanzo"
+  - name: "Suzi Aleksander"
+description: "A structured controlled vocabulary for the phenotypes of Ascomycete fungi."
+keywords: ["phenotype", "OBO"]
+originalSources: ["https://github.com/obophenotype/ascomycete-phenotype-ontology", "http://www.yeastgenome.org"]
+publications:
+  - title: "New mutant phenotype data curation system in the Saccharomyces Genome Database"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/20157474"
+sources:
+  - url: https://github.com/obophenotype/ascomycete-phenotype-ontology/blob/v2022-03-23/apo.owl
+    sha256: "e7cb326075ab4c4eabfcf6ecb2bdf983da06db0a2b0a7b10121768fe63e1143d"
+    size: 716033
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

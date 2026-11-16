@@ -1,0 +1,29 @@
+namespace: obo
+name: wbls
+version: "2021-07-06"
+language: owl
+syntax: rdfxml
+roots: [wbls.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "C. elegans development ontology"
+authors:
+  - name: "WormBase"
+    link: "https://wormbase.org/"
+publishers:
+  - name: "WormBase"
+    link: "https://wormbase.org/"
+description: "A structured controlled vocabulary of the development of <i>Caenorhabditis elegans</i>."
+keywords: ["anatomy and development", "developemental life stage", "OBO"]
+originalSources: ["https://github.com/obophenotype/c-elegans-development-ontology"]
+publications:
+  - title: "WormBase: a modern Model Organism Information Resource"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/31642470"
+sources:
+  - url: https://github.com/obophenotype/c-elegans-development-ontology/blob/vWS282/wbls.owl
+    sha256: "1f89a0ece56f1cebdca9c44ff527ce9afeff099fde0c0d3402bd7a1862a7d8b7"
+    size: 2203138
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

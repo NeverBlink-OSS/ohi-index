@@ -1,0 +1,24 @@
+namespace: obo
+name: genepio
+version: "2026-04-13"
+language: owl
+syntax: rdfxml
+roots: [genepio.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Genomic Epidemiology Ontology"
+authors:
+  - name: "Damion Dooley"
+    contact: "damion_dooley@sfu.ca"
+    link: "https://orcid.org/0000-0002-8844-9165"
+publishers:
+  - name: "Genomic Epidemiology Ontology"
+    link: "http://genepio.org/"
+description: "The Genomic Epidemiology Ontology (GenEpiO) covers vocabulary necessary to identify, document and research foodborne pathogens and associated outbreaks."
+keywords: ["health", "OBO"]
+originalSources: ["https://github.com/GenEpiO/genepio", "http://genepio.org"]
+sources:
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

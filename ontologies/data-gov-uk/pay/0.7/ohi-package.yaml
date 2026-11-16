@@ -1,0 +1,31 @@
+namespace: data-gov-uk
+name: pay
+version: "0.7"
+language: owl
+syntax: turtle
+roots: [pay.ttl]
+licenses: ["PDDL-1.0"]
+licenseFiles: [pddl-10.txt]
+dependencies: []
+title: "Payments ontology"
+authors:
+  - name: "Jeni Tennison"
+    contact: "jeni@jenitennison.com"
+  - name: "Dave Reynolds"
+    contact: "dave@epimorphics.com"
+publishers:
+  - name: "Jeni Tennison"
+    contact: "jeni@jenitennison.com"
+  - name: "Dave Reynolds"
+    contact: "dave@epimorphics.com"
+description: "Vocabulary for representing payments, such as government expenditures, using the data cube representation."
+keywords: ["Contracts"]
+originalSources: ["http://data.gov.uk/resources/payments"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/pay/versions/2010-11-16.n3
+    name: pay.ttl
+    sha256: "d5f8f23bda97993f34b2fba6a48c61d6c79383f6f6937de59e4d1fe2ef08b327"
+    size: 14661
+  - url: https://opendatacommons.org/licenses/pddl/pddl-10.txt
+    sha256: "40e19160034659380a29a43311c560b0b24dd529b96399f954fb7fbe2f98d33a"
+    size: 15802

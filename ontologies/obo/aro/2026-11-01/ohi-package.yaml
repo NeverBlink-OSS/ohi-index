@@ -1,0 +1,72 @@
+namespace: obo
+name: aro
+version: "2026-11-01"
+language: owl
+syntax: rdfxml
+roots: [aro.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Antibiotic Resistance Ontology"
+authors:
+  - name: "BP Alcock"
+  - name: "W Huynh"
+  - name: "R Chalil"
+  - name: "KW Smith"
+  - name: "AR Raphenya"
+  - name: "MA Wlodarski"
+  - name: "A Edalatmand"
+  - name: "A Petkau"
+  - name: "SA Syed"
+  - name: "KK Tsang"
+  - name: "SJC Baker"
+  - name: "M Dave"
+  - name: "MC McCarthy"
+  - name: "KM Mukiri"
+  - name: "JA Nasir"
+  - name: "B Golbon"
+  - name: "H Imtiaz"
+  - name: "X Jiang"
+  - name: "K Kaur"
+  - name: "M Kwong"
+  - name: "ZC Liang"
+  - name: "KC Niu"
+  - name: "P Shan"
+  - name: "JYJ Yang"
+  - name: "KL Gray"
+  - name: "GR Hoad"
+  - name: "B Jia"
+  - name: "T Bhando"
+  - name: "LA Carfrae"
+  - name: "MA Farha"
+  - name: "S French"
+  - name: "R Gordzevich"
+  - name: "K Rachwalski"
+  - name: "MM Tu"
+  - name: "E Bordeleau"
+  - name: "Damion Dooley"
+  - name: "Emma Griffiths"
+  - name: "HL Zubyk"
+  - name: "ED Brown"
+  - name: "F Maguire"
+  - name: "RG Beiko"
+  - name: "WWL Hsiao"
+  - name: "FSL Brinkman"
+  - name: "G Van Domselaar"
+  - name: "AG McArthur"
+publishers:
+  - name: "Comprehensive Antibiotic Resistance Database"
+    link: "http://card.mcmaster.ca"
+description: "Antibiotic resistance genes and mutations."
+keywords: ["microbiology", "OBO"]
+originalSources: ["https://github.com/arpcard/aro"]
+publications:
+  - title: "CARD 2020: antibiotic resistome surveillance with the comprehensive antibiotic resistance database."
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/31665441"
+sources:
+  - url: https://github.com/arpcard/aro/blob/f0f7f45053e52bb756e0077883eaa93ccfff2b75/aro.owl
+    sha256: "0207b9156898d011cff6397a1cf5b0e178ce7806222c73de875b57a0d0e6b6fc"
+    size: 12743305
+  - url: https://github.com/arpcard/aro/blob/f0f7f45053e52bb756e0077883eaa93ccfff2b75/LICENSE
+    sha256: "f5b745ef98087f531e719ee8ca6a96809444573ecc7173c6fa68eaad39b3cc3f"
+    size: 18658

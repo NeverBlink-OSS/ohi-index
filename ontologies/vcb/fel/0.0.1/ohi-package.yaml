@@ -1,0 +1,28 @@
+namespace: vcb
+name: fel
+version: "0.0.1"
+language: owl
+syntax: turtle
+roots: [fel.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "A Fine-grained Entity Linking vocabulary"
+authors:
+  - name: "Henry Rosales-Mendez"
+  - name: "Aidan Hogan"
+  - name: "Barbara Poblete"
+publishers:
+  - name: "Millennium Institute for Foundational Research on Data"
+    link: "https://imfd.cl/"
+  - name: "Departamento de Ciencias de la Computación, Universidad de Chile"
+    link: "https://www.dcc.uchile.cl/"
+description: "This RDF vocabulary can be use to describe and categorize annotations involving entity mentions (sub-strings of text) that link to knowledgebase identifiers."
+keywords: ["Vocabularies"]
+sources:
+  - url: https://users.dcc.uchile.cl/~hrosales/fel.ttl
+    sha256: "8295c92f0909f77c55560c2a21aa33fad496f1b94fb9bbabb3f87f91fa75803f"
+    size: 18079
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

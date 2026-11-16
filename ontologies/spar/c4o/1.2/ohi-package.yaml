@@ -1,0 +1,29 @@
+namespace: spar
+name: c4o
+version: "1.2"
+language: owl
+syntax: rdfxml
+roots: [c4o.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE.md]
+dependencies: ["spar/biro@1.2.1"]
+title: "SPAR Citation Counting and Context Characterization Ontology"
+authors:
+  - name: "David Shotton"
+    link: "http://opencitations.net"
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+description: "Ontology of citation counts and the contexts in which citations appear."
+keywords: ["citations", "bibliometrics"]
+originalSources: ["https://github.com/SPAROntologies/c4o"]
+sources:
+  - url: https://sparontologies.github.io/c4o/2018-06-22/c4o.xml
+    name: c4o.rdf
+    sha256: "82eda358b640810ad5aab9dbfaee9f29f77abc49ed2f1aec6064bf0c21ed1ea8"
+    size: 28518
+  - url: https://github.com/SPAROntologies/c4o/blob/cbca6a98aef675f18c72abe058a7e299a92a94f0/LICENSE.md
+    sha256: "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    size: 18656

@@ -1,0 +1,28 @@
+namespace: ioc
+name: ioc
+version: "0.5.1"
+language: owl
+syntax: turtle
+roots: [ioc.ttl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "IOC: Internet of Construction Ontology"
+authors:
+  - name: "Lukas Kirner"
+  - name: "Peter R. Wildemann"
+  - name: "Jyrki Oraskari"
+publishers:
+  - name: "Lukas Kirner"
+  - name: "Peter R. Wildemann"
+  - name: "Jyrki Oraskari"
+description: "The Internet of Construction Ontology (IoC) construction process ontology is intended to represent a comprehensive solution of how processes in the construction industry can be modelled."
+keywords: ["Industry", "Methods"]
+sources:
+  - url: https://internet-of-construction.github.io/IoC-Process-Ontology/ontology.ttl
+    name: ioc.ttl
+    sha256: "f29c4976e5503655b591e230961d8b19e5e68bbcd041bff3c3c7658d42ce6d25"
+    size: 43964
+  - url: https://github.com/internet-of-construction/IoC-Process-Ontology/blob/80f9f384159d0b1bd0dd898ef596933de249c287/LICENSE
+    sha256: "df288d73efb149685c26c6eb7c11c0849052a8523b90d87332f14aa4b72e77d1"
+    size: 1081

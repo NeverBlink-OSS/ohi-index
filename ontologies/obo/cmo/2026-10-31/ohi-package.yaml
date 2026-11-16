@@ -1,0 +1,36 @@
+namespace: obo
+name: cmo
+version: "2026-10-31"
+language: owl
+syntax: rdfxml
+roots: [clinical_measurement.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Clinical measurement ontology"
+authors:
+  - name: "Carissa A. Park"
+  - name: "Harika S. Nalabolu"
+  - name: "Jennifer R. Smith"
+  - name: "Mary Shimoyama"
+  - name: "Rajni Nigam"
+  - name: "Shur-Jen Wang"
+  - name: "Stanley J. F. Laulederkind"
+publishers:
+  - name: "Rat Genome Database"
+    link: "https://rgd.mcw.edu/"
+description: "Morphological and physiological measurement records generated from clinical and model organism research and health programs."
+keywords: ["health", "clinical", "OBO"]
+originalSources: ["http://rgd.mcw.edu/rgdweb/ontology/search.html", "https://github.com/rat-genome-database/CMO-Clinical-Measurement-Ontology"]
+publications:
+  - title: "Three ontologies to define phenotype measurement data."
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/22654893"
+  - title: "The clinical measurement, measurement method and experimental condition ontologies: expansion, improvements and new applications."
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/24103152"
+sources:
+  - url: https://download.rgd.mcw.edu/ontology/clinical_measurement/clinical_measurement.owl
+    sha256: "784c1188833994f1e8676412406d7fb42a8b21834456de3b6eb761531e0d96a0"
+    size: 9556049
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,26 @@
+namespace: ctic
+name: emp
+version: "2012-09-01"
+language: owl
+syntax: turtle
+roots: [emp.ttl]
+licenses: ["CC-BY-NC-SA-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "A vocabulary for jobs"
+authors:
+  - name: "Fundación CTIC"
+    link: "https://www.fundacionctic.org/"
+publishers:
+  - name: "Fundación CTIC"
+    link: "https://www.fundacionctic.org/"
+description: "This is a vocabulary for modeling jobs offer in Spain."
+keywords: ["Society"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/emp/versions/2012-09-01.n3
+    name: emp.ttl
+    sha256: "85f7002a37fdddca275c63dbd609e664a7e52d3ea8b9f4f87fa0aa15ec2f8a29"
+    size: 16856
+  - url: https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode.txt
+    sha256: "8812f83442fd0eca14eb0208988e190fdcbfebec58fa5459d3218edfdfdc5a32"
+    size: 22306

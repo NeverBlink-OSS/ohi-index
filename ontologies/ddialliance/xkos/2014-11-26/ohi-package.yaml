@@ -1,0 +1,33 @@
+namespace: ddialliance
+name: xkos
+version: "2014-11-26"
+language: owl
+syntax: ntriples
+roots: [xkos.nt]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "XKOS"
+authors:
+  - name: "Franck Cotton"
+publishers:
+  - name: "DDI Alliance"
+    link: "https://ddialliance.org/"
+contributors:
+  - name: "Daniel Gillman"
+  - name: "Wendy L. Thomas"
+  - name: "Richard Cyganiak"
+  - name: "Jannik Jensen"
+  - name: "Thomas Bosch"
+  - name: "R.T.A.M. Grim"
+  - name: "Yves Jaques"
+description: "An extension of SKOS for representaion of nomenclatures."
+keywords: ["Vocabularies"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/xkos/versions/2016-03-20.n3
+    name: xkos.nt
+    sha256: "dff9fe9c8d06b1f5b7b8aeef17ce96b05d273de77b8d107ba370592473a97a23"
+    size: 47311
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

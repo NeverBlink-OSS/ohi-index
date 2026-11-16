@@ -1,0 +1,24 @@
+namespace: ossie
+name: flights
+version: "2026-10-06"
+language: ossie
+syntax: yaml
+roots: [flights.ontology.yaml]
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE]
+copyrightFiles: [NOTICE]
+dependencies: []
+title: "Ossie flights example"
+authors:
+  - name: "The Apache Software Foundation"
+    link: "https://www.apache.org/"
+publishers:
+  - name: "The Apache Software Foundation"
+    link: "https://www.apache.org/"
+description: "Apache Ossie example ontology of flights, airports and airlines."
+keywords: ["aviation", "flights", "example"]
+originalSources: ["https://github.com/apache/ossie"]
+sources:
+  - url: https://raw.githubusercontent.com/apache/ossie/891f007945b5666464a45e2c75c1a0a8be9cd7f7/examples/flights.ontology.yaml
+    sha256: "4035aa22494a1dfc739f5fe6689ffa74d07338497ef67a7acab69c568eae00fd"
+    size: 16359

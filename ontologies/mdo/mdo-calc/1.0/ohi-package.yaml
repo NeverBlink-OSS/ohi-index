@@ -1,0 +1,27 @@
+namespace: mdo
+name: mdo-calc
+version: "1.0"
+language: owl
+syntax: ntriples
+roots: [mdo-calc.nt]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["mdo/core@1.0"]
+title: "Materials Design Ontology - Calculation Module"
+authors:
+  - name: "Huanyu Li"
+publishers:
+  - name: "Huanyu Li"
+contributors:
+  - name: "Patrick Lambrix"
+  - name: "Rickard Armiento"
+description: "This is the calculation module of Materials Design Ontology."
+keywords: ["Biology", "Support"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/mdo-calc/versions/2019-11-07.n3
+    name: mdo-calc.nt
+    sha256: "702f349d1ccff67f74f5062da5e8b9907e9e60ff725d088e2942a4921fd34902"
+    size: 17861
+  - url: https://github.com/huanyu-li/Materials-Design-Ontology/blob/9d0fd411b6c398fe90c842be568b751908041326/LICENSE
+    sha256: "2f32d3f3825d66ba17eb59662ea9b12905e30cd6c6c5715c6881accf7cf3c166"
+    size: 1052

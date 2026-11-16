@@ -1,0 +1,31 @@
+namespace: saref
+name: saref4inma
+version: "v2.1.1"
+language: owl
+syntax: turtle
+roots: [saref4inma.ttl]
+licenses: ["BSD-3-Clause"]
+licenseFiles: [LICENSE]
+dependencies: ["saref/saref-core@v4.1.1", "saref/saref4bldg@v2.1.1"]
+title: "SAREF4INMA"
+authors:
+  - name: "Laura Daniele"
+  - name: "Raúl García-Castro"
+  - name: "Mike de Roode"
+  - name: "Alba Fernández-Izquierdo"
+publishers:
+  - name: "European Telecommunications Standards Institute"
+    link: "https://www.etsi.org/"
+contributors:
+  - name: "Matthijs Punter"
+  - name: "María Poveda-Villalón"
+description: "SAREF extension for industry and manufacturing: production equipment, items and batches."
+keywords: ["manufacturing", "industry", "IoT"]
+originalSources: ["https://saref.etsi.org/saref4inma"]
+sources:
+  - url: https://saref.etsi.org/saref4inma/v2.1.1/saref4inma.ttl
+    sha256: "b4b07d9d492c675f3019c23a12c2cea37004d9778e11a19628afc1e175d12788"
+    size: 37084
+  - url: https://labs.etsi.org/rep/saref/saref4inma/-/raw/bfa285210f409f518dfe01e9726264e405db9bd3/LICENSE
+    sha256: "8f102e377f1ad7ed9fa90d9dd6cb9ab75e071949dcdb8cb413a10dc98d80b9d4"
+    size: 1475

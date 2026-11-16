@@ -1,0 +1,28 @@
+namespace: commons
+name: locations
+version: "20240801"
+language: owl
+syntax: rdfxml
+roots: [Locations.rdf]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["commons/annotation-vocabulary@20250801", "commons/classifiers@20240801", "commons/codes-and-code-sets@20221101", "commons/collections@20221101", "commons/designators@20250801", "commons/identifiers@20221101", "commons/quantities-and-units@20240801", "commons/text-datatype@20221101"]
+title: "OMG Commons Locations"
+authors:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+publishers:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+contributors:
+  - name: "Elisa Kendall"
+  - name: "Evan Wallace"
+  - name: "Pete Rivett"
+  - name: "Roy Bell"
+description: "Geographic regions, geopolitical entities, countries and addresses."
+keywords: ["OMG Commons", "locations", "geography"]
+originalSources: ["https://www.omg.org/spec/Commons"]
+sources:
+  - url: https://www.omg.org/spec/Commons/20240801/Locations.rdf
+    sha256: "e02771b47b34334cc85369eec557b4c68cbb226b9e9d3604f3f5b5135774f173"
+    size: 29687

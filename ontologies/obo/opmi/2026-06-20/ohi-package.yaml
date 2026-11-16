@@ -1,0 +1,44 @@
+namespace: obo
+name: opmi
+version: "2026-06-20"
+language: owl
+syntax: rdfxml
+roots: [opmi.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Ontology of Precision Medicine and Investigation"
+authors:
+  - name: "Anthony Huffman"
+  - name: "Asiyah Yu Lin"
+  - name: "Fred Dowd"
+  - name: "Hong Yu"
+  - name: "Jennifer Schaub"
+  - name: "Jie Zheng"
+  - name: "Long Tran"
+  - name: "Minh-Y Hoang Nguyen"
+  - name: "Qingliang Leon Li"
+  - name: "Suyuan Peng"
+  - name: "Yongqun He"
+    contact: "yongqunh@med.umich.edu"
+    link: "http://www.hegroup.org"
+  - name: "Yujia Tian"
+publishers:
+  - name: "Ontology of Precision Medicine and Investigation"
+    link: "https://github.com/OPMI"
+contributors:
+  - name: "Becky Steck"
+  - name: "Christopher Park"
+  - name: "John F. O’Toole"
+  - name: "Matthias Kretzler"
+  - name: "Sean Mooney"
+description: "The Ontology of Precision Medicine and Investigation (OPMI) aims to ontologically represent and standardize various entities and relations associated with precision medicine and related investigations at different conditions."
+keywords: ["investigations", "OBO"]
+originalSources: ["https://github.com/OPMI/opmi"]
+sources:
+  - url: https://github.com/OPMI/opmi/blob/d2a7a60bffbcaa7ebfad835a88ee4ec3838a9466/opmi.owl
+    sha256: "081b02ed22e0c9006ffe1bd4fe68b0f2e8076e3fb989af5595f2ddb1020f7570"
+    size: 5195365
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

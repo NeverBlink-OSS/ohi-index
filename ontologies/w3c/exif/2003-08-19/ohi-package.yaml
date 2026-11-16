@@ -1,0 +1,23 @@
+namespace: w3c
+name: exif
+version: "2003-08-19"
+language: rdfs
+syntax: turtle
+roots: [exif.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Exif data description vocabulary"
+authors:
+  - name: "Masahide Kanzaki"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "Vocabulary to describe an Exif format picture data."
+keywords: ["Image"]
+originalSources: ["http://www.w3.org/2003/12/exif"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/exif/versions/2003-08-19.n3
+    name: exif.ttl
+    sha256: "88ac3c6734d3484e3993d151e0c2f9ee2000b04f3f107235ee6d5b3c48ccf451"
+    size: 62859

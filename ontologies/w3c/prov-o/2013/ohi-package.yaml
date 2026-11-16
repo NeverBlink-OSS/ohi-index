@@ -1,0 +1,24 @@
+namespace: w3c
+name: prov-o
+version: "2013"
+language: owl
+syntax: turtle
+roots: [prov-o.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "PROV Ontology"
+authors:
+  - name: "Timothy Lebo"
+  - name: "Satya S. Sahoo"
+  - name: "Deborah L. McGuinness"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "W3C ontology for the provenance of entities, activities and agents."
+keywords: ["provenance"]
+originalSources: ["https://www.w3.org/TR/prov-o"]
+sources:
+  - url: https://www.w3.org/ns/prov-o.ttl
+    sha256: "7d203989f67b38bca572253942acc5a1bf24ce3ccfece16f072dcb4be2b79a96"
+    size: 68795

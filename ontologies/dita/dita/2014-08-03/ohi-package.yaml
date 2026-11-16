@@ -1,0 +1,27 @@
+namespace: dita
+name: dita
+version: "2014-08-03"
+language: rdfs
+syntax: turtle
+roots: [dita.ttl]
+licenses: ["Unlicense"]
+licenseFiles: [UNLICENSE]
+dependencies: []
+title: "DITA RDF ontology"
+authors:
+  - name: "Colin Maudry"
+    contact: "colin@maudry.com"
+publishers:
+  - name: "Colin Maudry"
+    contact: "colin@maudry.com"
+description: "The DITA RDF ontology translates the semantics of a subset of the vocabulary described in the DITA 1.2 specification in a format that can be understood in the semantic Web of data."
+keywords: ["RDF"]
+originalSources: ["https://github.com/ColinMaudry/dita-rdf"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/dita/versions/2014-08-03.n3
+    name: dita.ttl
+    sha256: "21ae9f126f6d7b7e61e57927073fbfb06910a8f92302344ee120b48ac6a36eb9"
+    size: 45051
+  - url: https://unlicense.org/UNLICENSE
+    sha256: "b5065838cbac452dfc855ba6e6e031481ad2c68406f70d21ead9321374653e6c"
+    size: 1212

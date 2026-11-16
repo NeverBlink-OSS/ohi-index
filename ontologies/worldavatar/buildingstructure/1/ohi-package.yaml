@@ -1,0 +1,27 @@
+namespace: worldavatar
+name: buildingstructure
+version: "1"
+language: owl
+syntax: rdfxml
+roots: [buildingstructure.owl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "WorldAvatar building structure ontology"
+authors:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+publishers:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+description: "The Building Structure ontology (OntoBuildingStructure) is an ontology developed to represent the building structural components (walls, doors, slabs, roofs, stairs) and their individual characteristics such as dimensions and qualities."
+keywords: ["ontology", "worldavatar"]
+originalSources: ["https://github.com/TheWorldAvatar/ontology", "https://theworldavatar.io"]
+sources:
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/ontology/ontobuildingstructure/OntoBuildingStructure.owl
+    name: buildingstructure.owl
+    sha256: "61bb44918eca50b525a6a24e3fc137539cc0ecb2158a86c40099d13154eea2cc"
+    size: 33990
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/LICENSE.txt
+    sha256: "8c29b2cb4c712a0d382d1951ffc7e2a155ec7095c7e92a896f5919eb02c31ea9"
+    size: 1309

@@ -1,0 +1,27 @@
+namespace: cimug-org
+name: cim
+version: "2026-11-02"
+language: owl
+syntax: rdfxml
+roots: [cim.owl]
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "International Electrotechnical Commission Common Information Model Ontology"
+authors:
+  - name: "UCA CIM & 61850 Users Groups"
+    link: "https://ucaiug.org/"
+publishers:
+  - name: "UCA CIM & 61850 Users Groups"
+    link: "https://ucaiug.org/"
+description: "An ontology export from the International ElectroChemical Commission (EIC)'s common information model produced by TNO."
+keywords: ["energy", "ontology"]
+originalSources: ["https://github.com/cimug-org/IEC-CIM-Ontology", "http://cim.puffinsemantics.com"]
+sources:
+  - url: https://github.com/cimug-org/IEC-CIM-Ontology/blob/585fde46d16329ecf45cc0021de0564ae5d98ab0/TheCimOntology.owl
+    name: cim.owl
+    sha256: "0004e2933ddd9d38eb9041a3d2afa3eada6473d0b0ab07d90887c13a8a31b9e1"
+    size: 7994005
+  - url: https://github.com/cimug-org/IEC-CIM-Ontology/blob/585fde46d16329ecf45cc0021de0564ae5d98ab0/LICENSE
+    sha256: "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    size: 11357

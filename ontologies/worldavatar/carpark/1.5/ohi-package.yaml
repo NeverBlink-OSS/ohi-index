@@ -1,0 +1,27 @@
+namespace: worldavatar
+name: carpark
+version: "1.5"
+language: owl
+syntax: rdfxml
+roots: [carpark.owl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "WorldAvatar carpark ontology"
+authors:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+publishers:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+description: "OntoCarpark is an ontology for representing a carpark's information."
+keywords: ["ontology", "worldavatar"]
+originalSources: ["https://github.com/TheWorldAvatar/ontology", "https://theworldavatar.io"]
+sources:
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/ontology/ontocarpark/OntoCarpark.owl
+    name: carpark.owl
+    sha256: "79945df6be25f67b3596cc924fd7bddd76f953730b6ffbbd8affd060946026f1"
+    size: 10098
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/LICENSE.txt
+    sha256: "8c29b2cb4c712a0d382d1951ffc7e2a155ec7095c7e92a896f5919eb02c31ea9"
+    size: 1309

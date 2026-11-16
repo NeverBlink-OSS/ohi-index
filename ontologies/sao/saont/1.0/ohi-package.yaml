@@ -1,0 +1,29 @@
+namespace: sao
+name: saont
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [saont.ttl]
+licenses: ["CC-BY-NC-SA-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The System Accountability Ontology"
+authors:
+  - name: "Iman Naja"
+  - name: "Peter Edwards"
+    link: "https://www.abdn.ac.uk/ncs/profiles/p.edwards"
+  - name: "Milan Markovic"
+    link: "https://www.abdn.ac.uk/ncs/profiles/milan.markovic/"
+publishers:
+  - name: "University of Aberdeen"
+    link: "https://www.abdn.ac.uk/"
+description: "An ontology to model accountability of generic systems."
+keywords: ["API", "Support"]
+sources:
+  - url: https://rains-uoa.github.io/SAO-Ontology/ontology.ttl
+    name: saont.ttl
+    sha256: "371775d38a99bed3a2cd891075856cd3e179315a39971d9daae325dd0d91bf6d"
+    size: 12008
+  - url: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.txt
+    sha256: "e66c269d4819aaab34b49ef5220c4ddab6756f21bb5180761a4eb8561f2b7bbd"
+    size: 20850

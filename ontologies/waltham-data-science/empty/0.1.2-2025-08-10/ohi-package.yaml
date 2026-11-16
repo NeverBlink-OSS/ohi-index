@@ -1,0 +1,26 @@
+namespace: waltham-data-science
+name: empty
+version: "0.1.2-2025-08-10"
+language: owl
+syntax: rdfxml
+roots: [empty.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Experimental Measurements Purposes and Treatments ontologY"
+authors:
+  - name: "Waltham Data Science"
+    link: "https://github.com/Waltham-Data-Science"
+publishers:
+  - name: "Waltham Data Science"
+    link: "https://github.com/Waltham-Data-Science"
+description: "The Experimental Measurements, Purposes, and Treatments ontologY (EMPTY) is a structured vocabulary designed to capture and standardize the scientific reasoning behind experimental measurements."
+keywords: ["ontology"]
+originalSources: ["https://github.com/Waltham-Data-Science/empty-ontology"]
+sources:
+  - url: https://github.com/Waltham-Data-Science/empty-ontology/blob/v0.1.2-2025-08-10/empty.owl
+    sha256: "4da7d0fe0c164ccd5020b408572ed510a1299d2708039d8f5f8b136b50d0c7f8"
+    size: 9461652
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

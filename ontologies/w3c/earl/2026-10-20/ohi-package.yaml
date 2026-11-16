@@ -1,0 +1,24 @@
+namespace: w3c
+name: earl
+version: "2026-10-20"
+language: owl
+syntax: rdfxml
+roots: [earl.rdf]
+base: http://www.w3.org/ns/earl
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Evaluation and Report Language (EARL)"
+authors:
+  - name: "Shadi Abou-Zahra"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "W3C vocabulary for test results and conformance reports."
+keywords: ["testing", "conformance", "accessibility"]
+originalSources: ["https://www.w3.org/TR/EARL10-Schema"]
+sources:
+  - url: https://www.w3.org/ns/earl.rdf
+    name: earl.rdf
+    sha256: "4cde74807d5e31e58cc462ea6c1b1fc8fc0cf5bdbf8ac224ef95525efbeb2879"
+    size: 13564

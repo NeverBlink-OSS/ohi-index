@@ -1,0 +1,28 @@
+namespace: th-brandenburg
+name: spvqa
+version: "2017-06-05"
+language: owl
+syntax: turtle
+roots: [spvqa.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Scholarly Papers Vocabulary with Focus on Qualtitative Analysis"
+authors:
+  - name: "Vera G. Meister"
+    contact: "vera.meister@th-brandenburg.de"
+    link: "https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister/"
+publishers:
+  - name: "BUAS - Brandenburg University of Applied Sciences"
+    link: "http://th-brandenburg.de"
+description: "The ontology is aimed at the support of research groups in the field of Business Modeling and Knowledge Engineering (BMaKE) in their collaborative work for qualitatively analyzing scholarly papers as well as sharing the results of that analyses and judgements."
+keywords: ["Quality", "Tag", "Vocabularies"]
+originalSources: ["https://bmake.th-brandenburg.de/spv"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/spvqa/versions/2017-06-05.n3
+    name: spvqa.ttl
+    sha256: "897ce7b6472323c2fc37a620ca3ab15d5a39025547ee927edc90c58a94cafd50"
+    size: 52905
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

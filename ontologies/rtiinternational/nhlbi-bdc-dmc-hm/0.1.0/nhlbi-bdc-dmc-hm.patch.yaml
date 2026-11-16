@@ -1,0 +1,109 @@
+# JSON Patch (RFC 6902) the hub applies to nhlbi-bdc-dmc-hm.yaml before publishing it.
+# README.md says what each change is for.
+- op: replace
+  path: /classes/ResearchStudy/attributes
+  value:
+    name:
+      range: string
+      description: An unabridged name of a research program, project, or study.
+    name_shortened:
+      range: string
+      description: An abbreviated name of a research program, project, or study.
+    description:
+      range: string
+      description: An unabridged description of a research program, project, or study.
+    description_shortened:
+      range: string
+      description: An abbreviated description of a research program, project, or study.
+    sponsor:
+      range: string
+      description: An entity that is responsible for the initiation, management, and/or financing of a research project.
+    date_started:
+      range: TimePoint
+      description: The date when the research project began.
+    date_ended:
+      range: TimePoint
+      description: The date when the research project ended.
+    url:
+      range: uriorcurie
+      description: A URL address for a resource that provides information about a research program, project, or study.
+    part_of:
+      range: ResearchStudy
+      description: A reference to a parent ResearchStudy (e.g. a link to the overarching CPTAC ResearchStudy from a substudy of CPTAC)
+    research_project_type:
+      range: string
+      description: The 'type' of ResearchStudy represented (e.g. a broad-based Program like 'CPTAC' or a more focused Project like 'CPTAC PDAC Discovery Study')
+    associated_timepoint:
+      range: TimePoint
+      multivalued: true
+      description: A collection of timepoint observations that are relevant to research projects (e.g. date of IACUC approval, date of IRB approval, date of embargo end, etc.)
+    principal_investigator:
+      range: string
+      multivalued: true
+      description: The investigator or investigators leading a project.
+    consents:
+      range: Consent
+      description: 'Data Use Restrictions that are used to indicate permissions/restrictions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be removed, stored or used. Based on the Data Use Ontology : see http://www.obofoundry.org/ontology/duo.html'
+      multivalued: true
+- op: replace
+  path: /classes/Consent/attributes
+  value:
+    consent_code:
+      range: DataUseEnum
+      description: 'Data Use Restrictions that are used to indicate permissions/restrictions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be removed, stored or used. Based on the Data Use Ontology : see http://www.obofoundry.org/ontology/duo.html'
+      multivalued: false
+    valid_from:
+      range: TimePoint
+      description: The point in time from which the consent record is valid.
+    valid_to:
+      range: TimePoint
+      description: The point in time after which the consent record is invalid.
+- op: replace
+  path: /classes/Visit/attributes
+  value:
+    visit_category:
+      range: VisitCategoryEnum
+      description: A value representing the kind (or category) of visit, like inpatient or outpatient.
+    age_at_visit_start:
+      range: integer
+      description: The age of the Participant (in days) at the start of the Visit.
+      unit:
+        ucum_code: d
+    age_at_visit_end:
+      range: integer
+      description: The age of the Participant (in days) at the end of the Visit.
+      unit:
+        ucum_code: d
+    visit_provenance:
+      range: VisitProvenanceEnum
+      description: A value representing the provenance of the visit record, or where the record comes from.
+    associated_participant:
+      range: Participant
+      description: A reference to the Participant for whom this Visit occurred.
+- op: replace
+  path: /classes/TimePoint/attributes
+  value:
+    date_time:
+      range: datetime
+      description: An explicitly specified timepoint described in terms of a date and optionally a time on that date.
+    index_time_point:
+      range: TimePoint
+      description: Another TimePoint from which this point is offset.
+    offset_from_index:
+      range: integer
+      description: A quantity of time that, together with the index date or event, can be used to derive a specific timepoint.
+    event_type:
+      range: string
+      description: An event that occurred at the point in time specified by this TimePoint.
+- op: replace
+  path: /classes/TimePeriod/attributes
+  value:
+    period_start:
+      range: TimePoint
+      description: When a period of time started.
+    period_end:
+      range: TimePoint
+      description: When a period of time ended.
+- op: add
+  path: /prefixes/SNOMED
+  value: http://snomed.info/id/

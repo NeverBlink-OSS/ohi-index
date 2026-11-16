@@ -1,0 +1,27 @@
+namespace: obo
+name: ro
+version: "2026-09-04"
+language: owl
+syntax: rdfxml
+roots: [ro.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "Relation Ontology"
+authors:
+  - name: "Christopher J. Mungall"
+    contact: "cjmungall@lbl.gov"
+    link: "https://mungall.dev"
+publishers:
+  - name: "OBO Relations Ontology"
+    link: "https://oborel.github.io/"
+description: "OBO relations between biological and other entities, such as part of and participates in, with the axioms of its imports merged in."
+keywords: ["relations", "biology", "OBO"]
+originalSources: ["https://github.com/oborel/obo-relations", "https://oborel.github.io"]
+sources:
+  - url: https://github.com/oborel/obo-relations/blob/1763baea8065348487ec30080f1fc320f1fe67cc/ro.owl
+    sha256: "9a3190d49564743aa00f0b0f2e2d9c5fc5673ac7bb3c369284bf490294d42f77"
+    size: 1224640
+  - url: https://github.com/oborel/obo-relations/blob/v2026-09-04/LICENSE.txt
+    sha256: "6639f4baa03941cae39322c7ef681e7fc2717c3fdd5507c8db93a9237691b732"
+    size: 6528

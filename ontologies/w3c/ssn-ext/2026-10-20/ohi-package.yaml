@@ -1,0 +1,26 @@
+namespace: w3c
+name: ssn-ext
+version: "2026-10-20"
+language: owl
+syntax: turtle
+roots: [ext.ttl]
+licenses: ["OGC-1.0", "W3C-20150513"]
+licenseFiles: [LICENSE, LICENSE-OGC]
+dependencies: ["w3c/ssn@2017"]
+title: "SSN Extensions"
+authors:
+  - name: "Simon J. D. Cox"
+    link: "https://orcid.org/0000-0002-3884-3420"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+  - name: "Open Geospatial Consortium"
+    link: "https://www.ogc.org/"
+description: "Extensions to the SSN ontology for observation collections, homogeneous observations and their ultimate features of interest."
+keywords: ["sensors", "observations", "IoT"]
+originalSources: ["https://www.w3.org/TR/vocab-ssn-ext"]
+sources:
+  - url: https://www.w3.org/ns/ssn/ext/
+    name: ext.ttl
+    sha256: "0b8fdef9a06aacbf693d979f22e0d0570c5b148190dd8a8d340c3f8535363566"
+    size: 8115

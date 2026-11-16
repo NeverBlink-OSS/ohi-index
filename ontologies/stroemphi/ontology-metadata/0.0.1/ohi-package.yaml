@@ -1,0 +1,30 @@
+namespace: stroemphi
+name: ontology-metadata
+version: "0.0.1"
+language: linkml
+syntax: yaml
+roots: [ontology-metadata.yaml]
+patch: ontology-metadata.patch.yaml
+licenses: ["GPL-3.0-only"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "The Ontology Metadata Schema of the TIB Terminology Service"
+authors:
+  - name: "Philip Strömert"
+    contact: "philip.stroemert@tib.eu"
+    link: "https://orcid.org/0000-0002-1595-3213"
+publishers:
+  - name: "Philip Strömert"
+    contact: "philip.stroemert@tib.eu"
+    link: "https://orcid.org/0000-0002-1595-3213"
+description: "A schema for ontology metadata (WIP)."
+keywords: ["Schema"]
+originalSources: ["https://github.com/StroemPhi/Ontology-Metadata"]
+sources:
+  - url: https://github.com/StroemPhi/Ontology-Metadata/blob/1f6b3d7355be2bbf1bbec0207601ee634650cd6e/src/ontology_metadata/schema/ontology_metadata.yaml
+    name: ontology-metadata.yaml
+    sha256: "970d6466529b46e6091b93b781353c8d5d4c8ac30bb8c35b355401cacf3312d7"
+    size: 25185
+  - url: https://github.com/StroemPhi/Ontology-Metadata/blob/1f6b3d7355be2bbf1bbec0207601ee634650cd6e/LICENSE
+    sha256: "ca372a7d92560b1fa9f6d832b440e8bcd62d9adfa8870c98287deab66d98310e"
+    size: 35148

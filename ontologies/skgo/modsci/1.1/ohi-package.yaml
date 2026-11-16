@@ -1,0 +1,31 @@
+namespace: skgo
+name: modsci
+version: "1.1"
+language: owl
+syntax: turtle
+roots: [modsci.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["w3c/skos-owl1-dl@2009"]
+title: "ModSci, Modern Science Ontology"
+authors:
+  - name: "Said Fathalla"
+    link: "https://orcid.org/0000-0002-2818-5890"
+publishers:
+  - name: "Said Fathalla"
+    link: "https://orcid.org/0000-0002-2818-5890"
+contributors:
+  - name: "Christoph Lange"
+    link: "http://langec.wordpress.com/about/"
+  - name: "Sören Auer"
+    link: "https://tib.eu/auer"
+description: "ModSci is a reference ontology for modelling different types of modern sciences and related entities, such as scientific discoveries, renowned scientists, instruments, phenomena ..."
+keywords: ["Academy", "Society"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/modsci/versions/2022-12-18.n3
+    name: modsci.ttl
+    sha256: "d0b6a27ebfefa47be572a4bbae0ddca131690237c29e9fd37d0544bcb4ca2052"
+    size: 170392
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

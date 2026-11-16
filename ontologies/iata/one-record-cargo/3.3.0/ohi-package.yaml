@@ -1,0 +1,26 @@
+namespace: iata
+name: one-record-cargo
+version: "3.3.0"
+language: owl
+syntax: turtle
+roots: [IATA-1R-DM-Ontology.ttl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["iata/one-record-code-lists@1.1.0"]
+title: "IATA ONE Record cargo"
+authors:
+  - name: "International Air Transport Association"
+    link: "https://www.iata.org/"
+publishers:
+  - name: "International Air Transport Association"
+    link: "https://www.iata.org/"
+description: "Data model of the IATA ONE Record standard for air cargo: shipments, pieces, transport movements and parties."
+keywords: ["air cargo", "logistics", "aviation"]
+originalSources: ["https://github.com/IATA-Cargo/ONE-Record"]
+sources:
+  - url: https://github.com/IATA-Cargo/ONE-Record/blob/698d641a5ed3bebc2ff73ba62665b64edbaa0c1f/2026-07-standard/Data-Model/IATA-1R-DM-Ontology.ttl
+    sha256: "b15e2646e88a9caed3de674568f315d7ca09ee9c7d2943b71411b6ca1c452f03"
+    size: 554214
+  - url: https://github.com/IATA-Cargo/ONE-Record/blob/698d641a5ed3bebc2ff73ba62665b64edbaa0c1f/LICENSE
+    sha256: "ab47bc573d9e96eaada75f703e951ecbcf136b1752eb51098610b9a8481094dc"
+    size: 1067

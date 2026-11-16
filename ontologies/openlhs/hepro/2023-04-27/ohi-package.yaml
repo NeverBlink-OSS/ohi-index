@@ -1,0 +1,32 @@
+namespace: openlhs
+name: hepro
+version: "2023-04-27"
+language: owl
+syntax: rdfxml
+roots: [hepro.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Health Procedure Ontology"
+authors:
+  - name: "Groupe de Recherche Interdisciplinaire en Informatique de la Santé"
+    link: "https://griis.ca"
+publishers:
+  - name: "Groupe de Recherche Interdisciplinaire en Informatique de la Santé"
+    link: "https://griis.ca"
+contributors:
+  - name: "Adrien Barton"
+  - name: "François Goyer"
+  - name: "Jean-François Ethier"
+  - name: "Paul Fabry"
+description: "HEPRO is an ontology of informational entities and processes related to health procedures and health activities."
+keywords: ["ontology"]
+originalSources: ["https://github.com/OpenLHS/HEPRO", "https://openlhs.github.io/HEPRO"]
+sources:
+  - url: https://github.com/OpenLHS/HEPRO/blob/v2023-04-27/HEPRO.owl
+    name: hepro.owl
+    sha256: "3e15b1a96cdf5b245fd81edc4746daa2f1a0143e25e8302915cb559de8631c3a"
+    size: 273406
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

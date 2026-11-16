@@ -1,0 +1,26 @@
+namespace: obo
+name: zfs
+version: "2026-03-31"
+language: owl
+syntax: rdfxml
+roots: [zfs.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Zebrafish developmental stages ontology"
+authors:
+  - name: "ZFIN"
+    link: "https://zfin.org"
+publishers:
+  - name: "ZFIN"
+    link: "https://zfin.org"
+description: "Developmental stages of the Zebrafish."
+keywords: ["anatomy and development", "OBO"]
+originalSources: ["https://github.com/ZFIN/zebrafish-anatomical-ontology", "https://wiki.zfin.org/display/general/Anatomy+Atlases+and+Resources"]
+sources:
+  - url: https://github.com/ZFIN/zebrafish-anatomical-ontology/blob/v2026-03-31/zfs.owl
+    sha256: "d8f9ebc90266b661e6632c77c9584b466b4732e8f6ae80c99b7478b922a7bdc9"
+    size: 7344942
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

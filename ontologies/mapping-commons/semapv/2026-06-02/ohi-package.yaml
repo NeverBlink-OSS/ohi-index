@@ -1,0 +1,29 @@
+namespace: mapping-commons
+name: semapv
+version: "2026-06-02"
+language: owl
+syntax: rdfxml
+roots: [semapv.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Semantic Mapping Vocabulary"
+authors:
+  - name: "Nicolas Matentzoglu"
+    link: "https://orcid.org/0000-0002-7356-1779"
+publishers:
+  - name: "Mapping Commons"
+    link: "https://github.com/mapping-commons"
+description: "The Semantic Mapping Vocabulary provides and defines terms used for creating and maintaining semantic mappings, in particular mapping metadata."
+keywords: ["ontology"]
+originalSources: ["https://github.com/mapping-commons/semantic-mapping-vocabulary", "https://mapping-commons.github.io/semantic-mapping-vocabulary"]
+publications:
+  - title: "A Simple Standard for Ontological Mappings 2022: Updates of data model and outlook"
+    link: "https://doi.org/10.5281/zenodo.7672103"
+sources:
+  - url: https://github.com/mapping-commons/semantic-mapping-vocabulary/blob/v2026-06-02/semapv.owl
+    sha256: "028f465f4b397ca10f9215f59ec0cceaf02bf4bfdf6a93527bbe81844bfffe4a"
+    size: 48308
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

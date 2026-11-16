@@ -1,0 +1,23 @@
+namespace: w3c
+name: exif
+version: "2026-11-02"
+language: rdfs
+syntax: rdfxml
+roots: [exif.rdf]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Exif data description vocabulary"
+authors:
+  - name: "Masahide Kanzaki"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "Vocabulary to describe an Exif format picture data."
+keywords: ["Image"]
+originalSources: ["http://www.w3.org/2003/12/exif"]
+sources:
+  - url: https://www.w3.org/2003/12/exif/ns
+    name: exif.rdf
+    sha256: "9a6adbeabd524a2917f07f513352cbb865d3a87b34bfd2f5050753c3d7c39772"
+    size: 67074

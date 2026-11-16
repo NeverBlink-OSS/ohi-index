@@ -1,0 +1,26 @@
+namespace: obo
+name: clao
+version: "2026-06-16"
+language: owl
+syntax: rdfxml
+roots: [clao.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Collembola Anatomy Ontology"
+authors:
+  - name: "Luis A. González-Montaña"
+    link: "https://orcid.org/0000-0002-9136-9932"
+publishers:
+  - name: "Luis A. González-Montaña"
+    link: "https://orcid.org/0000-0002-9136-9932"
+description: "CLAO is an ontology of anatomical terms employed in morphological descriptions for the Class Collembola (Arthropoda: Hexapoda)."
+keywords: ["anatomy and development", "OBO"]
+originalSources: ["https://github.com/luis-gonzalez-m/Collembola"]
+sources:
+  - url: https://github.com/luis-gonzalez-m/Collembola/blob/c014cab28e9a628cd2e708e1ef7a7a367b2a5278/clao.owl
+    sha256: "63179e7160df5cc393cd35aaebcb8407acf826fa5c77b5d1d4c3aa6b31395415"
+    size: 1759188
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

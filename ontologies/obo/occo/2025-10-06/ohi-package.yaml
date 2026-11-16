@@ -1,0 +1,37 @@
+namespace: obo
+name: occo
+version: "2025-10-06"
+language: owl
+syntax: rdfxml
+roots: [occo.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Occupation Ontology"
+authors:
+  - name: "Damion Dooley"
+  - name: "Jie Zheng"
+    contact: "zhengj2007@gmail.com"
+    link: "https://orcid.org/0000-0002-2999-0103"
+  - name: "John Beverley"
+  - name: "John Judkins"
+  - name: "Matthew Diller"
+  - name: "Yongqun He"
+  - name: "Sam Smith"
+  - name: "William D. Duncan"
+  - name: "William R. Hogan"
+publishers:
+  - name: "An Ontology of Occupations"
+    link: "https://github.com/Occupation-Ontology"
+contributors:
+  - name: "Eric Merrell"
+description: "An ontology representing occupations."
+keywords: ["information", "OBO"]
+originalSources: ["https://github.com/Occupation-Ontology/OccO"]
+sources:
+  - url: https://github.com/Occupation-Ontology/OccO/blob/3c1521ff6843717a9cb8b28e1af7adf349f82f50/occo.owl
+    sha256: "97462cabc824526898e486c6d780d62ab13b81ec98d30d4f05df41178b2d9f37"
+    size: 5465131
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

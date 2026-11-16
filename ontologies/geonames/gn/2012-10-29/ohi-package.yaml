@@ -1,0 +1,30 @@
+namespace: geonames
+name: gn
+version: "2012-10-29"
+language: owl
+syntax: rdfxml
+roots: [gn.rdf]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The Geonames ontology"
+authors:
+  - name: "Bernard Vatant"
+publishers:
+  - name: "GeoNames"
+    link: "https://www.geonames.org/"
+contributors:
+  - name: "Erik Bolstad"
+  - name: "Valery Hronusov"
+  - name: "Roman Rachkov"
+description: "The Geonames ontology provides elements of description for geographical features defined in the geonames.org data base."
+keywords: ["Geography"]
+originalSources: ["http://www.geonames.org/ontology/documentation.html"]
+sources:
+  - url: https://www.geonames.org/ontology/ontology_v3.1.rdf
+    name: gn.rdf
+    sha256: "b4627e0648034545ae71783166a1e9364af8bf4eee43c966ee8f553c249f4e01"
+    size: 533755
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

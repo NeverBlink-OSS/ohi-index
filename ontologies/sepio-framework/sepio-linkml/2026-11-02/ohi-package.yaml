@@ -1,0 +1,27 @@
+namespace: sepio-framework
+name: sepio-linkml
+version: "2026-11-02"
+language: linkml
+syntax: yaml
+roots: [sepio-linkml.yaml]
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "sepio-linkml"
+authors:
+  - name: "Corey Cox"
+    contact: "corey@tislab.org"
+publishers:
+  - name: "Monarch Initiative"
+    link: "https://monarchinitiative.org/"
+description: "LinkML-based specification of the SEPIO information model."
+keywords: ["Computer Science"]
+originalSources: ["https://github.com/sepio-framework/sepio-linkml"]
+sources:
+  - url: https://github.com/sepio-framework/sepio-linkml/blob/abcf3024827324c3d40f2079a592959f0e424afd/src/sepio_linkml/schema/sepio_classes.yaml
+    name: sepio-linkml.yaml
+    sha256: "1fcab419a4da060e2ebd9ed2cc4d0cb208698667b5c0026199b2c44ff2c3651b"
+    size: 85157
+  - url: https://github.com/sepio-framework/sepio-linkml/blob/abcf3024827324c3d40f2079a592959f0e424afd/LICENSE
+    sha256: "094bedda295c0702807d1027a00e1134f4cb71d523dc49f6d4b3caf589053068"
+    size: 11358

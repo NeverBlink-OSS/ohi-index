@@ -1,0 +1,21 @@
+namespace: biol
+name: biol
+version: "2008-10-06"
+language: owl
+syntax: turtle
+roots: [biol.ttl]
+licenses: ["CC-BY-SA-2.0-UK"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Biological Taxonomy Vocabulary 0.2 (Core)"
+authors:
+  - name: "Toby Inkster"
+publishers:
+  - name: "Toby Inkster"
+description: "An RDF vocabulary for the taxonomy of all forms of life."
+keywords: ["Biology"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/biol/versions/2008-10-06.n3
+    name: biol.ttl
+    sha256: "66d0b44e9257e0dbfc3f1a488c34d8c5453c19631070247a9b30d7f72da26147"
+    size: 17330

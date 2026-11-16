@@ -1,0 +1,25 @@
+namespace: w3c
+name: locn
+version: "2026-10-20"
+language: rdfs
+syntax: turtle
+roots: [locn.ttl]
+base: http://www.w3.org/ns/locn
+licenses: ["ISA Open Metadata Licence 1.1"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "ISA Programme Location Core Vocabulary"
+authors:
+  - name: "European Commission"
+  - name: "EU ISA Programme Core Vocabularies Working Group"
+    link: "https://joinup.ec.europa.eu/node/42444"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "Vocabulary for locations: places, addresses and geometries."
+keywords: ["locations", "addresses", "geography"]
+originalSources: ["https://www.w3.org/ns/locn"]
+sources:
+  - url: https://uri.semic.eu/w3c/ns/locn.ttl
+    sha256: "b6661139db549f0a277a4b1842ed6cb25ee6980f89291f3629b786213de0258e"
+    size: 20348

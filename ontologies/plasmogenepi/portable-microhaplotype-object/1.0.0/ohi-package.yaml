@@ -1,0 +1,27 @@
+namespace: plasmogenepi
+name: portable-microhaplotype-object
+version: "1.0.0"
+language: linkml
+syntax: yaml
+roots: [portable-microhaplotype-object.yaml]
+licenses: ["GPL-3.0-only"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "portable-microhaplotype-object"
+authors:
+  - name: "Nicholas Hathaway"
+    contact: "nickjhathaway@gmail.com"
+publishers:
+  - name: "PlasmoGenEpi"
+    link: "https://plasmogenepi.org"
+description: "A schema to define the minimum amount of data needed to export a microhaplotype calling pipeline analysis with associated metadata."
+keywords: ["Schema"]
+originalSources: ["https://github.com/PlasmoGenEpi/portable-microhaplotype-object"]
+sources:
+  - url: https://github.com/PlasmoGenEpi/portable-microhaplotype-object/blob/v1.0.0/src/portable_microhaplotype_object/schema/portable_microhaplotype_object.yaml
+    name: portable-microhaplotype-object.yaml
+    sha256: "dc5204d16c98d48594916239b4d78b19926093bc4bb3df3ce724c3931314eb49"
+    size: 46023
+  - url: https://github.com/PlasmoGenEpi/portable-microhaplotype-object/blob/v1.0.0/LICENSE
+    sha256: "ca372a7d92560b1fa9f6d832b440e8bcd62d9adfa8870c98287deab66d98310e"
+    size: 35148

@@ -1,0 +1,27 @@
+namespace: demcare
+name: demlab
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [demlab.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["w3c/time@2016", "foaf/foaf@2014-01-14"]
+title: "Dem@Care Lab Ontology for Dementia Assessment"
+authors:
+  - name: "Georgios Meditskos"
+  - name: "Ioannis Kompatsiaris"
+publishers:
+  - name: "Dem@Care project"
+    link: "http://www.demcare.eu/"
+description: "The ontology has been developed in the framework of the Dem@Care project for representing the experimentation protocol towards diagnostic support and assessment of Dementia in a controlled environment."
+keywords: ["Health"]
+originalSources: ["http://www.demcare.eu/ontologies/demlab.html"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/demlab/versions/2014-09-02.n3
+    name: demlab.ttl
+    sha256: "c42938a46b65027c5776cb410e6206b643145ee919a3589c5512e3bf2e1aa702"
+    size: 118221
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

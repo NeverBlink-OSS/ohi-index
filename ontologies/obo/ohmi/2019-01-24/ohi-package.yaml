@@ -1,0 +1,35 @@
+namespace: obo
+name: ohmi
+version: "2019-01-24"
+language: owl
+syntax: rdfxml
+roots: [ohmi.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Ontology of Host-Microbiome Interactions"
+authors:
+  - name: "Alexander Alekseyenko"
+  - name: "Yu Hong"
+  - name: "Anna Maria Masci"
+  - name: "Jihad Obeid"
+  - name: "Jie Zheng"
+  - name: "Yongqun He"
+    contact: "yongqunh@med.umich.edu"
+    link: "http://www.hegroup.org"
+  - name: "Haihe Wang"
+publishers:
+  - name: "Ontology of Host-Microbiome Interactions"
+    link: "https://github.com/OHMI-ontology"
+contributors:
+  - name: "Barry Smith"
+description: "The Ontology of Host-Microbiome Interactions aims to ontologically represent and standardize various entities and relations related to microbiomes, microbiome host organisms (e.g., human and mouse), and the interactions between the hosts and microbiomes at different conditions."
+keywords: ["organisms", "OBO"]
+originalSources: ["https://github.com/OHMI-ontology/OHMI"]
+sources:
+  - url: https://github.com/OHMI-ontology/OHMI/blob/v2019-01-24/ohmi.owl
+    sha256: "beffd1ad30f7a6a4673d834a2c820ad67130c3756d33fdd3cdc4c9519d2069bb"
+    size: 2520838
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

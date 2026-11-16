@@ -1,0 +1,32 @@
+namespace: eccenca
+name: eccrev
+version: "1.0.2"
+language: owl
+syntax: turtle
+roots: [eccrev.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "RDF changes and revisions vocabulary"
+authors:
+  - name: "Sebastian Tramp"
+    link: "http://sebastian.tramp.name"
+  - name: "Rubén Navarro Piris"
+    link: "https://ns.eccenca.com/rnavarropiris"
+publishers:
+  - name: "eccenca GmbH"
+    link: "https://eccenca.com/"
+contributors:
+  - name: "Marvin Frommhold"
+    link: "http://aksw.org/MarvinFrommhold"
+description: "A vocabulary & data model for describing RDF changes and revisions."
+keywords: ["RDF"]
+originalSources: ["https://github.com/eccenca/eccrev-vocab"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/eccrev/versions/2016-03-14.n3
+    name: eccrev.ttl
+    sha256: "f9a36788552bb12e0dc4b7780ee9b432ca7baf99966892e94964260b5d550e10"
+    size: 24745
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

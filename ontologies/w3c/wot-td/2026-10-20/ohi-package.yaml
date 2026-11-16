@@ -1,0 +1,30 @@
+namespace: w3c
+name: wot-td
+version: "2026-10-20"
+language: owl
+syntax: turtle
+roots: [td.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "WoT Thing Description"
+authors:
+  - name: "Victor Charpenay"
+    link: "https://vcharpenay.link/"
+publishers:
+  - name: "W3C Web of Things Working Group"
+    link: "https://www.w3.org/WoT/WG/"
+contributors:
+  - name: "María Poveda-Villalón"
+  - name: "Maxime Lefrançois"
+    link: "http://maxime-lefrancois.info/"
+description: "W3C ontology for Web of Things Thing Descriptions: things, their interactions and how to reach them."
+keywords: ["Web of Things", "IoT", "devices"]
+originalSources: ["https://github.com/w3c/wot-thing-description"]
+sources:
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657
+  - url: https://github.com/w3c/wot-thing-description/blob/341689fbce35478512fd158729dca0242bbfa361/ontology/td.ttl
+    sha256: "410fe30a926f68fade8da0657526b7610cd09bc1f481d96634c389018a332e0d"
+    size: 18980

@@ -1,0 +1,26 @@
+namespace: dba
+name: dba
+version: "0.1"
+language: owl
+syntax: rdfxml
+roots: [dba.rdf]
+licenses: ["CC-BY-SA-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Description Banking Archives Ontology"
+authors:
+  - name: "Federica Brambilla"
+  - name: "Giovanni Bruno"
+  - name: "Fabiana Guernaccini"
+publishers:
+  - name: "Archivio Storico Intesa Sanpaolo"
+    link: "https://asisp.intesasanpaolo.com/"
+description: "The ontology, presented here in a beta version, is based on the analysis of the documentation and descriptive requirements of the Intesa Sanpaolo Historical Archive and is intended to describe the content of historical banking documents and of some of the activities carried out by the bank…"
+keywords: ["Catalogs"]
+sources:
+  - url: https://asisp.intesasanpaolo.com/intesa-web/resources/documenti/dba/dba.rdf
+    sha256: "e225b80385ba57ac165af5ffc7db6aaea06c3552ad4a547f7a908f13710ece56"
+    size: 68841
+  - url: https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt
+    sha256: "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+    size: 20138

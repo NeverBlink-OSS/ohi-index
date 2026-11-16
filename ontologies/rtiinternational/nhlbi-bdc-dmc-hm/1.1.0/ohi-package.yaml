@@ -1,0 +1,28 @@
+namespace: rtiinternational
+name: nhlbi-bdc-dmc-hm
+version: "1.1.0"
+language: linkml
+syntax: yaml
+roots: [nhlbi-bdc-dmc-hm.yaml]
+patch: nhlbi-bdc-dmc-hm.patch.yaml
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "BioData Catalyst Harmonized Model (bdchm)"
+authors:
+  - name: "Brian Furner"
+    contact: "bfurner@uchicago.edu"
+publishers:
+  - name: "RTI International"
+    link: "https://www.rti.org/"
+description: "BioData Catalyst Harmonized Model."
+keywords: ["Biology"]
+originalSources: ["https://github.com/RTIInternational/NHLBI-BDC-DMC-HM"]
+sources:
+  - url: https://github.com/RTIInternational/NHLBI-BDC-DMC-HM/blob/v1.1.0/src/bdchm/schema/bdchm.yaml
+    name: nhlbi-bdc-dmc-hm.yaml
+    sha256: "fe795d865e7507d52d918751dbd724cab5dee43fee508ffb32f72898f7949f2d"
+    size: 154238
+  - url: https://github.com/RTIInternational/NHLBI-BDC-DMC-HM/blob/v1.1.0/LICENSE
+    sha256: "330aad02f534ea882a49eb8f1d89601fd1d2888a07c44a0758cbff0ec18af211"
+    size: 1067

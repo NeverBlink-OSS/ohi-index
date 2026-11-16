@@ -1,0 +1,29 @@
+namespace: gleif
+name: gleif-l1
+version: "2026-11-02"
+language: owl
+syntax: turtle
+roots: [gleif-l1.ttl]
+licenses: ["GLEIF LEI Data Terms of Use"]
+licenseFiles: [LICENSE]
+dependencies: ["gleif/gleif-base@2026-11-02", "gleif/gleif-elf@2026-11-02", "gleif/gleif-ra@2026-11-02"]
+title: "Global Legal Entity Identifier Foundation Level 1 Ontology - Who Is Who"
+authors:
+  - name: "Global Legal Entity Identifier Foundation"
+    link: "https://www.gleif.org/"
+publishers:
+  - name: "Global Legal Entity Identifier Foundation"
+    link: "https://www.gleif.org/"
+contributors:
+  - name: "Bryon Jacob"
+  - name: "Working Ontologist LLC"
+    link: "http://www.workingontologist.com"
+  - name: "Pete Rivett"
+description: "Ontology for legal entity identifier registration."
+keywords: ["People"]
+originalSources: ["https://www.gleif.org/ontology/L1"]
+sources:
+  - url: https://www.gleif.org/ontology/v1.0/L1/ontology.ttl
+    name: gleif-l1.ttl
+    sha256: "c9dccf2c3a9b642fa2ac4abc6d1a5d1df5144f71088a2169f31dc1b28d0f0ada"
+    size: 35900

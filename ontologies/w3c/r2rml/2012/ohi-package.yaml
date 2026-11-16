@@ -1,0 +1,30 @@
+namespace: w3c
+name: r2rml
+version: "2012"
+language: owl
+syntax: turtle
+roots: [r2rml.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "R2RML vocabulary"
+authors:
+  - name: "Richard Cyganiak"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+contributors:
+  - name: "Boris Villazón-Terrazas"
+    link: "http://boris.villazon.terrazas.name"
+  - name: "Ivan Herman"
+    link: "http://www.w3.org/People/Ivan/"
+description: "W3C vocabulary for mappings from relational databases to RDF."
+keywords: ["mapping", "relational databases"]
+originalSources: ["https://www.w3.org/TR/r2rml"]
+sources:
+  - url: https://www.w3.org/ns/r2rml.ttl
+    sha256: "24b44b43dcb228595213c834eb231fd20b030779a07ae9eb2174548d09770873"
+    size: 19549
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

@@ -1,0 +1,33 @@
+namespace: um
+name: cbcm
+version: "1.2.2"
+language: owl
+syntax: rdfxml
+roots: [cbcm.owl]
+licenses: ["CC-BY-SA-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["bfo/bfo@2019-08-26"]
+title: "The European Union Company Mobility Ontology (EUCM ontology)"
+authors:
+  - name: "Kody Moodley"
+  - name: "Marcus Meyer"
+  - name: "Stephan Rammeloo"
+  - name: "Thomas Biermeyer"
+publishers:
+  - name: "Maastricht University"
+    link: "https://www.maastrichtuniversity.nl/"
+contributors:
+  - name: "Rūta Liepiņa"
+  - name: "Tobias Breuer"
+  - name: "Walter Simoncini"
+description: "This ontology describes terms concerning companies, their cross-border movements within the European Union (EU), and associated EU company legislation."
+keywords: ["Society", "eBusiness"]
+originalSources: ["https://github.com/MaastrichtU-IDS/cbcm-ontology"]
+sources:
+  - url: https://raw.githubusercontent.com/MaastrichtU-IDS/cbcm-ontology/master/working_copy/eu-cm-ontology.owl
+    name: cbcm.owl
+    sha256: "6bbc9d4aeedec3bbb4e6febe67fb1fb3aa6fb7b202de58851fa871560a4dfd57"
+    size: 346655
+  - url: https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt
+    sha256: "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+    size: 20138

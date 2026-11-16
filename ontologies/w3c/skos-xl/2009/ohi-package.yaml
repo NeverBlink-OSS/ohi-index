@@ -1,0 +1,25 @@
+namespace: w3c
+name: skos-xl
+version: "2009"
+language: owl
+syntax: rdfxml
+roots: [skos-xl.rdf]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: ["w3c/skos@2009"]
+title: "SKOS eXtension for Labels (SKOS-XL)"
+authors:
+  - name: "Alistair Miles"
+  - name: "Sean Bechhofer"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+contributors:
+  - name: "W3C Semantic Web Deployment Working Group"
+description: "SKOS extension that treats labels as resources of their own."
+keywords: ["SKOS", "labels", "thesauri"]
+originalSources: ["https://www.w3.org/TR/skos-reference"]
+sources:
+  - url: https://www.w3.org/2009/08/skos-reference/skos-xl.rdf
+    sha256: "fb6519c5719250d77f17a84ac28c75660c7de09da7286dda138bbe9d8f834b9a"
+    size: 7614

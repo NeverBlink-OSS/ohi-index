@@ -1,0 +1,29 @@
+namespace: gleif
+name: gleif-repex
+version: "2026-11-02"
+language: owl
+syntax: turtle
+roots: [gleif-repex.ttl]
+licenses: ["GLEIF LEI Data Terms of Use"]
+licenseFiles: [LICENSE]
+dependencies: ["gleif/gleif-l1@2026-11-02", "gleif/gleif-l2@2026-11-02"]
+title: "Global Legal Entity Identifier Foundation Reporting Exception Ontology"
+authors:
+  - name: "Global Legal Entity Identifier Foundation"
+    link: "https://www.gleif.org/"
+publishers:
+  - name: "Global Legal Entity Identifier Foundation"
+    link: "https://www.gleif.org/"
+contributors:
+  - name: "Bryon Jacob"
+  - name: "Working Ontologist LLC"
+    link: "http://www.workingontologist.com"
+  - name: "Pete Rivett"
+description: "Ontology for representing exceptions to reporting of parents, for entities registered with a Legal Entity Identifier."
+keywords: ["Events"]
+originalSources: ["https://www.gleif.org/ontology/ReportingException"]
+sources:
+  - url: https://www.gleif.org/ontology/v1.0/ReportingException/ontology.ttl
+    name: gleif-repex.ttl
+    sha256: "2adb1f28a828b85b5b987f2f6ce89a8f496fc655d78e907e26c1ad41fee0d49f"
+    size: 12025

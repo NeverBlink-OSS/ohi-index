@@ -1,0 +1,30 @@
+namespace: obo
+name: rs
+version: "2026-10-31"
+language: owl
+syntax: rdfxml
+roots: [rat_strain.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Rat Strain Ontology"
+authors:
+  - name: "Rajni Nigam"
+  - name: "Shur-Jen Wang"
+  - name: "Victoria Petri"
+publishers:
+  - name: "Rat Genome Database"
+    link: "https://rgd.mcw.edu/"
+description: "Ontology of rat strains."
+keywords: ["organisms", "OBO"]
+originalSources: ["http://rgd.mcw.edu/rgdweb/search/strains.html", "https://github.com/rat-genome-database/RS-Rat-Strain-Ontology"]
+publications:
+  - title: "Rat Strain Ontology: structured controlled vocabulary designed to facilitate access to strain data at RGD."
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/24267899"
+sources:
+  - url: https://download.rgd.mcw.edu/ontology/rat_strain/rat_strain.owl
+    sha256: "8028cb803c6edf1f7a679e192ae23bfd325961e7f006604c821b794dc533b993"
+    size: 5714278
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

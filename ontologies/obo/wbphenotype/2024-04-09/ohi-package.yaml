@@ -1,0 +1,29 @@
+namespace: obo
+name: wbphenotype
+version: "2024-04-09"
+language: owl
+syntax: rdfxml
+roots: [wbphenotype.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "C. elegans phenotype"
+authors:
+  - name: "WormBase"
+    link: "https://wormbase.org/"
+publishers:
+  - name: "WormBase"
+    link: "https://wormbase.org/"
+description: "A structured controlled vocabulary of <i>Caenorhabditis elegans</i> phenotypes."
+keywords: ["phenotype", "OBO"]
+originalSources: ["https://github.com/obophenotype/c-elegans-phenotype-ontology"]
+publications:
+  - title: "Worm Phenotype Ontology: integrating phenotype data within and beyond the C. elegans community."
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/21261995"
+sources:
+  - url: https://github.com/obophenotype/c-elegans-phenotype-ontology/blob/vWS293/wbphenotype.owl
+    sha256: "240a96d5c084d955bbb445287d2480955b16cd5b0184b30a2cf9727536bb0409"
+    size: 17811665
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,3969 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix ns0: <http://purl.org/vocab/vann/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://d-nb.info/standards/elementset/gnd#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://d-nb.info/standards/elementset/gnd#>
+  a owl:Ontology, <http://purl.org/vocommons/voaf#Vocabulary> ;
+  dc11:title "GND Ontology"@en, "GND-Ontologie"@de ;
+  ns0:preferredNamespaceUri "http://d-nb.info/standards/elementset/gnd#" ;
+  ns0:preferredNamespacePrefix "gndo" ;
+  dc:issued "2012-06-30"^^xsd:date ;
+  dc:modified "2015-07-07"^^xsd:date ;
+  owl:versionInfo "1.5" ;
+  rdfs:comment """
+  Changes from 2015-05-19
+  Correction of English comment and MARC 21 equivalent in gndo:titleOfNobilityAsLiteral
+
+  Changes from 2015-01-13
+  http://d-nb.info/standards/elementset/gnd#periodOfActivity is now a owl:DatatypeProperty
+  gndo:homepage is now an owl:ObjectProperty (adaption to actual usage)
+  removed owl:ontologyIRI (nonexistent property...)
+  Corrected relation between http://d-nb.info/standards/elementset/gnd#periodOfActivity and http://www.w3.org/2000/01/rdf-schema#label from owl:subClassOf to owl:subPropertyOf
+  Corrected typo in gndo:surname
+  Deprecated class gndo:MeansOfTransportWithIndividual_name (change due to naming convention)
+  Introduced class gndo:MeansOfTransportWithIndividualName
+  Introduced new datatype property gndo:functionOrRoleAsLiteral
+  Introduced new object property gndo:narrowerTermGeneral
+  Introduced new object property gndo:narrowerTermGeneric
+  Introduced new object property gndo:narrowerTermInstantial
+  Introduced new object property gndo:narrowerTermPartitive
+
+  Changes from 2014-09-16
+  Deprecated http://d-nb.info/standards/elementset/gnd#Fictive_term
+  Introduced http://d-nb.info/standards/elementset/gnd#FictiveTerm in order to keep naming consistent
+  Changed rdfs:type to rdf:type in http://d-nb.info/standards/elementset/gnd#correspondent
+  http://d-nb.info/standards/elementset/gnd#preferredNameEntityForThePerson and http://d-nb.info/standards/elementset/gnd#variantNameEntityForThePerson are now owl:ObjectProperties
+  http://d-nb.info/standards/elementset/gnd#titleOfNobility is now an owl:ObjectProperty
+  Introduced new owl:DatatypeProperty http://d-nb.info/standards/elementset/gnd#titleOfNobilityAsLiteral
+  http://d-nb.info/standards/elementset/gnd#preferredName is now an owl:subclassOf rdfs:label
+  
+  
+  Changes from 2014-05-15:
+  Updated RDA-Mappings to reflect new RDA namespaces
+  
+  Changes from 2014-01-15:
+  Corrected MARC 21 equivalent and rdfs:range in http://d-nb.info/standards/elementset/gnd#academicDegree
+  Updated labels to distinguish datatype properties from similar object properties: http://d-nb.info/standards/elementset/gnd#affiliationAsLiteral, http://d-nb.info/standards/elementset/gnd#placeOfBirthAsLiteral, http://d-nb.info/standards/elementset/gnd#placeOfDeathAsLiteral, http://d-nb.info/standards/elementset/gnd#professionOrOccupationAsLiteral
+  Marked http://d-nb.info/standards/elementset/gnd#correspondent as owl:symmetricProperty 
+  Deprecated http://d-nb.info/standards/elementset/gnd#broderTermGeneral (misspelled term name in URI)
+  Introduced http://d-nb.info/standards/elementset/gnd#broaderTermGeneral (correctly spelled name in URI)
+  Corrected alignment to skos:broader: added to http://d-nb.info/standards/elementset/gnd#broaderTermGeneral, removed from http://d-nb.info/standards/elementset/gnd#broderTermGeneric (skos:broader)
+
+  Changes from 2012-06-30
+  Added rdfs:isDefinedBy everywhere
+  Added alignments:
+    http://d-nb.info/standards/elementset/gnd#variantNameForTheSubjectHeading (skos:altLabel)
+    http://d-nb.info/standards/elementset/gnd#preferredNameForTheSubjectHeading (skos:prefLabel)
+    http://d-nb.info/standards/elementset/gnd#SubjectHeading (skos:Concept)
+    http://d-nb.info/standards/elementset/gnd#broaderTermGeneric (skos:broader)
+  Hierarchy of broader/narrower term changed
+    gndo:broaderTerm is deprecated
+    gndo:broaderTermGeneral is now top level hierarche of broader/narrower
+    Following Properties are now subproperties of gndo:broaderTermGeneral:
+      gndo:broaderTermGeneric
+      gndo:broaderTermInstantial
+      gndo:broaderTermPartitive
+      gndo:broaderTermWithMoreThanOneElement
+  Fixed incorrect supertype for gndo:definition. gndo:definition is now a subproperty
+  of dct:definition, not of foaf:depiction
+  Deprecated gndo:StartingOrFinalPointOfADistance (with a capital S)
+  Introduced gndo:startingOrFinalPointOfADistance (with a minor s)
+
+  Specified that gndo:relatedTerm is also a owl:SymmetricProperty
+  Deprecated the property #addition
+  Deprecated the property #epithetGenericNameTitleOrTerritory
+  Added new Datatype property #nameAddition
+  
+  Introduced new class hierarchy for NameOfThePerson
+  gndo:NameOfThePerson (existing class)
+    gndo:PreferredNameOfThePerson (new class)
+    gndo:VariantNameOfThePerson (new class)
+      gndo:EarlierNameOfThePerson (new class)
+      gndo:LaterNameOfThePerson (new class)
+      gndo:FullerFormOfNameOfThePerson (new class)
+      gndo:RealNameOfThePerson (new class)
+      gndo:PseudonymNameOfTheperson (new class)
+
+"""@en ;
+  owl:priorVersion <http://d-nb.info/standards/elementset/gnd2015-05-19> ;
+  owl:versionIRI <http://d-nb.info/standards/elementset/gnd2015-10-01> ;
+  dc:rights "Copyright 2012-2015 Deutsche Nationalbibliothek" ;
+  cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+  dc:creator <http://d-nb.info/standards/elementset/gnd#alexanderHaffner> ;
+  dc:contributor <http://d-nb.info/standards/elementset/gnd#dnbStaff>, <http://d-nb.info/standards/elementset/gnd#listMembers> ;
+  dc:publisher <http://d-nb.info/standards/elementset/gnd#dnb> .
+
+<http://d-nb.info/standards/elementset/gnd#alexanderHaffner>
+  a foaf:Person ;
+  rdfs:label "Alexander Haffner" ;
+  owl:sameAs <http://d-nb.info/gnd/1037982762> .
+
+<http://d-nb.info/standards/elementset/gnd#dnbStaff>
+  a foaf:Organization ;
+  rdfs:label "Staff members of the Deutsche Nationalbibliothek"@en .
+
+<http://d-nb.info/standards/elementset/gnd#listMembers>
+  a foaf:Organization ;
+  rdfs:label "Members of the GND ontology mailing list"@en ;
+  foaf:mbox "gnd-ontology@lists.d-nb.de" .
+
+<http://d-nb.info/standards/elementset/gnd#dnb>
+  a foaf:Organization ;
+  owl:sameAs <http://d-nb.info/gnd/10140798-1> ;
+  rdfs:label "Deutsche Nationalbibliothek (DNB)"@de, "German National Library (Deutsche Nationalbibliothek, DNB)"@en ;
+  foaf:mbox "datendienste@dnb.de" .
+
+<http://d-nb.info/standards/elementset/gnd#marc21equivalent>
+  a owl:AnnotationProperty ;
+  rdfs:isDefinedBy <http://d-nb.info/standards/elementset/gnd#> ;
+  rdfs:label "MARC 21 Entsprechung"@de, "MARC 21 equivalent"@en ;
+  rdfs:comment """Gibt die MARC 21 Entsprechung des Elements im GND-MARC-Format
+      wieder."""@de, """Expresses the MARC 21 equivalent for this element in the GND MARC
+      format."""@en .
+
+<http://d-nb.info/standards/elementset/gnd#accordingWork>
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy <http://d-nb.info/standards/elementset/gnd#> ;
+  rdfs:label "Zugehöriges Werk"@de, "According work"@en ;
+  rdfs:domain <http://d-nb.info/standards/elementset/gnd#Work> ;
+  rdfs:range <http://d-nb.info/standards/elementset/gnd#Work> ;
+  ns1:marc21equivalent "530 $0 $9=4:werk" .
+
+ns1:accreditedArtist
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Zugeschriebener Künstler"@de, "Accredited artist"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:PlaceOrGeographicName
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:kueg", "510 $0 $9=4:kueg" ;
+  rdfs:subPropertyOf ns1:artist, <http://rdaregistry.info/Elements/u/P60431> .
+
+ns1:PlaceOrGeographicName
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Geografikum"@de, "Place or geographic name"@en ;
+  rdfs:subClassOf ns1:AuthorityResource ;
+  ns1:marc21equivalent "079 $b=g", "079 $v=giz" .
+
+ns1:Work
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Werk"@de, "Work"@en ;
+  rdfs:subClassOf ns1:AuthorityResource ;
+  ns1:marc21equivalent "079 $b=u", "079 $v=wit" .
+
+ns1:CorporateBody
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Körperschaft"@de, "Corporate Body"@en ;
+  owl:equivalentClass foaf:Organization ;
+  rdfs:subClassOf ns1:AuthorityResource, <http://rdaregistry.info/Elements/c/C10005> ;
+  ns1:marc21equivalent "079 $b=b", "079 $v=kiz" .
+
+ns1:DifferentiatedPerson
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Individualisierte Person"@de, "Differentiated person"@en ;
+  rdfs:subClassOf ns1:Person ;
+  owl:disjointWith ns1:UndifferentiatedPerson ;
+  ns1:marc21equivalent "079 $b=p", "079 $v=piz" .
+
+ns1:Family
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Familie"@de, "Family"@en ;
+  rdfs:subClassOf ns1:AuthorityResource, <http://rdaregistry.info/Elements/c/C10008> ;
+  ns1:marc21equivalent "079 $v=pif" .
+
+ns1:accreditedAuthor
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Zugeschriebener Verfasser"@de, "Accredited author"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:autg", "510 $0 $9=4:autg" ;
+  rdfs:subPropertyOf ns1:author, <http://rdaregistry.info/Elements/u/P60434> .
+
+ns1:accreditedComposer
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Zugeschriebener Komponist"@de, "Accredited composer"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:komg", "510 $0 $9=4:komg" ;
+  rdfs:subPropertyOf ns1:composer, <http://rdaregistry.info/Elements/u/P60426> .
+
+ns1:acquaintanceshipOrFriendship
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Beziehung, Bekanntschaft, Freundschaft"@de, "Acquaintanceship or friendship"@en ;
+  rdfs:comment """Person, die mit der beschriebenen Person bekannt ist und nicht
+  in familiärer oder beruflicher Beziehung steht. Für Beziehungen von oder zu Familien
+  wird gndo:memberOfTheFamily verwendet."""@de ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:beza" ;
+  rdfs:subPropertyOf foaf:knows ;
+  rdfs:seeAlso ns1:memberOfTheFamily .
+
+ns1:addressee
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Adressat"@de, "Addressee"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:adre", "510 $0 $9=4:adre" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60456> .
+
+ns1:affiliation
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Affiliation"@de, "Affiliation"@en ;
+  rdfs:comment """Körperschaft oder Geografikum, zu der eine Person oder Familie in Beziehung
+  steht (Affiliation bzw. Wirkungsstätte). Dies sind Körperschaften, der die
+  Person oder Familie angehört bzw. angehört, gegründet, gefördert usw. hat.
+  Hierzu gehören auch Kongresse und Geografika, die das Wirken einer Person oder Familie
+  maßgeblich beeinflussen oder beeinflusst haben bzw. welche die Person oder
+  Familie maßgeblich beeinflusst bzw. beeinflusst hat."""@de ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:PlaceOrGeographicName
+   )
+  ] ;
+  ns1:marc21equivalent "510 $0 $9=4:affi", "511 $0 $9=4:affi", "551 $0 $9=4:affi" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/a/P50101> ;
+  rdfs:seeAlso ns1:affiliationAsLiteral .
+
+ns1:ConferenceOrEvent
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Konferenz oder Veranstaltung"@de, "Conference or Event"@en ;
+  rdfs:subClassOf ns1:AuthorityResource, <http://rdaregistry.info/Elements/c/C10005> ;
+  ns1:marc21equivalent "079 $b=f", "079 $v=vie" .
+
+ns1:annotator
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Annotator"@de, "Annotator"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:anno", "510 $0 $9=4:anno" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60464> .
+
+ns1:architect
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Architekt"@de, "Architect"@en ;
+  rdfs:domain ns1:PlaceOrGeographicName ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:arch", "510 $0 $9=4:arch" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60435> .
+
+ns1:arranger
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Arrangeur"@de, "Arranger"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:arra", "510 $0 $9=4:arra" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60379> .
+
+ns1:artist
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Künstler"@de, "Artist"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:PlaceOrGeographicName
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:kuen", "510 $0 $9=4:kuen" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60431> .
+
+ns1:associatedPlace
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Assoziierter Ort"@de, "Associated place"@en .
+
+ns1:author
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Verfasser"@de, "Author"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:auta", "510 $0 $9=4:auta" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60434> .
+
+ns1:benefactor
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Stifter"@de, "Benefactor"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:PlaceOrGeographicName
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:stif", "510 $0 $9=4:stif" .
+
+ns1:bookbinder
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Buchbinder"@de, "Bookbinder"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range ns1:DifferentiatedPerson ;
+  ns1:marc21equivalent "500 $0 $9=4:bubi" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60458> .
+
+ns1:bookdesigner
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Buchgestalter"@de, "Bookdesigner"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:gest", "510 $0 $9=4:gest" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60409> .
+
+ns1:broaderTerm
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  owl:deprecated true ;
+  rdfs:label "Oberbegriff"@de, "Broader term"@en ;
+  rdfs:comment "Use broader term general instead"@en, "Bitte verwenden Sie Oberbegriff allgemein"@de ;
+  rdfs:seeAlso ns1:broaderTermGeneral .
+
+ns1:broaderTermGeneral
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Oberbegriff allgemein"@de, "Broader term (general)"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range ns1:SubjectHeading ;
+  ns1:marc21equivalent "550 $0 $9=4:obal" ;
+  owl:equivalentProperty skos:broader ;
+  owl:inverseOf ns1:narrowerTermGeneral .
+
+ns1:SubjectHeading
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Schlagwort"@de, "Subject heading"@en ;
+  rdfs:subClassOf ns1:AuthorityResource ;
+  ns1:marc21equivalent "079 $b=s", "079 $v=szz" ;
+  owl:equivalentClass skos:Concept .
+
+ns1:broaderTermGeneric
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Oberbegriff generisch"@de, "Broader term (generic)"@en ;
+  rdfs:comment """Eine generische Relation ist eine hierarchische Relation zwischen
+      zwei Begriffen, von denen der untergeordnete Begriff alle Merkmale des übergeordneten Begriffs
+      besitzt und zusätzlich noch mindestens ein weiteres Merkmal."""@de, """The generic relation is a semantic relation between two concepts
+      where the intension of one of the concepts includes that of the other concepts and at least
+      one additional delimiting characteristic is added."""@en ;
+  rdfs:domain ns1:SubjectHeading ;
+  rdfs:range ns1:SubjectHeading ;
+  ns1:marc21equivalent "550 $0 $9=4:obge" ;
+  rdfs:subPropertyOf ns1:broaderTermGeneral ;
+  owl:inverseOf ns1:narrowerTermGeneric .
+
+ns1:broaderTermInstantial
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Oberbegriff instantiell"@de, "Broader term (instantial)"@en ;
+  rdfs:comment """Die Instanzbeziehung verbindet ein allgemeines Konzept, etwa eine
+      Klasse von Dingen oder Ereignissen mit einem individuellen Exemplar dieser Klasse, das oft
+      durch einen Eigennamen repräsentiert wird."""@de, """The instance relationship links a general concept such as a class of
+      things or events, and an individual instance oft hat class, which is often represented by a
+      proper name."""@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range ns1:SubjectHeading ;
+  ns1:marc21equivalent "550 $0 $9=4:obin" ;
+  rdfs:subPropertyOf ns1:broaderTermGeneral ;
+  owl:inverseOf ns1:narrowerTermInstantial .
+
+ns1:broaderTermPartitive
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Oberbegriff partitiv"@de, "Broader term (partitive)"@en ;
+  rdfs:comment """Eine partitive Relation ist eine hierarchische
+  Relation zwischen zwei Begriffen, von denen der übergeordnete Begriff
+  (Verbandsbegriff) einem Ganzen entspricht  und der untergeordnete Begriff
+  einen der Bestandteile dieses Ganzen repräsentiert. Bei Personen ist die
+  Relation die Beziehung zwischen einer einzelnen Person (besonders
+  Gottheiten) und übergeordneten Gruppen von Göttern und mythologische Gestalten."""@de, """The hierarchical whole-part relationship covers a limited range of
+      situations in which a part of an entity or system belongs uniquely to a particular possessing
+      whole. When applied to persons, this is the relation between a single person (particularly gods)
+    and hierarchically broader groups of gods and mythologic entities."""@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  ns1:marc21equivalent "530 $0 $9=4:obpa", "550 $0 $9=4:obpa", "551 $0 $9=4:obpa" ;
+  rdfs:subPropertyOf ns1:broaderTermGeneral ;
+  owl:inverseOf ns1:narrowerTermPartitive .
+
+ns1:broaderTermWithMoreThanOneElement
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Oberbegriff mehrgliedrig"@de, "Broader term (with more than one element)"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range ns1:SubjectHeading ;
+  ns1:marc21equivalent "550 $0 $9=4:obmo" ;
+  rdfs:subPropertyOf ns1:broaderTermGeneral .
+
+ns1:broderTermGeneral
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Oberbegriff allgemein"@de, "Broader term (general)"@en ;
+  owl:deprecated true ;
+  rdfs:comment "Use gndo:broaderTermGeneral instead"@en, "Bitte verwenden Sie gndo:broaderTermGeneral"@de ;
+  rdfs:seeAlso ns1:broaderTermGeneral .
+
+ns1:buildingOwner
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Bauherr"@de, "Building owner"@en ;
+  rdfs:domain ns1:PlaceOrGeographicName ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:bauh" .
+
+ns1:cartographer
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Kartograf"@de, "Cartographer"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:kart", "510 $0 $9=4:kart" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60425> .
+
+ns1:celebratedCorporateBody
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Gefeierte Körperschaft"@de, "Celebrated corporate body"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range ns1:CorporateBody ;
+  ns1:marc21equivalent "510 $0 $9=4:feie" .
+
+ns1:celebratedFamily
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Gefeierte Familie"@de, "Celebrated family"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range ns1:Family .
+
+ns1:celebratedPerson
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Gefeierte Person"@de, "Celebrated person"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range ns1:DifferentiatedPerson ;
+  ns1:marc21equivalent "500 $0 $9=4:feie" .
+
+ns1:celebratedTopic
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Gefeiertes Thema"@de, "Celebrated topic"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range ns1:SubjectHeading ;
+  ns1:marc21equivalent "550 $0 $9=4:feie" .
+
+ns1:characteristicPlace
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Charakteristischer Ort"@de, "Characteristic place"@en ;
+  rdfs:comment """Ort, der mit einer Familie in Verbindung
+  steht."""@de ;
+  rdfs:domain ns1:DifferentiatedPerson ;
+  rdfs:range ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "551 $0 $9=4:ortc" ;
+  rdfs:subPropertyOf ns1:associatedPlace .
+
+ns1:choreographer
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Choreograf"@de, "Choreographer"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:chre", "510 $0 $9=4:chre" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60433> .
+
+ns1:citedArtist
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Zitierter Künstler"@de, "Cited artist"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:PlaceOrGeographicName
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:kuez", "510 $0 $9=4:kuez" ;
+  rdfs:subPropertyOf ns1:artist, <http://rdaregistry.info/Elements/u/P60431> .
+
+ns1:citedAuthor
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Zitierter Verfasser"@de, "Cited author"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:autz", "510 $0 $9=4:autz" ;
+  rdfs:subPropertyOf ns1:author, <http://rdaregistry.info/Elements/u/P60434> .
+
+ns1:citedComposer
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Zitierter Komponist"@de, "Cited composer"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:komz", "510 $0 $9=4:komz" ;
+  rdfs:subPropertyOf ns1:composer, <http://rdaregistry.info/Elements/u/P60426> .
+
+ns1:collector
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Sammler"@de, "Collector"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:Work
+   )
+  ] ;
+  rdfs:range ns1:CorporateBody ;
+  ns1:marc21equivalent "500 $0 $9=4:saml", "510 $0 $9=4:saml" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60066> .
+
+ns1:compiler
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Kompilator"@de, "Compiler"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range ns1:DifferentiatedPerson ;
+  ns1:marc21equivalent "500 $0 $9=4:comp" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60428> .
+
+ns1:complexSeeReferenceSubject
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Relationierter Deskriptor"@de, "Complex see reference - subject"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range ns1:SubjectHeading ;
+  ns1:marc21equivalent "260 $0" .
+
+ns1:composer
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Komponist"@de, "Composer"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:koma", "510 $0 $9=4:koma" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60426> .
+
+ns1:conferrer
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Leihgeber"@de, "Conferrer"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:leih", "510 $0 $9=4:leih" .
+
+ns1:contributinFamily
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  owl:deprecated true ;
+  rdfs:label "Beteiligte Familie"@de, "Contributing family"@en ;
+  rdfs:comment "Use contributingFamily instead."@en, "Bitte verwenden sie contributingFamily."@de ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range ns1:Family ;
+  rdfs:seeAlso ns1:contributingFamily .
+
+ns1:contributingFamily
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Beteiligte Familie"@de, "Contributing family"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range ns1:Family .
+
+ns1:contributingCorporateBody
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Beteiligte Körperschaft"@de, "Contributing corporate body"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:Work
+   )
+  ] ;
+  rdfs:range ns1:CorporateBody ;
+  ns1:marc21equivalent "510 $0 $9=4:bete" .
+
+ns1:contributingPerson
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Beteiligte Person"@de, "Contributing person"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range ns1:DifferentiatedPerson ;
+  ns1:marc21equivalent "500 $0 $9=4:bete" .
+
+ns1:contributingPlaceOrGeographicName
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Beteiligtes Geografikum"@de, "Contributing place orgeographic name"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:SubjectHeading
+   )
+  ] ;
+  rdfs:range ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "551 $0 $9=4:bete" .
+
+ns1:copist
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Kopist"@de, "Copist"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:kopi", "510 $0 $9=4:kopi" .
+
+ns1:corporateBodyIsMember
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Körperschaft ist Mitglied"@de, "Corporate body is member"@en ;
+  rdfs:domain ns1:CorporateBody ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:PlaceOrGeographicName
+   )
+  ] ;
+  ns1:marc21equivalent "510 $0 $9=4:mitg", "551 $0 $9=4:mitg" ;
+  rdfs:subPropertyOf ns1:member .
+
+ns1:correspondent
+  a owl:ObjectProperty, owl:SymmetricProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Korrespondenzpartner"@de, "Correspondent"@en ;
+  rdfs:comment """Person, die zu der im Datensatz beschriebenen
+  Person oder Körperschaft als Korrespondenzpartner in Beziehung steht."""@de ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:korr", "510 $0 $9=4:korr" .
+
+ns1:creator
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Urheber"@de, "Creator"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:urhe", "510 $0 $9=4:urhe" .
+
+ns1:curator
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Kurator"@de, "Curator"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:kura", "510 $0 $9=4:kura" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60376> .
+
+ns1:dedicatee
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Widmungsempfänger"@de, "Dedicatee"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:PlaceOrGeographicName
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:widm", "510 $0 $9=4:widm" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60455> .
+
+ns1:designer
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Designer"@de, "Designer"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:desi", "510 $0 $9=4:desi" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60424> .
+
+ns1:director
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Regisseur"@de, "Director"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:regi", "510 $0 $9=4:regi" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60449> .
+
+ns1:directorOfPhotography
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Verantwortlicher Kameramann"@de, "Director of photography"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:kame", "510 $0 $9=4:kame" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60452> .
+
+ns1:doubtfulArtist
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Angezweifelter Künstler"@de, "Doubtful artist"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:PlaceOrGeographicName
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:kuew", "510 $0 $9=4:kuew" ;
+  rdfs:subPropertyOf ns1:artist, <http://rdaregistry.info/Elements/u/P60431> .
+
+ns1:doubtfulAuthor
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Angezweifelter Verfasser"@de, "Doubtful author"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:autw", "510 $0 $9=4:autw" ;
+  rdfs:subPropertyOf ns1:author, <http://rdaregistry.info/Elements/u/P60434> .
+
+ns1:doubtfulComposer
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Angezweifelter Komponist"@de, "Doubtful composer"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:komw", "510 $0 $9=4:komw" ;
+  rdfs:subPropertyOf ns1:composer, <http://rdaregistry.info/Elements/u/P60426> .
+
+ns1:editor
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Herausgeber"@de, "Editor"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:hrsg", "510 $0 $9=4:hrsg" .
+
+ns1:engraver
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Graveur"@de, "Engraver"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:grav", "510 $0 $9=4:grav" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60410> .
+
+ns1:etcher
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Radierer"@de, "Etcher"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:radi", "510 $0 $9=4:radi" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60416> .
+
+ns1:exhibitor
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Aussteller"@de, "Exhibitor"@en ;
+  rdfs:domain ns1:ConferenceOrEvent ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:aust", "510 $0 $9=4:aust" .
+
+ns1:familialRelationship
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Familiäre Beziehung"@de, "Familial relationship"@en ;
+  rdfs:comment """Person, die zu der beschriebenen Person in
+  familiärer bzw. verwandtschaftlicher Beziehung steht. Für Beziehungen von
+  oder zu Familien wird gndo:memberOfTheFamily verwendet."""@de ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:bezf" .
+
+ns1:fictitiousAuthor
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Fiktiver Verfasser"@de, "Fictitious author"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:autf", "510 $0 $9=4:autf" ;
+  rdfs:subPropertyOf ns1:author, <http://rdaregistry.info/Elements/u/P60434> .
+
+ns1:fieldOfActivity
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Tätigkeitsbereich"@de, "Field of activity"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  rdfs:range ns1:SubjectHeading ;
+  ns1:marc21equivalent "550 $0 $9=4:akti" .
+
+ns1:fieldOfStudy
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Studienfach"@de, "Field of study"@en ;
+  rdfs:comment "Studienfach einer Person."@de ;
+  rdfs:domain ns1:DifferentiatedPerson ;
+  rdfs:range ns1:SubjectHeading ;
+  ns1:marc21equivalent "550 $0 $9=4:stud" .
+
+ns1:firstArtist
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Erster Künstler"@de, "First artist"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:PlaceOrGeographicName
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:kue1", "510 $0 $9=4:kue1" ;
+  rdfs:subPropertyOf ns1:artist, <http://rdaregistry.info/Elements/u/P60431> .
+
+ns1:firstAuthor
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Erste Verfasserschaft"@de, "First author"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:aut1", "510 $0 $9=4:aut1" ;
+  rdfs:subPropertyOf ns1:author, <http://rdaregistry.info/Elements/u/P60434> .
+
+ns1:firstComposer
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Erster Komponist"@de, "First composer"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:kom1", "510 $0 $9=4:kom1" ;
+  rdfs:subPropertyOf ns1:composer, <http://rdaregistry.info/Elements/u/P60426> .
+
+ns1:formerOwner
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Früherer Besitzer"@de, "Former owner"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:PlaceOrGeographicName
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:befr", "510 $0 $9=4:befr" ;
+  rdfs:subPropertyOf ns1:owner, <http://rdaregistry.info/Elements/u/P60401> .
+
+ns1:formOfWorkAndExpression
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Form des Werks und der Expression"@de, "Form of work and expression"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  ns1:marc21equivalent "380 $0 $2=gnd" .
+
+ns1:founder
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Gründer"@de, "Founder"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:PlaceOrGeographicName
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:grue", "510 $0 $9=4:grue" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/a/P50029> .
+
+ns1:functionOrRole
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Funktion oder Rolle"@de, "Function or role"@en ;
+  rdfs:comment "This property is equivalent to gndo:functionOrRoleAsLiteral but points to a subject heading instead of giving a literal value."@en, "Diese Property ist äquivalent zu gndo:functionOrRoleAsLiteral, zeigt aber auf ein Schlagwort statt ein Literal auszugeben."@de ;
+  rdfs:seeAlso ns1:functionOrRoleAsLiteral ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:SubjectHeading
+   )
+  ] ;
+  rdfs:range ns1:SubjectHeading ;
+  ns1:marc21equivalent "550 $0 $9=4:funk" .
+
+ns1:gender
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Geschlecht"@de, "Gender"@en ;
+  rdfs:domain ns1:DifferentiatedPerson ;
+  rdfs:range <http://d-nb.info/standards/vocab/gnd/gender#GenderValue> ;
+  ns1:marc21equivalent "375 $a" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/a/P50116> .
+
+ns1:geographicAreaCode
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Ländercode"@de, "Geographic Area Code"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range <http://d-nb.info/standards/vocab/gnd/geographic-area-code#GeographicAreaCodeValue> ;
+  ns1:marc21equivalent "043 $c" .
+
+ns1:gndSubjectCategory
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "GND-Sachgruppe"@de, "GND subject category"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range <http://d-nb.info/standards/vocab/gnd/gnd-sc#GndSubjectCategoryValue> ;
+  ns1:marc21equivalent "065 $a $2=sswd" .
+
+ns1:hierarchicalSuperior
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Administrative Überordnung"@de, "Hierarchical superior"@en .
+
+ns1:hierarchicalSuperiorOfPlaceOrGeographicName
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Administrative Überordnung des Geografikums"@de, "Hierarchical superior of place or geographic name"@en ;
+  rdfs:domain ns1:PlaceOrGeographicName ;
+  rdfs:range ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "551 $0 $9=4:adue" ;
+  rdfs:subPropertyOf ns1:hierarchicalSuperior, <http://rdaregistry.info/Elements/a/P50008> .
+
+ns1:hierarchicalSuperiorOfTheConferenceOrEvent
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label """Administrative Überordnung der Konferenz oder der
+      Veranstaltung"""@de, "Hierarchical superior of the conference or event"@en ;
+  rdfs:domain ns1:ConferenceOrEvent ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+   )
+  ] ;
+  ns1:marc21equivalent "510 $0 $9=4:adue", "511 $0 $9=4:adue" ;
+  rdfs:subPropertyOf ns1:hierarchicalSuperior, <http://rdaregistry.info/Elements/a/P50008> .
+
+ns1:hierarchicalSuperiorOfTheCorporateBody
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Administrative Überordnung der Körperschaft"@de, "Hierarchical superior of the corporate body"@en ;
+  rdfs:domain ns1:CorporateBody ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:PlaceOrGeographicName
+   )
+  ] ;
+  ns1:marc21equivalent "510 $0 $9=4:adue", "511 $0 $9=4:adue", "551 $0 $9=4:adue" ;
+  rdfs:subPropertyOf ns1:hierarchicalSuperior, <http://rdaregistry.info/Elements/a/P50008> .
+
+ns1:homepage
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Homepage"@de, "Homepage"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  ns1:marc21equivalent "670 $u $a=Homepage" ;
+  ns1:superPropertyOf foaf:homepage .
+
+ns1:illustratorOrIlluminator
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Illustrator oder Illuminator"@de, "Illustrator or illuminator"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:illu", "510 $0 $9=4:illu" .
+
+ns1:initiator
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Veranlasser"@de, "Initiator"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:PlaceOrGeographicName
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:verr", "510 $0 $9=4:verr" .
+
+ns1:instrument
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Instrument"@de, "instrument"@en .
+
+ns1:instrumentalist
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Instrumentalmusiker"@de, "Instrumentalist"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range ns1:DifferentiatedPerson ;
+  ns1:marc21equivalent "500 $0 $9=4:istm" .
+
+ns1:inventor
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Erfinder"@de, "Inventor"@en ;
+  rdfs:domain ns1:SubjectHeading ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:erfi", "510 $0 $9=4:erfi" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60427> .
+
+ns1:language
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Sprache"@de, "Language"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range ns1:SubjectHeading .
+
+ns1:languageCode
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Sprachencode"@de, "Language code"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  ns1:marc21equivalent "377 $a $2=iso639-2b" .
+
+ns1:librettist
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Librettist"@de, "Librettist"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:libr", "510 $0 $9=4:libr" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60478> .
+
+ns1:literarySource
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Vorlage"@de, "Literary source"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range ns1:Work ;
+  ns1:marc21equivalent "530 $0 $9=4:vorl" .
+
+ns1:lithographer
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Litograf"@de, "Lithographer"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:lith", "510 $0 $9=4:lith" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60414> .
+
+ns1:manufacturer
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Hersteller"@de, "Manufacturer"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:hers", "510 $0 $9=4:hers" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60443> ;
+  owl:inverseOf foaf:made .
+
+ns1:member
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Mitglied"@de, "Member"@en .
+
+ns1:memberOfTheFamily
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Familienmitglied"@de, "Member of the family"@en ;
+  rdfs:comment """Die beschriebene Person (Subjekt) ist ein bedeutendes 
+  Mitglied der verknüpften Familie (Objekt). Für Göttergruppen und Gruppen
+  mythologischer Gestalten wird gndo:broaderTermPartitive verwendet."""@de ;
+  rdfs:domain ns1:DifferentiatedPerson ;
+  rdfs:range ns1:Family ;
+  ns1:marc21equivalent "500 $0 $9=4:mitg" ;
+  rdfs:subPropertyOf ns1:member, <http://rdaregistry.info/Elements/a/P50056> ;
+  rdfs:seeAlso ns1:broaderTermPartitive .
+
+ns1:musician
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Musiker"@de, "Musician"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+   )
+  ] ;
+  rdfs:range ns1:DifferentiatedPerson ;
+  ns1:marc21equivalent "500 $0 $9=4:musi" .
+
+ns1:narrator
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Sprecher"@de, "Narrator"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range ns1:DifferentiatedPerson ;
+  ns1:marc21equivalent "500 $0 $9=4:spre" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60153> .
+
+ns1:narrowerTermGeneral
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Unterbegriff allgemein"@de, "Narrower term (general)"@en ;
+  rdfs:domain ns1:SubjectHeading ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  owl:equivalentProperty skos:narrower ;
+  owl:inverseOf ns1:broaderTermGeneral .
+
+ns1:narrowerTermGeneric
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Unterbegriff generisch"@de, "Narrowerer term (generic)"@en ;
+  rdfs:comment """Eine generische Relation ist eine hierarchische Relation zwischen
+      zwei Begriffen, von denen der untergeordnete Begriff alle Merkmale des übergeordneten Begriffs
+      besitzt und zusätzlich noch mindestens ein weiteres Merkmal."""@de, """The generic relation is a semantic relation between two concepts
+      where the intension of one of the concepts includes that of the other concepts and at least
+      one additional delimiting characteristic is added."""@en ;
+  rdfs:domain ns1:SubjectHeading ;
+  rdfs:range ns1:SubjectHeading ;
+  rdfs:subPropertyOf ns1:narrowerTermGeneral ;
+  owl:inverseOf ns1:broaderTermGeneric .
+
+ns1:narrowerTermInstantial
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Unterbegriff instantiell"@de, "Narrower term (instantial)"@en ;
+  rdfs:comment """Die Instanzbeziehung verbindet ein allgemeines Konzept, etwa eine
+      Klasse von Dingen oder Ereignissen mit einem individuellen Exemplar dieser Klasse, das oft
+      durch einen Eigennamen repräsentiert wird."""@de, """The instance relationship links a general concept such as a class of
+      things or events, and an individual instance oft hat class, which is often represented by a
+      proper name."""@en ;
+  rdfs:domain ns1:SubjectHeading ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:subPropertyOf ns1:narrowerTermGeneral ;
+  owl:inverseOf ns1:broaderTermInstantial .
+
+ns1:narrowerTermPartitive
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Unterbegriff partitiv"@de, "Narrower term (partitive)"@en ;
+  rdfs:comment """Eine partitive Relation ist eine hierarchische
+  Relation zwischen zwei Begriffen, von denen der übergeordnete Begriff
+  (Verbandsbegriff) einem Ganzen entspricht und der untergeordnete Begriff
+  einen der Bestandteile dieses Ganzen repräsentiert. Bei Personen ist die
+  Relation die Beziehung zwischen einer einzelnen Person (besonders
+  Gottheiten) und übergeordneten Gruppen von Göttern und mythologische Gestalten."""@de, """The hierarchical whole-part relationship covers a limited range of
+      situations in which a part of an entity or system belongs uniquely to a particular possessing
+      whole. When applied to persons, this is the relation between a single person (particularly gods)
+    and hierarchically superior groups of gods and mythologic entities."""@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:subPropertyOf ns1:narrowerTermGeneral ;
+  owl:inverseOf ns1:broaderTermPartitive .
+
+ns1:occasion
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Anlass"@de, "Occasion"@en .
+
+ns1:occasionOfTheSubjectHeading
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Anlass des Schlagworts"@de, "Occasion of the subject heading"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range ns1:SubjectHeading ;
+  ns1:marc21equivalent "550 $0 $9=4:anla" ;
+  rdfs:subPropertyOf ns1:occasion .
+
+ns1:occasionOfTheWork
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Anlass des Werkes"@de, "Occasion of the work"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:Work
+   )
+  ] ;
+  rdfs:range ns1:Work ;
+  ns1:marc21equivalent "530 $0 $9=4:anla" ;
+  rdfs:subPropertyOf ns1:occasion .
+
+ns1:mediumOfPerformance
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Besetzung im Musikbereich"@de, "Medium of performance"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range ns1:SubjectHeading ;
+  ns1:marc21equivalent "382 $0", "550 $0 $9=4:istr" ;
+  rdfs:subPropertyOf ns1:instrument, <http://rdaregistry.info/Elements/u/P60536> .
+
+ns1:organizerOrHost
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Veranstalter oder Gastgeber"@de, "Organizer or host"@en ;
+  rdfs:domain ns1:ConferenceOrEvent ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:vera", "510 $0 $9=4:vera" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60061> .
+
+ns1:otherPlace
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Weiterer Ort"@de, "Other place"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+   )
+  ] ;
+  rdfs:range ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "551 $0 $9=4:ortm" ;
+  rdfs:subPropertyOf ns1:associatedPlace .
+
+ns1:owner
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Besitzer"@de, "Owner"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:PlaceOrGeographicName
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:besi", "510 $0 $9=4:besi" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60404> .
+
+ns1:painter
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Maler"@de, "Painter"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:malr", "510 $0 $9=4:malr" .
+
+ns1:photographer
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Fotograf"@de, "Photographer"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:foto", "510 $0 $9=4:foto" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60429> .
+
+ns1:place
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Ort"@de, "place"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+   )
+  ] ;
+  rdfs:range ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "551 $0 $9=4:orta" ;
+  rdfs:subPropertyOf ns1:associatedPlace .
+
+ns1:placeOfActivity
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Wirkungsort"@de, "Place of activity"@en ;
+  rdfs:comment "Wirkungsort bzw. Wohnort einer Person."@de ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:DifferentiatedPerson
+     ns1:Family
+     ns1:SubjectHeading
+   )
+  ] ;
+  rdfs:range ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "551 $0 $9=4:ortw" ;
+  rdfs:subPropertyOf ns1:associatedPlace .
+
+ns1:placeOfBirth
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Geburtsort"@de, "Place of Birth"@en ;
+  rdfs:comment "Geburtsort einer Person."@de ;
+  rdfs:domain ns1:DifferentiatedPerson ;
+  rdfs:range ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "551 $0 $9=4:ortg" ;
+  rdfs:subPropertyOf ns1:associatedPlace, <http://rdaregistry.info/Elements/a/P50119> ;
+  rdfs:seeAlso ns1:placeOfBirthAsLiteral .
+
+ns1:placeOfBusiness
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Sitz"@de, "Place of business"@en ;
+  rdfs:domain ns1:CorporateBody ;
+  rdfs:range ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "551 $0 $9=4:orta" ;
+  rdfs:subPropertyOf ns1:associatedPlace, <http://rdaregistry.info/Elements/a/P50018> .
+
+ns1:placeOfConferenceOrEvent
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Veranstaltungsort"@de, "Place of conference or event"@en ;
+  rdfs:domain ns1:ConferenceOrEvent ;
+  rdfs:range ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "551 $0 $9=4:ortv" ;
+  rdfs:subPropertyOf ns1:associatedPlace, <http://rdaregistry.info/Elements/a/P50024> .
+
+ns1:placeOfCustody
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Aufbewahrungsort"@de, "Place of custody"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "551 $0 $9=4:ortb" ;
+  rdfs:subPropertyOf ns1:associatedPlace .
+
+ns1:placeOfDeath
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Sterbeort"@de, "Place of death"@en ;
+  rdfs:comment "Sterbeort einer Person." ;
+  rdfs:domain ns1:DifferentiatedPerson ;
+  rdfs:range ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "551 $0 $9=4:orts" ;
+  rdfs:subPropertyOf ns1:associatedPlace, <http://rdaregistry.info/Elements/a/P50118> ;
+  rdfs:seeAlso ns1:placeOfDeathAsLiteral .
+
+ns1:placeOfDiscovery
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Fundort"@de, "Place of discovery"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "551 $0 $9=4:ortf" ;
+  rdfs:subPropertyOf ns1:associatedPlace .
+
+ns1:placeOfExile
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Exilort"@de, "Place of Exile"@en ;
+  rdfs:comment """Ortschaft, Stadt, Provinz, Staat und/oder Land,
+  in der/dem eine Person oder Familie im Exil lebt(e)."""@de ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  rdfs:range ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "551 $0 $9=4:ortx" ;
+  rdfs:subPropertyOf ns1:associatedPlace .
+
+ns1:placeOfManufacture
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Herstellungsort"@de, "Place of manufacture"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "551 $0 $9=4:orth" ;
+  rdfs:subPropertyOf ns1:associatedPlace .
+
+ns1:placeOrGeographicNameIsMember
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Geografikum ist Mitglied"@de, "Place or geographic name is member"@en ;
+  rdfs:domain ns1:PlaceOrGeographicName ;
+  rdfs:range ns1:CorporateBody ;
+  ns1:marc21equivalent "510 $0 $9=4:mitg" ;
+  rdfs:subPropertyOf ns1:member .
+
+ns1:playedInstrument
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Gespieltes Instrument"@de, "Played instrument"@en ;
+  rdfs:domain ns1:DifferentiatedPerson ;
+  rdfs:range ns1:SubjectHeading ;
+  ns1:marc21equivalent "550 $0 $9=4:istr" ;
+  rdfs:subPropertyOf ns1:instrument .
+
+ns1:poet
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Dichter"@de, "Poet"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:dich", "510 $0 $9=4:dich" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60477> .
+
+ns1:precedingConferenceOrEvent
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Vorherige Konferenz oder Veranstaltung"@de, "Preceding conference or event"@en ;
+  rdfs:domain ns1:ConferenceOrEvent ;
+  rdfs:range ns1:ConferenceOrEvent ;
+  ns1:marc21equivalent "511 $0 $9=4:vorg" ;
+  rdfs:subPropertyOf ns1:predecessor, <http://rdaregistry.info/Elements/a/P50012> .
+
+ns1:precedingCorporateBody
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Vorherige Körperschaft"@de, "Preceding corporate body"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:PlaceOrGeographicName
+   )
+  ] ;
+  rdfs:range ns1:CorporateBody ;
+  ns1:marc21equivalent "510 $0 $9=4:vorg" ;
+  rdfs:subPropertyOf ns1:predecessor, <http://rdaregistry.info/Elements/a/P50012> .
+
+ns1:precedingPlaceOrGeographicName
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Vorheriges Geografikum"@de, "Preceding place or geographic name"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:PlaceOrGeographicName
+   )
+  ] ;
+  rdfs:range ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "551 $0 $9=4:vorg" ;
+  rdfs:subPropertyOf ns1:predecessor .
+
+ns1:precedingSubject
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Vorheriges Schlagwort"@de, "Preceding subject heading"@en ;
+  rdfs:domain ns1:SubjectHeading ;
+  rdfs:range ns1:SubjectHeading ;
+  ns1:marc21equivalent "550 $0 $9=4:vorg" ;
+  rdfs:subPropertyOf ns1:predecessor .
+
+ns1:precedingWork
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Vorheriges Werk"@de, "Preceding work"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range ns1:Work ;
+  ns1:marc21equivalent "530 $0 $9=4:vorg" ;
+  rdfs:subPropertyOf ns1:predecessor, <http://rdaregistry.info/Elements/u/P60261> .
+
+ns1:predecessor
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Vorgänger"@de, "Predecessor"@en .
+
+ns1:preferredNameEntityForThePerson
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Bevorzugte Namensentität der Person"@de, "Preferred name entity for the person"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:DifferentiatedPerson
+     ns1:UndifferentiatedPerson
+   )
+  ] ;
+  rdfs:range ns1:NameOfThePerson .
+
+ns1:UndifferentiatedPerson
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Nicht-individualisierte Person"@de, "Undifferentiated person"@en ;
+  ns1:marc21equivalent "079 $b=n" ;
+  rdfs:subClassOf ns1:Person .
+
+ns1:printer
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Drucker"@de, "Printer"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:druc", "510 $0 $9=4:druc" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60418> .
+
+ns1:professionOrOccupation
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Beruf oder Beschäftigung"@de, "Profession or occupation"@en ;
+  rdfs:comment """Berufs- oder Tätigkeitsbezeichnung bzw.
+  Bezeichnung für die Religionszugehörigkeit oder die Weltanschauung einer
+  Person."""@de ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  rdfs:range ns1:SubjectHeading ;
+  ns1:marc21equivalent "550 $0 $9=4:berc", "550 $0 $9=4:beru" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/a/P50104> ;
+  rdfs:seeAlso ns1:professionOrOccupationAsLiteral .
+
+ns1:professionalRelationship
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Beruflich Beziehung"@de, "Professional relationship"@en ;
+  rdfs:comment """Person, die zu der beschriebenen Person in
+    beruflicher Beziehung steht."""@de ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:bezb" .
+
+ns1:pseudonym
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Pseudonym"@de, "Pseudonym"@en ;
+  rdfs:domain ns1:DifferentiatedPerson ;
+  rdfs:range ns1:DifferentiatedPerson ;
+  ns1:marc21equivalent "500 $0 $9=4:pseu" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/a/P50105> .
+
+ns1:relatedConferenceOrEvent
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "In Beziehung stehende Konferenz oder Veranstaltung"@de, "Related conference or event"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range ns1:ConferenceOrEvent ;
+  ns1:marc21equivalent "511 $0 $9=4:rela" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/a/P50218> .
+
+ns1:relatedCorporateBody
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "In Beziehung stehende Körperschaft"@de, "Related Corporate Body"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range ns1:CorporateBody ;
+  ns1:marc21equivalent "510 $0 $9=4:rela" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/a/P50218> .
+
+ns1:relatedDdcWithDegreeOfDeterminacy1
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label """In Beziehung stehende Dewey-Dezimalklassifikation mit
+      Determiniertheitsgrad 1"""@de, """Related Dewey Decimal Classification with degree of determinacy
+      1"""@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:comment """Der Bedeutungsumfang der GND-Entität und der Bedeutungsumfang der
+      DDC-Klasse haben eine geringe Schnittmenge."""@de, """The connotation scope of the GND entity corresponds to a small part
+      to the connotation scope of the assigned DDC class."""@en .
+
+ns1:relatedDdcWithDegreeOfDeterminacy2
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label """In Beziehung stehende Dewey-Dezimalklassifikation mit
+      Determiniertheitsgrad 2"""@de, """Related Dewey Decimal Classification with degree of determinacy
+      2"""@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:comment """Die GND-Entität stimmt in seinem Bedeutungsumfang vollständig oder
+      weitgehend mit dem Bedeutungsumfang eines Themas überein, das sinngemäß Teil einer DDC-Klasse
+      ist, aber einen geringeren inhaltlichen Umfang aufweist als der durch die Notation
+      repräsentierte Begriff."""@de, """The connotation scope of the GND entity is identical or nearly
+      identical to the connotation scope of a topic that is logically part of the class but is less
+      extensive in scope than the concept represented by the class number."""@en .
+
+ns1:relatedDdcWithDegreeOfDeterminacy3
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label """In Beziehung stehende Dewey-Dezimalklassifikation mit
+      Determiniertheitsgrad 3"""@de, """Related Dewey Decimal Classification with degree of determinacy
+      3"""@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:comment """Die GND-Entität stimmt in seinem Bedeutungsumfang vollständig oder
+      weitgehend mit dem Bedeutungsumfang eines Themas überein, das wesentliche Übereinstimmung mit
+      der DDC-Klasse aufweist. In der DDC-Terminologie liegt eine wesentliche Übereinstimmung vor,
+      wenn ein Thema nahezu koextensiv mit einer DDC-Klasse ist oder mehr als die Hälfte des Inhalts
+      einer Klassenbenennung abdeckt."""@de, """The connotation scope of the GND entity is identical or nearly
+      identical to the connotation scope of a topic that approximates the whole of the assigned DDC
+      class. According to DDC terms, topics that are nearly coextensive with the full meaning of a
+      class or cover more than half of the content of the class approximate the whole of the DDC
+      class."""@en .
+
+ns1:relatedDdcWithDegreeOfDeterminacy4
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label """In Beziehung stehende Dewey-Dezimalklassifikation mit
+      Determiniertheitsgrad 4"""@de, """Related Dewey Decimal Classification with degree of determinacy
+      4"""@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:comment """Die GND-Entität stimmt in seinem Bedeutungsumfang vollständig mit
+      dem Bedeutungsumfang des in der DDC-Klassenbenennung hervorgehobenen Themas überein, d.h. es
+      weist auch denselben fachlichen Kontext wie die DDC-Klasse auf."""@de, """The connotation scope of the GND entity is identical to the
+      connotation scope of the topic emphasized in the DDC class heading."""@en .
+
+ns1:relatedFamily
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "In Beziehung stehende Familie"@de, "Related family"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range ns1:Family ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/a/P50219> .
+
+ns1:relatedPerson
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "In Beziehung stehende Person"@de, "Related person"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range ns1:DifferentiatedPerson ;
+  ns1:marc21equivalent "500 $0 $9=4:rela" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/a/P50220> .
+
+ns1:relatedPlaceOrGeographicName
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "In Beziehung stehendes Geografikum"@de, "Related place or geographic name"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "551 $0 $9=4:geoa", "551 $0 $9=4:rela" .
+
+ns1:relatedSubjecHeading
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "In Beziehung stehendes Schlagwort"@de, "Related subject heading"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range ns1:SubjectHeading ;
+  ns1:marc21equivalent "550 $0 $9=4:rela" .
+
+ns1:relatedTerm
+  a owl:ObjectProperty, owl:SymmetricProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Verwandter Begriff"@de, "Related Term"@en ;
+  rdfs:comment """Eine Assoziationsrelation ist eine zwischen Begriffen als wichtig
+      erscheinende Relation, die weder eindeutig hierarchischer Natur ist, noch als äquivalent
+      angesehen werden kann. Bei Personen ist dies z. B. die Beziehung zwischen fiktiven
+    Gestalten und ihrem realem Vorbild. Hierzu gehören auch Beziehungen zwischen Personen
+    und z. B. Körperschaften, die im Namen einer Person agieren,
+    Gesellschaften, die zu Ehren einer Person gegründet wurden und
+    Körperschaften, die sich mit einer Person und ihrem Werk beschäftigen."""@de, """The associative relationship covers associations between pairs of
+      concepts that are not related hierarchically, but are semantically or concetually associated
+      to such an extent that the link between them needs to be made explicit in the thesaurus. """@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:vbal", "510 $0 $9=4:vbal", "511 $0 $9=4:vbal", "530 $0 $9=4:vbal", "550 $0 $9=4:vbal", "551 $0 $9=4:vbal" .
+
+ns1:relatedWork
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "In Beziehung stehendes Werk"@de, "Related work"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range ns1:Work ;
+  ns1:marc21equivalent "530 $0 $9=4:rela" .
+
+ns1:restorer
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Restaurator"@de, "Restorer"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:PlaceOrGeographicName
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:rest", "510 $0 $9=4:rest" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60450> .
+
+ns1:revisor
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Bearbeiter"@de, "Revisor"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range ns1:DifferentiatedPerson ;
+  ns1:marc21equivalent "500 $0 $9=4:bear" .
+
+ns1:screenwriter
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Drehbuchautor"@de, "Screenwriter"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:vfrd", "510 $0 $9=4:vfrd" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60476> .
+
+ns1:scriptorium
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Skriptorium"@de, "Scriptorium"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range ns1:CorporateBody .
+
+ns1:sculptor
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Bildhauer"@de, "Sculptor"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:PlaceOrGeographicName
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:bilh", "510 $0 $9=4:bilh" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60475> .
+
+ns1:singer
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Sänger"@de, "Singer"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:saen", "510 $0 $9=4:saen" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60156> .
+
+ns1:sponsorOrPatron
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Sponsor oder Mäzen"@de, "Sponsor or patron"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:PlaceOrGeographicName
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:spon", "510 $0 $9=4:spon", "550 $0 $9=4:spon" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/a/P50028> .
+
+ns1:subeditor
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Redakteur"@de, "Subeditor"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:reda", "510 $0 $9=4:reda" .
+
+ns1:succeedingConferenceOrEvent
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Nachfolgende Konferenz oder Veranstaltung"@de, "Succeeding conference or event"@en ;
+  rdfs:domain ns1:ConferenceOrEvent ;
+  rdfs:range ns1:ConferenceOrEvent ;
+  ns1:marc21equivalent "511 $0 $9=4:nach" ;
+  rdfs:subPropertyOf ns1:successor, <http://rdaregistry.info/Elements/a/P50016> .
+
+ns1:succeedingCorporateBody
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Nachfolgende Körperschaft"@de, "Succeeding corporate body"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:PlaceOrGeographicName
+   )
+  ] ;
+  rdfs:range ns1:CorporateBody ;
+  ns1:marc21equivalent "510 $0 $9=4:nach" ;
+  rdfs:subPropertyOf ns1:successor, <http://rdaregistry.info/Elements/a/P50016> .
+
+ns1:succeedingPlaceOrGeographicName
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Nachfolgendes Geografikum"@de, "Succeeding place or geographic name"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:PlaceOrGeographicName
+   )
+  ] ;
+  rdfs:range ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "551 $0 $9=4:nach" ;
+  rdfs:subPropertyOf ns1:successor .
+
+ns1:succeedingSubjectHeading
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Nachfolgendes Schlagwort"@de, "Succeeding subject heading"@en ;
+  rdfs:domain ns1:SubjectHeading ;
+  rdfs:range ns1:SubjectHeading ;
+  ns1:marc21equivalent "550 $0 $9=4:nach" ;
+  rdfs:subPropertyOf ns1:successor .
+
+ns1:succeedingWork
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Nachfolgendes Werk"@de, "Succeeding work"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range ns1:Work ;
+  ns1:marc21equivalent "530 $0 $9=4:nach" ;
+  rdfs:subPropertyOf ns1:successor, <http://rdaregistry.info/Elements/u/P60278> .
+
+ns1:spatialAreaOfActivity
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Geographischer Wirkungsbereich"@de, "Spatial area of activity"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+   )
+  ] ;
+  rdfs:range ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "551 $0 $9=4:geow" .
+
+ns1:StartingOrFinalPointOfADistance
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  owl:deprecated true ;
+  rdfs:label "Beginn und Ende einer Strecke"@de, "Starting or final point of a distance"@en ;
+  rdfs:comment "Use startingOrFinalPointOfADistance (with a minor s) instead"@en, "Bitte verwenden sie startingOrFinalPointOfADistance (mit kleinem s)"@de ;
+  rdfs:domain ns1:PlaceOrGeographicName ;
+  rdfs:range ns1:PlaceOrGeographicName ;
+  rdfs:seeAlso ns1:startingOrFinalPointOfADistance ;
+  ns1:marc21equivalent "551 $0 $9=4:punk" .
+
+ns1:startingOrFinalPointOfADistance
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Beginn und Ende einer Strecke"@de, "Starting or final point of a distance"@en ;
+  rdfs:domain ns1:PlaceOrGeographicName ;
+  rdfs:range ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "551 $0 $9=4:punk" .
+
+ns1:superPropertyOf
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Super-Property von"@de, "Super-property pf"@en ;
+  rdfs:comment """P1 gnd:superPropertyOf P2 sagt aus, dass P2 eine Subproperty von P1
+      ist. Die gndo:superPropertyOf-Property ist transitiv."""@de, """P1 gnd:superPropertyOf P2 states that P2 is a subproperty of P1. The
+      gndo:superPropertyOf property is transitive."""@en ;
+  owl:inverseOf rdfs:subPropertyOf .
+
+ns1:successor
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Nachfolger"@de, "Successor"@en .
+
+ns1:temporaryName
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Zeitweiser Name"@de, "Temporary name"@en .
+
+ns1:temporaryNameOfTheConferenceOrEvent
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Zeitweiser Name der Konferenz oder Veranstaltung"@de, "Temporary name of the conference or event"@en ;
+  rdfs:domain ns1:ConferenceOrEvent ;
+  rdfs:range ns1:ConferenceOrEvent ;
+  ns1:marc21equivalent "511 $0 $9=4:nazw" ;
+  rdfs:subPropertyOf ns1:temporaryName .
+
+ns1:temporaryNameOfTheCorporateBody
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Zeitweiser Name der Körperschaft"@de, "Temporary name of the corporate body"@en ;
+  rdfs:domain ns1:CorporateBody ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:PlaceOrGeographicName
+   )
+  ] ;
+  ns1:marc21equivalent "510 $0 $9=4:nazw", "551 $0 $9=4:nazw" ;
+  rdfs:subPropertyOf ns1:temporaryName .
+
+ns1:temporaryNameOfThePlaceOrGeographicName
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Zeitweiser Name des Geografikums"@de, "Temporary name of the place or geographic name"@en ;
+  rdfs:domain ns1:PlaceOrGeographicName ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:PlaceOrGeographicName
+   )
+  ] ;
+  ns1:marc21equivalent "510 $0 $9=4:nazw", "551 $0 $9=4:nazw" ;
+  rdfs:subPropertyOf ns1:temporaryName .
+
+ns1:titleOfNobility
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Adelstitel"@de, "Title of nobility"@en ;
+  rdfs:comment """Adelstitel einer Person oder Adelstitel im
+  Erbtitel einer Familie."""@de ;
+  rdfs:domain ns1:DifferentiatedPerson ;
+  rdfs:range ns1:SubjectHeading ;
+  ns1:marc21equivalent "550 $0 $9=4:adel" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/a/P50059>, <http://rdaregistry.info/Elements/a/P50110>, foaf:title ;
+  rdfs:seeAlso ns1:titleOfNobilityAsLiteral .
+
+ns1:topic
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Thema"@de, "Topic"@en ;
+  rdfs:comment """Thema, mit dem sich eine Person beschäftigt und
+  über das sie veröffentlicht."""@de ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:them", "510 $0 $9=4:them", "511 $0 $9=4:them", "530 $0 $9=4:them", "550 $0 $9=4:them", "551 $0 $9=4:them" .
+
+ns1:translator
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Übersetzer"@de, "Translator"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:uebe", "510 $0 $9=4:uebe" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/u/P60385> .
+
+ns1:typeOfCoordinates
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Koordinatentyp"@de, "Type of coordinates"@en ;
+  rdfs:domain ns1:PlaceOrGeographicName ;
+  rdfs:range <http://d-nb.info/standards/vocab/gnd/type-of-coordinates#TypeOfCoordinatesValue> ;
+  ns1:marc21equivalent "034 $9" .
+
+ns1:variantNameEntityForThePerson
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Variante Namensentität der Person"@de, "Variant name entity for the person"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:DifferentiatedPerson
+     ns1:UndifferentiatedPerson
+   )
+  ] ;
+  rdfs:range ns1:NameOfThePerson .
+
+ns1:writerOfAddedCommentary
+  a owl:ObjectProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Kommentator (schriftlich)"@de, "Writer of added commentary"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "500 $0 $9=4:komm", "510 $0 $9=4:komm" .
+
+ns1:academicDegree
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Akademischer Grad"@de, "Academic degree"@en ;
+  rdfs:comment """Akademischer Grad bzw. akademischer Titel --
+  auch Ehrentitel -- einer Person in abgekürzter Form. Dazu gehören unter
+  anderem: Dr., Prof., Dipl., Mag., Prof. h. c., Dr. rer. nat."""@de ;
+  rdfs:domain ns1:DifferentiatedPerson ;
+  ns1:marc21equivalent "550 $a $9=4:akad" ;
+  rdfs:subPropertyOf foaf:title .
+
+ns1:addition
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  owl:deprecated true ;
+  rdfs:label "Zusatz"@de, "Addition"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:NameOfThePerson
+     ns1:CorporateBody
+     ns1:ConferenceOrEvent
+     ns1:Work
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+   )
+  ] ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "100 $9", "400 $9" .
+
+ns1:NameOfThePerson
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Personenname"@de, "Name of the person"@en ;
+  rdfs:subClassOf owl:Thing .
+
+ns1:affiliationAsLiteral
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Affiliation (Literal)"@de, "Affiliation (Literal)"@en ;
+  rdfs:comment """This property is equivalent to gndo:affiliation but gives a literal instead of
+    a URI"""@en, "Diese Property ist äquivalent zu gndo:affiliation, zeigt aber ein Literal statt eines URIs"@de ;
+  rdfs:seeAlso ns1:affiliation ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "510 $a $b $n $9=4:affi", "511 $a $c $d $e $n $9=4:affi", "551 $a $z $9=4:affi" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/a/P50101> .
+
+ns1:associatedDate
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Assoziierte Zeit"@de, "Associated date"@en .
+
+ns1:biographicalOrHistoricalInformation
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Biografische oder historische Angaben"@de, "Biographical or historical information"@en ;
+  rdfs:comment """Zusammenfassung von wesentlichen biografischen, geschichtlichen oder
+      anderen Informationen über die zu beschreibende Entität."""@de, """Summary of the essential biographical, historical, or other
+      information about the described entity."""@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "678 $b" ;
+  ns1:superPropertyOf <http://rdaregistry.info/Elements/a/P50113>, <http://rdaregistry.info/Elements/a/P50064>, <http://rdaregistry.info/Elements/a/P50035> .
+
+ns1:coordinates
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Koordinaten"@de, "Coordinates"@en .
+
+ns1:counting
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Zählung"@de, "Counting"@en ;
+  rdfs:domain ns1:NameOfThePerson ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "100 $b", "400 $b" .
+
+ns1:dateOfBirth
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Geburtsdatum"@de, "Date of birth"@en ;
+  rdfs:domain ns1:DifferentiatedPerson ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     rdfs:Literal
+     xsd:date
+     xsd:gYearMonth
+     xsd:gYear
+   )
+  ] ;
+  ns1:marc21equivalent "548 $a $9=4:datl", "548 $a $9=4:datx" ;
+  rdfs:subPropertyOf ns1:associatedDate ;
+  owl:equivalentProperty <http://rdaregistry.info/Elements/a/P50121>, foaf:birthday .
+
+rdfs:Literal a owl:Class .
+xsd:date a owl:Class .
+xsd:gYearMonth a owl:Class .
+xsd:gYear a owl:Class .
+ns1:dateOfBirthAndDeath
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Geburts- und Sterbedatum"@de, "Date of birth and death"@en ;
+  rdfs:domain ns1:DifferentiatedPerson ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     rdfs:Literal
+     xsd:date
+     xsd:gYearMonth
+     xsd:gYear
+   )
+  ] ;
+  ns1:marc21equivalent "548 $a $9=4:datl", "548 $a $9=4:datx" ;
+  rdfs:subPropertyOf ns1:associatedDate .
+
+ns1:dateOfConferenceOrEvent
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Veranstalungsdaten"@de, "Date of conference or event"@en ;
+  rdfs:domain ns1:ConferenceOrEvent ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     rdfs:Literal
+     xsd:dateTime
+   )
+  ] ;
+  ns1:marc21equivalent "548 $a $9=4:datv" ;
+  rdfs:subPropertyOf ns1:associatedDate ;
+  owl:equivalentProperty <http://rdaregistry.info/Elements/a/P50039> .
+
+xsd:dateTime a owl:Class .
+ns1:dateOfDeath
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Sterbedatum"@de, "Date of death"@en ;
+  rdfs:domain ns1:DifferentiatedPerson ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     rdfs:Literal
+     xsd:date
+     xsd:gYearMonth
+     xsd:gYear
+   )
+  ] ;
+  ns1:marc21equivalent "548 $a $9=4:datl", "548 $a $9=4:datx" ;
+  rdfs:subPropertyOf ns1:associatedDate ;
+  owl:equivalentProperty <http://rdaregistry.info/Elements/a/P50120> .
+
+ns1:dateOfDiscovery
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Fundjahr"@de, "Date of discovery"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     rdfs:Literal
+     xsd:dateTime
+   )
+  ] ;
+  ns1:marc21equivalent "548 $a $9=4:datf" ;
+  rdfs:subPropertyOf ns1:associatedDate .
+
+ns1:dateOfEstablishment
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Gründungsdatum"@de, "Date of establishment"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     rdfs:Literal
+     xsd:dateTime
+   )
+  ] ;
+  ns1:marc21equivalent "548 $a $9=4:datb" ;
+  rdfs:subPropertyOf ns1:associatedDate .
+
+ns1:dateOfEstablishmentAndTermination
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Gründungs- und Auflösungsdatum"@de, "Date of establishment and termination"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     rdfs:Literal
+     xsd:dateTime
+   )
+  ] ;
+  ns1:marc21equivalent "548 $a $9=4:datb" ;
+  rdfs:subPropertyOf ns1:associatedDate .
+
+ns1:dateOfProduction
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Erstellungszeit"@de, "Date of production"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     rdfs:Literal
+     xsd:dateTime
+   )
+  ] ;
+  ns1:marc21equivalent "548 $a $9=4:dats" ;
+  rdfs:subPropertyOf ns1:associatedDate .
+
+ns1:dateOfPublication
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Erscheinungszeit"@de, "Date of publication"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     rdfs:Literal
+     xsd:dateTime
+   )
+  ] ;
+  ns1:marc21equivalent "548 $a $9=4:datj" ;
+  rdfs:subPropertyOf ns1:associatedDate .
+
+ns1:dateOfTermination
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Auflösungsdatum"@de, "Date of termination"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     rdfs:Literal
+     xsd:dateTime
+   )
+  ] ;
+  ns1:marc21equivalent "548 $a $9=4:datb" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/a/P50038> .
+
+ns1:definition
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Definition"@de, "Definition"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:Work
+   )
+  ] ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "679 $a" ;
+  ns1:superPropertyOf dc:definition .
+
+ns1:easternmostLongitude
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Östlichster Längengrad"@de, "Easternmost longitude"@en ;
+  rdfs:domain ns1:PlaceOrGeographicName ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "034 $e" ;
+  rdfs:subPropertyOf ns1:coordinates .
+
+ns1:epithetGenericNameTitleOrTerritory
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  owl:deprecated true ;
+  rdfs:label "Beiname, Gattungsname, Titulatur, Territorium"@de, "Epithet, generic name, title or territory"@en ;
+  rdfs:domain ns1:NameOfThePerson ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "100 $c", "400 $c" .
+
+ns1:forename
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Vorname"@de, "Forename"@en ;
+  rdfs:domain ns1:NameOfThePerson ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "100 $a", "400 $a" ;
+  owl:equivalentProperty foaf:givenName .
+
+ns1:functionOrRoleAsLiteral
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Funktion oder Rolle (Literal)"@de, "Function or role (Literal)"@en ;
+  rdfs:comment "This property is equivalent to gndo:functionOrRole but gives a literal instead of a URI"@en, "Diese Property ist äquivalent zu gndo:functionOrRole, zeigt aber ein Literal statt eines URIs"@de ;
+  rdfs:seeAlso ns1:functionOrRole ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:SubjectHeading
+   )
+  ] ;
+  ns1:marc21equivalent "550 $0 $9=4:funk" .
+
+ns1:gndIdentifier
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "GND-Nummer"@de, "GND-Identifier"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:UndifferentiatedPerson
+     ns1:Work
+   )
+  ] ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "035 $a=(DE-588)..." ;
+  ns1:superPropertyOf <http://rdaregistry.info/Elements/a/P50094>, <http://rdaregistry.info/Elements/a/P50052>, <http://rdaregistry.info/Elements/a/P50006> .
+
+ns1:keyOfTheVersion
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Tonart der Fassung"@de, "Key of the version"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "384 1# $a" ;
+  ns1:superPropertyOf <http://rdaregistry.info/Elements/u/P60580> .
+
+ns1:keyOfTheWork
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Tonart des Werks"@de, "Key of the work"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "384 0# $a" ;
+  ns1:superPropertyOf <http://rdaregistry.info/Elements/u/P60580> .
+
+ns1:nameAddition
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Namensusatz"@de, "Name addition"@en ;
+  rdfs:domain ns1:NameOfThePerson ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "100 $9", "400 $9" .
+
+ns1:northernmostLatitude
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Nördlichster Breitengrad"@de, "Northernmost latitude"@en ;
+  rdfs:domain ns1:PlaceOrGeographicName ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "034 $f" ;
+  rdfs:subPropertyOf ns1:coordinates .
+
+ns1:oldAuthorityNumber
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Alte Normnummer"@de, "Old authority number"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:ConferenceOrEvent
+     ns1:CorporateBody
+     ns1:DifferentiatedPerson
+     ns1:Family
+     ns1:PlaceOrGeographicName
+     ns1:SubjectHeading
+     ns1:UndifferentiatedPerson
+     ns1:Work
+   )
+  ] ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "035 $z" ;
+  ns1:superPropertyOf <http://rdaregistry.info/Elements/a/P50094>, <http://rdaregistry.info/Elements/a/P50052>, <http://rdaregistry.info/Elements/a/P50006> .
+
+ns1:opusNumericDesignationOfMusicalWork
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Opus-Zahlung des Musikwerks"@de, "Opus numeric designation of musical work"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "383 $b" .
+
+ns1:beginningOfPeriod
+  a owl:DatatypeProperty ;
+  rdfs:label "Begin einer Periode"@de, "Beginning of a period"@en .
+
+ns1:endOfPeriod
+  a owl:DatatypeProperty ;
+  rdfs:label "Ende einer Periode"@de, "End of a period"@en .
+
+ns1:periodOfActivity
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Wirkungsdaten"@de, "Period of activity"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "548 $a $9=4:datw", "548 $a $9=4:datz" ;
+  rdfs:subPropertyOf ns1:associatedDate ;
+  ns1:superPropertyOf <http://rdaregistry.info/Elements/a/P50098>, <http://rdaregistry.info/Elements/a/P50058> .
+
+ns1:personalName
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Persönlicher Name"@de, "Personal name"@en ;
+  rdfs:domain ns1:NameOfThePerson ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "100 $a", "400 $a" .
+
+ns1:placeOfBirthAsLiteral
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Geburtsort (Literal)"@de, "Place of Birth (Literal)"@en ;
+  rdfs:comment """This property is equivalent to gndo:placeOfBirth but gives a literal instead of
+    a reference to a geographic entity"""@en, """Diese Property ist äquivalent zu gndo:placeOfBirth, zeigt aber ein Literal
+    statt einer Referenz zu einer geografischen Entität"""@de ;
+  rdfs:domain ns1:DifferentiatedPerson ;
+  ns1:marc21equivalent "551 $a $z $9=4:ortg" ;
+  rdfs:subPropertyOf ns1:associatedPlace, <http://rdaregistry.info/Elements/a/P50119> ;
+  rdfs:seeAlso ns1:placeOfBirth .
+
+ns1:placeOfDeathAsLiteral
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Sterbeort (Literal)"@de, "Place of death (Literal)"@en ;
+  rdfs:comment """This property is equivalent to gndo:placeOfDeath but gives a literal instead of
+    a reference to a geographic entity"""@en, """Diese Property ist äquivalent zu gndo:placeOfDeath, zeigt aber ein Literal
+    statt einer Referenz zu einer geografischen Entität"""@de ;
+  rdfs:domain ns1:DifferentiatedPerson ;
+  ns1:marc21equivalent "551 $a $z $9=4:orts" ;
+  rdfs:subPropertyOf ns1:associatedPlace, <http://rdaregistry.info/Elements/a/P50118> ;
+  rdfs:seeAlso ns1:placeOfDeath .
+
+ns1:preferredName
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Bevorzugter Name"@de, "Preferred name"@en ;
+  rdfs:subPropertyOf rdfs:label .
+
+ns1:preferredNameForTheConferenceOrEvent
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Bevorzugter Name der Konferenz oder Veranstaltung"@de, "Preferred name for the conference or event"@en ;
+  rdfs:domain ns1:ConferenceOrEvent ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "111 $a $c $d $e $n $9" ;
+  rdfs:subPropertyOf ns1:preferredName, <http://rdaregistry.info/Elements/a/P50041> .
+
+ns1:preferredNameForTheCorporateBody
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Bevorzugter Name der Körperschaft"@de, "Preferred name for the corporate body"@en ;
+  rdfs:domain ns1:CorporateBody ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "110 $a $b $n $9" ;
+  rdfs:subPropertyOf ns1:preferredName, <http://rdaregistry.info/Elements/a/P50041>, foaf:name .
+
+ns1:preferredNameForTheFamily
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Bevorzugter Name der Familie"@de, "Preferred name for the family"@en ;
+  rdfs:domain ns1:Family ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "100 $a $b $c $9" ;
+  rdfs:subPropertyOf ns1:preferredName, <http://rdaregistry.info/Elements/a/P50065> .
+
+ns1:preferredNameForThePerson
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Bevorzugter Name der Person"@de, "Preferred name for the person"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:DifferentiatedPerson
+     ns1:UndifferentiatedPerson
+   )
+  ] ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "100 $a $b $c $9" ;
+  rdfs:subPropertyOf ns1:preferredName, <http://rdaregistry.info/Elements/a/P50117>, foaf:name .
+
+ns1:preferredNameForThePlaceOrGeographicName
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Bevorzugter Name des Geografikum"@de, "Preferred name for the place or geographic name"@en ;
+  rdfs:domain ns1:PlaceOrGeographicName ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "151 $a $z $9" ;
+  rdfs:subPropertyOf ns1:preferredName .
+
+ns1:preferredNameForTheSubjectHeading
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Bevorzugter Name des Schlagworts"@de, "Preferred name for the subject heading"@en ;
+  rdfs:domain ns1:SubjectHeading ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "150 $a $9" ;
+  rdfs:subPropertyOf ns1:preferredName ;
+  owl:equivalentProperty skos:prefLabel .
+
+ns1:preferredNameForTheWork
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Bevorzugter Name des Werks"@de, "Preferred name for the work"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "130 $a $f $m $n $o $p $r $s $9" ;
+  rdfs:subPropertyOf ns1:preferredName .
+
+ns1:professionOrOccupationAsLiteral
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Beruf oder Beschäftigung (Literal)"@de, "Profession or occupation (Literal)"@en ;
+  rdfs:comment """This property is equivalent to gndo:professionOrOccupation but gives a literal instead of
+    a reference to a subject heading"""@en, """Berufs- oder Tätigkeitsbezeichnung bzw.
+  Bezeichnung für die Religionszugehörigkeit oder die Weltanschauung einer
+  Person. Diese Property ist äquivalent zu gndo:professionOrOccupation, zeigt aber ein Literal
+    statt einer Referenz zu einem Schlagwort"""@de ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:DifferentiatedPerson
+     ns1:Family
+   )
+  ] ;
+  ns1:marc21equivalent "550 $a $9=4:berc", "550 $a $9=4:beru" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/a/P50104> ;
+  rdfs:seeAlso ns1:professionOrOccupation .
+
+ns1:prefix
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Präfix"@de, "Prefix"@en ;
+  rdfs:domain ns1:NameOfThePerson ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "100 $a", "400 $a" .
+
+ns1:publication
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Titelangabe"@de, "Publication"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:DifferentiatedPerson
+     ns1:Family
+     ns1:UndifferentiatedPerson
+   )
+  ] ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "692 $a" ;
+  ns1:superPropertyOf foaf:publications .
+
+ns1:serialNumericDesignationOfMusicalWork
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Fortlaufende Zählung des Musikwerks"@de, "Serial numeric designation of musical work"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "383 $a" .
+
+ns1:southernmostLatitude
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Südlichster Breitengrad"@de, "Southernmost latitude"@en ;
+  rdfs:domain ns1:PlaceOrGeographicName ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "034 $g" ;
+  rdfs:subPropertyOf ns1:coordinates .
+
+ns1:surname
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Nachname"@de, "Surname"@en ;
+  rdfs:domain ns1:NameOfThePerson ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "100 $a", "400 $a" ;
+  owl:equivalentProperty foaf:familyName .
+
+ns1:thematicIndexNumericDesignationOfMusicalWork
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Zählung eines Werksverzeichnisses des Musikwerks"@de, "Thematic index numeric designation of musical work"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "383 $c" .
+
+ns1:titleOfNobilityAsLiteral
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Adelstitel (Literal)"@de, "Title of nobility (Literal)"@en ;
+  rdfs:comment """Adelstitel einer Person oder Adelstitel im Erbtitel
+    einer Familie. Diese Property ist äquivalent zu gndo:titleOfNobility, zeigt
+    aber ein Literal statt einer Referenz zu einem Schlagwort."""@de, """This property is equivalent togndo:titleOfNobility
+    but gives a literal instead of a reference to a subject heading."""@en ;
+  rdfs:domain ns1:DifferentiatedPerson ;
+  ns1:marc21equivalent "550 $a $9=4:adel" ;
+  rdfs:subPropertyOf <http://rdaregistry.info/Elements/a/P50059>, <http://rdaregistry.info/Elements/a/P50110>, foaf:title ;
+  rdfs:seeAlso ns1:titleOfNobility .
+
+ns1:udkCode
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "UDK-Code"@de, "UDK-Code"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:DifferentiatedPerson
+     ns1:Work
+   )
+  ] ;
+  rdfs:range [
+    a owl:Class ;
+    owl:unionOf (
+     rdfs:Literal
+     xsd:dateTime
+   )
+  ] ;
+  ns1:marc21equivalent "548 $a $9=4:datu" ;
+  rdfs:subPropertyOf ns1:associatedDate .
+
+ns1:variantName
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Varianter Name"@de, "Variant name"@en .
+
+ns1:variantNameForTheConferenceOrEvent
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Varianter Name der Konferenz oder Veranstaltung"@de, "Variant name for the conference or event"@en ;
+  rdfs:domain ns1:ConferenceOrEvent ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "411 $a $c $d $e $n $9" ;
+  rdfs:subPropertyOf ns1:variantName, <http://rdaregistry.info/Elements/a/P50025> .
+
+ns1:variantNameForTheCorporateBody
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Varianter Name der Körperschaft"@de, "Variant name for the corporate body"@en ;
+  rdfs:domain ns1:CorporateBody ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "410 $a $b $n $9" ;
+  rdfs:subPropertyOf ns1:variantName, <http://rdaregistry.info/Elements/a/P50025>, foaf:name .
+
+ns1:variantNameForTheFamily
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Varianter Name der Familie"@de, "Variant name for the family"@en ;
+  rdfs:domain ns1:Family ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "400 $a $b $c $9" ;
+  rdfs:subPropertyOf ns1:variantName, <http://rdaregistry.info/Elements/a/P50054> .
+
+ns1:variantNameForThePerson
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Varianter Name der Person"@de, "Variant name for the person"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf (
+     ns1:DifferentiatedPerson
+     ns1:UndifferentiatedPerson
+   )
+  ] ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "400 $a $b $c $9" ;
+  rdfs:subPropertyOf ns1:variantName, <http://rdaregistry.info/Elements/a/P50103>, foaf:name .
+
+ns1:variantNameForThePlaceOrGeographicName
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Varianter Name des Geografikum"@de, "Variant name for the place or geographic name"@en ;
+  rdfs:domain ns1:PlaceOrGeographicName ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "451 $a $z $9" ;
+  rdfs:subPropertyOf ns1:variantName .
+
+ns1:variantNameForTheSubjectHeading
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Varianter Name des Schlagworts"@de, "Variant name for the subject heading"@en ;
+  rdfs:domain ns1:SubjectHeading ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "450 $a $9" ;
+  rdfs:subPropertyOf ns1:variantName ;
+  owl:equivalentProperty skos:altLabel .
+
+ns1:variantNameForTheWork
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Varianter Name des Werks"@de, "Variant name for the work"@en ;
+  rdfs:domain ns1:Work ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "430 $a $f $m $n $o $p $r $s $9" ;
+  rdfs:subPropertyOf ns1:variantName .
+
+ns1:westernmostLongitude
+  a owl:DatatypeProperty ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Westlichster Längengrad"@de, "Westernmost longitude"@en ;
+  rdfs:domain ns1:PlaceOrGeographicName ;
+  rdfs:range rdfs:Literal ;
+  ns1:marc21equivalent "034 $d" ;
+  rdfs:subPropertyOf ns1:coordinates .
+
+ns1:AdministrativeUnit
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Verwaltungseinheit"@de, "Administrative unit"@en ;
+  rdfs:subClassOf ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "079 $v=giv" .
+
+ns1:AuthorityResource
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Normdatenressource"@de, "Authority Resource"@en .
+
+ns1:BuildingOrMemorial
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Bauwerk oder Denkmal"@de, "Building or memorial"@en ;
+  rdfs:subClassOf ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "079 $v=gib" .
+
+ns1:CharactersOrMorphemes
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Buchstaben oder Morpheme"@de, "Characters or morphemes"@en ;
+  rdfs:subClassOf ns1:SubjectHeading ;
+  ns1:marc21equivalent "079 $v=slz" .
+
+ns1:Collection
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Sammlung"@de, "Collection"@en ;
+  rdfs:subClassOf ns1:Work ;
+  ns1:marc21equivalent "079 $v=win" .
+
+ns1:CollectiveManuscript
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Sammelhandschrift"@de, "Collective manuscript"@en ;
+  rdfs:subClassOf ns1:Work ;
+  ns1:marc21equivalent "079 $v=wil" .
+
+ns1:CollectivePseudonym
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Sammelpseudonym"@de, "Collective pseudonym"@en ;
+  rdfs:subClassOf ns1:DifferentiatedPerson ;
+  ns1:marc21equivalent "079 $v=pis" .
+
+ns1:Country
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Land oder Staat"@de, "Country"@en ;
+  rdfs:subClassOf ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "079 $v=gil" .
+
+ns1:EarlierNameOfThePerson
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Früherer Name der Person"@de, "Earlier name of the person"@en ;
+  rdfs:comment """Der vorliegende abweichende Name ist der frühere Name einer Person,
+    wie beispielsweise der Geburtsname, frühere Ehename usw."""@de ;
+  rdfs:subClassOf ns1:VariantNameOfThePerson ;
+  ns1:marc21equivalent "400 $4=nafr" .
+
+ns1:EthnographicName
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Ethnografikum"@de, "Ethnographic name"@en ;
+  rdfs:subClassOf ns1:SubjectHeading ;
+  ns1:marc21equivalent "079 $v=sie" .
+
+ns1:ExtraterrestrialTerritory
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Extraterrestrikum"@de, "Extraterrestrial territory"@en ;
+  rdfs:subClassOf ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "079 $v=gix" .
+
+ns1:FictiveCorporateBody
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Fiktive Körperschaft"@de, "Fictive corporate body"@en ;
+  rdfs:subClassOf ns1:CorporateBody ;
+  ns1:marc21equivalent "079 $v=kxz" .
+
+ns1:FictivePlace
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Fiktiver Ort"@de, "Fictive place"@en ;
+  rdfs:subClassOf ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "079 $v=gxz" .
+
+ns1:Fictive_term
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  owl:deprecated true ;
+  rdfs:seeAlso ns1:FictiveTerm ;
+  rdfs:label "Fiktiver Sachbegriff"@de, "Fictive term"@en ;
+  rdfs:comment "Use FictiveTerm instead"@en, "Bitte verwenden Sie FictiveTerm"@de ;
+  rdfs:subClassOf ns1:SubjectHeading ;
+  ns1:marc21equivalent "079 $v=sxz" .
+
+ns1:FictiveTerm
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Fiktiver Sachbegriff"@de, "Fictive term"@en ;
+  rdfs:subClassOf ns1:SubjectHeading ;
+  ns1:marc21equivalent "079 $v=sxz" .
+
+ns1:FullerFormOfNameOfThePerson
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Vollständiger Name der Person"@de, "Fuller form of the name of the person"@en ;
+  rdfs:comment """Die vorliegende abweichende Namensform ist die vollständig aufgelöste Form des 
+    bevorzugten Namens, der abgekürzte Formen enthält."""@de ;
+  rdfs:subClassOf ns1:VariantNameOfThePerson ;
+  ns1:marc21equivalent "400 $4=navo" .
+
+ns1:Gods
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Götter"@de, "Gods"@en ;
+  rdfs:subClassOf ns1:DifferentiatedPerson ;
+  ns1:marc21equivalent "079 $v=pxg" .
+
+ns1:GroupOfPersons
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Personengruppe"@de, "Group of persons"@en ;
+  rdfs:subClassOf ns1:SubjectHeading ;
+  ns1:marc21equivalent "079 $v=siu" .
+
+ns1:HistoricSingleEventOrEra
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Historisches Einzelereignis oder Epoche"@de, "Historic single event or era"@en ;
+  rdfs:subClassOf ns1:SubjectHeading ;
+  ns1:marc21equivalent "079 $v=sih" .
+
+ns1:Language
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Sprache"@de, "Language"@en ;
+  rdfs:subClassOf ns1:SubjectHeading ;
+  ns1:marc21equivalent "079 $v=sis" .
+
+ns1:LaterNameOfThePerson
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Späterer Name der Person"@de, "Later name of the person"@en ;
+  rdfs:comment """Die vorliegende abweichende Namensform ist der spätere Name einer Person, wie der 
+    Ehename etc., der nicht als bevorzugter Name gewählt wird.""" ;
+  rdfs:subClassOf ns1:VariantNameOfThePerson ;
+  ns1:marc21equivalent "400 $4=nasp" .
+
+ns1:LiteraryOrLegendaryCharacter
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Literarische oder Sagengestalt"@de, "Literary or legendary character"@en ;
+  rdfs:subClassOf ns1:DifferentiatedPerson ;
+  ns1:marc21equivalent "079 $v=pxl" .
+
+ns1:Manuscript
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Schriftdenkmal"@de, "Manuscript"@en ;
+  rdfs:subClassOf ns1:Work ;
+  ns1:marc21equivalent "079 $v=wis" .
+
+ns1:MeansOfTransportWithIndividualName
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Verkehrsmittel mit Individualnamen"@de, "Means of transport with individual name"@en ;
+  rdfs:subClassOf ns1:SubjectHeading ;
+  ns1:marc21equivalent "079 $v=sif" .
+
+ns1:MeansOfTransportWithIndividual_name
+  a owl:Class ;
+  owl:deprecated true ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Verkehrsmittel mit Individualnamen"@de, "Means of transport with individual name"@en ;
+  rdfs:comment "Use gndo:MeansOfTransportWithIndividualName"@en, "Bitte verwenden Sie gndo:MeansOfTransportWithIndividualName"@de ;
+  rdfs:subClassOf ns1:SubjectHeading ;
+  rdfs:seeAlso ns1:MeansOfTransportWithIndividualName ;
+  ns1:marc21equivalent "079 $v=sif" .
+
+ns1:MemberState
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Gliedstaat"@de, "Member state"@en ;
+  rdfs:subClassOf ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "079 $v=gif" .
+
+ns1:MusicalWork
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Werk der Musik"@de, "Musical work"@en ;
+  rdfs:subClassOf ns1:Work ;
+  ns1:marc21equivalent "079 $v=wim" .
+
+ns1:NameOfSmallGeographicUnitLyingWithinAnotherGeographicUnit
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Kleinräumiges Geografikum innerhalb eines Ortes"@de, """Name of small geographic unit lying within another geographic
+      unit"""@en ;
+  rdfs:subClassOf ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "079 $v=gio" .
+
+ns1:NaturalGeographicUnit
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Natürlich geografische Einheit"@de, "Natural geographic unit"@en ;
+  rdfs:subClassOf ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "079 $v=gin" .
+
+ns1:NomenclatureInBiologyOrChemistry
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Nomenklatur Biologie - Chemie"@de, "Nomenclature in biology or chemistry"@en ;
+  rdfs:subClassOf ns1:SubjectHeading ;
+  ns1:marc21equivalent "079 $v=snz" .
+
+ns1:OrganOfCorporateBody
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Organ einer Körperschaft"@de, "Organ of corporate body"@en ;
+  rdfs:subClassOf ns1:CorporateBody ;
+  ns1:marc21equivalent "079 $v=kio" .
+
+ns1:Person
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Person"@de, "Person"@en ;
+  owl:equivalentClass <http://rdaregistry.info/Elements/c/C10004>, foaf:Person ;
+  rdfs:subClassOf ns1:AuthorityResource .
+
+ns1:PreferredNameOfThePerson
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Bevorzugter Name der Person"@de, "Preferred name of the person"@en ;
+  rdfs:subClassOf ns1:NameOfThePerson .
+
+ns1:ProductNameOrBrandName
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Produkt oder Markenname"@de, "Product name or brand name"@en ;
+  rdfs:subClassOf ns1:SubjectHeading ;
+  ns1:marc21equivalent "079 $v=sip" .
+
+ns1:ProjectOrProgram
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Projekt oder Programm"@de, "Project or program"@en ;
+  rdfs:subClassOf ns1:CorporateBody ;
+  ns1:marc21equivalent "079 $v=kip" .
+
+ns1:ProvenanceCharacteristic
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Provenienzmerkmal"@de, "Provenance characteristic"@en ;
+  rdfs:comment """Provenienzmerkmale bezeichnen spuren, die
+  Vorbesitzer (Personen und Institutionen) in und auf Büchern, Handschriften
+  oder anderen Artefakten hinterlassen haben. Diese Merkmale kennzeichnen
+  Besitz, Lesespuren oder Zensurabsichten."""@de ;
+  rdfs:subClassOf ns1:Work ;
+  ns1:marc21equivalent "079 $v=wip" .
+
+ns1:Pseudonym
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Pseudonym"@de, "Pseudonym"@en ;
+  rdfs:comment """Die vorliegende abweichende Namensform ist der
+      wirkliche Name einer Person, für die als bevorzugter Name ein Pseudonym
+      gewählt wird."""@de ;
+  rdfs:subClassOf ns1:DifferentiatedPerson ;
+  ns1:marc21equivalent "079 $v=pip" .
+
+ns1:PseudonymNameOfThePerson
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Pseudonym der Person"@de, "Pseudonym name of the person"@en ;
+  rdfs:subClassOf ns1:VariantNameOfThePerson ;
+  ns1:marc21equivalent "400 $4=pseu" .
+
+ns1:RealNameOfThePerson
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Wirklicher Name der Person"@de, "Real name of the person"@en ;
+  rdfs:subClassOf ns1:VariantNameOfThePerson ;
+  ns1:marc21equivalent "400 $4=nawi" .
+
+ns1:ReligiousTerritory
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Religiöses Territorium"@de, "Religious territory"@en ;
+  rdfs:subClassOf ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "079 $v=gir" .
+
+ns1:RoyalOrMemberOfARoyalHouse
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label """Regierender Fürst oder Mitglied eines regierenden
+      Fürstenhauses"""@de, "Royal or member of a royal house"@en ;
+  rdfs:subClassOf ns1:DifferentiatedPerson ;
+  ns1:marc21equivalent "079 $v=pik" .
+
+ns1:SeriesOfConferenceOrEvent
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Kongressfolge oder Veranstaltungsfolge"@de, "Series of conference or event"@en ;
+  rdfs:subClassOf ns1:ConferenceOrEvent ;
+  ns1:marc21equivalent "079 $v=vif" .
+
+ns1:SoftwareProduct
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Softwareprodukt"@de, "Software product"@en ;
+  rdfs:subClassOf ns1:SubjectHeading ;
+  ns1:marc21equivalent "079 $v=siw" .
+
+ns1:Spirits
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Geister"@de, "Spirits"@en ;
+  rdfs:subClassOf ns1:DifferentiatedPerson ;
+  ns1:marc21equivalent "079 $v=pxs" .
+
+ns1:SubjectHeadingSensoStricto
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Schlagwort senso stricto"@de, "Subject heading senso stricto"@en ;
+  rdfs:subClassOf ns1:SubjectHeading ;
+  ns1:marc21equivalent "079 $v=saz" .
+
+ns1:TerritorialCorporateBodyOrAdministrativeUnit
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Gebietskörperschaft oder Verwaltungseinheit"@de, "Territorial corporate body or administrative unit"@en ;
+  rdfs:subClassOf ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "079 $v=gik" .
+
+ns1:VariantNameOfThePerson
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Abweichender Name der Person"@de, "Variant name of the person"@en ;
+  rdfs:subClassOf ns1:NameOfThePerson .
+
+ns1:VersionOfAMusicalWork
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Fassung eines Werks der Musik"@de, "Version of a musical work"@en ;
+  rdfs:subClassOf ns1:Work ;
+  ns1:marc21equivalent "079 $v=wif" .
+
+ns1:WayBorderOrLine
+  a owl:Class ;
+  rdfs:isDefinedBy ns1: ;
+  rdfs:label "Weg, Grenze oder Linie"@de, "Way, border or line"@en ;
+  rdfs:subClassOf ns1:PlaceOrGeographicName ;
+  ns1:marc21equivalent "079 $v=giw" .
+
+[]
+  a owl:AllDisjointClasses ;
+  owl:members (
+   ns1:ConferenceOrEvent
+   ns1:CorporateBody
+   ns1:Family
+   ns1:Person
+   ns1:PlaceOrGeographicName
+   ns1:SubjectHeading
+   ns1:Work
+ ) .

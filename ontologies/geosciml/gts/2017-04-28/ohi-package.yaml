@@ -1,0 +1,28 @@
+namespace: geosciml
+name: gts
+version: "2017-04-28"
+language: owl
+syntax: turtle
+roots: [gts.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["geosciml/thors@2017-04-28"]
+title: "Geologic Timescale model"
+authors:
+  - name: "Simon J. D. Cox"
+    link: "https://orcid.org/0000-0002-3884-3420"
+publishers:
+  - name: "Simon J. D. Cox"
+    link: "https://orcid.org/0000-0002-3884-3420"
+contributors:
+  - name: "Stephen M Richard"
+description: "This is an RDF/OWL representation of the GeoSciML Geologic Timescale model, which has been adapted from the model described in Cox, S.J.D, & Richard, S.M."
+keywords: ["Time"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/gts/versions/2017-04-28.n3
+    name: gts.ttl
+    sha256: "1c8b3e6bed35a8d2e7088c7b5258a3038eec97cdfc9760706e63217128a163d0"
+    size: 38158
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

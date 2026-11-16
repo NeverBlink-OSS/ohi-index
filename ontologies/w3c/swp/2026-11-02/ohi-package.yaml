@@ -1,0 +1,24 @@
+namespace: w3c
+name: swp
+version: "2026-11-02"
+language: rdfs
+syntax: rdfxml
+roots: [swp.rdf]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Graph Authority"
+authors:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "This vocabulary allows to attach an authority to a named graph."
+keywords: ["RDF"]
+originalSources: ["https://www.w3.org/2004/03/trix"]
+sources:
+  - url: https://www.w3.org/2004/03/trix/swp-1/
+    name: swp.rdf
+    sha256: "85cfa61dd6c472f558632ac6562cf614eec7f07d96479fc6ad5236a8e81d1428"
+    size: 4636

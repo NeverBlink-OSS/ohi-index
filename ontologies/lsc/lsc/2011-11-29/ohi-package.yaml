@@ -1,0 +1,18 @@
+namespace: lsc
+name: lsc
+version: "2011-11-29"
+language: owl
+syntax: turtle
+roots: [lsc.ttl]
+licenses: ["CC-BY-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Linked Science Core Vocabulary"
+authors:
+  - name: "Tomi Kauppinen"
+    link: "http://kauppinen.net/tomi"
+publishers:
+  - name: "Tomi Kauppinen"
+    link: "http://kauppinen.net/tomi"
+description: "LSC, the Linked Science Core Vocabulary, is a lightweight vocabulary providing terms to enable publishers and researchers to relate things in science to time, space, and themes."
+keywords: ["Methods"]

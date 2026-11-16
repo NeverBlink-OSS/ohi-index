@@ -1,0 +1,29 @@
+namespace: d-nb
+name: agrelon
+version: "1.5"
+language: owl
+syntax: turtle
+roots: [agrelon.ttl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Agent Relationship Ontology"
+authors:
+  - name: "Aenne Löhden"
+publishers:
+  - name: "German National Library"
+    link: "https://www.dnb.de/"
+contributors:
+  - name: "Berenike Litz"
+  - name: "Lars G. Svensson"
+description: "The ontology of agent relationships, AgRelOn, defines relations of persons to other persons and to organisations."
+keywords: ["People"]
+originalSources: ["https://d-nb.info/standards/elementset/agrelon"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/agrelon/versions/2019-06-13.n3
+    name: agrelon.ttl
+    sha256: "5d342f0d64a6d61c4e93d724e60cedd5cea27e8d9b58f95e0e46373552528c02"
+    size: 74821
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

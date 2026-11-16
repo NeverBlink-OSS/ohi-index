@@ -1,0 +1,27 @@
+namespace: gx4fm-base-x
+name: semanticdatalink
+version: "2026-11-02"
+language: linkml
+syntax: yaml
+roots: [semanticdatalink.yaml]
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "SemanticDataLink"
+authors:
+  - name: "Gaia-X 4 Future Mobility Base-X"
+    link: "https://www.gaia-x4futuremobility.de/"
+publishers:
+  - name: "Gaia-X 4 Future Mobility Base-X"
+    link: "https://www.gaia-x4futuremobility.de/"
+description: "The Semantic Data Link repository hosts a Streamlit-based web application designed for managing and augmenting data schemas using LinkML (Linked Data Modeling Language)."
+keywords: ["Computer Science"]
+originalSources: ["https://github.com/GX4FM-Base-X/SemanticDataLink"]
+sources:
+  - url: https://github.com/GX4FM-Base-X/SemanticDataLink/blob/e4db8401b9e91e219db7daf5de08f3d6f920af44/linkml/roaddamage.yaml
+    name: semanticdatalink.yaml
+    sha256: "3bbe5cabd8a34ea0c8b3deff547a2c9d3c6e3f68ca8fcf8a7d90211612f2d6d3"
+    size: 1133
+  - url: https://github.com/GX4FM-Base-X/SemanticDataLink/blob/e4db8401b9e91e219db7daf5de08f3d6f920af44/LICENSE
+    sha256: "c93c2d53df306f20be69097a824b45477f9b360e7cdad1c6fc29da6789e99a94"
+    size: 10493

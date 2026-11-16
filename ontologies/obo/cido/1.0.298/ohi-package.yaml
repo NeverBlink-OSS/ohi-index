@@ -1,0 +1,50 @@
+namespace: obo
+name: cido
+version: "1.0.298"
+language: owl
+syntax: rdfxml
+roots: [cido.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Coronavirus Infectious Disease Ontology"
+authors:
+  - name: "Anthony Huffman"
+  - name: "Ashley Yan"
+  - name: "Asiyah Yu Lin"
+  - name: "William D. Duncan"
+  - name: "Easheta Shah"
+  - name: "Edison Ong"
+  - name: "Hong Yu"
+  - name: "Hsin-Hui Huang"
+  - name: "John Beverley"
+  - name: "Liwei Wang"
+  - name: "Roshan Desai"
+  - name: "Sivaram Arabandi"
+  - name: "Yang Wang"
+  - name: "Yingtong Liu"
+  - name: "Yongqun He"
+    contact: "yongqunh@med.umich.edu"
+    link: "http://www.hegroup.org"
+  - name: "Zalan Shah"
+publishers:
+  - name: "Coronavirus Infectious Disease Ontology"
+    link: "https://github.com/CIDO-ontology"
+contributors:
+  - name: "Barry Smith"
+  - name: "Brian Athey"
+  - name: "Gil Omenn"
+  - name: "Hongfang Liu"
+description: "The Coronavirus Infectious Disease Ontology (CIDO) aims to ontologically represent and standardize various aspects of coronavirus infectious diseases, including their etiology, transmission, epidemiology, pathogenesis, diagnosis, prevention, and treatment."
+keywords: ["health", "OBO"]
+originalSources: ["https://github.com/CIDO-ontology/cido"]
+publications:
+  - title: "A comprehensive update on CIDO: the community-based coronavirus infectious disease ontology"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/36271389"
+sources:
+  - url: https://github.com/CIDO-ontology/cido/blob/v2022-04-22/src/ontology/cido.owl
+    sha256: "d3db18376cb82f6a2037e496006e6b805f8b5901a81c574c6e261275237bd157"
+    size: 18021363
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

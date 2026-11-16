@@ -1,0 +1,36 @@
+namespace: forth
+name: mtlo
+version: "4"
+language: owl
+syntax: turtle
+roots: [mtlo.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "MarineTLO Ontology"
+authors:
+  - name: "Chrysoula Bekiari"
+  - name: "Carlo Allocca"
+  - name: "Nikos Minadakis"
+  - name: "Martin Doerr"
+  - name: "Pavlos Fafalios"
+    link: "http://users.ics.forth.gr/~fafalios/"
+  - name: "Yannis Marketakis"
+  - name: "Yannis Tzitzikas"
+    link: "http://users.ics.forth.gr/~tzitzik/"
+publishers:
+  - name: "Information Systems Laboratory, FORTH-ICS"
+    link: "https://www.ics.forth.gr/isl"
+contributors:
+  - name: "Julien Barde"
+description: "MarineTLO is a top-level ontology for the marine domain (also applicable to the terrestrial domain)."
+keywords: ["Biology"]
+originalSources: ["http://www.ics.forth.gr/isl/MarineTLO"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/mtlo/versions/2014-08-02.n3
+    name: mtlo.ttl
+    sha256: "886564fff56f09328ceeddb82592459037e1d3a57a5251cdd3cf0f340cf54196"
+    size: 99872
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

@@ -1,0 +1,32 @@
+namespace: obo
+name: htn
+version: "2026-11-01"
+language: owl
+syntax: rdfxml
+roots: [htn.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Hypertension Ontology"
+authors:
+  - name: "Mark Andrew Miller"
+    link: "https://orcid.org/0000-0001-9076-6066"
+  - name: "Amanda Hicks"
+  - name: "Chris Stoeckert"
+  - name: "Danielle Mowery"
+publishers:
+  - name: "Mark Andrew Miller"
+    link: "https://orcid.org/0000-0001-9076-6066"
+  - name: "Amanda Hicks"
+  - name: "Chris Stoeckert"
+  - name: "Danielle Mowery"
+description: "An ontology for representing clinical data about hypertension, intended to support classification of patients according to various diagnostic guidelines."
+keywords: ["health", "OBO"]
+originalSources: ["https://github.com/aellenhicks/htn_owl"]
+sources:
+  - url: https://github.com/aellenhicks/htn_owl/blob/c94808c3eb25252b9deb8fc313466f858330d2a6/htn.owl
+    sha256: "3a37d97cc30706842afbde47543e7280907a6dc15bb4292a22a7c295242ca59c"
+    size: 1322067
+  - url: https://github.com/aellenhicks/htn_owl/blob/c94808c3eb25252b9deb8fc313466f858330d2a6/LICENSE
+    sha256: "f5b745ef98087f531e719ee8ca6a96809444573ecc7173c6fa68eaad39b3cc3f"
+    size: 18658

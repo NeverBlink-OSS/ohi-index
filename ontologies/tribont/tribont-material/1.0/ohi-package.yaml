@@ -1,0 +1,29 @@
+namespace: tribont
+name: tribont-material
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [tribont-material.ttl]
+licenses: ["CC-BY-NC-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["tribont/tribont-core@1.0"]
+title: "Material module"
+authors:
+  - name: "Patricia Casla"
+publishers:
+  - name: "Tekniker"
+    link: "https://www.tekniker.es/"
+contributors:
+  - name: "Izaskun Fernández"
+  - name: "Iban Quintana"
+  - name: "Xana Fernandez"
+description: "The goal of this module is to represent the materials that can be involved in the tribological experiments as part of the tested samples."
+keywords: ["Methods"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/tribont-material/versions/2023-06-02.n3
+    name: tribont-material.ttl
+    sha256: "74be92efc3c00cfa5dce4e0d4012ed889b30314f3327151d3e56b711dd6df485"
+    size: 82835
+  - url: https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt
+    sha256: "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+    size: 19347

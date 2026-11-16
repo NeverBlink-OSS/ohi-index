@@ -1,0 +1,24 @@
+namespace: w3c
+name: ssn
+version: "2017"
+language: owl
+syntax: turtle
+roots: [ssn.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: ["w3c/sosa@2017"]
+title: "Semantic Sensor Network Ontology"
+authors:
+  - name: "W3C/OGC Spatial Data on the Web Working Group"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+  - name: "Open Geospatial Consortium"
+    link: "https://www.ogc.org/"
+description: "W3C/OGC OWL ontology for sensors and observations, built on SOSA."
+keywords: ["sensors", "observations", "IoT"]
+originalSources: ["https://www.w3.org/TR/vocab-ssn"]
+sources:
+  - url: https://www.w3.org/ns/ssn/ssn.ttl
+    sha256: "184d86189191146e314cc52b1bceb96fca11e70aacbc160d71588102a5153eb9"
+    size: 22714

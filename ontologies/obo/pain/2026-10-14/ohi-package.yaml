@@ -1,0 +1,41 @@
+namespace: obo
+name: pain
+version: "2026-10-14"
+language: owl
+syntax: rdfxml
+roots: [pain.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The Pain Ontology"
+authors:
+  - name: "University of Florida College of Dentistry"
+    link: "https://github.com/uflcod"
+publishers:
+  - name: "University of Florida College of Dentistry"
+    link: "https://github.com/uflcod"
+contributors:
+  - name: "Matthew Diller"
+    link: "https://github.com/dillerm"
+  - name: "William D. Duncan"
+    link: "https://orcid.org/0000-0001-9625-1899"
+  - name: "Alexander D. Diehl"
+    link: "https://orcid.org/0000-0001-9990-8331"
+  - name: "Daniel W. McNeil"
+    link: "https://orcid.org/0000-0002-0766-8455"
+  - name: "Finn Wilson"
+    link: "https://orcid.org/0009-0002-7282-0836"
+  - name: "Ava Cunningham"
+    link: "https://orcid.org/0009-0003-5583-4731"
+  - name: "Gopikrishnan M Chandrasekharan"
+    link: "https://orcid.org/0009-0006-7251-3026"
+description: "An ontology that formalizes IASP's definition of pain as both an unpleasant physical and emotional experience, and it provides terms and axioms to represent the multidimensional aspects of pain, such as temporality, quality, extent, biological mechanism, and anatomical location."
+keywords: ["health", "OBO"]
+originalSources: ["https://github.com/uflcod/pain-ontology"]
+sources:
+  - url: https://github.com/uflcod/pain-ontology/blob/v2026-10-14/pain.owl
+    sha256: "5420978827019d5b55dfaf19a7a31fcf893f563c8c2400f16b1a6c2b70e2077f"
+    size: 1422568
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

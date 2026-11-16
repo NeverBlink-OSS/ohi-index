@@ -1,0 +1,5 @@
+# JSON Patch (RFC 6902) the hub applies to mifc.yaml before publishing it.
+# README.md says what each change is for.
+- op: test
+  path: /id
+  value: https://w3id.org/kaiiam/mifc

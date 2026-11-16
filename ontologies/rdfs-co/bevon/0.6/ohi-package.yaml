@@ -1,0 +1,26 @@
+namespace: rdfs-co
+name: bevon
+version: "0.6"
+language: owl
+syntax: turtle
+roots: [bevon.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "BEVON: Beverage Ontology"
+authors:
+  - name: "James G. Kim"
+    link: "http://jayg.org/"
+publishers:
+  - name: "James G. Kim"
+    link: "http://jayg.org/"
+description: "Beverage Ontology is a Web vocabulary for describing beverages, mainly alcoholic."
+keywords: ["Food"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/bevon/versions/2014-03-03.n3
+    name: bevon.ttl
+    sha256: "8f48d333c2fb066e414125b0c715351285d25ea4b356c69c72eee6afb906de03"
+    size: 81038
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

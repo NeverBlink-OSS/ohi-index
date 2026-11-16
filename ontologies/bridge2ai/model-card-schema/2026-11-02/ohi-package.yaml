@@ -1,0 +1,27 @@
+namespace: bridge2ai
+name: model-card-schema
+version: "2026-11-02"
+language: linkml
+syntax: yaml
+roots: [model-card-schema.yaml]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "model-card-schema"
+authors:
+  - name: "Marcin P. Joachimiak"
+    contact: "marcinjoachimiak@gmail.com"
+publishers:
+  - name: "Bridge2AI"
+    link: "https://bridge2ai.org"
+description: "LinkML rendering of model cards."
+keywords: ["ai", "bridge2ai", "deep-learning", "linkml", "metadata", "Computer Science"]
+originalSources: ["https://github.com/bridge2ai/model-card-schema"]
+sources:
+  - url: https://github.com/bridge2ai/model-card-schema/blob/688eedd586b717d71901c6c339fb69396ba61a50/src/model_card_schema/schema/model_card_schema.yaml
+    name: model-card-schema.yaml
+    sha256: "8125de898dae94333c277844090557ecb49eeb098a94724b43c1ffee1ac8d788"
+    size: 40467
+  - url: https://github.com/bridge2ai/model-card-schema/blob/688eedd586b717d71901c6c339fb69396ba61a50/LICENSE
+    sha256: "e793a8b68bf87724895794bd415618592d3b8f26327cfd2fc4c35d593041ff9f"
+    size: 1088

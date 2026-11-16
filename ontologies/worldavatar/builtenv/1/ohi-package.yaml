@@ -1,0 +1,27 @@
+namespace: worldavatar
+name: builtenv
+version: "1"
+language: owl
+syntax: rdfxml
+roots: [builtenv.owl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "WorldAvatar built environment ontology"
+authors:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+publishers:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+description: "The Ontology for the Built Environment (OntoBuiltEnv) is an ontology developed for representing key information about properties (i.e."
+keywords: ["ontology", "worldavatar"]
+originalSources: ["https://github.com/TheWorldAvatar/ontology", "https://theworldavatar.io"]
+sources:
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/ontology/ontobuiltenv/OntoBuiltEnv.owl
+    name: builtenv.owl
+    sha256: "981688d2e9fb769611837b083e0a1a6be955a4778935144d674b6164e14ec4dc"
+    size: 73470
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/LICENSE.txt
+    sha256: "8c29b2cb4c712a0d382d1951ffc7e2a155ec7095c7e92a896f5919eb02c31ea9"
+    size: 1309

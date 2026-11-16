@@ -1,0 +1,14 @@
+# JSON Patch (RFC 6902) the hub applies to im_tc57cim.schema.linkml.yml before publishing it.
+# README.md says what each change is for.
+- op: move
+  from: /enums/UOMType/permissible_values/%
+  path: /enums/UOMType/permissible_values/PERCENT
+- op: add
+  path: /enums/UOMType/permissible_values/PERCENT/alias
+  value: '%'
+- op: move
+  from: /enums/OASISMeasType/permissible_values/%
+  path: /enums/OASISMeasType/permissible_values/PERCENT
+- op: add
+  path: /enums/OASISMeasType/permissible_values/PERCENT/alias
+  value: '%'

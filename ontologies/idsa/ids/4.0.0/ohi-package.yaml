@@ -1,0 +1,48 @@
+namespace: idsa
+name: ids
+version: "4.0.0"
+language: owl
+syntax: turtle
+roots: [ids.ttl]
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "IDS Information Model"
+authors:
+  - name: "Sebastian Tramp"
+    link: "http://sebastian.tramp.name"
+  - name: "Christian Mader"
+    link: "https://github.com/cmader"
+  - name: "Jaroslav Pullmann"
+    link: "https://github.com/jpullmann"
+publishers:
+  - name: "International Data Spaces Association"
+    link: "https://www.internationaldataspaces.org"
+contributors:
+  - name: "Andreas Mueller"
+  - name: "Anna Kasprzik"
+  - name: "Haydar Akyürek"
+    link: "https://github.com/HaydarAk"
+  - name: "Johannes Theissen-Lipp"
+    link: "https://github.com/JohannesLipp"
+  - name: "Matthias Böckmann"
+    link: "https://github.com/Maboeckmann"
+  - name: "Christoph Lange"
+    link: "https://github.com/clange"
+  - name: "Jörg Langkau"
+    link: "https://github.com/jlangkau"
+  - name: "Maarten Kollenstart"
+    link: "https://github.com/mkollenstart"
+  - name: "Sebastian Bader"
+    link: "https://github.com/sebbader"
+description: "This ontology defines classes and properties for describing participants, infrastructure, data and services of the International Data Spaces (formerly known as Industrial Data Space)."
+keywords: ["API", "Catalogs", "Contracts", "Services"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/ids/versions/2020-08-18.n3
+    name: ids.ttl
+    sha256: "3aa2f1adaf9c0d183208521b41c6edd282a3e28dbbf812b7f3a538140eb2a799"
+    size: 484007
+  - url: https://www.apache.org/licenses/LICENSE-2.0.txt
+    name: LICENSE
+    sha256: "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    size: 11358

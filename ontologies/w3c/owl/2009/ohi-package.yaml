@@ -1,0 +1,24 @@
+namespace: w3c
+name: owl
+version: "2009"
+language: owl
+syntax: turtle
+roots: [owl.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: ["w3c/rdfs@2026-10-20"]
+title: "OWL 2 vocabulary"
+authors:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "The vocabulary of the OWL 2 Web Ontology Language."
+keywords: ["OWL", "semantic web", "ontology language"]
+originalSources: ["https://www.w3.org/TR/owl2-overview"]
+sources:
+  - url: https://www.w3.org/2002/07/owl
+    name: owl.ttl
+    sha256: "718fa1db7840d3315bfce94398543f91437ef6fe933054fd93f5471d19262fc5"
+    size: 24545

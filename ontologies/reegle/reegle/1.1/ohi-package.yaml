@@ -1,0 +1,27 @@
+namespace: reegle
+name: reegle
+version: "1.1"
+language: owl
+syntax: turtle
+roots: [reegle.ttl]
+licenses: ["OGL-UK-3.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Renewable Energy and Energy Efficiency"
+authors:
+  - name: "Renewable Energy and Energy Efficiency Partnership"
+    link: "https://www.reeep.org/"
+publishers:
+  - name: "Renewable Energy and Energy Efficiency Partnership"
+    link: "https://www.reeep.org/"
+description: "Vocabulary used to describe clean energy actors, projects and technologies."
+keywords: ["Environment"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/reegle/versions/2014-06-10.n3
+    name: reegle.ttl
+    sha256: "2825513f1961d9347cb2729b48c3d28e289a5f137cdc95255f34bb0cab2431b9"
+    size: 8150
+  - url: https://raw.githubusercontent.com/spdx/license-list-data/v3.29.0/text/OGL-UK-3.0.txt
+    name: LICENSE
+    sha256: "eb22384c866b63b513254ae3baff6b3bc7d001f559d03e02b6b8b83333a04806"
+    size: 6220

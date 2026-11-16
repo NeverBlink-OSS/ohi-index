@@ -1,0 +1,35 @@
+namespace: spar
+name: amo
+version: "1.0.1"
+language: owl
+syntax: rdfxml
+roots: [amo.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE.md]
+dependencies: ["spar/cito@2.9.0"]
+title: "SPAR Argument Model Ontology"
+authors:
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+  - name: "Fabio Vitali"
+    link: "https://orcid.org/0000-0002-7562-5203"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+contributors:
+  - name: "Sebastian Barzaghi"
+    link: "https://orcid.org/0000-0002-0799-1527"
+description: "Ontology of the Toulmin argument model: claims, evidence, warrants and rebuttals."
+keywords: ["argumentation", "rhetoric"]
+originalSources: ["https://github.com/SPAROntologies/amo"]
+publications:
+  - title: "Peroni, S., Tomasi, F., Vitali, F., & Zingoni, J. (2013, January). Semantic lenses as exploration method for scholarly articles. In Italian Research Conference on Digital Libraries (pp. 118-129). Berlin, Heidelberg: Springer Berlin Heidelberg. DOI: https://doi.org/10.1007/978-3-642-54347-0_13."
+    link: "https://doi.org/10.1007/978-3-642-54347-0_13"
+sources:
+  - url: https://sparontologies.github.io/amo/2026-09-30/amo.xml
+    name: amo.rdf
+    sha256: "6fa2acb571823cc4d979d94fa2f7ad2c0480396fe23440125f64de587f3b492d"
+    size: 50817
+  - url: https://github.com/SPAROntologies/amo/blob/3c46e99b7329424c0219133b2da0128b35c4470d/LICENSE.md
+    sha256: "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    size: 18656

@@ -1,0 +1,25 @@
+namespace: ssso
+name: ssso
+version: "0.3.0"
+language: owl
+syntax: turtle
+roots: [ssso.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Simple Service Status Ontology"
+authors:
+  - name: "Jakob Voß"
+publishers:
+  - name: "Jakob Voß"
+description: "An event-based RDF ontology for typical status in fulfillment of a service."
+keywords: ["Services"]
+originalSources: ["https://github.com/gbv/ssso"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/ssso/versions/2014-07-02.n3
+    name: ssso.ttl
+    sha256: "82d671c3b49badda38dc82582983795ed324d02957a86e603e02507580f010bf"
+    size: 3810
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

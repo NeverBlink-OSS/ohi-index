@@ -1,0 +1,24 @@
+namespace: dso
+name: docso
+version: "2013-11-14"
+language: owl
+syntax: turtle
+roots: [docso.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Document Service Ontology"
+authors:
+  - name: "Jakob Voß"
+publishers:
+  - name: "Jakob Voß"
+description: "A micro-ontology that defines a set of typical document-related services such as provided by libraries, museums and archives."
+keywords: ["Services"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/docso/versions/2013-11-14.n3
+    name: docso.ttl
+    sha256: "78f78e636f1732269c9b7a3f4a38418d6f9e3c41218e5a87706fb7637055cb57"
+    size: 2820
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

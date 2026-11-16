@@ -1,0 +1,24 @@
+namespace: dsnotify
+name: dsn
+version: "0.1.1"
+language: owl
+syntax: turtle
+roots: [dsn.ttl]
+licenses: ["CC-BY-SA-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "DSNotify Eventsets: A vocabulary for change events in linked data sources"
+authors:
+  - name: "Bernhard Haslhofer"
+  - name: "Niko Popitsch"
+publishers:
+  - name: "Bernhard Haslhofer"
+  - name: "Niko Popitsch"
+contributors:
+  - name: "Elaheh Momeni Roochi"
+description: "DSNotify Eventsets is a vocabulary for events that change resources in linked data sources."
+keywords: ["RDF"]
+sources:
+  - url: https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt
+    sha256: "3f941b3b89cf7b8370ceb83cc76d2120d471b58735d8ca60238a751a48d7f72f"
+    size: 22240

@@ -1,0 +1,29 @@
+namespace: todo
+name: tddfa
+version: "2.1"
+language: owl
+syntax: rdfxml
+roots: [tddfa.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "TODODFA: Frame-Action Module for Task-Oriented Dialogue management Ontology (TODO)"
+authors:
+  - name: "Cristina Aceta"
+    contact: "cristina.aceta@tekniker.es"
+publishers:
+  - name: "Cristina Aceta"
+    contact: "cristina.aceta@tekniker.es"
+contributors:
+  - name: "Izaskun Fernández"
+    contact: "izaskun.fernandez@tekniker.es"
+description: "Module for Action (and Frame) modelling inside domain."
+keywords: ["Industry", "Services"]
+sources:
+  - url: https://cristinacm.github.io/todo/TODODFA/ontology/ontology.owl
+    name: tddfa.owl
+    sha256: "691f1141bf6f0b318b8c0f47ea6a874db1d8b3543e2cdaeca316ccb3e495a3a4"
+    size: 30152
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

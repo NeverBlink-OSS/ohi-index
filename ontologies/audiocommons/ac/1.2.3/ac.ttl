@@ -1,0 +1,628 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix mo: <http://purl.org/ontology/mo/>.
+@prefix rd: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix n0: <https://w3id.org/ac-ontology/aco#>.
+@prefix n1: <https://w3id.org/ac-ontology/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix v: <http://purl.org/vocab/vann/>.
+@prefix n2: <http://xmlns.com/foaf/0.1/>.
+@prefix core: <http://purl.org/vocab/frbr/core#>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+@prefix n3: <https://w3id.org/afo/onto/1.1#>.
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#>.
+@prefix cc: <http://web.resource.org/cc/>.
+@prefix eve: <http://purl.org/NET/c4dm/event.owl#>.
+
+mo:AnalogSignal rd:subClassOf n0:AnalogSignal.
+
+mo:AudioFile rd:subClassOf n0:AudioFile.
+
+mo:available_as rd:subPropertyOf n0:availableAs.
+
+mo:bitsPerSample rd:subPropertyOf n0:bitsPerSample.
+
+mo:channels rd:subPropertyOf n0:channels.
+
+mo:compiled rd:subPropertyOf n0:compiled.
+
+mo:DigitalSignal rd:subClassOf n0:DigitalSignal.
+
+mo:duration rd:subPropertyOf n0:duration.
+
+mo:encodes rd:subPropertyOf n0:encodes.
+
+mo:genre rd:subPropertyOf n0:audioCategory.
+
+mo:Genre rd:subClassOf n0:AudioCategory.
+
+mo:homepage rd:subPropertyOf n0:homepage.
+
+mo:image rd:subPropertyOf n0:image.
+
+mo:instrument rd:subPropertyOf n0:audioCategory.
+
+mo:Instrument rd:subClassOf n0:AudioCategory.
+
+mo:MusicalExpression rd:subClassOf n0:AudioExpression.
+
+mo:MusicalItem rd:subClassOf n0:AudioItem.
+
+mo:MusicalManifestation rd:subClassOf n0:AudioManifestation.
+
+mo:produced_signal rd:subPropertyOf n0:producedSignal.
+
+mo:publication_of rd:subPropertyOf n0:publicationOf.
+
+mo:published rd:subPropertyOf n0:published.
+
+mo:published_as rd:subPropertyOf n0:publishedAs.
+
+mo:Record rd:subClassOf n0:AudioCollection.
+
+mo:Recording rd:subClassOf n0:Recording.
+
+mo:recording_of rd:subPropertyOf n0:recordingOf.
+
+mo:release rd:subPropertyOf n0:publishedAudioManifestation.
+
+mo:Release rd:subClassOf n0:AudioCollection.
+
+mo:ReleaseEvent rd:subClassOf n0:AudioPublication.
+
+mo:sample_rate rd:subPropertyOf n0:sampleRate.
+
+mo:Signal rd:subClassOf n0:Signal.
+
+mo:Sound rd:subClassOf n0:Sound.
+
+mo:Track rd:subClassOf n0:AudioClip.
+
+n1:aco
+    a owl:Ontology;
+    terms:created "2017/07/27 11:09:00";
+    terms:date "2017/07/27 11:09:00";
+    terms:description
+        """The Audio Commons Ontology provides main concepts and properties for describing audio content, both musical and non-musical, on the Semantic Web.
+""";
+    terms:title "The Audio Commons Ontology";
+    v:preferredNamespacePrefix "ac";
+    v:preferredNamespaceUri "https://w3id.org/ac-ontology/aco#";
+    owl:versionInfo "Revision: 1.2.3";
+    n2:maker <mailto:g.fazekas@qmul.ac.uk>, <mailto:miguel.ceriani@gmail.com>.
+n0:AnalogSignal
+    a owl:Class;
+    rd:comment "An analog signal.";
+    rd:isDefinedBy n1:aco;
+    rd:label "Analog signal";
+    rd:subClassOf n0:Signal;
+    owl:disjointWith n0:DigitalSignal.
+n0:audioCategory
+    a owl:ObjectProperty;
+    rd:comment "Classify a piece of audio content in a category.";
+    rd:isDefinedBy n1:aco;
+    rd:label "is in audio category";
+    rd:range n0:AudioCategory.
+n0:AudioCategory
+    a owl:Class;
+    rd:comment "Any category that is used to classify audio content.";
+    rd:isDefinedBy n1:aco;
+    rd:label "Audio category";
+    rd:subClassOf core:Concept.
+n0:AudioClip
+    a owl:Class;
+    rd:comment
+        """An audio segment that has been somehow published or uploaded for consumption (e.g., a track in a music label's repository or a sound in an audio repository, library or archive).
+""";
+    rd:isDefinedBy n1:aco;
+    rd:label "Audio clip";
+    rd:subClassOf n0:AudioManifestation.
+n0:AudioCollection
+    a owl:Class;
+    rd:comment
+        """A collection of audio manifestations (e.g., a sound pack, an album, a result set of a search over a repository of audio content). As an audio collection is an audio manifestation too, collections may be nested. An audio collection is composed of nodes.
+""";
+    rd:isDefinedBy n1:aco;
+    rd:label "Audio collection";
+    rd:subClassOf n0:AudioManifestation.
+n0:AudioCollectionFirstNode
+    a owl:Class;
+    rd:comment "A node that is the first in the containing audio collection";
+    rd:isDefinedBy n1:aco;
+    rd:label "First node";
+    rd:subClassOf n0:AudioCollectionNode.
+n0:AudioCollectionLastNode
+    a owl:Class;
+    rd:comment "A node that is the last in the containing audio collection";
+    rd:isDefinedBy n1:aco;
+    rd:label "Last node";
+    rd:subClassOf n0:AudioCollectionNode.
+n0:AudioCollectionNode
+    a owl:Class;
+    rd:comment
+        """A node of an audio collection. It encapsulates the actual content (ac:nodeContent), the position in the collection (ac:nodeIndex), and links to the previous and following node in the collection (ac:previousNode and ac:nextNode).
+""";
+    rd:isDefinedBy n1:aco;
+    rd:label "Node";
+    rd:subClassOf
+        rdf:List,
+            [
+                a owl:Restriction;
+                owl:allValuesFrom n0:AudioCollectionNode;
+                owl:onProperty rdf:rest
+            ],
+            [
+                a owl:Restriction;
+                owl:allValuesFrom n0:AudioManifestation;
+                owl:onProperty rdf:first
+            ],
+            [
+                a owl:Restriction;
+                owl:onClass n0:AudioCollectionNode;
+                owl:onProperty rdf:rest;
+                owl:qualifiedCardinality "1"^^XML:nonNegativeInteger
+            ],
+            [
+                a owl:Restriction;
+                owl:onClass n0:AudioManifestation;
+                owl:onProperty rdf:first;
+                owl:qualifiedCardinality "1"^^XML:nonNegativeInteger
+            ],
+            [
+                a owl:Restriction;
+                owl:onClass n0:AudioManifestation;
+                owl:onProperty n0:nodeContent;
+                owl:qualifiedCardinality "1"^^XML:nonNegativeInteger
+            ];
+    owl:disjointUnionOf
+            [
+                rdf:first n0:AudioCollectionFirstNode;
+                rdf:rest
+                [ rdf:first n0:AudioCollectionNonFirstNode; rdf:rest rdf:nil ]
+            ],
+            [
+                rdf:first n0:AudioCollectionLastNode;
+                rdf:rest
+                [ rdf:first n0:AudioCollectionNonLastNode; rdf:rest rdf:nil ]
+            ].
+n0:AudioCollectionNonFirstNode
+    a owl:Class;
+    rd:comment
+    "A node that is not the first in the containing audio collection";
+    rd:isDefinedBy n1:aco;
+    rd:label "Any node but the first";
+    rd:subClassOf n0:AudioCollectionNode.
+n0:AudioCollectionNonLastNode
+    a owl:Class;
+    rd:comment "A node that is not the last in the containing audio collection";
+    rd:isDefinedBy n1:aco;
+    rd:label "Any node but the last";
+    rd:subClassOf n0:AudioCollectionNode.
+n0:AudioExpression
+    a owl:Class;
+    rd:comment
+        """The specific intellectual or artistic form that a work takes each time it is 	\u201crealized\u201d, in the audio domain (e.g., the recording or synthesis of music or sounds).
+""";
+    rd:isDefinedBy n1:aco;
+    rd:label "Audio expression";
+    rd:subClassOf core:Expression.
+n0:audioFeature
+    a owl:ObjectProperty;
+    rd:comment "Associates a signal to an extracted audio feature.";
+    rd:domain n0:Signal;
+    rd:isDefinedBy n1:aco;
+    rd:label "audio feature";
+    rd:range n3:AudioFeature;
+    owl:propertyChainAxiom
+            [
+                rdf:first n0:isEncodedBy;
+                rdf:rest [ rdf:first n0:signalAudioFeature; rdf:rest rdf:nil ]
+            ].
+n0:AudioFile
+    a owl:Class;
+    rd:comment "A concrete audio file (encoded in some format)";
+    rd:isDefinedBy n1:aco;
+    rd:label "Audio file";
+    rd:subClassOf ebu:MediaResource, n0:AudioItem.
+n0:AudioItem
+    a owl:Class;
+    rd:comment
+        """A concrete exemplar of an audio manifestation (e.g., a copy of a CD or a specific media file).
+""";
+    rd:isDefinedBy n1:aco;
+    rd:label "Audio item";
+    rd:subClassOf core:Item.
+n0:AudioManifestation
+    a owl:Class;
+    rd:comment
+        """The physical embodiment of an audio expression (e.g., a musical track, a sound, an album).
+""";
+    rd:isDefinedBy n1:aco;
+    rd:label "Audio manifestation";
+    rd:subClassOf core:Manifestation, cc:Work.
+n0:audioMd5
+    a owl:DatatypeProperty, owl:FunctionalProperty;
+    rd:comment
+        """MD5 checksum computed on the audio content of the file.
+""";
+    rd:domain n0:AudioFile;
+    rd:isDefinedBy n1:aco;
+    rd:label "audio MD5 checksum";
+    rd:range XML:string.
+n0:AudioPublication
+    a owl:Class;
+    rd:comment
+    "The act of publishing some audio content as an audio manifestation.";
+    rd:isDefinedBy n1:aco;
+    rd:label "Audio publication";
+    rd:subClassOf eve:Event.
+n0:author
+    a owl:ObjectProperty;
+    rd:comment
+        """Used to relate a person or a group of people who authored an audio manifestation.
+""";
+    rd:domain n2:Agent;
+    rd:isDefinedBy n1:aco;
+    rd:label "author";
+    rd:range n0:AudioManifestation.
+n0:availableAs
+    a owl:ObjectProperty;
+    rd:comment
+        """Relates an audio manifestation to an audio item (e.g., a media file).
+""";
+    rd:domain n0:AudioManifestation;
+    rd:isDefinedBy n1:aco;
+    rd:label "available as";
+    rd:range n0:AudioItem;
+    rd:subPropertyOf core:exemplar.
+n0:availableItemOf
+    a owl:ObjectProperty;
+    rd:comment
+        """Relates an audio item (e.g., a media file) to the corresponding audio manifestation.
+""";
+    rd:domain n0:AudioItem;
+    rd:isDefinedBy n1:aco;
+    rd:label "available item of";
+    rd:range n0:AudioManifestation;
+    rd:subPropertyOf core:exemplarOf;
+    owl:inverseOf n0:availableAs.
+n0:bitsPerSample
+    a owl:DatatypeProperty, owl:FunctionalProperty;
+    rd:comment
+        """Associates a digital signal to the number of bits used to encode one sample.
+""";
+    rd:domain n0:DigitalSignal;
+    rd:isDefinedBy n1:aco;
+    rd:label "bits per sample";
+    rd:range XML:int.
+n0:channels
+    a owl:DatatypeProperty, owl:FunctionalProperty;
+    rd:comment
+        """Associates a signal to the number of channels it holds (mono \u2192 1, stereo \u2192 2).
+""";
+    rd:domain n0:DigitalSignal;
+    rd:isDefinedBy n1:aco;
+    rd:label "channels";
+    rd:range XML:int;
+    owl:propertyChainAxiom
+            [
+                rdf:first n0:isEncodedBy;
+                rdf:rest [ rdf:first n0:signalChannels; rdf:rest rdf:nil ]
+            ].
+n0:compiled
+    a owl:ObjectProperty;
+    rd:comment
+        """Used to relate a person or a group of people who compiled an audio manifestation.
+""";
+    rd:domain n2:Agent;
+    rd:isDefinedBy n1:aco;
+    rd:label "compiled";
+    rd:range n0:AudioManifestation.
+n0:containerNode
+    a owl:ObjectProperty;
+    rd:comment
+        "Associates an audio manifestation with the collection nodes that contain it.";
+    rd:domain n0:AudioManifestation;
+    rd:isDefinedBy n1:aco;
+    rd:label "container node";
+    rd:range n0:AudioCollectionNode;
+    owl:inverseOf n0:nodeContent.
+n0:defaultContainerNode
+    a owl:FunctionalProperty, owl:ObjectProperty;
+    rd:comment
+        "Associates an audio manifestation with a node in the default parent collection (e.g., a musical track to the album it has been published it), if there is such a thing.";
+    rd:domain n0:AudioManifestation;
+    rd:isDefinedBy n1:aco;
+    rd:label "default container node";
+    rd:range n0:AudioCollectionNode;
+    rd:subPropertyOf n0:containerNode.
+n0:DigitalSignal
+    a owl:Class;
+    rd:comment "A digital signal.";
+    rd:isDefinedBy n1:aco;
+    rd:label "Digital signal";
+    rd:subClassOf n0:Signal;
+    owl:disjointWith n0:AnalogSignal.
+n0:duration
+    a owl:DatatypeProperty, owl:FunctionalProperty;
+    rd:comment "The duration of an audio clip or a signal in ms.";
+    rd:domain [ a owl:Class; owl:unionOf [] ];
+    rd:isDefinedBy n1:aco;
+    rd:label "duration";
+    rd:range XML:float;
+    owl:propertyChainAxiom
+            [
+                rdf:first n0:isEncodedBy;
+                rdf:rest [ rdf:first n0:signalDuration; rdf:rest rdf:nil ]
+            ].
+n0:encodes
+    a owl:FunctionalProperty, owl:ObjectProperty;
+    rd:comment
+        """Associates a MusicalItem (a track on a particular CD, an audio file, a stream somewhere) to the signal it encodes.
+""";
+    rd:domain n0:AudioItem;
+    rd:isDefinedBy n1:aco;
+    rd:label "encodes";
+    rd:range n0:DigitalSignal.
+n0:firstNode
+    a owl:FunctionalProperty, owl:ObjectProperty;
+    rd:comment "Associates an audio collection to its first node.";
+    rd:domain n0:AudioCollection;
+    rd:isDefinedBy n1:aco;
+    rd:label "first node";
+    rd:range n0:AudioCollectionFirstNode;
+    rd:subPropertyOf n0:memberNode.
+n0:homepage
+    a owl:ObjectProperty;
+    rd:comment
+        """Links a sound, an artist, a record, etc. to a corresponding webpage.
+""";
+    rd:isDefinedBy n1:aco;
+    rd:label "homepage";
+    rd:range n2:Document;
+    rd:subPropertyOf n2:isPrimaryTopicOf, <http://schema.org/subjectOf>.
+n0:image
+    a owl:ObjectProperty;
+    rd:comment
+        """Indicates a pictorial image (JPEG, GIF, PNG, Etc.) associated to a sound, an artist, a record, etc.
+""";
+    rd:isDefinedBy n1:aco;
+    rd:label "image";
+    rd:range ebu:Picture, n2:Image;
+    rd:subPropertyOf ebu:hasRelatedPicture, n2:depiction.
+n0:isEncodedBy
+    a owl:ObjectProperty;
+    rd:comment
+        """Associates a signal to a MusicalItem (a track on a particular CD, an audio file, a stream somewhere) that encodes it.
+""";
+    rd:domain n0:DigitalSignal;
+    rd:isDefinedBy n1:aco;
+    rd:label "is encoded by";
+    rd:range n0:AudioItem;
+    owl:inverseOf n0:encodes.
+n0:lastNode
+    a owl:FunctionalProperty, owl:ObjectProperty;
+    rd:comment "Associates an audio collection to its last node.";
+    rd:domain n0:AudioCollection;
+    rd:isDefinedBy n1:aco;
+    rd:label "last node";
+    rd:range n0:AudioCollectionLastNode;
+    rd:subPropertyOf n0:memberNode.
+n0:memberNode
+    a owl:ObjectProperty;
+    rd:comment "Associates an audio collection to its nodes.";
+    rd:domain n0:AudioCollection;
+    rd:isDefinedBy n1:aco;
+    rd:label "member node";
+    rd:range n0:AudioCollectionNode.
+n0:nextNode
+    a owl:FunctionalProperty, owl:ObjectProperty;
+    rd:comment "Associates a node with the next node in the collection.";
+    rd:domain n0:AudioCollectionNonLastNode;
+    rd:isDefinedBy n1:aco;
+    rd:label "next node";
+    rd:range n0:AudioCollectionNonFirstNode;
+    rd:subPropertyOf rdf:rest;
+    owl:inverseOf n0:previousNode.
+n0:nodeContent
+    a owl:FunctionalProperty, owl:ObjectProperty;
+    rd:comment
+    "Associates a node with the actual content (an audio manifestation).";
+    rd:domain n0:AudioCollectionNode;
+    rd:isDefinedBy n1:aco;
+    rd:label "node content";
+    rd:range n0:AudioManifestation;
+    rd:subPropertyOf rdf:first.
+n0:nodeIndex
+    a owl:DatatypeProperty, owl:FunctionalProperty;
+    rd:comment "Associates a node with its position in the collection.";
+    rd:domain n0:AudioCollectionNode;
+    rd:isDefinedBy n1:aco;
+    rd:label "node index";
+    rd:range XML:int.
+n0:originalFile
+    a owl:FunctionalProperty, owl:ObjectProperty;
+    rd:comment
+        """Relates an audio clip to the original published audio file (if there is such thing).
+""";
+    rd:domain n0:AudioClip;
+    rd:isDefinedBy n1:aco;
+    rd:label "original file";
+    rd:range n0:AudioFile;
+    rd:subPropertyOf n0:availableAs.
+n0:previousNode
+    a owl:FunctionalProperty, owl:ObjectProperty;
+    rd:comment "Associates a node with the previous node in the collection.";
+    rd:domain n0:AudioCollectionNonFirstNode;
+    rd:isDefinedBy n1:aco;
+    rd:label "previous node";
+    rd:range n0:AudioCollectionNonLastNode;
+    owl:inverseOf n0:nextNode.
+n0:producedSignal
+    a owl:ObjectProperty;
+    rd:comment "Associates a signal production event to the produced signal.";
+    rd:domain n0:SignalProduction;
+    rd:isDefinedBy n1:aco;
+    rd:label "produced signal";
+    rd:range n0:Signal.
+n0:productionFrom
+    a owl:ObjectProperty;
+    rd:comment
+        """Associates a signal production act to a sound from which the signal was produced (e.g., if recording, the recorded sound).
+""";
+    rd:domain n0:SignalProduction;
+    rd:isDefinedBy n1:aco;
+    rd:label "production from";
+    rd:range n0:Sound.
+n0:publicationOf
+    a owl:ObjectProperty;
+    rd:comment
+        """Link a particular manifestation to the related expression (e.g., a signal or a sound).
+""";
+    rd:domain n0:AudioManifestation;
+    rd:isDefinedBy n1:aco;
+    rd:label "publication of";
+    rd:range n0:AudioExpression;
+    rd:subPropertyOf core:embodimentOf.
+n0:published
+    a owl:ObjectProperty;
+    rd:comment
+        """Used to relate a person or a group of people who published an audio manifestation.
+""";
+    rd:domain n2:Agent;
+    rd:isDefinedBy n1:aco;
+    rd:label "published";
+    rd:range n0:AudioManifestation.
+n0:publishedAs
+    a owl:ObjectProperty;
+    rd:comment
+        """Link an expression to its publication as manifestation.
+""";
+    rd:domain n0:AudioExpression;
+    rd:isDefinedBy n1:aco;
+    rd:label "published as";
+    rd:range n0:AudioManifestation;
+    rd:subPropertyOf core:embodiment;
+    owl:inverseOf n0:publicationOf.
+n0:publishedAudioManifestation
+    a owl:ObjectProperty;
+    rd:comment "Associates a publishing act to the audio manifestation.";
+    rd:domain n0:AudioPublication;
+    rd:isDefinedBy n1:aco;
+    rd:label "published audio manifestation";
+    rd:range n0:AudioManifestation.
+n0:Recording
+    a owl:Class;
+    rd:comment "The act of recording some sound to produce a signal.";
+    rd:isDefinedBy n1:aco;
+    rd:label "Recording";
+    rd:subClassOf n0:SignalProduction.
+n0:recordingOf
+    a owl:ObjectProperty;
+    rd:comment "Associates a recording act to the recorded (physical) sound.";
+    rd:domain n0:Recording;
+    rd:isDefinedBy n1:aco;
+    rd:label "recording of";
+    rd:range n0:Sound;
+    rd:subPropertyOf n0:productionFrom.
+n0:sampleRate
+    a owl:DatatypeProperty, owl:FunctionalProperty;
+    rd:comment "Associates a digital signal to its sample rate.";
+    rd:domain n0:DigitalSignal;
+    rd:isDefinedBy n1:aco;
+    rd:label "sample rate";
+    rd:range XML:float;
+    owl:propertyChainAxiom
+            [
+                rdf:first n0:isEncodedBy;
+                rdf:rest [ rdf:first n0:signalSampleRate; rdf:rest rdf:nil ]
+            ].
+n0:Signal
+    a owl:Class;
+    rd:comment
+        """A subclass of AudioExpression, representing a signal, for example a master signal produced by a performance and a recording.
+""";
+    rd:isDefinedBy n1:aco;
+    rd:label "Signal";
+    rd:subClassOf n0:AudioExpression.
+n0:signalAudioFeature
+    a owl:ObjectProperty;
+    rd:comment
+        """Associates the signal encoded by an audio item to an extracted audio feature. Shortcut for ac:encodes/ac:audioFeature
+""";
+    rd:domain n0:AudioItem, [ a owl:Restriction; owl:onProperty n0:encodes ];
+    rd:isDefinedBy n1:aco;
+    rd:label "signal audio feature";
+    rd:range n3:AudioFeature;
+    owl:propertyChainAxiom
+            [
+                rdf:first n0:encodes;
+                rdf:rest [ rdf:first n0:audioFeature; rdf:rest rdf:nil ]
+            ].
+n0:signalChannels
+    a owl:DatatypeProperty, owl:FunctionalProperty;
+    rd:comment
+        """The number of channels the digital signal holds (mono \u2192 1, stereo \u2192 2). Shortcut for ac:encodes/ac:channels
+""";
+    rd:domain n0:AudioItem, [ a owl:Restriction; owl:onProperty n0:encodes ];
+    rd:isDefinedBy n1:aco;
+    rd:label "signal channels";
+    rd:range XML:int;
+    owl:propertyChainAxiom
+            [
+                rdf:first n0:encodes;
+                rdf:rest [ rdf:first n0:channels; rdf:rest rdf:nil ]
+            ].
+n0:signalDuration
+    a owl:DatatypeProperty, owl:FunctionalProperty;
+    rd:comment
+        """The duration of the signal in ms. Shortcut for ac:encodes/ac:duration
+""";
+    rd:domain n0:AudioItem, [ a owl:Restriction; owl:onProperty n0:encodes ];
+    rd:isDefinedBy n1:aco;
+    rd:label "signal duration";
+    rd:range XML:float;
+    owl:propertyChainAxiom
+            [
+                rdf:first n0:encodes;
+                rdf:rest [ rdf:first n0:duration; rdf:rest rdf:nil ]
+            ].
+n0:SignalProduction
+    a owl:Class;
+    rd:comment
+        """The act of producing a signal (e.g., through a recording or a synthesis).
+""";
+    rd:isDefinedBy n1:aco;
+    rd:label "Signal production";
+    rd:subClassOf eve:Event.
+n0:signalSampleRate
+    a owl:DatatypeProperty, owl:FunctionalProperty;
+    rd:comment
+        """The sample rate of the digital signal. Shortcut for ac:encodes/ac:sampleRate
+""";
+    rd:domain n0:AudioItem, [ a owl:Restriction; owl:onProperty n0:encodes ];
+    rd:isDefinedBy n1:aco;
+    rd:label "signal sample rate";
+    rd:range XML:float;
+    owl:propertyChainAxiom
+            [
+                rdf:first n0:encodes;
+                rdf:rest [ rdf:first n0:sampleRate; rdf:rest rdf:nil ]
+            ].
+n0:Sound
+    a owl:Class;
+    rd:comment
+    "A subclass of AudioExpression, representing a (physical) sound.";
+    rd:isDefinedBy n1:aco;
+    rd:label "Physical sound";
+    rd:subClassOf n0:AudioExpression.
+n0:Syntesis
+    a owl:Class;
+    rd:comment "The act of synthesizing a signal.";
+    rd:isDefinedBy n1:aco;
+    rd:label "Syntesis";
+    rd:subClassOf n0:SignalProduction.
+<mailto:g.fazekas@qmul.ac.uk> rd:label "George Fazekas"; n2:name "George Fazekas".
+
+<mailto:miguel.ceriani@gmail.com>
+rd:label "Miguel Ceriani"; n2:name "Miguel Ceriani".

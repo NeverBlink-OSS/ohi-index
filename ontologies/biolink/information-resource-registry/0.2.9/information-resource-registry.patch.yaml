@@ -1,0 +1,11 @@
+# JSON Patch (RFC 6902) the hub applies to information-resource-registry.yaml before publishing it.
+# README.md says what each change is for.
+- op: add
+  path: /prefixes/oboInOwl
+  value: http://www.geneontology.org/formats/oboInOwl#
+- op: add
+  path: /prefixes/BIOGRID
+  value: http://identifiers.org/biogrid/
+- op: add
+  path: /prefixes/SO
+  value: http://purl.obolibrary.org/obo/SO_

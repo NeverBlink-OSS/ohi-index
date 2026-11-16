@@ -1,0 +1,30 @@
+namespace: mardi4nfdi
+name: mathmoddb
+version: "2.0.0"
+language: owl
+syntax: turtle
+roots: [mathmoddb.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "MathModDB Ontology and Knowledge Graph for Mathematical Models"
+authors:
+  - name: "Aurela Shehu"
+  - name: "Björn Schembera"
+  - name: "Burkhard Schmidt"
+  - name: "Christine Biedinger"
+  - name: "Jochen Fiedler"
+  - name: "Marco Reidelbach"
+  - name: "Thomas Koprucki"
+publishers:
+  - name: "Mathematical Research Data Initiative"
+    link: "https://www.mardi4nfdi.de"
+description: "MathModDB is a database of mathematical models developed by the Mathematical Research Data Initiative (MaRDI)."
+keywords: ["computer science", "engineering", "mardi", "mathematics", "nfdi4ing", "nfdixcs", "ontology"]
+originalSources: ["https://github.com/mardi4nfdi/MathModDB"]
+publications:
+  - title: "Shehu, A., Schembera, B., Schmidt, B., Biedinger, C., Fiedler, J., Reidelbach, M., Koprucki, T. (2025): MathModDB Ontology and Knowledge Graph for Mathematical Models"
+sources:
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,24 @@
+namespace: sepses
+name: attack
+version: "2.0.0"
+language: owl
+syntax: turtle
+roots: [attack.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "MITRE ATT&CK Ontology"
+authors:
+  - name: "Kabul Kurniawan"
+publishers:
+  - name: "Kabul Kurniawan"
+description: "An ontology to represent MITRE ATT & CK."
+keywords: ["Security"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/attack/versions/2025-11-22.n3
+    name: attack.ttl
+    sha256: "e1c9c80b26da33b18a2779e00b0f395d0dbb1f14507e3fa5f5b017a9f384aa61"
+    size: 6578
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

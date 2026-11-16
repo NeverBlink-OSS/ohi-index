@@ -1,0 +1,38 @@
+namespace: spar
+name: fabio
+version: "2.3.1"
+language: owl
+syntax: rdfxml
+roots: [fabio.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE.md]
+dependencies: ["spar/frbr@1.1.0"]
+title: "SPAR FaBiO"
+authors:
+  - name: "David Shotton"
+    link: "http://opencitations.net"
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+contributors:
+  - name: "Paolo Ciccarese"
+    link: "https://orcid.org/0000-0002-5156-2703"
+  - name: "Tim Clark"
+  - name: "Sebastian Barzaghi"
+    link: "https://orcid.org/0000-0002-0799-1527"
+description: "FRBR-aligned Bibliographic Ontology for publications and other entities that are published or referred to."
+keywords: ["bibliographic data", "publishing", "scholarly publications"]
+originalSources: ["https://github.com/SPAROntologies/fabio"]
+publications:
+  - title: "Peroni, S., Shotton, D. (2012). FaBiO and CiTO: ontologies for describing bibliographic resources and citations. In Journal of Web Semantics, 17: 33-43. https://doi.org/10.1016/j.websem.2012.08.001. Open Access at: https://doi.org/10.2139/ssrn.3198992"
+    link: "https://doi.org/10.1016/j.websem.2012.08.001"
+sources:
+  - url: https://sparontologies.github.io/fabio/2026-09-03/fabio.xml
+    name: fabio.rdf
+    sha256: "0daa4af1e4965090778cfcba226ccce978d613c904400e2697d2906e56c50456"
+    size: 447948
+  - url: https://github.com/SPAROntologies/fabio/blob/ea5b2cd49a7a8f4dc695d633c76bb05608c085db/LICENSE.md
+    sha256: "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    size: 18656

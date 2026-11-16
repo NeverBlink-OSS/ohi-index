@@ -1,0 +1,31 @@
+namespace: obo
+name: xao
+version: "2019-04-02"
+language: owl
+syntax: rdfxml
+roots: [xenopus_anatomy.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Xenopus Anatomy Ontology"
+authors:
+  - name: "Xenbase"
+    link: "http://www.xenbase.org"
+publishers:
+  - name: "Xenbase"
+    link: "http://www.xenbase.org"
+description: "XAO represents the anatomy and development of the African frogs Xenopus laevis and tropicalis."
+keywords: ["anatomy and development", "OBO"]
+originalSources: ["https://github.com/xenopus-anatomy/xao", "http://www.xenbase.org/anatomy/xao.do?method=display"]
+publications:
+  - title: "An ontology for Xenopus anatomy and development."
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/18817563"
+  - title: "Enhanced XAO: the ontology of Xenopus anatomy and development underpins more accurate annotation of gene expression and queries on Xenbase."
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/24139024"
+sources:
+  - url: https://github.com/xenopus-anatomy/xao/blob/v7.0/xenopus_anatomy.owl
+    sha256: "23d31ad79e581f0faa74798ef8ec902c7cf5525b2c22b34f913612f23c5ce97b"
+    size: 4461805
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

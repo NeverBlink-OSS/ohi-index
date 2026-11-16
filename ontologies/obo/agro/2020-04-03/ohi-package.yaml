@@ -1,0 +1,33 @@
+namespace: obo
+name: agro
+version: "2020-04-03"
+language: owl
+syntax: rdfxml
+roots: [agro.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Agronomy Ontology"
+authors:
+  - name: "Agricultural Semantics"
+    link: "https://github.com/AgriculturalSemantics"
+publishers:
+  - name: "Agricultural Semantics"
+    link: "https://github.com/AgriculturalSemantics"
+contributors:
+  - name: "Céline Aubert"
+  - name: "Marié-Angélique Laporte"
+  - name: "Pier Luigi Buttigieg"
+description: "Ontology of agronomic practices, agronomic techniques, and agronomic variables used in agronomic experiments."
+keywords: ["agriculture", "agronomy", "OBO"]
+originalSources: ["https://github.com/AgriculturalSemantics/agro"]
+publications:
+  - title: "Data-driven Agricultural Research for Development: A Need for Data Harmonization Via Semantics."
+    link: "http://ceur-ws.org/Vol-1747/IT205_ICBO2016.pdf"
+sources:
+  - url: https://github.com/AgriculturalSemantics/agro/blob/v2020-04-03/agro.owl
+    sha256: "2fe8baef1989139a60c6410f0c0ff27a408c297cee076786f301d4a5e9ec1148"
+    size: 4801217
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

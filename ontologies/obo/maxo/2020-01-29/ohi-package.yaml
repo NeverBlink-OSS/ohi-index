@@ -1,0 +1,27 @@
+namespace: obo
+name: maxo
+version: "2020-01-29"
+language: owl
+syntax: rdfxml
+roots: [maxo.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Medical Action Ontology"
+authors:
+  - name: "Aaron Zhang"
+  - name: "Leigh Carmody"
+  - name: "Peter Robinson"
+publishers:
+  - name: "Monarch Initiative"
+    link: "https://monarchinitiative.org/"
+description: "The Medical Action Ontology (MAxO) provides a broad view of medical actions and includes terms for medical procedures, interventions, therapies, treatments, and recommendations."
+keywords: ["health", "medical", "OBO"]
+originalSources: ["https://github.com/monarch-initiative/MAxO"]
+sources:
+  - url: https://github.com/monarch-initiative/MAxO/blob/v2020-01-29/maxo.owl
+    sha256: "9a377a03c2cbdd8edb0d681cc1a384860504f54ae24997d086c5d9a79c758f36"
+    size: 19032314
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

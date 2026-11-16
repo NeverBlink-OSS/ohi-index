@@ -1,0 +1,39 @@
+namespace: w3c
+name: dcat
+version: "1"
+language: owl
+syntax: turtle
+roots: [dcat2014.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Data Catalog Vocabulary (DCAT)"
+authors:
+  - name: "Fadi Maali"
+  - name: "John Erickson"
+  - name: "Government Linked Data Working Group"
+    link: "http://www.w3.org/2011/gld/"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+contributors:
+  - name: "Phil Archer"
+    link: "http://www.w3.org/People/all#phila"
+  - name: "Richard Cyganiak"
+  - name: "Vassilios Peristeras"
+  - name: "Rufus Pollock"
+  - name: "Ghislain Auguste Atemezing"
+  - name: "Boris Villazón-Terrazas"
+  - name: "Marios Meimaris"
+  - name: "Martin Alvarez-Espinar"
+  - name: "Makx Dekkers"
+    link: "http://makxdekkers.com/"
+  - name: "Shuji Kamitsuna"
+    link: "http://www.asahi-net.or.jp/~ax2s-kmtn/"
+description: "W3C vocabulary for describing datasets and data services in catalogs."
+keywords: ["data catalogs", "datasets", "metadata"]
+originalSources: ["https://www.w3.org/TR/vocab-dcat"]
+sources:
+  - url: https://www.w3.org/ns/dcat2014.ttl
+    sha256: "8577a41c975fd62a3204ff733b7463c82c1dec3cc7bba430bbcd665cf99e8d8e"
+    size: 46372

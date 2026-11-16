@@ -1,0 +1,29 @@
+namespace: cair2015
+name: reactome-ontology
+version: "1.0.0"
+language: linkml
+syntax: yaml
+roots: [reactome-ontology.yaml]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Reactome Ontology Model"
+authors:
+  - name: "Robin Cai"
+    contact: "rcai92130@gmail.com"
+    link: "https://www.linkedin.com/in/robin-cai-b852a4ab/"
+publishers:
+  - name: "Robin Cai"
+    contact: "rcai92130@gmail.com"
+    link: "https://www.linkedin.com/in/robin-cai-b852a4ab/"
+description: "Ontology-first LinkML schema for Reactome with generated Python models, ontology artifacts, mappings, and docs from one curated source."
+keywords: ["Computer Science"]
+originalSources: ["https://github.com/cair2015/reactome-ontology"]
+sources:
+  - url: https://github.com/cair2015/reactome-ontology/blob/eaacb0dcc61e64f23429d7ae3bb9d41a3cc2ad3a/src/reactome_ontology/schema/reactome_ontology.yaml
+    name: reactome-ontology.yaml
+    sha256: "4141a38f9dcac46a216efb2c8a2b616754505024b7dcacec4b1dc27bbea998ad"
+    size: 40580
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,29 @@
+namespace: obo
+name: bto
+version: "2020-04-22"
+language: owl
+syntax: rdfxml
+roots: [bto.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "BRENDA tissue / enzyme source"
+authors:
+  - name: "BRENDA Enzyme Database"
+    link: "https://www.brenda-enzymes.org"
+publishers:
+  - name: "BRENDA Enzyme Database"
+    link: "https://www.brenda-enzymes.org"
+description: "A structured controlled vocabulary for the source of an enzyme comprising tissues, cell lines, cell types and cell cultures."
+keywords: ["anatomy and development", "OBO"]
+originalSources: ["https://github.com/BRENDA-Enzymes/BTO", "http://www.brenda-enzymes.org"]
+publications:
+  - title: "The BRENDA Tissue Ontology (BTO): the first all-integrating ontology of all organisms for enzyme sources"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/21030441"
+sources:
+  - url: https://github.com/BRENDA-Enzymes/BTO/blob/v2020-04-22/bto.owl
+    sha256: "653750b87f0e0b0616550eab8a04672920c1d65ce759e961162d025f7ea34f2f"
+    size: 10296631
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

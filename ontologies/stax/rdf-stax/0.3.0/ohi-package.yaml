@@ -1,0 +1,26 @@
+namespace: stax
+name: rdf-stax
+version: "0.3.0"
+language: owl
+syntax: turtle
+roots: [stax.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE]
+dependencies: ["w3c/skos-owl1-dl@2009"]
+title: "RDF-STaX"
+authors:
+  - name: "Piotr Sowiński"
+    link: "https://orcid.org/0000-0002-2543-9461"
+publishers:
+  - name: "Piotr Sowiński"
+    link: "https://ostrzyciel.eu"
+contributors:
+  - name: "Paweł Szmeja"
+    link: "https://orcid.org/0000-0003-0869-3836"
+description: "RDF Stream Taxonomy: a taxonomy of the types of RDF streams."
+keywords: ["RDF streams", "streaming", "taxonomies"]
+originalSources: ["https://github.com/RDF-STaX/rdf-stax.github.io"]
+sources:
+  - url: https://github.com/RDF-STaX/rdf-stax.github.io/blob/v0.3.0/LICENSE
+    sha256: "f5b745ef98087f531e719ee8ca6a96809444573ecc7173c6fa68eaad39b3cc3f"
+    size: 18658

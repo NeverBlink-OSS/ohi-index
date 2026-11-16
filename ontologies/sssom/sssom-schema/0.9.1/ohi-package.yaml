@@ -1,0 +1,29 @@
+namespace: sssom
+name: sssom-schema
+version: "0.9.1"
+language: linkml
+syntax: yaml
+roots: [sssom_schema.yaml]
+patch: sssom_schema.patch.yaml
+licenses: ["BSD-3-Clause"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "SSSOM"
+authors:
+  - name: "Nicolas Matentzoglu"
+    contact: "nicolas.matentzoglu@gmail.com"
+  - name: "Harshad B. Hegde"
+    contact: "hhegde@lbl.gov"
+publishers:
+  - name: "Mapping Commons"
+    link: "https://github.com/mapping-commons"
+description: "Simple Standard for Sharing Ontological Mappings between terms."
+keywords: ["mappings", "ontology alignment"]
+originalSources: ["https://github.com/mapping-commons/sssom"]
+sources:
+  - url: https://github.com/mapping-commons/sssom/blob/0.9.1/LICENSE
+    sha256: "f11b9b56cde6c1794c0cbc123fd9b2c17a1c59af150116dc9f5e1d30bd643a5b"
+    size: 1523
+  - url: https://github.com/mapping-commons/sssom/blob/0.9.1/sssom_schema/src/linkml/sssom_schema.yaml
+    sha256: "0f6272239622564fd86d51d41fca1a7139739ca86b7ecf8e593b48868a829501"
+    size: 21396

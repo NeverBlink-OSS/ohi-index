@@ -1,0 +1,26 @@
+namespace: culturalis
+name: oad
+version: "1.3"
+language: owl
+syntax: turtle
+roots: [oad.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Ontology for archival description"
+authors:
+  - name: "Istituto per i beni artistici culturali e naturali della Regione Emilia-Romagna"
+  - name: "Regesta.exe"
+publishers:
+  - name: "Istituto per i beni artistici culturali e naturali della Regione Emilia-Romagna"
+  - name: "Regesta.exe"
+description: "An ontology for the description of archival data (OAD, “Ontology of Archival Description”) using the Web Ontology Language (OWL)."
+keywords: ["Catalogs"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/oad/versions/2018-08-02.n3
+    name: oad.ttl
+    sha256: "0be2c381a5d18d26f246a8e9205d3ac539c67bec11434eb2a90c4e874cc47f5c"
+    size: 33444
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

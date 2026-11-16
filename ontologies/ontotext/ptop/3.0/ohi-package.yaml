@@ -1,0 +1,27 @@
+namespace: ontotext
+name: ptop
+version: "3.0"
+language: owl
+syntax: turtle
+roots: [ptop.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "PROTON (Proto Ontology), Top Module"
+authors:
+  - name: "Ontotext"
+    link: "https://www.ontotext.com/"
+publishers:
+  - name: "Ontotext"
+    link: "https://www.ontotext.com/"
+description: "The PROTON Top module represents the most general classes."
+keywords: ["PROTON"]
+originalSources: ["http://www.ontotext.com/proton-ontology"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/ptop/versions/2012-02-13.n3
+    name: ptop.ttl
+    sha256: "942ec760eead9c2572e6e38f373edc4be79751f04e01ec6872d266b1fcea5646"
+    size: 35971
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

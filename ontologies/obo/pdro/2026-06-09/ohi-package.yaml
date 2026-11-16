@@ -1,0 +1,31 @@
+namespace: obo
+name: pdro
+version: "2026-06-09"
+language: owl
+syntax: rdfxml
+roots: [pdro.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The Prescription of Drugs Ontology"
+authors:
+  - name: "Adrien Barton"
+  - name: "Jean-François Ethier"
+  - name: "Paul Fabry"
+  - name: "Ryeyan Taseen"
+publishers:
+  - name: "Groupe de Recherche Interdisciplinaire en Informatique de la Santé"
+    link: "https://griis.ca"
+description: "An ontology to describe entities related to prescription of drugs."
+keywords: ["information", "clinical documentation", "OBO"]
+originalSources: ["https://github.com/OpenLHS/PDRO"]
+publications:
+  - title: "The Prescription of Drug Ontology 2.0 (PDRO): More Than the Sum of Its Parts"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/34831777"
+sources:
+  - url: https://github.com/OpenLHS/PDRO/blob/123d75e1af605395071b947d1793bd4ea72f20a3/pdro.owl
+    sha256: "13c178e37fc60a8f3473c21c06c48fbb8842f5b55e77b2c329c00cac7745d1be"
+    size: 787015
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

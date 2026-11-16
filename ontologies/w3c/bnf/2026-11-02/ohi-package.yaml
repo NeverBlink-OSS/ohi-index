@@ -1,0 +1,25 @@
+namespace: w3c
+name: bnf
+version: "2026-11-02"
+language: rdfs
+syntax: rdfxml
+roots: [bnf.rdf]
+base: http://www.w3.org/2000/10/swap/grammar/bnf
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Backus-Naur form"
+authors:
+  - name: "Tim Berners-Lee"
+    link: "https://www.w3.org/People/Berners-Lee/"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "This ontology contains terms for defining a context-free grammar."
+keywords: ["computing", "language", "linguistics", "w3"]
+originalSources: ["https://www.w3.org/Addressing/BNF.html"]
+sources:
+  - url: https://www.w3.org/2000/10/swap/grammar/bnf
+    name: bnf.rdf
+    sha256: "1ee57333ceea34cd8c3b7027c4ba263a78f7a6074e09a5a466c18e7853da9849"
+    size: 4171

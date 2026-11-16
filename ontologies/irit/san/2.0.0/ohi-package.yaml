@@ -1,0 +1,27 @@
+namespace: irit
+name: san
+version: "2.0.0"
+language: owl
+syntax: rdfxml
+roots: [san.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "SAN (Semantic Actuator Network)"
+authors:
+  - name: "Nathalie Hernandez"
+  - name: "Khalil Drira"
+  - name: "Mahdi Ben Alaya"
+  - name: "Nicolas Seydoux"
+  - name: "Thierry Monteil"
+publishers:
+  - name: "LAAS-CNRS"
+    link: "https://www.laas.fr"
+  - name: "IRIT"
+    link: "https://www.irit.fr/"
+description: "This ontology is intended to describe Semantic Actuator Networks, as a counterpoint to SSN definition of Semantic Sensor Networks."
+keywords: ["IoT", "Support"]
+sources:
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

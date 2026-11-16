@@ -1,0 +1,25 @@
+namespace: w3c
+name: duv
+version: "2016"
+language: owl
+syntax: turtle
+roots: [duv.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Dataset Usage Vocabulary"
+authors:
+  - name: "Bernadette Farias Lóscio"
+  - name: "Eric G. Stephan"
+  - name: "Sumit Purohit"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "W3C vocabulary for how datasets are used: feedback, citations and usage of distributions."
+keywords: ["datasets", "usage", "feedback"]
+originalSources: ["https://www.w3.org/TR/vocab-duv"]
+sources:
+  - url: https://www.w3.org/ns/duv
+    name: duv.ttl
+    sha256: "eaf01761454884fe2c6513e878ac8e5ea83df389eb3f011901756400d44bfba1"
+    size: 4082

@@ -1,0 +1,30 @@
+namespace: openarchives
+name: ore
+version: "2026-11-02"
+language: owl
+syntax: rdfxml
+roots: [ore.rdf]
+licenses: ["CC-BY-SA-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The OAI ORE terms vocabulary"
+authors:
+  - name: "Pete Johnston"
+  - name: "Michael Nelson"
+  - name: "Carl Lagoze"
+  - name: "Herbert Van de Sompel"
+  - name: "Robert Sanderson"
+publishers:
+  - name: "The Open Archives Initiative ORE Project"
+    link: "https://www.openarchives.org/ore/"
+description: "Open Archives Initiative Object Reuse and Exchange (OAI-ORE) defines standards for the description and exchange of aggregations of Web resources."
+keywords: ["Catalogs"]
+originalSources: ["http://www.openarchives.org/ore/vocabulary"]
+sources:
+  - url: https://www.openarchives.org/ore/1.0/terms
+    name: ore.rdf
+    sha256: "b79aab5ebbb1275fbc2e94ae91a318103479dfed737741321b31d7de9576d91e"
+    size: 9480
+  - url: https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt
+    sha256: "3f941b3b89cf7b8370ceb83cc76d2120d471b58735d8ca60238a751a48d7f72f"
+    size: 22240

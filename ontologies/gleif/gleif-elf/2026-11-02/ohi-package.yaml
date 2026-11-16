@@ -1,0 +1,29 @@
+namespace: gleif
+name: gleif-elf
+version: "2026-11-02"
+language: owl
+syntax: turtle
+roots: [gleif-elf.ttl]
+licenses: ["GLEIF LEI Data Terms of Use"]
+licenseFiles: [LICENSE]
+dependencies: ["gleif/gleif-base@2026-11-02", "lcc/country-representation@20211101"]
+title: "Entity Legal Form Ontology"
+authors:
+  - name: "Global Legal Entity Identifier Foundation"
+    link: "https://www.gleif.org/"
+publishers:
+  - name: "Global Legal Entity Identifier Foundation"
+    link: "https://www.gleif.org/"
+contributors:
+  - name: "Bryon Jacob"
+  - name: "Working Ontologist LLC"
+    link: "http://www.workingontologist.com"
+  - name: "Pete Rivett"
+description: "Ontology defining concepts for Entity Legal Forms and their abbreviations by jurisdiction, based on ISO 20275."
+keywords: ["Contracts", "Industry"]
+originalSources: ["https://www.gleif.org/ontology/EntityLegalForm"]
+sources:
+  - url: https://www.gleif.org/ontology/v1.0/EntityLegalForm/ontology.ttl
+    name: gleif-elf.ttl
+    sha256: "6fada5feae476b2dcb97cedaaa71ab719a0d5f07ce7ead12d750f388ef6bc4cb"
+    size: 3941

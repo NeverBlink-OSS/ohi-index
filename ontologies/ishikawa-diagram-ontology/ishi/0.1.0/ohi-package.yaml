@@ -1,0 +1,32 @@
+namespace: ishikawa-diagram-ontology
+name: ishi
+version: "0.1.0"
+language: owl
+syntax: turtle
+roots: [ishi.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Ishikawa diagram ontology"
+authors:
+  - name: "Simon Vandevelde"
+    link: "http://simonvandevelde.be"
+  - name: "Joost Vennekens"
+    link: "https://orcid.org/0000-0002-0791-0176"
+  - name: "Christian Fleiner"
+    link: "https://orcid.org/0000-0003-4280-670X"
+  - name: "Duo Yang"
+    link: "https://orcid.org/0009-0008-5942-3397"
+publishers:
+  - name: "KU Leuven"
+    link: "https://www.kuleuven.be/"
+description: "The Ishikawa ontology aims to provide a data and view model to manage data encoded in Ishikawa diagrams which are also known as fishbone or cause and effect diagram (CED)."
+keywords: ["Methods"]
+sources:
+  - url: https://rexpek.github.io/ishikawa-diagram-ontology/ishikawa-diagram-ontology/latest/ishikawa-diagram-ontology.ttl
+    name: ishi.ttl
+    sha256: "b883c7516b24a5981796000d115c0db216fc229a3c382a2dfe27ce81f4f6aeca"
+    size: 69287
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

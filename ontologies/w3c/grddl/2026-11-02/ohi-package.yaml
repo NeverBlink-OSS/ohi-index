@@ -1,0 +1,24 @@
+namespace: w3c
+name: grddl
+version: "2026-11-02"
+language: owl
+syntax: rdfxml
+roots: [grddl.rdf]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Gleaning Resource Descriptions from Dialects of Languages Vocabulary"
+authors:
+  - name: "W3C GRDDL Working Group"
+    link: "http://www.w3.org/2001/sw-grddl-wg/"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "Gleaning Resource Descriptions from Dialects of Languages Vocabulary."
+keywords: ["Vocabularies"]
+originalSources: ["http://www.w3.org/2001/sw-grddl-wg", "http://www.w3.org/People/Connolly", "http://www.w3.org/2003/g/data-view"]
+sources:
+  - url: https://www.w3.org/2003/g/data-view.rdf
+    name: grddl.rdf
+    sha256: "c388e99c8abdd5f3ef5d40a63c692569ea1d8b4ed28f5df241f2d2dd8e116e97"
+    size: 9731

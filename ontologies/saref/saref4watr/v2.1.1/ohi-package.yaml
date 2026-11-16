@@ -1,0 +1,25 @@
+namespace: saref
+name: saref4watr
+version: "v2.1.1"
+language: owl
+syntax: turtle
+roots: [saref4watr.ttl]
+licenses: ["BSD-3-Clause"]
+licenseFiles: [LICENSE]
+dependencies: ["saref/saref-core@v4.1.1", "saref/saref4city@v2.1.1", "saref/saref4syst@v1.1.2"]
+title: "SAREF4WATR"
+authors:
+  - name: "Raúl García-Castro"
+publishers:
+  - name: "European Telecommunications Standards Institute"
+    link: "https://www.etsi.org/"
+description: "SAREF extension for water management: water infrastructure, devices and water properties."
+keywords: ["water", "IoT", "utilities"]
+originalSources: ["https://saref.etsi.org/saref4watr"]
+sources:
+  - url: https://saref.etsi.org/saref4watr/v2.1.1/saref4watr.ttl
+    sha256: "964044e750d829e118c9e9f25e19c4e6d152b89df912c3d4260db470ff1ec514"
+    size: 57491
+  - url: https://labs.etsi.org/rep/saref/saref4watr/-/raw/d38725945f9a0851677b249f9a6883743009fca8/LICENSE
+    sha256: "8f102e377f1ad7ed9fa90d9dd6cb9ab75e071949dcdb8cb413a10dc98d80b9d4"
+    size: 1475

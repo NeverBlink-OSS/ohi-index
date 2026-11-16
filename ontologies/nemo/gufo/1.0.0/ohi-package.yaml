@@ -1,0 +1,36 @@
+namespace: nemo
+name: gufo
+version: "1.0.0"
+language: owl
+syntax: turtle
+roots: [gufo.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "gUFO: A Lightweight Implementation of the Unified Foundational Ontology (UFO)"
+authors:
+  - name: "João Paulo A. Almeida"
+    link: "https://orcid.org/0000-0002-9819-3781"
+  - name: "Ricardo A. Falbo"
+  - name: "Giancarlo Guizzardi"
+    link: "https://orcid.org/0000-0002-3452-553X"
+  - name: "Tiago Prince Sales"
+    link: "https://www.inf.unibz.it/~tpsales/"
+publishers:
+  - name: "João Paulo A. Almeida"
+    link: "https://orcid.org/0000-0002-9819-3781"
+  - name: "Ricardo A. Falbo"
+  - name: "Giancarlo Guizzardi"
+    link: "https://orcid.org/0000-0002-3452-553X"
+  - name: "Tiago Prince Sales"
+    link: "https://www.inf.unibz.it/~tpsales/"
+description: "The objective of gUFO is to provide a lightweight implementation of the Unified Foundational Ontology (UFO) [1-5] suitable for Semantic Web OWL 2 DL applications."
+keywords: ["Events", "General & Upper"]
+originalSources: ["https://github.com/nemo-ufes/gufo"]
+sources:
+  - url: https://nemo-ufes.github.io/gufo/gufo.ttl
+    sha256: "7a9ad201b9beb2f47dd8985b7e7d51005b557f574db19cc2de7ee1f2006c9d32"
+    size: 101103
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

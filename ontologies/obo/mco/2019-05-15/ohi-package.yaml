@@ -1,0 +1,31 @@
+namespace: obo
+name: mco
+version: "2019-05-15"
+language: owl
+syntax: rdfxml
+roots: [mco.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Microbial Conditions Ontology"
+authors:
+  - name: "Citlalli Mejía Almonte"
+    contact: "citlalli.mejiaalmonte@gmail.com"
+    link: "https://orcid.org/0000-0002-0142-5591"
+  - name: "Víctor Tierrafría"
+  - name: "Manuel Camacho"
+  - name: "Socorro Castro Gama"
+  - name: "Julio Collado Vides"
+publishers:
+  - name: "Microbial Conditions Ontology"
+    link: "https://github.com/microbial-conditions-ontology"
+description: "Microbial Conditions Ontology is an ontology..."
+keywords: ["investigations", "experimental conditions", "OBO"]
+originalSources: ["https://github.com/microbial-conditions-ontology/microbial-conditions-ontology"]
+sources:
+  - url: https://github.com/microbial-conditions-ontology/microbial-conditions-ontology/blob/656c28513c39b430224cffb862ec4d5be7215baf/mco.owl
+    sha256: "910807227de31317e2aa65587a5030988b1e4efc2fabe558f973609876cd739b"
+    size: 17308396
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

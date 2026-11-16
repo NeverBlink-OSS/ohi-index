@@ -1,0 +1,26 @@
+namespace: obo
+name: exo
+version: "2022-06-29"
+language: owl
+syntax: rdfxml
+roots: [exo.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Exposure ontology"
+authors:
+  - name: "Comparative Toxicogenomics Database"
+    link: "https://ctdbase.org/"
+publishers:
+  - name: "Comparative Toxicogenomics Database"
+    link: "https://ctdbase.org/"
+description: "Vocabularies for describing exposure data to inform understanding of environmental health."
+keywords: ["health", "OBO"]
+originalSources: ["https://github.com/CTDbase/exposure-ontology"]
+sources:
+  - url: https://github.com/CTDbase/exposure-ontology/blob/v2022-06-29/exo.owl
+    sha256: "ed26e2c811b7d752ef01a3e7b882e5bcea413dbd61d7c1329f9bacaa171b6ce6"
+    size: 254754
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,28 @@
+namespace: core
+name: oslc
+version: "2014-05-23"
+language: rdfs
+syntax: turtle
+roots: [oslc.ttl]
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "OSLC Core Vocabulary"
+authors:
+  - name: "OSLC Core Working Group"
+    link: "https://open-services.net/"
+publishers:
+  - name: "OSLC Core Working Group"
+    link: "https://open-services.net/"
+description: "The Open Services for Lifecycle Collaboration (OSLC) initiative is creating a family of web services specifications for products, services and other tools that support all phases of the software and product lifecycle."
+keywords: ["PLM"]
+originalSources: ["http://open-services.net/bin/view/Main/OslcCoreSpecification"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/oslc/versions/2014-05-23.n3
+    name: oslc.ttl
+    sha256: "13e29ebb5e7ea9bfe354c6ca3777c944b55d2382887f989c7c10b26c1d359f17"
+    size: 33897
+  - url: https://www.apache.org/licenses/LICENSE-2.0.txt
+    name: LICENSE
+    sha256: "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    size: 11358

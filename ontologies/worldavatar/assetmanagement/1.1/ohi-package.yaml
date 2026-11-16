@@ -1,0 +1,27 @@
+namespace: worldavatar
+name: assetmanagement
+version: "1.1"
+language: owl
+syntax: rdfxml
+roots: [assetmanagement.owl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "WorldAvatar asset management ontology"
+authors:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+publishers:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+description: "OntoAssetManagement is an ontology that is designed to represent asset and its related information (e.g."
+keywords: ["ontology", "worldavatar"]
+originalSources: ["https://github.com/TheWorldAvatar/ontology", "https://theworldavatar.io"]
+sources:
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/ontology/ontoassetmanagement/OntoAssetManagement.owl
+    name: assetmanagement.owl
+    sha256: "057f39881948a99366ffb10ffa5e6550fade3351aa26c25b9a7d8639b8de2a57"
+    size: 94019
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/LICENSE.txt
+    sha256: "8c29b2cb4c712a0d382d1951ffc7e2a155ec7095c7e92a896f5919eb02c31ea9"
+    size: 1309

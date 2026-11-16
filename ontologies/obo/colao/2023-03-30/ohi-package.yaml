@@ -1,0 +1,37 @@
+namespace: obo
+name: colao
+version: "2023-03-30"
+language: owl
+syntax: rdfxml
+roots: [colao.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Coleoptera Anatomy Ontology (COLAO)"
+authors:
+  - name: "Insect Morphology"
+    link: "https://github.com/insect-morphology"
+publishers:
+  - name: "Insect Morphology"
+    link: "https://github.com/insect-morphology"
+contributors:
+  - name: "Aaron Smith"
+    link: "https://orcid.org/0000-0002-1286-950X"
+  - name: "Jennifer C. Girón Duque"
+    link: "https://sites.google.com/view/jcgiron/home"
+  - name: "Ryan Lumen"
+    link: "https://orcid.org/0000-0002-3958-7596"
+  - name: "Giulio Montanaro"
+    link: "https://orcid.org/0000-0003-0836-1364"
+  - name: "Sergei Tarasov"
+    link: "http://sergxf.wixsite.com/dungbeetles"
+description: "The Coleoptera Anatomy Ontology contains terms used for describing the anatomy and phenotype of beetles in biodiversity research."
+keywords: ["anatomy and development", "insect anatomy", "OBO"]
+originalSources: ["https://github.com/insect-morphology/colao"]
+sources:
+  - url: https://github.com/insect-morphology/colao/blob/v2023-03-30/colao.owl
+    sha256: "ce8185d2e7aacad73b922cc164bb076631844dcf415ce226816a5beb424a9616"
+    size: 3169498
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

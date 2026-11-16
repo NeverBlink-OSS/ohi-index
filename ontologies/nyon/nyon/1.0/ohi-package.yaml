@@ -1,0 +1,27 @@
+namespace: nyon
+name: nyon
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [nyon.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "NyOn: A Multilingual Legal Ontology for Globalized Judicial System"
+authors:
+  - name: "Pooja Harde"
+  - name: "Sarika Jain"
+  - name: "Nandana Mihindukulasooriya"
+publishers:
+  - name: "SemIntelligence"
+    link: "https://www.semintelligence.org/"
+description: "An ontology that represents concepts in the legal domain."
+keywords: ["Metadata"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/nyon/versions/2020-04-04.n3
+    name: nyon.ttl
+    sha256: "3aaa13309faf4c9f689cc45fbe00f45671b3ab5411a05c3c8ca8d634ee52ce5a"
+    size: 84949
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

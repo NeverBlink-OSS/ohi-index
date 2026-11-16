@@ -1,0 +1,27 @@
+namespace: w3c
+name: wot-json-schema
+version: "2026-10-20"
+language: owl
+syntax: turtle
+roots: [json-schema.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "WoT JSON Schema"
+authors:
+  - name: "Victor Charpenay"
+    link: "https://vcharpenay.link/"
+publishers:
+  - name: "W3C Web of Things Working Group"
+    link: "https://www.w3.org/WoT/WG/"
+description: "Web of Things ontology for the JSON Schema data types of thing interactions."
+keywords: ["Web of Things", "IoT", "JSON Schema"]
+originalSources: ["https://github.com/w3c/wot-thing-description"]
+sources:
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657
+  - url: https://github.com/w3c/wot-thing-description/blob/341689fbce35478512fd158729dca0242bbfa361/ontology/jsonschema.ttl
+    name: json-schema.ttl
+    sha256: "0b4d666901b328ccaddb9430b92b9a1dde8fe989dc7f98f0437642c3f92fa280"
+    size: 24251

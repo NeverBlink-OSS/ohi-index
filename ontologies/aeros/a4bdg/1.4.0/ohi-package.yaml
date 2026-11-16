@@ -1,0 +1,26 @@
+namespace: aeros
+name: a4bdg
+version: "1.4.0"
+language: owl
+syntax: turtle
+roots: [a4bdg.ttl]
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "aerOS Building ontology"
+authors:
+  - name: "Ignacio Domínguez Martinez-Casanueva"
+  - name: "Lucía Cabanillas Rodríguez"
+publishers:
+  - name: "aerOS project"
+description: "Ontology that defines the conceptual model for the Pilot 5 - Smart Building use case."
+keywords: ["IoT"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/a4bdg/versions/2025-06-16.n3
+    name: a4bdg.ttl
+    sha256: "beeccd7f6eea8e71c7bc92f9cbf6a838b7b4f39af543309531768763e79f9fb9"
+    size: 25176
+  - url: https://www.apache.org/licenses/LICENSE-2.0.txt
+    name: LICENSE
+    sha256: "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    size: 11358

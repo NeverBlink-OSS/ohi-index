@@ -1,0 +1,25 @@
+namespace: isotc211
+name: basic
+version: "201311"
+language: owl
+syntax: turtle
+roots: [basic.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["dcmi/dcelements@2026-10-20"]
+title: "OWL representation of ISO 19103 (Basic types package)"
+authors:
+  - name: "Simon J. D. Cox"
+publishers:
+  - name: "Commonwealth Scientific and Industrial Research Organisation"
+    link: "https://www.csiro.au/"
+description: "An OWL representation of (some of) the basic types described in ISO 19103:2005, required as primitives in other ontologies based on ISO 19100 series standards."
+keywords: ["Methods"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/basic/versions/2013-11-14.n3
+    name: basic.ttl
+    sha256: "95a398fbc70a76a9ad6b25177de4ccef165501c135648732719a44cf14d5d8e6"
+    size: 16656
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

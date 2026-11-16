@@ -1,0 +1,27 @@
+namespace: commons
+name: identifiers
+version: "20221101"
+language: owl
+syntax: rdfxml
+roots: [Identifiers.rdf]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["commons/annotation-vocabulary@20250801", "commons/collections@20221101", "commons/designators@20250801"]
+title: "OMG Commons Identifiers"
+authors:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+publishers:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+contributors:
+  - name: "Elisa Kendall"
+  - name: "Evan Wallace"
+  - name: "Pete Rivett"
+description: "Identifiers and the identification schemes that define them."
+keywords: ["OMG Commons", "identifiers"]
+originalSources: ["https://www.omg.org/spec/Commons"]
+sources:
+  - url: https://www.omg.org/spec/Commons/20250801/Identifiers.rdf
+    sha256: "c5ed5f3551ff4d0a711bd50ff6a7388383a1cf33a27bc1661e54f6bf7a75987a"
+    size: 6920

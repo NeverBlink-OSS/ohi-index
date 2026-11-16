@@ -1,0 +1,37 @@
+namespace: securitytoolbox
+name: algo
+version: "0.2"
+language: owl
+syntax: turtle
+roots: [algo.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Algorithms Ontology"
+authors:
+  - name: "Jim Luo"
+    contact: "luo@itd.nrl.navy.mil"
+  - name: "Anya Kim"
+    contact: "kim@itd.nrl.navy.mil"
+  - name: "Myong Kang"
+    contact: "mkang@itd.nrl.navy.mil"
+publishers:
+  - name: "Jim Luo"
+    contact: "luo@itd.nrl.navy.mil"
+  - name: "Anya Kim"
+    contact: "kim@itd.nrl.navy.mil"
+  - name: "Myong Kang"
+    contact: "mkang@itd.nrl.navy.mil"
+contributors:
+  - name: "Amelie Gyrard"
+    contact: "gyrard@eurecom.fr"
+description: "An ontology describing cryptographic algorithms."
+keywords: ["Security"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/algo/versions/2015-01-11.n3
+    name: algo.ttl
+    sha256: "ee9abe3c31f1fe5d1499c1417f4eba2f8ce41e07941faa0683316c8fc23f2ee0"
+    size: 6304
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

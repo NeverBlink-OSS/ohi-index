@@ -1,0 +1,27 @@
+namespace: sbeo
+name: sbeo
+version: "0.1"
+language: owl
+syntax: turtle
+roots: [sbeo.ttl]
+licenses: ["GPL-3.0-only"]
+licenseFiles: [gpl-3.0.txt]
+dependencies: []
+title: "SBEO: Smart Building Evacuation Ontology"
+authors:
+  - name: "Qasim Khalid"
+    link: "https://orcid.org/0000-0002-7944-2594"
+publishers:
+  - name: "Qasim Khalid"
+    link: "https://orcid.org/0000-0002-7944-2594"
+description: "Smart Building Evacuation Ontology (SBEO) is an ontology that couples the information about any building with its occupants such that it can be used in many useful ways."
+keywords: ["IoT", "Services"]
+originalSources: ["https://qasimkhalid.github.io/SBEO", "https://github.com/qasimkhalid/SBEO"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/sbeo/versions/2020-07-12.n3
+    name: sbeo.ttl
+    sha256: "16c82c35edd92cdbed9ecdbafaab48be06f08285ae9ba8ba349e193c8d15c721"
+    size: 102817
+  - url: https://www.gnu.org/licenses/gpl-3.0.txt
+    sha256: "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    size: 35149

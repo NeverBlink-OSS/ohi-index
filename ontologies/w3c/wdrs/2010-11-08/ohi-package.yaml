@@ -1,0 +1,24 @@
+namespace: w3c
+name: wdrs
+version: "2010-11-08"
+language: owl
+syntax: turtle
+roots: [wdrs.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Protocol for Web Description Resources"
+authors:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "The Protocol for Web Description Resources (POWDER) allows metadata to be associated with groups of resources such as those found on a Web site."
+keywords: ["API"]
+originalSources: ["https://www.w3.org/TR/powder-dr"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/wdrs/versions/2010-11-08.n3
+    name: wdrs.ttl
+    sha256: "6d7a32490cc8938c1bedd951c5866641557af8f3dd05d39375541417cdc9c9ee"
+    size: 8794

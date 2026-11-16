@@ -1,0 +1,37 @@
+namespace: obo
+name: aism
+version: "2026-02-14"
+language: owl
+syntax: rdfxml
+roots: [aism.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Ontology for the Anatomy of the Insect SkeletoMuscular system (AISM)"
+authors:
+  - name: "Insect Morphology"
+    link: "https://github.com/insect-morphology"
+publishers:
+  - name: "Insect Morphology"
+    link: "https://github.com/insect-morphology"
+contributors:
+  - name: "István Mikó"
+    link: "https://orcid.org/0000-0003-2938-9075"
+  - name: "Jennifer C. Girón Duque"
+    link: "https://sites.google.com/view/jcgiron/home"
+  - name: "Luis A. González-Montaña"
+    link: "https://orcid.org/0000-0002-9136-9932"
+  - name: "Sergei Tarasov"
+    link: "http://sergxf.wixsite.com/dungbeetles"
+  - name: "Giulio Montanaro"
+    link: "https://orcid.org/0000-0003-0836-1364"
+description: "The AISM contains terms used in insect biodiversity research for describing structures of the exoskeleton and the skeletomuscular system."
+keywords: ["anatomy and development", "OBO"]
+originalSources: ["https://github.com/insect-morphology/aism"]
+sources:
+  - url: https://github.com/insect-morphology/aism/blob/65173c511ddda5dea6c3077cc9804d1a5381a97c/aism.owl
+    sha256: "0aee81bbc9b9d963765dc470488e97ccae05143f831eeec6c1b97dea0cc56dc5"
+    size: 24533720
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

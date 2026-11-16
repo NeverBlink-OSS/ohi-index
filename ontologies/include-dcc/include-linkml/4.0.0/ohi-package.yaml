@@ -1,0 +1,27 @@
+namespace: include-dcc
+name: include-linkml
+version: "4.0.0"
+language: linkml
+syntax: yaml
+roots: [include-linkml.yaml]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "include-linkml"
+authors:
+  - name: "Mark Andrew Miller"
+    contact: "mamillerpa@gmail.com"
+publishers:
+  - name: "INCLUDE Data Coordinating Center"
+    link: "https://github.com/include-dcc"
+description: "LinkML Schema for INCLUDE DCC."
+keywords: ["Computer Science"]
+originalSources: ["https://github.com/include-dcc/include-linkml"]
+sources:
+  - url: https://github.com/include-dcc/include-linkml/blob/v4.0.0/src/linkml/include_schema.yaml
+    name: include-linkml.yaml
+    sha256: "4fe59ba55563df3471c82e33bad6e1b520c711195eee5bdabe9afab84a049444"
+    size: 46356
+  - url: https://github.com/include-dcc/include-linkml/blob/v4.0.0/LICENSE
+    sha256: "5082b1a27f96b918061f2e54ade24cb14c505dd649199deb87f228620c7c9c92"
+    size: 1071

@@ -1,0 +1,30 @@
+namespace: obo
+name: bspo
+version: "2021-09-22"
+language: owl
+syntax: rdfxml
+roots: [bspo.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Biological Spatial Ontology"
+authors:
+  - name: "Christopher J. Mungall"
+    contact: "cjmungall@lbl.gov"
+    link: "https://mungall.dev"
+publishers:
+  - name: "Biological Spatial Ontology"
+    link: "https://github.com/obophenotype/biological-spatial-ontology"
+description: "An ontology for representing spatial concepts, anatomical axes, gradients, regions, planes, sides, and surfaces."
+keywords: ["anatomy and development", "OBO"]
+originalSources: ["https://github.com/obophenotype/biological-spatial-ontology"]
+publications:
+  - title: "Nose to tail, roots to shoots: spatial descriptors for phenotypic diversity in the Biological Spatial Ontology."
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/25140222"
+sources:
+  - url: https://github.com/obophenotype/biological-spatial-ontology/blob/v2021-09-22/bspo.owl
+    sha256: "65f2352f3b4475f6184a1166fd067cb856cb418f05b7060654a68047b5805323"
+    size: 635724
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

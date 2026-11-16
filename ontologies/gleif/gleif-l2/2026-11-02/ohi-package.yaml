@@ -1,0 +1,29 @@
+namespace: gleif
+name: gleif-l2
+version: "2026-11-02"
+language: owl
+syntax: turtle
+roots: [gleif-l2.ttl]
+licenses: ["GLEIF LEI Data Terms of Use"]
+licenseFiles: [LICENSE]
+dependencies: ["gleif/gleif-base@2026-11-02", "gleif/gleif-l1@2026-11-02"]
+title: "Global Legal Entity Identifier Foundation Level 2 Ontology - Who Owns Whom"
+authors:
+  - name: "Global Legal Entity Identifier Foundation"
+    link: "https://www.gleif.org/"
+publishers:
+  - name: "Global Legal Entity Identifier Foundation"
+    link: "https://www.gleif.org/"
+contributors:
+  - name: "Bryon Jacob"
+  - name: "Working Ontologist LLC"
+    link: "http://www.workingontologist.com"
+  - name: "Pete Rivett"
+description: "Ontology for legal entity parent relationships."
+keywords: ["People"]
+originalSources: ["https://www.gleif.org/ontology/L2"]
+sources:
+  - url: https://www.gleif.org/ontology/v1.0/L2/ontology.ttl
+    name: gleif-l2.ttl
+    sha256: "4d21cdfbe280e79af1f19e6ae6dc05883e1d264388275be271ab3f750d08d4e2"
+    size: 21391

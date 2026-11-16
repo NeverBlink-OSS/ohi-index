@@ -1,0 +1,36 @@
+namespace: ign
+name: ignf
+version: "2015-05-05"
+language: owl
+syntax: turtle
+roots: [ignf.ttl]
+licenses: ["etalab-2.0", "CC-BY-2.0", "ODC-By-1.0"]
+licenseFiles: [LICENSE-etalab-2.0, legalcode.txt, LICENSE-odc-by-1.0]
+dependencies: []
+title: "Ontology of coordinates reference systems"
+authors:
+  - name: "Nathalie Abadie"
+    contact: "nathalie-f.abadie@ign.fr"
+  - name: "Ghislain Auguste Atemezing"
+publishers:
+  - name: "National Institute of Geographic and Forest Information (IGN)"
+    link: "https://www.ign.fr/"
+contributors:
+  - name: "Raphaël Troncy"
+    link: "http://www.eurecom.fr/~troncy/"
+description: "Codes for describing coordinates reference systems consistently with ISO TC/211."
+keywords: ["Geography"]
+originalSources: ["https://data.ign.fr/def/ignf"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/ignf/versions/2015-05-05.n3
+    name: ignf.ttl
+    sha256: "fd84e0ceb2d3a54865d5f0c4534eef14dde9f34f2078f29621eb608f4a4c361a"
+    size: 51825
+  - url: https://raw.githubusercontent.com/spdx/license-list-data/v3.29.0/text/etalab-2.0.txt
+    name: LICENSE-etalab-2.0
+    sha256: "f82596bde5c4abc62b4e63b1a3ba555f6b9203a340765fb178d188958600d111"
+    size: 8198
+  - url: https://opendatacommons.org/licenses/by/odc_by_1.0_public_text.txt
+    name: LICENSE-odc-by-1.0
+    sha256: "11a6d83734845ad09d809667aa219857a5b985b28c258a2eebf5677668a6bd3b"
+    size: 19977

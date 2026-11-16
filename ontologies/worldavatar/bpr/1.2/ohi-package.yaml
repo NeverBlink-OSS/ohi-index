@@ -1,0 +1,27 @@
+namespace: worldavatar
+name: bpr
+version: "1.2"
+language: owl
+syntax: rdfxml
+roots: [bpr.owl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "WorldAvatar back pressure regulator ontology"
+authors:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+publishers:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+description: "OntoBPR is an ontology developed for expressing a back pressure regulator."
+keywords: ["ontology", "worldavatar"]
+originalSources: ["https://github.com/TheWorldAvatar/ontology", "https://theworldavatar.io"]
+sources:
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/ontology/ontobpr/OntoBPR.owl
+    name: bpr.owl
+    sha256: "a0b15327b6e0410e7de130280c4bdc661bdca11fdacac9e557e5b8056bb2d155"
+    size: 7590
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/LICENSE.txt
+    sha256: "8c29b2cb4c712a0d382d1951ffc7e2a155ec7095c7e92a896f5919eb02c31ea9"
+    size: 1309

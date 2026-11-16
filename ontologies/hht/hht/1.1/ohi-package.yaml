@@ -1,0 +1,27 @@
+namespace: hht
+name: hht
+version: "1.1"
+language: owl
+syntax: turtle
+roots: [hht.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["geosparql/gsp@1.1", "w3c/time@2016", "w3c/org@2014"]
+title: "Historical Hierarchical Territories"
+authors:
+  - name: "Nathalie Aussenac-Gilles"
+  - name: "Nathalie Hernandez"
+  - name: "William Charles"
+publishers:
+  - name: "IRIT"
+    link: "https://www.irit.fr/"
+description: "The notion of territory plays a major role in human and social sciences."
+keywords: ["Events", "Geography"]
+sources:
+  - url: https://www.irit.fr/recherches/MELODI/ontologies/HHT/ontology.ttl
+    name: hht.ttl
+    sha256: "c85bb166acaf358f7909267354abc284cc6d9e5edf49f0c887cc8c6996427cd4"
+    size: 72608
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

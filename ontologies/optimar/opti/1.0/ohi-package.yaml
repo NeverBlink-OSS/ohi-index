@@ -1,0 +1,31 @@
+namespace: optimar
+name: opti
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [opti.ttl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Offshore Wind Power Platform Ontology for OPTiMAR"
+authors:
+  - name: "Alejandro Flores"
+  - name: "Alberto Montero"
+  - name: "Oihana Garcia"
+  - name: "Cristina Aceta"
+publishers:
+  - name: "University of Salamanca"
+    link: "https://www.usal.es/"
+  - name: "Tekniker"
+    link: "https://www.tekniker.es/"
+description: "This ontology describes the components, failures, sensors, and events related to offshore wind platforms."
+keywords: ["Environment", "IoT"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/opti/versions/2025-10-06.n3
+    name: opti.ttl
+    sha256: "1f7e5879427e26465faf4e198c7ca02bb31c1c2f291cb58377f632be70c833af"
+    size: 40113
+  - url: https://raw.githubusercontent.com/spdx/license-list-data/v3.29.0/text/MIT.txt
+    name: LICENSE
+    sha256: "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5"
+    size: 1078

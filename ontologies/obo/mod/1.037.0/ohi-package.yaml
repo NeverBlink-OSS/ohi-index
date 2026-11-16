@@ -1,0 +1,29 @@
+namespace: obo
+name: mod
+version: "1.037.0"
+language: owl
+syntax: rdfxml
+roots: [PSI-MOD.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Protein modification"
+authors:
+  - name: "HUPO Proteomics Standards Initiative"
+    link: "http://www.psidev.info/"
+publishers:
+  - name: "HUPO Proteomics Standards Initiative"
+    link: "http://www.psidev.info/"
+description: "PSI-MOD is an ontology consisting of terms that describe protein chemical modifications."
+keywords: ["chemistry and biochemistry", "proteins", "OBO"]
+originalSources: ["https://github.com/HUPO-PSI/psi-mod-CV", "http://www.psidev.info/MOD"]
+publications:
+  - title: "The PSI-MOD community standard for representation of protein modification data"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/18688235"
+sources:
+  - url: https://github.com/HUPO-PSI/psi-mod-CV/blob/v1.038.0/PSI-MOD.owl
+    sha256: "4e6749b19140609396ea5d8aaa80b646e7fdd4c5a61d8db68383dd6e126d6044"
+    size: 9628574
+  - url: https://github.com/HUPO-PSI/psi-mod-CV/blob/v1.038.0/LICENSE
+    sha256: "f5b745ef98087f531e719ee8ca6a96809444573ecc7173c6fa68eaad39b3cc3f"
+    size: 18658

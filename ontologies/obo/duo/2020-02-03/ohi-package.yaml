@@ -1,0 +1,34 @@
+namespace: obo
+name: duo
+version: "2020-02-03"
+language: owl
+syntax: rdfxml
+roots: [duo.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["obo/iao@2026-03-30"]
+title: "Data Use Ontology"
+authors:
+  - name: "Melanie Courtot"
+publishers:
+  - name: "EMBL-EBI Samples, Phenotypes and Ontologies Team"
+    link: "https://www.ebi.ac.uk/spot/"
+contributors:
+  - name: "Cooper Stansbury"
+  - name: "David An"
+  - name: "Dylan Spalding"
+  - name: "Giselle Kerry"
+  - name: "Gregory Rushton"
+  - name: "J. Neil Otte"
+  - name: "Moran Ncabili"
+  - name: "Stephanie Dyke"
+description: "DUO is an ontology which represent data use conditions."
+keywords: ["information", "OBO"]
+originalSources: ["https://github.com/EBISPOT/DUO"]
+sources:
+  - url: https://github.com/EBISPOT/DUO/blob/v2020-02-03/duo.owl
+    sha256: "365504c985bbfb5af6faef4da1040538cfe1402115c1cfac0adf24b0728677a4"
+    size: 102706
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,29 @@
+namespace: ischaracterisedby
+name: icb
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [icb.ttl]
+licenses: ["CC-BY-NC-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "isCharacterisedBy ontology design pattern"
+authors:
+  - name: "Patricia Casla"
+publishers:
+  - name: "Tekniker"
+    link: "https://www.tekniker.es/"
+contributors:
+  - name: "Izaskun Fernández"
+  - name: "Iban Quintana"
+  - name: "Xana Fernandez"
+description: "The goal of this ontology design pattern is to characterise a subject or group of subjects of interest by assigning qualifiable or quantifiable attributes or characteristics."
+keywords: ["General & Upper"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/icb/versions/2023-05-30.n3
+    name: icb.ttl
+    sha256: "fd3030ca45a51526020b87af5b193b049a607ada0e4d9833a5a7d20082104f22"
+    size: 18286
+  - url: https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt
+    sha256: "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+    size: 19347

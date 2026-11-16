@@ -1,0 +1,31 @@
+namespace: obo
+name: bco
+version: "2021-11-14"
+language: owl
+syntax: rdfxml
+roots: [bco.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Biological Collections Ontology"
+authors:
+  - name: "Barry Smith"
+  - name: "John Deck"
+  - name: "John Wieczorek"
+  - name: "Ramona L. Walls"
+    contact: "rlwalls2008@gmail.com"
+    link: "https://orcid.org/0000-0001-8815-0078"
+  - name: "Robert Guralnick"
+publishers:
+  - name: "Biodiversity Ontologies"
+    link: "https://github.com/BiodiversityOntologies"
+description: "An ontology to support the interoperability of biodiversity data, including data on museum collections, environmental/metagenomic samples, and ecological surveys."
+keywords: ["organisms", "biodiversity collections", "OBO"]
+originalSources: ["https://github.com/BiodiversityOntologies/bco"]
+publications:
+  - title: "Semantics in Support of Biodiversity Knowledge Discovery: An Introduction to the Biological Collections Ontology and Related Ontologies"
+    link: "https://doi.org/10.1371/journal.pone.0089606"
+sources:
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

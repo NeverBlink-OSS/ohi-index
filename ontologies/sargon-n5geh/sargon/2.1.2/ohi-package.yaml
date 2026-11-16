@@ -1,0 +1,29 @@
+namespace: sargon-n5geh
+name: sargon
+version: "2.1.2"
+language: owl
+syntax: turtle
+roots: [sargon.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["w3c/time@2016"]
+title: "Smart Energy Domain Ontology"
+authors:
+  - name: "Laura Daniele"
+publishers:
+  - name: "TNO"
+    link: "https://www.tno.nl/"
+contributors:
+  - name: "María Poveda-Villalón"
+  - name: "Raúl García-Castro"
+description: "SARGON (SmArt eneRGy dOmain oNtology) is an open-source effort to define semantic descriptions of the smart assets in building automation and smart grid and the relationships between them."
+keywords: ["engineering", "nfdi4energy", "ontology"]
+originalSources: ["https://sargon-n5geh.netlify.app"]
+sources:
+  - url: https://sargon-n5geh.netlify.app/ontologies/Sargon.owl
+    name: sargon.ttl
+    sha256: "231e372ff43a6096f144d6b73576ba7b4f5a20586a56176f6b2592199dd3a21a"
+    size: 200857
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,40 @@
+# Asks the hub for a dry run of every folder a pull request changes, so a broken
+# package is caught before the merge triggers a publish. The hub reads the
+# folders from GitHub at the pull request's head commit.
+#
+# Uses pull_request_target and an environment "check" for security and secrets handling.
+#
+# Needs repository variable HUB_URL and secret HUB_PASSWORD.
+name: Check
+
+on:
+  pull_request_target:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    environment: check
+    runs-on: ubuntu-latest
+    env:
+      HUB_URL: ${{ vars.HUB_URL }}
+      HUB_USER: ${{ vars.HUB_USER }}
+      HUB_PASSWORD: ${{ secrets.HUB_PASSWORD }}
+    steps:
+      # The base branch, not the pull request
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # to diff against the base
+          persist-credentials: false
+      - name: Fetch the pull request's commits, to diff them only
+        run: git fetch --no-tags origin "+refs/pull/$PR/head:refs/remotes/pull/$PR/head"
+        env:
+          PR: ${{ github.event.pull_request.number }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/index.py --dry-run --ref "$HEAD" --changed "$BASE" --head "$HEAD"
+        env:
+          HEAD: ${{ github.event.pull_request.head.sha }}
+          BASE: ${{ github.event.pull_request.base.sha }}

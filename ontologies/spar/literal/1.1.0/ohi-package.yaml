@@ -1,0 +1,37 @@
+namespace: spar
+name: literal
+version: "1.1.0"
+language: owl
+syntax: rdfxml
+roots: [literal.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE.md]
+dependencies: ["odp/region@1.1"]
+title: "SPAR Literal Reification"
+authors:
+  - name: "Aldo Gangemi"
+    link: "https://orcid.org/0000-0001-5568-2684"
+  - name: "Fabio Vitali"
+    link: "https://orcid.org/0000-0002-7562-5203"
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+contributors:
+  - name: "Sebastian Barzaghi"
+    link: "https://orcid.org/0000-0002-0799-1527"
+description: "Pattern for using literal values as subjects of statements."
+keywords: ["patterns", "literals"]
+originalSources: ["https://github.com/SPAROntologies/literal"]
+publications:
+  - title: "Gangemi, A., Peroni, S., & Vitali, F. (2010). Literal reification. Proceedings of WOP, 2010, 65-66. https://dl.acm.org/doi/abs/10.5555/2878924.2878933."
+    link: "https://dl.acm.org/doi/abs/10.5555/2878924.2878933"
+sources:
+  - url: https://sparontologies.github.io/literal/2026-09-16/literal.xml
+    name: literal.rdf
+    sha256: "90019f38cc9702432be75b24be9d9cf7ca4537cf862e67c177b42c08b40c2550"
+    size: 18637
+  - url: https://github.com/SPAROntologies/literal/blob/ba29cd9360902ab9440fc810735ad79547810efa/LICENSE.md
+    sha256: "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    size: 18656

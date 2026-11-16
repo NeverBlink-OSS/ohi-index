@@ -1,0 +1,36 @@
+namespace: data
+name: donto
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [donto.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["geosparql/gsp@1.1", "w3c/time@2016", "w3c/vcard@2014", "w3c/dcat@2", "w3c/prov-o@2013"]
+title: "Dataset Ontology"
+authors:
+  - name: "Australian Government Linked Data Working Group"
+    link: "https://www.linked.data.gov.au/"
+publishers:
+  - name: "Australian Government Linked Data Working Group"
+    link: "https://www.linked.data.gov.au/"
+contributors:
+  - name: "Dominic Lowe"
+    contact: "d.lowe@bom.gov.au"
+  - name: "Simon J. D. Cox"
+    contact: "simon.cox@csiro.au"
+  - name: "Armin Haller"
+    contact: "armin.haller@anu.edu.au"
+  - name: "Nicholas J. Car"
+    contact: "nicholas.car@ga.gov.au"
+description: "The data.gov.au Dataset Ontology is an OWL ontology designed to describe the characteristics of datasets published on data.gov.au."
+keywords: ["Government", "Metadata"]
+originalSources: ["https://github.com/AGLDWG/dataset-ont"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/donto/versions/2015-06-19.n3
+    name: donto.ttl
+    sha256: "b260540de0b55395f6939b1b09af992efb95a89926d65819fd8630b10f57e87e"
+    size: 108557
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

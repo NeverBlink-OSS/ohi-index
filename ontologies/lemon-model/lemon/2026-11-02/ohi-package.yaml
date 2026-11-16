@@ -1,0 +1,26 @@
+namespace: lemon-model
+name: lemon
+version: "2026-11-02"
+language: owl
+syntax: turtle
+roots: [lemon.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "LExicon Model for ONtologies"
+authors:
+  - name: "Monnet project"
+    link: "http://www.monnet-project.eu/"
+publishers:
+  - name: "Monnet project"
+    link: "http://www.monnet-project.eu/"
+description: "Lemon: The lexicon model for ontologies is designed to allow for descriptions of lexical information regarding ontological elements and other RDF resources."
+keywords: ["Vocabularies"]
+originalSources: ["http://www.lemon-model.net"]
+sources:
+  - url: https://lemon-model.net/lemon.ttl
+    sha256: "ae2f575fe1aebc9aa268e55524e7d4698ebe64c171ee98bc58218113a4fc73ff"
+    size: 33671
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

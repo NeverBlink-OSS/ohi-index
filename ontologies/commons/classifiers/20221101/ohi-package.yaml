@@ -1,0 +1,23 @@
+namespace: commons
+name: classifiers
+version: "20221101"
+language: owl
+syntax: rdfxml
+roots: [Classifiers.rdf]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["commons/annotation-vocabulary@20250801", "commons/collections@20221101", "commons/designators@20250801"]
+title: "OMG Commons Classifiers"
+authors:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+publishers:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+description: "Classifiers and classification schemes for categorizing things."
+keywords: ["classification", "taxonomies"]
+originalSources: ["https://www.omg.org/spec/Commons"]
+sources:
+  - url: https://www.omg.org/spec/Commons/20221101/Classifiers.rdf
+    sha256: "d57d0c1499aff3de1e75d14c88cc7d0621522d0be3efb6dc3fd64c3db4f396c4"
+    size: 8674

@@ -1,0 +1,27 @@
+namespace: w3c
+name: person
+version: "2014-06-19"
+language: owl
+syntax: turtle
+roots: [person.ttl]
+licenses: ["ISA Open Metadata Licence 1.1"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "ISA Programme Person Core Vocabulary"
+authors:
+  - name: "Phil Archer"
+    link: "http://www.w3.org/People/all#phila"
+  - name: "Andrea Perego"
+    link: "http://andrea-perego.name/"
+  - name: "Core Vocabularies Working Group"
+publishers:
+  - name: "European Commission"
+    link: "https://commission.europa.eu/"
+description: "The Person Core Vocabulary provides a minimum set of classes and properties for describing a natural person."
+keywords: ["People"]
+originalSources: ["https://www.w3.org/ns/person"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/person/versions/2014-06-19.n3
+    name: person.ttl
+    sha256: "e987cf93d08dcd7fae3501bb80c23bd076831012e077b4518e008e325cdbb925"
+    size: 7281

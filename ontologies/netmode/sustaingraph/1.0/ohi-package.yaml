@@ -1,0 +1,27 @@
+namespace: netmode
+name: sustaingraph
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [sustaingraph.ttl]
+licenses: ["CC-BY-NC-SA-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "SustainGraph Ontology"
+authors:
+  - name: "NETMODE Laboratory, National Technical University of Athens"
+    link: "https://netmode.gitlab.io/sustaingraph-ontology/"
+publishers:
+  - name: "NETMODE Laboratory, National Technical University of Athens"
+    link: "https://netmode.gitlab.io/sustaingraph-ontology/"
+description: "The SustainGraph ontology is developed to track the United Nations Sustainable Development Goals(SDGs) at national and regional level, their evolution accross time and inter-connectedness with existing and emerging policies and directives at European Union (EU) and global level."
+keywords: ["miscellaneous", "ontology"]
+originalSources: ["https://netmode.gitlab.io/sustaingraph-ontology"]
+sources:
+  - url: https://netmode.gitlab.io/sustaingraph-ontology/ontology.ttl
+    name: sustaingraph.ttl
+    sha256: "19e37b36bb9fb77685365942f2d67f1038e0db4cead3401f58421db8e497d73c"
+    size: 38041
+  - url: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.txt
+    sha256: "e66c269d4819aaab34b49ef5220c4ddab6756f21bb5180761a4eb8561f2b7bbd"
+    size: 20850

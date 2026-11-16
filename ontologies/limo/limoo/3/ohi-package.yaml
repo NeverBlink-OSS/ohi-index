@@ -1,0 +1,28 @@
+namespace: limo
+name: limoo
+version: "3"
+language: owl
+syntax: turtle
+roots: [limoo.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "License Model Ontology"
+authors:
+  - name: "Silvia Mazzini"
+  - name: "Chiara Veninata"
+  - name: "Andrea Raimondi"
+publishers:
+  - name: "Silvia Mazzini"
+  - name: "Chiara Veninata"
+  - name: "Andrea Raimondi"
+description: "A vocabulary to describe licenses."
+keywords: ["Metadata"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/limoo/versions/2013-05-20.n3
+    name: limoo.ttl
+    sha256: "59c42e89293f7b8c2013eeccba394782794be5da5d6995ebbc87daa9fcd7cf12"
+    size: 19920
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

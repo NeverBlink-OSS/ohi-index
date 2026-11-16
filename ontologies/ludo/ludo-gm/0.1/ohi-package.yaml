@@ -1,0 +1,26 @@
+namespace: ludo
+name: ludo-gm
+version: "0.1"
+language: owl
+syntax: turtle
+roots: [ludo-gm.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Ludo Game Model Ontology"
+authors:
+  - name: "Oscar Rodríguez Rocha"
+    link: "http://www.oscarrodriguez.me"
+publishers:
+  - name: "Inria"
+    link: "https://www.inria.fr/"
+description: "Given the increasing amount of structured data published on the Web, many possibilities are open for creating new types of games that use resources from the Web of Data."
+keywords: ["Games"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/ludo-gm/versions/2016-08-26.n3
+    name: ludo-gm.ttl
+    sha256: "29dc5c1f6fb49e24cbfd811cdbb893f67b636cb7ff03289118da93968fdc312d"
+    size: 65515
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

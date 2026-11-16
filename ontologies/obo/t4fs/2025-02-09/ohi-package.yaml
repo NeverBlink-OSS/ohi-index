@@ -1,0 +1,29 @@
+namespace: obo
+name: t4fs
+version: "2025-02-09"
+language: owl
+syntax: rdfxml
+roots: [t4fs.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "terms4FAIRskills"
+authors:
+  - name: "terms4FAIRskills Initiative"
+    link: "https://github.com/terms4fairskills"
+publishers:
+  - name: "terms4FAIRskills Initiative"
+    link: "https://github.com/terms4fairskills"
+description: "A terminology for the skills necessary to make data FAIR and to keep it FAIR."
+keywords: ["information", "OBO"]
+originalSources: ["https://github.com/terms4fairskills/FAIRterminology"]
+publications:
+  - title: "EOSC Co-creation funded project 074: Delivery of a proof of concept for terms4FAIRskills: Technical report"
+    link: "https://doi.org/10.5281/zenodo.4705219"
+sources:
+  - url: https://github.com/terms4fairskills/FAIRterminology/blob/af6f07675a55371589fc118d1cc4874b1e2703c0/t4fs.owl
+    sha256: "11a3ada96ac23df1cbe9175c7f6946337c3c4b6d6d297f837548fe38a4d18278"
+    size: 862626
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

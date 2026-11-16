@@ -1,0 +1,45 @@
+# JSON Patch (RFC 6902) the hub applies to dcat_ap_plus.yaml before publishing it.
+# README.md says what each change is for.
+- op: add
+  path: /prefixes/owl
+  value:
+    prefix_prefix: owl
+    prefix_reference: http://www.w3.org/2002/07/owl#
+- op: remove
+  path: /types/string
+- op: remove
+  path: /types/integer
+- op: remove
+  path: /types/boolean
+- op: remove
+  path: /types/float
+- op: remove
+  path: /types/double
+- op: remove
+  path: /types/decimal
+- op: remove
+  path: /types/time
+- op: remove
+  path: /types/date
+- op: remove
+  path: /types/datetime
+- op: remove
+  path: /types/date_or_datetime
+- op: remove
+  path: /types/uriorcurie
+- op: remove
+  path: /types/curie
+- op: remove
+  path: /types/uri
+- op: remove
+  path: /types/ncname
+- op: remove
+  path: /types/objectidentifier
+- op: remove
+  path: /types/nodeidentifier
+- op: remove
+  path: /types/jsonpointer
+- op: remove
+  path: /types/jsonpath
+- op: remove
+  path: /types/sparqlpath

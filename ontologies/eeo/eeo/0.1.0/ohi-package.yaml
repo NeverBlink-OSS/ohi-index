@@ -1,0 +1,25 @@
+namespace: eeo
+name: eeo
+version: "0.1.0"
+language: owl
+syntax: turtle
+roots: [eeo.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["bfo/bfo@2019-08-26"]
+title: "Experimental Evaluation Ontology"
+authors:
+  - name: "Anne-Laure Jousselme"
+  - name: "Maximilian Zocholl"
+publishers:
+  - name: "Centre for Maritime Research and Experimentation"
+    link: "https://www.cmre.nato.int/"
+description: "An ontology to describe experiments, evaluations and their relation."
+keywords: ["Methods"]
+sources:
+  - url: https://c4i.gmu.edu/CMRE/eeo/0.1.0/eeo.ttl
+    sha256: "7d7f30a97c81f441b43b7dc033c4419b75385cb97c72e0053dfc9332989141c9"
+    size: 43297
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

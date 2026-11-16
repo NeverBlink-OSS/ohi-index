@@ -1,0 +1,23 @@
+namespace: lcc
+name: country-representation
+version: "20190201"
+language: owl
+syntax: rdfxml
+roots: [CountryRepresentation.rdf]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["lcc/language-representation@20211101"]
+title: "OMG LCC Country Representation"
+authors:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+publishers:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+description: "Countries, their subdivisions and the code sets that identify them."
+keywords: ["OMG LCC", "countries", "subdivisions"]
+originalSources: ["https://www.omg.org/spec/LCC"]
+sources:
+  - url: https://www.omg.org/spec/LCC/20190201/Countries/CountryRepresentation.rdf
+    sha256: "b97cebc727e68678d3703d302060b0566d44aefd1a5954bcb88c4d16398ee9f2"
+    size: 33883

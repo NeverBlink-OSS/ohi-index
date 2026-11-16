@@ -1,0 +1,31 @@
+namespace: obo
+name: pco
+version: "2020-08-26"
+language: owl
+syntax: rdfxml
+roots: [pco.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Population and Community Ontology"
+authors:
+  - name: "David Osumi-Sutherland"
+  - name: "Jie Zheng"
+  - name: "Pier Luigi Buttigieg"
+    link: "https://orcid.org/0000-0002-4366-3088"
+  - name: "Ramona L. Walls"
+    contact: "rlwalls2008@gmail.com"
+    link: "https://orcid.org/0000-0001-8815-0078"
+publishers:
+  - name: "Population and Community Ontology"
+    link: "https://github.com/PopulationAndCommunityOntology"
+description: "An ontology about groups of interacting organisms such as populations and communities."
+keywords: ["environment", "collections of organisms", "OBO"]
+originalSources: ["https://github.com/PopulationAndCommunityOntology/pco"]
+sources:
+  - url: https://github.com/PopulationAndCommunityOntology/pco/blob/2020-08-26/pco.owl
+    sha256: "9b7fd7bed871d67d98b1fa795a016778f3337f3a50fc00560a8b2965a4566c64"
+    size: 636873
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

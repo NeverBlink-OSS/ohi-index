@@ -1,0 +1,33 @@
+namespace: rwth-aachen
+name: modalia
+version: "1.0.0"
+language: owl
+syntax: turtle
+roots: [modalia.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "MoDALIA Ontology"
+authors:
+  - name: "BMFTR DALIA project"
+publishers:
+  - name: "University and State Library Darmstadt"
+    link: "https://www.ulb.tu-darmstadt.de/"
+contributors:
+  - name: "Abdelmoneim Amer Desouki"
+  - name: "Petra Steiner"
+  - name: "Marc Fuhrmans"
+  - name: "Charles Tapley Hoyt"
+  - name: "Jonathan D. Geiger"
+  - name: "Frank Lange"
+description: "The aim of DALIA project is to build a platform for learning material for Research Data Management (RDM) and Data Science."
+keywords: ["educational resources", "educational science", "ontology"]
+originalSources: ["https://dalia.pages.rwth-aachen.de/dalia-ontology", "https://git.rwth-aachen.de/dalia/dalia-ontology"]
+sources:
+  - url: https://git.rwth-aachen.de/dalia/dalia-ontology/-/raw/main/MoDalia.ttl
+    name: modalia.ttl
+    sha256: "cefb57012f1ad0ef9c5e1ef657b576b6f2a6a21ea33c30cca2353af78092143d"
+    size: 126746
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,32 @@
+namespace: obo
+name: symp
+version: "2022-10-18"
+language: owl
+syntax: rdfxml
+roots: [symp.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Symptom Ontology"
+authors:
+  - name: "Lynn Schriml"
+    contact: "lynn.schriml@gmail.com"
+    link: "https://orcid.org/0000-0001-8910-9851"
+publishers:
+  - name: "Institute for Genome Sciences, University of Maryland School of Medicine"
+    link: "https://www.igs.umaryland.edu/"
+description: "An ontology of disease symptoms, with symptoms encompasing perceived changes in function, sensations or appearance reported by a patient indicative of a disease."
+keywords: ["health", "disease", "OBO"]
+originalSources: ["https://github.com/DiseaseOntology/SymptomOntology"]
+publications:
+  - title: "GeMInA, Genomic Metadata for Infectious Agents, a geospatial surveillance pathogen database"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/19850722"
+  - title: "The Human Disease Ontology 2022 update"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/34755882"
+sources:
+  - url: https://github.com/DiseaseOntology/SymptomOntology/blob/v2022-10-18/src/ontology/symp.owl
+    sha256: "5a8331238a551672334c61559cf20a7b2b3bae38c1df5589d7982b7d639f4a2d"
+    size: 1103186
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

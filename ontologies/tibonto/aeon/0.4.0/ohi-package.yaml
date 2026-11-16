@@ -1,0 +1,30 @@
+namespace: tibonto
+name: aeon
+version: "0.4.0"
+language: owl
+syntax: rdfxml
+roots: [aeon.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Academic Event Ontology"
+authors:
+  - name: "ConfIDent project"
+publishers:
+  - name: "TIB Onto"
+    link: "https://projects.tib.eu/datamanager/ontologies/"
+contributors:
+  - name: "Christian Hauschke"
+  - name: "Christoph Lange"
+  - name: "Michael Conlon"
+  - name: "Philip Strömert"
+description: "The academic event ontology, currently still in development and thus unstable, is an OBO compliant reference ontology for describing academic events such as conferences, workshops or seminars and their series."
+keywords: ["educational science", "history", "miscellaneous", "ontology", "social sciences"]
+originalSources: ["https://github.com/tibonto/aeon", "https://tibonto.github.io/aeon"]
+sources:
+  - url: https://github.com/tibonto/aeon/blob/v0.4.0/aeon.owl
+    sha256: "f964d31fa4eca7221c0494e2493b544bd043d60e23aadcecb2a01ce2dab92711"
+    size: 325025
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

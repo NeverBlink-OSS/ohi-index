@@ -1,0 +1,32 @@
+namespace: twc
+name: dpo
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [dpo.ttl]
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Diabetes Pharmacology Ontology"
+authors:
+  - name: "Sabbir M. Rashid"
+publishers:
+  - name: "Tetherless World Constellation at Rensselaer (RPI)"
+    link: "http://tw.rpi.edu/"
+contributors:
+  - name: "Deborah L. McGuinness"
+  - name: "Jamie McCusker"
+  - name: "Oshani Seneviratne"
+  - name: "Daniel Gruen"
+description: "The Diabetes Pharmacology Ontology contains the classes needed to describe antihyperglycemic therapies."
+keywords: ["Biology", "Health"]
+originalSources: ["https://github.com/tetherless-world/diabetes-pharmacology-ontology", "https://tetherless-world.github.io/diabetes-pharmacology-ontology"]
+sources:
+  - url: https://raw.githubusercontent.com/tetherless-world/diabetes-pharmacology-ontology/main/ont/diabetes_pharmacology_ontology.ttl
+    name: dpo.ttl
+    sha256: "80044ad1c2502d17e80f434d37a279012f9d714bc8c41dece9c842137b7a633b"
+    size: 98455
+  - url: https://www.apache.org/licenses/LICENSE-2.0.txt
+    name: LICENSE
+    sha256: "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    size: 11358

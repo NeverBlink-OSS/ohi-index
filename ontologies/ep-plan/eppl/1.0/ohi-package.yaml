@@ -1,0 +1,25 @@
+namespace: ep-plan
+name: eppl
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [eppl.ttl]
+licenses: ["CC-BY-NC-SA-2.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The EP-Plan ontology"
+authors:
+  - name: "Daniel Garijo"
+  - name: "Milan Markovic"
+    link: "https://www.abdn.ac.uk/ncs/profiles/milan.markovic/"
+publishers:
+  - name: "TrustLens"
+    link: "https://trustlens.org/"
+description: "PROV extension for linking Plans and parts of plans to their respective executions."
+keywords: ["IoT", "Methods"]
+originalSources: ["https://github.com/TrustLens/EP-PLAN"]
+sources:
+  - url: https://trustlens.github.io/EP-PLAN/ontologies/ep-plan.ttl
+    name: eppl.ttl
+    sha256: "95231c539e89529692973c5aa217f964de2f0cc5f487b5617cd187f110eac5d4"
+    size: 48671

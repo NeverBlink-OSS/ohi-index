@@ -1,0 +1,28 @@
+namespace: survey-ontology
+name: sur
+version: "2026-11-02"
+language: owl
+syntax: turtle
+roots: [sur.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The Survey Ontology"
+authors:
+  - name: "Damiano Scandolari"
+  - name: "Gloria Re Calegari"
+  - name: "Irene Celino"
+  - name: "Mario Scrocca"
+publishers:
+  - name: "Cefriel"
+    link: "https://www.cefriel.com/"
+description: "Ontology for surveys based on the Coney data model."
+keywords: ["Methods"]
+sources:
+  - url: https://cefriel.github.io/survey-ontology/docs/ontology.ttl
+    name: sur.ttl
+    sha256: "81e2e630d8d239c3ae165611caaaf3b5f107e936c78e73ea37a6f08d4664a483"
+    size: 25060
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

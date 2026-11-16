@@ -1,0 +1,28 @@
+namespace: configurationontology
+name: cold
+version: "2026-11-02"
+language: owl
+syntax: rdfxml
+roots: [cold.rdf]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "'Configuration as Linked Data' ontology"
+authors:
+  - name: "Edouard Chevalier"
+  - name: "François-Paul Servant"
+  - name: "Renault"
+    link: "https://www.renaultgroup.com/"
+publishers:
+  - name: "Renault"
+    link: "https://www.renaultgroup.com/"
+description: "Ontology for the description of customizable products."
+keywords: ["eBusiness"]
+sources:
+  - url: https://doc.rplug.renault.com/car-configurator/cold/configurationontology/configurationontology.rdf
+    name: cold.rdf
+    sha256: "f6b5f950991ea1f9ad66de3a90e7cec66017eca13d95ef66476004f8a5fa18cb"
+    size: 27355
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

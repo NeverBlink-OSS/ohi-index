@@ -1,0 +1,26 @@
+namespace: cto
+name: cto
+version: "0.0.1"
+language: owl
+syntax: turtle
+roots: [cto.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "CTO: Construction Tasks Ontology"
+authors:
+  - name: "Mathias Bonduel"
+    link: "https://orcid.org/0000-0002-3313-924X"
+publishers:
+  - name: "Mathias Bonduel"
+    link: "https://orcid.org/0000-0002-3313-924X"
+description: "The Construction Tasks Ontology (CTO) describes tasks operating on construction elements, spatial zones and/or damages."
+keywords: ["Industry"]
+sources:
+  - url: https://mathib.github.io/cto-ontology/ontology.ttl
+    name: cto.ttl
+    sha256: "de25a07271bd01e3ba4b489190e34a67f6728e4ca4df25247d2fb66517af29eb"
+    size: 13162
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

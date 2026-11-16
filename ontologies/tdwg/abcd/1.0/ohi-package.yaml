@@ -1,0 +1,26 @@
+namespace: tdwg
+name: abcd
+version: "1.0"
+language: owl
+syntax: rdfxml
+roots: [abcd.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Access to Biological Collection Data Schema"
+authors:
+  - name: "TDWG ABCD Task Group"
+publishers:
+  - name: "Biodiversity Information Standards (TDWG)"
+    link: "https://www.tdwg.org/"
+description: "The base ontology of the ABCD Standard."
+keywords: ["ess", "fair data spaces", "life sciences, biology", "ontology", "tdwg"]
+originalSources: ["https://github.com/tdwg/abcd", "https://www.tdwg.org/standards/abcd"]
+sources:
+  - url: https://github.com/tdwg/abcd/blob/0b88b04685cbe27e3c3d13574e2ac23fe766b4eb/ontology/abcd_concepts.owl
+    name: abcd.owl
+    sha256: "183ab68ef3b2da11edd7e4aa000a41fdea18d883ead00af12da235b4165a4db0"
+    size: 435439
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

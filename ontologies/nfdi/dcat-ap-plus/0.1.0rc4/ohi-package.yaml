@@ -1,0 +1,32 @@
+namespace: nfdi
+name: dcat-ap-plus
+version: "0.1.0rc4"
+language: linkml
+syntax: yaml
+roots: [dcat_ap_plus.yaml]
+patch: dcat_ap_plus.patch.yaml
+licenses: ["MIT", "CC-BY-4.0"]
+licenseFiles: [LICENSE, legalcode.txt]
+dependencies: []
+title: "DCAT-AP+"
+authors:
+  - name: "David Linke"
+    contact: "david.linke@catalysis.de"
+  - name: "Philip Strömert"
+    contact: "philip.stroemert@tib.eu"
+publishers:
+  - name: "German National Research Data Infrastructure (NFDI)"
+    link: "https://www.nfdi.de/"
+description: "Extension of the DCAT application profile for describing research data and the activities that produce it."
+keywords: ["research data", "data catalogs", "metadata"]
+originalSources: ["https://github.com/nfdi-de/dcat-ap-plus"]
+sources:
+  - url: https://github.com/nfdi-de/dcat-ap-plus/blob/v0.1.0rc4/LICENSE
+    sha256: "496dc39bd1b1284589657bb426b045ceacfeebae219c3616b0baebd0de098079"
+    size: 1083
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657
+  - url: https://nfdi-de.github.io/dcat-ap-plus/v0.1.0rc4/schema/merged-yaml/dcat_ap_plus.yaml
+    sha256: "81e4ef9f84a74129239febd51bb935390d373c0d450d91edd874755fb6a7b62c"
+    size: 245406

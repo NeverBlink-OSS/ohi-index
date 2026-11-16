@@ -1,0 +1,31 @@
+namespace: panbibliotekar
+name: gaidet
+version: "2026-11-02"
+language: owl
+syntax: rdfxml
+roots: [gaidet.owl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Generative Artificial Intelligence Delegation Taxonomy"
+authors:
+  - name: "Serhii Nazarovets"
+    link: "https://orcid.org/0000-0002-5067-4498"
+publishers:
+  - name: "Serhii Nazarovets"
+    link: "https://orcid.org/0000-0002-5067-4498"
+description: "The Generative Artificial Intelligence Delegation Taxonomy (GAIDeT) assigns identifiers to contributor roles as an extension to the Contributor Roles Taxonomy (CRediT) to support promoting transparency and accountability in academic publishing when AI contribtors are involved in research."
+keywords: ["artificial intelligence", "attribution", "contributor roles", "delegation", "ontology"]
+originalSources: ["https://github.com/panbibliotekar/gaidet-declaration"]
+publications:
+  - title: "GAIDeT: a practical taxonomy for declaring AI use in research and publishing"
+    link: "https://doi.org/10.59350/psjb9-z1x39"
+  - title: "A taxonomy for humans to delegate tasks to generative artificial intelligence in scientific research and publishing"
+    link: "https://doi.org/10.1080/08989621.2025.2544331"
+sources:
+  - url: https://github.com/panbibliotekar/gaidet-declaration/blob/7f21a877c7fbdb3f35bc0da2e2b156e6e70b2551/gaidet.owl
+    sha256: "eb2d8732a8753c4bb0c3fa5ab36cbe4419168359e6f6f786f9daac35aee9d3d5"
+    size: 25312
+  - url: https://github.com/panbibliotekar/gaidet-declaration/blob/7f21a877c7fbdb3f35bc0da2e2b156e6e70b2551/LICENSE
+    sha256: "87c2952d182bf126940a07566538e91deb9035bcc4b2d55dc885f2b92b402865"
+    size: 1166

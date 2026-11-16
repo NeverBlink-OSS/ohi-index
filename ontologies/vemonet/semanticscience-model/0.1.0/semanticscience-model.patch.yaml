@@ -1,0 +1,6 @@
+# JSON Patch (RFC 6902) the hub applies to semanticscience-model.yaml before publishing it.
+# README.md says what each change is for.
+- op: add
+  path: /imports
+  value:
+  - linkml:types

@@ -1,0 +1,52 @@
+namespace: w3c
+name: dcat
+version: "2"
+language: owl
+syntax: turtle
+roots: [dcat2.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["dcmi/dcterms@2026-10-20", "w3c/skos@2009", "w3c/prov-o@2013"]
+title: "Data Catalog Vocabulary (DCAT)"
+authors:
+  - name: "Fadi Maali"
+  - name: "John Erickson"
+  - name: "Government Linked Data Working Group"
+    link: "http://www.w3.org/2011/gld/"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+contributors:
+  - name: "Phil Archer"
+    link: "http://www.w3.org/People/all#phila"
+  - name: "Richard Cyganiak"
+  - name: "Vassilios Peristeras"
+  - name: "Rufus Pollock"
+  - name: "Ghislain Auguste Atemezing"
+  - name: "Boris Villazón-Terrazas"
+  - name: "Marios Meimaris"
+  - name: "Martin Alvarez-Espinar"
+  - name: "Makx Dekkers"
+    link: "http://makxdekkers.com/"
+  - name: "Shuji Kamitsuna"
+    link: "http://www.asahi-net.or.jp/~ax2s-kmtn/"
+  - name: "Simon J. D. Cox"
+  - name: "Alejandra Gonzalez-Beltran"
+    link: "https://agbeltran.github.io"
+  - name: "David Browning"
+  - name: "Jakub Klímek"
+    link: "https://jakub.klímek.com/"
+  - name: "Riccardo Albertoni"
+    link: "http://www.imati.cnr.it/index.php/people/8-curricula/178-riccardo-albertoni"
+  - name: "Andrea Perego"
+    link: "http://www.andrea-perego.name/foaf/#me"
+description: "W3C vocabulary for describing datasets and data services in catalogs."
+keywords: ["data catalogs", "datasets", "metadata"]
+originalSources: ["https://www.w3.org/TR/vocab-dcat"]
+sources:
+  - url: https://www.w3.org/ns/dcat2.ttl
+    sha256: "4f7eb189dfbabfdb1d0ef20936ca3d96462e98ed4495bed436c127c629e1b8bc"
+    size: 165749
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

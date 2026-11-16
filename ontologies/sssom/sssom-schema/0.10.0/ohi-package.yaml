@@ -1,0 +1,71 @@
+namespace: sssom
+name: sssom-schema
+version: "0.10.0"
+language: linkml
+syntax: yaml
+roots: [sssom_schema.yaml]
+patch: sssom_schema.patch.yaml
+licenses: ["BSD-3-Clause"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "SSSOM"
+authors:
+  - name: "Nicolas Matentzoglu"
+    contact: "nicolas.matentzoglu@gmail.com"
+  - name: "Harshad B. Hegde"
+    contact: "hhegde@lbl.gov"
+  - name: "James P. Balhoff"
+  - name: "Susan M Bello"
+  - name: "Chris Bizon"
+  - name: "Matthew H. Brush"
+  - name: "Tiffany J Callahan"
+  - name: "Christopher G Chute"
+  - name: "William D. Duncan"
+  - name: "Chris T Evelo"
+  - name: "Davera Gabriel"
+  - name: "John Graybeal"
+  - name: "Alasdair J. G. Gray"
+  - name: "Benjamin M Gyori"
+  - name: "Melissa Haendel"
+  - name: "Henriette Harmse"
+  - name: "Nomi L Harris"
+  - name: "Ian Harrow"
+  - name: "Amelia L Hoyt"
+  - name: "Charles Tapley Hoyt"
+  - name: "Dazhi Jiao"
+  - name: "Ernesto Jiménez-Ruiz"
+  - name: "Simon Jupp"
+  - name: "Hyeongsik Kim"
+  - name: "Sebastian Koehler"
+  - name: "Thomas Liener"
+  - name: "Qinqin Long"
+  - name: "James Malone"
+  - name: "James A McLaughlin"
+  - name: "Julie A McMurry"
+  - name: "Sierra Moxon"
+  - name: "Monica C Munoz-Torres"
+  - name: "David Osumi-Sutherland"
+  - name: "James A. Overton"
+  - name: "Bjoern Peters"
+  - name: "Tim Putman"
+  - name: "Núria Queralt-Rosinach"
+  - name: "Kent Shefchek"
+  - name: "Harold Solbrig"
+  - name: "Anne Thessen"
+  - name: "Tania Tudorache"
+  - name: "Nicole Vasilevsky"
+  - name: "Alex H Wagner"
+  - name: "Christopher J. Mungall"
+publishers:
+  - name: "Mapping Commons"
+    link: "https://github.com/mapping-commons"
+description: "Simple Standard for Sharing Ontological Mappings between terms."
+keywords: ["mappings", "ontology alignment"]
+originalSources: ["https://github.com/mapping-commons/sssom"]
+sources:
+  - url: https://github.com/mapping-commons/sssom/blob/0.10.0/LICENSE
+    sha256: "f11b9b56cde6c1794c0cbc123fd9b2c17a1c59af150116dc9f5e1d30bd643a5b"
+    size: 1523
+  - url: https://github.com/mapping-commons/sssom/blob/0.10.0/src/sssom_schema/schema/sssom_schema.yaml
+    sha256: "ccfc954e8883c71025e0217d23205fceb145366fbf081bc7bd986557f1d3016b"
+    size: 21386

@@ -1,0 +1,33 @@
+namespace: obo
+name: hancestro
+version: "2019-07-03"
+language: owl
+syntax: rdfxml
+roots: [hancestro.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Human Ancestry Ontology"
+authors:
+  - name: "EMBL-EBI Samples, Phenotypes and Ontologies Team"
+    link: "https://www.ebi.ac.uk/spot/"
+publishers:
+  - name: "EMBL-EBI Samples, Phenotypes and Ontologies Team"
+    link: "https://www.ebi.ac.uk/spot/"
+contributors:
+  - name: "Joannella Morales"
+  - name: "Danielle Welter"
+  - name: "Jackie MacArthur"
+description: "The Human Ancestry Ontology (HANCESTRO) provides a systematic description of the ancestry concepts used in the NHGRI-EBI Catalog of published genome-wide association studies."
+keywords: ["organisms", "ancestry", "OBO"]
+originalSources: ["https://github.com/EBISPOT/hancestro", "https://ebispot.github.io/hancestro"]
+publications:
+  - title: "A standardized framework for representation of ancestry data in genomics studies, with application to the NHGRI-EBI GWAS Catalog"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/29448949"
+sources:
+  - url: https://github.com/EBISPOT/hancestro/blob/2.2/hancestro.owl
+    sha256: "d2dcb6e9e6af8f28c329935307c8afe00d950c3da8ef81049126b53b6feb7b1f"
+    size: 829328
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

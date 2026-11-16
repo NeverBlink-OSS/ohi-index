@@ -1,0 +1,30 @@
+namespace: reco
+name: reco
+version: "2011-08-01"
+language: owl
+syntax: turtle
+roots: [reco.ttl]
+licenses: ["CC-BY-SA-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "RECommendations Ontology"
+authors:
+  - name: "Luis Polo"
+  - name: "Iván Mínguez"
+publishers:
+  - name: "Luis Polo"
+  - name: "Iván Mínguez"
+contributors:
+  - name: "Diego Berrueta"
+  - name: "Emilio Rubiera"
+  - name: "Carlos Ruiz"
+description: "The RECO ontology defines the vocabulary for representing preferences-as-constraints and preferences-as-ratings as RDF graphs."
+keywords: ["Methods", "RDF"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/reco/versions/2011-08-01.n3
+    name: reco.ttl
+    sha256: "af9c8984153834e6bfa4fe9f0fedbb41f31be567daf3681f6be68c0e729960f8"
+    size: 7686
+  - url: https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt
+    sha256: "3f941b3b89cf7b8370ceb83cc76d2120d471b58735d8ca60238a751a48d7f72f"
+    size: 22240

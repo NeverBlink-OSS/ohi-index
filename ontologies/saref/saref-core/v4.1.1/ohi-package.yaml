@@ -1,0 +1,29 @@
+namespace: saref
+name: saref-core
+version: "v4.1.1"
+language: owl
+syntax: turtle
+roots: [saref.ttl]
+licenses: ["BSD-3-Clause"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "SAREF core"
+authors:
+  - name: "Laura Daniele"
+  - name: "Raúl García-Castro"
+  - name: "María Poveda-Villalón"
+  - name: "Maxime Lefrançois"
+    link: "http://maxime-lefrancois.info/"
+  - name: "Cornelis Bouter"
+  - name: "Giulia Biagioni"
+  - name: "David Gnabasik"
+publishers:
+  - name: "European Telecommunications Standards Institute"
+    link: "https://www.etsi.org/"
+description: "ETSI Smart Applications REFerence ontology for IoT devices and their functions."
+keywords: ["IoT", "devices", "smart appliances"]
+originalSources: ["https://saref.etsi.org/core"]
+sources:
+  - url: https://saref.etsi.org/core/v4.1.1/saref.ttl
+    sha256: "28189acd8cfb49bf6b7e5709275a1162d943576f643b2cffdccfe20cc00ad701"
+    size: 100491

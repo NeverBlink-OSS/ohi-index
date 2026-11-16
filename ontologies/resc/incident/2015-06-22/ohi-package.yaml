@@ -1,0 +1,25 @@
+namespace: resc
+name: incident
+version: "2015-06-22"
+language: owl
+syntax: turtle
+roots: [incident.ttl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Vocabulary to describe incident response by emergency services"
+authors:
+  - name: "Bart van Leeuwen"
+publishers:
+  - name: "Bart van Leeuwen"
+description: "Vocabulary to describe the response to a incident by emergency services."
+keywords: ["Methods"]
+originalSources: ["http://vocab.resc.info/incident.html"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/incident/versions/2015-06-22.n3
+    name: incident.ttl
+    sha256: "03004775bf7e5d99baaccc9f6892c98d88822402a8b08ace605aedea6b7e2184"
+    size: 6619
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

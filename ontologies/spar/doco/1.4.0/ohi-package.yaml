@@ -1,0 +1,35 @@
+namespace: spar
+name: doco
+version: "1.4.0"
+language: owl
+syntax: rdfxml
+roots: [doco.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE.md]
+dependencies: ["spar/deo@1.2.0", "spar/po@1.4.3"]
+title: "SPAR Document Components Ontology"
+authors:
+  - name: "David Shotton"
+    link: "http://opencitations.net"
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+contributors:
+  - name: "Sebastian Barzaghi"
+    link: "https://orcid.org/0000-0002-0799-1527"
+description: "Ontology of the structural and rhetorical components of documents, such as sections, paragraphs and figures."
+keywords: ["documents", "structure", "scholarly publications"]
+originalSources: ["https://github.com/SPAROntologies/doco"]
+publications:
+  - title: "Constantin, A., Peroni, S., Pettifer, S., Shotton, D., Vitali, F. (2016). The Document Components Ontology (DoCO). In Semantic Web, 7 (2): 167-181. DOI: http://doi.org/10.3233/SW-150177"
+    link: "https://doi.org/10.3233/SW-150177"
+sources:
+  - url: https://sparontologies.github.io/doco/2026-06-25/doco.xml
+    name: doco.rdf
+    sha256: "9e56a20668d265462b82567606727c48be1e9b78dc91c0435bd18adb7f69a38b"
+    size: 147699
+  - url: https://github.com/SPAROntologies/doco/blob/4c4109a64148c207f80d48a611a79a2d996a44b4/LICENSE.md
+    sha256: "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    size: 18656

@@ -1,0 +1,27 @@
+namespace: saref
+name: saref4wear
+version: "v2.1.1"
+language: owl
+syntax: turtle
+roots: [saref4wear.ttl]
+licenses: ["BSD-3-Clause"]
+licenseFiles: [LICENSE]
+dependencies: ["saref/saref-core@v4.1.1", "saref/saref4city@v2.1.1", "saref/saref4syst@v1.1.2"]
+title: "SAREF4WEAR"
+authors:
+  - name: "Raúl García-Castro"
+  - name: "Mauro Dragoni"
+    link: "https://www.linkedin.com/in/maurodragoni/MauroDragoni"
+publishers:
+  - name: "European Telecommunications Standards Institute"
+    link: "https://www.etsi.org/"
+description: "SAREF extension for wearables: wearable devices, their users and their measurements."
+keywords: ["wearables", "IoT"]
+originalSources: ["https://saref.etsi.org/saref4wear"]
+sources:
+  - url: https://saref.etsi.org/saref4wear/v2.1.1/saref4wear.ttl
+    sha256: "6b47cc9d375220ce0850f288ff429b681972cbb91ef0dcc79be095b260a42b45"
+    size: 31950
+  - url: https://labs.etsi.org/rep/saref/saref4wear/-/raw/e9546c8e23b5799c2607680a2db40d14b339c8b8/LICENSE
+    sha256: "a2138586a9114057d86342dee602154c3e7ab050cd7725d4f7ea2620888223d4"
+    size: 1476

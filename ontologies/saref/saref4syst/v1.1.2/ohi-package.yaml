@@ -1,0 +1,26 @@
+namespace: saref
+name: saref4syst
+version: "v1.1.2"
+language: owl
+syntax: turtle
+roots: [saref4syst.ttl]
+licenses: ["BSD-3-Clause"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "SAREF4SYST"
+authors:
+  - name: "Maxime Lefrançois"
+    link: "http://maxime-lefrancois.info/"
+publishers:
+  - name: "European Telecommunications Standards Institute"
+    link: "https://www.etsi.org/"
+description: "SAREF pattern for systems, the connections between them and their connection points."
+keywords: ["systems", "IoT", "patterns"]
+originalSources: ["https://saref.etsi.org/saref4syst"]
+sources:
+  - url: https://saref.etsi.org/saref4syst/v1.1.2/saref4syst.ttl
+    sha256: "0d0eb1913b500842c37d4ceb368bd4aac3b2e6baaeac2e222657c420ecf42245"
+    size: 12498
+  - url: https://labs.etsi.org/rep/saref/saref4syst/-/raw/a5c391f67f3c87bf286379467a5e38bd884a998c/LICENSE
+    sha256: "8f102e377f1ad7ed9fa90d9dd6cb9ab75e071949dcdb8cb413a10dc98d80b9d4"
+    size: 1475

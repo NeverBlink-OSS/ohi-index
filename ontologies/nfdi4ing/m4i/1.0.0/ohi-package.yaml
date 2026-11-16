@@ -1,0 +1,53 @@
+namespace: nfdi4ing
+name: m4i
+version: "1.0.0"
+language: owl
+syntax: turtle
+roots: [m4i.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Metadata4Ing: An ontology for describing the generation of research data within a scientific activity"
+authors:
+  - name: "Metadata4Ing Workgroup"
+publishers:
+  - name: "NFDI4Ing"
+    link: "https://www.nfdi4ing.de/"
+contributors:
+  - name: "Cord Wiljes"
+  - name: "Stephan Hachinger"
+    link: "https://orcid.org/0000-0001-8341-1478"
+  - name: "Ashish Karmacharya"
+  - name: "Susanne Arndt"
+    link: "https://orcid.org/0000-0002-1019-9151"
+  - name: "Johannes Theissen-Lipp"
+    link: "https://orcid.org/0000-0002-2639-1949"
+  - name: "Marc Fuhrmans"
+    link: "https://orcid.org/0000-0002-9826-018X"
+  - name: "Benjamin Farnbacher"
+    link: "https://orcid.org/0000-0002-1489-6501"
+  - name: "Nils Hoppe"
+  - name: "Martin Thomas Horsch"
+  - name: "Jürgen Windeck"
+  - name: "Dorothea Iglezakis"
+    link: "https://orcid.org/0000-0002-8524-0569"
+  - name: "Džulia Terzijska"
+    link: "https://orcid.org/0000-0002-1698-6826"
+  - name: "Sophia Leimer"
+    link: "https://orcid.org/0000-0001-6272-204X"
+  - name: "Johannes Munke"
+    link: "https://orcid.org/0000-0002-5031-9170"
+  - name: "Johanna Hickmann"
+  - name: "Giacomo Lanza"
+    link: "https://orcid.org/0000-0002-2239-3955"
+description: "Metadata4Ing defines classes and properties or reuses such classes and properties from other ontologies to describe research processes and research data management in NFDI4Ing."
+keywords: ["Academy", "Metadata"]
+originalSources: ["https://nfdi4ing.pages.rwth-aachen.de/metadata4ing/metadata4ing", "https://git.rwth-aachen.de/nfdi4ing/metadata4ing/metadata4ing"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/m4i/versions/2022-03-15.n3
+    name: m4i.ttl
+    sha256: "284fc49ad4c5ed5ea6d4d0c363501144048f9c289345527759fc3abb447066cb"
+    size: 118858
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

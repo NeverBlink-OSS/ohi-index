@@ -1,0 +1,35 @@
+namespace: mardi4nfdi
+name: mathalgodb
+version: "0.1"
+language: owl
+syntax: turtle
+roots: [mathalgodb.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Algorithm Knowledge Graph Ontology"
+authors:
+  - name: "Christian Himpe"
+    link: "http://himpe.science"
+  - name: "Frank Wübbeling"
+    link: "https://orcid.org/0000-0002-2375-2008"
+  - name: "Hendrik Kleikamp"
+    link: "https://amml-research.at/kleikamph/"
+  - name: "René Fritze"
+    link: "https://orcid.org/0000-0002-9548-2238"
+  - name: "Stephan Rave"
+    link: "https://orcid.org/0000-0003-0439-7212"
+publishers:
+  - name: "Mathematical Research Data Initiative"
+    link: "https://www.mardi4nfdi.de"
+description: "This vocabulary and grammar defines which types of objects are admissible to the MathAlgoDB - the algorithm knowledge graph - and by which properties they can relate."
+keywords: ["mardi", "mathematics", "ontology"]
+originalSources: ["https://mathalgodb.mardi4nfdi.de/static/widoco/v1/index-en.9634daaec9f8.html"]
+sources:
+  - url: https://mathalgodb.mardi4nfdi.de/static/widoco/v1/ontology.ttl
+    name: mathalgodb.ttl
+    sha256: "26a665a8f7e7c2b5058a610dec3664ca8142dcbeb666e5c5c982ee5373af2fc8"
+    size: 20616
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

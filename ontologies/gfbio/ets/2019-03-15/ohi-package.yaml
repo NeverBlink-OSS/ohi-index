@@ -1,0 +1,32 @@
+namespace: gfbio
+name: ets
+version: "2019-03-15"
+language: owl
+syntax: rdfxml
+roots: [ets.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Ecological Trait-data Standard"
+authors:
+  - name: "Florian D. Schneider"
+  - name: "Malte Jochum"
+  - name: "Gaëtane LeProvost"
+  - name: "Andreas Ostrowski"
+  - name: "Caterina Penone"
+  - name: "Nadja Simons"
+publishers:
+  - name: "GFBio Terminology Service"
+    link: "https://terminologies.gfbio.org/"
+contributors:
+  - name: "David Fichtmueller"
+description: "The Ecological Trait-data Standard defines terms for the use in datasets containing quantitative and qualitative functional traits."
+keywords: ["earth sciences", "ess", "fair data spaces", "life sciences, biology", "ontology"]
+originalSources: ["https://terminologies.gfbio.org/terms/ets/pages/index.html", "https://github.com/EcologicalTraitData/ETS"]
+sources:
+  - url: https://terminologies.gfbio.org/terms/ets/pages/ets.owl
+    sha256: "c1e2b61e021ce4b4fba6d972e103910537d3a2d4d5f6ff7b743c6cc7e7869513"
+    size: 114398
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

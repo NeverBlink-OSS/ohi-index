@@ -1,0 +1,27 @@
+namespace: worldavatar
+name: classschedule
+version: "1"
+language: owl
+syntax: rdfxml
+roots: [classschedule.owl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE.txt]
+dependencies: ["w3c/time@2016"]
+title: "WorldAvatar class schedule ontology"
+authors:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+publishers:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+description: "OntoClassSchedule is designed to represent and manage class schedules in an educational setting."
+keywords: ["ontology", "worldavatar"]
+originalSources: ["https://github.com/TheWorldAvatar/ontology", "https://theworldavatar.io"]
+sources:
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/ontology/ontoclassschedule/OntoClassSchedule.owl
+    name: classschedule.owl
+    sha256: "485c756a62a6f9be1fe4c2960e3971edfdcd83b98758df31ce749f0b35164dbf"
+    size: 12682
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/LICENSE.txt
+    sha256: "8c29b2cb4c712a0d382d1951ffc7e2a155ec7095c7e92a896f5919eb02c31ea9"
+    size: 1309

@@ -1,0 +1,40 @@
+namespace: obo
+name: obcs
+version: "2023-12-08"
+language: owl
+syntax: rdfxml
+roots: [obcs.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Ontology of Biological and Clinical Statistics"
+authors:
+  - name: "Adrien Barton"
+  - name: "Barry Smith"
+  - name: "Huan Li"
+  - name: "Jean-François Ethier"
+  - name: "Jie Zheng"
+    contact: "jiezhen@med.umich.edu"
+    link: "https://orcid.org/0000-0002-2999-0103"
+  - name: "Jinjing Guo"
+  - name: "Marcy Harris"
+  - name: "Qingzhi Liu"
+  - name: "Yongqun He"
+  - name: "Yu Lin"
+publishers:
+  - name: "Ontology for Biological and Clinical Statistics"
+    link: "https://github.com/obcs"
+contributors:
+  - name: "Alfred Hero"
+  - name: "Anna Maria Masci"
+  - name: "Chris Stoeckert"
+description: "A biomedical ontology in the domain of biological and clinical statistics."
+keywords: ["information technology", "statistics", "OBO"]
+originalSources: ["https://github.com/obcs/obcs"]
+sources:
+  - url: https://github.com/obcs/obcs/blob/c37d4bdb0db8543ee48814a05393531b0bda9b8c/obcs.owl
+    sha256: "15c9fc46a03ed693f60c23cfcc73c1172967262c3b552c2c836c5b9273c1e008"
+    size: 1880209
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

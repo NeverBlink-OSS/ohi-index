@@ -1,0 +1,28 @@
+namespace: iarpa-felix
+name: synbio-schema
+version: "0.0.1"
+language: linkml
+syntax: yaml
+roots: [synbio-schema.yaml]
+patch: synbio-schema.patch.yaml
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "synbio-schema"
+authors:
+  - name: "Mark Andrew Miller"
+    contact: "MAM@lbl.gov"
+publishers:
+  - name: "IARPA FELIX program"
+    link: "https://github.com/iarpa-felix"
+description: "A schema for synthetic biology, inspired by IARPA FELIX."
+keywords: ["Biology"]
+originalSources: ["https://github.com/iarpa-felix/synbio-schema"]
+sources:
+  - url: https://github.com/iarpa-felix/synbio-schema/blob/v0.0.1/src/synbio_schema/schema/synbio_schema.yaml
+    name: synbio-schema.yaml
+    sha256: "858cd47857e6ea1fffb203a969e4952e1d6def5553ca9f2b71fed68c0cb19410"
+    size: 17826
+  - url: https://github.com/iarpa-felix/synbio-schema/blob/v0.0.1/LICENSE
+    sha256: "789157a36b94c107cd54ebc32cab8464e5b893cd75835dab381f68d16b04e684"
+    size: 1086

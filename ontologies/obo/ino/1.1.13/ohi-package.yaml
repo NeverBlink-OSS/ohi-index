@@ -1,0 +1,35 @@
+namespace: obo
+name: ino
+version: "1.1.13"
+language: owl
+syntax: rdfxml
+roots: [ino_merged.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Interaction Network Ontology"
+authors:
+  - name: "Arzucan Ozgur"
+  - name: "Junguk Hur"
+  - name: "Yongqun He"
+    contact: "yongqunh@med.umich.edu"
+    link: "http://www.hegroup.org"
+  - name: "Zuoshuang Xiang"
+publishers:
+  - name: "Interaction Network Ontology"
+    link: "https://github.com/INO-ontology"
+contributors:
+  - name: "Yu Lin"
+description: "An ontology of interactions and interaction networks."
+keywords: ["biological systems", "OBO"]
+originalSources: ["https://github.com/INO-ontology/ino"]
+publications:
+  - title: "Development and application of an Interaction Network Ontology for literature mining of vaccine-associated gene-gene interactions"
+    link: "https://doi.org/10.1186/2041-1480-6-2"
+sources:
+  - url: https://github.com/INO-ontology/ino/blob/a9d3a0ec4bd65e68abc13e457bb66ec17d14dfbb/src/ino_merged.owl
+    sha256: "6bb6e8d3ce748953ccfa3978c2e73c3d58db5276fda7ed78f1f2af7df3ba88d1"
+    size: 493136
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

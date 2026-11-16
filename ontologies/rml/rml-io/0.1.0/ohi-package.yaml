@@ -1,0 +1,28 @@
+namespace: rml
+name: rml-io
+version: "0.1.0"
+language: owl
+syntax: turtle
+roots: [rml-io.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "RML-IO: Source and Target"
+authors:
+  - name: "Anastasia Dimou"
+  - name: "Ana Iglesias Molina"
+  - name: "Dylan Van Assche"
+  - name: "Pano Maria"
+publishers:
+  - name: "W3C Knowledge Graph Construction Community Group"
+    link: "https://www.w3.org/community/kg-construct/"
+description: "RML-IO enables the description of input data sources and target output data serialization."
+keywords: ["RDF", "RML", "W3C Rec"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/rml-io/versions/2023-06-15.n3
+    name: rml-io.ttl
+    sha256: "45a65f70fb3418f51b298650c29d84a179292c143343ef8f513102ff55ecc8fb"
+    size: 18524
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

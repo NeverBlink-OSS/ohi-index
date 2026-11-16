@@ -1,0 +1,26 @@
+namespace: molmod
+name: pimsii
+version: "2023-05-09"
+language: owl
+syntax: turtle
+roots: [pimsii.ttl]
+licenses: ["LGPL-3.0-only"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Physicalistic Interpretation of Modelling and Simulation - Interoperability Infrastructure (PIMS-II)"
+authors:
+  - name: "Martin Thomas Horsch"
+    link: "http://home.bawue.de/~horsch/pdt/"
+publishers:
+  - name: "Innovation Centre for Process Data Technology"
+description: "The Physicalistic Interpretation of Modelling and Simulation - Interoperability Infrastructure (PIMS-II) is a mid-level ontology with a focus on documenting cognitive processes and epistemic metadata."
+keywords: ["Metadata"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/pimsii/versions/2023-05-09.n3
+    name: pimsii.ttl
+    sha256: "82e15e2585971437038174366ff49207198767a3a8c42335bcc2a591f39cdea8"
+    size: 251954
+  - url: https://raw.githubusercontent.com/spdx/license-list-data/v3.29.0/text/LGPL-3.0-only.txt
+    name: LICENSE
+    sha256: "996af0513df21f7496288951c41428a03c174e9e4a9d63665c57d670f845ccb1"
+    size: 42098

@@ -1,0 +1,27 @@
+namespace: psn
+name: psn
+version: "1.0.0"
+language: owl
+syntax: turtle
+roots: [psn.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Product Supply Network Vocabulary"
+authors:
+  - name: "Daniel Henselmann"
+publishers:
+  - name: "Center for Applied Research on Supply Chain Services at Fraunhofer IIS"
+    link: "https://www.scs.fraunhofer.de/en.html"
+description: "A small ontology to model supply networks (supply chains) from all industries through products that are interlinked based on derivational dependencies."
+keywords: ["Industry"]
+publications:
+  - title: "Henselmann, D., Harth, A., 2024. Towards Modeling the Structure of Product Dependencies in Supply Networks to Identify Bottlenecks Among Suppliers, in: Proceedings of the Third International Workshop on Linked Data-Driven Resilience Research (D2R2’24) co-Located with European Semantic Web Conference 2024 (ESWC 2024). CEUR-WS, Hersonissos, Greece."
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/psn/versions/2024-07-22.n3
+    name: psn.ttl
+    sha256: "e300b2a2c34f3d1713628623959bdbefb9b7e76ea1e118959d0cd396df00a0b9"
+    size: 9876
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

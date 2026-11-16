@@ -1,0 +1,26 @@
+namespace: chemkg
+name: chemrof
+version: "0.3.4"
+language: linkml
+syntax: yaml
+roots: [chemrof.yaml]
+patch: chemrof.patch.yaml
+licenses: ["CC0-1.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Chemical Entities Mixtures and Reactions Ontological Framework"
+authors:
+  - name: "Christopher J. Mungall"
+publishers:
+  - name: "ChemKG"
+    link: "https://github.com/chemkg"
+description: "Schema for chemistry ontology classes."
+keywords: ["chebi", "chemistry", "linkml", "metaclass", "obo", "Chemistry"]
+originalSources: ["https://github.com/chemkg/chemrof"]
+sources:
+  - url: https://github.com/chemkg/chemrof/blob/v0.3.4/src/chemrof/schema/chemrof.yaml
+    sha256: "ee79b1822307359afbbdf3338e1983ac7005936a4b13e6b3d5ec603cadc1ff2b"
+    size: 120000
+  - url: https://github.com/chemkg/chemrof/blob/v0.3.4/LICENSE
+    sha256: "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673"
+    size: 6555

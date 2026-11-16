@@ -1,0 +1,23 @@
+namespace: commons
+name: structured-collections
+version: "20250801"
+language: owl
+syntax: rdfxml
+roots: [StructuredCollections.rdf]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["commons/annotation-vocabulary@20250801", "commons/classifiers@20240801", "commons/collections@20221101", "commons/dates-and-times@20250801", "commons/designators@20250801", "commons/documents@20250801"]
+title: "OMG Commons Structured Collections"
+authors:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+publishers:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+description: "Structured collections: sets, lists and collections ordered by time or by other criteria."
+keywords: ["OMG Commons", "collections"]
+originalSources: ["https://www.omg.org/spec/Commons"]
+sources:
+  - url: https://www.omg.org/spec/Commons/20250801/StructuredCollections.rdf
+    sha256: "288c3d5f047ccda3ee1c48c81ac462829182aa943f83003317b4038714a29430"
+    size: 10621

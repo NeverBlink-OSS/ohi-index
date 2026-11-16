@@ -1,0 +1,30 @@
+namespace: saref
+name: saref4lift
+version: "v2.1.1"
+language: owl
+syntax: turtle
+roots: [saref4lift.ttl]
+licenses: ["BSD-3-Clause"]
+licenseFiles: [LICENSE]
+dependencies: ["saref/saref-core@v4.1.1", "saref/saref4bldg@v1.1.2", "saref/saref4syst@v1.1.2"]
+title: "SAREF4LIFT"
+authors:
+  - name: "Mahdi Bennara"
+  - name: "Mauro Dragoni"
+  - name: "Alba Fernández-Izquierdo"
+  - name: "Raúl García-Castro"
+  - name: "Maxime Lefrançois"
+    link: "http://maxime-lefrancois.info/"
+publishers:
+  - name: "European Telecommunications Standards Institute"
+    link: "https://www.etsi.org/"
+description: "SAREF extension for lifts: their parts, sensors and operating states."
+keywords: ["lifts", "elevators", "IoT"]
+originalSources: ["https://saref.etsi.org/saref4lift"]
+sources:
+  - url: https://saref.etsi.org/saref4lift/v2.1.1/saref4lift.ttl
+    sha256: "f3cbe381269a01c1ec9e0a3695186a2aade3bb228b32ba8f943f14bdcbeacedf"
+    size: 51300
+  - url: https://labs.etsi.org/rep/saref/saref4lift/-/raw/df14494aed85e06138a1986972d4b703f5889933/LICENSE
+    sha256: "30260f1ec5cbd66b948fdb38a33540e9ea8ec6afdc747ae0fa348192dd2d9a2c"
+    size: 1475

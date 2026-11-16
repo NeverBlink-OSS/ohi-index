@@ -1,0 +1,29 @@
+namespace: timebank
+name: tb
+version: "0.2"
+language: owl
+syntax: turtle
+roots: [tb.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["w3c/skos-owl1-dl@2009", "w3c/time@2016", "foaf/foaf@2014-01-14"]
+title: "Timebank Ontology"
+authors:
+  - name: "Ankit Tibrewal"
+  - name: "Subhayan Roy"
+  - name: "Tobias Grubenmann"
+  - name: "Xueer Li"
+publishers:
+  - name: "The University of Hong Kong"
+    link: "https://www.hku.hk/"
+description: "An ontology to describe people and requests for timebanks."
+keywords: ["Services", "eBusiness"]
+originalSources: ["https://tobiasgrubenmann.github.io/Ontologies/Timebank/0.2/index.html"]
+sources:
+  - url: https://tobiasgrubenmann.github.io/Ontologies/Timebank/0.2/ontology.ttl
+    name: tb.ttl
+    sha256: "178f2681d30496acd0c40b6907f586a9d807b6ed0aafa79888e379fc7c937b60"
+    size: 146638
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

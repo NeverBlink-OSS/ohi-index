@@ -1,0 +1,27 @@
+namespace: charta77
+name: jup
+version: "2.0"
+language: owl
+syntax: turtle
+roots: [jup.ttl]
+licenses: ["ODbL-1.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Ontology of Building Accessibility"
+authors:
+  - name: "Petr Hazuza"
+    contact: "petr.hazuza@bariery.cz"
+publishers:
+  - name: "Petr Hazuza"
+    contact: "petr.hazuza@bariery.cz"
+description: "The vocabulary of building accessibility was created within the project Maps without Barriers realized under Charta 77 Foundation – Barriers Account."
+keywords: ["Society"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/jup/versions/2016-07-14.n3
+    name: jup.ttl
+    sha256: "3033b7dc01c9141a200660a553382ce46c68d9387b8b55b64455d61a71bbf1ee"
+    size: 137766
+  - url: https://opendatacommons.org/licenses/odbl/odbl-10.txt
+    name: LICENSE
+    sha256: "607680718977f6f6c9607972afd98f208573f19251315ed1362a8589b51beaf5"
+    size: 25278

@@ -1,0 +1,30 @@
+namespace: obo
+name: labo
+version: "2021-06-08"
+language: owl
+syntax: rdfxml
+roots: [labo.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "clinical LABoratory Ontology"
+authors:
+  - name: "Adrien Barton"
+  - name: "Jean-François Ethier"
+  - name: "Paul Fabry"
+publishers:
+  - name: "Groupe de Recherche Interdisciplinaire en Informatique de la Santé"
+    link: "https://griis.ca"
+description: "LABO is an ontology of informational entities formalizing clinical laboratory tests prescriptions and reporting documents."
+keywords: ["information", "clinical documentation", "OBO"]
+originalSources: ["https://github.com/OpenLHS/LABO"]
+publications:
+  - title: "LABO: An Ontology for Laboratory Test Prescription and Reporting"
+    link: "https://doi.org/10.5281/zenodo.6522019"
+sources:
+  - url: https://github.com/OpenLHS/LABO/blob/b7256414a36a68027cab0cdb21d2aeffb56d7704/labo.owl
+    sha256: "edebab71df1d8dcdf6b530e82f9ef30b15e0df1c2de3213c9be4984d82bfa21e"
+    size: 380384
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

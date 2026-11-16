@@ -1,0 +1,24 @@
+namespace: vir
+name: vir
+version: "1.1"
+language: rdfs
+syntax: turtle
+roots: [vir.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "VIR - Visual Representation ontology"
+authors:
+  - name: "Nicola Carboni"
+publishers:
+  - name: "Nicola Carboni"
+description: "This ontology, called VIR, is an extension of CIDOC-CRM created to sustain propositions on the nature of visual elements and permit these descriptions to be published on the Web."
+keywords: ["Multimedia"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/vir/versions/2019-02-26.n3
+    name: vir.ttl
+    sha256: "9c2902b2c059beb102ecd49c3f63a51d50c9b54c213cf07a06338aa7cdff13eb"
+    size: 20395
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

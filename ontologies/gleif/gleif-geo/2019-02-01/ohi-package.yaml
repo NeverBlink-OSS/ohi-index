@@ -1,0 +1,29 @@
+namespace: gleif
+name: gleif-geo
+version: "2019-02-01"
+language: owl
+syntax: turtle
+roots: [gleif-geo.ttl]
+licenses: ["GLEIF LEI Data Terms of Use"]
+licenseFiles: [LICENSE]
+dependencies: ["gleif/gleif-base@2026-11-02", "lcc/country-representation@20211101"]
+title: "Global Legal Entity Identifier Foundation Geocoding Ontology"
+authors:
+  - name: "Global Legal Entity Identifier Foundation"
+    link: "https://www.gleif.org/"
+publishers:
+  - name: "Global Legal Entity Identifier Foundation"
+    link: "https://www.gleif.org/"
+contributors:
+  - name: "Bryon Jacob"
+  - name: "Working Ontologist LLC"
+    link: "http://www.workingontologist.com"
+  - name: "Pete Rivett"
+description: "Ontology defining concepts for Geocoding of addresses."
+keywords: ["Geography"]
+originalSources: ["https://www.gleif.org/ontology/Geocoding"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/gleif-geo/versions/2019-02-01.n3
+    name: gleif-geo.ttl
+    sha256: "6d17d054e88b52df178f84b697727173d7a2b2fe964f0217f06f7f0d43554260"
+    size: 10226

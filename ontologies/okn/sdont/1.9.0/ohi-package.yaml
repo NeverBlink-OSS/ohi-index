@@ -1,0 +1,34 @@
+namespace: okn
+name: sdont
+version: "1.9.0"
+language: owl
+syntax: turtle
+roots: [sdont.ttl]
+licenses: ["CC-BY-2.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The Software Description Ontology"
+authors:
+  - name: "Daniel Garijo"
+    link: "http://purl.org/net/dgarijo"
+  - name: "Varun Ratnakar"
+  - name: "Yolanda Gil"
+    link: "http://www.isi.edu/~gil/"
+  - name: "Deborah Khider"
+publishers:
+  - name: "Daniel Garijo"
+    link: "http://purl.org/net/dgarijo"
+  - name: "Varun Ratnakar"
+  - name: "Yolanda Gil"
+    link: "http://www.isi.edu/~gil/"
+  - name: "Deborah Khider"
+contributors:
+  - name: "Hernan Vargas"
+  - name: "Maximiliano Osorio"
+description: "An ontology for describing software and their links to inputs, outputs and variables."
+keywords: ["Metadata", "Methods"]
+sources:
+  - url: https://knowledgecaptureanddiscovery.github.io/SoftwareDescriptionOntology/release/1.9.0/ontology.ttl
+    name: sdont.ttl
+    sha256: "c44942dce9260d53a25e42adf73e3c04f9f58d8dcd20d2957b02af105c589fef"
+    size: 67311

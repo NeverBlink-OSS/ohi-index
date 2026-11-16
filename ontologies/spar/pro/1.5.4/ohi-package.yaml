@@ -1,0 +1,29 @@
+namespace: spar
+name: pro
+version: "1.5.4"
+language: owl
+syntax: rdfxml
+roots: [pro.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE.md]
+dependencies: ["spar/foaf@2.0", "spar/tvc@1.1.0"]
+title: "SPAR Publishing Roles Ontology"
+authors:
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+  - name: "David Shotton"
+    link: "http://opencitations.net"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+description: "Ontology of the roles people and organizations hold in publishing, such as author or editor."
+keywords: ["publishing", "roles"]
+originalSources: ["https://github.com/SPAROntologies/pro"]
+sources:
+  - url: https://sparontologies.github.io/pro/2017-09-04/pro.xml
+    name: pro.rdf
+    sha256: "240a90ed8f8f40bc0f7910bc57144ae11169657212b32e81ec305a2455030b99"
+    size: 39034
+  - url: https://github.com/SPAROntologies/pro/blob/a6a24148218e1e58e86c6d5993525f3b9e60ee5c/LICENSE.md
+    sha256: "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    size: 18656

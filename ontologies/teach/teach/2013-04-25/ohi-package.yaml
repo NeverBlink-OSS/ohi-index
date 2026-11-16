@@ -1,0 +1,23 @@
+namespace: teach
+name: teach
+version: "2013-04-25"
+language: owl
+syntax: turtle
+roots: [teach.ttl]
+licenses: ["CC-BY-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Teaching Core Vocabulary Specification"
+authors:
+  - name: "Tomi Kauppinen"
+    link: "http://kauppinen.net/tomi"
+publishers:
+  - name: "Tomi Kauppinen"
+    link: "http://kauppinen.net/tomi"
+description: "TEACH, the Teaching Core Vocabulary, is a lightweight vocabulary providing terms to enable teachers to relate things in their courses together."
+keywords: ["Academy"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/teach/versions/2013-04-25.n3
+    name: teach.ttl
+    sha256: "ab9fb0c729b0a2d8ef65df2812f0f30e8dbd6b5e7c1f4da097ae659adb0dc02e"
+    size: 13665

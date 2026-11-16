@@ -1,0 +1,25 @@
+namespace: w3c
+name: content
+version: "2011"
+language: owl
+syntax: rdfxml
+roots: [content.rdf]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: ["dcmi/dcterms@2026-10-20"]
+title: "Representing Content in RDF"
+authors:
+  - name: "Johannes Koch"
+  - name: "Carlos A Velasco"
+  - name: "Philip Ackermann"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "W3C vocabulary for content, such as text or binary data, in RDF."
+keywords: ["content", "web"]
+originalSources: ["https://www.w3.org/TR/Content-in-RDF10"]
+sources:
+  - url: https://www.w3.org/2011/content
+    name: content.rdf
+    sha256: "a05a6aee74b084e69d76b9b42963d6af7ad71a4fa8e148c5b5350e3d76f5bd6c"
+    size: 7778

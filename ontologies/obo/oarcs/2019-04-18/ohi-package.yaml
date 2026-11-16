@@ -1,0 +1,27 @@
+namespace: obo
+name: oarcs
+version: "2019-04-18"
+language: owl
+syntax: rdfxml
+roots: [oarcs.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Ontology of Arthropod Circulatory Systems"
+authors:
+  - name: "Matthew Yoder"
+    contact: "mjyoder@illinois.edu"
+    link: "https://orcid.org/0000-0002-5640-5491"
+publishers:
+  - name: "Ontology of Arthropod Circulatory Systems"
+    link: "https://github.com/aszool"
+description: "OArCS is an ontology describing the Arthropod ciruclatory system."
+keywords: ["anatomy and development", "OBO"]
+originalSources: ["https://github.com/aszool/oarcs"]
+sources:
+  - url: https://github.com/aszool/oarcs/blob/29c0366a8fea204fdfc71ede8dc7873fb57318dd/src/ontology/oarcs.owl
+    sha256: "b7dfe0b7ced8ad30bf20b075b6bfc73b214f90cafb792cd2298e2c810240c181"
+    size: 704087
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

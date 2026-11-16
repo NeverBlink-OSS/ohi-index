@@ -1,0 +1,38 @@
+namespace: obo
+name: opl
+version: "2023-08-28"
+language: owl
+syntax: rdfxml
+roots: [opl.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Ontology for Parasite LifeCycle"
+authors:
+  - name: "Anna Protasio"
+  - name: "Chris J. Janse"
+  - name: "Chris Stoeckert"
+  - name: "Flora Logan"
+  - name: "Jie Zheng"
+    contact: "zhengj2007@gmail.com"
+    link: "https://orcid.org/0000-0002-2999-0103"
+  - name: "Priti Parikh"
+  - name: "Shahid M. Khan"
+publishers:
+  - name: "The Ontology for Parasite Lifecycle"
+    link: "https://github.com/OPL-ontology"
+contributors:
+  - name: "Kitsos Louis"
+  - name: "Satya S. Sahoo"
+  - name: "Achchuthan Shanmugasundram"
+  - name: "Omar Harb"
+description: "A reference ontology for parasite life cycle stages."
+keywords: ["organisms", "life cycle stage", "parasite organism", "OBO"]
+originalSources: ["https://github.com/OPL-ontology/OPL"]
+sources:
+  - url: https://github.com/OPL-ontology/OPL/blob/v2023-08-28/opl.owl
+    sha256: "6291a89589f01196cb4848bf215450e7b83c2a6af4422102f239895fa41c9dee"
+    size: 941059
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

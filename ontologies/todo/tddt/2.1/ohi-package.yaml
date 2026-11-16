@@ -1,0 +1,29 @@
+namespace: todo
+name: tddt
+version: "2.1"
+language: owl
+syntax: rdfxml
+roots: [tddt.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "TODODT: Dialogue Tracing Module for Task-Oriented Dialogue management Ontology (TODO)"
+authors:
+  - name: "Cristina Aceta"
+    contact: "cristina.aceta@tekniker.es"
+publishers:
+  - name: "Cristina Aceta"
+    contact: "cristina.aceta@tekniker.es"
+contributors:
+  - name: "Izaskun Fernández"
+    contact: "izaskun.fernandez@tekniker.es"
+description: "Module for dialogue tracing."
+keywords: ["Industry", "Services"]
+sources:
+  - url: https://cristinacm.github.io/todo/TODODT/ontology/ontology.owl
+    name: tddt.owl
+    sha256: "a5dc57b30b4b35ce7853e617f9d29089176f5dd2468a3fe758cc3dee2ea4a0c0"
+    size: 30486
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

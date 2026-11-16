@@ -1,0 +1,26 @@
+namespace: obo
+name: mpath
+version: "2020-05-19"
+language: owl
+syntax: rdfxml
+roots: [mpath.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Mouse pathology ontology"
+authors:
+  - name: "Paul Schofield"
+    link: "https://orcid.org/0000-0002-5111-7263"
+publishers:
+  - name: "Paul Schofield"
+    link: "https://orcid.org/0000-0002-5111-7263"
+description: "A structured controlled vocabulary of mutant and transgenic mouse pathology phenotypes."
+keywords: ["health", "OBO"]
+originalSources: ["https://github.com/PaulNSchofield/mpath", "http://www.pathbase.net"]
+sources:
+  - url: https://github.com/PaulNSchofield/mpath/blob/edfc3b48f2e9727612d789395c105841e3c8f6c1/mpath.owl
+    sha256: "d20c3079f2fa02755bd62575645054445277e3156afebb2c3d456f7a084276fe"
+    size: 1434612
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

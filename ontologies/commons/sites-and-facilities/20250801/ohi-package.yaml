@@ -1,0 +1,25 @@
+namespace: commons
+name: sites-and-facilities
+version: "20250801"
+language: owl
+syntax: rdfxml
+roots: [SitesAndFacilities.rdf]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["commons/annotation-vocabulary@20250801", "commons/contextual-designators@20250801", "commons/contextual-identifiers@20221101", "commons/identifiers@20221101", "commons/locations@20250801", "commons/organizations@20250801", "commons/regulatory-agencies@20250801"]
+title: "OMG Commons Sites and Facilities"
+authors:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+publishers:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+contributors:
+  - name: "Elisa Kendall"
+description: "Facilities, virtual and physical, and the sites they are at."
+keywords: ["OMG Commons", "facilities", "sites"]
+originalSources: ["https://www.omg.org/spec/Commons"]
+sources:
+  - url: https://www.omg.org/spec/Commons/20250801/SitesAndFacilities.rdf
+    sha256: "9c4672f52a8a6e1ce743af6110a0e3cd8229cd5120e8e21936f253d786fb72ac"
+    size: 12171

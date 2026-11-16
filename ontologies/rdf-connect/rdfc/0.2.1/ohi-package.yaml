@@ -1,0 +1,31 @@
+namespace: rdf-connect
+name: rdfc
+version: "0.2.1"
+language: owl
+syntax: ntriples
+roots: [rdfc.nt]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "RDF Connect Ontology"
+authors:
+  - name: "Arthur Vercruysse"
+publishers:
+  - name: "Arthur Vercruysse"
+contributors:
+  - name: "Julián Andrés Rojas Meléndez"
+  - name: "Pieter Colpaert"
+    link: "https://pietercolpaert.be/"
+  - name: "Ieben Smessaert"
+    link: "https://smessaert.be/"
+  - name: "Jens Pots"
+description: "An ontology for describing programming language-specific runners, processors and pipelines in RDF-based data processing frameworks."
+keywords: ["Catalogs", "Services"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/rdfc/versions/2025-09-02.n3
+    name: rdfc.nt
+    sha256: "9c36347fa616d8db5f76ddf34319e4fe3c3adbd74c9d80cbc8360163c57e59cc"
+    size: 17804
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

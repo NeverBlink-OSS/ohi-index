@@ -1,0 +1,26 @@
+namespace: tempo
+name: tempo
+version: "0.1"
+language: owl
+syntax: turtle
+roots: [tempo.ttl]
+licenses: ["CC-BY-SA-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "TempO - Temporal Ontology"
+authors:
+  - name: "Sebastian Freundt"
+    link: "https://orcid.org/0000-0002-7352-2825"
+publishers:
+  - name: "Sebastian Freundt"
+    link: "https://orcid.org/0000-0002-7352-2825"
+description: "In a typical (uni)temporal data model every resource's appearance (and disappearance) is being tracked."
+keywords: ["Time"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/tempo/versions/2022-08-20.n3
+    name: tempo.ttl
+    sha256: "5935d2f925b24bd360733dcd4e9b342de19a40e7a6019530ac9f4ce662829b46"
+    size: 16508
+  - url: https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt
+    sha256: "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+    size: 20138

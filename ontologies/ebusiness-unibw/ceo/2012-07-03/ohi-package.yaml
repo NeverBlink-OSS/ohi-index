@@ -1,0 +1,33 @@
+namespace: ebusiness-unibw
+name: ceo
+version: "2012-07-03"
+language: owl
+syntax: turtle
+roots: [ceo.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["goodrelations/gr@2011-10-01"]
+title: "Consumer Electronics Ontology"
+authors:
+  - name: "Xaver Brandl"
+  - name: "Christian Deckert"
+  - name: "Felix Frommer"
+  - name: "Daniel Karl"
+  - name: "Daniel Koslowski"
+  - name: "Daniel Schley"
+  - name: "David Sonntag"
+  - name: "Andreas Wechselberger"
+  - name: "Martin Hepp"
+publishers:
+  - name: "E-Business and Web Science Research Group, Universität der Bundeswehr München"
+    link: "http://www.ebusiness-unibw.org/"
+description: "An Ontology for Consumer Electronics Products and Services."
+keywords: ["Industry"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/ceo/versions/2012-07-03.n3
+    name: ceo.ttl
+    sha256: "ea202b5a87c15397559fb63bf786c9c98cc4718363fb4a80175f0816c77c1b60"
+    size: 292574
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

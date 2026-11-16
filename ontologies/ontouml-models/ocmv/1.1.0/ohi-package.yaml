@@ -1,0 +1,36 @@
+namespace: ontouml-models
+name: ocmv
+version: "1.1.0"
+language: owl
+syntax: turtle
+roots: [ocmv.ttl]
+licenses: ["CC-BY-SA-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "OntoUML/UFO Catalog Metadata Vocabulary"
+authors:
+  - name: "Tiago Prince Sales"
+    contact: "t.princesales@utwente.nl"
+    link: "https://www.inf.unibz.it/~tpsales/"
+  - name: "Claudenir M. Fonseca"
+    contact: "c.moraisfonseca@utwente.nl"
+    link: "https://orcid.org/0000-0003-2528-3118"
+  - name: "Pedro Paulo F. Barcelos"
+    contact: "p.p.favatobarcelos@uwente.nl"
+    link: "https://orcid.org/0000-0003-2736-7817"
+  - name: "Mattia Fumagalli"
+    contact: "mattia.fumagalli@unibz.it"
+    link: "https://orcid.org/0000-0003-3385-4769"
+publishers:
+  - name: "Semantics, Cybersecurity & Services, University of Twente"
+    link: "https://www.utwente.nl/en/eemcs/scs/"
+description: "Specification of the metadata used to describe models in the OntoUML/UFO Catalog."
+keywords: ["General & Upper", "Metadata"]
+sources:
+  - url: https://dev.ontouml.org/ontouml-models-vocabulary/ontouml-catalog-metadata-vocabulary.ttl
+    name: ocmv.ttl
+    sha256: "ace7dd5483cce9aaa6f945c706cce54ff68780d3b824a5d80f929e5cdf0151b9"
+    size: 26682
+  - url: https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt
+    sha256: "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+    size: 20138

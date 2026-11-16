@@ -1,0 +1,26 @@
+namespace: obo
+name: cob
+version: "2022-05-02"
+language: owl
+syntax: rdfxml
+roots: [cob.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Core Ontology for Biology and Biomedicine"
+authors:
+  - name: "The Open Biological and Biomedical Ontologies Foundry"
+    link: "http://obofoundry.org"
+publishers:
+  - name: "The Open Biological and Biomedical Ontologies Foundry"
+    link: "http://obofoundry.org"
+description: "COB brings together key terms from a wide range of OBO projects to improve interoperability."
+keywords: ["upper", "OBO"]
+originalSources: ["https://github.com/OBOFoundry/COB", "https://obofoundry.org/COB"]
+sources:
+  - url: https://github.com/OBOFoundry/COB/blob/v2022-05-02/cob.owl
+    sha256: "a30bb2e1707fc4faeeda2003acf39265ecee0c0d3306cf6daa9f3914ed15e7df"
+    size: 55733
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

@@ -1,0 +1,29 @@
+namespace: gleif
+name: gleif-ra
+version: "2026-11-02"
+language: owl
+syntax: turtle
+roots: [gleif-ra.ttl]
+licenses: ["GLEIF LEI Data Terms of Use"]
+licenseFiles: [LICENSE]
+dependencies: ["gleif/gleif-base@2026-11-02", "lcc/country-representation@20211101"]
+title: "Global Legal Entity Identifier Foundation Registration Authority Ontology"
+authors:
+  - name: "Global Legal Entity Identifier Foundation"
+    link: "https://www.gleif.org/"
+publishers:
+  - name: "Global Legal Entity Identifier Foundation"
+    link: "https://www.gleif.org/"
+contributors:
+  - name: "Bryon Jacob"
+  - name: "Working Ontologist LLC"
+    link: "http://www.workingontologist.com"
+  - name: "Pete Rivett"
+description: "Ontology defining concepts for Business Registries, including the jurisdictions served."
+keywords: ["Contracts"]
+originalSources: ["https://www.gleif.org/ontology/RegistrationAuthority"]
+sources:
+  - url: https://www.gleif.org/ontology/v1.0/RegistrationAuthority/ontology.ttl
+    name: gleif-ra.ttl
+    sha256: "9a677464274d0aca952006a8df3efbd37e6cc2cec5485b8b31f1b5160dc5b4ce"
+    size: 4033

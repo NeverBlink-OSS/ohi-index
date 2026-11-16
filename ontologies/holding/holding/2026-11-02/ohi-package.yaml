@@ -1,0 +1,25 @@
+namespace: holding
+name: holding
+version: "2026-11-02"
+language: owl
+syntax: turtle
+roots: [holding.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Holding Ontology"
+authors:
+  - name: "Carsten Klee"
+  - name: "Jakob Voß"
+publishers:
+  - name: "DINI AG KIM"
+    link: "https://wiki.dnb.de/display/DINIAGKIM"
+description: "A vocabulary to express (library) holdings in RDF."
+keywords: ["Catalogs"]
+sources:
+  - url: https://cdn.jsdelivr.net/gh/dini-ag-kim/holding-ontology@gh-pages/holding.ttl
+    sha256: "14494c8236cccd16bfab7c3590b7a5061acacdc1039f52ec1e71d7d9bfbb22bf"
+    size: 6845
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

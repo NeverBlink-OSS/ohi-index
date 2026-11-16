@@ -1,0 +1,27 @@
+namespace: ensembl
+name: ensemblglossary
+version: "2026-06-05"
+language: owl
+syntax: rdfxml
+roots: [ensemblglossary.owl]
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Ensembl Glossary"
+authors:
+  - name: "Ensembl Project"
+    link: "http://www.ensembl.org"
+publishers:
+  - name: "Ensembl Project"
+    link: "http://www.ensembl.org"
+description: "The Ensembl glossary lists the terms, data types and file types that are used in Ensembl and describes how they are used."
+keywords: ["ontology"]
+originalSources: ["https://github.com/Ensembl/ensembl-glossary", "http://ensembl.org/glossary"]
+sources:
+  - url: https://github.com/Ensembl/ensembl-glossary/blob/17df9528127e6717a09695b7fa2827144856ce0c/ensembl-glossary.owl
+    name: ensemblglossary.owl
+    sha256: "475245bfaaf120919ba0ff264be8cd1561235be98f5393670b882cfd655b592a"
+    size: 359492
+  - url: https://github.com/Ensembl/ensembl-glossary/blob/17df9528127e6717a09695b7fa2827144856ce0c/LICENSE
+    sha256: "266c030967056fe8956fdf57400e62724457bc4e2220a484b6cf8020e0aa098e"
+    size: 11479

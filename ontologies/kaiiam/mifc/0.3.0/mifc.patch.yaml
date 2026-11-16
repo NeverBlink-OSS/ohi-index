@@ -1,0 +1,523 @@
+# JSON Patch (RFC 6902) the hub applies to mifc.yaml before publishing it.
+# README.md says what each change is for.
+- op: replace
+  path: /enums/CountryCode/permissible_values
+  value:
+    AFG:
+      description: Afghanistan
+    ALA:
+      description: Aland Islands
+    ALB:
+      description: Albania
+    DZA:
+      description: Algeria
+    ASM:
+      description: American Samoa
+    AND:
+      description: Andorra
+    AGO:
+      description: Angola
+    AIA:
+      description: Anguilla
+    ATA:
+      description: Antarctica
+    ATG:
+      description: Antigua and Barbuda
+    ARG:
+      description: Argentina
+    ARM:
+      description: Armenia
+    ABW:
+      description: Aruba
+    AUS:
+      description: Australia
+    AUT:
+      description: Austria
+    AZE:
+      description: Azerbaijan
+    BHS:
+      description: Bahamas
+    BHR:
+      description: Bahrain
+    BGD:
+      description: Bangladesh
+    BRB:
+      description: Barbados
+    BLR:
+      description: Belarus
+    BEL:
+      description: Belgium
+    BLZ:
+      description: Belize
+    BEN:
+      description: Benin
+    BMU:
+      description: Bermuda
+    BTN:
+      description: Bhutan
+    BOL:
+      description: Bolivia
+    BIH:
+      description: Bosnia and Herzegovina
+    BWA:
+      description: Botswana
+    BVT:
+      description: Bouvet Island
+    BRA:
+      description: Brazil
+    VGB:
+      description: British Virgin Islands
+    IOT:
+      description: British Indian Ocean Territory
+    BRN:
+      description: Brunei Darussalam
+    BGR:
+      description: Bulgaria
+    BFA:
+      description: Burkina Faso
+    BDI:
+      description: Burundi
+    KHM:
+      description: Cambodia
+    CMR:
+      description: Cameroon
+    CAN:
+      description: Canada
+    CPV:
+      description: Cape Verde
+    CYM:
+      description: Cayman Islands
+    CAF:
+      description: Central African Republic
+    TCD:
+      description: Chad
+    CHL:
+      description: Chile
+    CHN:
+      description: China
+    HKG:
+      description: Hong Kong, SAR China
+    MAC:
+      description: Macao, SAR China
+    CXR:
+      description: Christmas Island
+    CCK:
+      description: Cocos (Keeling) Islands
+    COL:
+      description: Colombia
+    COM:
+      description: Comoros
+    COG:
+      description: Congo (Brazzaville)
+    COD:
+      description: Congo, (Kinshasa)
+    COK:
+      description: Cook Islands
+    CRI:
+      description: Costa Rica
+    CIV:
+      description: Côte d'Ivoire
+    HRV:
+      description: Croatia
+    CUB:
+      description: Cuba
+    CYP:
+      description: Cyprus
+    CZE:
+      description: Czech Republic
+    DNK:
+      description: Denmark
+    DJI:
+      description: Djibouti
+    DMA:
+      description: Dominica
+    DOM:
+      description: Dominican Republic
+    ECU:
+      description: Ecuador
+    EGY:
+      description: Egypt
+    SLV:
+      description: El Salvador
+    GNQ:
+      description: Equatorial Guinea
+    ERI:
+      description: Eritrea
+    EST:
+      description: Estonia
+    ETH:
+      description: Ethiopia
+    FLK:
+      description: Falkland Islands (Malvinas)
+    FRO:
+      description: Faroe Islands
+    FJI:
+      description: Fiji
+    FIN:
+      description: Finland
+    FRA:
+      description: France
+    GUF:
+      description: French Guiana
+    PYF:
+      description: French Polynesia
+    ATF:
+      description: French Southern Territories
+    GAB:
+      description: Gabon
+    GMB:
+      description: Gambia
+    GEO:
+      description: Georgia
+    DEU:
+      description: Germany
+    GHA:
+      description: Ghana
+    GIB:
+      description: Gibraltar
+    GRC:
+      description: Greece
+    GRL:
+      description: Greenland
+    GRD:
+      description: Grenada
+    GLP:
+      description: Guadeloupe
+    GUM:
+      description: Guam
+    GTM:
+      description: Guatemala
+    GGY:
+      description: Guernsey
+    GIN:
+      description: Guinea
+    GNB:
+      description: Guinea-Bissau
+    GUY:
+      description: Guyana
+    HTI:
+      description: Haiti
+    HMD:
+      description: Heard and Mcdonald Islands
+    VAT:
+      description: Holy See (Vatican City State)
+    HND:
+      description: Honduras
+    HUN:
+      description: Hungary
+    ISL:
+      description: Iceland
+    IND:
+      description: India
+    IDN:
+      description: Indonesia
+    IRN:
+      description: Iran, Islamic Republic of
+    IRQ:
+      description: Iraq
+    IRL:
+      description: Ireland
+    IMN:
+      description: Isle of Man
+    ISR:
+      description: Israel
+    ITA:
+      description: Italy
+    JAM:
+      description: Jamaica
+    JPN:
+      description: Japan
+    JEY:
+      description: Jersey
+    JOR:
+      description: Jordan
+    KAZ:
+      description: Kazakhstan
+    KEN:
+      description: Kenya
+    KIR:
+      description: Kiribati
+    PRK:
+      description: Korea (North)
+    KOR:
+      description: Korea (South)
+    KWT:
+      description: Kuwait
+    KGZ:
+      description: Kyrgyzstan
+    LAO:
+      description: Lao PDR
+    LVA:
+      description: Latvia
+    LBN:
+      description: Lebanon
+    LSO:
+      description: Lesotho
+    LBR:
+      description: Liberia
+    LBY:
+      description: Libya
+    LIE:
+      description: Liechtenstein
+    LTU:
+      description: Lithuania
+    LUX:
+      description: Luxembourg
+    MKD:
+      description: Macedonia, Republic of
+    MDG:
+      description: Madagascar
+    MWI:
+      description: Malawi
+    MYS:
+      description: Malaysia
+    MDV:
+      description: Maldives
+    MLI:
+      description: Mali
+    MLT:
+      description: Malta
+    MHL:
+      description: Marshall Islands
+    MTQ:
+      description: Martinique
+    MRT:
+      description: Mauritania
+    MUS:
+      description: Mauritius
+    MYT:
+      description: Mayotte
+    MEX:
+      description: Mexico
+    FSM:
+      description: Micronesia, Federated States of
+    MDA:
+      description: Moldova
+    MCO:
+      description: Monaco
+    MNG:
+      description: Mongolia
+    MNE:
+      description: Montenegro
+    MSR:
+      description: Montserrat
+    MAR:
+      description: Morocco
+    MOZ:
+      description: Mozambique
+    MMR:
+      description: Myanmar
+    NAM:
+      description: Namibia
+    NRU:
+      description: Nauru
+    NPL:
+      description: Nepal
+    NLD:
+      description: Netherlands
+    ANT:
+      description: Netherlands Antilles
+    NCL:
+      description: New Caledonia
+    NZL:
+      description: New Zealand
+    NIC:
+      description: Nicaragua
+    NER:
+      description: Niger
+    NGA:
+      description: Nigeria
+    NIU:
+      description: Niue
+    NFK:
+      description: Norfolk Island
+    MNP:
+      description: Northern Mariana Islands
+    NOR:
+      description: Norway
+    OMN:
+      description: Oman
+    PAK:
+      description: Pakistan
+    PLW:
+      description: Palau
+    PSE:
+      description: Palestinian Territory
+    PAN:
+      description: Panama
+    PNG:
+      description: Papua New Guinea
+    PRY:
+      description: Paraguay
+    PER:
+      description: Peru
+    PHL:
+      description: Philippines
+    PCN:
+      description: Pitcairn
+    POL:
+      description: Poland
+    PRT:
+      description: Portugal
+    PRI:
+      description: Puerto Rico
+    QAT:
+      description: Qatar
+    REU:
+      description: Réunion
+    ROU:
+      description: Romania
+    RUS:
+      description: Russian Federation
+    RWA:
+      description: Rwanda
+    BLM:
+      description: Saint-Barthélemy
+    SHN:
+      description: Saint Helena
+    KNA:
+      description: Saint Kitts and Nevis
+    LCA:
+      description: Saint Lucia
+    MAF:
+      description: Saint-Martin (French part)
+    SPM:
+      description: Saint Pierre and Miquelon
+    VCT:
+      description: Saint Vincent and Grenadines
+    WSM:
+      description: Samoa
+    SMR:
+      description: San Marino
+    STP:
+      description: Sao Tome and Principe
+    SAU:
+      description: Saudi Arabia
+    SEN:
+      description: Senegal
+    SRB:
+      description: Serbia
+    SYC:
+      description: Seychelles
+    SLE:
+      description: Sierra Leone
+    SGP:
+      description: Singapore
+    SVK:
+      description: Slovakia
+    SVN:
+      description: Slovenia
+    SLB:
+      description: Solomon Islands
+    SOM:
+      description: Somalia
+    ZAF:
+      description: South Africa
+    SGS:
+      description: South Georgia and the South Sandwich Islands
+    SSD:
+      description: South Sudan
+    ESP:
+      description: Spain
+    LKA:
+      description: Sri Lanka
+    SDN:
+      description: Sudan
+    SUR:
+      description: Suriname
+    SJM:
+      description: Svalbard and Jan Mayen Islands
+    SWZ:
+      description: Swaziland
+    SWE:
+      description: Sweden
+    CHE:
+      description: Switzerland
+    SYR:
+      description: Syrian Arab Republic (Syria)
+    TWN:
+      description: Taiwan, Republic of China
+    TJK:
+      description: Tajikistan
+    TZA:
+      description: Tanzania, United Republic of
+    THA:
+      description: Thailand
+    TLS:
+      description: Timor-Leste
+    TGO:
+      description: Togo
+    TKL:
+      description: Tokelau
+    TON:
+      description: Tonga
+    TTO:
+      description: Trinidad and Tobago
+    TUN:
+      description: Tunisia
+    TUR:
+      description: Turkey
+    TKM:
+      description: Turkmenistan
+    TCA:
+      description: Turks and Caicos Islands
+    TUV:
+      description: Tuvalu
+    UGA:
+      description: Uganda
+    UKR:
+      description: Ukraine
+    ARE:
+      description: United Arab Emirates
+    GBR:
+      description: United Kingdom
+    USA:
+      description: United States of America
+    UMI:
+      description: US Minor Outlying Islands
+    URY:
+      description: Uruguay
+    UZB:
+      description: Uzbekistan
+    VUT:
+      description: Vanuatu
+    VEN:
+      description: Venezuela (Bolivarian Republic)
+    VNM:
+      description: Viet Nam
+    VIR:
+      description: Virgin Islands, US
+    WLF:
+      description: Wallis and Futuna Islands
+    ESH:
+      description: Western Sahara
+    YEM:
+      description: Yemen
+    ZMB:
+      description: Zambia
+    ZWE:
+      description: Zimbabwe
+- op: replace
+  path: /slots/food_primary_type/examples
+  value:
+  - value: FOODON:03311865
+- op: replace
+  path: /slots/food_primary_type_label/examples
+  value:
+  - value: piece of chicken (raw)
+- op: replace
+  path: /slots/food_cooking_method/examples
+  value:
+  - value: '[boiled|steamed]'
+- op: replace
+  path: /slots/food_acquisition_city/examples
+  value:
+  - value: Tucson
+- op: replace
+  path: /slots/food_acquisition_country_subdivision/examples
+  value:
+  - value: PA
+- op: replace
+  path: /slots/food_distributor_city/examples
+  value:
+  - value: Veracruz

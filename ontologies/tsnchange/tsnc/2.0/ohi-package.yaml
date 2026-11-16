@@ -1,0 +1,36 @@
+namespace: tsnchange
+name: tsnc
+version: "2.0"
+language: owl
+syntax: turtle
+roots: [tsnc.ttl]
+licenses: ["etalab-2.0", "CC-BY-3.0"]
+licenseFiles: [LICENSE, legalcode.txt]
+dependencies: []
+title: "Territorial Statistical Nomenclature Change Ontology"
+authors:
+  - name: "Jérôme Gensel"
+    link: "http://lig-membres.imag.fr/gensel/"
+  - name: "Camille Bernard"
+    link: "http://lig-membres.imag.fr/bernardc/"
+  - name: "Hy Dao"
+    link: "https://unige.ch/gedt/membres/dao/"
+  - name: "Marlène Villanova-Oliver"
+    link: "http://lig-membres.imag.fr/villanov/"
+publishers:
+  - name: "STeamer team, Laboratoire d'Informatique de Grenoble"
+    link: "http://steamer.imag.fr"
+description: "The TSN-Change ontology aims at describing changes that occured from one version of a Territorial Statistical Nomenclature (TSN) (i.e., partition of the territory) and its subsequent (e.g., change in territorial units boundaries to reflect an administrative reorganisation)."
+keywords: ["Geography", "Geometry", "Government", "Metadata"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/tsnc/versions/2017-05-15.n3
+    name: tsnc.ttl
+    sha256: "b761670df72bb3945c5ffff6a880972ef09dac8bbf24f3706d40d9a1994d6724"
+    size: 42540
+  - url: https://raw.githubusercontent.com/spdx/license-list-data/v3.29.0/text/etalab-2.0.txt
+    name: LICENSE
+    sha256: "f82596bde5c4abc62b4e63b1a3ba555f6b9203a340765fb178d188958600d111"
+    size: 8198
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

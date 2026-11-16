@@ -1,0 +1,19 @@
+namespace: odp
+name: region
+version: "1.1"
+language: owl
+syntax: rdfxml
+roots: [region.owl]
+licenses: ["unknown (fair use)"]
+licenseFiles: [LICENSE]
+dependencies: ["odp/cpannotationschema@2026-10-21"]
+title: "ODP Region"
+authors:
+  - name: "Ontology Design Patterns portal"
+    link: "http://ontologydesignpatterns.org/"
+publishers:
+  - name: "Ontology Design Patterns portal"
+    link: "http://ontologydesignpatterns.org/"
+description: "Ontology design pattern for regions in a space of values, such as amounts or time spans, and the parameters that constrain them."
+keywords: ["ontology design patterns", "regions", "values"]
+originalSources: ["http://ontologydesignpatterns.org"]

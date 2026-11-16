@@ -1,0 +1,24 @@
+namespace: sioc
+name: actions
+version: "2026-11-02"
+language: owl
+syntax: rdfxml
+roots: [actions.rdf]
+licenses: ["CC-BY-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Semantically-Interlinked Online Communities Actions Ontology"
+authors:
+  - name: "SIOC project"
+    link: "http://sioc-project.org/"
+publishers:
+  - name: "SIOC project"
+    link: "http://sioc-project.org/"
+description: "An ontology of predicates for actions in SIOC."
+keywords: ["sioc"]
+originalSources: ["http://rdfs.org/sioc/spec"]
+sources:
+  - url: https://rdfs.org/sioc/actions
+    name: actions.rdf
+    sha256: "5dd9a63d66eab67a615056b956cb421d34c4cd0015e24d9b601c52812a8c5068"
+    size: 7357

@@ -1,0 +1,29 @@
+namespace: rail
+name: rto
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [rto.ttl]
+licenses: ["MPL-2.0"]
+licenseFiles: [LICENSE]
+dependencies: ["uwasystemhealth/iso15926@15926"]
+title: "Rail Topology Ontology"
+authors:
+  - name: "Stefan Bischof"
+    contact: "bischof.stefan@siemens.com"
+publishers:
+  - name: "Siemens AG"
+    link: "https://www.siemens.com/"
+contributors:
+  - name: "Gottfried Schenner"
+description: "The Rail Topology Ontology models foundational rail topology concepts.."
+keywords: ["Transport"]
+sources:
+  - url: https://siemens.github.io/ProductConfigurationWithSHACL/topo/v1.0/ontology.ttl
+    name: rto.ttl
+    sha256: "45429055cc575929b500f144c42fafb4128a13e1eafc88ab0457cd498814a700"
+    size: 64712
+  - url: https://raw.githubusercontent.com/spdx/license-list-data/v3.29.0/text/MPL-2.0.txt
+    name: LICENSE
+    sha256: "66a3107d5ad6a058aab753eaac2047ccb2ed0e39465dd0fe5844da3e300d5172"
+    size: 16727

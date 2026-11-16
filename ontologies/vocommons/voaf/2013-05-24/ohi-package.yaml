@@ -1,0 +1,28 @@
+namespace: vocommons
+name: voaf
+version: "2013-05-24"
+language: owl
+syntax: turtle
+roots: [voaf.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Vocabulary of a Friend"
+authors:
+  - name: "Bernard Vatant"
+publishers:
+  - name: "Open Knowledge Foundation"
+    link: "https://okfn.org/"
+contributors:
+  - name: "Lise Rozat"
+  - name: "Pierre-Yves Vandenbussche"
+description: "A vocabulary to describe linked data vocabularies and their relations."
+keywords: ["Metadata"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/voaf/versions/2013-05-24.n3
+    name: voaf.ttl
+    sha256: "8ff39e5d8a3a8dbe88c790e499f2daa0fc520cd825ebbe59e79a388361839150"
+    size: 25823
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

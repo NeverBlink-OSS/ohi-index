@@ -1,0 +1,24 @@
+namespace: w3c
+name: sosa
+version: "2017"
+language: owl
+syntax: turtle
+roots: [sosa.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "SOSA"
+authors:
+  - name: "W3C/OGC Spatial Data on the Web Working Group"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+  - name: "Open Geospatial Consortium"
+    link: "https://www.ogc.org/"
+description: "Lightweight W3C/OGC vocabulary for sensors, observations, samples and actuators."
+keywords: ["sensors", "observations", "IoT"]
+originalSources: ["https://www.w3.org/TR/vocab-ssn"]
+sources:
+  - url: https://www.w3.org/ns/sosa/sosa.ttl
+    sha256: "c70b0d1c843c0047e4c98e0a89392e46a05752ff6365bda7f7f55303905a0392"
+    size: 27326

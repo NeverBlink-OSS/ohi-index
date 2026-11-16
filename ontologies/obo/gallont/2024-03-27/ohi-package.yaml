@@ -1,0 +1,26 @@
+namespace: obo
+name: gallont
+version: "2024-03-27"
+language: owl
+syntax: rdfxml
+roots: [gallont.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Plant Gall Ontology"
+authors:
+  - name: "Andy Deans"
+    link: "https://github.com/adeans"
+publishers:
+  - name: "Andy Deans"
+    link: "https://github.com/adeans"
+description: "Ontology of plant gall phenotypes."
+keywords: ["phenotype", "OBO"]
+originalSources: ["https://github.com/adeans/gallont", "https://adeans.github.io/gallont"]
+sources:
+  - url: https://github.com/adeans/gallont/blob/v2024-03-27/gallont.owl
+    sha256: "1c2e53c1c130a5de473d5661bddbd18de1328882c281a425baa76fa5fa2c9354"
+    size: 1073876
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

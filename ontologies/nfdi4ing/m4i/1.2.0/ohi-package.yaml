@@ -1,0 +1,51 @@
+namespace: nfdi4ing
+name: m4i
+version: "1.2.0"
+language: owl
+syntax: ntriples
+roots: [m4i.nt]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Metadata4Ing: An ontology for describing the generation of research data within a scientific activity"
+authors:
+  - name: "Metadata4Ing Workgroup"
+publishers:
+  - name: "NFDI4Ing"
+    link: "https://www.nfdi4ing.de/"
+contributors:
+  - name: "Cord Wiljes"
+  - name: "Stephan Hachinger"
+    link: "https://orcid.org/0000-0001-8341-1478"
+  - name: "Ashish Karmacharya"
+  - name: "Susanne Arndt"
+    link: "https://orcid.org/0000-0002-1019-9151"
+  - name: "Johannes Theissen-Lipp"
+    link: "https://orcid.org/0000-0002-2639-1949"
+  - name: "Benjamin Farnbacher"
+    link: "https://orcid.org/0000-0002-1489-6501"
+  - name: "Nils Hoppe"
+  - name: "Martin Thomas Horsch"
+  - name: "Jürgen Windeck"
+  - name: "Dorothea Iglezakis"
+    link: "https://orcid.org/0000-0002-8524-0569"
+  - name: "Džulia Terzijska"
+    link: "https://orcid.org/0000-0002-1698-6826"
+  - name: "Sophia Leimer"
+    link: "https://orcid.org/0000-0001-6272-204X"
+  - name: "Johannes Munke"
+    link: "https://orcid.org/0000-0002-5031-9170"
+  - name: "Johanna Hickmann"
+  - name: "Giacomo Lanza"
+    link: "https://orcid.org/0000-0002-2239-3955"
+description: "Metadata4Ing defines classes and properties or reuses such classes and properties from other ontologies to describe research processes and research data management in NFDI4Ing."
+keywords: ["Academy", "Metadata"]
+originalSources: ["https://nfdi4ing.pages.rwth-aachen.de/metadata4ing/metadata4ing", "https://git.rwth-aachen.de/nfdi4ing/metadata4ing/metadata4ing"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/m4i/versions/2023-09-27.n3
+    name: m4i.nt
+    sha256: "e7cc92d8efefd8bcea19811f2cb033a1088a6b4855670e7f7f24e210bb0d2cbf"
+    size: 213982
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

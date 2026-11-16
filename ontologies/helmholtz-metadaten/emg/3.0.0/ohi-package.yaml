@@ -1,0 +1,82 @@
+namespace: helmholtz-metadaten
+name: emg
+version: "3.0.0"
+language: owl
+syntax: turtle
+roots: [emg.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Electron Microscopy Glossary"
+authors:
+  - name: "Abril Azócar Guzmán"
+    link: "https://orcid.org/0000-0001-7564-7990"
+  - name: "Volker Hofmann"
+    link: "https://orcid.org/0000-0002-5149-603X"
+  - name: "Oonagh Brendike-Mannix"
+    link: "https://orcid.org/0000-0003-0575-2853"
+publishers:
+  - name: "Helmholtz Metadata Collaboration"
+    link: "https://helmholtz-metadaten.de/"
+contributors:
+  - name: "Clemens Mangler"
+    link: "https://orcid.org/0000-0001-5870-4658"
+  - name: "Helmut Kohl"
+    link: "https://orcid.org/0000-0001-6534-4195"
+  - name: "Robert Wendt"
+    link: "https://orcid.org/0000-0001-8480-4775"
+  - name: "Annika Strupp"
+    link: "https://orcid.org/0000-0002-0070-4337"
+  - name: "Ahmad Zainul Ihsan"
+    link: "https://orcid.org/0000-0002-1008-4530"
+  - name: "Peter J. Konijnenberg"
+    link: "https://orcid.org/0000-0002-1278-4928"
+  - name: "Luigia Cristiano"
+    link: "https://orcid.org/0000-0002-1418-0984"
+  - name: "Reetu Elza Joseph"
+    link: "https://orcid.org/0000-0002-1507-9327"
+  - name: "Said Fathalla"
+    link: "https://orcid.org/0000-0002-2818-5890"
+  - name: "Sebastian Slawik"
+    link: "https://orcid.org/0000-0002-3054-8734"
+  - name: "Ines Kisch"
+    link: "https://orcid.org/0000-0002-4499-0355"
+  - name: "Adrien Teurtrie"
+    link: "https://orcid.org/0000-0002-6004-2304"
+  - name: "Christoph Pauly"
+    link: "https://orcid.org/0000-0002-6368-2067"
+  - name: "Cécile Hébert"
+    link: "https://orcid.org/0000-0002-7086-1901"
+  - name: "Markus Kühbach"
+    link: "https://markuskuehbach.wordpress.com"
+  - name: "Simeon Ehrig"
+    link: "https://orcid.org/0000-0002-8218-3116"
+  - name: "Alexander Clausen"
+    link: "https://orcid.org/0000-0002-9555-7455"
+  - name: "Sandor Brockhauser"
+    link: "https://orcid.org/0000-0002-9700-4803"
+  - name: "Pedro Videgain Barranco"
+    link: "https://orcid.org/0000-0003-0000-4784"
+  - name: "Steffen Brinckmann"
+    link: "https://orcid.org/0000-0003-0930-082X"
+  - name: "Özlem Özkan"
+    link: "https://orcid.org/0000-0003-1965-7996"
+  - name: "Markus Wollgarten"
+    link: "https://orcid.org/0000-0003-2285-9329"
+  - name: "Rossella Aversa"
+    link: "https://orcid.org/0000-0003-2534-0063"
+  - name: "Ashish Suri"
+    link: "https://orcid.org/0000-0003-4745-9735"
+  - name: "Rasmus R. Schroeder"
+    link: "https://orcid.org/0009-0008-6410-7217"
+description: "The Electron Microscopy (EM) Glossary is a widespread community effort to harmonize terminology in the electron and ion microscopies."
+keywords: ["material science", "miscellaneous", "ontology", "physics"]
+originalSources: ["https://purls.helmholtz-metadaten.de/emg", "https://codebase.helmholtz.cloud/em_glossary/em_glossary"]
+sources:
+  - url: https://owl.emglossary.helmholtz-metadaten.de/ontology.ttl
+    name: emg.ttl
+    sha256: "7bb7be2a7bac2fe5bc30070104641afcbbaa17c352ded9ba646548a0f99d9f59"
+    size: 176041
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

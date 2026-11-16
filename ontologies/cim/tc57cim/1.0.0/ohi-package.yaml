@@ -1,0 +1,27 @@
+namespace: cim
+name: tc57cim
+version: "1.0.0"
+language: linkml
+syntax: yaml
+roots: [im_tc57cim.schema.linkml.yml]
+patch: im_tc57cim.schema.linkml.patch.yaml
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "IEC Common Information Model"
+authors:
+  - name: "Netbeheer Nederland"
+    link: "https://www.netbeheernederland.nl/"
+publishers:
+  - name: "Netbeheer Nederland"
+    link: "https://www.netbeheernederland.nl/"
+contributors:
+  - name: "Bart Kleijngeld"
+    link: "https://github.com/bartkl"
+description: "IEC TC57 CIM for power system and electricity grid data."
+keywords: ["energy", "power grid", "utilities"]
+originalSources: ["https://github.com/netbeheernederland/tc57cim"]
+sources:
+  - url: https://github.com/netbeheernederland/tc57cim/blob/v1.0.0/LICENSE
+    sha256: "094bedda295c0702807d1027a00e1134f4cb71d523dc49f6d4b3caf589053068"
+    size: 11358

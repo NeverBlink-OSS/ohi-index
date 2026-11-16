@@ -1,0 +1,32 @@
+namespace: cnam
+name: plink
+version: "2015-02-14"
+language: owl
+syntax: turtle
+roots: [plink.ttl]
+licenses: ["etalab-2.0", "ODC-By-1.0", "CC-BY-2.0"]
+licenseFiles: [LICENSE-etalab-2.0, LICENSE-odc-by-1.0, legalcode.txt]
+dependencies: []
+title: "PersonLink Ontology"
+authors:
+  - name: "Elisabeth Métais"
+  - name: "Fayçal Hamdi"
+  - name: "Noura Herradi"
+publishers:
+  - name: "Conservatoire national des arts et métiers"
+    link: "https://www.cnam.fr/"
+description: "A Multilingual and Multicultural Ontology Representing Family Relationships."
+keywords: ["People"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/plink/versions/2015-02-14.n3
+    name: plink.ttl
+    sha256: "322a6dff44b0ae979f3b678a106ead03c720020c263d35ebe8797999e572a083"
+    size: 1015793
+  - url: https://raw.githubusercontent.com/spdx/license-list-data/v3.29.0/text/etalab-2.0.txt
+    name: LICENSE-etalab-2.0
+    sha256: "f82596bde5c4abc62b4e63b1a3ba555f6b9203a340765fb178d188958600d111"
+    size: 8198
+  - url: https://opendatacommons.org/licenses/by/odc_by_1.0_public_text.txt
+    name: LICENSE-odc-by-1.0
+    sha256: "11a6d83734845ad09d809667aa219857a5b985b28c258a2eebf5677668a6bd3b"
+    size: 19977

@@ -1,0 +1,26 @@
+namespace: cocoon
+name: cocoon
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [cocoon.ttl]
+licenses: ["CC-BY-NC-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Cloud Computing Services Ontology"
+authors:
+  - name: "Miranda Zhang"
+    link: "https://github.com/miranda-zhang"
+publishers:
+  - name: "Miranda Zhang"
+    link: "https://github.com/miranda-zhang"
+description: "Simple ontology for Cloud Computing Services."
+keywords: ["Contracts", "Services"]
+sources:
+  - url: https://miranda-zhang.github.io/cloud-computing-schema/v1.0/ontology.ttl
+    name: cocoon.ttl
+    sha256: "efe04cc3e315b983fda40aa2eb3ffb7ea068b4e48c25dde1c7222edb1e5034ba"
+    size: 43445
+  - url: https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt
+    sha256: "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+    size: 19347

@@ -1,0 +1,27 @@
+namespace: ontorep
+name: condo
+version: "0.1"
+language: owl
+syntax: turtle
+roots: [condo.ttl]
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "The COnCEPT upper-level Design Ontology"
+authors:
+  - name: "Julia Kantorovitch"
+  - name: "Jarmo Kalaoja"
+publishers:
+  - name: "VTT Technical Research Centre of Finland"
+    link: "https://www.vttresearch.com/"
+description: "The COnCEPT upper-level Design Ontology (COnDO)."
+keywords: ["engineering", "nfdi4ing", "ontology"]
+originalSources: ["https://github.com/OntoRep/COnCEPT"]
+sources:
+  - url: https://github.com/OntoRep/COnCEPT/blob/48a1b777985883baf1bda0d36b022fb87b463489/COnDO.ttl
+    name: condo.ttl
+    sha256: "22269c2d76a58359d3e0881a8be5b1b92fa3548e4151b0fc2bfe995014a54639"
+    size: 18162
+  - url: https://github.com/OntoRep/COnCEPT/blob/48a1b777985883baf1bda0d36b022fb87b463489/LICENSE
+    sha256: "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+    size: 11357

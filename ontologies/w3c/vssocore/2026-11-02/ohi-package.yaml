@@ -1,0 +1,31 @@
+namespace: w3c
+name: vssocore
+version: "2026-11-02"
+language: owl
+syntax: turtle
+roots: [vssocore.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Vehicle Signal Specification Core Ontology"
+authors:
+  - name: "Benjamin Klotz"
+  - name: "Raphaël Troncy"
+  - name: "Daniel Wilms"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+contributors:
+  - name: "Daniel Alvarez-Coello"
+  - name: "Felix Loesch"
+description: "This ontology describes the car's attributes, branches and signals defined in the Vehicle Signal Specification."
+keywords: ["fid move", "nfdi4ing", "ontology", "traffic engineering"]
+originalSources: ["https://github.com/w3c/vsso", "https://www.w3.org/TR/2022/WD-vsso-core-20220303"]
+sources:
+  - url: https://github.com/w3c/vsso/blob/34265a2ee01acfeb8807e07226ca9f58159c6aba/spec/vsso-core.ttl
+    name: vssocore.ttl
+    sha256: "daf21d00e58513dec1e964518f8a26883970f6aa48c6c854b0118e2f5e3b44c9"
+    size: 9205
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

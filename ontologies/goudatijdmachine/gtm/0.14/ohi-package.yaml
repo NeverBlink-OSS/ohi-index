@@ -1,0 +1,31 @@
+namespace: goudatijdmachine
+name: gtm
+version: "0.14"
+language: owl
+syntax: turtle
+roots: [gtm.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Gouda Time Machine Ontology"
+authors:
+  - name: "Bob Coret"
+    link: "https://bob.coret.org/"
+publishers:
+  - name: "Gouda Time Machine"
+    link: "https://www.goudatijdmachine.nl"
+contributors:
+  - name: "Historical Society Die Goude"
+    link: "https://www.diegoude.nl/"
+  - name: "Streekarchief Midden-Holland"
+    link: "https://www.samh.nl/"
+description: "The Gouda Time Machine Ontology describes the geo-temporal classes and properties used within the Gouda Time Machine."
+keywords: ["Geography", "Time"]
+sources:
+  - url: https://www.goudatijdmachine.nl/def/ontology.ttl
+    name: gtm.ttl
+    sha256: "d5db222251aa5c500c50fc4470b2f8ef13745b1114e33e8ff0179219175e53e0"
+    size: 107016
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,28 @@
+namespace: airr-knowledge
+name: ak-schema
+version: "0.5.0"
+language: linkml
+syntax: yaml
+roots: [ak-schema.yaml]
+patch: ak-schema.patch.yaml
+licenses: ["GPL-3.0-only"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "ak-schema"
+authors:
+  - name: "Scott Christley"
+    contact: "scott.christley@utsouthwestern.edu"
+publishers:
+  - name: "AIRR Knowledge Commons"
+    link: "https://airr-knowledge.org"
+description: "AIRR Knowledge Schema."
+keywords: ["Computer Science"]
+originalSources: ["https://github.com/airr-knowledge/ak-schema"]
+sources:
+  - url: https://github.com/airr-knowledge/ak-schema/blob/v0.5.0/project/linkml/ak_schema.yaml
+    name: ak-schema.yaml
+    sha256: "ddaf2662a7fee22951d2204e91aed8a4f09e6cff8c9de6963d6d80575b059ad9"
+    size: 197714
+  - url: https://github.com/airr-knowledge/ak-schema/blob/v0.5.0/LICENSE
+    sha256: "ca372a7d92560b1fa9f6d832b440e8bcd62d9adfa8870c98287deab66d98310e"
+    size: 35148

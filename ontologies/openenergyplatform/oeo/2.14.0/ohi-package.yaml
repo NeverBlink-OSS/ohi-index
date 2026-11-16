@@ -1,0 +1,76 @@
+namespace: openenergyplatform
+name: oeo
+version: "2.14.0"
+language: owl
+syntax: rdfxml
+roots: [oeo.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Open Energy Ontology"
+authors:
+  - name: "OEO Developer Team"
+    link: "https://openenergyplatform.org/ontology/"
+publishers:
+  - name: "OEO Developer Team"
+    link: "https://openenergyplatform.org/ontology/"
+contributors:
+  - name: "Lukas Emele"
+  - name: "Mirjam Stappel"
+  - name: "Anna Kleinau"
+  - name: "Janna Hastings"
+  - name: "Vera Sehn"
+  - name: "Hannah Förster"
+  - name: "Patrick Kuckertz"
+  - name: "Carsten Hoyer-Klick"
+  - name: "Christian Hofmann"
+  - name: "Kevin Knosala"
+  - name: "Ludwig Hülk"
+  - name: "Izzet Kilicarslan"
+  - name: "Franziska Drathschmidt"
+  - name: "Simon Flügel"
+  - name: "Ulrich Frey"
+  - name: "Christoph Muschner"
+  - name: "Christian Winger"
+  - name: "Fabian Neuhaus"
+  - name: "Lara Christmann"
+  - name: "Martin Glauer"
+  - name: "Pierre-Francois Duc"
+  - name: "Sebastian Cordes"
+  - name: "Michaja Pehl"
+  - name: "Kai Schnepf"
+  - name: "Till Mossakowski"
+  - name: "Alexander Stage"
+  - name: "Hedda Gardian"
+  - name: "Eugenio Salvador Arellano Ruiz"
+  - name: "Markus Rothkötter"
+  - name: "Linda Rülicke"
+  - name: "Alexandra Seibicke"
+  - name: "Ludwig Mittermeier"
+  - name: "Ulf Müller"
+  - name: "Nele Köhler"
+  - name: "Hannah Spinde"
+  - name: "Viktor Wichern"
+  - name: "Norman Zielke"
+  - name: "Uwe Stucky"
+  - name: "Madeleine Breitkreutz"
+  - name: "Lilly Gerlach"
+  - name: "Colin Heidfeld"
+  - name: "Jan Sören Schwarz"
+  - name: "Finn Niklas Peters"
+  - name: "Amanda Wein"
+  - name: "Ahlem Rhayem"
+description: "OEO is a domain reference ontology for energy system modeling."
+keywords: ["energy", "energy engineering", "engineering", "mechanical engineering, energy technology", "nfdi4energy", "nfdi4ing", "ontology"]
+originalSources: ["https://openenergyplatform.org/ontology", "https://github.com/OpenEnergyPlatform/ontology"]
+publications:
+  - title: "Introducing the Open Energy Ontology: Enhancing data interpretation and interfacing in energy systems analysis"
+    link: "https://doi.org/10.1016/j.egyai.2021.100074"
+sources:
+  - url: https://openenergyplatform.org/ontology/oeo/dev/oeo-full.owl
+    name: oeo.owl
+    sha256: "fd9c47d107ab5dff2d553aab7d15bfcdfd6045c72fd4071b5d6d29d304540b0a"
+    size: 3904815
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

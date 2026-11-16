@@ -1,0 +1,26 @@
+namespace: obo
+name: clyh
+version: "2020-05-28"
+language: owl
+syntax: rdfxml
+roots: [clyh.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Clytia hemisphaerica Development and Anatomy Ontology"
+authors:
+  - name: "EMBL-EBI Samples, Phenotypes and Ontologies Team"
+    link: "https://www.ebi.ac.uk/spot/"
+publishers:
+  - name: "EMBL-EBI Samples, Phenotypes and Ontologies Team"
+    link: "https://www.ebi.ac.uk/spot/"
+description: "The Clytia hemisphaerica Development and Anatomy Ontology (CLYH) describes the anatomical and developmental features of the Clytia hemisphaerica life cycle."
+keywords: ["anatomy and development", "OBO"]
+originalSources: ["https://github.com/EBISPOT/clyh_ontology"]
+sources:
+  - url: https://github.com/EBISPOT/clyh_ontology/blob/v28-05-20/clyh.owl
+    sha256: "d53b1006e3d710fdef0a15f8aa7bdb51378b819ab5a2881c3ab5582673a4b4ea"
+    size: 290499
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

@@ -1,0 +1,27 @@
+namespace: rml
+name: rml-fnml
+version: "0.1.0"
+language: owl
+syntax: turtle
+roots: [rml-fnml.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "RML-FNML"
+authors:
+  - name: "Ana Iglesias Molina"
+  - name: "Samaneh Jozashoori"
+  - name: "Ben de Meester"
+publishers:
+  - name: "W3C Knowledge Graph Construction Community Group"
+    link: "https://www.w3.org/community/kg-construct/"
+description: "RML-FNML provides data transformations for generating knowledge graphs from (semi-)structured data."
+keywords: ["RDF", "RML", "W3C Rec"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/rml-fnml/versions/2023-06-15.n3
+    name: rml-fnml.ttl
+    sha256: "1d82c5e5fc9bfa22de770ebdc0119fad045baafb058250528e75b19b830e1157"
+    size: 11068
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

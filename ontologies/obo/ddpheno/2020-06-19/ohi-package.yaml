@@ -1,0 +1,29 @@
+namespace: obo
+name: ddpheno
+version: "2020-06-19"
+language: owl
+syntax: rdfxml
+roots: [ddpheno.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Dictyostelium discoideum phenotype ontology"
+authors:
+  - name: "dictyBase"
+    link: "https://dictybase.org/"
+publishers:
+  - name: "dictyBase"
+    link: "https://dictybase.org/"
+description: "A structured controlled vocabulary of phenotypes of the slime-mould <i>Dictyostelium discoideum</i>."
+keywords: ["anatomy and development", "OBO"]
+originalSources: ["https://github.com/obophenotype/dicty-phenotype-ontology", "http://dictybase.org"]
+publications:
+  - title: "dictyBase and the Dicty Stock Center (version 2.0) - a progress report"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/31840793"
+sources:
+  - url: https://github.com/obophenotype/dicty-phenotype-ontology/blob/v2020-06-19/ddpheno.owl
+    sha256: "67d3e113e71a2ba086117af906167e9d1f522aa0da9c04417924be14b9628561"
+    size: 1634152
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

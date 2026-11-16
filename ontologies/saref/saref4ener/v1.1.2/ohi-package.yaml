@@ -1,0 +1,25 @@
+namespace: saref
+name: saref4ener
+version: "v1.1.2"
+language: owl
+syntax: turtle
+roots: [saref4ener.ttl]
+licenses: ["BSD-3-Clause"]
+licenseFiles: [LICENSE]
+dependencies: ["saref/saref-core@v3.1.1"]
+title: "SAREF4ENER"
+authors:
+  - name: "Laura Daniele"
+publishers:
+  - name: "European Telecommunications Standards Institute"
+    link: "https://www.etsi.org/"
+description: "SAREF extension for energy devices and flexible energy use."
+keywords: ["energy", "IoT", "smart appliances"]
+originalSources: ["https://saref.etsi.org/saref4ener"]
+sources:
+  - url: https://saref.etsi.org/saref4ener/v1.1.2/saref4ener.ttl
+    sha256: "4c261133005323aaae7f129440f6b5218a49dd1df6f8772372a43dd937831142"
+    size: 66496
+  - url: https://labs.etsi.org/rep/saref/saref4ener/-/raw/4226ebe9b4bb55489dcb9d59a44ed37454972f18/LICENSE
+    sha256: "8f102e377f1ad7ed9fa90d9dd6cb9ab75e071949dcdb8cb413a10dc98d80b9d4"
+    size: 1475

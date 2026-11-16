@@ -1,0 +1,24 @@
+namespace: cartcoord
+name: cart
+version: "2015-07-03"
+language: owl
+syntax: ntriples
+roots: [cart.nt]
+licenses: ["CC-BY-SA-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "cartCoordOnt"
+authors:
+  - name: "Diarmuid Ryan"
+publishers:
+  - name: "Diarmuid Ryan"
+description: "Ontology for representation of cartesian co-ordinates."
+keywords: ["Geography", "Geometry"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/cart/versions/2015-07-03.n3
+    name: cart.nt
+    sha256: "c03d26a5ffe65049e0bc00b6e98939957dccb7247a9c76f57ae8c4f7aadc939d"
+    size: 4843
+  - url: https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt
+    sha256: "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+    size: 20138

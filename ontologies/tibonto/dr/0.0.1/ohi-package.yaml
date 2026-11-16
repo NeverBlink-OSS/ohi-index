@@ -1,0 +1,27 @@
+namespace: tibonto
+name: dr
+version: "0.0.1"
+language: owl
+syntax: turtle
+roots: [dr.ttl]
+licenses: ["GPL-3.0-only"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Digital Reference"
+authors:
+  - name: "TIB Onto"
+    link: "https://projects.tib.eu/datamanager/ontologies/"
+publishers:
+  - name: "TIB Onto"
+    link: "https://projects.tib.eu/datamanager/ontologies/"
+description: "Holistic Ontology for semiconductor manufacturing and development, products and systems containing semiconductors and connected supply chains."
+keywords: ["coypu", "economics", "electrical engineering", "nfdi4ing", "ontology"]
+originalSources: ["https://github.com/tibonto/dr"]
+sources:
+  - url: https://github.com/tibonto/dr/blob/v0.0.1/DigitalReference.ttl
+    name: dr.ttl
+    sha256: "9b43e77a1c413b430c5562a72d5cd5c64e717783322043eb1c523185ab4b609d"
+    size: 1023509
+  - url: https://github.com/tibonto/dr/blob/v0.0.1/LICENSE
+    sha256: "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    size: 35149

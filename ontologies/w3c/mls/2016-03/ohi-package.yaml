@@ -1,0 +1,24 @@
+namespace: w3c
+name: mls
+version: "2016-03"
+language: owl
+syntax: turtle
+roots: [mls.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Machine Learning Schema"
+authors:
+  - name: "W3C Machine Learning Schema Community Group"
+    link: "https://www.w3.org/community/ml-schema/"
+publishers:
+  - name: "W3C Machine Learning Schema Community Group"
+    link: "https://www.w3.org/community/ml-schema/"
+description: "ML-Schema is a collaborative, community effort with a mission to develop, maintain, and promote standard schemas for data mining and machine learning algorithms, datasets, and experiments."
+keywords: ["Methods", "Support"]
+originalSources: ["http://ml-schema.github.io/documentation"]
+sources:
+  - url: https://www.w3.org/ns/mls
+    name: mls.ttl
+    sha256: "fa3570a709ab7cf3c979175805589cfdee52b4f9ef2f44fe33d4476408cf0fe2"
+    size: 50079

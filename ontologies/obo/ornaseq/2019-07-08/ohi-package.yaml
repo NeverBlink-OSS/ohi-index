@@ -1,0 +1,28 @@
+namespace: obo
+name: ornaseq
+version: "2019-07-08"
+language: owl
+syntax: rdfxml
+roots: [ornaseq.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Ontology of RNA Sequencing"
+authors:
+  - name: "Stephen A. Fisher"
+    link: "http://kim.bio.upenn.edu"
+publishers:
+  - name: "Stephen A. Fisher"
+    link: "http://kim.bio.upenn.edu"
+contributors:
+  - name: "Junhyong Kim"
+description: "An application ontology designed to annotate next-generation sequencing experiments performed on RNA."
+keywords: ["investigations", "OBO"]
+originalSources: ["https://github.com/safisher/ornaseq", "http://kim.bio.upenn.edu/software/ornaseq.shtml"]
+sources:
+  - url: https://github.com/safisher/ornaseq/blob/2019-07-08/ornaseq.owl
+    sha256: "b69d8eaf186dbfceea263931fd981174d42dbcdcdc5beeed469141bce16c6243"
+    size: 166036
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

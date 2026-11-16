@@ -1,0 +1,29 @@
+namespace: obo
+name: pso
+version: "2025-12-16"
+language: owl
+syntax: rdfxml
+roots: [pso.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Plant Stress Ontology"
+authors:
+  - name: "The Planteome Project"
+    link: "http://www.planteome.org/"
+publishers:
+  - name: "The Planteome Project"
+    link: "http://www.planteome.org/"
+description: "The Plant Stress Ontology describes biotic and abiotic stresses that a plant may encounter."
+keywords: ["agriculture", "plant disease", "abiotic stress", "OBO"]
+originalSources: ["https://github.com/Planteome/plant-stress-ontology"]
+publications:
+  - title: "The Planteome database: an integrated resource for reference ontologies, plant genomics and phenomics."
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/29186578"
+sources:
+  - url: https://github.com/Planteome/plant-stress-ontology/blob/v2025-12-16/pso.owl
+    sha256: "0711df422155ffb5601f0016ab7ef821f760c15a6bb9a6500621029356a14646"
+    size: 7539191
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

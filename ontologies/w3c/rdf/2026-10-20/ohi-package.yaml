@@ -1,0 +1,24 @@
+namespace: w3c
+name: rdf
+version: "2026-10-20"
+language: rdfs
+syntax: turtle
+roots: [22-rdf-syntax-ns.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "RDF vocabulary"
+authors:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "The core vocabulary of RDF: types, properties, statements, lists and containers."
+keywords: ["RDF", "semantic web"]
+originalSources: ["https://www.w3.org/TR/rdf11-concepts"]
+sources:
+  - url: https://www.w3.org/1999/02/22-rdf-syntax-ns
+    name: 22-rdf-syntax-ns.ttl
+    sha256: "93d52b1a5824c7dd6504ca79c16205c0b740a0ba68b7a14952780f52561186a2"
+    size: 6004

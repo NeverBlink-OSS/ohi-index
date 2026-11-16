@@ -1,0 +1,23 @@
+namespace: lcc
+name: language-representation
+version: "20211101"
+language: owl
+syntax: rdfxml
+roots: [LanguageRepresentation.rdf]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "OMG LCC Language Representation"
+authors:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+publishers:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+description: "Languages and the code sets that identify them."
+keywords: ["OMG LCC", "languages"]
+originalSources: ["https://www.omg.org/spec/LCC"]
+sources:
+  - url: https://www.omg.org/spec/LCC/20211101/Languages/LanguageRepresentation.rdf
+    sha256: "534744f6bedd336ca86702dc880bc185064b78674bd7b748752d16f6a69de7b5"
+    size: 50471

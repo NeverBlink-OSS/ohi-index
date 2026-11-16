@@ -1,0 +1,27 @@
+namespace: commons
+name: contextual-designators
+version: "20221101"
+language: owl
+syntax: rdfxml
+roots: [ContextualDesignators.rdf]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["commons/annotation-vocabulary@20250801", "commons/collections@20221101", "commons/dates-and-times@20250801", "commons/designators@20250801"]
+title: "OMG Commons Contextual Designators"
+authors:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+publishers:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+contributors:
+  - name: "Dean Allemang"
+  - name: "Elisa Kendall"
+  - name: "Pete Rivett"
+description: "Designators that apply in a context or for a period of time."
+keywords: ["OMG Commons", "names", "identifiers"]
+originalSources: ["https://www.omg.org/spec/Commons"]
+sources:
+  - url: https://www.omg.org/spec/Commons/20221101/ContextualDesignators.rdf
+    sha256: "4e41eeaf046261ef04d0ec2a69d1307fe3c377c7b103ffe04d4171b71bb06353"
+    size: 8907

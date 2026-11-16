@@ -1,0 +1,32 @@
+namespace: spar
+name: frbr
+version: "1.0.1"
+language: owl
+syntax: rdfxml
+roots: [frbr.rdf]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "SPAR FRBR-aligned Bibliographic Ontology"
+authors:
+  - name: "Paolo Ciccarese"
+    link: "https://orcid.org/0000-0002-5156-2703"
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+contributors:
+  - name: "David Shotton"
+    link: "http://opencitations.net"
+description: "The FRBR model of works, expressions, manifestations and items as an OWL 2 DL ontology."
+keywords: ["bibliographic data", "FRBR", "publishing"]
+originalSources: ["https://github.com/SPAROntologies/frbr"]
+sources:
+  - url: https://sparontologies.github.io/frbr/2018-03-29/frbr.xml
+    name: frbr.rdf
+    sha256: "40e0af7ce674371d14e29a8b9f019142de9f6087f3c27ed2e27d4c6d502f82eb"
+    size: 100643
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

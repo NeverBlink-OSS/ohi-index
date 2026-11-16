@@ -1,0 +1,29 @@
+namespace: eccenca
+name: pubsub
+version: "1.0.0"
+language: owl
+syntax: turtle
+roots: [pubsub.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Eccenca Publish-Subscribe Vocabulary"
+authors:
+  - name: "Marvin Frommhold"
+    link: "https://ns.eccenca.com/mfrommhold"
+  - name: "Sebastian Tramp"
+    link: "http://sebastian.tramp.name"
+publishers:
+  - name: "eccenca GmbH"
+    link: "https://eccenca.com/"
+description: "The eccenca Publish-Subscribe Vocabulary defines concepts and relations to create statements about publishers, subscribers and their subscriptions in a Publish-Subscribe environment based on the PubSubHubbub Core 0.4 specification."
+keywords: ["API", "Services"]
+originalSources: ["https://github.com/eccenca/eccpubsub-vocab"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/pubsub/versions/2016-07-12.n3
+    name: pubsub.ttl
+    sha256: "1fdafcd8eecee0b0edcac6536947c671fad9f0b211a555e41840c809cbcf9459"
+    size: 32032
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

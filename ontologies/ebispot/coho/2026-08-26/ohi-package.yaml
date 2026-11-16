@@ -1,0 +1,26 @@
+namespace: ebispot
+name: coho
+version: "2026-08-26"
+language: owl
+syntax: rdfxml
+roots: [coho.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Cohort Ontology"
+authors:
+  - name: "EMBL-EBI Samples, Phenotypes and Ontologies Team"
+    link: "https://www.ebi.ac.uk/spot/"
+publishers:
+  - name: "EMBL-EBI Samples, Phenotypes and Ontologies Team"
+    link: "https://www.ebi.ac.uk/spot/"
+description: "A lightweight ontology for consistent identification and description of human cohorts."
+keywords: ["ontology"]
+originalSources: ["https://github.com/EBISPOT/cohort-ontology"]
+sources:
+  - url: https://github.com/EBISPOT/cohort-ontology/blob/2026-08-26/coho.owl
+    sha256: "263c830b3a91995a248c80e89b9dd13da755c96dce410d523606a747d58fc709"
+    size: 516659
+  - url: https://github.com/EBISPOT/cohort-ontology/blob/2026-08-26/LICENSE
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

@@ -1,0 +1,27 @@
+namespace: monarch-initiative
+name: cde-harmonization
+version: "1.0.0"
+language: linkml
+syntax: yaml
+roots: [cde-harmonization.yaml]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "cde-harmonization"
+authors:
+  - name: "Monarch Initiative"
+    link: "https://monarchinitiative.org/"
+publishers:
+  - name: "Monarch Initiative"
+    link: "https://monarchinitiative.org/"
+description: "Initial private repo for P1 CDE harmonization."
+keywords: ["Schema"]
+originalSources: ["https://github.com/monarch-initiative/cde-harmonization"]
+sources:
+  - url: https://github.com/monarch-initiative/cde-harmonization/blob/2f57e86b4e604b008c874817f9815f2eec1ef3d9/linkml/cric_schema.yaml
+    name: cde-harmonization.yaml
+    sha256: "a807f365fe62d030e274cf74e7b4db3a2794639ca237c583e6b8e9f1a1edb880"
+    size: 368139
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

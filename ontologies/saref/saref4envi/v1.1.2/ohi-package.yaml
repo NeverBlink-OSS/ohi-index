@@ -1,0 +1,29 @@
+namespace: saref
+name: saref4envi
+version: "v1.1.2"
+language: owl
+syntax: turtle
+roots: [saref4envi.ttl]
+licenses: ["BSD-3-Clause"]
+licenseFiles: [LICENSE]
+dependencies: ["saref/saref-core@v3.2.1"]
+title: "SAREF4ENVI"
+authors:
+  - name: "María Poveda-Villalón"
+  - name: "Raúl García-Castro"
+publishers:
+  - name: "European Telecommunications Standards Institute"
+    link: "https://www.etsi.org/"
+contributors:
+  - name: "Maxime Lefrançois"
+    link: "http://maxime-lefrancois.info/"
+description: "SAREF extension for environmental monitoring, such as light and air quality."
+keywords: ["environment", "IoT", "monitoring"]
+originalSources: ["https://saref.etsi.org/saref4envi"]
+sources:
+  - url: https://saref.etsi.org/saref4envi/v1.1.2/saref4envi.ttl
+    sha256: "2aea9d0ae0fe86b0dbedc9745b7288ea759b3494e06bc60f50d412257bc3a605"
+    size: 53671
+  - url: https://labs.etsi.org/rep/saref/saref4envi/-/raw/042b374561783bba78c968a58c8ff823e1621c23/LICENSE
+    sha256: "cef08f53c72a0871b711a77a725182ea2b0aac57e394c5f6d81dd10a00e58024"
+    size: 1475

@@ -1,0 +1,27 @@
+namespace: spar
+name: fivestars
+version: "1.0"
+language: owl
+syntax: rdfxml
+roots: [fivestars.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE.md]
+dependencies: []
+title: "SPAR Five Stars of Online Journal Articles Ontology"
+authors:
+  - name: "David Shotton"
+    link: "http://opencitations.net"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+description: "Ontology for rating journal articles on the five stars of online publishing."
+keywords: ["scholarly publications", "open access"]
+originalSources: ["https://github.com/SPAROntologies/fivestars"]
+sources:
+  - url: https://sparontologies.github.io/fivestars/2012-01-16/fivestars.xml
+    name: fivestars.rdf
+    sha256: "a11222d224cea632abfdcaeb9d8cfde3bd9429af7ab26852c64c783f29d58239"
+    size: 9384
+  - url: https://github.com/SPAROntologies/fivestars/blob/1a709d91df785f67cf3ad08ee6aba84a348d0607/LICENSE.md
+    sha256: "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    size: 18656

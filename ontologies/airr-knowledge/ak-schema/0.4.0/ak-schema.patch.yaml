@@ -1,0 +1,62 @@
+# JSON Patch (RFC 6902) the hub applies to ak-schema.yaml before publishing it.
+# README.md says what each change is for.
+- op: move
+  from: /enums/StrandEnum/permissible_values/+
+  path: /enums/StrandEnum/permissible_values/plus_sign
+- op: replace
+  path: /enums/StrandEnum/permissible_values/plus_sign/text
+  value: plus_sign
+- op: add
+  path: /enums/StrandEnum/permissible_values/plus_sign/aliases
+  value:
+  - +
+- op: move
+  from: /enums/StrandEnum/permissible_values/-
+  path: /enums/StrandEnum/permissible_values/hyphen_minus
+- op: replace
+  path: /enums/StrandEnum/permissible_values/hyphen_minus/text
+  value: hyphen_minus
+- op: add
+  path: /enums/StrandEnum/permissible_values/hyphen_minus/aliases
+  value:
+  - '-'
+- op: move
+  from: /enums/V1p5StrandEnum/permissible_values/+
+  path: /enums/V1p5StrandEnum/permissible_values/plus_sign
+- op: replace
+  path: /enums/V1p5StrandEnum/permissible_values/plus_sign/text
+  value: plus_sign
+- op: add
+  path: /enums/V1p5StrandEnum/permissible_values/plus_sign/aliases
+  value:
+  - +
+- op: move
+  from: /enums/V1p5StrandEnum/permissible_values/-
+  path: /enums/V1p5StrandEnum/permissible_values/hyphen_minus
+- op: replace
+  path: /enums/V1p5StrandEnum/permissible_values/hyphen_minus/text
+  value: hyphen_minus
+- op: add
+  path: /enums/V1p5StrandEnum/permissible_values/hyphen_minus/aliases
+  value:
+  - '-'
+- op: move
+  from: /enums/V1p4StrandEnum/permissible_values/+
+  path: /enums/V1p4StrandEnum/permissible_values/plus_sign
+- op: replace
+  path: /enums/V1p4StrandEnum/permissible_values/plus_sign/text
+  value: plus_sign
+- op: add
+  path: /enums/V1p4StrandEnum/permissible_values/plus_sign/aliases
+  value:
+  - +
+- op: move
+  from: /enums/V1p4StrandEnum/permissible_values/-
+  path: /enums/V1p4StrandEnum/permissible_values/hyphen_minus
+- op: replace
+  path: /enums/V1p4StrandEnum/permissible_values/hyphen_minus/text
+  value: hyphen_minus
+- op: add
+  path: /enums/V1p4StrandEnum/permissible_values/hyphen_minus/aliases
+  value:
+  - '-'

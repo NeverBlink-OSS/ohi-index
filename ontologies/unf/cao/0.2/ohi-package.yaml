@@ -1,0 +1,26 @@
+namespace: unf
+name: cao
+version: "0.2"
+language: owl
+syntax: rdfxml
+roots: [cao.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Chemical Analysis Ontology"
+authors:
+  - name: "Stuart Chalk"
+publishers:
+  - name: "Stuart Chalk"
+contributors:
+  - name: "Antony Williams"
+description: "An ontology developed as part of the Chemical Analysis Metadata Project (ChAMP) as a resource to semantically annotate standards developed using the ChAMP platform."
+keywords: ["analytical chemistry", "characterisation data heat", "chemistry", "nfdi4cat", "ontology", "transport and kinetic data"]
+originalSources: ["https://champ.stuchalk.domains.unf.edu", "https://github.com/stuchalk/chemical-analysis-ontology"]
+sources:
+  - url: https://champ.stuchalk.domains.unf.edu/images/ontology/cao.owl
+    sha256: "5fefd0f0420c7b45b81d0b0aab07ef6ea1dade0e4d80a10a0ea78d4877d7f554"
+    size: 357238
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

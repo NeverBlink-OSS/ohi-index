@@ -1,0 +1,29 @@
+namespace: tribont
+name: tribont-core
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [tribont-core.ttl]
+licenses: ["CC-BY-NC-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["ischaracterisedby/icb@1.0"]
+title: "Core module"
+authors:
+  - name: "Patricia Casla"
+publishers:
+  - name: "Tekniker"
+    link: "https://www.tekniker.es/"
+contributors:
+  - name: "Izaskun Fernández"
+  - name: "Iban Quintana"
+  - name: "Xana Fernandez"
+description: "The goal of this module is to represent the common classes, and object and data properties included in two or more modules of the TribOnt ontology."
+keywords: ["Methods"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/tribont-core/versions/2023-05-30.n3
+    name: tribont-core.ttl
+    sha256: "d31ed47cebad89a1c61e0bc356e9cc71a3264bd2ec5605f926df72d55ebb9aa4"
+    size: 221674
+  - url: https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt
+    sha256: "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+    size: 19347

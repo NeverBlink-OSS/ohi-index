@@ -1,0 +1,37 @@
+namespace: obo
+name: apollo_sv
+version: "2024-12-24"
+language: owl
+syntax: rdfxml
+roots: [apollo_sv.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Apollo Structured Vocabulary"
+authors:
+  - name: "Mathias Brochhausen"
+publishers:
+  - name: "The Apollo Development Team"
+    link: "https://github.com/ApolloDev"
+contributors:
+  - name: "Amanda Hicks"
+  - name: "John Levander"
+  - name: "Josh Hanna"
+  - name: "Matthew Diller"
+  - name: "Mike Wagner"
+  - name: "Shawn T. Brown"
+  - name: "William R. Hogan"
+    link: "https://orcid.org/0000-0002-9881-1017"
+description: "An OWL2 ontology of phenomena in infectious disease epidemiology and population biology for use in epidemic simulation."
+keywords: ["health", "OBO"]
+originalSources: ["https://github.com/ApolloDev/apollo-sv"]
+publications:
+  - title: "The Apollo Structured Vocabulary: an OWL2 ontology of phenomena in infectious disease epidemiology and population biology for use in epidemic simulation"
+    link: "https://doi.org/10.1186/s13326-016-0092-y"
+sources:
+  - url: https://github.com/ApolloDev/apollo-sv/blob/v2024-12-24/apollo_sv.owl
+    sha256: "8ab1e13d2fb9f795a5dca1149a71810783e0a02b4d134c43834bb939da1c5b68"
+    size: 2694588
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

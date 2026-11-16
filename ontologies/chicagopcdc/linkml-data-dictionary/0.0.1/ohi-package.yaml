@@ -1,0 +1,27 @@
+namespace: chicagopcdc
+name: linkml-data-dictionary
+version: "0.0.1"
+language: linkml
+syntax: yaml
+roots: [linkml-data-dictionary.yaml]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Really basic LinkML model"
+authors:
+  - name: "Pediatric Cancer Data Commons"
+    link: "https://commons.cri.uchicago.edu/"
+publishers:
+  - name: "Pediatric Cancer Data Commons"
+    link: "https://commons.cri.uchicago.edu/"
+description: "Define the data dictionary using LinkML for data validation and reusable artifacts."
+keywords: ["Computer Science"]
+originalSources: ["https://github.com/chicagopcdc/linkml-data-dictionary"]
+sources:
+  - url: https://github.com/chicagopcdc/linkml-data-dictionary/blob/077b1368396a9934e9e6f0e5ffee5f14077a4277/linkml_data_dictionary/model/schema/sample_model.yaml
+    name: linkml-data-dictionary.yaml
+    sha256: "d55355a1dae4ff58ce6e7cab2cdb1b7c6d3ecdb03103dca28c7b4f0e95ebbf53"
+    size: 931
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

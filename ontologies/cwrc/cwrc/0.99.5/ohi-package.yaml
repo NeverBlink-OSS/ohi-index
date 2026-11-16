@@ -1,0 +1,34 @@
+namespace: cwrc
+name: cwrc
+version: "0.99.5"
+language: owl
+syntax: turtle
+roots: [cwrc.ttl]
+licenses: ["CC-BY-NC-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The CWRC Ontology"
+authors:
+  - name: "Abigel Lemak"
+  - name: "Alliyya Mo"
+  - name: "Colin Faulkner"
+  - name: "Jade Penancier"
+  - name: "John Simpson"
+  - name: "Kim Martin"
+  - name: "Robert Warren"
+    link: "http://www.dbdump.org/"
+  - name: "Susan Brown"
+    link: "http://www.uoguelph.ca/~sbrown/"
+publishers:
+  - name: "The Canadian Writing Research Collaboratory"
+    link: "http://www.cwrc.ca/"
+description: "The CWRC Ontology is the ontology of the Canadian Writing Research Collaboratory."
+keywords: ["People", "Society"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/cwrc/versions/2017-08-06.n3
+    name: cwrc.ttl
+    sha256: "ff318dc83d2dd139464cbe0d8b6310629049a4614617652f50d077dfc0c55018"
+    size: 666140
+  - url: https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt
+    sha256: "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+    size: 19347

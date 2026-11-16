@@ -1,0 +1,27 @@
+namespace: w3c
+name: hydra
+version: "2015-01-11"
+language: rdfs
+syntax: turtle
+roots: [hydra.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The Hydra Core Vocabulary"
+authors:
+  - name: "Hydra W3C Community Group"
+    link: "https://www.w3.org/community/hydra/"
+publishers:
+  - name: "Hydra W3C Community Group"
+    link: "https://www.w3.org/community/hydra/"
+description: "A lightweight vocabulary for hypermedia-driven Web APIs."
+keywords: ["RDF"]
+originalSources: ["http://www.w3.org/ns/hydra/spec/latest/core"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/hydra/versions/2015-01-11.n3
+    name: hydra.ttl
+    sha256: "95bd406681e3ba793b5ce8e604c7ac8545e90179d65b2affb9a67cccdff125f8"
+    size: 35745
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,14 @@
+# JSON Patch (RFC 6902) the hub applies to ontology-metadata.yaml before publishing it.
+# README.md says what each change is for.
+- op: add
+  path: /prefixes/dcterm
+  value: http://purl.org/dc/terms/
+- op: add
+  path: /prefixes/vann
+  value: http://purl.org/vocab/vann/
+- op: add
+  path: /prefixes/doap
+  value: http://usefulinc.com/ns/doap#
+- op: add
+  path: /prefixes/mod
+  value: https://w3id.org/mod#

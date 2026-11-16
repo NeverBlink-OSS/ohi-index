@@ -1,0 +1,33 @@
+namespace: ontogsn
+name: gsn
+version: "1.2"
+language: owl
+syntax: turtle
+roots: [gsn.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "OntoGSN"
+authors:
+  - name: "The Assurance Case Working Group"
+  - name: "Tomas Bueno Momčilović"
+publishers:
+  - name: "fortiss"
+    link: "https://www.fortiss.org/"
+contributors:
+  - name: "Barbara Gallina"
+  - name: "Dian Balta"
+  - name: "Ingmar Kessler"
+description: "OntoGSN is an ontology for managing assurance cases in the Goal Structuring Notation (GSN)."
+keywords: ["Industry"]
+originalSources: ["https://github.com/fortiss/OntoGSN"]
+publications:
+  - title: "Bueno Momcilovic, T., Kessler, I., Gallina, B., & Balta, D. (2025). OntoGSN: An Ontology for Dynamic Management of Assurance Cases."
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/gsn/versions/2025-08-19.n3
+    name: gsn.ttl
+    sha256: "9a2e97b1b95bebf0590a35ea9167d49ab9795e1ed716608e2d16f60bc4fd1b90"
+    size: 286482
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,26 @@
+namespace: rdfs-co
+name: juso
+version: "0.1"
+language: owl
+syntax: turtle
+roots: [juso.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Juso Ontology"
+authors:
+  - name: "James G. Kim"
+    link: "http://jayg.org/"
+publishers:
+  - name: "LiST Inc."
+    link: "http://listinc.kr/"
+description: "Juso Ontology is a Web vocabulary for describing geographical addresses and features."
+keywords: ["Geography", "Geometry"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/juso/versions/2015-10-02.n3
+    name: juso.ttl
+    sha256: "063865ece3933836d22703806d9e97c296add4d6f7456326841a828853a6367c"
+    size: 46951
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

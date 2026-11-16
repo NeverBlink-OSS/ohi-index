@@ -1,0 +1,27 @@
+namespace: findex
+name: raum
+version: "0.0.7"
+language: owl
+syntax: rdfxml
+roots: [raum.owl]
+licenses: ["CC-BY-SA-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "FINDEX Raum"
+authors:
+  - name: "Fraunhofer Information Center for Planning and Building IRB"
+    link: "https://www.irb.fraunhofer.de/"
+publishers:
+  - name: "Fraunhofer Information Center for Planning and Building IRB"
+    link: "https://www.irb.fraunhofer.de/"
+description: "SKOS-Modellierung des Thesaurus FINDEX Raum des Fraunhofer-Informationszentrums Raum und Bau IRB."
+keywords: ["civil engineering", "digital planning and construction", "earth sciences", "fid baudigital", "nfdi4ing", "ontology"]
+originalSources: ["https://gitlab.com/fid-bau/terminologie/findex-raum", "https://terminology.fraunhofer.de/findex-thesauri"]
+sources:
+  - url: https://gitlab.com/fid-bau/terminologie/findex-raum/-/raw/0.0.7/TS/findex-raum-skos.owl
+    name: raum.owl
+    sha256: "228488d1a200d9c122cf986b2df0fae70c54566fc38c57350a44850505f338f7"
+    size: 2180527
+  - url: https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt
+    sha256: "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+    size: 20138

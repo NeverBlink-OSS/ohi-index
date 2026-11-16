@@ -1,0 +1,119 @@
+# JSON Patch (RFC 6902) the hub applies to nmdc_materialized_patterns.yaml before publishing it.
+# README.md says what each change is for.
+- op: add
+  path: /prefixes/OM
+  value:
+    prefix_prefix: OM
+    prefix_reference: http://www.ontology-of-units-of-measure.org/resource/om-2/
+- op: add
+  path: /prefixes/orcid
+  value:
+    prefix_prefix: orcid
+    prefix_reference: https://orcid.org/
+- op: remove
+  path: /enums/UnitEnum/permissible_values/%
+- op: add
+  path: /enums/UnitEnum/permissible_values/PERCENT
+  value:
+    text: PERCENT
+    alias: '%'
+    description: The Unified Code for Units of Measure (UCUM) representation of percent.
+    aliases:
+    - percent
+    - Percent
+- op: replace
+  path: /enums/InstrumentModelEnum/permissible_values/novaseq_6000/structured_aliases
+  value:
+  - literal_form: Illumina NovaSeq S2
+    predicate: NARROW_SYNONYM
+    contexts:
+    - https://gold.jgi.doe.gov/
+  - literal_form: Illumina NovaSeq S4
+    predicate: NARROW_SYNONYM
+    contexts:
+    - https://gold.jgi.doe.gov/
+  - literal_form: Illumina NovaSeq SP
+    predicate: NARROW_SYNONYM
+    contexts:
+    - https://gold.jgi.doe.gov/
+- op: replace
+  path: /enums/InstrumentModelEnum/permissible_values/hiseq_2500/structured_aliases
+  value:
+  - literal_form: Illumina HiSeq 2500-1TB
+    predicate: NARROW_SYNONYM
+    contexts:
+    - https://gold.jgi.doe.gov/
+  - literal_form: Illumina HiSeq 2500-Rapid
+    predicate: NARROW_SYNONYM
+    contexts:
+    - https://gold.jgi.doe.gov/
+- op: replace
+  path: /enums/InstrumentModelEnum/permissible_values/miseq/structured_aliases
+  value:
+  - literal_form: Illumina MiSeq
+    predicate: EXACT_SYNONYM
+    contexts:
+    - https://gold.jgi.doe.gov/
+- op: replace
+  path: /enums/InstrumentModelEnum/permissible_values/nextseq/structured_aliases
+  value:
+  - literal_form: Illumina NextSeq-HO
+    predicate: NARROW_SYNONYM
+    contexts:
+    - https://gold.jgi.doe.gov/
+  - literal_form: Illumina NextSeq-MO
+    predicate: NARROW_SYNONYM
+    contexts:
+    - https://gold.jgi.doe.gov/
+- op: remove
+  path: /enums/wall_texture_enum/permissible_values/
+- op: add
+  path: /slots/JGI-Metagenomics
+  value:
+    name: JGI-Metagenomics
+    description: Group of terms that appear in the 'JGI-Metagenomics' section of the NMDC sample metadata submission portal
+    abstract: true
+- op: add
+  path: /slots/MIxS Inspired
+  value:
+    name: MIxS Inspired
+    description: Group of terms that appear in the 'MIxS Inspired' section of the NMDC sample metadata submission portal
+    abstract: true
+- op: add
+  path: /slots/Sample ID
+  value:
+    name: Sample ID
+    description: Group of terms that appear in the 'Sample ID' section of the NMDC sample metadata submission portal
+    abstract: true
+- op: replace
+  path: /slots/type/structured_aliases
+  value:
+  - literal_form: workflow_execution_class
+    predicate: NARROW_SYNONYM
+    contexts:
+    - https://bitbucket.org/berkeleylab/jgi-jat/macros/nmdc_metadata.yaml
+- op: replace
+  path: /slots/data_object_type/structured_aliases
+  value:
+  - literal_form: data_object_type
+    predicate: EXACT_SYNONYM
+    contexts:
+    - https://bitbucket.org/berkeleylab/jgi-jat/macros/nmdc_metadata.yaml
+- op: replace
+  path: /slots/id/structured_aliases
+  value:
+  - literal_form: workflow_execution_id
+    predicate: NARROW_SYNONYM
+    contexts:
+    - https://bitbucket.org/berkeleylab/jgi-jat/macros/nmdc_metadata.yaml
+  - literal_form: data_object_id
+    predicate: NARROW_SYNONYM
+    contexts:
+    - https://bitbucket.org/berkeleylab/jgi-jat/macros/nmdc_metadata.yaml
+- op: replace
+  path: /slots/was_informed_by/structured_aliases
+  value:
+  - literal_form: was_informed_by
+    predicate: EXACT_SYNONYM
+    contexts:
+    - https://bitbucket.org/berkeleylab/jgi-jat/macros/nmdc_metadata.yaml

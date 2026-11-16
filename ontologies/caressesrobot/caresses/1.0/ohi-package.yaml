@@ -1,0 +1,30 @@
+namespace: caressesrobot
+name: caresses
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [caresses.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "CARESSES Ontology"
+authors:
+  - name: "Antonio Sgorbissa"
+  - name: "Barbara Bruno"
+  - name: "Carmine Recchiuto"
+  - name: "Christina Kouloglioti"
+  - name: "Hiroko Kamide"
+  - name: "Irena Papadopoulos"
+publishers:
+  - name: "CARESSES"
+    link: "http://caressesrobot.org/"
+description: "The CARESSES Ontology encodes guidelines defined by experts in Transcultural Nursing, with the aim of offering a specific tool for endowing social assistive robots (assisting older adults) with cultural competence."
+keywords: ["Health"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/caresses/versions/2019-06-17.n3
+    name: caresses.ttl
+    sha256: "59c50f3b301e4cf7b3e3873db53212a47367739a33820e7918c6861e245b02ae"
+    size: 100043
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

@@ -1,0 +1,19 @@
+namespace: odp
+name: classification
+version: "1.1"
+language: owl
+syntax: rdfxml
+roots: [classification.owl]
+licenses: ["unknown (fair use)"]
+licenseFiles: [LICENSE]
+dependencies: ["odp/cpannotationschema@2026-10-21"]
+title: "ODP Classification"
+authors:
+  - name: "Ontology Design Patterns portal"
+    link: "http://ontologydesignpatterns.org/"
+publishers:
+  - name: "Ontology Design Patterns portal"
+    link: "http://ontologydesignpatterns.org/"
+description: "Ontology design pattern for classifying entities by concepts."
+keywords: ["ontology design patterns", "classification"]
+originalSources: ["http://ontologydesignpatterns.org"]

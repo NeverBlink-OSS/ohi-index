@@ -1,0 +1,27 @@
+namespace: geneontology
+name: oboinowl
+version: "2026-11-02"
+language: owl
+syntax: rdfxml
+roots: [oboinowl.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "OBO in OWL"
+authors:
+  - name: "The Gene Ontology Consortium"
+    link: "http://geneontology.org"
+publishers:
+  - name: "The Gene Ontology Consortium"
+    link: "http://geneontology.org"
+description: "This meta-ontology is self-describing."
+keywords: ["ontology"]
+originalSources: ["https://github.com/geneontology/go-ontology"]
+sources:
+  - url: https://github.com/geneontology/go-ontology/blob/939abfae5a06a9dbb20d931465707e5e61a7c537/contrib/oboInOwl.owl
+    name: oboinowl.owl
+    sha256: "6397be34d11ac0950fb6a554e0e9fc3cb34ac9575af46feeea5704c357cb2b2b"
+    size: 30304
+  - url: https://github.com/geneontology/go-ontology/blob/939abfae5a06a9dbb20d931465707e5e61a7c537/LICENSE
+    sha256: "f5b745ef98087f531e719ee8ca6a96809444573ecc7173c6fa68eaad39b3cc3f"
+    size: 18658

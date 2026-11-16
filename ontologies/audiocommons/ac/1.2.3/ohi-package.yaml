@@ -1,0 +1,25 @@
+namespace: audiocommons
+name: ac
+version: "1.2.3"
+language: owl
+syntax: turtle
+roots: [ac.ttl]
+licenses: ["CC0-1.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "The Audio Commons Ontology"
+authors:
+  - name: "George Fazekas"
+    contact: "g.fazekas@qmul.ac.uk"
+  - name: "Miguel Ceriani"
+    contact: "miguel.ceriani@gmail.com"
+publishers:
+  - name: "Audio Commons"
+    link: "https://www.audiocommons.org"
+description: "The Audio Commons Ontology has been created in the context of the European project [Audio Commons](https://www.audiocommons.org/), which were aimed at favouring sharing and reuse of audio content (both of musical and non-musical nature), specially using [Creative…"
+keywords: ["engineering", "nfdi4ing", "ontology"]
+originalSources: ["https://github.com/AudioCommons/ac-ontology", "https://audiocommons.github.io/ac-ontology/aco.html"]
+sources:
+  - url: https://github.com/AudioCommons/ac-ontology/blob/v1.2.3/LICENSE
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

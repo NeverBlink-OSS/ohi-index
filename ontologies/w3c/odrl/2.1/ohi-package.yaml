@@ -1,0 +1,25 @@
+namespace: w3c
+name: odrl
+version: "2.1"
+language: owl
+syntax: turtle
+roots: [ODRL21.ttl]
+licenses: ["W3C Community Final Specification Agreement"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "ODRL vocabulary"
+authors:
+  - name: "Mo McRoberts"
+  - name: "Víctor Rodríguez-Doncel"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+contributors:
+  - name: "ODRL Community Group"
+description: "Open Digital Rights Language vocabulary for policies of permissions, prohibitions and duties over assets."
+keywords: ["rights", "policies", "licensing"]
+originalSources: ["https://www.w3.org/TR/odrl-vocab"]
+sources:
+  - url: https://www.w3.org/ns/odrl/2/ODRL21.ttl
+    sha256: "a53d282272ffd210a5085382bcaae7d45e3e679f9a01953136cf1fc5746c7292"
+    size: 48984

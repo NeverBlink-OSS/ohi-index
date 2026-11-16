@@ -1,0 +1,36 @@
+namespace: wf-motifs
+name: wfm
+version: "1.02"
+language: owl
+syntax: turtle
+roots: [wfm.ttl]
+licenses: ["CC-BY-NC-SA-2.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The Workflow Motif Ontology"
+authors:
+  - name: "Khalid Belhajjame"
+    link: "https://sites.google.com/site/kbelhajjame/"
+  - name: "Pinar Alper"
+  - name: "Daniel Garijo"
+    link: "http://purl.org/net/dgarijo"
+publishers:
+  - name: "Khalid Belhajjame"
+    link: "https://sites.google.com/site/kbelhajjame/"
+  - name: "Pinar Alper"
+  - name: "Daniel Garijo"
+    link: "http://purl.org/net/dgarijo"
+contributors:
+  - name: "Yolanda Gil"
+    link: "http://www.isi.edu/~gil/"
+  - name: "Carole Goble"
+    link: "http://www.cs.man.ac.uk/~carole/"
+  - name: "Oscar Corcho"
+description: "Ontology for describing Workflow Motifs."
+keywords: ["Methods"]
+originalSources: ["http://vocab.linkeddata.es/motifs"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/wfm/versions/2013-03-15.n3
+    name: wfm.ttl
+    sha256: "150afd5dc18606f622c664543c30db62dbcf1b95cea1d913953588aced7a8bd7"
+    size: 15319

@@ -1,0 +1,26 @@
+namespace: toco
+name: toco
+version: "1.1"
+language: owl
+syntax: turtle
+roots: [toco.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Toucan Ontology"
+authors:
+  - name: "Qianru Zhou"
+publishers:
+  - name: "Heriot-Watt University"
+    link: "https://www.hw.ac.uk/"
+contributors:
+  - name: "Alasdair J. G. Gray"
+    link: "http://www.macs.hw.ac.uk/~ajg33/"
+  - name: "Mohammad Dehghani Soltani"
+  - name: "Stephen McLaughlin"
+description: "A ontology developed for telecommunciation network systems with hybrid technologies, e.g., WiFi, LiFi, LTE, 2G/3G, optical, etc."
+keywords: ["API"]
+sources:
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

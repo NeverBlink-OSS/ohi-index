@@ -1,0 +1,26 @@
+namespace: dcmi
+name: dcam
+version: "2008-01-14"
+language: rdfs
+syntax: rdfxml
+roots: [dcam.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "DCMI Abstract Model"
+authors:
+  - name: "Dublin Core Metadata Initiative"
+    link: "https://www.dublincore.org/"
+publishers:
+  - name: "Dublin Core Metadata Initiative"
+    link: "https://www.dublincore.org/"
+description: "Dublin Core terms for vocabulary encoding schemes and the domains and ranges they suggest."
+keywords: ["metadata", "Dublin Core"]
+originalSources: ["https://www.dublincore.org/specifications/dublin-core/abstract-model"]
+sources:
+  - url: https://www.dublincore.org/2008/01/14/dcam.rdf
+    sha256: "c734be0864d0496207c82e44cbfe4585ec419ca65324f1f0231e3179ae324218"
+    size: 2301
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

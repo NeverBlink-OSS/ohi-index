@@ -1,0 +1,37 @@
+namespace: provoc
+name: provoc
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [provoc.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Product Vocabulary"
+authors:
+  - name: "Wimmics, Inria and Université Côte d'Azur"
+    link: "https://wimmics.inria.fr/"
+  - name: "VISEO"
+    link: "https://www.viseo.com/"
+publishers:
+  - name: "Wimmics, Inria and Université Côte d'Azur"
+    link: "https://wimmics.inria.fr/"
+  - name: "VISEO"
+    link: "https://www.viseo.com/"
+contributors:
+  - name: "Cédric Lopez"
+  - name: "Elena Cabrio"
+    link: "http://www-sop.inria.fr/members/Elena.Cabrio/"
+  - name: "Fabien Gandon"
+    link: "http://www-sop.inria.fr/members/Fabien.Gandon/"
+  - name: "Frédérique Segond"
+description: "ProVoc (Product Vocabulary) is a vocabulary that can be used to represent information and manipulate them through the Web."
+keywords: ["eBusiness"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/provoc/versions/2016-02-18.n3
+    name: provoc.ttl
+    sha256: "fc329461504f80ae13fea26c599d64de9100c34d83cafb2190c90fefe63b328d"
+    size: 17213
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

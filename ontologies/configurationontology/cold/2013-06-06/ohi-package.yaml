@@ -1,0 +1,28 @@
+namespace: configurationontology
+name: cold
+version: "2013-06-06"
+language: owl
+syntax: turtle
+roots: [cold.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "'Configuration as Linked Data' ontology"
+authors:
+  - name: "Edouard Chevalier"
+  - name: "François-Paul Servant"
+  - name: "Renault"
+    link: "https://www.renaultgroup.com/"
+publishers:
+  - name: "Renault"
+    link: "https://www.renaultgroup.com/"
+description: "Ontology for the description of customizable products."
+keywords: ["eBusiness"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/cold/versions/2013-06-06.n3
+    name: cold.ttl
+    sha256: "20f954d46e14557f5698d2da857186c303cdd672a43b9c935a43fcc12b4ad01c"
+    size: 9152
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

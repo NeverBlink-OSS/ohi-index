@@ -1,0 +1,11 @@
+# JSON Patch (RFC 6902) the hub applies to mianct-schema.yaml before publishing it.
+# README.md says what each change is for.
+- op: add
+  path: /prefixes/BFO
+  value: http://purl.obolibrary.org/obo/BFO_
+- op: add
+  path: /prefixes/RO
+  value: http://purl.obolibrary.org/obo/RO_
+- op: add
+  path: /prefixes/WIKIDATA
+  value: http://www.wikidata.org/entity/

@@ -1,0 +1,26 @@
+namespace: d3fend
+name: d3fend
+version: "0.14.0"
+language: owl
+syntax: turtle
+roots: [d3fend.ttl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE.md]
+dependencies: []
+title: "MITRE D3FEND"
+authors:
+  - name: "The MITRE Corporation"
+    link: "https://d3fend.mitre.org/"
+publishers:
+  - name: "The MITRE Corporation"
+    link: "https://d3fend.mitre.org/"
+description: "Knowledge graph of cybersecurity countermeasures and the attack techniques they address."
+keywords: ["cybersecurity", "countermeasures"]
+originalSources: ["https://d3fend.mitre.org", "https://github.com/d3fend/d3fend-ontology"]
+sources:
+  - url: https://d3fend.mitre.org/ontologies/d3fend/0.14.0/d3fend.ttl
+    sha256: "30dc7573532b3bf63df7ebdaea3883855e9515f0287e443da24dc72cba9bbc5d"
+    size: 1875696
+  - url: https://github.com/d3fend/d3fend-ontology/blob/0.14.0/LICENSE.md
+    sha256: "a799333707a5a1c4c863ab137af4cdd659b081de07058f715ebdde001db68731"
+    size: 1078

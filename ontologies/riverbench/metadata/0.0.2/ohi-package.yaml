@@ -1,0 +1,23 @@
+namespace: riverbench
+name: metadata
+version: "0.0.2"
+language: owl
+syntax: turtle
+roots: [metadata.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "RiverBench metadata"
+authors:
+  - name: "Piotr Sowiński"
+    link: "https://github.com/Ostrzyciel"
+publishers:
+  - name: "RiverBench"
+    link: "https://w3id.org/riverbench"
+description: "Ontology for the metadata of RiverBench datasets, profiles and benchmark tasks."
+keywords: ["benchmarks", "RDF streams", "datasets"]
+originalSources: ["https://github.com/RiverBench/schema"]
+sources:
+  - url: https://github.com/RiverBench/schema/blob/v0.0.2/LICENSE
+    sha256: "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    size: 11357

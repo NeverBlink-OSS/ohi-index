@@ -1,0 +1,29 @@
+namespace: ceon
+name: ceon-processodp
+version: "0.5"
+language: owl
+syntax: turtle
+roots: [ceon-processodp.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Circular Economy Ontology Network (CEON) - Process ODP"
+authors:
+  - name: "Huanyu Li"
+publishers:
+  - name: "Onto-DESIDE project"
+    link: "https://ontodeside.eu/"
+contributors:
+  - name: "Eva Blomqvist"
+  - name: "Mikael Lindecrantz"
+  - name: "Robin Keskisärkkä"
+description: "A core ODP of the CEON ontology network, defining aspects of the process concept."
+keywords: ["Events"]
+sources:
+  - url: https://liusemweb.github.io/CEON/ontology/processODP/latest/processODP.ttl
+    name: ceon-processodp.ttl
+    sha256: "3c63eadb401dcc48f31ec5021a03bab4267fcf0907e7ca1a58fc0471c39ed1e6"
+    size: 5701
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

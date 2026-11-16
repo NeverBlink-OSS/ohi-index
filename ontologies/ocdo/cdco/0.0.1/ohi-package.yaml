@@ -1,0 +1,29 @@
+namespace: ocdo
+name: cdco
+version: "0.0.1"
+language: owl
+syntax: rdfxml
+roots: [cdco.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Crystallographic Defect Core Ontology"
+authors:
+  - name: "Abril Azócar Guzmán"
+    contact: "a.azocar.guzman@fz-juelich.de"
+    link: "https://orcid.org/0000-0001-7564-7990"
+  - name: "Stefan Sandfeld"
+    link: "https://orcid.org/0000-0001-9560-4728"
+publishers:
+  - name: "Materials Data Science and Informatics (IAS-9), Forschungszentrum Jülich GmbH"
+    link: "https://www.fz-juelich.de/en/ias/ias-9"
+description: "The Crystallographic Defect Core Ontology (CDCO) defines the common terminology shared across all types of crystallographic defects, providing a unified framework for data integration in materials science."
+keywords: ["ontology"]
+originalSources: ["https://github.com/OCDO/cdco"]
+sources:
+  - url: https://github.com/OCDO/cdco/blob/v0.0.1/cdco.owl
+    sha256: "5e7903912e07e399fea6fc45dddf0af9a2392911cdae99f974bc8497ad864d30"
+    size: 20761
+  - url: https://github.com/OCDO/cdco/blob/v0.0.1/LICENSE
+    sha256: "97d24386ff776d7160b87031b259a942bd03c9939796cab6724ad5d17d2cf785"
+    size: 18657

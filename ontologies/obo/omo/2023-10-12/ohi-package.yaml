@@ -1,0 +1,61 @@
+namespace: obo
+name: omo
+version: "2023-10-12"
+language: owl
+syntax: rdfxml
+roots: [omo.owl]
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "OBO Metadata Ontology"
+authors:
+  - name: "Adam Goldstein"
+  - name: "Alan Ruttenberg"
+  - name: "Albert Goldfain"
+  - name: "Barry Smith"
+  - name: "Bjoern Peters"
+  - name: "Carlo Torniai"
+  - name: "Christopher J. Mungall"
+    contact: "cjmungall@lbl.gov"
+    link: "https://mungall.dev"
+  - name: "Chris Stoeckert"
+  - name: "Christian A. Boelling"
+  - name: "Darren Natale"
+  - name: "David Osumi-Sutherland"
+  - name: "Gwen Frishkoff"
+  - name: "Holger Stenzhorn"
+  - name: "James A. Overton"
+  - name: "James Malone"
+  - name: "Jennifer Fostel"
+  - name: "Jie Zheng"
+  - name: "Jonathan Rees"
+  - name: "Larisa Soldatova"
+  - name: "Lawrence Hunter"
+  - name: "Mathias Brochhausen"
+  - name: "Matthew H. Brush"
+  - name: "Melanie Courtot"
+  - name: "Michel Dumontier"
+  - name: "Paolo Ciccarese"
+  - name: "Pat Hayes"
+  - name: "Philippe Rocca-Serra"
+  - name: "Randall Dipert"
+  - name: "Ron Rudnicki"
+  - name: "Satya S. Sahoo"
+  - name: "Sivaram Arabandi"
+  - name: "Werner Ceusters"
+  - name: "William D. Duncan"
+  - name: "William R. Hogan"
+  - name: "Yongqun He"
+publishers:
+  - name: "Information Artifact Ontology"
+    link: "https://github.com/information-artifact-ontology"
+description: "An ontology specifies terms that are used to annotate ontology terms for all OBO ontologies."
+keywords: ["information", "ontology term annotation", "OBO"]
+originalSources: ["https://github.com/information-artifact-ontology/ontology-metadata"]
+sources:
+  - url: https://github.com/information-artifact-ontology/ontology-metadata/blob/v2023-10-12/omo.owl
+    sha256: "04dab02964968cb4ddb06b4dad745171887ead6940c8d03b6ab33f99422dd8f7"
+    size: 91586
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

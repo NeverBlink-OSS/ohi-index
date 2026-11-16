@@ -1,0 +1,24 @@
+namespace: w3c
+name: vcard
+version: "2014"
+language: owl
+syntax: turtle
+roots: [ns.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "vCard ontology"
+authors:
+  - name: "Renato Iannella"
+  - name: "James McKinney"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "W3C ontology for vCard contact information of people and organizations."
+keywords: ["contacts", "people", "addresses"]
+originalSources: ["https://www.w3.org/TR/vcard-rdf"]
+sources:
+  - url: https://www.w3.org/2006/vcard/ns
+    name: ns.ttl
+    sha256: "2442baf3d07d660910a0e24dd96b1efe1ec22cb26d12cdfd415195da91b43a0c"
+    size: 32183

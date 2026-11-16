@@ -1,0 +1,26 @@
+namespace: obo
+name: ma
+version: "2026-02-11"
+language: owl
+syntax: rdfxml
+roots: [ma.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Mouse adult gross anatomy"
+authors:
+  - name: "Mouse Genome Informatics"
+    link: "https://www.informatics.jax.org/"
+publishers:
+  - name: "Mouse Genome Informatics"
+    link: "https://www.informatics.jax.org/"
+description: "A structured controlled vocabulary of the adult anatomy of the mouse (Mus)."
+keywords: ["anatomy and development", "OBO"]
+originalSources: ["https://github.com/obophenotype/adult-mouse-anatomy-ontology"]
+sources:
+  - url: https://github.com/obophenotype/adult-mouse-anatomy-ontology/blob/v2026-02-11/ma.owl
+    sha256: "ae6966d8d1e69dc240eee3f3f53f4d680339b7aef4ea4650c799596229b486db"
+    size: 2051773
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

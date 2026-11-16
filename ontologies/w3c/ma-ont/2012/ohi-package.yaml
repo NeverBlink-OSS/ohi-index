@@ -1,0 +1,32 @@
+namespace: w3c
+name: ma-ont
+version: "2012"
+language: owl
+syntax: turtle
+roots: [ma-ont.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: ["dcmi/dcelements@2008-01-14"]
+title: "Ontology for Media Resources"
+authors:
+  - name: "WonSuk Lee"
+  - name: "Werner Bailer"
+  - name: "Tobias Bürger"
+  - name: "Pierre-Antoine Champin"
+  - name: "Jean-Pierre Evain"
+  - name: "Véronique Malaisé"
+  - name: "Thierry Michel"
+  - name: "Felix Sasaki"
+  - name: "Joakim Söderberg"
+  - name: "Florian Stegmaier"
+  - name: "John Strassner"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "W3C ontology of core metadata properties for media resources on the web."
+keywords: ["media", "multimedia", "metadata"]
+originalSources: ["https://www.w3.org/TR/mediaont-10"]
+sources:
+  - url: https://www.w3.org/ns/ma-ont.ttl
+    sha256: "9b46f3bcc6cf9e11f43a90f8b766336ee74b2c1fad4ae40b9db4e1b13acf531a"
+    size: 19604

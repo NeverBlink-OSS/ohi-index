@@ -1,0 +1,46 @@
+namespace: open-multinet
+name: omnlc
+version: "2015-04-08"
+language: owl
+syntax: turtle
+roots: [omnlc.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Open-Multinet Upper Lifecycle Ontology"
+authors:
+  - name: "Alexander Willner"
+    link: "http://alex.willner.ws/"
+publishers:
+  - name: "Open-Multinet"
+    link: "http://open-multinet.info/"
+contributors:
+  - name: "Yahya Al-Hazmi"
+    contact: "yahya.al-hazmi@tu-berlin.de"
+  - name: "Paola Grosso"
+    link: "https://staff.fnwi.uva.nl/p.grosso"
+  - name: "Mohamed Morsey"
+  - name: "Robyn Loughnane"
+    contact: "loughnane@campus.tu-berlin.de"
+  - name: "Thijs Walcarius"
+    contact: "thijs.walcarius@intec.ugent.be"
+  - name: "Jorge López de Vergara"
+    contact: "jorge.lopez_vergara@uam.es"
+  - name: "Ilya Baldin"
+    contact: "ibaldin@renci.org"
+  - name: "Brecht Vermeulen"
+    contact: "brecht.vermeulen@iminds.be"
+  - name: "Chrysa Papagianni"
+    contact: "chrisap@noc.ntua.gr"
+  - name: "Yufeng Xin"
+    contact: "yxin@renci.org"
+description: "This ontology defines generic concepts related to the life cycle of resource or service."
+keywords: ["PLM"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/omnlc/versions/2015-04-08.n3
+    name: omnlc.ttl
+    sha256: "e17f79dbfa6e111b13f722efdbf7e280d4b80e15d4e1711ea6d0a0e5f7f94bf2"
+    size: 14800
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

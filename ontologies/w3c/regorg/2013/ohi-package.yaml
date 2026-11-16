@@ -1,0 +1,30 @@
+namespace: w3c
+name: regorg
+version: "2013"
+language: owl
+syntax: turtle
+roots: [regorg.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Registered Organization Vocabulary"
+authors:
+  - name: "Phil Archer"
+    link: "http://www.w3.org/People/all#phila"
+  - name: "Andrea Perego"
+    link: "http://andrea-perego.name/"
+  - name: "Makx Dekkers"
+    link: "http://makxdekkers.com/"
+  - name: "Government Linked Data Working Group"
+    link: "http://www.w3.org/2011/gld/"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "Vocabulary for organizations with a legal status in a formal register, such as a business register."
+keywords: ["organizations", "business registers", "government"]
+originalSources: ["https://www.w3.org/TR/vocab-regorg"]
+sources:
+  - url: https://www.w3.org/ns/regorg
+    name: regorg.ttl
+    sha256: "9d10e2b372c4b431bdf2389d3f54abfc8691c717d0df8b09966436d7c24ef461"
+    size: 7781

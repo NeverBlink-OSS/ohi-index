@@ -1,0 +1,32 @@
+namespace: dsd
+name: dsd
+version: "4.0.0"
+language: owl
+syntax: turtle
+roots: [dsd.ttl]
+licenses: ["LGPL-2.1-only"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Description of a Data Source"
+authors:
+  - name: "Lisa Ehrlinger"
+    contact: "lisa.ehrlinger@scch.at"
+    link: "https://orcid.org/0000-0001-5313-0368"
+publishers:
+  - name: "Institute for Application-oriented Knowledge Processing, Johannes Kepler University Linz"
+    link: "https://www.jku.at/faw"
+contributors:
+  - name: "Johannes Schrott"
+    contact: "johannes.schrott@jku.at"
+    link: "https://orcid.org/0000-0003-2689-0876"
+description: "To ensure comparability between schemas from different data models, the Description of a Data Source (DSD) vocabulary has been developed."
+keywords: ["API", "Catalogs"]
+sources:
+  - url: https://dqm.faw.jku.at/ontologies/dsd/4.0.0/DSD4.ttl
+    name: dsd.ttl
+    sha256: "52656fa89f213d9995d6ae3e9e0523d51cce959cae7b7016eb23bc933264ee72"
+    size: 28967
+  - url: https://raw.githubusercontent.com/spdx/license-list-data/v3.29.0/text/LGPL-2.1-only.txt
+    name: LICENSE
+    sha256: "5749785c8bdefafcb5d798270ed0a967036fe2ca63dcedade1627565dfef81d2"
+    size: 26001

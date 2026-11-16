@@ -1,0 +1,23 @@
+namespace: commons
+name: regulatory-agencies
+version: "20250801"
+language: owl
+syntax: rdfxml
+roots: [RegulatoryAgencies.rdf]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["commons/annotation-vocabulary@20250801", "commons/business-authorizations@20250801", "commons/contextual-designators@20250801", "commons/documents@20250801", "commons/identifiers@20221101", "commons/locations@20250801", "commons/organizations@20250801", "commons/parties-and-situations@20250801", "commons/roles-and-compositions@20230801"]
+title: "OMG Commons Regulatory Agencies"
+authors:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+publishers:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+description: "Regulatory agencies and the regulations and registrations they oversee."
+keywords: ["OMG Commons", "regulation", "government"]
+originalSources: ["https://www.omg.org/spec/Commons"]
+sources:
+  - url: https://www.omg.org/spec/Commons/20250801/RegulatoryAgencies.rdf
+    sha256: "cd309406734bb8ba01a5626d1af7b5c8dc6bb3ab3a275e3faac791e5dd460d55"
+    size: 14118

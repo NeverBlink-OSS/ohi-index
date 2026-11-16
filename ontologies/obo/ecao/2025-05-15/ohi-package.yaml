@@ -1,0 +1,29 @@
+namespace: obo
+name: ecao
+version: "2025-05-15"
+language: owl
+syntax: rdfxml
+roots: [ecao.owl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The Echinoderm Anatomy and Development Ontology"
+authors:
+  - name: "Charles Ettensohn"
+    contact: "ettensohn@cmu.edu"
+    link: "https://orcid.org/0000-0002-3625-0955"
+publishers:
+  - name: "Echinobase"
+    link: "https://www.echinobase.org/"
+  - name: "MARIMBA"
+    link: "http://marimba.obs-vlfr.fr/home"
+description: "An ontology for the development and anatomy of the different species of the phylum Echinodermata (NCBITaxon:7586)."
+keywords: ["anatomy and development", "OBO"]
+originalSources: ["https://github.com/echinoderm-ontology/ecao_ontology"]
+sources:
+  - url: https://github.com/echinoderm-ontology/ecao_ontology/blob/65546ea62ede9b8aa2ce76b4c3f6099cea4e7853/ecao.owl
+    sha256: "b9711555509d08cea3931107860db994929fc30e093d5301ef83151fbe72a272"
+    size: 25560155
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

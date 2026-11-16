@@ -1,0 +1,27 @@
+namespace: mdo
+name: mdo-struc
+version: "1.0"
+language: owl
+syntax: ntriples
+roots: [mdo-struc.nt]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["mdo/core@1.0"]
+title: "Materials Design Ontology - Structure Module"
+authors:
+  - name: "Huanyu Li"
+publishers:
+  - name: "Huanyu Li"
+contributors:
+  - name: "Patrick Lambrix"
+  - name: "Rickard Armiento"
+description: "This is the structure module in Materials Design Ontology."
+keywords: ["Biology", "Support"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/mdo-struc/versions/2019-11-07.n3
+    name: mdo-struc.nt
+    sha256: "6d95b89974bbd2fb48dca6457613e5447b7b61a101db511a95d01e82ac0f0d43"
+    size: 63306
+  - url: https://github.com/huanyu-li/Materials-Design-Ontology/blob/9d0fd411b6c398fe90c842be568b751908041326/LICENSE
+    sha256: "2f32d3f3825d66ba17eb59662ea9b12905e30cd6c6c5715c6881accf7cf3c166"
+    size: 1052

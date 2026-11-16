@@ -1,0 +1,27 @@
+namespace: eutaxo
+name: tax
+version: "2022-09-29"
+language: owl
+syntax: turtle
+roots: [tax.ttl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "EUTaxO - EUdaphobase Taxonomy Ontology"
+authors:
+  - name: "José F. Aldana-Martín"
+publishers:
+  - name: "José F. Aldana-Martín"
+contributors:
+  - name: "Carlos Alberto Martínez Muñoz"
+description: "EUdaphobase Taxonomy Ontology for the European Soil-Biology Data Warehouse for Soil Protection."
+keywords: ["Biology"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/tax/versions/2022-09-29.n3
+    name: tax.ttl
+    sha256: "70b0910f7783b4b970d8e562f47b0a8fa22f3f807d8269d66657a6badd2ea444"
+    size: 5155
+  - url: https://raw.githubusercontent.com/spdx/license-list-data/v3.29.0/text/MIT.txt
+    name: LICENSE
+    sha256: "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5"
+    size: 1078

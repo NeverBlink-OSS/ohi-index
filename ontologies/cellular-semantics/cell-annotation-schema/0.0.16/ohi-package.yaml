@@ -1,0 +1,28 @@
+namespace: cellular-semantics
+name: cell-annotation-schema
+version: "0.0.16"
+language: linkml
+syntax: yaml
+roots: [cell-annotation-schema.yaml]
+patch: cell-annotation-schema.patch.yaml
+licenses: ["GPL-3.0-only"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "General Cell Annotation Open Standard"
+authors:
+  - name: "Huseyin Kir"
+    contact: "huseyin_kir@yahoo.com"
+publishers:
+  - name: "Cellular Semantics"
+    link: "https://github.com/Cellular-Semantics"
+description: "A general, open-standard schema for cell annotations and related metadata."
+keywords: ["Schema"]
+originalSources: ["https://github.com/Cellular-Semantics/cell-annotation-schema"]
+sources:
+  - url: https://github.com/Cellular-Semantics/cell-annotation-schema/blob/v0.0.16/src/cell_annotation_schema/schema/cell_annotation_schema.yaml
+    name: cell-annotation-schema.yaml
+    sha256: "198375517fd30c54301918812dbb9ee118ea582da374984683e18df4df8702d2"
+    size: 12265
+  - url: https://github.com/Cellular-Semantics/cell-annotation-schema/blob/v0.0.16/LICENSE
+    sha256: "ca372a7d92560b1fa9f6d832b440e8bcd62d9adfa8870c98287deab66d98310e"
+    size: 35148

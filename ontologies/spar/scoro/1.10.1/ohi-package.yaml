@@ -1,0 +1,32 @@
+namespace: spar
+name: scoro
+version: "1.10.1"
+language: owl
+syntax: rdfxml
+roots: [scoro.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE.md]
+dependencies: ["spar/pro@1.6.1"]
+title: "SPAR Scholarly Contributions and Roles Ontology"
+authors:
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+  - name: "David Shotton"
+    link: "http://opencitations.net"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+contributors:
+  - name: "Sebastian Barzaghi"
+    link: "https://orcid.org/0000-0002-0799-1527"
+description: "Ontology of contributions to scholarly works and the roles of contributors."
+keywords: ["research", "contributions", "roles"]
+originalSources: ["https://github.com/SPAROntologies/scoro"]
+sources:
+  - url: https://sparontologies.github.io/scoro/2026-08-14/scoro.xml
+    name: scoro.rdf
+    sha256: "d991d92f27e0db58d9b7799aa25cece3559c0e860d756d0fb76c041423d6aba1"
+    size: 173509
+  - url: https://github.com/SPAROntologies/scoro/blob/45763cfccc3923eeac80b7a0b09575c31082014e/LICENSE.md
+    sha256: "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    size: 18656

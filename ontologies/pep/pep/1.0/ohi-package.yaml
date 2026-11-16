@@ -1,0 +1,27 @@
+namespace: pep
+name: pep
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [pep.ttl]
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Process Execution ontology"
+authors:
+  - name: "Maxime Lefrançois"
+    link: "http://maxime-lefrancois.info/"
+publishers:
+  - name: "Maxime Lefrançois"
+    link: "http://maxime-lefrancois.info/"
+description: "The process execution ontology is a proposal for a simple extension of both the [W3C Semantic Sensor Network](https://www.w3.org/TR/vocab-ssn/) and the [Semantic Actuator Network](https://www.irit.fr/recherches/MELODI/ontologies/SAN.owl) ontology cores."
+keywords: ["Industry", "Methods", "Services"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/pep/versions/2016-07-01.n3
+    name: pep.ttl
+    sha256: "0cb5b8d8ed1473bc04367185f42a670f0333d052d1d6753f0f18def2760c2f2b"
+    size: 11607
+  - url: https://www.apache.org/licenses/LICENSE-2.0.txt
+    name: LICENSE
+    sha256: "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    size: 11358

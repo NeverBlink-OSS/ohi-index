@@ -1,0 +1,30 @@
+namespace: commons
+name: quantities-and-units
+version: "20230801"
+language: owl
+syntax: rdfxml
+roots: [QuantitiesAndUnits.rdf]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: ["commons/annotation-vocabulary@20250801", "commons/classifiers@20240801", "commons/collections@20221101", "commons/contextual-designators@20250801", "commons/designators@20250801", "commons/documents@20250801"]
+title: "OMG Commons Quantities and Units"
+authors:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+publishers:
+  - name: "Object Management Group"
+    link: "https://www.omg.org/"
+contributors:
+  - name: "Davide Sottara"
+  - name: "Elisa Kendall"
+  - name: "Evan Wallace"
+  - name: "Hans Peter de Koning"
+  - name: "Roger Burkhart"
+  - name: "Stuart Chalk"
+description: "Quantities, units of measure and the systems they belong to."
+keywords: ["OMG Commons", "quantities", "units of measure"]
+originalSources: ["https://www.omg.org/spec/Commons"]
+sources:
+  - url: https://www.omg.org/spec/Commons/20230801/QuantitiesAndUnits.rdf
+    sha256: "b07e3ca4211d50ddbbf35dac79404c718ec385766707388facbd5bfcd2e3d4f0"
+    size: 71923

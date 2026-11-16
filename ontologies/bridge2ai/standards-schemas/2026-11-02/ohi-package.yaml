@@ -1,0 +1,28 @@
+namespace: bridge2ai
+name: standards-schemas
+version: "2026-11-02"
+language: linkml
+syntax: yaml
+roots: [standards-schemas.yaml]
+patch: standards-schemas.patch.yaml
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "standards-schema"
+authors:
+  - name: "J. Harry Caufield"
+    contact: "jhc@lbl.gov"
+publishers:
+  - name: "Bridge2AI"
+    link: "https://bridge2ai.org"
+description: "Data schema for Bridge2AI Standards."
+keywords: ["Computer Science"]
+originalSources: ["https://github.com/bridge2ai/standards-schemas"]
+sources:
+  - url: https://github.com/bridge2ai/standards-schemas/blob/be379bed6336b1f282bf036ef71d517849dfb3f9/src/standards_schemas/schema/standards_schema.yaml
+    name: standards-schemas.yaml
+    sha256: "1bff6200fa7590341d4901e17c21b2da08053ff30330749c16cc7c4ba99aac31"
+    size: 8761
+  - url: https://github.com/bridge2ai/standards-schemas/blob/be379bed6336b1f282bf036ef71d517849dfb3f9/LICENSE
+    sha256: "d1205188c7ec3919ebaf4326aa580210b1373dfc588b695e9089491fcaed54db"
+    size: 1096

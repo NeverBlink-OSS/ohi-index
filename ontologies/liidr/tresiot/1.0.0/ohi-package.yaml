@@ -1,0 +1,29 @@
+namespace: liidr
+name: tresiot
+version: "1.0.0"
+language: owl
+syntax: turtle
+roots: [tresiot.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Ontology for Trust Recommendation in Social Internet of Things"
+authors:
+  - name: "Elizabeth Chang"
+  - name: "Frank den Hartog"
+  - name: "Marius Becherer"
+  - name: "Omar K. Hussain"
+  - name: "Yu Zhang"
+publishers:
+  - name: "Logistics Innovation and Information Dominance Research Group"
+    link: "https://liidr.org"
+description: "This ontology models trust recommendation concepts in SIoT to bridge the gap between abstract trust concepts and real-world device concepts."
+keywords: ["IoT"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/tresiot/versions/2023-05-12.n3
+    name: tresiot.ttl
+    sha256: "47b48fce89a4ca9dbf49c783ff37c37d4ba2e83e945225f5ced11f350c59ae41"
+    size: 41471
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

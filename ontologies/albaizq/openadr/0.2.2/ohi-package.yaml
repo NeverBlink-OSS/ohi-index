@@ -1,0 +1,29 @@
+namespace: albaizq
+name: openadr
+version: "0.2.2"
+language: owl
+syntax: turtle
+roots: [openadr.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "OpenADR ontology"
+authors:
+  - name: "Alba Fernández-Izquierdo"
+    link: "https://github.com/albaizq"
+  - name: "Andrea Cimmino"
+  - name: "Raúl García-Castro"
+publishers:
+  - name: "Alba Fernández-Izquierdo"
+    link: "https://github.com/albaizq"
+description: "This ontology describes the openADR protocol based on the documentation provided by the openADR Profile B."
+keywords: ["engineering", "nfdi4energy", "ontology"]
+originalSources: ["https://github.com/albaizq/OpenADRontology", "https://albaizq.github.io/OpenADRontology/OnToology/ontology/openADRontology.owl/documentation/index-en.html"]
+sources:
+  - url: https://github.com/albaizq/OpenADRontology/blob/17498ec714b67a97fdc586ef8c065f2f9316a124/ontology/openADRontology.owl
+    name: openadr.ttl
+    sha256: "cccb142ae181b2302803256381ac94609da63b381720c5ce92a27c6d597688ba"
+    size: 65565
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

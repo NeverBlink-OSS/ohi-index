@@ -1,0 +1,27 @@
+namespace: worldavatar
+name: lab
+version: "1.11"
+language: owl
+syntax: rdfxml
+roots: [lab.owl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE.txt]
+dependencies: []
+title: "WorldAvatar research laboratory ontology"
+authors:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+publishers:
+  - name: "The World Avatar"
+    link: "https://theworldavatar.io"
+description: "OntoLab is an ontology developed for expressing facilities in a research lab."
+keywords: ["ontology", "worldavatar"]
+originalSources: ["https://github.com/TheWorldAvatar/ontology", "https://theworldavatar.io"]
+sources:
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/ontology/ontolab/OntoLab.owl
+    name: lab.owl
+    sha256: "0483d37a3cf3b2e3799d802f3e54f40119fac24768ff893cfbdb237e41b0ecd1"
+    size: 98188
+  - url: https://github.com/TheWorldAvatar/ontology/blob/ec488b26e34d444fbf624833fe6c2660e0ce1b29/LICENSE.txt
+    sha256: "8c29b2cb4c712a0d382d1951ffc7e2a155ec7095c7e92a896f5919eb02c31ea9"
+    size: 1309

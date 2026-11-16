@@ -1,0 +1,26 @@
+namespace: coypu
+name: gta
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [gta.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Global Trade Alerts Ontology"
+authors:
+  - name: "CoyPu project"
+    link: "https://coypu.org/"
+publishers:
+  - name: "CoyPu project"
+    link: "https://coypu.org/"
+description: "An ontology for modeling global trade alerts, mainly inspired by the Global Trade Alerts repository."
+keywords: ["coypu", "economics", "ontology"]
+originalSources: ["https://gitlab.com/coypu-project/coy-ontology", "https://schema.coypu.org/gta/1.0"]
+sources:
+  - url: https://gitlab.com/coypu-project/coy-ontology/-/raw/main/ontology/events/gta.ttl
+    sha256: "63ebbb4e2005f78aaf8da070f8f7320df32db5abe66604db6dce8bea2d18e094"
+    size: 35883
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

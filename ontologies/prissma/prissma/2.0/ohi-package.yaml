@@ -1,0 +1,26 @@
+namespace: prissma
+name: prissma
+version: "2.0"
+language: owl
+syntax: turtle
+roots: [prissma.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Presentation of Resources for Interoperable Semantic and Shareable Mobile Adaptability"
+authors:
+  - name: "Luca Costabello"
+publishers:
+  - name: "Inria"
+    link: "https://www.inria.fr/"
+description: "PRISSMA (Presentation of Resources for Interoperable Semantic and Shareable Mobile Adaptability) is a domain-independent vocabulary for displaying Web of Data resources in mobile environments."
+keywords: ["API"]
+originalSources: ["http://ns.inria.fr/prissma/v1/prissma_v1.html"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/prissma/versions/2012-03-20.n3
+    name: prissma.ttl
+    sha256: "1b0f017f18c35b8ca683c8b0580ebc6ac704a6447d9a3b7cdca95f0241ef92d1"
+    size: 8087
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

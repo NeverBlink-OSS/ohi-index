@@ -1,0 +1,35 @@
+namespace: schemaorg
+name: schemaorg
+version: "30.1"
+language: owl
+syntax: turtle
+roots: [schemaorg-all-https.ttl]
+licenses: ["CC-BY-SA-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Schema.org"
+authors:
+  - name: "W3C Schema.org Community Group"
+    link: "https://www.w3.org/community/schemaorg/"
+publishers:
+  - name: "Schema.org"
+    link: "https://schema.org/"
+contributors:
+  - name: "MusicBrainz"
+    link: "https://musicbrainz.org/"
+  - name: "Automotive Ontology Working Group"
+    link: "http://www.automotive-ontology.org/"
+  - name: "European Legislation Identifier"
+    link: "https://eur-lex.europa.eu/eli-register/about.html"
+  - name: "GoodRelations"
+    link: "http://purl.org/goodrelations/"
+description: "Schema.org vocabulary for structured data on the web, with all its sections and retired terms."
+keywords: ["web", "structured data", "search engines"]
+originalSources: ["https://github.com/schemaorg/schemaorg"]
+sources:
+  - url: https://github.com/schemaorg/schemaorg/blob/e5133e06d01e9acb677dd42370b82d3feccf7aca/data/releases/30.1/schemaorg-all-https.ttl
+    sha256: "ae1e84a1095f63063a7cb3dc3448570a9a07ce430de3cdd0a54de9d06d5c4529"
+    size: 1089253
+  - url: https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt
+    sha256: "3f941b3b89cf7b8370ceb83cc76d2120d471b58735d8ca60238a751a48d7f72f"
+    size: 22240

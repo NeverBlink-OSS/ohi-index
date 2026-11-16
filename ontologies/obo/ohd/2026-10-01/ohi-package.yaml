@@ -1,0 +1,57 @@
+namespace: obo
+name: ohd
+version: "2026-10-01"
+language: owl
+syntax: rdfxml
+roots: [ohd.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Oral Health and Disease Ontology"
+authors:
+  - name: "Matthew Diller"
+    link: "https://github.com/dillerm"
+  - name: "Nivedita Dutta"
+    link: "https://orcid.org/0000-0001-6424-4096"
+  - name: "Alexander D. Diehl"
+    link: "https://orcid.org/0000-0001-9990-8331"
+  - name: "Titus Schleyer"
+    link: "https://orcid.org/0000-0003-1829-971X"
+  - name: "Finn Wilson"
+    link: "https://orcid.org/0009-0002-7282-0836"
+  - name: "Ava Cunningham"
+    link: "https://orcid.org/0009-0003-5583-4731"
+  - name: "Ram A. N. R. Challa"
+    link: "https://orcid.org/0009-0003-7246-1252"
+  - name: "Gopikrishnan M Chandrasekharan"
+    link: "https://orcid.org/0009-0006-7251-3026"
+  - name: "Elena Milivinti"
+    link: "https://orcid.org/0009-0008-1739-5105"
+  - name: "Amit Acharya"
+  - name: "Carlo Torniai"
+  - name: "Dan Caplan"
+  - name: "Mei Song"
+  - name: "Melissa Haendel"
+  - name: "Pedro Hernandez Cott"
+  - name: "Alan Ruttenberg"
+    link: "https://orcid.org/0000-0002-1604-3078"
+publishers:
+  - name: "Oral Health and Disease Ontologies"
+    link: "https://github.com/oral-health-and-disease-ontologies"
+description: "The Oral Health and Disease Ontology is used for representing the diagnosis and treatment of dental maladies."
+keywords: ["health", "OBO"]
+originalSources: ["https://github.com/oral-health-and-disease-ontologies/ohd-ontology"]
+publications:
+  - title: "Structuring, reuse and analysis of electronic dental data using the Oral Health and Disease Ontology"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/32819435"
+  - title: "Representing dental restoration materials in the oral health and disease ontology"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/41992354"
+  - title: "Representing dental caries and dysbiosis within the oral microbiome in the Oral Health and Disease Ontology"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/42032627"
+sources:
+  - url: https://github.com/oral-health-and-disease-ontologies/ohd-ontology/blob/431249fe81ef29fa42d6b3fe2ecf5cd28eff3a06/ohd.owl
+    sha256: "5673ac437ed533b3ba0d11fd87126be30ff8af02981a2ecd573163c5a3ce7525"
+    size: 4253974
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

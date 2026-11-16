@@ -1,0 +1,54 @@
+namespace: semanticscience
+name: sio
+version: "1.0.13"
+language: owl
+syntax: turtle
+roots: [sio.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Semanticscience Integrated Ontology"
+authors:
+  - name: "Michel Dumontier"
+    link: "http://dumontierlab.com"
+publishers:
+  - name: "Michel Dumontier"
+    link: "http://dumontierlab.com"
+contributors:
+  - name: "Christopher Baker"
+  - name: "Joachim Baran"
+  - name: "Jerven Bolleman"
+  - name: "Alison Callahan"
+  - name: "Leonid Chepelev"
+  - name: "Kevin Cohen"
+  - name: "Melanie Courtot"
+  - name: "Geraint Duck"
+  - name: "Laura Furlong"
+  - name: "Luke McCarthy"
+  - name: "Jim McCusker"
+  - name: "Jose Miguel Cruz-Toledo"
+  - name: "Robert Hoehndorf"
+  - name: "Simon Jupp"
+  - name: "Jin-Dong Kim"
+  - name: "Dana Klassen"
+  - name: "James Malone"
+  - name: "Christopher J. Mungall"
+  - name: "David Osumi-Sutherland"
+  - name: "Núria Queralt-Rosinach"
+  - name: "Alexandre Riazanov"
+  - name: "Matthias Samwald"
+  - name: "Robert Stevens"
+  - name: "Mark Wilkinson"
+  - name: "Karin Verspoor"
+  - name: "Natalia Villanueva-Rosales"
+description: "The semanticscience integrated ontology (SIO) provides a simple, integrated ontology (types, relations) for objects, processes and their attributes."
+keywords: ["Biology"]
+originalSources: ["http://semanticscience.org", "https://github.com/MaastrichtU-IDS/semanticscience"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/sio/versions/2015-01-11.n3
+    name: sio.ttl
+    sha256: "547d3fa3b492d2a74075e6db63dc44a3dafb53b6ac032fa84a7e88342c7bf928"
+    size: 979147
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

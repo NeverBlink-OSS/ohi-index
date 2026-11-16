@@ -1,0 +1,23 @@
+# JSON Patch (RFC 6902) the hub applies to nwb-linkml.yaml before publishing it.
+# README.md says what each change is for.
+- op: move
+  from: /enums/QuantityEnum/permissible_values/*
+  path: /enums/QuantityEnum/permissible_values/asterisk
+- op: add
+  path: /enums/QuantityEnum/permissible_values/asterisk/aliases
+  value:
+  - '*'
+- op: move
+  from: /enums/QuantityEnum/permissible_values/?
+  path: /enums/QuantityEnum/permissible_values/question_mark
+- op: add
+  path: /enums/QuantityEnum/permissible_values/question_mark/aliases
+  value:
+  - '?'
+- op: move
+  from: /enums/QuantityEnum/permissible_values/+
+  path: /enums/QuantityEnum/permissible_values/plus_sign
+- op: add
+  path: /enums/QuantityEnum/permissible_values/plus_sign/aliases
+  value:
+  - +

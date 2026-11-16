@@ -1,0 +1,24 @@
+namespace: loc
+name: contenttypes
+version: "2026-11-02"
+language: owl
+syntax: rdfxml
+roots: [contenttypes.rdf]
+licenses: ["public domain"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Library of Congress Content Types"
+authors:
+  - name: "Library of Congress"
+    link: "https://www.loc.gov/"
+publishers:
+  - name: "Library of Congress"
+    link: "https://www.loc.gov/"
+description: "This list contains Resource Description and Access (RDA) terms and corresponding three-character lower case alphabetic codes for RDA Content types."
+keywords: ["loc"]
+originalSources: ["http://id.loc.gov/vocabulary/contentTypes"]
+sources:
+  - url: https://id.loc.gov/vocabulary/contentTypes.rdf
+    name: contenttypes.rdf
+    sha256: "80474b3f53048c1419831a0481f80bd61d5baebc87af0f4992f5bf7ae9de453c"
+    size: 13134

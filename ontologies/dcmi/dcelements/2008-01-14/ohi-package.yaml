@@ -1,0 +1,26 @@
+namespace: dcmi
+name: dcelements
+version: "2008-01-14"
+language: rdfs
+syntax: rdfxml
+roots: [dcelements.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "DCMI Metadata Element Set"
+authors:
+  - name: "Dublin Core Metadata Initiative"
+    link: "https://www.dublincore.org/"
+publishers:
+  - name: "Dublin Core Metadata Initiative"
+    link: "https://www.dublincore.org/"
+description: "The fifteen Dublin Core elements, such as title, creator, subject and date."
+keywords: ["metadata", "Dublin Core"]
+originalSources: ["https://www.dublincore.org/specifications/dublin-core/dcmi-terms"]
+sources:
+  - url: https://www.dublincore.org/2008/01/14/dcelements.rdf
+    sha256: "2b82ebd9c80ee9e079161454b58aa5fd0c53bec1b677fcb04924516c3c772362"
+    size: 17564
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

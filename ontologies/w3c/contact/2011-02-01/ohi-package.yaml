@@ -1,0 +1,23 @@
+namespace: w3c
+name: contact
+version: "2011-02-01"
+language: owl
+syntax: turtle
+roots: [contact.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Contact"
+authors:
+  - name: "Tim Berners-Lee"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "Utility concepts for everyday life."
+keywords: ["People"]
+originalSources: ["https://www.w3.org/2000/10/swap/pim/contact"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/con/versions/2011-02-01.n3
+    name: contact.ttl
+    sha256: "67f7fc233e917326ba4c096d62cc0547a3b5f4178ffc9e723f71f55d63fa3ae7"
+    size: 9936

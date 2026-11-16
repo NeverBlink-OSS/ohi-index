@@ -1,0 +1,28 @@
+namespace: saref
+name: saref4mari
+version: "v1.1.1"
+language: owl
+syntax: turtle
+roots: [saref4mari.ttl]
+licenses: ["BSD-3-Clause"]
+licenseFiles: [LICENSE]
+dependencies: ["saref/saref-core@v4.1.1", "saref/saref4watr@v2.1.1"]
+title: "SAREF4MARI"
+authors:
+  - name: "Helen Mair Rawsthorne"
+publishers:
+  - name: "European Telecommunications Standards Institute"
+    link: "https://www.etsi.org/"
+contributors:
+  - name: "Alexandr Tardo"
+  - name: "Ivan Spajić"
+description: "SAREF extension for the maritime domain: vessels, ports and their equipment."
+keywords: ["maritime", "IoT", "shipping"]
+originalSources: ["https://saref.etsi.org/saref4mari"]
+sources:
+  - url: https://saref.etsi.org/saref4mari/v1.1.1/saref4mari.ttl
+    sha256: "288b3c80aeed99c2dbe6baeedc13fc10eaada3cfdf47aa30ca355d9f45bd2a1d"
+    size: 115900
+  - url: https://labs.etsi.org/rep/saref/saref4mari/-/raw/fe3d4e22c07fb9fc83c4ddc991834e74843a1322/LICENSE
+    sha256: "3f6ac10a1fce62209b21cff36570b6290bf34fca4b9e2c7069e95c96aee01f22"
+    size: 1475

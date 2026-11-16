@@ -1,0 +1,28 @@
+namespace: obo
+name: cvdo
+version: "2024-05-17"
+language: owl
+syntax: rdfxml
+roots: [cvdo.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Cardiovascular Disease Ontology"
+authors:
+  - name: "Adrien Barton"
+  - name: "Arnaud Rosier"
+  - name: "Jean-François Ethier"
+  - name: "Paul Fabry"
+publishers:
+  - name: "Groupe de Recherche Interdisciplinaire en Informatique de la Santé"
+    link: "https://griis.ca"
+description: "An ontology to describe entities related to cardiovascular diseases."
+keywords: ["health", "OBO"]
+originalSources: ["https://github.com/OpenLHS/CVDO"]
+sources:
+  - url: https://github.com/OpenLHS/CVDO/blob/aee6b37304001df936cd25273b5ef5045c30a3ae/cvdo.owl
+    sha256: "2dc1635cbe88923cea754931d5066873fff7f2f1e7850e151dc3b7d595deefbd"
+    size: 1339226
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

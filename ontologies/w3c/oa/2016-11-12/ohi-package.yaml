@@ -1,0 +1,24 @@
+namespace: w3c
+name: oa
+version: "2016-11-12"
+language: rdfs
+syntax: turtle
+roots: [oa.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Web Annotation vocabulary"
+authors:
+  - name: "Benjamin Young"
+  - name: "Paolo Ciccarese"
+  - name: "Robert Sanderson"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "W3C vocabulary for annotations on web resources, their bodies, targets and selectors."
+keywords: ["annotations", "web"]
+originalSources: ["https://www.w3.org/TR/annotation-vocab"]
+sources:
+  - url: https://www.w3.org/ns/oa.ttl
+    sha256: "f661e37d33bf29176390101687711734a7e33a716bdecfb66b90c732373d7af5"
+    size: 21632

@@ -1,0 +1,26 @@
+namespace: iata
+name: one-record-code-lists
+version: "1.0.0"
+language: owl
+syntax: turtle
+roots: [IATA-1R-CL-Ontology.ttl]
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "IATA ONE Record code lists"
+authors:
+  - name: "International Air Transport Association"
+    link: "https://www.iata.org/"
+publishers:
+  - name: "International Air Transport Association"
+    link: "https://www.iata.org/"
+description: "Code lists used by the IATA ONE Record cargo data model."
+keywords: ["air cargo", "code lists", "logistics"]
+originalSources: ["https://github.com/IATA-Cargo/ONE-Record"]
+sources:
+  - url: https://github.com/IATA-Cargo/ONE-Record/blob/698d641a5ed3bebc2ff73ba62665b64edbaa0c1f/2024-12-standard/Data-Model/IATA-1R-CL-Ontology.ttl
+    sha256: "5bb040ff22e3766ad16e66cc95d6c406be22826f53ed82fb5773c2f6f7e24317"
+    size: 807714
+  - url: https://github.com/IATA-Cargo/ONE-Record/blob/698d641a5ed3bebc2ff73ba62665b64edbaa0c1f/LICENSE
+    sha256: "ab47bc573d9e96eaada75f703e951ecbcf136b1752eb51098610b9a8481094dc"
+    size: 1067

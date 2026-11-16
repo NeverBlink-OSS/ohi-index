@@ -1,0 +1,31 @@
+namespace: spar
+name: pwo
+version: "2.4"
+language: owl
+syntax: rdfxml
+roots: [pwo.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE.md]
+dependencies: ["spar/error@1.0.1", "odp/basicplan@1.1", "odp/controlflow@1.1", "odp/participation@1.1", "odp/sequence@1.1", "odp/timeindexedsituation@1.0", "odp/timeinterval@1.1", "w3c/time@2016"]
+title: "SPAR Publishing Workflow Ontology"
+authors:
+  - name: "Aldo Gangemi"
+    link: "https://orcid.org/0000-0001-5568-2684"
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+  - name: "David Shotton"
+    link: "http://opencitations.net"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+description: "Ontology of the steps of publishing workflows."
+keywords: ["publishing", "workflows"]
+originalSources: ["https://github.com/SPAROntologies/pwo"]
+sources:
+  - url: https://sparontologies.github.io/pwo/2017-06-01/pwo.xml
+    name: pwo.rdf
+    sha256: "adf740ecd76fa93cbed1d2f825d8242f68b4f95806ba908203da8fd173705acb"
+    size: 32621
+  - url: https://github.com/SPAROntologies/pwo/blob/ade82906fb659593efa3575acf7943e1e77ceda0/LICENSE.md
+    sha256: "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    size: 18656

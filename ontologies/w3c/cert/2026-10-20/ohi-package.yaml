@@ -1,0 +1,23 @@
+namespace: w3c
+name: cert
+version: "2026-10-20"
+language: owl
+syntax: rdfxml
+roots: [cert.rdf]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "WebID cert ontology"
+authors:
+  - name: "Henry Story"
+    link: "http://bblfish.net/"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "Ontology for public keys and certificates, as used by WebID."
+keywords: ["certificates", "cryptography", "WebID"]
+originalSources: ["https://www.w3.org/ns/auth/cert"]
+sources:
+  - url: https://www.w3.org/ns/auth/cert.rdf
+    sha256: "d8f4b32d957e54d25619b3ab5b8b604286ce473816b4c7224002e13906ea253b"
+    size: 15120

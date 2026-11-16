@@ -1,0 +1,32 @@
+namespace: spar
+name: frapo
+version: "1.2.0"
+language: owl
+syntax: rdfxml
+roots: [frapo.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE.md]
+dependencies: ["spar/foaf@2.0"]
+title: "SPAR Funding, Research Administration and Projects Ontology"
+authors:
+  - name: "David Shotton"
+    link: "http://opencitations.net"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+contributors:
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+  - name: "Sebastian Barzaghi"
+    link: "https://orcid.org/0000-0002-0799-1527"
+description: "Ontology of research funding, grants, projects and their administration."
+keywords: ["research funding", "projects", "grants"]
+originalSources: ["https://github.com/SPAROntologies/frapo"]
+sources:
+  - url: https://sparontologies.github.io/frapo/2026-08-14/frapo.xml
+    name: frapo.rdf
+    sha256: "d0e1af964de77da043fcef825eda1d78510c15bbe44f880bf45cbc392e566e1a"
+    size: 210659
+  - url: https://github.com/SPAROntologies/frapo/blob/f5c6c5c2f947c2106a8d69829a207294e4b3975b/LICENSE.md
+    sha256: "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    size: 18656

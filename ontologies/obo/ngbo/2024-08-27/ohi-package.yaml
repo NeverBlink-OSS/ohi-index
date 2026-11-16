@@ -1,0 +1,26 @@
+namespace: obo
+name: ngbo
+version: "2024-08-27"
+language: owl
+syntax: rdfxml
+roots: [ngbo.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Next Generation Biobanking Ontology"
+authors:
+  - name: "Dalia Alghamdi"
+    link: "https://github.com/Dalalghamdi"
+publishers:
+  - name: "Dalia Alghamdi"
+    link: "https://github.com/Dalalghamdi"
+description: "The Next Generation Biobanking Ontology (NGBO) is an open application ontology representing contextual data about omics digital assets in biobank."
+keywords: ["investigations", "OBO"]
+originalSources: ["https://github.com/Dalalghamdi/NGBO"]
+sources:
+  - url: https://github.com/Dalalghamdi/NGBO/blob/df48127f713d14520f8abc89aebf662bb19abf5a/ngbo.owl
+    sha256: "943495c35bfc7e95b2cbb7213815caf2b47c550258262c7affdc30eb57b6dfce"
+    size: 1413449
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

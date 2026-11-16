@@ -1,0 +1,35 @@
+namespace: spar
+name: deo
+version: "1.2.0"
+language: owl
+syntax: rdfxml
+roots: [deo.rdf]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [LICENSE.md]
+dependencies: []
+title: "SPAR Discourse Elements Ontology"
+authors:
+  - name: "David Shotton"
+    link: "http://opencitations.net"
+  - name: "Silvio Peroni"
+    link: "https://www.unibo.it/sitoweb/silvio.peroni/en"
+publishers:
+  - name: "OpenCitations"
+    link: "https://opencitations.net/"
+contributors:
+  - name: "Sebastian Barzaghi"
+    link: "https://orcid.org/0000-0002-0799-1527"
+description: "Ontology of the rhetorical parts of a document, such as introduction, methods and conclusion."
+keywords: ["documents", "rhetoric", "scholarly publications"]
+originalSources: ["https://github.com/SPAROntologies/deo"]
+publications:
+  - title: "Constantin, A., Peroni, S., Pettifer, S., Shotton, D., Vitali, F. (2016). The Document Components Ontology (DoCO). In Semantic Web – Interoperability, Usability, Applicability, 7 (2): 167-181. Amsterdam, The Netherlands: IOS Press. https://doi.org/10.3233/SW-150177"
+    link: "https://doi.org/10.3233/SW-150177"
+sources:
+  - url: https://sparontologies.github.io/deo/2026-08-14/deo.xml
+    name: deo.rdf
+    sha256: "12ee4a8fa6250988f163756e6d7a156b9471afcde024b12079516df2f51e326b"
+    size: 45953
+  - url: https://github.com/SPAROntologies/deo/blob/dfaa0904b1b7905cd8293dc2f1b9992c2871d0d4/LICENSE.md
+    sha256: "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    size: 18656

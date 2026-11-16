@@ -1,0 +1,25 @@
+namespace: obo
+name: duo
+version: "2021-02-23"
+language: owl
+syntax: rdfxml
+roots: [duo.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["obo/iao@2026-03-30"]
+title: "Data Use Ontology"
+authors:
+  - name: "Melanie Courtot"
+publishers:
+  - name: "EMBL-EBI Samples, Phenotypes and Ontologies Team"
+    link: "https://www.ebi.ac.uk/spot/"
+description: "DUO is an ontology which represent data use conditions."
+keywords: ["information", "OBO"]
+originalSources: ["https://github.com/EBISPOT/DUO"]
+sources:
+  - url: https://github.com/EBISPOT/DUO/blob/81f5c3d9cc5a3e13614fdeaed53ace2496d7c095/duo.owl
+    sha256: "6a34ce09ae07b1e37c6756e049c12129fd1104e7d9e6e2f8cee84d2ab374c45b"
+    size: 108348
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

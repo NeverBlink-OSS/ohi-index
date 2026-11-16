@@ -1,0 +1,28 @@
+namespace: s4ac
+name: s4ac
+version: "0.2"
+language: owl
+syntax: turtle
+roots: [s4ac.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Social Semantic SPARQL Security For Access Control Ontology"
+authors:
+  - name: "Nicolas Delaforge"
+  - name: "Fabien Gandon"
+  - name: "Serena Villata"
+publishers:
+  - name: "Inria"
+    link: "https://www.inria.fr/"
+description: "A lightweight vocabulary to create fine-grained access control policies for Linked Data."
+keywords: ["API"]
+originalSources: ["http://ns.inria.fr/s4ac/v2/s4ac_v2.html"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/s4ac/versions/2011-10-06.n3
+    name: s4ac.ttl
+    sha256: "c503a1b115eb9a72447e63831ab9cc1328c24a10a560e22c8d14ecc423121844"
+    size: 14451
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

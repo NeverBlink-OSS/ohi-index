@@ -1,0 +1,23 @@
+namespace: vocabulary
+name: mrel
+version: "2014-02-16"
+language: owl
+syntax: turtle
+roots: [mrel.ttl]
+licenses: ["public domain"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "MARC Code List for Relators"
+authors:
+  - name: "Library of Congress"
+    link: "https://www.loc.gov/"
+publishers:
+  - name: "Library of Congress"
+    link: "https://www.loc.gov/"
+description: "MARC relators are defined as both RDF properties and SKOS concepts."
+keywords: ["Vocabularies"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/mrel/versions/2014-02-16.n3
+    name: mrel.ttl
+    sha256: "9bb8da59235a3859e28504ce41cf844cddf0543a888275158b3727dd67083419"
+    size: 292284

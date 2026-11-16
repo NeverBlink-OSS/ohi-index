@@ -1,0 +1,25 @@
+namespace: lio
+name: lio
+version: "2026-11-02"
+language: owl
+syntax: rdfxml
+roots: [lio.owl]
+licenses: ["CC-BY-SA-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Lightweight Image Ontology"
+authors:
+  - name: "Pat Hayes"
+  - name: "Margaret Warren"
+publishers:
+  - name: "Pat Hayes"
+  - name: "Margaret Warren"
+description: "A Lightweight Ontology for Describing Images."
+keywords: ["Image"]
+sources:
+  - url: https://imagesnippets.com/lio/lio.owl
+    sha256: "3b3c5a530676f227a3ab52510c7a561aec68ba266cb65767fcd7801df7af7dc2"
+    size: 15407
+  - url: https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt
+    sha256: "3f941b3b89cf7b8370ceb83cc76d2120d471b58735d8ca60238a751a48d7f72f"
+    size: 22240

@@ -1,0 +1,29 @@
+namespace: tribont
+name: tribont-equipment
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [tribont-equipment.ttl]
+licenses: ["CC-BY-NC-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["tribont/tribont-core@1.0"]
+title: "Equipment module"
+authors:
+  - name: "Patricia Casla"
+publishers:
+  - name: "Tekniker"
+    link: "https://www.tekniker.es/"
+contributors:
+  - name: "Izaskun Fernández"
+  - name: "Iban Quintana"
+  - name: "Xana Fernandez"
+description: "The goal of this module is to represent the equipment hierarchy model involved in the tribological experiments."
+keywords: ["Methods"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/tribont-equipment/versions/2023-06-02.n3
+    name: tribont-equipment.ttl
+    sha256: "d781b44122b2c211915cfa19a733b718bb5310361449fb5270b2db1aae3d72dc"
+    size: 49696
+  - url: https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt
+    sha256: "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+    size: 19347

@@ -1,0 +1,28 @@
+namespace: cmungall
+name: mianct-schema
+version: "0.0.1"
+language: linkml
+syntax: yaml
+roots: [mianct-schema.yaml]
+patch: mianct-schema.patch.yaml
+licenses: ["CC0-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Minimal Information About a new Cell Type"
+authors:
+  - name: "Christopher J. Mungall"
+    link: "http://berkeleybop.org/people/chris-mungall"
+publishers:
+  - name: "Christopher J. Mungall"
+    link: "http://berkeleybop.org/people/chris-mungall"
+description: "Minimal Information About a New Cell Type."
+keywords: ["anatomy", "cell-ontology", "cell-types", "checklist", "json-schema", "Computer Science"]
+originalSources: ["https://github.com/cmungall/mianct-schema"]
+sources:
+  - url: https://github.com/cmungall/mianct-schema/blob/71484be062e2c1e522a6458f342134dfa7978094/model/schema/mianct.yaml
+    name: mianct-schema.yaml
+    sha256: "52a03b9ede826f63c3b8732f10b712f711d6beeeca53133a8f8db714804315f7"
+    size: 4760
+  - url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+    sha256: "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    size: 7048

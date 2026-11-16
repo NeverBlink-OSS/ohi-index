@@ -1,0 +1,27 @@
+namespace: vivoweb
+name: vivo
+version: "2013-12-17"
+language: owl
+syntax: turtle
+roots: [vivo.ttl]
+licenses: ["Unlicense"]
+licenseFiles: [UNLICENSE]
+dependencies: []
+title: "VIVO Core Ontology"
+authors:
+  - name: "VIVO project"
+    link: "https://vivoweb.org/"
+publishers:
+  - name: "VIVO project"
+    link: "https://vivoweb.org/"
+description: "An ontology of academic and research domain, developed in the framework of the VIVO project."
+keywords: ["Academy"]
+originalSources: ["http://www.vivoweb.org/download"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/vivo/versions/2013-12-17.n3
+    name: vivo.ttl
+    sha256: "958eb6ed388077964e5e5070e5e645a3150751199cd670b37556a52170bc4d54"
+    size: 461048
+  - url: https://unlicense.org/UNLICENSE
+    sha256: "b5065838cbac452dfc855ba6e6e031481ad2c68406f70d21ead9321374653e6c"
+    size: 1212

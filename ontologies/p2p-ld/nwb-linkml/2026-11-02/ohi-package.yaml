@@ -1,0 +1,28 @@
+namespace: p2p-ld
+name: nwb-linkml
+version: "2026-11-02"
+language: linkml
+syntax: yaml
+roots: [nwb-linkml.yaml]
+patch: nwb-linkml.patch.yaml
+licenses: ["GPL-3.0-only"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "nwb-schema-language"
+authors:
+  - name: "P2P-LD"
+    link: "https://github.com/p2p-ld"
+publishers:
+  - name: "P2P-LD"
+    link: "https://github.com/p2p-ld"
+description: "Translating NWB schema language to linkml."
+keywords: ["Computer Science"]
+originalSources: ["https://github.com/p2p-ld/nwb-linkml"]
+sources:
+  - url: https://github.com/p2p-ld/nwb-linkml/blob/77a852913c0ae036ca7285a3e5e5dc04fa3e8954/nwb_schema_language/src/nwb_schema_language/schema/nwb_schema_language.yaml
+    name: nwb-linkml.yaml
+    sha256: "d0114392f6fd6c597b595944960b810411308f9e39fc5271f2edae1b2ed33f2e"
+    size: 11096
+  - url: https://github.com/p2p-ld/nwb-linkml/blob/77a852913c0ae036ca7285a3e5e5dc04fa3e8954/LICENSE
+    sha256: "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    size: 35149

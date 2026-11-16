@@ -1,0 +1,42 @@
+namespace: iadopt
+name: iadopt
+version: "0.9.1"
+language: owl
+syntax: turtle
+roots: [iadopt.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "I-ADOPT Framework ontology"
+authors:
+  - name: "Sirko Schindler"
+    link: "https://orcid.org/0000-0002-0964-4457"
+  - name: "Maria Stoica"
+    link: "https://orcid.org/0000-0002-6612-3439"
+  - name: "Anusuriya Devaraju"
+    link: "https://orcid.org/0000-0003-0870-3192"
+  - name: "Gwenaëlle Moncoiffé"
+    link: "https://orcid.org/0000-0001-6559-4178"
+  - name: "Alison Pamment"
+    link: "https://orcid.org/0000-0001-5040-4626"
+  - name: "Barbara Magagna"
+    link: "https://orcid.org/0000-0003-2195-3997"
+publishers:
+  - name: "Research Data Alliance I-ADOPT Working Group"
+    link: "https://i-adopt.github.io/"
+contributors:
+  - name: "Robert Huber"
+  - name: "Simon J. D. Cox"
+    link: "https://orcid.org/0000-0002-3884-3420"
+  - name: "John Graybeal"
+    link: "https://orcid.org/0000-0001-6875-5360"
+description: "The I-ADOPT Framework ontology."
+keywords: ["Biology", "Environment"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/iadopt/versions/2021-10-15.n3
+    name: iadopt.ttl
+    sha256: "6de43f4965c5b813a1b7602fe1251236cc7f93b5bc1d0f18fb920b1602ecbcb3"
+    size: 8272
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

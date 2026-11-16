@@ -1,0 +1,39 @@
+namespace: obo
+name: exmo
+version: "2025-06-05"
+language: owl
+syntax: rdfxml
+roots: [exmo.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Exercise Medicine Ontology"
+authors:
+  - name: "Bairong Shen"
+  - name: "Danting Li"
+  - name: "Hui Zong"
+  - name: "Jiao Wang"
+  - name: "Ke Zhang"
+  - name: "Min Jiang"
+  - name: "Ting Bao"
+  - name: "Tong Tang"
+  - name: "Xingyun Liu"
+    contact: "xyz19940216@163.com"
+    link: "https://orcid.org/0000-0002-9295-2767"
+  - name: "Yin Yang"
+publishers:
+  - name: "Exercise Medicine Ontology"
+    link: "https://github.com/Exercise-Medicine-Ontology"
+description: "A core reference ontology built upon BFO about exercise medicine and it contains the related terms for healthy people, people with chronic conditions and people living with diability to exercise."
+keywords: ["health", "OBO"]
+originalSources: ["https://github.com/Exercise-Medicine-Ontology/EXMO"]
+publications:
+  - title: "Core reference ontology for individualized exercise prescription"
+    link: "https://www.ncbi.nlm.nih.gov/pubmed/39695140"
+sources:
+  - url: https://github.com/Exercise-Medicine-Ontology/EXMO/blob/995f9a82b565eb313d6412ae73bbb222d47254f9/exmo.owl
+    sha256: "fb50ade98271ed4e2fdd2f1e9f00010354fbd5743846f5f939edade225e49142"
+    size: 1693215
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

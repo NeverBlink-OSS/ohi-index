@@ -1,0 +1,32 @@
+namespace: squap
+name: sw-quality
+version: "0.2"
+language: owl
+syntax: turtle
+roots: [sw-quality.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "SQuAP Ontology"
+authors:
+  - name: "Daniel Russo"
+  - name: "Valentina Presutti"
+  - name: "Paolo Ciancarini"
+  - name: "Andrea Giovanni Nuzzolese"
+    link: "https://orcid.org/0000-0003-2928-9496"
+publishers:
+  - name: "Daniel Russo"
+  - name: "Valentina Presutti"
+  - name: "Paolo Ciancarini"
+  - name: "Andrea Giovanni Nuzzolese"
+    link: "https://orcid.org/0000-0003-2928-9496"
+description: "Quality, architecture, and process are considered the keystones of software engineering."
+keywords: ["Industry", "Quality"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/sw-quality/versions/2019-07-16.n3
+    name: sw-quality.ttl
+    sha256: "6bf9d7e0faabdb737e71aa34259f328f24986c75bab00515abaeb6d3e96cdae8"
+    size: 62886
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

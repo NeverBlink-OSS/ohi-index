@@ -1,0 +1,37 @@
+namespace: utep
+name: edac
+version: "1.2"
+language: owl
+syntax: turtle
+roots: [edac.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["utep/lsweb@1.2"]
+title: "ELSEWeb EDAC Ontology"
+authors:
+  - name: "Natalia Villanueva-Rosales"
+  - name: "ELSEWeb Team"
+  - name: "Cyber-ShARE Center of Excellence"
+    link: "https://cybershare.utep.edu/"
+  - name: "Nicholas del Rio"
+publishers:
+  - name: "ELSEWeb Team"
+contributors:
+  - name: "Karl Benedict"
+  - name: "Luis Garnica"
+  - name: "Cj Grady"
+  - name: "Bill Hudspeth"
+  - name: "Deana Pennington"
+  - name: "Soren Scott"
+  - name: "Aimee Stewart"
+description: "The ELSEWeb EDAC ontology describes datasets published by EDAC."
+keywords: ["Catalogs", "Support"]
+originalSources: ["http://elseweb.cybershare.utep.edu/ontologies"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/edac/versions/2015-09-24.n3
+    name: edac.ttl
+    sha256: "090b7e8488214a4781e989687ade95ddc70a1b89c461bf644ab148c6fbf37c58"
+    size: 21395
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467

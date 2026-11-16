@@ -1,0 +1,28 @@
+namespace: temeta
+name: data-definition-spec
+version: "2026-11-02"
+language: linkml
+syntax: yaml
+roots: [data-definition-spec.yaml]
+patch: data-definition-spec.patch.yaml
+licenses: ["MIT"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Data Definition Specification (DDS)"
+authors:
+  - name: "Jeremy Teoh"
+    link: "https://calendly.com/jeremyteoh"
+publishers:
+  - name: "Jeremy Teoh"
+    link: "https://calendly.com/jeremyteoh"
+description: "Metadata exchange model for Data Contracts and specs."
+keywords: ["Computer Science"]
+originalSources: ["https://github.com/TeMeta/data-definition-spec"]
+sources:
+  - url: https://github.com/TeMeta/data-definition-spec/blob/ce6a2b4af465c8fd1e08ac68548460bacf1a0bb4/dds.yaml
+    name: data-definition-spec.yaml
+    sha256: "c6efb011a3476ab3e4b717b79e3dfd2c5e30558d9b55cc1ef76852e31e9cb469"
+    size: 97461
+  - url: https://github.com/TeMeta/data-definition-spec/blob/ce6a2b4af465c8fd1e08ac68548460bacf1a0bb4/LICENSE
+    sha256: "9762c8075b81d965323534480c0ccb86b3d5244630a29b38a8a778ed316248ab"
+    size: 1075

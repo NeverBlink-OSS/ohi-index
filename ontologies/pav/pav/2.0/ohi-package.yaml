@@ -1,0 +1,32 @@
+namespace: pav
+name: pav
+version: "2.0"
+language: owl
+syntax: turtle
+roots: [pav.ttl]
+licenses: ["Apache-2.0"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Provenance, Authoring and Versioning"
+authors:
+  - name: "Paolo Ciccarese"
+    link: "http://www.paolociccarese.info/"
+publishers:
+  - name: "SWAN project"
+    link: "http://swan.mindinformatics.org/"
+contributors:
+  - name: "Marco Ocana"
+  - name: "Stian Soiland-Reyes"
+    link: "http://soiland-reyes.com/stian/"
+description: "PAV is a lightweight ontology for tracking Provenance, Authoring and Versioning."
+keywords: ["Quality"]
+originalSources: ["http://pav-ontology.github.io/pav"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/pav/versions/2012-04-04.n3
+    name: pav.ttl
+    sha256: "f4bd12f6e44947b672e3affdcf4a7d9df2a9c46a75b64ed09b7fe7d848ee2dc2"
+    size: 12543
+  - url: https://www.apache.org/licenses/LICENSE-2.0.txt
+    name: LICENSE
+    sha256: "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    size: 11358

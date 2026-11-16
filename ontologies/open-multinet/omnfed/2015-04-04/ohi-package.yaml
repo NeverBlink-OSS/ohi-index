@@ -1,0 +1,46 @@
+namespace: open-multinet
+name: omnfed
+version: "2015-04-04"
+language: owl
+syntax: turtle
+roots: [omnfed.ttl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["open-multinet/omn@2015-04-04"]
+title: "Open-Multinet Upper Federation Ontology"
+authors:
+  - name: "Alexander Willner"
+    link: "http://alex.willner.ws/"
+publishers:
+  - name: "Open-Multinet"
+    link: "http://open-multinet.info/"
+contributors:
+  - name: "Jorge López de Vergara"
+    contact: "jorge.lopez_vergara@uam.es"
+  - name: "Mohamed Morsey"
+  - name: "Chrysa Papagianni"
+    contact: "chrisap@noc.ntua.gr"
+  - name: "Yahya Al-Hazmi"
+    contact: "yahya.al-hazmi@tu-berlin.de"
+  - name: "Yufeng Xin"
+    contact: "yxin@renci.org"
+  - name: "Robyn Loughnane"
+    contact: "loughnane@campus.tu-berlin.de"
+  - name: "Paola Grosso"
+    link: "https://staff.fnwi.uva.nl/p.grosso"
+  - name: "Brecht Vermeulen"
+    contact: "brecht.vermeulen@iminds.be"
+  - name: "Ilya Baldin"
+    contact: "ibaldin@renci.org"
+  - name: "Thijs Walcarius"
+    contact: "thijs.walcarius@intec.ugent.be"
+description: "This ontology defines concepts related to federation of internet infrastructures."
+keywords: ["Industry", "Society"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/omnfed/versions/2015-04-04.n3
+    name: omnfed.ttl
+    sha256: "0c67b0dc5467d2f7f9b405d7132a9a5a7ebf577178be3adf5d2a019792326724"
+    size: 5317
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

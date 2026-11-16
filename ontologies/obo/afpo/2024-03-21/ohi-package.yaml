@@ -1,0 +1,55 @@
+namespace: obo
+name: afpo
+version: "2024-03-21"
+language: owl
+syntax: rdfxml
+roots: [afpo.owl]
+licenses: ["CC-BY-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "African Population Ontology"
+authors:
+  - name: "H3ABioNet"
+    link: "https://www.h3abionet.org/"
+publishers:
+  - name: "H3ABioNet"
+    link: "https://www.h3abionet.org/"
+contributors:
+  - name: "Melek Chaouch"
+    link: "https://orcid.org/0000-0001-5868-4204"
+  - name: "Faisal M. Fadlelmola"
+    link: "https://orcid.org/0000-0001-8351-264X"
+  - name: "Rym Kefi"
+    link: "https://orcid.org/0000-0001-8801-5781"
+  - name: "Lyndon Zass"
+    link: "https://orcid.org/0000-0001-8862-1706"
+  - name: "Alia Benkahla"
+    link: "https://orcid.org/0000-0001-9988-3250"
+  - name: "Meriem Fassatoui"
+    link: "https://orcid.org/0000-0002-0957-5877"
+  - name: "Kais Ghedira"
+    link: "https://orcid.org/0000-0002-3387-6493"
+  - name: "Jeffery Struewing"
+    link: "https://orcid.org/0000-0002-4848-3334"
+  - name: "Aimé Lumaka"
+    link: "https://orcid.org/0000-0002-5468-8678"
+  - name: "Fouzia Radouani"
+    link: "https://orcid.org/0000-0002-6221-2661"
+  - name: "Anita Reane Caron"
+    link: "https://orcid.org/0000-0002-6523-4866"
+  - name: "David Osumi-Sutherland"
+    link: "https://orcid.org/0000-0002-7073-9172"
+  - name: "Danielle Welter"
+    link: "https://orcid.org/0000-0003-1058-2668"
+  - name: "Nicola J Mulder"
+    link: "https://orcid.org/0000-0003-4905-0941"
+description: "AfPO is an ontology that can be used in the study of diverse populations across Africa."
+keywords: ["organisms", "ancestry", "OBO"]
+originalSources: ["https://github.com/h3abionet/afpo"]
+sources:
+  - url: https://github.com/h3abionet/afpo/blob/bb917a2c1c33af61e2988e175aeef12e430ed3db/afpo.owl
+    sha256: "f6704f64a284bba05f9736172bcb0f058c4cc3759273a84d2ad53a8461f30765"
+    size: 1369705
+  - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+    sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    size: 18657

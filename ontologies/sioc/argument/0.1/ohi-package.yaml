@@ -1,0 +1,28 @@
+namespace: sioc
+name: argument
+version: "0.1"
+language: owl
+syntax: rdfxml
+roots: [argument.rdf]
+licenses: ["CC-BY-1.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Semantically-Interlinked Online Communities Argumentation Ontology"
+authors:
+  - name: "Christoph Lange"
+    contact: "ch.lange@jacobs-university.de"
+  - name: "Uldis Bojārs"
+    contact: "uldis.bojars@deri.org"
+  - name: "Tudor Groza"
+    contact: "tudor.groza@deri.org"
+publishers:
+  - name: "SIOC project"
+    link: "http://sioc-project.org/"
+description: "A vocabulary of argumentation predicates for SIOC."
+keywords: ["ontology", "sioc"]
+originalSources: ["http://rdfs.org/sioc/spec"]
+sources:
+  - url: https://rdfs.org/sioc/argument
+    name: argument.rdf
+    sha256: "904f95be77a2ad9a9997c52cf55cf64e5a1e1a4368a12081eba626bf0a4a37b1"
+    size: 12600

@@ -1,0 +1,23 @@
+namespace: w3c
+name: test
+version: "2005-09-14"
+language: owl
+syntax: turtle
+roots: [test.ttl]
+licenses: ["W3C-20150513"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Test Metadata"
+authors:
+  - name: "W3C QA Working Group"
+publishers:
+  - name: "World Wide Web Consortium"
+    link: "https://www.w3.org/"
+description: "This ontology aims at defining the Quality Assurance Framework by collecting the test development experience of W3C Working Groups and summarizing the work done about tests and metadata."
+keywords: ["Quality"]
+originalSources: ["http://www.w3.org/TR/test-metadata"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/test/versions/2005-09-14.n3
+    name: test.ttl
+    sha256: "6ce1b1f57443f7009368afccc7f81d964d15d39fe166fbd30407c876dfc2fd42"
+    size: 8503

@@ -1,0 +1,27 @@
+namespace: data-knowledge
+name: dk
+version: "1.1"
+language: owl
+syntax: turtle
+roots: [dk.ttl]
+licenses: ["CC-BY-NC-SA-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "The Data Knowledge Vocabulary"
+authors:
+  - name: "Agatha Dabrowski"
+  - name: "Erik Thordsen"
+  - name: "Martin Böhmer"
+publishers:
+  - name: "Fraunhofer-Gesellschaft"
+    link: "https://www.fraunhofer.de/"
+description: "The Data Knowledge Vocabulary allows for a comprehensive description of data assets and enterprise data management."
+keywords: ["Industry", "Methods", "Vocabularies", "eBusiness"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/dk/versions/2018-02-14.n3
+    name: dk.ttl
+    sha256: "ef99643da1b8e52d188f32446b81f28a75878c48b192ba8e8b7571dbff11c750"
+    size: 88742
+  - url: https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode.txt
+    sha256: "8812f83442fd0eca14eb0208988e190fdcbfebec58fa5459d3218edfdfdc5a32"
+    size: 22306

@@ -1,0 +1,37 @@
+namespace: ontouml
+name: ontouml
+version: "1.1.0"
+language: owl
+syntax: ntriples
+roots: [ontouml.nt]
+licenses: ["CC-BY-SA-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "OntoUML Metamodel Vocabulary"
+authors:
+  - name: "Tiago Prince Sales"
+    contact: "t.princesales@utwente.nl"
+    link: "https://www.inf.unibz.it/~tpsales/"
+  - name: "Claudenir M. Fonseca"
+    contact: "c.moraisfonseca@utwente.nl"
+    link: "https://orcid.org/0000-0003-2528-3118"
+  - name: "Pedro Paulo F. Barcelos"
+    contact: "p.p.favatobarcelos@uwente.nl"
+    link: "https://orcid.org/0000-0003-2736-7817"
+publishers:
+  - name: "Semantics, Cybersecurity & Services, University of Twente"
+    link: "https://www.utwente.nl/en/eemcs/scs/"
+contributors:
+  - name: "Mattia Fumagalli"
+    contact: "mattia.fumagalli@unibz.it"
+    link: "https://orcid.org/0000-0003-3385-4769"
+description: "A reference implementation of the OntoUML metamodel in OWL."
+keywords: ["Methods", "RDF"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/ontouml/versions/2023-07-27.n3
+    name: ontouml.nt
+    sha256: "2ee46e9813fd51c484f7a7f677f0de8607645132475368d3c9f2daf1b34f1f3f"
+    size: 157941
+  - url: https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt
+    sha256: "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+    size: 20138

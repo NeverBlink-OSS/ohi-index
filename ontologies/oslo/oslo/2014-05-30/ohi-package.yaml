@@ -1,0 +1,29 @@
+namespace: oslo
+name: oslo
+version: "2014-05-30"
+language: owl
+syntax: turtle
+roots: [oslo.ttl]
+licenses: ["ISA Open Metadata Licence 1.1"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "OSLO Exchange Standard"
+authors:
+  - name: "Laurens De Vocht"
+    link: "http://be.linkedin.com/pub/laurensdv/"
+  - name: "V-ICT-OR"
+    link: "https://www.v-ict-or.be/"
+  - name: "Raf Buyle"
+    link: "http://be.linkedin.com/pub/raf-buyle/3/86/959/"
+  - name: "Open Standards for Linking Governments Working Group"
+publishers:
+  - name: "V-ICT-OR"
+    link: "https://www.v-ict-or.be/"
+description: "This version of the OSLO Exchange Standard provides a minimum set of classes and properties for describing a natural person, i.e."
+keywords: ["Society"]
+originalSources: ["https://github.com/v-ict-or/oslo_xml_schemas"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/oslo/versions/2014-05-30.n3
+    name: oslo.ttl
+    sha256: "20a60a81c554eafbbe0471216baaaba2acf4ccfc177eba39e125d3a54f7f4fad"
+    size: 67559

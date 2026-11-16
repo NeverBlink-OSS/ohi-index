@@ -1,0 +1,29 @@
+namespace: tribont
+name: tribont-sample
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [tribont-sample.ttl]
+licenses: ["CC-BY-NC-4.0"]
+licenseFiles: [legalcode.txt]
+dependencies: ["tribont/tribont-material@1.0"]
+title: "Sample module"
+authors:
+  - name: "Patricia Casla"
+publishers:
+  - name: "Tekniker"
+    link: "https://www.tekniker.es/"
+contributors:
+  - name: "Izaskun Fernández"
+  - name: "Iban Quintana"
+  - name: "Xana Fernandez"
+description: "The goal of this module is to represent the sample systems , and the undelaying samples, involved in the tribological experiments."
+keywords: ["Methods"]
+sources:
+  - url: https://lov.linkeddata.es/dataset/vocabs/tribont-sample/versions/2023-05-30.n3
+    name: tribont-sample.ttl
+    sha256: "8270441a0955f9b76c12ae7cc897c167199cd3b55022b63132e6566e438ee3e8"
+    size: 45172
+  - url: https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt
+    sha256: "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+    size: 19347
