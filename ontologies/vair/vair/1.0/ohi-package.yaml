@@ -18,6 +18,7 @@ contributors:
   - name: "Harshvardhan J. Pandit"
 description: "VAIR is a taxonomy of AI and risk concepts."
 keywords: ["Methods", "Society"]
+originalSources: ["https://github.com/DelaramGlp/vair", "https://delaramglp.github.io/vair/"]
 publications:
   - title: "Delaram Golpayegani, Harshvardhan J. Pandit, and Dave Lewis. To Be High-Risk, or Not To Be—Semantic Specifications and Implications of the AI Act’s High-Risk AI Applications and Harmonised Standards. Proceedings of the 2023 ACM Conference on Fairness, Accountability, and Transparency. 2023"
 sources:

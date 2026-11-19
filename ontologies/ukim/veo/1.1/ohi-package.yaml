@@ -17,6 +17,7 @@ contributors:
   - name: "Milos Jovanovik"
 description: "An ontology for describing vehicles and their emissions."
 keywords: ["Environment", "Industry"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/veo"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/veo/versions/2014-09-01.n3
     name: veo.ttl

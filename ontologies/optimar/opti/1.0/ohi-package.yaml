@@ -20,6 +20,7 @@ publishers:
     link: "https://www.tekniker.es/"
 description: "This ontology describes the components, failures, sensors, and events related to offshore wind platforms."
 keywords: ["Environment", "IoT"]
+originalSources: ["https://github.com/bisite/OPTIMAR-Ontology", "https://bisite.github.io/OPTIMAR-Ontology/docs/index.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/opti/versions/2025-10-06.n3
     name: opti.ttl

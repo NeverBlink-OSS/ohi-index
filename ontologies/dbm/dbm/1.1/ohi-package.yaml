@@ -15,6 +15,7 @@ publishers:
     link: "https://www.finki.ukim.mk/"
 description: "An ontology for the Drug Bureau of Macedonia (DBM)."
 keywords: ["Health"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/dbm"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/dbm/versions/2014-09-01.n3
     name: dbm.ttl

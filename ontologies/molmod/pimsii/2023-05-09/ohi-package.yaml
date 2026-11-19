@@ -15,6 +15,7 @@ publishers:
   - name: "Innovation Centre for Process Data Technology"
 description: "The Physicalistic Interpretation of Modelling and Simulation - Interoperability Infrastructure (PIMS-II) is a mid-level ontology with a focus on documenting cognitive processes and epistemic metadata."
 keywords: ["Metadata"]
+originalSources: ["http://www.molmod.info/semantics/pims-ii.ttl"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/pimsii/versions/2023-05-09.n3
     name: pimsii.ttl

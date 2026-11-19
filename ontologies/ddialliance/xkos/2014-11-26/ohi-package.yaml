@@ -23,6 +23,7 @@ contributors:
   - name: "Yves Jaques"
 description: "An extension of SKOS for representaion of nomenclatures."
 keywords: ["Vocabularies"]
+originalSources: ["https://github.com/linked-statistics/xkos", "https://rdf-vocabulary.ddialliance.org/xkos.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/xkos/versions/2016-03-20.n3
     name: xkos.nt

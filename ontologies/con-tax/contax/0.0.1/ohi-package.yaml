@@ -16,6 +16,7 @@ publishers:
     link: "https://orcid.org/0000-0002-3313-924X"
 description: "An ontology containing additional terminology for structuring and annotating RDFS/OWL taxonomies for describing constructions (components, materials, spatial zones, damages, construction tasks and properties)."
 keywords: ["Industry"]
+originalSources: ["https://github.com/mathib/ConTax-ontology", "https://mathib.github.io/ConTax-ontology/"]
 sources:
   - url: https://mathib.github.io/ConTax-ontology/ontology.ttl
     name: contax.ttl

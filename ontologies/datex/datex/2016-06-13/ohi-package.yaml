@@ -16,6 +16,7 @@ publishers:
     link: "https://pietercolpaert.be/"
 description: "This document gives URIs to all terms used within Datex II."
 keywords: ["Government", "Services", "Travel"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/datex"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/datex/versions/2016-06-13.n3
     name: datex.ttl

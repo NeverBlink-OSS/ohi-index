@@ -19,6 +19,7 @@ publishers:
     link: "https://www.abdn.ac.uk/"
 description: "An ontology to model accountability of AI systems which use machine learning."
 keywords: ["API", "Methods"]
+originalSources: ["https://github.com/RAINS-UOA/RAInS-Ontology", "https://rains-uoa.github.io/RAInS-Ontology/v2.0/index-en.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/rains/versions/2022-05-09.n3
     name: rains.ttl

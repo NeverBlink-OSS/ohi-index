@@ -17,6 +17,7 @@ publishers:
     link: "http://cookingbigdata.com"
 description: "Ontology for Cloud Computing Instances."
 keywords: ["Industry", "Services"]
+originalSources: ["http://cookingbigdata.com/linkeddata/ccinstances/"]
 sources:
   - url: https://cookingbigdata.com/linkeddata/ccinstances/
     name: cci.ttl

@@ -18,6 +18,7 @@ publishers:
     link: "https://www.w3.org/community/kg-construct/"
 description: "RML module for generating RDF-star graphs."
 keywords: ["RDF", "RML", "W3C Rec"]
+originalSources: ["https://github.com/kg-construct/rml-star", "https://kg-construct.github.io/rml-star/ontology/documentation/index-en.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/rml-star/versions/2023-06-15.n3
     name: rml-star.ttl

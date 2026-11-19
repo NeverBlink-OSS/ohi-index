@@ -17,6 +17,7 @@ publishers:
     link: "https://www.w3.org/community/kg-construct/"
 description: "RML-FNML provides data transformations for generating knowledge graphs from (semi-)structured data."
 keywords: ["RDF", "RML", "W3C Rec"]
+originalSources: ["https://github.com/kg-construct/rml-fnml", "https://kg-construct.github.io/rml-fnml/ontology/documentation/index-en.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/rml-fnml/versions/2023-06-15.n3
     name: rml-fnml.ttl

@@ -18,6 +18,7 @@ publishers:
     link: "https://www.fundacionctic.org/"
 description: "This is a vocabulary for modeling jobs offer in Spain."
 keywords: ["Society"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/emp"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/emp/versions/2013-09-03.n3
     name: emp.ttl

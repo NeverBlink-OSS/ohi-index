@@ -19,6 +19,7 @@ contributors:
   - name: "Xana Fernandez"
 description: "The goal of this ontology design pattern is to characterise a subject or group of subjects of interest by assigning qualifiable or quantifiable attributes or characteristics."
 keywords: ["General & Upper"]
+originalSources: ["https://github.com/fundaciontekniker/tribont-ontology", "https://fundaciontekniker.github.io/tribont-ontology/isCharacterisedBy/index-en.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/icb/versions/2023-05-30.n3
     name: icb.ttl

@@ -19,6 +19,7 @@ contributors:
   - name: "Xana Fernandez"
 description: "The goal is to represent the tribological experiments by relaying on the representation included in the core,, sample and equipment modules."
 keywords: ["Methods"]
+originalSources: ["https://github.com/fundaciontekniker/tribont-ontology", "https://fundaciontekniker.github.io/tribont-ontology/index-en.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/tribont/versions/2023-06-02.n3
     name: tribont.ttl

@@ -14,6 +14,7 @@ publishers:
   - name: "Peep Küngas"
 description: "The ontology describes the main concepts in the field of education and the connections between them."
 keywords: ["Academy"]
+originalSources: ["https://schema.edu.ee/"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/edu/versions/2020-02-14.n3
     name: edu.ttl

@@ -17,6 +17,7 @@ contributors:
   - name: "Eva Blomqvist"
 description: "A core ODP of the CEON ontology network defining aspects of the resource concept."
 keywords: ["Industry"]
+originalSources: ["https://github.com/LiUSemWeb/CEON", "https://liusemweb.github.io/CEON/ontology/resourceODP/latest/"]
 sources:
   - url: https://liusemweb.github.io/CEON/ontology/resourceODP/latest/resourceODP.ttl
     name: ceon-resourceodp.ttl

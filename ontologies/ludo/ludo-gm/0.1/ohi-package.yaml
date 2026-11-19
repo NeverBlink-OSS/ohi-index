@@ -16,6 +16,7 @@ publishers:
     link: "https://www.inria.fr/"
 description: "Given the increasing amount of structured data published on the Web, many possibilities are open for creating new types of games that use resources from the Web of Data."
 keywords: ["Games"]
+originalSources: ["http://ns.inria.fr/ludo/v1/docs/gamemodel.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/ludo-gm/versions/2016-08-26.n3
     name: ludo-gm.ttl

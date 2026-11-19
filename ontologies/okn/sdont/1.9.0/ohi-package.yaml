@@ -27,6 +27,7 @@ contributors:
   - name: "Maximiliano Osorio"
 description: "An ontology for describing software and their links to inputs, outputs and variables."
 keywords: ["Metadata", "Methods"]
+originalSources: ["https://github.com/KnowledgeCaptureAndDiscovery/SoftwareDescriptionOntology", "https://knowledgecaptureanddiscovery.github.io/SoftwareDescriptionOntology/release/1.9.0/index-en.html"]
 sources:
   - url: https://knowledgecaptureanddiscovery.github.io/SoftwareDescriptionOntology/release/1.9.0/ontology.ttl
     name: sdont.ttl

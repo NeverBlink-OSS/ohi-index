@@ -16,6 +16,7 @@ publishers:
     link: "https://www.w3.org/community/treecg/"
 description: "A hypermedia specification for fragmenting collections."
 keywords: ["Methods", "Support"]
+originalSources: ["https://github.com/TREEcg/specification", "https://treecg.github.io/specification/"]
 sources:
   - url: https://cdn.jsdelivr.net/gh/treecg/specification@master/tree.ttl
     sha256: "6a1d1747b14ee3acf2a77f54c975c624e7a772e3807ac282a84636a225ff3cc4"

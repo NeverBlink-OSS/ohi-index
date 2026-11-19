@@ -21,6 +21,7 @@ contributors:
   - name: "Area Pianificazione e Monitoraggio"
 description: "Core module of the suite of ontologies for urban IoT devices."
 keywords: ["IoT", "Services"]
+originalSources: ["https://github.com/Comune-Milano/ontologie-iot-urbani", "https://comune-milano.github.io/ontologie-iot-urbani/docs/core/index-en.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/uiot/versions/2020-12-02.n3
     name: uiot.ttl

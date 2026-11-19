@@ -27,6 +27,7 @@ contributors:
     contact: "atemezin@eurecom.fr"
 description: "Odapps is an RDF vocabulary defined to facilitate the description of Open-Data-based ideas and applications published on the Web."
 keywords: ["RDF"]
+originalSources: ["http://semweb.mmlab.be/ns/odapps"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/odapps/versions/2014-06-16.n3
     name: odapps.ttl

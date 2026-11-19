@@ -18,6 +18,7 @@ publishers:
     link: "https://www.renaultgroup.com/"
 description: "Ontology for the description of customizable products."
 keywords: ["eBusiness"]
+originalSources: ["https://doc.rplug.renault.com/car-configurator/cold/configurationontology/configurationontology.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/cold/versions/2013-11-21.n3
     name: cold.ttl

@@ -28,6 +28,7 @@ contributors:
   - name: "Aimee Stewart"
 description: "The ELSEWeb Modelling ontology provides simple classes for describing data models."
 keywords: ["Services", "Support"]
+originalSources: ["http://ontology.cybershare.utep.edu/ELSEWeb/elseweb-modelling.owl"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/lswmo/versions/2014-05-01.n3
     name: lswmo.ttl

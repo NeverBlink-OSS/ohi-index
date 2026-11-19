@@ -16,6 +16,7 @@ publishers:
     contact: "jeni@jenitennison.com"
 description: "Extension of data cube for civil service junior posts."
 keywords: ["Methods"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/odv"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/odv/versions/2011-06-11.n3
     name: odv.ttl

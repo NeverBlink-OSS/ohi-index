@@ -19,6 +19,7 @@ contributors:
     contact: "izaskun.fernandez@tekniker.es"
 description: "Module for dialogue process and system output management."
 keywords: ["Industry", "Services"]
+originalSources: ["https://github.com/cristinacm/todo", "https://cristinacm.github.io/todo/TODODM/index-en.html"]
 sources:
   - url: https://cristinacm.github.io/todo/TODODM/ontology/ontology.owl
     name: tddm.owl

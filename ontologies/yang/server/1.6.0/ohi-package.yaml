@@ -15,6 +15,7 @@ publishers:
     link: "https://github.com/candil-data-fabric"
 description: "Ontology that defines core concepts for representing YANG servers, including connection details and the available YANG datastores, along with operations for retrieving YANG data from a YANG server."
 keywords: ["API"]
+originalSources: ["https://github.com/candil-data-fabric/yang-server-ontology", "https://candil-data-fabric.github.io/yang-server-ontology/"]
 sources:
   - url: https://candil-data-fabric.github.io/yang-server-ontology/ontology.ttl
     name: server.ttl

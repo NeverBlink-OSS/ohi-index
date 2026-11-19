@@ -16,6 +16,7 @@ publishers:
     link: "https://www.isibang.ac.in/"
 description: "A FAIR-compliant metadata vocabulary (MV), the Library Transaction Ontology (LTO), is designed and developed for representing and managing library transaction data (LTD), including circulation, interlibrary loan, hold requests, and fiscal information."
 keywords: ["Academy", "Catalogs"]
+originalSources: ["https://www.isibang.ac.in/ns/lto/"]
 sources:
   - url: https://www.isibang.ac.in/ns/lto/ontology.ttl
     name: lto.ttl

@@ -21,6 +21,7 @@ contributors:
     link: "https://tib.eu/auer"
 description: "ModSci is a reference ontology for modelling different types of modern sciences and related entities, such as scientific discoveries, renowned scientists, instruments, phenomena ..."
 keywords: ["Academy", "Society"]
+originalSources: ["https://github.com/saidfathalla/Science-knowledge-graph-ontologies", "https://saidfathalla.github.io/Science-knowledge-graph-ontologies/doc/ModSci_doc/index-en.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/modsci/versions/2022-12-18.n3
     name: modsci.ttl

@@ -16,6 +16,7 @@ publishers:
     link: "https://orcid.org/0000-0002-3313-924X"
 description: "The Construction Tasks Ontology (CTO) describes tasks operating on construction elements, spatial zones and/or damages."
 keywords: ["Industry"]
+originalSources: ["https://github.com/mathib/cto-ontology", "https://mathib.github.io/cto-ontology/"]
 sources:
   - url: https://mathib.github.io/cto-ontology/ontology.ttl
     name: cto.ttl

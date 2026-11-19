@@ -18,6 +18,7 @@ publishers:
   - name: "Andrea Raimondi"
 description: "A vocabulary to describe licenses."
 keywords: ["Metadata"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/limoo"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/limoo/versions/2013-05-20.n3
     name: limoo.ttl

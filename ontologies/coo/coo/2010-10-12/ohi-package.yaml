@@ -21,6 +21,7 @@ contributors:
   - name: "Robin Dingle"
 description: "The COO provides a vocabulary for exposing available configuration options for car models."
 keywords: ["Industry"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/coo"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/coo/versions/2010-10-12.n3
     name: coo.ttl

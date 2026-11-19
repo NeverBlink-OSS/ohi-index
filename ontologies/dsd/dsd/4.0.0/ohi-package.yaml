@@ -21,6 +21,7 @@ contributors:
     link: "https://orcid.org/0000-0003-2689-0876"
 description: "To ensure comparability between schemas from different data models, the Description of a Data Source (DSD) vocabulary has been developed."
 keywords: ["API", "Catalogs"]
+originalSources: ["https://dqm.faw.jku.at/ontologies/dsd/4.0.0/index.html"]
 sources:
   - url: https://dqm.faw.jku.at/ontologies/dsd/4.0.0/DSD4.ttl
     name: dsd.ttl

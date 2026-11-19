@@ -16,6 +16,7 @@ publishers:
     link: "https://www.inria.fr/"
 description: "This is an OWL formalization of the statements defined in the Experience API (xAPI) specification."
 keywords: ["API"]
+originalSources: ["http://ns.inria.fr/ludo/v1/docs/xapi.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/ludo-xapi/versions/2016-05-12.n3
     name: ludo-xapi.ttl

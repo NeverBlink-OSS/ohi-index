@@ -20,6 +20,7 @@ contributors:
     link: "https://orcid.org/0000-0003-4843-2470"
 description: "Data Specification Vocabulary (DSV) is a vocabulary for describing semantic data specifications, namely vocabularies and application profiles."
 keywords: ["RDF", "Vocabularies"]
+originalSources: ["https://github.com/mff-uk/data-specification-vocabulary", "https://mff-uk.github.io/data-specification-vocabulary/dsv/"]
 sources:
   - url: https://mff-uk.github.io/data-specification-vocabulary/dsv/model.owl.ttl
     name: dsv.ttl

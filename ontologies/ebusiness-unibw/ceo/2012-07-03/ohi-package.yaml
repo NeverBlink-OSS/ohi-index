@@ -23,6 +23,7 @@ publishers:
     link: "http://www.ebusiness-unibw.org/"
 description: "An Ontology for Consumer Electronics Products and Services."
 keywords: ["Industry"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/ceo"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/ceo/versions/2012-07-03.n3
     name: ceo.ttl

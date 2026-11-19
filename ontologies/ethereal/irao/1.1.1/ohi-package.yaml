@@ -20,6 +20,7 @@ contributors:
     link: "https://nb.vse.cz/~svatek/"
 description: "Informatics Research Artifacts Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."
 keywords: ["API", "Catalogs"]
+originalSources: ["https://github.com/nvbach91/informatics-research-artifacts-ontology", "https://nvbach91.github.io/informatics-research-artifacts-ontology/OnToology/irao.owl/documentation/index-en.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/irao/versions/2021-05-27.n3
     name: irao.ttl

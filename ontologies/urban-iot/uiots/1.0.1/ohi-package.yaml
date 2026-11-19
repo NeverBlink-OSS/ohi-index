@@ -21,6 +21,7 @@ contributors:
   - name: "Direzione Sistemi Informativi ed Agenda Digitale - Area Gestione ed Integrazione Dati"
 description: "Sharing Mobility module of the suite of ontologies for urban IoT devices."
 keywords: ["Services", "Transport"]
+originalSources: ["https://github.com/Comune-Milano/ontologie-iot-urbani", "https://comune-milano.github.io/ontologie-iot-urbani/docs/sharing/index-en.html"]
 sources:
   - url: https://comune-milano.github.io/ontologie-iot-urbani/onto/sharing/latest/sharing.ttl
     name: uiots.ttl

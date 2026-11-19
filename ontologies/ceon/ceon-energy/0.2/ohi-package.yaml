@@ -17,6 +17,7 @@ contributors:
   - name: "Eva Blomqvist"
 description: "A module of the CEON ontology network defining aspects of the energy concept."
 keywords: ["Environment"]
+originalSources: ["https://github.com/LiUSemWeb/CEON", "https://liusemweb.github.io/CEON/ontology/energy/latest/"]
 sources:
   - url: https://liusemweb.github.io/CEON/ontology/energy/latest/energy.ttl
     name: ceon-energy.ttl

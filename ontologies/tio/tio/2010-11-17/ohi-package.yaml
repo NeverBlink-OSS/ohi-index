@@ -14,6 +14,7 @@ publishers:
   - name: "Martin Hepp"
 description: "A vocabulary for describing tickets for events, transportation, or points of interest for e-commerce."
 keywords: ["eBusiness"]
+originalSources: ["https://www.heppnetz.de/ontologies/tio/ns.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/tio/versions/2010-11-17.n3
     name: tio.ttl

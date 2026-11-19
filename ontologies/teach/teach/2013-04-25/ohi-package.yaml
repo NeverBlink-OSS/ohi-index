@@ -16,6 +16,7 @@ publishers:
     link: "http://kauppinen.net/tomi"
 description: "TEACH, the Teaching Core Vocabulary, is a lightweight vocabulary providing terms to enable teachers to relate things in their courses together."
 keywords: ["Academy"]
+originalSources: ["http://linkedscience.org/teach/ns"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/teach/versions/2013-04-25.n3
     name: teach.ttl

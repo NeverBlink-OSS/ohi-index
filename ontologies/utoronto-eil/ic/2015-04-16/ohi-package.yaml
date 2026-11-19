@@ -23,6 +23,7 @@ publishers:
     link: "https://www.utoronto.ca/"
 description: "This ontology provides basic classes and more detailed properties for representating international street addresses, phone numbers and emails."
 keywords: ["People"]
+originalSources: ["https://ontology.eil.utoronto.ca/icontact.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/ic/versions/2015-04-16.n3
     name: ic.ttl

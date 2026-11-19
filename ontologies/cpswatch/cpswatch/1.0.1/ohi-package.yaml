@@ -15,6 +15,7 @@ publishers:
   - name: "CPSWatch"
 description: "This ontology defines a vocabulary for describing cyber physical systems for monitoring purpose."
 keywords: ["IoT"]
+originalSources: ["https://github.com/B-Ludwig/CPSWatch", "https://b-ludwig.github.io/CPSWatch/"]
 sources:
   - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
     sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"

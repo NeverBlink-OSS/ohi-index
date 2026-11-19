@@ -16,6 +16,7 @@ publishers:
     contact: "admin@lexicater.co.uk"
 description: "One key use case for this ontology is to facilitate the matching of needs and innovations."
 keywords: ["Industry"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/inno"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/inno/versions/2011-05-08.n3
     name: inno.ttl

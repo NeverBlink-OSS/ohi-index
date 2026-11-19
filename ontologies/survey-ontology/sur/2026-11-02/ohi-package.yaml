@@ -18,6 +18,7 @@ publishers:
     link: "https://www.cefriel.com/"
 description: "Ontology for surveys based on the Coney data model."
 keywords: ["Methods"]
+originalSources: ["https://github.com/cefriel/survey-ontology", "https://cefriel.github.io/survey-ontology/docs/index.html"]
 sources:
   - url: https://cefriel.github.io/survey-ontology/docs/ontology.ttl
     name: sur.ttl

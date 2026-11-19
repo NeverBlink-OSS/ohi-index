@@ -17,6 +17,7 @@ publishers:
     link: "https://www.surrey.ac.uk/institute-communication-systems"
 description: "Iot-lite is a lightweight ontology based on SSN to describe Internet of Things (IoT) concepts and relationships."
 keywords: ["Environment", "IoT"]
+originalSources: ["https://www.w3.org/submissions/iot-lite/", "http://iot.ee.surrey.ac.uk/fiware/ontologies/iot-lite"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/iot-lite/versions/2015-06-01.n3
     name: iot-lite.ttl

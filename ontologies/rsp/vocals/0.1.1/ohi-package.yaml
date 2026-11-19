@@ -18,6 +18,7 @@ publishers:
     link: "http://aislab.hevs.ch/"
 description: "This ontology aims to model RDF streams, their metadata, and access endpoints for publishing and consuming these streams."
 keywords: ["IoT"]
+originalSources: ["https://github.com/riccardotommasini/vocals", "https://riccardotommasini.github.io/vocals/docs/core/index-en.html"]
 sources:
   - url: https://creativecommons.org/licenses/by/4.0/legalcode.txt
     sha256: "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"

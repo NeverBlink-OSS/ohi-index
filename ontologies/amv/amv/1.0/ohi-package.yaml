@@ -18,6 +18,7 @@ publishers:
     link: "https://www.isibang.ac.in/"
 description: "Metadata vocabularies are used in various domains of study."
 keywords: ["Metadata"]
+originalSources: ["https://www.isibang.ac.in/ns/amv/"]
 sources:
   - url: https://www.isibang.ac.in/ns/amv/ontology.ttl
     name: amv.ttl

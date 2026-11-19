@@ -17,6 +17,7 @@ contributors:
   - name: "Eva Blomqvist"
 description: "The Product module of CEON (Circular Economy Ontology Network)."
 keywords: ["Industry"]
+originalSources: ["https://github.com/LiUSemWeb/CEON", "https://liusemweb.github.io/CEON/ontology/product/latest/"]
 sources:
   - url: https://liusemweb.github.io/CEON/ontology/product/latest/product.ttl
     name: ceon-product.ttl

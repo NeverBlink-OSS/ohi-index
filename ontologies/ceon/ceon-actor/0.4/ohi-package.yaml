@@ -19,6 +19,7 @@ contributors:
   - name: "Robin Keskisärkkä"
 description: "The Actor module of CEON (Circular Economy Ontology Network)."
 keywords: ["People"]
+originalSources: ["https://github.com/LiUSemWeb/CEON", "https://liusemweb.github.io/CEON/ontology/actor/latest/"]
 sources:
   - url: https://liusemweb.github.io/CEON/ontology/actor/latest/actor.ttl
     name: ceon-actor.ttl

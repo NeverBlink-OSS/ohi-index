@@ -16,6 +16,7 @@ publishers:
     link: "https://www.inria.fr/"
 description: "The SQL AST Vocabulary allows SQL code abstract syntax trees to be published in RDF."
 keywords: ["API"]
+originalSources: ["http://ns.inria.fr/ast/sql/"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/sql/versions/2014-07-31.n3
     name: sql.ttl

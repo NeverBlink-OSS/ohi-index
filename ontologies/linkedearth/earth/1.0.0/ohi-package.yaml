@@ -23,6 +23,7 @@ contributors:
     link: "http://w3id.org/people/dgarijo"
 description: "The Linked Earth Ontology aims to provide a common vocabulary for annotating paleoclimatology data."
 keywords: ["Environment", "Society"]
+originalSources: ["https://linked.earth/ontology/"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/earth/versions/2016-06-13.n3
     name: earth.ttl

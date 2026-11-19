@@ -20,6 +20,7 @@ contributors:
   - name: "Carlos Ruiz"
 description: "The RECO ontology defines the vocabulary for representing preferences-as-constraints and preferences-as-ratings as RDF graphs."
 keywords: ["Methods", "RDF"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/reco"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/reco/versions/2011-08-01.n3
     name: reco.ttl

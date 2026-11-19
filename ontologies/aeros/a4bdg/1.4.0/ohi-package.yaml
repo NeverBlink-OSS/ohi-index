@@ -15,6 +15,7 @@ publishers:
   - name: "aerOS project"
 description: "Ontology that defines the conceptual model for the Pilot 5 - Smart Building use case."
 keywords: ["IoT"]
+originalSources: ["https://wp4.pages.aeros-project.eu/t4.1/pilot-5-building-ontology/"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/a4bdg/versions/2025-06-16.n3
     name: a4bdg.ttl

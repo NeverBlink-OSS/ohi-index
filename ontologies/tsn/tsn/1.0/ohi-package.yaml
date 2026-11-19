@@ -22,6 +22,7 @@ publishers:
     link: "http://steamer.imag.fr"
 description: "This RDF ontology allows describing any Territorial Statistical Nomenclature (TSN) (i.e., partition of the territory) used as a support to socio-economic data (statistical data that describe territory in terms of population, unemployement rate, transport access, etc.)."
 keywords: ["Geography", "Geometry", "Government"]
+originalSources: ["http://lig-tdcge.imag.fr/tsn/index.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/tsn/versions/2017-01-31.n3
     name: tsn.ttl

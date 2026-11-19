@@ -16,6 +16,7 @@ publishers:
     link: "https://pietercolpaert.be/"
 description: "This ontology provides the predicates necessary to describe an arrival of a transit vehicle and its departure at a certain Stop."
 keywords: ["Society", "Travel"]
+originalSources: ["http://semweb.mmlab.be/ns/stoptimes"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/st/versions/2015-09-13.n3
     name: st.ttl

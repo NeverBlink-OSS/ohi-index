@@ -19,6 +19,7 @@ contributors:
   - name: "Xana Fernandez"
 description: "The goal of this module is to represent the sample systems , and the undelaying samples, involved in the tribological experiments."
 keywords: ["Methods"]
+originalSources: ["https://github.com/fundaciontekniker/tribont-ontology", "https://fundaciontekniker.github.io/tribont-ontology/Sample/index-en.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/tribont-sample/versions/2023-05-30.n3
     name: tribont-sample.ttl

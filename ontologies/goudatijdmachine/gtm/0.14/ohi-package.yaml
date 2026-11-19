@@ -21,6 +21,7 @@ contributors:
     link: "https://www.samh.nl/"
 description: "The Gouda Time Machine Ontology describes the geo-temporal classes and properties used within the Gouda Time Machine."
 keywords: ["Geography", "Time"]
+originalSources: ["https://www.goudatijdmachine.nl/def/index-en.html"]
 sources:
   - url: https://www.goudatijdmachine.nl/def/ontology.ttl
     name: gtm.ttl

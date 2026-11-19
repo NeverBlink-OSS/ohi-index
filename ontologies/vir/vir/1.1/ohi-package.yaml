@@ -14,6 +14,7 @@ publishers:
   - name: "Nicola Carboni"
 description: "This ontology, called VIR, is an extension of CIDOC-CRM created to sustain propositions on the nature of visual elements and permit these descriptions to be published on the Web."
 keywords: ["Multimedia"]
+originalSources: ["https://nicola.carboni.me/vir/"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/vir/versions/2019-02-26.n3
     name: vir.ttl

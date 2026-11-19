@@ -14,6 +14,7 @@ publishers:
   - name: "Jakob Voß"
 description: "A micro-ontology that defines a set of typical document-related services such as provided by libraries, museums and archives."
 keywords: ["Services"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/docso"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/docso/versions/2013-11-14.n3
     name: docso.ttl

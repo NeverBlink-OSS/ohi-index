@@ -19,6 +19,7 @@ contributors:
   - name: "Robin Keskisärkkä"
 description: "The Material module of CEON (Circular Economy Ontology Network)."
 keywords: ["Industry"]
+originalSources: ["https://github.com/LiUSemWeb/CEON", "https://liusemweb.github.io/CEON/ontology/material/latest/"]
 sources:
   - url: https://liusemweb.github.io/CEON/ontology/material/latest/material.ttl
     name: ceon-material.ttl

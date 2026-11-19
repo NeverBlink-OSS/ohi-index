@@ -17,6 +17,7 @@ publishers:
     link: "http://www.sib.swiss"
 description: "The Extension of the Vocabulary of Interlinked Datasets (VoID) RDF Schema that includes the concept of virtual links."
 keywords: ["Metadata"]
+originalSources: ["https://github.com/biosoda/voidext"]
 sources:
   - url: https://biosoda.expasy.org/voidext/ontology.ttl
     name: voidext.ttl

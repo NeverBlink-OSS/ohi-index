@@ -17,6 +17,7 @@ publishers:
     link: "https://www.irit.fr/"
 description: "The notion of territory plays a major role in human and social sciences."
 keywords: ["Events", "Geography"]
+originalSources: ["https://www.irit.fr/recherches/MELODI/ontologies/HHT/index-en.html"]
 sources:
   - url: https://www.irit.fr/recherches/MELODI/ontologies/HHT/ontology.ttl
     name: hht.ttl

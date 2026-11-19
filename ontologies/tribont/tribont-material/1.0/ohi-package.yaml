@@ -19,6 +19,7 @@ contributors:
   - name: "Xana Fernandez"
 description: "The goal of this module is to represent the materials that can be involved in the tribological experiments as part of the tested samples."
 keywords: ["Methods"]
+originalSources: ["https://github.com/fundaciontekniker/tribont-ontology", "https://fundaciontekniker.github.io/tribont-ontology/Material/index-en.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/tribont-material/versions/2023-06-02.n3
     name: tribont-material.ttl

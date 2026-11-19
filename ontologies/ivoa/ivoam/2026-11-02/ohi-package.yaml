@@ -16,6 +16,7 @@ publishers:
     link: "https://www.ivoa.net/"
 description: "A vocabulary of particles used for observations in astronomy."
 keywords: ["Image", "Industry"]
+originalSources: ["http://www.ivoa.net/rdf/messenger"]
 sources:
   - url: https://www.ivoa.net/rdf/messenger/2020-08-26/messenger.ttl
     name: ivoam.ttl

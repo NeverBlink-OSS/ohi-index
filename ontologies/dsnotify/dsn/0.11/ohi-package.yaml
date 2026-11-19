@@ -18,6 +18,7 @@ contributors:
   - name: "Elaheh Momeni Roochi"
 description: "DSNotify Eventsets is a vocabulary for events that change resources in linked data sources."
 keywords: ["RDF"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/dsn"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/dsn/versions/2014-06-19.n3
     name: dsn.ttl

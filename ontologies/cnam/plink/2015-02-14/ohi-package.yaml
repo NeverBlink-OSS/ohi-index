@@ -17,6 +17,7 @@ publishers:
     link: "https://www.cnam.fr/"
 description: "A Multilingual and Multicultural Ontology Representing Family Relationships."
 keywords: ["People"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/plink"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/plink/versions/2015-02-14.n3
     name: plink.ttl

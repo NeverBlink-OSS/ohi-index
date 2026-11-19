@@ -16,6 +16,7 @@ publishers:
     link: "http://listinc.kr/"
 description: "South Korea Extension to Juso Ontology is a Web vocabulary that extends Juso Ontology to describe geographical addresses and features in South Korea."
 keywords: ["Geography", "Geometry"]
+originalSources: ["https://github.com/listinc/juso-ontology"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/juso.kr/versions/2015-10-07.n3
     name: juso.kr.ttl

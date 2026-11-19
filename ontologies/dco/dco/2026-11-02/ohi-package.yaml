@@ -16,6 +16,7 @@ publishers:
     link: "https://www.domos-project.eu/"
 description: "DomOS Common Ontology (dCO) represents a common information model to share a unified understanding for humans and machines and to ensure semantic interoperability in a heterogeneous IoT infrastructure."
 keywords: ["IoT"]
+originalSources: ["https://www.dco.domos-project.eu/"]
 sources:
   - url: https://www.dco.domos-project.eu/ontology.ttl
     name: dco.ttl

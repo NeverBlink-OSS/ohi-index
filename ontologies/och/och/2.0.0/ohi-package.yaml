@@ -24,6 +24,7 @@ publishers:
   - name: "David Chaves-Fraga"
 description: "An ontology for describing changes between OWL ontology versions."
 keywords: ["Metadata", "RDF", "Vocabularies"]
+originalSources: ["https://github.com/oeg-upm/OWLChangeOntology"]
 publications:
   - title: "Conde-Herreros, D. Pernisch, R., Poveda-Villalón, M., Corcho, O., & Chaves-Fraga, D. (2024). OCH: The OWL Change Ontology"
 sources:

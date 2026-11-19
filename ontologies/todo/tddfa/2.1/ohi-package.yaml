@@ -19,6 +19,7 @@ contributors:
     contact: "izaskun.fernandez@tekniker.es"
 description: "Module for Action (and Frame) modelling inside domain."
 keywords: ["Industry", "Services"]
+originalSources: ["https://github.com/cristinacm/todo", "https://cristinacm.github.io/todo/TODODFA/index-en.html"]
 sources:
   - url: https://cristinacm.github.io/todo/TODODFA/ontology/ontology.owl
     name: tddfa.owl

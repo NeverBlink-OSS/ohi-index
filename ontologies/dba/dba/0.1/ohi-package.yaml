@@ -17,6 +17,7 @@ publishers:
     link: "https://asisp.intesasanpaolo.com/"
 description: "The ontology, presented here in a beta version, is based on the analysis of the documentation and descriptive requirements of the Intesa Sanpaolo Historical Archive and is intended to describe the content of historical banking documents and of some of the activities carried out by the bank…"
 keywords: ["Catalogs"]
+originalSources: ["https://asisp.intesasanpaolo.com/intesa-web/resources/documenti/dba/index.html"]
 sources:
   - url: https://asisp.intesasanpaolo.com/intesa-web/resources/documenti/dba/dba.rdf
     sha256: "e225b80385ba57ac165af5ffc7db6aaea06c3552ad4a547f7a908f13710ece56"

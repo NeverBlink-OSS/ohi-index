@@ -20,6 +20,7 @@ publishers:
     link: "http://caressesrobot.org/"
 description: "The CARESSES Ontology encodes guidelines defined by experts in Transcultural Nursing, with the aim of offering a specific tool for endowing social assistive robots (assisting older adults) with cultural competence."
 keywords: ["Health"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/caresses"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/caresses/versions/2019-06-17.n3
     name: caresses.ttl

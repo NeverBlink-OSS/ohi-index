@@ -14,6 +14,7 @@ publishers:
   - name: "Toby Inkster"
 description: "An RDF vocabulary for the taxonomy of all forms of life."
 keywords: ["Biology"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/biol"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/biol/versions/2008-10-06.n3
     name: biol.ttl

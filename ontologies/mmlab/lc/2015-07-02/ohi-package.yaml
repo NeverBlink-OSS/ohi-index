@@ -19,6 +19,7 @@ publishers:
     link: "https://idlab.technology/"
 description: "This ontology provides the predicates necessary to describe a connection or hop from one transit stop to another."
 keywords: ["Transport"]
+originalSources: ["http://semweb.mmlab.be/ns/linkedconnections"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/lc/versions/2015-07-02.n3
     name: lc.nt

@@ -18,6 +18,7 @@ contributors:
   - name: "Stephen M Richard"
 description: "This is an RDF/OWL representation of the GeoSciML Geologic Timescale model, which has been adapted from the model described in Cox, S.J.D, & Richard, S.M."
 keywords: ["Time"]
+originalSources: ["https://github.com/CGI-IUGS/timescale-ont"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/gts/versions/2017-04-28.n3
     name: gts.ttl

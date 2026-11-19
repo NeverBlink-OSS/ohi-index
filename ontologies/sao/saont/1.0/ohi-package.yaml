@@ -19,6 +19,7 @@ publishers:
     link: "https://www.abdn.ac.uk/"
 description: "An ontology to model accountability of generic systems."
 keywords: ["API", "Support"]
+originalSources: ["https://github.com/RAINS-UOA/SAO-Ontology", "https://rains-uoa.github.io/SAO-Ontology/index-en.html"]
 sources:
   - url: https://rains-uoa.github.io/SAO-Ontology/ontology.ttl
     name: saont.ttl

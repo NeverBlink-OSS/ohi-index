@@ -22,6 +22,7 @@ publishers:
     link: "http://steamer.imag.fr"
 description: "The TSN-Change ontology aims at describing changes that occured from one version of a Territorial Statistical Nomenclature (TSN) (i.e., partition of the territory) and its subsequent (e.g., change in territorial units boundaries to reflect an administrative reorganisation)."
 keywords: ["Geography", "Geometry", "Government", "Metadata"]
+originalSources: ["http://lig-tdcge.imag.fr/tsnchange/index.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/tsnc/versions/2017-05-15.n3
     name: tsnc.ttl

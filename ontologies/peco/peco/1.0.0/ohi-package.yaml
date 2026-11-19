@@ -22,6 +22,7 @@ publishers:
     link: "https://github.com/TEC-Toolkit"
 description: "This ontology defines a vocabulary for describing provenance traces of carbon emission calculations by capturing the quantifiable measurements of carbon emission sources used by some activities (e.g., electricity used by a machinery to produce a product, petrol used to make a car journey, etc.) and…"
 keywords: ["Environment"]
+originalSources: ["https://github.com/TEC-Toolkit/PECO", "https://tec-toolkit.github.io/PECO/release/1.0.0/index-en.html"]
 sources:
   - url: https://tec-toolkit.github.io/PECO/release/1.0.0/ontology.ttl
     name: peco.ttl

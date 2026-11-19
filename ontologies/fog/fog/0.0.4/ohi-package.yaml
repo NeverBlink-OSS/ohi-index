@@ -22,6 +22,7 @@ publishers:
     link: "https://pi.pauwel.be/"
 description: "The File Ontology for Geometry formats (FOG) describes meaningful relations towards geometry snippets in RDF literals, geometry files on relative or absolute URLs and ontology-based geometry descriptions."
 keywords: ["Geometry"]
+originalSources: ["https://github.com/mathib/fog-ontology", "https://mathib.github.io/fog-ontology/"]
 sources:
   - url: https://mathib.github.io/fog-ontology/ontology.ttl
     name: fog.ttl

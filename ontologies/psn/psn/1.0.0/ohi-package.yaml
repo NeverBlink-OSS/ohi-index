@@ -15,6 +15,7 @@ publishers:
     link: "https://www.scs.fraunhofer.de/en.html"
 description: "A small ontology to model supply networks (supply chains) from all industries through products that are interlinked based on derivational dependencies."
 keywords: ["Industry"]
+originalSources: ["https://paul.ti.rw.fau.de/~ju32haqi/psn/1.0.0/ontology"]
 publications:
   - title: "Henselmann, D., Harth, A., 2024. Towards Modeling the Structure of Product Dependencies in Supply Networks to Identify Bottlenecks Among Suppliers, in: Proceedings of the Third International Workshop on Linked Data-Driven Resilience Research (D2R2’24) co-Located with European Semantic Web Conference 2024 (ESWC 2024). CEUR-WS, Hersonissos, Greece."
 sources:

@@ -15,6 +15,7 @@ publishers:
     link: "https://www.biohackathon.org/"
 description: "Used to describe a location that consists of a number of Regions but where the order is not known."
 keywords: ["Geography"]
+originalSources: ["https://github.com/OBF/FALDO"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/faldo/versions/2012-09-07.n3
     name: faldo.ttl

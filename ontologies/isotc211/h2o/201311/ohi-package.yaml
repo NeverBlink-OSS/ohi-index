@@ -18,6 +18,7 @@ contributors:
   - name: "ISO/TC 211 Project Team 19150-2"
 description: "This ontology establishes classes corresponding to stereotypes used in ISO-conformant models, as used in the rules for conversion of the ISO TC 211 Harmonized Model from the UML to OWL representations."
 keywords: ["Methods"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/h2o"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/h2o/versions/2014-01-07.n3
     name: h2o.ttl

@@ -19,6 +19,7 @@ contributors:
     contact: "luigi.derussis@polito.it"
 description: "EUPont is an ontology to model high level rules for Internet of Things End User Programming (IoT-EUP)."
 keywords: ["IoT"]
+originalSources: ["https://elite.polito.it/ontologies/eupont.owl"]
 sources:
   - url: https://elite.polito.it/ontologies/eupont.owl
     sha256: "0b396f9cbbf6dbf75f0e2412dfc473e5d20c1061039c787f95cc665bac0e19ae"

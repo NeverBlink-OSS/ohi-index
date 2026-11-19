@@ -19,6 +19,7 @@ publishers:
     link: "https://liidr.org"
 description: "This ontology models trust recommendation concepts in SIoT to bridge the gap between abstract trust concepts and real-world device concepts."
 keywords: ["IoT"]
+originalSources: ["https://liidr.org/trust-recommendation-in-social-internet-of-things/"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/tresiot/versions/2023-05-12.n3
     name: tresiot.ttl

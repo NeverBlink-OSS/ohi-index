@@ -21,6 +21,7 @@ contributors:
   - name: "Jens Pots"
 description: "An ontology for describing programming language-specific runners, processors and pipelines in RDF-based data processing frameworks."
 keywords: ["Catalogs", "Services"]
+originalSources: ["https://github.com/rdf-connect/ontology", "https://rdf-connect.github.io/ontology/"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/rdfc/versions/2025-09-02.n3
     name: rdfc.nt

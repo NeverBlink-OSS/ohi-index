@@ -19,6 +19,7 @@ contributors:
   - name: "Robin Keskisärkkä"
 description: "A core ODP of the CEON ontology network, defining aspects of the value concept."
 keywords: ["Industry"]
+originalSources: ["https://github.com/LiUSemWeb/CEON", "https://liusemweb.github.io/CEON/ontology/value/latest/"]
 sources:
   - url: https://liusemweb.github.io/CEON/ontology/value/latest/value.ttl
     name: ceon-value.ttl

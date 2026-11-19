@@ -18,6 +18,7 @@ contributors:
   - name: "Dieter Fensel"
 description: "A vocabulary for the description of hotels, vacation homes, camping sites, and other accommodation offers for e-commerce."
 keywords: ["eBusiness"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/acco"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/acco/versions/2012-05-31.n3
     name: acco.ttl

@@ -17,6 +17,7 @@ contributors:
   - name: "Milos Jovanovik"
 description: "The Corporate Financial Reports and Loans Ontology (CFRL)."
 keywords: ["eBusiness"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/cfrl"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/cfrl/versions/2014-09-01.n3
     name: cfrl.ttl

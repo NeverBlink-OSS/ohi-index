@@ -17,6 +17,7 @@ contributors:
   - name: "Bojan Najdenov"
 description: "An ontology for describing brand-name drugs."
 keywords: ["Biology", "Health"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/hifm"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/hifm/versions/2014-04-01.n3
     name: hifm.ttl

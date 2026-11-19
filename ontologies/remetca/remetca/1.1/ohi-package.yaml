@@ -15,6 +15,7 @@ publishers:
     link: "https://www.uned.es/"
 description: "Ontology for poetry description."
 keywords: ["SPAR"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/remetca"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/remetca/versions/2014-10-14.n3
     name: remetca.ttl

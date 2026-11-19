@@ -19,6 +19,7 @@ contributors:
   - name: "Robin Keskisärkkä"
 description: "A core ODP of the CEON ontology network, defining aspects of the process concept."
 keywords: ["Events"]
+originalSources: ["https://github.com/LiUSemWeb/CEON", "https://liusemweb.github.io/CEON/ontology/processODP/latest/"]
 sources:
   - url: https://liusemweb.github.io/CEON/ontology/processODP/latest/processODP.ttl
     name: ceon-processodp.ttl

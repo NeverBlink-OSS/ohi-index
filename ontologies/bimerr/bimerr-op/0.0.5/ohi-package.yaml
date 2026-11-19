@@ -19,6 +19,7 @@ publishers:
     link: "https://oeg.fi.upm.es/"
 description: "The Occupancy Profile ontology has been developed to represent people’s behavior inside building spaces."
 keywords: ["Environment", "People"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/bimerr-op"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/bimerr-op/versions/2020-06-25.n3
     name: bimerr-op.ttl

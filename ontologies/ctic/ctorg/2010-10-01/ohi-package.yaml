@@ -16,6 +16,7 @@ publishers:
     link: "https://www.fundacionctic.org/"
 description: "The goal of this vocabulary is to create a scheme to define the contents of information related to the government structure and public centers."
 keywords: ["Government"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/ctorg"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/ctorg/versions/2010-10-01.n3
     name: ctorg.ttl

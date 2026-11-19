@@ -27,6 +27,7 @@ contributors:
     contact: "gyrard@eurecom.fr"
 description: "An ontology describing cryptographic algorithms."
 keywords: ["Security"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/algo"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/algo/versions/2015-01-11.n3
     name: algo.ttl

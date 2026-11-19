@@ -16,6 +16,7 @@ publishers:
     link: "https://www.loc.gov/"
 description: "MARC relators are defined as both RDF properties and SKOS concepts."
 keywords: ["Vocabularies"]
+originalSources: ["https://id.loc.gov/vocabulary/relators"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/mrel/versions/2012-07-03.n3
     name: mrel.ttl

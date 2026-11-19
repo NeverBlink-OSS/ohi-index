@@ -16,6 +16,7 @@ publishers:
     link: "https://www.inf.bi.ruhr-uni-bochum.de/"
 description: "The Building Concrete Monitoring Ontology (BCOM) is defined for capturing information of concrete work, concrete curing and testing of concrete properties."
 keywords: ["Industry"]
+originalSources: ["https://github.com/RUB-Informatik-im-Bauwesen/bcom", "https://icdd.vm.rub.de/ontology/bcom/"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/bcom/versions/2021-07-26.n3
     name: bcom.ttl

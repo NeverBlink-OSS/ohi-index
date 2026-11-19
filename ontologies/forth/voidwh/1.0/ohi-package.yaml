@@ -24,6 +24,7 @@ publishers:
     link: "https://www.ics.forth.gr/isl"
 description: "An extension of W3C VoID that is able to represent these metrics for expressing the Connectivity Metrics of a Semantic Warehouse."
 keywords: ["Metadata"]
+originalSources: ["https://projects.ics.forth.gr/isl/VoIDWarehouse/VoID_Extension_Schema.owl"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/voidwh/versions/2014-07-19.n3
     name: voidwh.ttl

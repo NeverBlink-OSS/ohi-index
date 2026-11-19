@@ -18,6 +18,7 @@ publishers:
     link: "https://www.w3.org/community/kg-construct/"
 description: "RML-IO enables the description of input data sources and target output data serialization."
 keywords: ["RDF", "RML", "W3C Rec"]
+originalSources: ["https://github.com/kg-construct/rml-io", "https://kg-construct.github.io/rml-io/ontology/documentation/index-en.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/rml-io/versions/2023-06-15.n3
     name: rml-io.ttl

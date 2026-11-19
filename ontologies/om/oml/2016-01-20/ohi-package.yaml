@@ -17,6 +17,7 @@ publishers:
     link: "https://www.csiro.au/"
 description: "An OWL representation of the Observation Schema described in clauses 7-8 of ISO 19156:2011 Geographic Information - Observations and Measurements / OGC Abstract Specification - Topic 20."
 keywords: ["Geography"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/oml"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/oml/versions/2016-01-20.n3
     name: oml.ttl

@@ -17,6 +17,7 @@ publishers:
     link: "https://www.fraunhofer.de/"
 description: "The Data Knowledge Vocabulary allows for a comprehensive description of data assets and enterprise data management."
 keywords: ["Industry", "Methods", "Vocabularies", "eBusiness"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/dk"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/dk/versions/2018-02-14.n3
     name: dk.ttl

@@ -16,6 +16,7 @@ publishers:
   - name: "Regesta.exe"
 description: "An ontology for the description of archival data (OAD, “Ontology of Archival Description”) using the Web Ontology Language (OWL)."
 keywords: ["Catalogs"]
+originalSources: ["http://culturalis.org/oad/"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/oad/versions/2018-08-02.n3
     name: oad.ttl

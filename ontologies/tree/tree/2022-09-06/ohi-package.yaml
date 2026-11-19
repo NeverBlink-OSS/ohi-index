@@ -16,6 +16,7 @@ publishers:
     link: "https://www.w3.org/community/treecg/"
 description: "A hypermedia specification for fragmenting collections."
 keywords: ["Methods", "Support"]
+originalSources: ["https://github.com/TREEcg/specification", "https://treecg.github.io/specification/"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/tree/versions/2022-09-06.n3
     name: tree.ttl

@@ -17,6 +17,7 @@ contributors:
   - name: "Alan Ruttenberg"
 description: "FOAF Essential, an OWL 2 DL cut of the FOAF vocabulary used by the SPAR ontologies."
 keywords: ["people", "agents"]
+originalSources: ["https://github.com/SPAROntologies/foaf"]
 sources:
   - url: https://sparontologies.github.io/foaf/2010-10-12/foaf.xml
     name: foaf.rdf

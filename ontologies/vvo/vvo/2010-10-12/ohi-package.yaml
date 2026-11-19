@@ -21,6 +21,7 @@ contributors:
   - name: "Robin Dingle"
 description: "A vocabulary for describing Volkswagen-specific features of automobiles and their components."
 keywords: ["Industry", "eBusiness"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/vvo"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/vvo/versions/2010-10-12.n3
     name: vvo.ttl

@@ -16,6 +16,7 @@ publishers:
     link: "https://www.uniprot.org/"
 description: "Properties and classes used for protein annotation."
 keywords: ["Biology"]
+originalSources: ["https://purl.uniprot.org/html/index-en.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/uniprot/versions/2012-10-03.n3
     name: uniprot.ttl

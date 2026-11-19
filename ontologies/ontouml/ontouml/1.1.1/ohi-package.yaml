@@ -27,6 +27,7 @@ contributors:
     link: "https://orcid.org/0000-0003-3385-4769"
 description: "A reference implementation of the OntoUML metamodel in OWL."
 keywords: ["Methods", "RDF"]
+originalSources: ["https://github.com/OntoUML/ontouml-vocabulary", "https://dev.ontouml.org/ontouml-vocabulary/"]
 sources:
   - url: https://dev.ontouml.org/ontouml-vocabulary/ontouml.ttl
     sha256: "ae25bc825bd55383d0de846c1af93a303c2ec3264f8a985eb1fae9a6c66ce3bc"

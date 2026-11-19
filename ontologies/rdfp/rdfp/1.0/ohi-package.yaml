@@ -16,6 +16,7 @@ publishers:
     link: "http://maxime-lefrancois.info/"
 description: "## RDF Presentation and RDF Presentation Negotiation An RDF graph can be presented in several ways, using different media types."
 keywords: ["API", "RDF"]
+originalSources: ["https://github.com/thesmartenergy/rdfp"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/rdfp/versions/2016-08-31.n3
     name: rdfp.ttl

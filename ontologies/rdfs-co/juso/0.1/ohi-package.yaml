@@ -16,6 +16,7 @@ publishers:
     link: "http://listinc.kr/"
 description: "Juso Ontology is a Web vocabulary for describing geographical addresses and features."
 keywords: ["Geography", "Geometry"]
+originalSources: ["https://github.com/listinc/juso-ontology"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/juso/versions/2015-10-02.n3
     name: juso.ttl

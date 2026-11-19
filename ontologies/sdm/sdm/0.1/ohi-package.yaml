@@ -18,6 +18,7 @@ contributors:
   - name: "Kingsley Idehen"
 description: "A small vocabulary for representing SPARQL endpoint metadata on the web."
 keywords: ["Metadata"]
+originalSources: ["http://linkedvocabs.org/vocab/sdm/sdm.owl"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/sdm/versions/2016-03-16.n3
     name: sdm.ttl

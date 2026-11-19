@@ -16,6 +16,7 @@ publishers:
     link: "https://wiki.dnb.de/display/DINIAGKIM"
 description: "A vocabulary to express (library) holdings in RDF."
 keywords: ["Catalogs"]
+originalSources: ["https://github.com/dini-ag-kim/holding-ontology", "https://dini-ag-kim.github.io/holding-ontology/holding.html"]
 sources:
   - url: https://cdn.jsdelivr.net/gh/dini-ag-kim/holding-ontology@gh-pages/holding.ttl
     sha256: "14494c8236cccd16bfab7c3590b7a5061acacdc1039f52ec1e71d7d9bfbb22bf"

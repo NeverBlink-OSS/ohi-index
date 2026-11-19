@@ -27,6 +27,7 @@ contributors:
   - name: "Frédérique Segond"
 description: "ProVoc (Product Vocabulary) is a vocabulary that can be used to represent information and manipulate them through the Web."
 keywords: ["eBusiness"]
+originalSources: ["http://ns.inria.fr/provoc/v1/provoc_v1.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/provoc/versions/2016-02-18.n3
     name: provoc.ttl

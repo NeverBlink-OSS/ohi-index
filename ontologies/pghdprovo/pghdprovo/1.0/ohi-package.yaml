@@ -18,6 +18,7 @@ contributors:
   - name: "Lucy Hederman"
 description: "Patient Generated Health Data (PGHD) refer to health data collected by patient or their relatives."
 keywords: ["Health", "Metadata"]
+originalSources: ["https://github.com/abdullahikawu/pghdprovo", "https://abdullahikawu.github.io/pghdprovo/"]
 publications:
   - title: "Kawu, A.A., O’Sullivan, D. and Hederman, L., 2025, June. PGHDProvO: Provenance Based Ontology for Sharing Patient Generated Health Data (PGHD) with an Electronic Health Record (EHR). In International Conference on Artificial Intelligence in Medicine (pp. 197-201). Cham: Springer Nature Switzerland."
 sources:

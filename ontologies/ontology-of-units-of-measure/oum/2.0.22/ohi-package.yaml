@@ -18,6 +18,7 @@ publishers:
   - name: "Jan Top"
 description: "The Ontology of units of Measure (OM) 2.0 models concepts and relations important to scientific research."
 keywords: ["IoT", "Services"]
+originalSources: ["https://github.com/HajoRijgersberg/OM"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/oum/versions/2020-06-06.n3
     name: oum.ttl

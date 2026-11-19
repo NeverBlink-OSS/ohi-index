@@ -38,6 +38,7 @@ contributors:
     contact: "m.morsey@uva.nl"
 description: "This ontology defines the most abstract concepts and properties that are needed to semantically manage resource within federated infrastructures."
 keywords: ["Services"]
+originalSources: ["https://github.com/w3c/omn"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/omn/versions/2015-03-05.n3
     name: omn.ttl

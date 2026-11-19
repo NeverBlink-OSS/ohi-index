@@ -19,6 +19,7 @@ contributors:
   - name: "Xana Fernandez"
 description: "The goal of this module is to represent the common classes, and object and data properties included in two or more modules of the TribOnt ontology."
 keywords: ["Methods"]
+originalSources: ["https://github.com/fundaciontekniker/tribont-ontology", "https://fundaciontekniker.github.io/tribont-ontology/Core/index-en.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/tribont-core/versions/2023-05-30.n3
     name: tribont-core.ttl

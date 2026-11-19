@@ -16,6 +16,7 @@ publishers:
     link: "http://kauppinen.net/tomi"
 description: "TISC, the Open Time and Space Core Vocabulary, is a lightweight spatiotemporal vocabulary aiming to provide spatial and temporal terms such as \"happensAt\", \"locatedAt\", \"rightOf\" to enable practitioners to relate their data to time and space."
 keywords: ["Events"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/tisc"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/tisc/versions/2014-06-07.n3
     name: tisc.ttl

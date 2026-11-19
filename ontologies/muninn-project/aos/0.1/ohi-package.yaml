@@ -16,6 +16,7 @@ publishers:
     link: "https://www.muninn-project.org/"
 description: "Appearances is an ontology that grew out of the need to record personal appearance details about individuals while taking into account errors of perception and translation between various diffferent standards."
 keywords: ["People"]
+originalSources: ["https://rdf.muninn-project.org/ontologies/appearances-en.html"]
 sources:
   - url: https://rdf.muninn-project.org/ontologies/appearances.owl
     name: aos.owl

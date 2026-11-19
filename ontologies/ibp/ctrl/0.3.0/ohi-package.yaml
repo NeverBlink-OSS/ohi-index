@@ -16,6 +16,7 @@ publishers:
     link: "https://www.ibp.fraunhofer.de/"
 description: "CTRLont specifies concepts and relationships of control actors on a high level."
 keywords: ["Services"]
+originalSources: ["https://github.com/TechnicalBuildingSystems/Ontologies", "https://technicalbuildingsystems.github.io/Ontologies/CTRLont/index-en.html"]
 sources:
   - url: https://technicalbuildingsystems.github.io/Ontologies/CTRLont/ontology.ttl
     name: ctrl.ttl

@@ -24,6 +24,7 @@ publishers:
   - name: "Filip Radulovic"
 description: "The Video Game Ontology is an ontology designed for describing video games and all the resources related to their game plays."
 keywords: ["Games"]
+originalSources: ["https://vocab.linkeddata.es/vgo/"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/vgo/versions/2015-05-05.n3
     name: vgo.ttl

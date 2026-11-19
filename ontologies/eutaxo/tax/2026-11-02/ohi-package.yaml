@@ -16,6 +16,7 @@ contributors:
   - name: "Carlos Alberto Martínez Muñoz"
 description: "EUdaphobase Taxonomy Ontology for the European Soil-Biology Data Warehouse for Soil Protection."
 keywords: ["Biology"]
+originalSources: ["https://gitlab.com/jfaldanam/EUTaxO", "https://jfaldanam.gitlab.io/EUTaxO/"]
 sources:
   - url: https://jfaldanam.gitlab.io/EUTaxO/EUTaxO.owl
     name: tax.owl

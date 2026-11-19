@@ -16,6 +16,7 @@ publishers:
     link: "https://www.inria.fr/"
 description: "This vocabulary is a component of Ludo."
 keywords: ["Games"]
+originalSources: ["http://ns.inria.fr/ludo/v1/docs/virtualcontext.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/ludo-vc/versions/2016-08-26.n3
     name: ludo-vc.ttl

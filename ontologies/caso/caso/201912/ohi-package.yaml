@@ -25,6 +25,7 @@ contributors:
     link: "https://orcid.org/0000-0002-7011-4535"
 description: "CASO (Context Aware System Observation) is an ontology for context aware system and observation services."
 keywords: ["IoT"]
+originalSources: ["https://github.com/Irstea/caso", "https://irstea.github.io/caso/"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/caso/versions/2021-02-23.n3
     name: caso.ttl

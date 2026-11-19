@@ -16,6 +16,7 @@ publishers:
     link: "https://www.inria.fr/"
 description: "The EduProgression ontology formalizes the educational progressions of the French educational system, making possible to represent the existing progressions in a standard formal model, searchable and understandable by machines (OWL)."
 keywords: ["Academy", "Support"]
+originalSources: ["http://ns.inria.fr/semed/eduprogression/v1/docs/eduprogression.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/edupro/versions/2016-09-13.n3
     name: edupro.ttl

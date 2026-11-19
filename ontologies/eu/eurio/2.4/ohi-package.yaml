@@ -19,6 +19,7 @@ contributors:
   - name: "Cognizone"
 description: "The EUropean Research Information Ontology (EURIO) conceptualises, formally encodes and makes available in an open, structured and machine-readable format data about resarch projects funded by the EU's framework programmes for research and innovation."
 keywords: ["Academy", "Metadata"]
+originalSources: ["https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurio"]
 sources:
   - url: https://op.europa.eu/o/opportal-service/euvoc-download-handler?cellarURI=http%3A%2F%2Fpublications.europa.eu%2Fresource%2Fcellar%2F8cf3f40e-6d90-11ee-9220-01aa75ed71a1.0001.02%2FDOC_1&fileName=EURIO.ttl
     name: eurio.ttl

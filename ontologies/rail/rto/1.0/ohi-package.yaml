@@ -18,6 +18,7 @@ contributors:
   - name: "Gottfried Schenner"
 description: "The Rail Topology Ontology models foundational rail topology concepts.."
 keywords: ["Transport"]
+originalSources: ["https://github.com/siemens/ProductConfigurationWithSHACL", "https://siemens.github.io/ProductConfigurationWithSHACL/topo/v1.0/index-en.html"]
 sources:
   - url: https://siemens.github.io/ProductConfigurationWithSHACL/topo/v1.0/ontology.ttl
     name: rto.ttl

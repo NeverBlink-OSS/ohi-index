@@ -19,6 +19,7 @@ contributors:
   - name: "Robin Keskisärkkä"
 description: "A core module of the CEON ontology network, defining aspects of the circular value network (CVN) itself."
 keywords: ["Industry"]
+originalSources: ["https://github.com/LiUSemWeb/CEON", "https://liusemweb.github.io/CEON/ontology/cvn/latest/"]
 sources:
   - url: https://liusemweb.github.io/CEON/ontology/cvn/latest/cvn.ttl
     name: ceon-cvn.ttl

@@ -17,6 +17,7 @@ contributors:
   - name: "Rickard Armiento"
 description: "This is the provenance module of Materials Design Ontology."
 keywords: ["Metadata"]
+originalSources: ["https://github.com/huanyu-li/Materials-Design-Ontology", "https://liusemweb.github.io/mdo/provenance/1.0/index.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/mdoprov/versions/2020-04-02.n3
     name: mdoprov.nt

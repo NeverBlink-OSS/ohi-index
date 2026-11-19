@@ -18,6 +18,7 @@ publishers:
   - name: "Jyrki Oraskari"
 description: "The Internet of Construction Ontology (IoC) construction process ontology is intended to represent a comprehensive solution of how processes in the construction industry can be modelled."
 keywords: ["Industry", "Methods"]
+originalSources: ["https://github.com/Internet-of-Construction/IoC-Process-Ontology", "https://internet-of-construction.github.io/IoC-Process-Ontology/"]
 sources:
   - url: https://internet-of-construction.github.io/IoC-Process-Ontology/ontology.ttl
     name: ioc.ttl

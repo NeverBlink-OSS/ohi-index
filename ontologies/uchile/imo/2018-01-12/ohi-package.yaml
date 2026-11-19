@@ -18,6 +18,7 @@ publishers:
     link: "http://scferrada.github.io/"
 description: "The IMGpedia Ontology provides terms to describe descriptors and similarity relations between images."
 keywords: ["Image"]
+originalSources: ["https://imgpedia.dcc.uchile.cl/"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/imo/versions/2018-01-12.n3
     name: imo.ttl

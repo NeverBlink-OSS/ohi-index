@@ -17,6 +17,7 @@ contributors:
   - name: "Martin Brümmer"
 description: "The NLP Interchange Format (NIF) is an RDF/OWL-based format that aims to achieve interoperability between Natural Language Processing (NLP) tools, language resources and annotations."
 keywords: ["Vocabularies"]
+originalSources: ["https://github.com/NLP2RDF/ontologies"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/nif/versions/2013-10-03.n3
     name: nif.ttl

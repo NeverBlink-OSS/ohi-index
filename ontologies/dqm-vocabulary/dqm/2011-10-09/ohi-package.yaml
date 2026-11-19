@@ -16,6 +16,7 @@ publishers:
   - name: "Martin Hepp"
 description: "The Data Quality Management Vocabulary - An Ontology for Data Requirements Management, Data Quality Monitoring, Data Quality Assessment, and Data Cleansing."
 keywords: ["Quality"]
+originalSources: ["https://purl.org/dqm-vocabulary"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/dqm/versions/2011-10-09.n3
     name: dqm.ttl

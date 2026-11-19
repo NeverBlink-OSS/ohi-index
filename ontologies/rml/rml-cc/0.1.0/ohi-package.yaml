@@ -17,6 +17,7 @@ publishers:
     link: "https://www.w3.org/community/kg-construct/"
 description: "RML module to generate RDF collections and containers."
 keywords: ["RDF", "RML", "W3C Rec"]
+originalSources: ["https://github.com/kg-construct/rml-cc", "https://kg-construct.github.io/rml-cc/ontology/documentation/index-en.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/rml-cc/versions/2023-06-15.n3
     name: rml-cc.ttl

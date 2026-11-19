@@ -21,6 +21,7 @@ contributors:
     link: "https://orcid.org/0000-0003-3445-0504"
 description: "A vocabulary specifying concepts and structures needed to represent different data cubes needed for the Smart Readiness Indicator."
 keywords: ["IoT", "Quality"]
+originalSources: ["https://github.com/stefanbischof/sri", "https://www.stefanbischof.at/sri/"]
 sources:
   - url: https://www.stefanbischof.at/sri/OnToology/sri.1.0.ttl/documentation/ontology.ttl
     name: sri.ttl

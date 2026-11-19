@@ -23,6 +23,7 @@ contributors:
   - name: "Péter Forgács"
 description: "The GLACIATION platform develops a novel Distributed Knowledge Graph (DKG) that stretches across the edge-core-cloud architecture to reduce energy consumption, improving data processing and optimizing data movement operations."
 keywords: ["Metadata"]
+originalSources: ["https://github.com/glaciation-heu/MetadataReferenceModel"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/glc/versions/2025-11-05.n3
     name: glc.ttl

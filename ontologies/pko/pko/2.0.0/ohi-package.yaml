@@ -25,6 +25,7 @@ contributors:
     link: "http://iricelino.org"
 description: "The Procedural Knowledge Ontology (PKO) addresses the Procedural Knowledge (PK) domain, and models procedures, their executions, and related resources and agents."
 keywords: ["Events", "Methods"]
+originalSources: ["https://github.com/perks-project/pk-ontology", "https://perks-project.github.io/pk-ontology/pko/latest/index.html"]
 publications:
   - title: "Carriero, V.A., Scrocca, M., Baroni, I., Azzini, A., Celino, I. (2025). Procedural Knowledge Ontology (PKO)."
 sources:

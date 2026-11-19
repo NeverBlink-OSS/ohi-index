@@ -36,6 +36,7 @@ contributors:
     contact: "thijs.walcarius@intec.ugent.be"
 description: "This ontology defines concepts related to federation of internet infrastructures."
 keywords: ["Industry", "Society"]
+originalSources: ["https://github.com/w3c/omn"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/omnfed/versions/2015-04-04.n3
     name: omnfed.ttl

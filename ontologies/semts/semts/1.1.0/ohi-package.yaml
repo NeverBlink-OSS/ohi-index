@@ -18,6 +18,7 @@ contributors:
   - name: "Rohit A. Deshmukh"
 description: "SemTS is an ontology designed to identify and describe segments within time series data, which are specific data points or intervals that can overlap."
 keywords: ["Time"]
+originalSources: ["https://github.com/semts-ontology/SemTS", "https://semts-ontology.github.io/SemTS/ontology/current/index.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/semts/versions/2025-09-03.n3
     name: semts.ttl

@@ -16,6 +16,7 @@ publishers:
     link: "https://orcid.org/0000-0002-3884-3420"
 description: "An OWL representation of the model for Temporal Ordinal Reference Systems defined in GeoSciML v3."
 keywords: ["Time"]
+originalSources: ["https://github.com/CGI-IUGS/timescale-ont"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/thors/versions/2017-04-28.n3
     name: thors.ttl

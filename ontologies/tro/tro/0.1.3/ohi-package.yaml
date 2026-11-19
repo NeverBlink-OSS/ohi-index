@@ -21,6 +21,7 @@ contributors:
     link: "https://www.icij.org/"
 description: "A vocabulary to represent relations that should be more transparent, usually between powerfull people or institutions."
 keywords: ["People", "eBusiness"]
+originalSources: ["https://github.com/mikel-egana-aranguren/Transparent-Relations-Ontology", "https://mikel-egana-aranguren.github.io/Transparent-Relations-Ontology/release/index-en.html"]
 sources:
   - url: https://mikel-egana-aranguren.github.io/Transparent-Relations-Ontology/release/ontology.ttl
     name: tro.ttl

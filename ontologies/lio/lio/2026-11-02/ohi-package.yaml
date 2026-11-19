@@ -16,6 +16,7 @@ publishers:
   - name: "Margaret Warren"
 description: "A Lightweight Ontology for Describing Images."
 keywords: ["Image"]
+originalSources: ["https://imagesnippets.com/lio/lio.owl"]
 sources:
   - url: https://imagesnippets.com/lio/lio.owl
     sha256: "3b3c5a530676f227a3ab52510c7a561aec68ba266cb65767fcd7801df7af7dc2"

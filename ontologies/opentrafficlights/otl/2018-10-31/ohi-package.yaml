@@ -16,6 +16,7 @@ publishers:
     link: "https://w3id.org/people/brechtvdv/"
 description: "This ontology provides the terms necessary to describe the status of traffic lights."
 keywords: ["Services"]
+originalSources: ["https://github.com/brechtvdv/open_traffic_lights_vocabulary"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/otl/versions/2018-10-31.n3
     name: otl.ttl

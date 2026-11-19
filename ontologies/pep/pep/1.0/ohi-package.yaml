@@ -16,6 +16,7 @@ publishers:
     link: "http://maxime-lefrancois.info/"
 description: "The process execution ontology is a proposal for a simple extension of both the [W3C Semantic Sensor Network](https://www.w3.org/TR/vocab-ssn/) and the [Semantic Actuator Network](https://www.irit.fr/recherches/MELODI/ontologies/SAN.owl) ontology cores."
 keywords: ["Industry", "Methods", "Services"]
+originalSources: ["https://github.com/thesmartenergy/pep", "https://ci.mines-stetienne.fr/pep/"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/pep/versions/2016-07-01.n3
     name: pep.ttl

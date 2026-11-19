@@ -19,6 +19,7 @@ publishers:
     link: "https://www.dcc.uchile.cl/"
 description: "This RDF vocabulary can be use to describe and categorize annotations involving entity mentions (sub-strings of text) that link to knowledgebase identifiers."
 keywords: ["Vocabularies"]
+originalSources: ["https://users.dcc.uchile.cl/~hrosales/fel.html"]
 sources:
   - url: https://users.dcc.uchile.cl/~hrosales/fel.ttl
     sha256: "8295c92f0909f77c55560c2a21aa33fad496f1b94fb9bbabb3f87f91fa75803f"

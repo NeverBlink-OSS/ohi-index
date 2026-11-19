@@ -22,6 +22,7 @@ contributors:
   - name: "Stefan Decker"
 description: "SemTS is an ontology designed to identify and describe segments within time series data, which are specific data points or intervals that can overlap."
 keywords: ["Time"]
+originalSources: ["https://github.com/semts-ontology/SemTS", "https://semts-ontology.github.io/SemTS/ontology/current/index.html"]
 sources:
   - url: https://semts-ontology.github.io/SemTS/ontology/current/ontology.ttl
     name: semts.ttl

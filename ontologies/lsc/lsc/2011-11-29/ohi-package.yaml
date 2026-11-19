@@ -16,3 +16,4 @@ publishers:
     link: "http://kauppinen.net/tomi"
 description: "LSC, the Linked Science Core Vocabulary, is a lightweight vocabulary providing terms to enable publishers and researchers to relate things in science to time, space, and themes."
 keywords: ["Methods"]
+originalSources: ["http://linkedscience.org/lsc/ns"]

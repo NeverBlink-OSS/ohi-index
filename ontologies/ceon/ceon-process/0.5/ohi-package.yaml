@@ -19,6 +19,7 @@ contributors:
   - name: "Robin Keskisärkkä"
 description: "The Process module of CEON (Circular Economy Ontology Network)."
 keywords: ["Events"]
+originalSources: ["https://github.com/LiUSemWeb/CEON", "https://liusemweb.github.io/CEON/ontology/process/latest/"]
 sources:
   - url: https://liusemweb.github.io/CEON/ontology/process/latest/process.ttl
     name: ceon-process.ttl

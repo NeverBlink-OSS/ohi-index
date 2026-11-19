@@ -19,6 +19,7 @@ contributors:
   - name: "Robin Keskisärkkä"
 description: "A core ODP of the CEON ontology network, defining aspects of the actor concept."
 keywords: ["People"]
+originalSources: ["https://github.com/LiUSemWeb/CEON", "https://liusemweb.github.io/CEON/ontology/actorODP/latest/"]
 sources:
   - url: https://liusemweb.github.io/CEON/ontology/actorODP/latest/actorODP.ttl
     name: ceon-actorodp.ttl

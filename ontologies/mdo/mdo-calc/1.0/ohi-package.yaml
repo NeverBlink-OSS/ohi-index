@@ -17,6 +17,7 @@ contributors:
   - name: "Rickard Armiento"
 description: "This is the calculation module of Materials Design Ontology."
 keywords: ["Biology", "Support"]
+originalSources: ["https://github.com/huanyu-li/Materials-Design-Ontology", "https://liusemweb.github.io/mdo/calculation/1.0/index.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/mdo-calc/versions/2019-11-07.n3
     name: mdo-calc.nt

@@ -16,6 +16,7 @@ publishers:
     link: "https://orcid.org/0000-0002-7352-2825"
 description: "In a typical (uni)temporal data model every resource's appearance (and disappearance) is being tracked."
 keywords: ["Time"]
+originalSources: ["https://github.com/hroptatyr/tempo", "http://www.fresse.org/tempo/"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/tempo/versions/2022-08-20.n3
     name: tempo.ttl

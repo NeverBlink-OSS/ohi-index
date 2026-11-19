@@ -20,6 +20,7 @@ publishers:
     contact: "lorenae@fing.edu.uy"
 description: "This vocabulary allows to publish and operate with OLAP cubes in RDF."
 keywords: ["Catalogs"]
+originalSources: ["https://github.com/lorenae/qb4olap"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/qb4o/versions/2015-05-17.n3
     name: qb4o.ttl

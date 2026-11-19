@@ -16,6 +16,7 @@ publishers:
     link: "https://www.fundacionctic.org/"
 description: "This vocabulary is used to describe the physical location of public places."
 keywords: ["Geography"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/loc"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/loc/versions/2010-10-01.n3
     name: loc.ttl

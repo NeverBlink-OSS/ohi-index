@@ -22,6 +22,7 @@ publishers:
     link: "https://www.utwente.nl/en/eemcs/scs/"
 description: "An ontology to describe competences and human capabilities."
 keywords: ["Environment", "Society"]
+originalSources: ["https://github.com/core-o/ontology"]
 sources:
   - url: https://core-o.github.io/ontology/competence_ontology.ttl
     name: coreo.ttl

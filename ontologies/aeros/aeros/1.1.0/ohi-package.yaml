@@ -17,6 +17,7 @@ contributors:
   - name: "Rafael Vaño Garcia"
 description: "Ontology for the orchestration of the aerOS continuum."
 keywords: ["Services", "Support"]
+originalSources: ["https://wp4.pages.aeros-project.eu/t4.1/aeros-continuum/"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/aeros/versions/2025-06-16.n3
     name: aeros.ttl

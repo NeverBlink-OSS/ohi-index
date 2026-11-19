@@ -20,6 +20,7 @@ contributors:
   - name: "Mads Holten Rasmussen"
 description: "- Version 0.8: * completed ontology metadata wrt LOV * added classes dot:ClassifiedDamage and dot:UnclassifiedDamage (subclasses of dot:Damage) * made dot:StructuralDamage and dot:Defect subclasses of dot:Damage."
 keywords: ["Geography", "Industry"]
+originalSources: ["https://github.com/Alhakam/dot", "https://alhakam.github.io/dot/"]
 sources:
   - url: https://alhakam.github.io/dot/ontology.ttl
     name: dot.ttl

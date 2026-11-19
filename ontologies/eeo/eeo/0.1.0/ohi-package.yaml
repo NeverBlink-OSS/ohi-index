@@ -16,6 +16,7 @@ publishers:
     link: "https://www.cmre.nato.int/"
 description: "An ontology to describe experiments, evaluations and their relation."
 keywords: ["Methods"]
+originalSources: ["https://c4i.gmu.edu/CMRE/eeo/0.1.0/index.htm"]
 sources:
   - url: https://c4i.gmu.edu/CMRE/eeo/0.1.0/eeo.ttl
     sha256: "7d7f30a97c81f441b43b7dc033c4419b75385cb97c72e0053dfc9332989141c9"

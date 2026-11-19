@@ -23,6 +23,7 @@ contributors:
     link: "http://fabiomassacci.github.io"
 description: "The TIDO ontology can be used to describe the decision processes within the threat intelligence domain."
 keywords: ["Methods"]
+originalSources: ["https://github.com/Ritten11/TIDO", "https://ritten11.github.io/TIDO/release/1.0.0/index-en.html"]
 sources:
   - url: https://ritten11.github.io/TIDO/release/1.0.0/ontology.ttl
     name: tido.ttl

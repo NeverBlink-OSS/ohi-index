@@ -16,6 +16,7 @@ publishers:
     link: "https://www.reeep.org/"
 description: "Vocabulary used to describe clean energy actors, projects and technologies."
 keywords: ["Environment"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/reegle"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/reegle/versions/2014-06-10.n3
     name: reegle.ttl

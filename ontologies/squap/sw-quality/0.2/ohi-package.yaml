@@ -22,6 +22,7 @@ publishers:
     link: "https://orcid.org/0000-0003-2928-9496"
 description: "Quality, architecture, and process are considered the keystones of software engineering."
 keywords: ["Industry", "Quality"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/sw-quality"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/sw-quality/versions/2019-07-16.n3
     name: sw-quality.ttl

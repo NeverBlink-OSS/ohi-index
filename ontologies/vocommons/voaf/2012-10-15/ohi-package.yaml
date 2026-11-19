@@ -18,6 +18,7 @@ contributors:
   - name: "Pierre-Yves Vandenbussche"
 description: "A vocabulary to describe linked data vocabularies and their relations."
 keywords: ["Metadata"]
+originalSources: ["https://lov.linkeddata.es/vocommons/voaf/v2.1/"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/voaf/versions/2012-10-15.n3
     name: voaf.ttl

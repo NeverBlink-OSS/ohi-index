@@ -14,6 +14,7 @@ publishers:
   - name: "Diarmuid Ryan"
 description: "Ontology for representation of cartesian co-ordinates."
 keywords: ["Geography", "Geometry"]
+originalSources: ["https://diarmuidr3d.github.io/cartCoord/"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/cart/versions/2015-07-03.n3
     name: cart.nt

@@ -19,6 +19,7 @@ contributors:
     link: "http://users.ics.forth.gr/~tzitzik"
 description: "The Open NEE Configuration Model defines a Linked Data-based model for describing a configuration supported by a Named Entity Extraction (NEE) service."
 keywords: ["Methods"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/onc"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/onc/versions/2015-03-25.n3
     name: onc.ttl

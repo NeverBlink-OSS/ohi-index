@@ -24,6 +24,7 @@ publishers:
     link: "http://www.cwrc.ca/"
 description: "The CWRC Ontology is the ontology of the Canadian Writing Research Collaboratory."
 keywords: ["People", "Society"]
+originalSources: ["https://github.com/cwrc/ontology"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/cwrc/versions/2017-08-04.n3
     name: cwrc.ttl

@@ -25,6 +25,7 @@ contributors:
     contact: "paulo.lissa@nuigalway.ie"
 description: "The Heat Pump Ontology (HPOnt) aims to formalize and represent all the relevant information of Heat Pumps."
 keywords: ["IoT", "Transport"]
+originalSources: ["https://github.com/react2020/REACT-ONTOLOGY", "https://react2020.github.io/REACT-ONTOLOGY/HPOnt/index-en.html"]
 sources:
   - url: https://react2020.github.io/REACT-ONTOLOGY/HPOnt/ontology/ontology.owl
     name: hpont.owl

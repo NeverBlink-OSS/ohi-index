@@ -16,6 +16,7 @@ publishers:
     link: "https://www.fundacionctic.org/"
 description: "The objective of this vocabulary is to describe the vote process and results."
 keywords: ["Government"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/elec"]
 sources:
   - url: https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode.txt
     sha256: "8812f83442fd0eca14eb0208988e190fdcbfebec58fa5459d3218edfdfdc5a32"

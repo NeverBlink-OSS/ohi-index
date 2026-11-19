@@ -16,6 +16,7 @@ publishers:
     contact: "petr.hazuza@bariery.cz"
 description: "The vocabulary of building accessibility was created within the project Maps without Barriers realized under Charta 77 Foundation – Barriers Account."
 keywords: ["Society"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/jup"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/jup/versions/2016-02-18.n3
     name: jup.ttl

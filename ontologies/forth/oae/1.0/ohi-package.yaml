@@ -19,6 +19,7 @@ contributors:
     link: "http://users.ics.forth.gr/~tzitzik"
 description: "The Open NEE Model defines an extension of the Open Annotation Data Model (http://www.openannotation.org/spec/core) that allows describing in RDF the result of a Named Entity Extraction (NEE) process, enabling thereby an application to run advanced (SPARQL) queries over the annotated data."
 keywords: ["Metadata"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/oae"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/oae/versions/2015-03-25.n3
     name: oae.ttl

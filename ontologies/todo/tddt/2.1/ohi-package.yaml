@@ -19,6 +19,7 @@ contributors:
     contact: "izaskun.fernandez@tekniker.es"
 description: "Module for dialogue tracing."
 keywords: ["Industry", "Services"]
+originalSources: ["https://github.com/cristinacm/todo", "https://cristinacm.github.io/todo/TODODT/index-en.html"]
 sources:
   - url: https://cristinacm.github.io/todo/TODODT/ontology/ontology.owl
     name: tddt.owl

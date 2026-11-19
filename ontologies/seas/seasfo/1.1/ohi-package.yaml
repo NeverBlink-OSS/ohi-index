@@ -16,6 +16,7 @@ publishers:
     link: "https://ci.mines-stetienne.fr/seas/"
 description: "The SEAS Forecasting ontology extends the [Procedure Execution ontology (PEP)](https://w3id.org/pep/)."
 keywords: ["Environment", "IoT"]
+originalSources: ["https://github.com/thesmartenergy/seas", "https://ci.mines-stetienne.fr/seas/"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/seasfo/versions/2017-08-29.n3
     name: seasfo.ttl

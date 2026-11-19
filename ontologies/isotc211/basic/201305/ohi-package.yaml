@@ -15,6 +15,7 @@ publishers:
     link: "https://www.csiro.au/"
 description: "An OWL representation of (some of) the basic types described in ISO 19103:2005, required as primitives in other ontologies based on ISO 19100 series standards."
 keywords: ["Methods"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/basic"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/basic/versions/2012-07-24.n3
     name: basic.ttl

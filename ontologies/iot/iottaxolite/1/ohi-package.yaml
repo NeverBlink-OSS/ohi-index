@@ -22,6 +22,7 @@ contributors:
   - name: "Tarek Elsaleh, UNIS, Surrey"
 description: "The IoT-Taxonomy-lite is adapted from M3-lite taxonomy."
 keywords: ["IoT"]
+originalSources: ["http://iot.ee.surrey.ac.uk/fiesta/ontology/iot-taxonomy-lite/"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/iottaxolite/versions/2019-09-07.n3
     name: iottaxolite.nt

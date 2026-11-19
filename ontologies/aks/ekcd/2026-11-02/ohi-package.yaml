@@ -19,6 +19,7 @@ contributors:
     link: "https://orcid.org/0009-0008-1531-1238"
 description: "A derivative ontology extending the EKC line for Korean cultural heritage knowledge modeling, with a particular focus on historical and cultural resources of Korea."
 keywords: ["Cultural Heritage"]
+originalSources: ["https://github.com/dongshins/ekcd-ontology"]
 sources:
   - url: https://dh.aks.ac.kr/ontologies/ekcd
     name: ekcd.ttl

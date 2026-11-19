@@ -19,6 +19,7 @@ contributors:
   - name: "Xana Fernandez"
 description: "The goal of this module is to represent the equipment hierarchy model involved in the tribological experiments."
 keywords: ["Methods"]
+originalSources: ["https://github.com/fundaciontekniker/tribont-ontology", "https://fundaciontekniker.github.io/tribont-ontology/Equipment/index-en.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/tribont-equipment/versions/2023-06-02.n3
     name: tribont-equipment.ttl

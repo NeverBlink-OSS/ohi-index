@@ -14,6 +14,7 @@ publishers:
   - name: "Kabul Kurniawan"
 description: "An ontology to represent MITRE ATT & CK."
 keywords: ["Security"]
+originalSources: ["https://www.sepses.org/vocab/ref/attack/"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/attack/versions/2025-11-22.n3
     name: attack.ttl

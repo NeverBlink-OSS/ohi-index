@@ -29,6 +29,7 @@ contributors:
     contact: "Jan.Ashton@bl.uk"
 description: "Some useful terms for describing bibliographic resources that other models did not include."
 keywords: ["Catalogs"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/blt"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/blt/versions/2013-10-03.n3
     name: blt.ttl

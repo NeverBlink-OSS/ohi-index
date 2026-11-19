@@ -22,6 +22,7 @@ publishers:
     link: "https://www.kuleuven.be/"
 description: "The Ishikawa ontology aims to provide a data and view model to manage data encoded in Ishikawa diagrams which are also known as fishbone or cause and effect diagram (CED)."
 keywords: ["Methods"]
+originalSources: ["https://github.com/REXPEK/ishikawa-diagram-ontology", "https://rexpek.github.io/ishikawa-diagram-ontology/ishikawa-diagram-ontology/latest/index.html"]
 sources:
   - url: https://rexpek.github.io/ishikawa-diagram-ontology/ishikawa-diagram-ontology/latest/ishikawa-diagram-ontology.ttl
     name: ishi.ttl

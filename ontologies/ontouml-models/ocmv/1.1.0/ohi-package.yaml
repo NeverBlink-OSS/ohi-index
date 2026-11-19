@@ -26,6 +26,7 @@ publishers:
     link: "https://www.utwente.nl/en/eemcs/scs/"
 description: "Specification of the metadata used to describe models in the OntoUML/UFO Catalog."
 keywords: ["General & Upper", "Metadata"]
+originalSources: ["https://github.com/OntoUML/ontouml-models-vocabulary", "https://dev.ontouml.org/ontouml-models-vocabulary/"]
 sources:
   - url: https://dev.ontouml.org/ontouml-models-vocabulary/ontouml-catalog-metadata-vocabulary.ttl
     name: ocmv.ttl

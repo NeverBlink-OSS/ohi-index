@@ -23,6 +23,7 @@ contributors:
     contact: "gyrard@eurecom.fr"
 description: "A security ontology to annotate resources with security-related information."
 keywords: ["Security"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/security"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/security/versions/2015-03-27.n3
     name: security.ttl

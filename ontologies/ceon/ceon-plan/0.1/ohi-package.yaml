@@ -17,6 +17,7 @@ contributors:
   - name: "Eva Blomqvist"
 description: "The Plan module of CEON (Circular Economy Ontology Network)."
 keywords: ["Events"]
+originalSources: ["https://github.com/LiUSemWeb/CEON", "https://liusemweb.github.io/CEON/ontology/plan/latest/"]
 sources:
   - url: https://liusemweb.github.io/CEON/ontology/plan/latest/plan.ttl
     name: ceon-plan.ttl

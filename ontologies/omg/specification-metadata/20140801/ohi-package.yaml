@@ -16,6 +16,7 @@ publishers:
     link: "https://www.omg.org/"
 description: "Annotation vocabulary of the Object Management Group for the metadata of its specifications and their modules."
 keywords: ["OMG", "metadata", "specifications"]
+originalSources: ["https://www.omg.org/techprocess/ab/SpecificationMetadata/"]
 sources:
   - url: https://www.omg.org/techprocess/ab/SpecificationMetadata.rdf
     sha256: "fac1b008e67c7a5f502acf08130092caa71d108c32a94f49ce561b01a5f891cc"

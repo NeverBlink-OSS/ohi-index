@@ -14,6 +14,7 @@ publishers:
   - name: "Martin Hepp"
 description: "The Vehicle Sales Ontology for Semantic Web-based E-Commerce."
 keywords: ["eBusiness"]
+originalSources: ["https://www.heppnetz.de/ontologies/vso/ns.html"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/vso/versions/2010-10-02.n3
     name: vso.ttl

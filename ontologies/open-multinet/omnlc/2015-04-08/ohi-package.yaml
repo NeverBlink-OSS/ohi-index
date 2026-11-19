@@ -36,6 +36,7 @@ contributors:
     contact: "yxin@renci.org"
 description: "This ontology defines generic concepts related to the life cycle of resource or service."
 keywords: ["PLM"]
+originalSources: ["https://github.com/w3c/omn"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/omnlc/versions/2015-04-08.n3
     name: omnlc.ttl

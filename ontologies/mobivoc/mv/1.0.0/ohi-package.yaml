@@ -25,6 +25,7 @@ contributors:
     link: "http://eis.iai.uni-bonn.de/NiklasPetersen"
 description: "Our goal is to significantly improve the data mobility between all stakeholders by providing a standardized vocabulary using Semantic Web technologies and ontologies."
 keywords: ["IoT", "Services", "Transport"]
+originalSources: ["https://github.com/vocol/mobivoc", "https://www.mobivoc.org/"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/mv/versions/2018-01-18.n3
     name: mv.ttl

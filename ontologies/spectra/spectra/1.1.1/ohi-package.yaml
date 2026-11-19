@@ -16,6 +16,7 @@ publishers:
     link: "https://github.com/spectra-ontology/spec-trace"
 description: "OWL 2 ontology modeling the 3GPP RAN standardization document lifecycle (Tdoc, Resolution, CR, LS, Section, Spec, TechnicalReport, TRImpact, Meeting, Company, WorkingGroup)."
 keywords: ["Industry", "Metadata"]
+originalSources: ["https://github.com/spectra-ontology/spec-trace", "https://spectra-ontology.github.io/spec-trace/"]
 sources:
   - url: https://spectra-ontology.github.io/spec-trace/spectra.ttl
     sha256: "ac0c2f2b00e042bcbde4e026ab439a1cb61dc7104425f2b74cf7b6c2cf50cec1"

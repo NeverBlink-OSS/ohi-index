@@ -17,6 +17,7 @@ publishers:
     link: "https://www.semintelligence.org/"
 description: "An ontology that represents concepts in the legal domain."
 keywords: ["Metadata"]
+originalSources: ["https://github.com/semintelligence/NyOn"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/nyon/versions/2020-04-04.n3
     name: nyon.ttl

@@ -22,6 +22,7 @@ publishers:
     link: "https://github.com/TEC-Toolkit"
 description: "This ontology defines a vocabulary for describing carbon emission conversion factors (CF)."
 keywords: ["Environment"]
+originalSources: ["https://github.com/TEC-Toolkit/ECFO", "https://tec-toolkit.github.io/ECFO/release/1.0.0/index-en.html"]
 sources:
   - url: https://tec-toolkit.github.io/ECFO/release/1.0.0/ontology.ttl
     name: ecfo.ttl

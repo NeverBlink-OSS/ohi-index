@@ -16,6 +16,7 @@ publishers:
   - name: "Matheus Dimas de Morais"
 description: "Vocabulary for describing issues (or problems) and corresponding symptoms and solutions to a broad variety of contexts."
 keywords: ["Methods"]
+originalSources: ["https://ipocore.sourceforge.io/"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/ipo/versions/2015-07-30.n3
     name: ipo.ttl

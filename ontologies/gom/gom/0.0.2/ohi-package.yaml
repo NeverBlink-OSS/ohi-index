@@ -22,6 +22,7 @@ publishers:
   - name: "Anna Wagner"
 description: "The Geometry Metadata Ontology contains terminology to Coordinate Systems (CS), length units and other metadata (file size, software of origin, etc.)."
 keywords: ["Geometry", "Metadata"]
+originalSources: ["https://github.com/mathib/gom-ontology", "https://mathib.github.io/gom-ontology/"]
 sources:
   - url: https://mathib.github.io/gom-ontology/ontology.ttl
     name: gom.ttl

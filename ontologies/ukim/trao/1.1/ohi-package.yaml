@@ -17,6 +17,7 @@ contributors:
   - name: "Milos Jovanovik"
 description: "Transport Administration Ontology (TAO) for describing data from Swedish Transport Administration Web site."
 keywords: ["Services", "Transport", "Travel"]
+originalSources: ["https://lov.linkeddata.es/dataset/vocabs/trao"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/trao/versions/2015-06-17.n3
     name: trao.ttl

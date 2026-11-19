@@ -32,6 +32,7 @@ contributors:
     link: "https://orcid.org/0000-0001-6875-5360"
 description: "The I-ADOPT Framework ontology."
 keywords: ["Biology", "Environment"]
+originalSources: ["https://github.com/i-adopt/ontology", "https://i-adopt.github.io/ontology/"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/iadopt/versions/2021-10-15.n3
     name: iadopt.ttl

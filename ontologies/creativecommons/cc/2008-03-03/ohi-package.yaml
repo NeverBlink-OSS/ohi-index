@@ -16,6 +16,7 @@ publishers:
     link: "https://creativecommons.org/"
 description: "The Creative Commons Rights Expression Language (CC REL) lets you describe copyright licenses in RDF."
 keywords: ["Metadata"]
+originalSources: ["https://creativecommons.org/ns"]
 sources:
   - url: https://lov.linkeddata.es/dataset/vocabs/cc/versions/2008-03-03.n3
     name: cc.ttl

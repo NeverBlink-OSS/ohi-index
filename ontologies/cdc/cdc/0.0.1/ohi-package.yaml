@@ -16,6 +16,7 @@ publishers:
     link: "https://orcid.org/0000-0002-3313-924X"
 description: "The Construction Dataset Context (CDC) ontology is an extension of DCAT v2.0, a W3C Recommendation ontology for describing (RDF and non-RDF) datasets published on the Web."
 keywords: ["Industry"]
+originalSources: ["https://github.com/mathib/cdc-ontology", "https://mathib.github.io/cdc-ontology/"]
 sources:
   - url: https://mathib.github.io/cdc-ontology/ontology.ttl
     name: cdc.ttl

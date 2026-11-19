@@ -21,6 +21,7 @@ contributors:
     link: "https://id.inrupt.com/inruptpat"
 description: "Information about authentication providers which might be identity providers or other services such as ones providing JSON Web Tokens."
 keywords: ["API"]
+originalSources: ["https://storage.inrupt.com/ef6ef7d1-8fe0-4381-b87e-17b2bf0bb591/public/namespace/vocab/authn_provider/authn_provider.html"]
 sources:
   - url: https://storage.inrupt.com/ef6ef7d1-8fe0-4381-b87e-17b2bf0bb591/public/namespace/vocab/authn_provider/authn_provider
     name: authn-provider.ttl

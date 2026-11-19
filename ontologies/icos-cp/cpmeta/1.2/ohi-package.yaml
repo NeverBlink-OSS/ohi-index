@@ -15,6 +15,7 @@ publishers:
     link: "https://www.icos-cp.eu/"
 description: "OWL vocabulary describing metadata of two environmental research infrastructures: ICOS and SITES."
 keywords: ["Environment"]
+originalSources: ["https://meta.icos-cp.eu/ontologies/cpmeta/", "https://github.com/ICOS-Carbon-Portal/meta"]
 sources:
   - url: https://meta.icos-cp.eu/ontologies/cpmeta/
     name: cpmeta.ttl

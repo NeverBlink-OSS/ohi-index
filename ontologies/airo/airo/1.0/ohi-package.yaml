@@ -18,6 +18,7 @@ contributors:
   - name: "Harshvardhan J. Pandit"
 description: "AIRO represents AI risk concepts and relations based on the AI Act draft and ISO 31000 standard series."
 keywords: ["Quality", "Society"]
+originalSources: ["https://github.com/DelaramGlp/airo", "https://delaramglp.github.io/airo/"]
 publications:
   - title: "Delaram Golpayegani, Harshvardhan J. Pandit, and Dave Lewis. AIRO: An ontology for representing AI risks based on the proposed EU AI Act and ISO risk management standards. Towards a Knowledge-Aware AI. IOS Press, 2022. 51-65."
 sources:

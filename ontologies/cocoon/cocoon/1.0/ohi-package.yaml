@@ -16,6 +16,7 @@ publishers:
     link: "https://github.com/miranda-zhang"
 description: "Simple ontology for Cloud Computing Services."
 keywords: ["Contracts", "Services"]
+originalSources: ["https://github.com/miranda-zhang/cloud-computing-schema", "https://miranda-zhang.github.io/cloud-computing-schema/v1.0/index-en.html"]
 sources:
   - url: https://miranda-zhang.github.io/cloud-computing-schema/v1.0/ontology.ttl
     name: cocoon.ttl
