@@ -1,0 +1,34 @@
+namespace: commoncoreontology
+name: familial-relations
+version: "1.0"
+language: owl
+syntax: turtle
+roots: [FamilialRelationsOntology.ttl]
+licenses: ["BSD-3-Clause"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Familial Relations Ontology"
+authors:
+  - name: "Mark Jensen"
+    link: "https://orcid.org/0000-0001-9228-8838"
+  - name: "John Beverley"
+    link: "https://orcid.org/0000-0002-1118-1738"
+  - name: "J. Neil Otte"
+    link: "https://orcid.org/0000-0001-7925-2064"
+  - name: "Alexander P. Cox"
+    link: "https://orcid.org/0000-0002-6969-2784"
+  - name: "Barry Smith"
+    link: "https://orcid.org/0000-0003-1384-116X"
+publishers:
+  - name: "CUBRC, Inc."
+    link: "https://cubrc.org"
+description: "This ontology is designed to represent familial relationships."
+keywords: ["family relations", "kinship", "Common Core Ontologies"]
+originalSources: ["https://github.com/CommonCoreOntology/CommonCoreOntologies", "https://commoncoreontology.github.io/cco-webpage/"]
+sources:
+  - url: https://github.com/CommonCoreOntology/CommonCoreOntologies/blob/v2.1/src/cco-extensions/FamilialRelationsOntology.ttl
+    sha256: "98e4198780c41706fa072b4bb13de8cf6cd91b3408b224eed6d7b3ab38cae8ee"
+    size: 34046
+  - url: https://github.com/CommonCoreOntology/CommonCoreOntologies/blob/v2.1/LICENSE
+    sha256: "a6c147ea8179804f1be032d5340ce77a363fad110ac3fe709592771f7ba13245"
+    size: 1497
