@@ -1,0 +1,34 @@
+namespace: commoncoreontology
+name: modal-relation
+version: "2.0"
+language: owl
+syntax: turtle
+roots: [ModalRelationOntology.ttl]
+licenses: ["BSD-3-Clause"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Modal Relation Ontology"
+authors:
+  - name: "Mark Jensen"
+    link: "https://orcid.org/0000-0001-9228-8838"
+  - name: "John Beverley"
+    link: "https://orcid.org/0000-0002-1118-1738"
+  - name: "J. Neil Otte"
+    link: "https://orcid.org/0000-0001-7925-2064"
+  - name: "Alexander P. Cox"
+    link: "https://orcid.org/0000-0002-6969-2784"
+  - name: "Barry Smith"
+    link: "https://orcid.org/0000-0003-1384-116X"
+publishers:
+  - name: "CUBRC, Inc."
+    link: "https://cubrc.org"
+description: "The modal counterparts to the object and data properties contained in CCO and BFO2020-core."
+keywords: ["modal relations", "Common Core Ontologies", "BFO"]
+originalSources: ["https://github.com/CommonCoreOntology/CommonCoreOntologies", "https://commoncoreontology.github.io/cco-webpage/"]
+sources:
+  - url: https://github.com/CommonCoreOntology/CommonCoreOntologies/blob/v2.0-2024-11-06/src/cco-extensions/ModalRelationOntology.ttl
+    sha256: "874518efb48188c760665d45ae80813b55716bd1c82abc4e78311ee46fea3ad5"
+    size: 205775
+  - url: https://github.com/CommonCoreOntology/CommonCoreOntologies/blob/v2.0-2024-11-06/LICENSE
+    sha256: "a6c147ea8179804f1be032d5340ce77a363fad110ac3fe709592771f7ba13245"
+    size: 1497
