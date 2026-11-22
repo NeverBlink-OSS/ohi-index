@@ -1,0 +1,37 @@
+namespace: commoncoreontology
+name: cco
+version: "2.2"
+language: owl
+syntax: turtle
+roots: [CommonCoreOntologiesMerged.ttl]
+licenses: ["BSD-3-Clause"]
+licenseFiles: [LICENSE]
+dependencies: []
+title: "Common Core Ontologies"
+authors:
+  - name: "Mark Jensen"
+    link: "https://orcid.org/0000-0001-9228-8838"
+  - name: "John Beverley"
+    link: "https://orcid.org/0000-0002-1118-1738"
+  - name: "J. Neil Otte"
+    link: "https://orcid.org/0000-0001-7925-2064"
+  - name: "Alexander P. Cox"
+    link: "https://orcid.org/0000-0002-6969-2784"
+  - name: "Barry Smith"
+    link: "https://orcid.org/0000-0003-1384-116X"
+publishers:
+  - name: "CUBRC, Inc."
+    link: "https://cubrc.org"
+description: "A stand-alone file containing the eleven mid-level Common Core Ontologies plus BFO. Provided for use-cases where one file representing a specific release of CCO and its imports is desirable."
+keywords: ["mid-level ontology", "BFO"]
+originalSources: ["https://github.com/CommonCoreOntology/CommonCoreOntologies", "https://commoncoreontology.github.io/cco-webpage/"]
+publications:
+  - title: "Mark Jensen, Giacomo De Colle, Sean Kindya, Cameron More, Alexander P. Cox, and John Beverley. The Common Core Ontologies. arXiv, 2024."
+    link: "https://arxiv.org/abs/2404.17758"
+sources:
+  - url: https://github.com/CommonCoreOntology/CommonCoreOntologies/blob/v2.2/src/cco-merged/CommonCoreOntologiesMerged.ttl
+    sha256: "a9453382b25b40781c181d6ba44981f228abb76d90d548846713adba9baadb42"
+    size: 1994610
+  - url: https://github.com/CommonCoreOntology/CommonCoreOntologies/blob/v2.2/LICENSE
+    sha256: "a6c147ea8179804f1be032d5340ce77a363fad110ac3fe709592771f7ba13245"
+    size: 1497

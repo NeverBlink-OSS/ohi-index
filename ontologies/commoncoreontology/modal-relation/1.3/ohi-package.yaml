@@ -1,0 +1,29 @@
+namespace: commoncoreontology
+name: modal-relation
+version: "1.3"
+language: owl
+syntax: turtle
+roots: [ModalRelationOntology.ttl]
+licenses: ["CC-BY-3.0"]
+licenseFiles: [legalcode.txt]
+dependencies: []
+title: "Modal Relation Ontology"
+authors:
+  - name: "Ron Rudnicki"
+  - name: "Mark Jensen"
+    link: "https://orcid.org/0000-0001-9228-8838"
+  - name: "Alexander P. Cox"
+    link: "https://orcid.org/0000-0002-6969-2784"
+publishers:
+  - name: "CUBRC, Inc."
+    link: "https://cubrc.org"
+description: "The modal counterparts to relations contained in the Common Core Ontologies (CCO), including those CCO imports from the OBO Relation Ontology (RO)."
+keywords: ["modal relations", "Common Core Ontologies", "BFO"]
+originalSources: ["https://github.com/CommonCoreOntology/CommonCoreOntologies", "https://commoncoreontology.github.io/cco-webpage/"]
+sources:
+  - url: https://github.com/CommonCoreOntology/CommonCoreOntologies/blob/v2021-03-01/ModalRelationOntology.ttl
+    sha256: "fc1869f83781ffed8c83ece46da29ecc36777a28fa6ac011518fcb1714251672"
+    size: 203629
+  - url: https://creativecommons.org/licenses/by/3.0/legalcode.txt
+    sha256: "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    size: 19467
